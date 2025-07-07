@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|string|✔️|✔️|✔️|✔️|✔️|||
@@ -24,6 +25,7 @@ No description for this table has been created yet.
 |Method|string|||||✔️|||
 |Suppress|bool||||✔️|✔️|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |FirstOccurrence|string|✔️|||
@@ -34,11 +36,13 @@ No description for this table has been created yet.
 |ListboxMeta|object|✔️|||
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ErrorDetailSelection|[ErrorDetail](ErrorDetail.md)|ErrorEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Error.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |fillGitHubIssues()|||
@@ -46,6 +50,7 @@ No description for this table has been created yet.
 |notify()|||
 |record()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |createGitHubIssue()|||

@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**StaffID**|number|✔️|✔️||✔️|✔️|✔️||
@@ -37,15 +38,18 @@ No description for this table has been created yet.
 |UserID|string|||||✔️|||
 |WorkRequestEmail|string|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|StaffID|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |FullName|string|✔️|||
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DB_VariablesSelection|[Settings](Settings.md)|StaffEntity|✔️||
@@ -60,6 +64,7 @@ No description for this table has been created yet.
 |WorkRequestCommentsSelection|[WorkRequestComments](WorkRequestComments.md)|StaffEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getUsingKeyfob()|✔️||
@@ -67,6 +72,7 @@ No description for this table has been created yet.
 |getNonArchived()|✔️||
 |newUsingEntry()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/StaffEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |permissionCheck()|✔️||

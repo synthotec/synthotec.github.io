@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Tool_ID**|number|✔️|✔️||✔️|✔️|✔️||
@@ -156,21 +157,25 @@ No description for this table has been created yet.
 |x3_sequence_packsheet|bool|||||✔️|||
 |x4_sequence_packsheet|bool|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Tool_ID|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |NextToolChangeText|string|✔️|||
 |SensorExceptionsCount|number|✔️|✔️||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |HotHalfEntity|[HotHalfs](HotHalfs.md)|ToolsSelection|✔️||
 |ProductEntity|[Product](Product.md)|ToolsSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ApprovalsSelection|[Approvals](Approvals.md)|ToolsEntity|✔️||
@@ -187,11 +192,13 @@ No description for this table has been created yet.
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ToolsEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Tools.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 |createForProduct()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolsEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationRules()|✔️||

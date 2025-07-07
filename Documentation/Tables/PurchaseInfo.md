@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**UniqueID_l**|number|✔️|✔️||✔️|✔️|✔️||
@@ -41,28 +42,33 @@ No description for this table has been created yet.
 |SuppliesID_i|number||||✔️|✔️|||
 |Unit_s|string|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|UniqueID_l|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OutstandingQuantity|number|✔️|||
 |value|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |NominalCodesEntity|[NominalCodes](NominalCodes.md)|PurchaseInfoSelection|✔️||
 |PurchasesEntity|[Purchases](Purchases.md)|PurchaseInfoSelection|✔️||
 |SuppliesEntity|[Supplies](Supplies.md)|PurchaseInfoSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|PurchaseInfoEntity|✔️||
 |RMCSelection|[RMC](RMC.md)|PurchaseInfoEntity|✔️||
 ## Class Functions
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchaseInfoEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |createReceipt()|✔️||

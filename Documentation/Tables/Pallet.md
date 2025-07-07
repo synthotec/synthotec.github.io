@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -45,6 +46,7 @@ No description for this table has been created yet.
 |WO2|number|||||✔️|||
 |WO2Qty|number|||||✔️|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |GrossWeightKg|number|✔️|||
@@ -53,6 +55,7 @@ No description for this table has been created yet.
 |QRObject|object|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCEntity|[CofC](CofC.md)|PalletSelection|✔️||
@@ -60,12 +63,14 @@ No description for this table has been created yet.
 |OrderPickRequestEntity|[OrderPickRequest](OrderPickRequest.md)|PalletSelection|✔️||
 |ProductEntity|[Product](Product.md)|PalletSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|PalletEntity|✔️||
 |PrintJobSelection|[PrintJob](PrintJob.md)|PalletEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
@@ -85,6 +90,7 @@ No description for this table has been created yet.
 |restReassignLocation()|||
 |restLoadPallet()|||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |createPrintJob()|||
@@ -97,6 +103,7 @@ No description for this table has been created yet.
 |syncMigrationSelections()|✔️||
 |transfer()|✔️||
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletSelection.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getAvailable()|✔️||

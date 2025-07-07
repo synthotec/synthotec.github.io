@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Cert_Of_Conformance_No**|number|✔️|✔️||✔️|✔️|✔️||
@@ -43,12 +44,14 @@ No description for this table has been created yet.
 |RMC_Nos|string|||||✔️|||
 |Works_Order_No|number||||✔️|✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Cert_Of_Conformance_No|number|||
 |Product_OptionID|Customer_OrderEntity.Product_OptionID|number|✔️||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Advice_NoteEntity|[Advice_Note](Advice_Note.md)|CofCSelection|✔️||
@@ -57,12 +60,14 @@ No description for this table has been created yet.
 |Stock_LocationEntity|[Stock_Location](Stock_Location.md)|CofCSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|CofCSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|CofCEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|CofCEntity|✔️||
 ## Class Functions
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CofCEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |cancel()|||

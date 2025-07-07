@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -23,6 +24,7 @@ No description for this table has been created yet.
 |ShiftSummaryID|number|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Status|number|✔️|||
@@ -30,12 +32,14 @@ No description for this table has been created yet.
 |StatusText|string|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ShiftSummaryEntity|[ShiftSummary](ShiftSummary.md)|ShiftSummaryDetailSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|ShiftSummaryDetailSelection|✔️||
 ## Class Functions
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryDetailEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |fillDowntimeSincePrevious()|✔️||

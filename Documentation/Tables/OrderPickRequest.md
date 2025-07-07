@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -21,10 +22,12 @@ No description for this table has been created yet.
 |PickRequestID|number||||✔️|✔️|||
 |Quantity|number|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|Customer_OrderEntity.ProductEntity|[Product](Product.md)|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Boxes|number||||
@@ -35,21 +38,25 @@ No description for this table has been created yet.
 |QuantityToPick|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Customer_OrderEntity|[Customer_Order](Customer_Order.md)|OrderPickRequestSelection|✔️||
 |PickRequestEntity|[PickRequest](PickRequest.md)|OrderPickRequestSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|OrderPickRequestEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|OrderPickRequestEntity|✔️||
 ## Class Functions
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getPickedStockListboxCollection()|✔️||
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestSelection.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getUnprocessedQuantity()|✔️||

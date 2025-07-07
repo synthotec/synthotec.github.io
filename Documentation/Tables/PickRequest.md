@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -25,10 +26,12 @@ No description for this table has been created yet.
 |ReadyToPick|bool||||✔️|✔️|||
 |Type|number||||✔️|✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |TransportInstructionFileEntity|CustomerEntity.TransportInstructionFileEntity|[File](File.md)|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |MovementPickRequest|bool|✔️|||
@@ -40,16 +43,19 @@ No description for this table has been created yet.
 |StatusColor|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Advice_NoteEntity|[Advice_Note](Advice_Note.md)|PickRequestSelection|✔️||
 |CustomerEntity|[Customer](Customer.md)|PickRequestSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|PickRequestEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequest.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |create()|✔️||
@@ -64,6 +70,7 @@ No description for this table has been created yet.
 |restPickAgainstOrder()|||
 |checkForPickedPickRequests()|||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequestEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |modify()|✔️||

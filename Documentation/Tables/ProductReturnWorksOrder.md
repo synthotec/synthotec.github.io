@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**WOReturnID_l**|number|✔️|✔️||✔️|✔️|||
@@ -25,11 +26,13 @@ No description for this table has been created yet.
 |ScrappedQuantity_l|number|||||✔️|||
 |Works_Order_No_l|number||||✔️|✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|WOReturnID_l|number|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductReturnEntity|[ProductReturn](ProductReturn.md)|ProductReturnWorksOrderSelection|✔️||

@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**SupplierID_l**|number|✔️|✔️||✔️|✔️|✔️||
@@ -42,11 +43,13 @@ No description for this table has been created yet.
 |TypeOfSupply_s|string|||||✔️|||
 |VATRate_r|number|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|SupplierID_l|number|||
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |PurchasesSelection|[Purchases](Purchases.md)|SuppliersEntity|✔️||

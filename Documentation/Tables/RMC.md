@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**RMCNo_l**|number|✔️|✔️||✔️|✔️|✔️||
@@ -29,16 +30,19 @@ No description for this table has been created yet.
 |Remarks_s|string|||||✔️|||
 |RMCDate_d|date||||✔️|✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|RMCNo_l|number|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|RMCSelection|✔️||
 |PurchaseInfoEntity|[PurchaseInfo](PurchaseInfo.md)|RMCSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |MaterialCheckHistorySelection1|[MaterialCheckHistory](MaterialCheckHistory.md)|RMCEntity1|✔️||
@@ -49,6 +53,7 @@ No description for this table has been created yet.
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|RMCEntity|✔️||
 ## Class Functions
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RMCEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |delete()|✔️||

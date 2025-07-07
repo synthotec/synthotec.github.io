@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -53,11 +54,13 @@ No description for this table has been created yet.
 |WORC|number|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OurPartName|ToolsEntity.ProductEntity.OurPartName|string|✔️||
 |ProductEntity|ToolsEntity.ProductEntity|[Product](Product.md)|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |AdviceNote|number|✔️|||
@@ -81,6 +84,7 @@ No description for this table has been created yet.
 |totalBoxQuantity|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCEntity|[CofC](CofC.md)|BoxLabelsSelection|✔️||
@@ -92,11 +96,13 @@ No description for this table has been created yet.
 |ToolsEntity|[Tools](Tools.md)|BoxLabelsSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|BoxLabelsSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |LinkedBoxLabelsSelection|[BoxLabels](BoxLabels.md)|LinkedBoxLabelsEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabels.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
@@ -107,6 +113,7 @@ No description for this table has been created yet.
 |GetBoxQuantity()|||
 |restScannedBoxLabel()|||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getStatesCollection()|||

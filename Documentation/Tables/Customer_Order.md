@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Petes_No**|number|✔️|✔️||✔️|✔️|✔️||
@@ -86,12 +87,14 @@ No description for this table has been created yet.
 |Tool_ID|number|||||✔️|||
 |Tool_No|string|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ConfirmedArrivalDate|ConfirmedDue|date|||
 |ConfirmedDespatchDate|ReviewedReadyDate|date|||
 |ID|Petes_No|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DeliveryDate|date|✔️|||
@@ -102,6 +105,7 @@ No description for this table has been created yet.
 |OutstandingToPickRequest|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|Customer_OrderSelection|✔️||
@@ -109,17 +113,20 @@ No description for this table has been created yet.
 |Product_OptionEntity|[Product_Option](Product_Option.md)|Customer_OrderSelection|✔️||
 |ProductEntity|[Product](Product.md)|Customer_OrderSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Customer_OrderEntity|✔️||
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|Customer_OrderEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_Order.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |classicMakeOrderSort()|✔️||
 |classicOrderOverviewSort()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |createCofC()|✔️||

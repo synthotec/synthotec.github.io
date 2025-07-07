@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Product_ID**|number|✔️|✔️||✔️|✔️|✔️||
@@ -122,11 +123,13 @@ No description for this table has been created yet.
 |WareHouseMethod|string|||||✔️|||
 |Water_Squirt_prog_number|number|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Product_ID|number|||
 |UnicodeChar|Emoji|string|✔️||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerPartName|string|✔️|✔️||
@@ -136,12 +139,14 @@ No description for this table has been created yet.
 |OurPartName|string||✔️||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |EmojisEntity|[Emojis](Emojis.md)|ProductSelection|✔️||
 |MaterialEntity|[Material](Material.md)|ProductSelection|✔️||
 |PalletMethodsEntity|[PalletMethods](PalletMethods.md)|ProductSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BOMSelection|[BOM](BOM.md)|ProductEntity|✔️||
@@ -164,11 +169,13 @@ No description for this table has been created yet.
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ProductEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 |populateEmojis()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getRobotHeadList()|✔️||

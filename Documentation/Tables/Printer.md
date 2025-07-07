@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -26,6 +27,7 @@ No description for this table has been created yet.
 |Type|number|||||✔️|||
 |UpdateOptions|bool||||✔️|✔️|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |isDocumentPrinter|bool|✔️|||
@@ -35,17 +37,20 @@ No description for this table has been created yet.
 |TypeDisplay|string|✔️|||
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |PrintJobSelection|[PrintJob](PrintJob.md)|PrinterEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getDefault()|✔️||
 |populate()|✔️||
 |getComputerPrinters()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getLabelPaperOptions()|||
@@ -54,6 +59,7 @@ No description for this table has been created yet.
 |setCurrent()|✔️||
 |setDefault()|✔️||
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getLabelPrinters()|✔️||

@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Machine**|number|✔️|✔️||✔️|✔️|||
@@ -49,10 +50,12 @@ No description for this table has been created yet.
 |UpTime|string|||||✔️|||
 |WinVer|string|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Machine|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |AssignedTemperatureSensorsPresent|bool|✔️|||
@@ -63,15 +66,18 @@ No description for this table has been created yet.
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DownReasonsEntity|[DownReasons](DownReasons.md)|RealTimeMachinesSelection|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachines.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getByMachine()|||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachinesEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |checkTempZoneExists()|||

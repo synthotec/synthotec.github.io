@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️||✔️|✔️|✔️||
@@ -47,6 +48,7 @@ No description for this table has been created yet.
 |Tool No|string||||✔️|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|Product_OptionSelection|✔️||
@@ -54,15 +56,18 @@ No description for this table has been created yet.
 |ProductEntity|[Product](Product.md)|Product_OptionSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|Product_OptionSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Customer_OrderSelection|[Customer_Order](Customer_Order.md)|Product_OptionEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product_Option.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product_OptionEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationRules()|✔️||

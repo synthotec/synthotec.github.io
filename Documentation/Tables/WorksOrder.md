@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Works_Order_No**|number|✔️|✔️||✔️|✔️|✔️||
@@ -102,10 +103,12 @@ No description for this table has been created yet.
 |Weight_Initals|string|||||✔️|||
 |WorkInProgress|number|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Works_Order_No|number|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |AvailableStock|number|✔️|||
@@ -116,6 +119,7 @@ No description for this table has been created yet.
 |WIP|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|WorksOrderSelection|✔️||
@@ -123,6 +127,7 @@ No description for this table has been created yet.
 |ProductEntity|[Product](Product.md)|WorksOrderSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|WorksOrderSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|WorksOrderEntity|✔️||
@@ -141,10 +146,12 @@ No description for this table has been created yet.
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|WorksOrderEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrder.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |setQuantityMade()|✔️||

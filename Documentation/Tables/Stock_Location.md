@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**StockLocationID_l**|number|✔️|✔️||✔️|✔️|✔️||
@@ -23,6 +24,7 @@ No description for this table has been created yet.
 |Location_Code_s|string|||||✔️|||
 |Location_Name_s|string|||||✔️|||
 ## Aliases
+
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DefaultPackingLocation|DeafultPackingLocation_b|bool|||
@@ -31,6 +33,7 @@ No description for this table has been created yet.
 |LocationName|Location_Name_s|string|||
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|Stock_LocationEntity|✔️||
@@ -40,6 +43,7 @@ No description for this table has been created yet.
 |Stock_MovementSelection|[Stock_Movement](Stock_Movement.md)|Stock_LocationEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getDefaultDespatchLocation()|✔️||

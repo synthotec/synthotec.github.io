@@ -14,6 +14,7 @@ No description for this table has been created yet.
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
@@ -27,6 +28,7 @@ No description for this table has been created yet.
 |StaffID|number|||||✔️|||
 |ToolID|number||||✔️|✔️|||
 ## Calculated Fields
+
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ActiveUntilText|string|✔️|||
@@ -34,21 +36,25 @@ No description for this table has been created yet.
 |RemainingRuns|number|✔️|||
 ## Relationships
 ### Many to One
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DeactivatedStaffEntity|[Staff](Staff.md)|DeactivatedToolNoticeSelection|✔️||
 |StaffEntity|[Staff](Staff.md)|ToolNoticeSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|ToolNoticeSelection|✔️||
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ToolNoticeWorksOrderSelection|[ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)|ToolNoticeEntity|✔️||
 ## Class Functions
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |create()|✔️||
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNoticeEntity.4dm)
+
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |displayWorkOrders()|✔️||
