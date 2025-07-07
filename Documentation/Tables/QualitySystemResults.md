@@ -1,4 +1,9 @@
-﻿# QualitySystemResults Table
+﻿---
+layout: default
+title: QualitySystemResults
+parent: Tables
+---
+# QualitySystemResults Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

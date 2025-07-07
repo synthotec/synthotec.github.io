@@ -1,4 +1,9 @@
-﻿# HolidayRequests Table
+﻿---
+layout: default
+title: HolidayRequests
+parent: Tables
+---
+# HolidayRequests Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

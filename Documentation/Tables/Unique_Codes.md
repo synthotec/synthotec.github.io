@@ -1,4 +1,9 @@
-﻿# Unique_Codes Table
+﻿---
+layout: default
+title: Unique_Codes
+parent: Tables
+---
+# Unique_Codes Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

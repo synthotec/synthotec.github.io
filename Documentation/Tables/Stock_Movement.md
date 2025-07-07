@@ -1,4 +1,9 @@
-﻿# Stock_Movement Table
+﻿---
+layout: default
+title: Stock_Movement
+parent: Tables
+---
+# Stock_Movement Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# ConsignmentEntry Table
+﻿---
+layout: default
+title: ConsignmentEntry
+parent: Tables
+---
+# ConsignmentEntry Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# PickRequest Table
+﻿---
+layout: default
+title: PickRequest
+parent: Tables
+---
+# PickRequest Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# ProductReturn Table
+﻿---
+layout: default
+title: ProductReturn
+parent: Tables
+---
+# ProductReturn Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

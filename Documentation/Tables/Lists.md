@@ -1,4 +1,9 @@
-﻿# Lists Table
+﻿---
+layout: default
+title: Lists
+parent: Tables
+---
+# Lists Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

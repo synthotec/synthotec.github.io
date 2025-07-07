@@ -1,4 +1,9 @@
-﻿# Pallet Table
+﻿---
+layout: default
+title: Pallet
+parent: Tables
+---
+# Pallet Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

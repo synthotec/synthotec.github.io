@@ -1,4 +1,9 @@
-﻿# ErrorDetail Table
+﻿---
+layout: default
+title: ErrorDetail
+parent: Tables
+---
+# ErrorDetail Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

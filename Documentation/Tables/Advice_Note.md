@@ -1,4 +1,9 @@
-﻿# Advice_Note Table
+﻿---
+layout: default
+title: Advice_Note
+parent: Tables
+---
+# Advice_Note Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

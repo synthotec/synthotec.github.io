@@ -1,4 +1,9 @@
-﻿# Product_Option Table
+﻿---
+layout: default
+title: Product_Option
+parent: Tables
+---
+# Product_Option Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

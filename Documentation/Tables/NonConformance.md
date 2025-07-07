@@ -1,4 +1,9 @@
-﻿# NonConformance Table
+﻿---
+layout: default
+title: NonConformance
+parent: Tables
+---
+# NonConformance Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

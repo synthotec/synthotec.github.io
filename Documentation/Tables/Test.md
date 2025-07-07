@@ -1,4 +1,9 @@
-﻿# Test Table
+﻿---
+layout: default
+title: Test
+parent: Tables
+---
+# Test Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

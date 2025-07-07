@@ -1,4 +1,9 @@
-﻿# WorksOrder Table
+﻿---
+layout: default
+title: WorksOrder
+parent: Tables
+---
+# WorksOrder Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

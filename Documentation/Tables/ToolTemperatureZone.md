@@ -1,4 +1,9 @@
-﻿# ToolTemperatureZone Table
+﻿---
+layout: default
+title: ToolTemperatureZone
+parent: Tables
+---
+# ToolTemperatureZone Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

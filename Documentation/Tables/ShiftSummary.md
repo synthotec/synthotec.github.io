@@ -1,4 +1,9 @@
-﻿# ShiftSummary Table
+﻿---
+layout: default
+title: ShiftSummary
+parent: Tables
+---
+# ShiftSummary Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

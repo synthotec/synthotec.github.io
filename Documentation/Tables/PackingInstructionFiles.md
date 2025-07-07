@@ -1,4 +1,9 @@
-﻿# PackingInstructionFiles Table
+﻿---
+layout: default
+title: PackingInstructionFiles
+parent: Tables
+---
+# PackingInstructionFiles Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

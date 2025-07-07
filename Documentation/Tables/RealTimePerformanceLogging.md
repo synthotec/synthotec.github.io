@@ -1,4 +1,9 @@
-﻿# RealTimePerformanceLogging Table
+﻿---
+layout: default
+title: RealTimePerformanceLogging
+parent: Tables
+---
+# RealTimePerformanceLogging Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

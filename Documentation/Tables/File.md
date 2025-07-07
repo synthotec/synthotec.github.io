@@ -1,4 +1,9 @@
-﻿# File Table
+﻿---
+layout: default
+title: File
+parent: Tables
+---
+# File Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

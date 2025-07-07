@@ -1,4 +1,9 @@
-﻿# ToolMaintenanceLog Table
+﻿---
+layout: default
+title: ToolMaintenanceLog
+parent: Tables
+---
+# ToolMaintenanceLog Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

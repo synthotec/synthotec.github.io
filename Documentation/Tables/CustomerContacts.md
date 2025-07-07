@@ -1,4 +1,9 @@
-﻿# CustomerContacts Table
+﻿---
+layout: default
+title: CustomerContacts
+parent: Tables
+---
+# CustomerContacts Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# ToolTemperatureTarget Table
+﻿---
+layout: default
+title: ToolTemperatureTarget
+parent: Tables
+---
+# ToolTemperatureTarget Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

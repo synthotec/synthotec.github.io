@@ -1,4 +1,9 @@
-﻿# BOM Table
+﻿---
+layout: default
+title: BOM
+parent: Tables
+---
+# BOM Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

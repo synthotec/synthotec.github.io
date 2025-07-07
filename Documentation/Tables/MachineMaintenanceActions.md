@@ -1,4 +1,9 @@
-﻿# MachineMaintenanceActions Table
+﻿---
+layout: default
+title: MachineMaintenanceActions
+parent: Tables
+---
+# MachineMaintenanceActions Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

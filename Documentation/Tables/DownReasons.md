@@ -1,4 +1,9 @@
-﻿# DownReasons Table
+﻿---
+layout: default
+title: DownReasons
+parent: Tables
+---
+# DownReasons Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

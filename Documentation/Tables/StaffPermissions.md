@@ -1,4 +1,9 @@
-﻿# StaffPermissions Table
+﻿---
+layout: default
+title: StaffPermissions
+parent: Tables
+---
+# StaffPermissions Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

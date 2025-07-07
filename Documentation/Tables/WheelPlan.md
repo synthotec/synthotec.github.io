@@ -1,4 +1,9 @@
-﻿# WheelPlan Table
+﻿---
+layout: default
+title: WheelPlan
+parent: Tables
+---
+# WheelPlan Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

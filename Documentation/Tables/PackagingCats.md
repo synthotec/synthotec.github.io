@@ -1,4 +1,9 @@
-﻿# PackagingCats Table
+﻿---
+layout: default
+title: PackagingCats
+parent: Tables
+---
+# PackagingCats Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

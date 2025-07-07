@@ -1,4 +1,9 @@
-﻿# MachineMaintenanceLog Table
+﻿---
+layout: default
+title: MachineMaintenanceLog
+parent: Tables
+---
+# MachineMaintenanceLog Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# QualitySystemTolerances Table
+﻿---
+layout: default
+title: QualitySystemTolerances
+parent: Tables
+---
+# QualitySystemTolerances Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

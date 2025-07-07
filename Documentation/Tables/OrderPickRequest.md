@@ -1,4 +1,9 @@
-﻿# OrderPickRequest Table
+﻿---
+layout: default
+title: OrderPickRequest
+parent: Tables
+---
+# OrderPickRequest Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

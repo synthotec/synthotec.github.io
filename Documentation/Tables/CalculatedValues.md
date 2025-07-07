@@ -1,4 +1,9 @@
-﻿# CalculatedValues Table
+﻿---
+layout: default
+title: CalculatedValues
+parent: Tables
+---
+# CalculatedValues Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

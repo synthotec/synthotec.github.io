@@ -1,4 +1,9 @@
-﻿# SalesForecast Table
+﻿---
+layout: default
+title: SalesForecast
+parent: Tables
+---
+# SalesForecast Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

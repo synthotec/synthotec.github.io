@@ -1,4 +1,9 @@
-﻿# Customer_Order Table
+﻿---
+layout: default
+title: Customer_Order
+parent: Tables
+---
+# Customer_Order Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# QualitySystemProcedures Table
+﻿---
+layout: default
+title: QualitySystemProcedures
+parent: Tables
+---
+# QualitySystemProcedures Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

@@ -1,4 +1,9 @@
-﻿# WorkFaults Table
+﻿---
+layout: default
+title: WorkFaults
+parent: Tables
+---
+# WorkFaults Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

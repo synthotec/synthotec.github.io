@@ -1,4 +1,9 @@
-﻿# Planning Table
+﻿---
+layout: default
+title: Planning
+parent: Tables
+---
+# Planning Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

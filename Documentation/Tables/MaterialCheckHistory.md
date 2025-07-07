@@ -1,4 +1,9 @@
-﻿# MaterialCheckHistory Table
+﻿---
+layout: default
+title: MaterialCheckHistory
+parent: Tables
+---
+# MaterialCheckHistory Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

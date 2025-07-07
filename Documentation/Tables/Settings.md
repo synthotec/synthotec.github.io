@@ -1,4 +1,9 @@
-﻿# Settings Table
+﻿---
+layout: default
+title: Settings
+parent: Tables
+---
+# Settings Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

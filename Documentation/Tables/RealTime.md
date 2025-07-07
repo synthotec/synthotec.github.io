@@ -1,4 +1,9 @@
-﻿# RealTime Table
+﻿---
+layout: default
+title: RealTime
+parent: Tables
+---
+# RealTime Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

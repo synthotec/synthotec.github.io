@@ -1,4 +1,9 @@
-﻿# BoxLabels Table
+﻿---
+layout: default
+title: BoxLabels
+parent: Tables
+---
+# BoxLabels Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

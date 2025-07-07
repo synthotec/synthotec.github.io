@@ -1,4 +1,9 @@
-﻿# Document Nos Table
+﻿---
+layout: default
+title: Document Nos
+parent: Tables
+---
+# Document Nos Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

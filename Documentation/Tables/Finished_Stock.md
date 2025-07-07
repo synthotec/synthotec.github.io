@@ -1,4 +1,9 @@
-﻿# Finished_Stock Table
+﻿---
+layout: default
+title: Finished_Stock
+parent: Tables
+---
+# Finished_Stock Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table

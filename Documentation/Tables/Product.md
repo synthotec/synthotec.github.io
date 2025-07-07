@@ -1,4 +1,9 @@
-﻿# Product Table
+﻿---
+layout: default
+title: Product
+parent: Tables
+---
+# Product Table
 No description for this table has been created yet.
 
 *[Primary Key]: This field is the primary key of the table
