@@ -1,5 +1,6 @@
 # Advice_Note Table
 No description for this table has been created yet.
+
 *[Primary Key]: This field is the primary key of the table
 *[Unique]: 4D will not allow this field to be saved if it contains a value already used
 *[Mandatory]: 4D will not allow this record to be saved if this field is equal to null
@@ -13,7 +14,9 @@ No description for this table has been created yet.
 *[Inverse Name]: The name of the inverse relationship from the corresponding table
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
+
 ## Fields
+
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️||✔️|✔️|✔️||
@@ -22,13 +25,17 @@ No description for this table has been created yet.
 |Customer_Code|string|||||✔️|||
 |DespatchDate|date|||||✔️|||
 |Transport|string|||||✔️|||
+
 ## Relationships
 ### One to Many
+
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Advice_NoteEntity|✔️||
 |PickRequestSelection|[PickRequest](PickRequest.md)|Advice_NoteEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
 |Name|Local|Notes|
 |:---|:---:|:---:|
