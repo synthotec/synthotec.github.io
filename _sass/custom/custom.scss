@@ -1,15 +1,15 @@
-// _sass/custom/custom.scss
+.site-nav, .site-header, .site-footer {
+  width: 100%;
+}
 
 .side-bar {
   @include mq(lg) {
     width: $nav-width;
-    min-width: $nav-width;
   }
 }
 
-.main{
+.main {
   @include mq(lg) {
-        margin: 0 auto;
-        max-width: 2560px;
+    margin-left: $nav-width;
   }
 }
