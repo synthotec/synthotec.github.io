@@ -1,5 +1,6 @@
-title: Cayman theme
-description: Cayman is a clean, responsive theme for GitHub Pages.
+title: SynthoTec-4D Documentation
+description: Developer documentation for SynthoTec's 4D applications
 show_downloads: false
 google_analytics:
 remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
