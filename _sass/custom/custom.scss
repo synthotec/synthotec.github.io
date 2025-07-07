@@ -9,8 +9,7 @@
 
 .main{
   @include mq(lg) {
-        margin-left: calc( 264px - 264px + 30px);
-        margin-right: 30px;
+        margin: 0 auto;
         max-width: 2560px;
   }
 }
