@@ -1,5 +1,6 @@
 ﻿# Suppliers Table
 No description for this table has been created yet.
+
 *[Primary Key]: This field is the primary key of the table
 *[Unique]: 4D will not allow this field to be saved if it contains a value already used
 *[Mandatory]: 4D will not allow this record to be saved if this field is equal to null
