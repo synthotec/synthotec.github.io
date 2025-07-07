@@ -26,11 +26,13 @@ No description for this table has been created yet.
 |Target|number|||||✔️|||
 |ToolID|number||||✔️|✔️|||
 |ZoneID|number||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ZoneName|ToolTemperatureZoneEntity.Name|string|✔️||
+
 ## Relationships
 ### Many to One
 
@@ -39,13 +41,16 @@ No description for this table has been created yet.
 |StaffEntity|[Staff](Staff.md)|ToolTemperatureTargetSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|ToolTemperatureTargetSelection|✔️||
 |ToolTemperatureZoneEntity|[ToolTemperatureZone](ToolTemperatureZone.md)|ToolTemperatureTargetSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTarget.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getByWorksOrder()|||
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTargetEntity.4dm)
 
 |Name|Local|Notes|
@@ -53,6 +58,7 @@ No description for this table has been created yet.
 |SetTargetValues()|✔️||
 |getMigrationRules()|✔️||
 |syncMigrationSelections()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTargetSelection.4dm)
 
 |Name|Local|Notes|

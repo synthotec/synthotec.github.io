@@ -36,11 +36,13 @@ No description for this table has been created yet.
 |StockQty_r|number|||||✔️|||
 |SupplierID_l|number||||✔️|✔️|||
 |UnitOfSale_s|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|UniqueID_i|number|||
+
 ## Relationships
 ### Many to One
 
@@ -48,18 +50,22 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |PackagingCatsEntity|[PackagingCats](PackagingCats.md)|SuppliesSelection|✔️||
 |SuppliersEntity|[Suppliers](Suppliers.md)|SuppliesSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductPackagingSelection|[ProductPackaging](ProductPackaging.md)|SuppliesEntity|✔️||
 |PurchaseInfoSelection|[PurchaseInfo](PurchaseInfo.md)|SuppliesEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Supplies.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SuppliesEntity.4dm)
 
 |Name|Local|Notes|

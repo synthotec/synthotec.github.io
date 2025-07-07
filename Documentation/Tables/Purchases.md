@@ -35,17 +35,20 @@ No description for this table has been created yet.
 |Revision|number|||||✔️|||
 |SupplierID_l|number||||✔️|✔️|||
 |VATRate_r|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|OrderNo_l|number|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |SuppliersEntity|[Suppliers](Suppliers.md)|PurchasesSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

@@ -35,12 +35,14 @@ No description for this table has been created yet.
 |ToolID|number|||||✔️|||
 |ToolNo|string||||✔️|✔️|||
 |UnitNumber|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ToolsEntity|[Tools](Tools.md)|WorkRequestsSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

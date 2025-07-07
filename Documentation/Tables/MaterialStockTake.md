@@ -29,13 +29,16 @@ No description for this table has been created yet.
 |RMCID|number|||||✔️|||
 |SavedTimeStamp|string|||||✔️|||
 |StockTakeDate|date||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |RMCEntity|[RMC](RMC.md)|MaterialStockTakeSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockTake.4dm)
 
 |Name|Local|Notes|

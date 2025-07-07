@@ -41,6 +41,7 @@ No description for this table has been created yet.
 |TransactionID|number|||||✔️|||
 |UserName_txt|string|||||✔️|||
 |Works_Order_No_l|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 

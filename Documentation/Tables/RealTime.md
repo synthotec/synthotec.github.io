@@ -28,6 +28,7 @@ No description for this table has been created yet.
 |SensorData|object|||||✔️|||
 |Stoppage|bool||||✔️|✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -37,6 +38,7 @@ No description for this table has been created yet.
 |MouldOpenTime|number|✔️|||
 |StartTime|number|✔️|||
 |StartTimeDate|string|✔️|✔️||
+
 ## Relationships
 ### Many to One
 
@@ -44,23 +46,28 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |DownReasonsEntity|[DownReasons](DownReasons.md)|RealTimeSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|RealTimeSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |FirstRealTimeSensorExceptionsSelection|[RealTimeSensorExceptions](RealTimeSensorExceptions.md)|FirstRealTimeEntity|✔️||
 |LastRealTimeSensorExceptionsSelection|[RealTimeSensorExceptions](RealTimeSensorExceptions.md)|LastRealTimeEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTime.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |newFromJson()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeEntity.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getTemperatureSensors()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSelection.4dm)
 
 |Name|Local|Notes|

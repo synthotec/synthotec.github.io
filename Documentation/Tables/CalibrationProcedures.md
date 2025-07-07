@@ -24,6 +24,7 @@ No description for this table has been created yet.
 |ProcedureName|string|||||✔️|||
 |ProcedureType|number|||||✔️|||
 |TargetResult|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

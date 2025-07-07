@@ -22,11 +22,13 @@ No description for this table has been created yet.
 |TagDescription_txt|string|||||✔️|||
 |TagIdentifier_s|string||||✔️|✔️|||
 |TagText_txt|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|ID_l|number|||
+
 ## Relationships
 ### Many to One
 

@@ -21,23 +21,28 @@ No description for this table has been created yet.
 |Customer|string|||||✔️|||
 |Email|string|||||✔️|||
 |MigrationID|number|||||✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |HasMigrationID|bool|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|CustomerContactsSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerContacts.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerContactsEntity.4dm)
 
 |Name|Local|Notes|

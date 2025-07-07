@@ -25,11 +25,13 @@ No description for this table has been created yet.
 |Processed|bool||||✔️|✔️|||
 |ReadyToPick|bool||||✔️|✔️|||
 |Type|number||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |TransportInstructionFileEntity|CustomerEntity.TransportInstructionFileEntity|[File](File.md)|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -41,6 +43,7 @@ No description for this table has been created yet.
 |PickingStarted|bool|✔️|||
 |Status|string|✔️|||
 |StatusColor|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -48,12 +51,15 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |Advice_NoteEntity|[Advice_Note](Advice_Note.md)|PickRequestSelection|✔️||
 |CustomerEntity|[Customer](Customer.md)|PickRequestSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|PickRequestEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequest.4dm)
 
 |Name|Local|Notes|
@@ -69,6 +75,7 @@ No description for this table has been created yet.
 |restSelectOrderToPickAgainst()|||
 |restPickAgainstOrder()|||
 |checkForPickedPickRequests()|||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequestEntity.4dm)
 
 |Name|Local|Notes|

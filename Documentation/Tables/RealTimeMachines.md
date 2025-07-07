@@ -49,11 +49,13 @@ No description for this table has been created yet.
 |TimeStartedNonRobot|string|||||✔️|||
 |UpTime|string|||||✔️|||
 |WinVer|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Machine|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -64,18 +66,22 @@ No description for this table has been created yet.
 |UniChar|string|✔️|||
 |WorksOrder|number|✔️|||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |DownReasonsEntity|[DownReasons](DownReasons.md)|RealTimeMachinesSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachines.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getByMachine()|||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachinesEntity.4dm)
 
 |Name|Local|Notes|

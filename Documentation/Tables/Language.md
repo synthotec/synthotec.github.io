@@ -19,12 +19,15 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID_l**|number|✔️|✔️||✔️|✔️|||
 |Language_s|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|ID_l|number|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

@@ -21,19 +21,23 @@ No description for this table has been created yet.
 |Object|object|||||✔️|||
 |StaffID|number||||✔️|✔️|||
 |VariableName|string||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |StaffEntity|[Staff](Staff.md)|DB_VariablesSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Settings.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |global()|✔️||
 |userSpecific()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SettingsEntity.4dm)
 
 |Name|Local|Notes|

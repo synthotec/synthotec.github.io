@@ -102,11 +102,13 @@ No description for this table has been created yet.
 |UpdatePartsMadeDate|date|||||✔️|||
 |Weight_Initals|string|||||✔️|||
 |WorkInProgress|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Works_Order_No|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -117,6 +119,7 @@ No description for this table has been created yet.
 |IsOpen|bool|✔️|||
 |IsRunning|bool|✔️|||
 |WIP|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -126,6 +129,7 @@ No description for this table has been created yet.
 |MaterialEntity|[Material](Material.md)|WorksOrderSelection|✔️||
 |ProductEntity|[Product](Product.md)|WorksOrderSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|WorksOrderSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -144,12 +148,15 @@ No description for this table has been created yet.
 |Stock_MovementSelection|[Stock_Movement](Stock_Movement.md)|WorksOrderEntity|✔️||
 |ToolNoticeWorksOrderSelection|[ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)|WorksOrderEntity|✔️||
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|WorksOrderEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrder.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
 
 |Name|Local|Notes|

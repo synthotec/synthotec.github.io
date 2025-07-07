@@ -23,6 +23,7 @@ No description for this table has been created yet.
 |Is_Consignment_b|bool||||✔️|✔️|||
 |Location_Code_s|string|||||✔️|||
 |Location_Name_s|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
@@ -31,7 +32,9 @@ No description for this table has been created yet.
 |ID|StockLocationID_l|number|||
 |LocationCode|Location_Code_s|string|||
 |LocationName|Location_Name_s|string|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -41,7 +44,9 @@ No description for this table has been created yet.
 |CustomerSelection|[Customer](Customer.md)|Stock_LocationEntity|✔️||
 |Finished_StockSelection|[Finished_Stock](Finished_Stock.md)|Stock_LocationEntity|✔️||
 |Stock_MovementSelection|[Stock_Movement](Stock_Movement.md)|Stock_LocationEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
 
 |Name|Local|Notes|

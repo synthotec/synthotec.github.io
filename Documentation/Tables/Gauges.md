@@ -25,11 +25,13 @@ No description for this table has been created yet.
 |NoOfDaysUsageLeft|number|||||✔️|||
 |Product_ID|number||||✔️|✔️|||
 |Type|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Unique_ID|number|||
+
 ## Relationships
 ### Many to One
 

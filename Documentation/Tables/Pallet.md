@@ -45,6 +45,7 @@ No description for this table has been created yet.
 |WO1Qty|number|||||✔️|||
 |WO2|number|||||✔️|||
 |WO2Qty|number|||||✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -53,6 +54,7 @@ No description for this table has been created yet.
 |HasMigrationID|bool|✔️|||
 |NetWeightKg|number|✔️|||
 |QRObject|object|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -62,13 +64,16 @@ No description for this table has been created yet.
 |LocationEntity|[Location](Location.md)|PalletSelection|✔️||
 |OrderPickRequestEntity|[OrderPickRequest](OrderPickRequest.md)|PalletSelection|✔️||
 |ProductEntity|[Product](Product.md)|PalletSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|PalletEntity|✔️||
 |PrintJobSelection|[PrintJob](PrintJob.md)|PalletEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
 
 |Name|Local|Notes|
@@ -89,6 +94,7 @@ No description for this table has been created yet.
 |restDeletePallet()|||
 |restReassignLocation()|||
 |restLoadPallet()|||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
 
 |Name|Local|Notes|
@@ -102,6 +108,7 @@ No description for this table has been created yet.
 |getMigrationRules()|✔️||
 |syncMigrationSelections()|✔️||
 |transfer()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletSelection.4dm)
 
 |Name|Local|Notes|

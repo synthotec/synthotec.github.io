@@ -22,6 +22,7 @@ No description for this table has been created yet.
 |LastModified|string|||||✔️|||
 |PermissionID|number|||||✔️|||
 |StaffID|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

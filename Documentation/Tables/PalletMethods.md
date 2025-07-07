@@ -21,7 +21,9 @@ No description for this table has been created yet.
 |BoxesPerPallet|number|||||✔️|||
 |Description|string|||||✔️|||
 |Symbol|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

@@ -73,16 +73,19 @@ No description for this table has been created yet.
 |SupplierCode|string|||||✔️|||
 |TransportComment|string|||||✔️|||
 |TransportInstructionFileID|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Customer_Code|string|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |HasMigrationID|bool|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -90,6 +93,7 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |Stock_LocationEntity|[Stock_Location](Stock_Location.md)|CustomerSelection|✔️||
 |TransportInstructionFileEntity|[File](File.md)|CustomerSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -102,12 +106,15 @@ No description for this table has been created yet.
 |Product_OptionSelection|[Product_Option](Product_Option.md)|CustomerEntity|✔️||
 |ProductPackagingSelection|[ProductPackaging](ProductPackaging.md)|CustomerEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|CustomerEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerEntity.4dm)
 
 |Name|Local|Notes|

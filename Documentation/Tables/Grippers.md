@@ -26,18 +26,22 @@ No description for this table has been created yet.
 |Part_No|string||||✔️|✔️|||
 |Product_ID|number||||✔️|✔️|||
 |ToolID|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|[Product](Product.md)|GrippersSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Grippers.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/GrippersEntity.4dm)
 
 |Name|Local|Notes|

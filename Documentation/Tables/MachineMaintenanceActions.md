@@ -21,7 +21,9 @@ No description for this table has been created yet.
 |Action|string|||||✔️|||
 |Frequency|number|||||✔️|||
 |FrequencyType|number|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

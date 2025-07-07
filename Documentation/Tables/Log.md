@@ -22,7 +22,9 @@ No description for this table has been created yet.
 |Message|string|||||✔️|||
 |Process|string|||||✔️|||
 |Time|number|||||✔️|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Log.4dm)
 
 |Name|Local|Notes|

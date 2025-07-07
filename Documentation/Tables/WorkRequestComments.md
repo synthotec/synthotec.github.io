@@ -25,6 +25,7 @@ No description for this table has been created yet.
 |Public|bool|||||✔️|||
 |StaffID|number|||||✔️|||
 |WorkRequestID|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

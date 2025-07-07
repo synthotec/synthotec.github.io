@@ -30,7 +30,9 @@ No description for this table has been created yet.
 |UsageFrequency|number|||||✔️|||
 |Visible_ID|number|||||✔️|||
 |Wear|number|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

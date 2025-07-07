@@ -53,12 +53,14 @@ No description for this table has been created yet.
 |WhenAddedToPallet|string|||||✔️|||
 |WORC|number|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OurPartName|ToolsEntity.ProductEntity.OurPartName|string|✔️||
 |ProductEntity|ToolsEntity.ProductEntity|[Product](Product.md)|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -82,6 +84,7 @@ No description for this table has been created yet.
 |TestProduct|[Product](Product.md)|✔️|✔️||
 |toolIsRunning|bool|✔️|||
 |totalBoxQuantity|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -95,12 +98,15 @@ No description for this table has been created yet.
 |Stock_LocationEntity|[Stock_Location](Stock_Location.md)|BoxLabelsSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|BoxLabelsSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|BoxLabelsSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |LinkedBoxLabelsSelection|[BoxLabels](BoxLabels.md)|LinkedBoxLabelsEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabels.4dm)
 
 |Name|Local|Notes|
@@ -112,6 +118,7 @@ No description for this table has been created yet.
 |getByUUID()|||
 |GetBoxQuantity()|||
 |restScannedBoxLabel()|||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
 
 |Name|Local|Notes|

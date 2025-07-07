@@ -43,12 +43,14 @@ No description for this table has been created yet.
 |Quantity_Loose|number|||||✔️|||
 |RMC_Nos|string|||||✔️|||
 |Works_Order_No|number||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Cert_Of_Conformance_No|number|||
 |Product_OptionID|Customer_OrderEntity.Product_OptionID|number|✔️||
+
 ## Relationships
 ### Many to One
 
@@ -59,13 +61,16 @@ No description for this table has been created yet.
 |ProductEntity|[Product](Product.md)|CofCSelection|✔️||
 |Stock_LocationEntity|[Stock_Location](Stock_Location.md)|CofCSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|CofCSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|CofCEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|CofCEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CofCEntity.4dm)
 
 |Name|Local|Notes|

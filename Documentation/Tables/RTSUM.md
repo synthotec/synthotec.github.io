@@ -27,18 +27,22 @@ No description for this table has been created yet.
 |Target|number|||||✔️|||
 |TC|bool|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|RTSUMSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUM.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |generate()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUMSelection.4dm)
 
 |Name|Local|Notes|

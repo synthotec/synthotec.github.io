@@ -28,6 +28,7 @@ No description for this table has been created yet.
 |TargetMax|number|||||✔️|||
 |TargetMin|number|||||✔️|||
 |Type|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

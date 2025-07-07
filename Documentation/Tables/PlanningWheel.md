@@ -51,11 +51,13 @@ No description for this table has been created yet.
 |ToolID|number||||✔️|✔️|||
 |Trial|bool|||||✔️|||
 |WorksOrder|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|WheelID|number|||
+
 ## Relationships
 ### Many to One
 
@@ -63,7 +65,9 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|PlanningWheelSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|PlanningWheelSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheel.4dm)
 
 |Name|Local|Notes|

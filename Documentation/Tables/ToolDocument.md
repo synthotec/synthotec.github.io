@@ -22,13 +22,16 @@ No description for this table has been created yet.
 |FileName|string|||||✔️|||
 |Name|string|||||✔️|||
 |ToolID|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ToolsEntity|[Tools](Tools.md)|ToolDocumentSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolDocument.4dm)
 
 |Name|Local|Notes|

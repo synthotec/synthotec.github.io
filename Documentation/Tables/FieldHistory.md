@@ -24,7 +24,9 @@ No description for this table has been created yet.
 |PrimaryKey|number||||✔️|✔️|||
 |Table|number||||✔️|✔️|||
 |Value|string|||||✔️|||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/FieldHistory.4dm)
 
 |Name|Local|Notes|

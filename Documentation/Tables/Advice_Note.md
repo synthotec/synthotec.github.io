@@ -23,14 +23,18 @@ No description for this table has been created yet.
 |Customer_Code|string|||||✔️|||
 |DespatchDate|date|||||✔️|||
 |Transport|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Advice_NoteEntity|✔️||
 |PickRequestSelection|[PickRequest](PickRequest.md)|Advice_NoteEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
 
 |Name|Local|Notes|

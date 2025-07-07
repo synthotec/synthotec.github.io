@@ -59,6 +59,7 @@ No description for this table has been created yet.
 |TransportPrice|number|||||✔️|||
 |WasteCost|number|||||✔️|||
 |WasteFactor|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -67,12 +68,15 @@ No description for this table has been created yet.
 |CustomerEntity|[Customer](Customer.md)|BOMSelection|✔️||
 |MaterialEntity|[Material](Material.md)|BOMSelection|✔️||
 |ProductEntity|[Product](Product.md)|BOMSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOM.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOMEntity.4dm)
 
 |Name|Local|Notes|

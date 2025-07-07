@@ -32,6 +32,7 @@ No description for this table has been created yet.
 |Shift|number|||||✔️|||
 |ShiftDate|number||||✔️|✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 

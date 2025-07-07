@@ -24,12 +24,14 @@ No description for this table has been created yet.
 |MachineMaintenanceActionID|number|||||✔️|||
 |MaintenanceDate|date|||||✔️|||
 |MaintenanceTime|number|||||✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |TimeStamp|string|✔️|||
 |TimeStampWithTab|string|✔️|||
+
 ## Relationships
 ### Many to One
 

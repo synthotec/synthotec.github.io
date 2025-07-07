@@ -22,7 +22,9 @@ No description for this table has been created yet.
 |Category|string|||||✔️|||
 |Exclude|bool||||✔️|✔️|||
 |Reason|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

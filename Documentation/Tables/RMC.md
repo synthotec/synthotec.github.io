@@ -29,11 +29,13 @@ No description for this table has been created yet.
 |Quantity_l|number|||||✔️|||
 |Remarks_s|string|||||✔️|||
 |RMCDate_d|date||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|RMCNo_l|number|||
+
 ## Relationships
 ### Many to One
 
@@ -41,6 +43,7 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|RMCSelection|✔️||
 |PurchaseInfoEntity|[PurchaseInfo](PurchaseInfo.md)|RMCSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -51,7 +54,9 @@ No description for this table has been created yet.
 |MaterialStockSelection|[MaterialStock](MaterialStock.md)|RMCEntity|✔️||
 |MaterialStockTakeSelection|[MaterialStockTake](MaterialStockTake.md)|RMCEntity|✔️||
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|RMCEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RMCEntity.4dm)
 
 |Name|Local|Notes|

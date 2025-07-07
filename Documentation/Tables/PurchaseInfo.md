@@ -41,17 +41,20 @@ No description for this table has been created yet.
 |Revision|number|||||✔️|||
 |SuppliesID_i|number||||✔️|✔️|||
 |Unit_s|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|UniqueID_l|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |OutstandingQuantity|number|✔️|||
 |value|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -60,13 +63,16 @@ No description for this table has been created yet.
 |NominalCodesEntity|[NominalCodes](NominalCodes.md)|PurchaseInfoSelection|✔️||
 |PurchasesEntity|[Purchases](Purchases.md)|PurchaseInfoSelection|✔️||
 |SuppliesEntity|[Supplies](Supplies.md)|PurchaseInfoSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|PurchaseInfoEntity|✔️||
 |RMCSelection|[RMC](RMC.md)|PurchaseInfoEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchaseInfoEntity.4dm)
 
 |Name|Local|Notes|

@@ -86,6 +86,7 @@ No description for this table has been created yet.
 |Suggested|number|||||✔️|||
 |Tool_ID|number|||||✔️|||
 |Tool_No|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
@@ -93,6 +94,7 @@ No description for this table has been created yet.
 |ConfirmedArrivalDate|ConfirmedDue|date|||
 |ConfirmedDespatchDate|ReviewedReadyDate|date|||
 |ID|Petes_No|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -103,6 +105,7 @@ No description for this table has been created yet.
 |DespatchDateTime|object|✔️|||
 |OutstandingToDeliver|number||||
 |OutstandingToPickRequest|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -112,19 +115,23 @@ No description for this table has been created yet.
 |MaterialEntity|[Material](Material.md)|Customer_OrderSelection|✔️||
 |Product_OptionEntity|[Product_Option](Product_Option.md)|Customer_OrderSelection|✔️||
 |ProductEntity|[Product](Product.md)|Customer_OrderSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Customer_OrderEntity|✔️||
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|Customer_OrderEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_Order.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |classicMakeOrderSort()|✔️||
 |classicOrderOverviewSort()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
 
 |Name|Local|Notes|

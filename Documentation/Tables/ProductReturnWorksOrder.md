@@ -25,11 +25,13 @@ No description for this table has been created yet.
 |Scrapped_b|bool|||||✔️|||
 |ScrappedQuantity_l|number|||||✔️|||
 |Works_Order_No_l|number||||✔️|✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|WOReturnID_l|number|||
+
 ## Relationships
 ### Many to One
 

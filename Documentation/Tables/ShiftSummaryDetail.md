@@ -23,6 +23,7 @@ No description for this table has been created yet.
 |RealTimeOutputMachine|object|||||✔️|||
 |ShiftSummaryID|number|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -30,6 +31,7 @@ No description for this table has been created yet.
 |Status|number|✔️|||
 |StatusColor|number|✔️|||
 |StatusText|string|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -37,7 +39,9 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |ShiftSummaryEntity|[ShiftSummary](ShiftSummary.md)|ShiftSummaryDetailSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|ShiftSummaryDetailSelection|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryDetailEntity.4dm)
 
 |Name|Local|Notes|

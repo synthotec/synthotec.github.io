@@ -23,11 +23,13 @@ No description for this table has been created yet.
 |MaterialID|number||||✔️|✔️|||
 |MigrationID|number|||||✔️|||
 |ProductID|number||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Default|bool|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -35,12 +37,15 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|ProductMaterialOptionsSelection|✔️||
 |ProductEntity|[Product](Product.md)|ProductMaterialOptionsSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptions.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptionsEntity.4dm)
 
 |Name|Local|Notes|

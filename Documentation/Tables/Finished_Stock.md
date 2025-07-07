@@ -29,6 +29,7 @@ No description for this table has been created yet.
 |Reuse_WIP|number|||||✔️|||
 |Stock_Quantity|number|||||✔️|||
 |Works_Order_No|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 

@@ -37,17 +37,21 @@ No description for this table has been created yet.
 |Stock|bool|||||✔️|||
 |UserID|string|||||✔️|||
 |WorkRequestEmail|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|StaffID|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |FullName|string|✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -62,7 +66,9 @@ No description for this table has been created yet.
 |ToolNoticeSelection|[ToolNotice](ToolNotice.md)|StaffEntity|✔️||
 |ToolTemperatureTargetSelection|[ToolTemperatureTarget](ToolTemperatureTarget.md)|StaffEntity|✔️||
 |WorkRequestCommentsSelection|[WorkRequestComments](WorkRequestComments.md)|StaffEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
 
 |Name|Local|Notes|
@@ -71,6 +77,7 @@ No description for this table has been created yet.
 |getCurrentUser()|✔️||
 |getNonArchived()|✔️||
 |newUsingEntry()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/StaffEntity.4dm)
 
 |Name|Local|Notes|

@@ -26,12 +26,15 @@ No description for this table has been created yet.
 |SendEmail|bool|||||✔️|||
 |SendSlack|bool|||||✔️|||
 |SlackMessageID|string|||||✔️|||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorReport.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |processError()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorReportEntity.4dm)
 
 |Name|Local|Notes|

@@ -27,6 +27,7 @@ No description for this table has been created yet.
 |RunsActiveFor|number|||||✔️|||
 |StaffID|number|||||✔️|||
 |ToolID|number||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -34,6 +35,7 @@ No description for this table has been created yet.
 |ActiveUntilText|string|✔️|||
 |IsActive|bool|✔️|||
 |RemainingRuns|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -42,17 +44,21 @@ No description for this table has been created yet.
 |DeactivatedStaffEntity|[Staff](Staff.md)|DeactivatedToolNoticeSelection|✔️||
 |StaffEntity|[Staff](Staff.md)|ToolNoticeSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|ToolNoticeSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ToolNoticeWorksOrderSelection|[ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)|ToolNoticeEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |create()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNoticeEntity.4dm)
 
 |Name|Local|Notes|

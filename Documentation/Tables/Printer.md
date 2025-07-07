@@ -26,6 +26,7 @@ No description for this table has been created yet.
 |Port|string|||||✔️|||
 |Type|number|||||✔️|||
 |UpdateOptions|bool||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -35,13 +36,17 @@ No description for this table has been created yet.
 |LabelPaperName|string|✔️|||
 |LabelPrinter|bool|✔️|||
 |TypeDisplay|string|✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |PrintJobSelection|[PrintJob](PrintJob.md)|PrinterEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
 
 |Name|Local|Notes|
@@ -49,6 +54,7 @@ No description for this table has been created yet.
 |getDefault()|✔️||
 |populate()|✔️||
 |getComputerPrinters()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterEntity.4dm)
 
 |Name|Local|Notes|
@@ -58,6 +64,7 @@ No description for this table has been created yet.
 |printJobs()|✔️||
 |setCurrent()|✔️||
 |setDefault()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
 
 |Name|Local|Notes|

@@ -26,12 +26,14 @@ No description for this table has been created yet.
 |ReturnClosed_b|bool|||||✔️|||
 |ReturnID_l|number||||✔️|✔️|||
 |ReturnNotes_txt|string|||||✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|[Product](Product.md)|ProductReturnSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|

@@ -122,12 +122,14 @@ No description for this table has been created yet.
 |UsedSinceBill|number|||||✔️|||
 |WareHouseMethod|string|||||✔️|||
 |Water_Squirt_prog_number|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Product_ID|number|||
 |UnicodeChar|Emoji|string|✔️||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -137,6 +139,7 @@ No description for this table has been created yet.
 |HasMigrationID|bool|✔️|||
 |MainToolRegrind|bool||||
 |OurPartName|string||✔️||
+
 ## Relationships
 ### Many to One
 
@@ -145,6 +148,7 @@ No description for this table has been created yet.
 |EmojisEntity|[Emojis](Emojis.md)|ProductSelection|✔️||
 |MaterialEntity|[Material](Material.md)|ProductSelection|✔️||
 |PalletMethodsEntity|[PalletMethods](PalletMethods.md)|ProductSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -167,13 +171,16 @@ No description for this table has been created yet.
 |ToolsSelection|[Tools](Tools.md)|ProductEntity|✔️||
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|ProductEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ProductEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 |populateEmojis()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductEntity.4dm)
 
 |Name|Local|Notes|

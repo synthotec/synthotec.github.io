@@ -24,6 +24,7 @@ No description for this table has been created yet.
 |Machine|string|||||✔️|||
 |Time|number||||✔️|✔️|||
 |User|string|||||✔️|||
+
 ## Relationships
 ### Many to One
 

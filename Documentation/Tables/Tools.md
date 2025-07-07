@@ -156,17 +156,20 @@ No description for this table has been created yet.
 |x2_uniqueIDlabels|bool|||||✔️|||
 |x3_sequence_packsheet|bool|||||✔️|||
 |x4_sequence_packsheet|bool|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Tool_ID|number|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |NextToolChangeText|string|✔️|||
 |SensorExceptionsCount|number|✔️|✔️||
+
 ## Relationships
 ### Many to One
 
@@ -174,6 +177,7 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |HotHalfEntity|[HotHalfs](HotHalfs.md)|ToolsSelection|✔️||
 |ProductEntity|[Product](Product.md)|ToolsSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -190,13 +194,16 @@ No description for this table has been created yet.
 |ToolTemperatureTargetSelection|[ToolTemperatureTarget](ToolTemperatureTarget.md)|ToolsEntity|✔️||
 |WorkRequestsSelection|[WorkRequests](WorkRequests.md)|ToolsEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ToolsEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Tools.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 |createForProduct()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolsEntity.4dm)
 
 |Name|Local|Notes|

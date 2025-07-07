@@ -24,6 +24,7 @@ No description for this table has been created yet.
 |ProductID|number|||||✔️|||
 |sDate|date|||||✔️|||
 |WO|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

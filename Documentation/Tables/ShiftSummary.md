@@ -23,24 +23,29 @@ No description for this table has been created yet.
 |EmailSent|bool|||||✔️|||
 |StaffID|number||||✔️|✔️|||
 |Time|number|||||✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ShiftColor|number|✔️|||
 |ShiftSymbol|string|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |StaffEntity|[Staff](Staff.md)|ShiftSummarySelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ShiftSummaryDetailSelection|[ShiftSummaryDetail](ShiftSummaryDetail.md)|ShiftSummaryEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryEntity.4dm)
 
 |Name|Local|Notes|

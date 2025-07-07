@@ -21,18 +21,23 @@ No description for this table has been created yet.
 |Blob|blob|||||✔️|||
 |Name|string|||||✔️|||
 |UploadTimestamp|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerSelection|[Customer](Customer.md)|TransportInstructionFileEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/File.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |upload()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/FileEntity.4dm)
 
 |Name|Local|Notes|

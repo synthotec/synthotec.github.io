@@ -21,11 +21,13 @@ No description for this table has been created yet.
 |CustomerOrderID|number||||✔️|✔️|||
 |PickRequestID|number||||✔️|✔️|||
 |Quantity|number|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|Customer_OrderEntity.ProductEntity|[Product](Product.md)|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -36,6 +38,7 @@ No description for this table has been created yet.
 |Parts|number||||
 |QuantityPicked|number|✔️|||
 |QuantityToPick|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -43,18 +46,22 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |Customer_OrderEntity|[Customer_Order](Customer_Order.md)|OrderPickRequestSelection|✔️||
 |PickRequestEntity|[PickRequest](PickRequest.md)|OrderPickRequestSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|OrderPickRequestEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|OrderPickRequestEntity|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getPickedStockListboxCollection()|✔️||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestSelection.4dm)
 
 |Name|Local|Notes|

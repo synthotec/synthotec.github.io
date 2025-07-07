@@ -18,7 +18,9 @@ No description for this table has been created yet.
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Warehouse.4dm)
 
 |Name|Local|Notes|

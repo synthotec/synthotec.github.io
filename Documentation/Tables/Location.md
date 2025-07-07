@@ -20,6 +20,7 @@ No description for this table has been created yet.
 |**ID**|string|✔️|✔️||✔️|✔️|✔️||
 |Name|string|||||✔️|||
 |ParentLocationID|string||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -29,12 +30,14 @@ No description for this table has been created yet.
 |ListBoxDisplayName|string|✔️|||
 |ListboxMetaExpression|object|✔️|||
 |SortOrder|string|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |LocationEntity|[Location](Location.md)|LocationSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
@@ -42,7 +45,9 @@ No description for this table has been created yet.
 |LocationSelection|[Location](Location.md)|LocationEntity|✔️||
 |MaterialStockSelection|[MaterialStock](MaterialStock.md)|LocationEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|LocationEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Location.4dm)
 
 |Name|Local|Notes|
@@ -51,6 +56,7 @@ No description for this table has been created yet.
 |newLocation()|✔️||
 |restClearStockLocation()|||
 |restSetStockLocation()|||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
 
 |Name|Local|Notes|

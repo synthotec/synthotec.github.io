@@ -23,18 +23,22 @@ No description for this table has been created yet.
 |ForecastYear|number||||✔️|✔️|||
 |ProductID|number||||✔️|✔️|||
 |Quantity|number|||||✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Consignment|bool|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|[Product](Product.md)|ForecastSelection|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Forecast.4dm)
 
 |Name|Local|Notes|

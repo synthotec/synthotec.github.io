@@ -46,6 +46,7 @@ No description for this table has been created yet.
 |SSLOverride|number|||||✔️|||
 |Tool ID|number|||||✔️|||
 |Tool No|string||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -55,17 +56,21 @@ No description for this table has been created yet.
 |MaterialEntity|[Material](Material.md)|Product_OptionSelection|✔️||
 |ProductEntity|[Product](Product.md)|Product_OptionSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|Product_OptionSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |Customer_OrderSelection|[Customer_Order](Customer_Order.md)|Product_OptionEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product_Option.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product_OptionEntity.4dm)
 
 |Name|Local|Notes|

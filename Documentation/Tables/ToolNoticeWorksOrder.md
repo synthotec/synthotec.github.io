@@ -21,6 +21,7 @@ No description for this table has been created yet.
 |EmailSent|bool||||✔️|✔️|||
 |ToolNoticeID|number||||✔️|✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 

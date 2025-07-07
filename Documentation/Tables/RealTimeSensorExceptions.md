@@ -25,6 +25,7 @@ No description for this table has been created yet.
 |RouteCards|string|||||✔️|||
 |StaffID|number|||||✔️|||
 |WorksOrder|number||||✔️|✔️|||
+
 ## Calculated Fields
 
 |Name|Type|Read Only|Exposed|Notes|
@@ -33,6 +34,7 @@ No description for this table has been created yet.
 |HighestCelciusTemperature|number|✔️|||
 |LowestCelciusTemperature|number|✔️|||
 |PartsMade|number|✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -42,7 +44,9 @@ No description for this table has been created yet.
 |LastRealTimeEntity|[RealTime](RealTime.md)|LastRealTimeSensorExceptionsSelection|✔️||
 |StaffEntity|[Staff](Staff.md)|RealTimeSensorExceptionsSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|RealTimeSensorExceptionsSelection|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsEntity.4dm)
 
 |Name|Local|Notes|
@@ -50,6 +54,7 @@ No description for this table has been created yet.
 |getRealTimeSelection()|✔️||
 |getTemperatureSensors()|✔️||
 |sendEmail()|||
+
 ### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsSelection.4dm)
 
 |Name|Local|Notes|

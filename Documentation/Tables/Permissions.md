@@ -19,19 +19,24 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
 |Name|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |StaffPermissionsSelection|[StaffPermissions](StaffPermissions.md)|PermissionsEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Permissions.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getByName()|||
 |check()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PermissionsEntity.4dm)
 
 |Name|Local|Notes|

@@ -25,6 +25,7 @@ No description for this table has been created yet.
 |QuantityRecieved|number|||||✔️|||
 |ReceivedBy|string|||||✔️|||
 |RMC|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 

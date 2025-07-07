@@ -20,18 +20,23 @@ No description for this table has been created yet.
 |**ID**|number|✔️|✔️||✔️|✔️|✔️||
 |MigrationID|number|||||✔️|||
 |Name|string|||||✔️|||
+
 ## Relationships
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |SuppliesSelection|[Supplies](Supplies.md)|PackagingCatsEntity|✔️||
+
 ## Class Functions
+
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackagingCats.4dm)
 
 |Name|Local|Notes|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackagingCatsEntity.4dm)
 
 |Name|Local|Notes|

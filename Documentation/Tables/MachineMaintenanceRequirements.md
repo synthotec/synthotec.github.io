@@ -21,6 +21,7 @@ No description for this table has been created yet.
 |Machine|number|||||✔️|||
 |MachineMaintenanceActionID|number|||||✔️|||
 |Required|bool|||||✔️|||
+
 ## Relationships
 ### Many to One
 

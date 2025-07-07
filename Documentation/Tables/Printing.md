@@ -24,6 +24,7 @@ No description for this table has been created yet.
 |PrintDate_d|date|||||✔️|||
 |Report|string|||||✔️|||
 |User_Name|string|||||✔️|||
+
 ## Aliases
 
 |Name|Alias Path|Type|Read Only|Notes|

@@ -26,6 +26,7 @@ No description for this table has been created yet.
 |File|blob|||||✔️|||
 |FileName|string|||||✔️|||
 |SupplierID|number|||||✔️|||
+
 ## Relationships
 ### Many to One
 

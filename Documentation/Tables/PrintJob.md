@@ -28,6 +28,7 @@ No description for this table has been created yet.
 |RelatedUUID|string||||✔️|✔️|||
 |StaffID|number||||✔️|✔️|||
 |TimeStamp|string|||||✔️|||
+
 ## Relationships
 ### Many to One
 
@@ -36,7 +37,9 @@ No description for this table has been created yet.
 |PalletEntity|[Pallet](Pallet.md)|PrintJobSelection|✔️||
 |PrinterEntity|[Printer](Printer.md)|PrintJobSelection|✔️||
 |StaffEntity|[Staff](Staff.md)|PrintJobSelection|✔️||
+
 ## Class Functions
+
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintJobEntity.4dm)
 
 |Name|Local|Notes|

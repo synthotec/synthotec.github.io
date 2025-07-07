@@ -21,12 +21,14 @@ No description for this table has been created yet.
 |CompletedBy|string|||||✔️|||
 |DateCompleted|date|||||✔️|||
 |EquipmentID|number||||✔️|✔️|||
+
 ## Relationships
 ### Many to One
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
 |:---|:---:|:---:|:---:|:---:|
 |CalibrationEquipmentEntity|[CalibrationEquipment](CalibrationEquipment.md)|CalibrationsSelection|✔️||
+
 ### One to Many
 
 |Name|Related Table|Inverse Name|Exposed|Notes|
