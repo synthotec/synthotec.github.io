@@ -9,8 +9,12 @@ title: Home
 ```mermaid
 mindmap
     root((4D))
-        Building
-            Deployment
+        Deployment
+            Build Process
+            New Client Setup
+            Update Process
+                Clients
+                Server
         Classes
             Code Samples
             Descriptions
@@ -18,7 +22,9 @@ mindmap
             Descriptions
             Screenshots
         Methods
-            Mainly legacy code
+            )Mainly legacy code(
             Highlight important functions still in use
+                Code Samples
+                Descriptions
         Tables            
 ```
