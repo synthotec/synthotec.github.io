@@ -21,7 +21,7 @@ mindmap
             Functions & Properties ✅
                 Syntax ✅
         Forms
-            )Only include relevant forms - exclude deprecated
+            )Only include relevant forms - exclude deprecated(
             Descriptions ⌛
             Screenshots ⌛
         Methods
@@ -38,7 +38,7 @@ mindmap
                 DataClass Functions ✅
                 Entity Functions ✅
                 Selection Functions ✅
-        Automate generation of documentation
+        {{Automate generation of documentation}}
             Process to generate all documentation automatically ✅
             Create system in 4D to allow adding permanent descriptions and code samples where required
 ```
