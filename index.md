@@ -19,12 +19,21 @@ mindmap
             Code Samples
             Descriptions
         Forms
+            )Only include relevant forms - exclude deprecated(
             Descriptions
             Screenshots
         Methods
             )Mainly legacy code(
-            Highlight important functions still in use
+            Highlight important methods still in use
                 Code Samples
                 Descriptions
-        Tables            
+        Tables
+            Descriptions
+            Fields
+            Aliases
+            Properties
+            Class Functions
+                DataClass Functions
+                Entity Functions
+                Selection Functions
 ```
