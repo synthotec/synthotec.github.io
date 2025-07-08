@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Forms
+title: SynthoTec 4D
 has_children: true
-parent: SynthoTec 4D
 ---
-# Forms
+# SynthoTec 4D
