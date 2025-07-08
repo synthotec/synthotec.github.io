@@ -10,8 +10,8 @@
   @include mq(lg) {
     // width: $nav-width;
     // min-width: $nav-width;
-    width: 200;
-    min-width: 200;
+    width: min-content;
+    min-width: min-content;
   }
 }
 
