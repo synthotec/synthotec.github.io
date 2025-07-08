@@ -1,20 +1,21 @@
-// .site-nav, .site-header, .site-footer {
-//   width: 100%;
-// }
+.site-nav, .site-header, .site-footer {
+  width: 100%;
+}
 
-$content-width: 1500px;
+// $content-width: 1500px;
 
-// .side-bar {
-//   @include mq(lg) {
-//     width: $nav-width;
-//     min-width: $nav-width;
-//   }
-// }
+.side-bar {
+  @include mq(lg) {
+    width: $nav-width;
+    min-width: $nav-width;
+  }
+}
 
-// .main{
-//   @include mq(lg) {
-//         margin-left: 30px;
-//         margin-right: 30px;
-//         max-width: 2560px;
-//   }
-// }
+.main{
+  @include mq(lg) {
+        margin-left: 30px;
+        margin-right: 30px;
+        min-width: 1500px
+        max-width: 2560px;
+  }
+}
