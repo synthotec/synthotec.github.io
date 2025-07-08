@@ -37,11 +37,11 @@ architecture-beta
     HTTPS:L <--> R:MOBILE
 ```
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.0.0/mermaid.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs"></script>
   <script>
   var config = {
       startOnLoad:true,
-      theme: 'default',
+      theme: 'dark',
       flowchart:{
               useMaxWidth:false,
               htmlLabels:true
