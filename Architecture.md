@@ -36,5 +36,3 @@ architecture-beta
     junctionTop:L -- R:HTTPS
     HTTPS:L <--> R:MOBILE
 ```
-
-{% include icons.html %}
