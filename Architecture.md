@@ -36,4 +36,15 @@ architecture-beta
     junctionTop:L -- R:HTTPS
     HTTPS:L <--> R:MOBILE
 ```
-{% include mermaid.html %}
+
+<script type="module">
+    
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.8.1/dist/mermaid.esm.min.mjs';
+    mermaid.registerIconPacks([
+  {
+    name: 'logos',
+    loader: () =>
+      fetch('https://unpkg.com/@iconify-json/logos@1/icons.json').then((res) => res.json()),
+  },
+]);
+</script>
