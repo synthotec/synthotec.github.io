@@ -5,6 +5,9 @@
 }
 
 // $content-width: 1500px;
+.main-content {
+    margin-left: 50px; /* Adjust here to match the new sidebar width */
+}
 
 .side-bar {
   @include mq(lg) {
