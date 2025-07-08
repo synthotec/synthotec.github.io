@@ -23,13 +23,13 @@ parent: Classes
 |[**.send**()->EmailSent : Boolean](#send)<br>|
 |[EmailObject : Object](#emailobject)<br>|
 
+
 ## new()
 **.new**( *Subject* : Text; *HTML_Body* : Text )
 
 |Parameter|Type|   |Description|
 |:---|:---:|:---:|:---:|
 |Subject|Text|->|<Description>|
-
 |HTML_Body|Text|->|<Description>|
 
 ## addTo()
@@ -45,7 +45,6 @@ parent: Classes
 |Parameter|Type|   |Description|
 |:---|:---:|:---:|:---:|
 |EmailAddress|Text|->|<Description>|
-
 |EmailName|Text|->|<Description>|
 
 ## addCc()
@@ -68,9 +67,7 @@ parent: Classes
 |Parameter|Type|   |Description|
 |:---|:---:|:---:|:---:|
 |PermissionName|Text|->|<Description>|
-
 |RecipientType|Integer|->|<Description>|
-
 |ShowPermissionFooter|Boolean|->|<Description>|
 
 ## addCustomerGroup()
@@ -114,7 +111,6 @@ parent: Classes
 |Parameter|Type|   |Description|
 |:---|:---:|:---:|:---:|
 |FilePathBlobOrObject|Variant|->|<Description>|
-
 |BlobFileName|Text|->|<Description>|
 
 ## send()
