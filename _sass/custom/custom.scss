@@ -1,4 +1,6 @@
-.site-nav, .site-header, .site-footer {
+.site-nav,
+.site-header,
+.site-footer {
   width: 100%;
 }
 
@@ -6,16 +8,18 @@
 
 .side-bar {
   @include mq(lg) {
-    width: $nav-width;
-    min-width: $nav-width;
+    // width: $nav-width;
+    // min-width: $nav-width;
+    width: 200;
+    min-width: 200;
   }
 }
 
-.main{
+.main {
   @include mq(lg) {
-        margin-left: 30px;
-        margin-right: 30px;
-        min-width: 2000px;
-        max-width: 2560px;
+    margin-left: 30px;
+    margin-right: 30px;
+    // min-width: 2000px;
+    max-width: 2560px;
   }
 }
