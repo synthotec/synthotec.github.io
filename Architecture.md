@@ -36,23 +36,3 @@ architecture-beta
     junctionTop:L -- R:HTTPS
     HTTPS:L <--> R:MOBILE
 ```
-
-<script src="https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs"></script>
-  <script>
-  var config = {
-      startOnLoad:true,
-      theme: 'dark',
-      flowchart:{
-              useMaxWidth:false,
-              htmlLabels:true
-          }
-  };
-  mermaid.initialize(config);
-  window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
-  </script>
-  <style media="screen">
-    code.language-mermaid {
-      background-color: transparent;
-      border: none;
-    }
-  </style>

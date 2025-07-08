@@ -10,7 +10,7 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       layout: "default"
-# mermaid:
-#   # Version of mermaid library
-#   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
-#   version: "11.8.1"
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "11.8.1"
