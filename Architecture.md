@@ -2,7 +2,6 @@
 layout: default
 title: System Architecture
 ---
-{% include install_icons.html %}
 # System Architecture
 ```mermaid
 architecture-beta
