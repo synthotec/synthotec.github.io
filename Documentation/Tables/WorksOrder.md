@@ -15,13 +15,13 @@ No description for this table has been created yet.
 *[Type]: Type of data held within this field
 *[Read Only]: No setter/write functionality has been added to this field
 *[Alias Path]: The path that 4D will follow when this alias is called
-*[Notes]: These notes have been manually added to this item for documentation purposes
+*[Description]: This description has been manually added to this item for documentation purposes
 *[Inverse Name]: The name of the inverse relationship from the corresponding table
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
 
-|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
+|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Works_Order_No**|number|✔️|✔️||✔️|✔️|✔️||
 |AmberQuarantine|bool|||||✔️|||
@@ -70,7 +70,7 @@ No description for this table has been created yet.
 |MigrationID|number||||✔️|✔️|||
 |NewSystem|bool||||✔️|✔️|||
 |No_In_Stock|number||||✔️|✔️|||
-|Notes|string|||||✔️|||
+|Description|string|||||✔️|||
 |OEEgenerated|bool||||✔️|✔️|||
 |Packing_Box_No|number|||||✔️|||
 |Packing_Completed|bool||||✔️|✔️|||
@@ -111,13 +111,13 @@ No description for this table has been created yet.
 
 ## Aliases
 
-|Name|Alias Path|Type|Read Only|Notes|
+|Name|Alias Path|Type|Read Only|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Works_Order_No|number|||
 
 ## Calculated Fields
 
-|Name|Type|Read Only|Exposed|Notes|
+|Name|Type|Read Only|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |AvailableStock|number|✔️|||
 |ExS1Stock|number|✔️|||
@@ -129,7 +129,7 @@ No description for this table has been created yet.
 ## Relationships
 ### Many to One
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|WorksOrderSelection|✔️||
 |MaterialEntity|[Material](Material.md)|WorksOrderSelection|✔️||
@@ -138,7 +138,7 @@ No description for this table has been created yet.
 
 ### One to Many
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|WorksOrderEntity|✔️||
 |CofCSelection|[CofC](CofC.md)|WorksOrderEntity|✔️||
@@ -159,13 +159,13 @@ No description for this table has been created yet.
 
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrder.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |setQuantityMade()|✔️||
 |getQuantityMade()|✔️||

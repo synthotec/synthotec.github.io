@@ -15,13 +15,13 @@ No description for this table has been created yet.
 *[Type]: Type of data held within this field
 *[Read Only]: No setter/write functionality has been added to this field
 *[Alias Path]: The path that 4D will follow when this alias is called
-*[Notes]: These notes have been manually added to this item for documentation purposes
+*[Description]: This description has been manually added to this item for documentation purposes
 *[Inverse Name]: The name of the inverse relationship from the corresponding table
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
 
-|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
+|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Petes_No**|number|✔️|✔️||✔️|✔️|✔️||
 |Acknowledged|bool|||||✔️|||
@@ -67,7 +67,7 @@ No description for this table has been created yet.
 |NSKDelivered|number|||||✔️|||
 |NSKUndelivered|number|||||✔️|||
 |Order_Price|number|||||✔️|||
-|OrderNotes|string|||||✔️|||
+|OrderDescription|string|||||✔️|||
 |OTIF|bool|||||✔️|||
 |OTIF_Comments|string|||||✔️|||
 |OTIF_Shortfall|number|||||✔️|||
@@ -95,7 +95,7 @@ No description for this table has been created yet.
 
 ## Aliases
 
-|Name|Alias Path|Type|Read Only|Notes|
+|Name|Alias Path|Type|Read Only|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ConfirmedArrivalDate|ConfirmedDue|date|||
 |ConfirmedDespatchDate|ReviewedReadyDate|date|||
@@ -103,7 +103,7 @@ No description for this table has been created yet.
 
 ## Calculated Fields
 
-|Name|Type|Read Only|Exposed|Notes|
+|Name|Type|Read Only|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |DeliveryDate|date|✔️|||
 |DeliveryDateTime|object|✔️|||
@@ -115,7 +115,7 @@ No description for this table has been created yet.
 ## Relationships
 ### Many to One
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|Customer_OrderSelection|✔️||
 |MaterialEntity|[Material](Material.md)|Customer_OrderSelection|✔️||
@@ -124,7 +124,7 @@ No description for this table has been created yet.
 
 ### One to Many
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Customer_OrderEntity|✔️||
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|Customer_OrderEntity|✔️||
@@ -133,14 +133,14 @@ No description for this table has been created yet.
 
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_Order.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |classicMakeOrderSort()|✔️||
 |classicOrderOverviewSort()|✔️||
 
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |createCofC()|✔️||
 |getAvailableForPickRequest()|✔️||

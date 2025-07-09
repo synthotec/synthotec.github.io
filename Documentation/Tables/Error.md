@@ -15,13 +15,13 @@ No description for this table has been created yet.
 *[Type]: Type of data held within this field
 *[Read Only]: No setter/write functionality has been added to this field
 *[Alias Path]: The path that 4D will follow when this alias is called
-*[Notes]: These notes have been manually added to this item for documentation purposes
+*[Description]: This description has been manually added to this item for documentation purposes
 *[Inverse Name]: The name of the inverse relationship from the corresponding table
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
 
-|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
+|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|string|✔️|✔️|✔️|✔️|✔️|||
 |Code|number|||||✔️|||
@@ -33,7 +33,7 @@ No description for this table has been created yet.
 
 ## Calculated Fields
 
-|Name|Type|Read Only|Exposed|Notes|
+|Name|Type|Read Only|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |FirstOccurrence|string|✔️|||
 |GitHubIssueLabel|string|✔️|||
@@ -46,7 +46,7 @@ No description for this table has been created yet.
 
 ### One to Many
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ErrorDetailSelection|[ErrorDetail](ErrorDetail.md)|ErrorEntity|✔️||
 
@@ -54,7 +54,7 @@ No description for this table has been created yet.
 
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Error.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |fillGitHubIssues()|||
 |setDebugInfo()|✔️||
@@ -63,6 +63,6 @@ No description for this table has been created yet.
 
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorEntity.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |createGitHubIssue()|||

@@ -15,13 +15,13 @@ No description for this table has been created yet.
 *[Type]: Type of data held within this field
 *[Read Only]: No setter/write functionality has been added to this field
 *[Alias Path]: The path that 4D will follow when this alias is called
-*[Notes]: These notes have been manually added to this item for documentation purposes
+*[Description]: This description has been manually added to this item for documentation purposes
 *[Inverse Name]: The name of the inverse relationship from the corresponding table
 *[Related Table]: The table that this relationship corresponds to
 *[Local]: Function to be called on local 4D client in user space instead of remotely on server
 ## Fields
 
-|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Notes|
+|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**Unique_ID**|number|✔️|✔️||✔️|✔️|✔️||
 |Archive|bool||||✔️|✔️|||
@@ -52,20 +52,20 @@ No description for this table has been created yet.
 
 ## Aliases
 
-|Name|Alias Path|Type|Read Only|Notes|
+|Name|Alias Path|Type|Read Only|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ID|Unique_ID|number|||
 
 ## Calculated Fields
 
-|Name|Type|Read Only|Exposed|Notes|
+|Name|Type|Read Only|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |HasMigrationID|bool|✔️|||
 
 ## Relationships
 ### Many to One
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |UsageMat1Entity|[Material](Material.md)|UsageMat1Selection|✔️||
 |UsageMat2Entity|[Material](Material.md)|UsageMat2Selection|✔️||
@@ -73,7 +73,7 @@ No description for this table has been created yet.
 
 ### One to Many
 
-|Name|Related Table|Inverse Name|Exposed|Notes|
+|Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |BOMSelection|[BOM](BOM.md)|MaterialEntity|✔️||
 |Customer_OrderSelection|[Customer_Order](Customer_Order.md)|MaterialEntity|✔️||
@@ -94,13 +94,13 @@ No description for this table has been created yet.
 
 ### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Material.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |getMigrationSettings()|✔️||
 
 ### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialEntity.4dm)
 
-|Name|Local|Notes|
+|Name|Local|Description|
 |:---|:---:|:---:|
 |getMaterialsUsingThis()|||
 |getMigrationRules()|✔️||
