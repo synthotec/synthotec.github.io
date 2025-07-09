@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Graph
+title: Graph ⌛
 parent: Classes
 ---
 

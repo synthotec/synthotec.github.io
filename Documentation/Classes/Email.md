@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Email
+title: Email ⌛
 parent: Classes
 ---
 

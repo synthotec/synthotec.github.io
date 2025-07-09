@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: EntityMigration
+title: EntityMigration ⌛
 parent: Classes
 ---
 

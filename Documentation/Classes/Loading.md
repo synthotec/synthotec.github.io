@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Loading
+title: Loading ⌛
 parent: Classes
 ---
 

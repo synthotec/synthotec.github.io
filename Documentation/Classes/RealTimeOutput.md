@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RealTimeOutput
+title: RealTimeOutput ⌛
 parent: Classes
 ---
 

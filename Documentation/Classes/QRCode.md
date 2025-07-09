@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: QRCode
+title: QRCode ⌛
 parent: Classes
 ---
 

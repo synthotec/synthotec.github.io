@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PrintSettings
+title: PrintSettings ⌛
 parent: Classes
 ---
 

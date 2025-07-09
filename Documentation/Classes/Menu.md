@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Menu
+title: Menu ⌛
 parent: Classes
 ---
 

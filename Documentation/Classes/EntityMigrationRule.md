@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: EntityMigrationRule
+title: EntityMigrationRule ⌛
 parent: Classes
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: SelectionLock
+title: SelectionLock ⌛
 parent: Classes
 ---
 

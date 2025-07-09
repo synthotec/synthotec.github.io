@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: HTML_Table
+title: HTML_Table ⌛
 parent: Classes
 ---
 

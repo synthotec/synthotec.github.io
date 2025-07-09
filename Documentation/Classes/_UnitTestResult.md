@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: _UnitTestResult
+title: _UnitTestResult ✅
 parent: Classes
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: GitHubApi
+title: GitHubApi ⌛
 parent: Classes
 ---
 

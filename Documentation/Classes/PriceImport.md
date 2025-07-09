@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PriceImport
+title: PriceImport ⌛
 parent: Classes
 ---
 

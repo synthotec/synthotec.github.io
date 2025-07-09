@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RealTimeTemperatureSensor
+title: RealTimeTemperatureSensor ⌛
 parent: Classes
 ---
 

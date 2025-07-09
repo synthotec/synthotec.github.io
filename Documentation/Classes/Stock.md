@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Stock
+title: Stock ⌛
 parent: Classes
 ---
 

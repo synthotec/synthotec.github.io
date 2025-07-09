@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PriceImportCell
+title: PriceImportCell ⌛
 parent: Classes
 ---
 

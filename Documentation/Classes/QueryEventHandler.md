@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: QueryEventHandler
+title: QueryEventHandler ⌛
 parent: Classes
 ---
 
