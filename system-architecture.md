@@ -6,22 +6,24 @@ nav_order: 2
 # System Architecture
 ```mermaid
 architecture-beta
+    group rt(streamline-ultimate-color:data-file-bars-add)[RealTime Data Collection]
+
     service 4d_server(simple-icons:4d)[SynthoTec 4D Server]
     service rest_api(streamline-ultimate-color:earth-refresh)[4D REST API]
-    service odbc_driver(streamline-ultimate-color:database-share-1)[4D ODBC Driver]
-    service dfs_namespace(streamline-ultimate-color:folder-share)[DFS Namespace]
+    service odbc_driver(streamline-ultimate-color:database-share-1)[4D ODBC Driver] 
+    service dfs_namespace(streamline-ultimate-color:folder-share)[DFS Namespace] 
     service excel_reports(vscode-icons:file-type-excel2)[Excel Reports]
     service 4d_mobile(devicon:xamarin)[SynthoTec 4D Mobile]
     service 4d_client(file-icons:4d)[SynthoTec 4D Client]
-    service realtime_client(devicon:visualbasic)[RealTime Client]
+    service realtime_client(devicon:visualbasic)[RealTime Client] in rt
     service realtime_display(devicon:visualbasic)[RealTime Display]
-    service tool_temp_monitor(devicon:arduino-wordmark)[Tool Temperature Monitor]
-    service production_cell(streamline-ultimate:factory-industrial-robot-arm-1-bold)[Production Cell]
+    service tool_temp_monitor(devicon:arduino-wordmark)[Tool Temperature Monitor] in rt
+    service production_cell(streamline-ultimate:factory-industrial-robot-arm-1-bold)[Production Cell] in rt
     service companyNoticeBoard(devicon:visualbasic)[Company Notice Board]
     service secondaryOpsPerformance(devicon:visualbasic)[Secondary Ops Performance Monitor]
     service microsoft_smtp_relay(logos:microsoft-icon)[Microsoft 365 SMTP Relay]
     service 4d_emails(streamline-ultimate-color:email-action-add)[4D Generated Emails]
-    service production_cell_relay_interface(mdi:serial-port)[Production Cell Relay Interface]
+    service production_cell_relay_interface(mdi:serial-port)[Production Cell Relay Interface] in rt
     service uptime_kuma(simple-icons:uptimekuma)[Uptime Kuma]
 
     junction junctionTop
