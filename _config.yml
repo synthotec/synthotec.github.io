@@ -2,8 +2,8 @@ title: SynthoTec Documentation
 description: Developer documentation for SynthoTec's 4D applications
 show_downloads: false
 google_analytics:
-# remote_theme: just-the-docs/just-the-docs
-theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs
+# theme: just-the-docs
 color_scheme: wider
 defaults:
   -
