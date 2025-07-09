@@ -21,31 +21,38 @@ architecture-beta
     service microsoft_smtp_relay(logos:microsoft-icon)[Microsoft 365 SMTP Relay]
     service 4d_emails(streamline-ultimate-color:email-action-add)[4D Generated Emails]
     service production_cell_relay_interface(mdi:serial-port)[Production Cell Relay Interface]
+    service uptime_kuma(simple-icons:uptimekuma)[Uptime Kuma]
 
-    junction junction4d_server
+    junction junctionTop
+    junction junctionBottom
+    junction junctionRight
+    junction junctionRT
     junction junctionFileshare
 
-    4d_server:B -- T:junction4d_server
+    4d_server:B -- T:junctionTop
     4d_server:R <--> L:4d_client
-    junction4d_server:B -- T:dfs_namespace
+    junctionTop:B -- T:junctionBottom
+    junctionBottom:B -- T:dfs_namespace
     dfs_namespace:R <--> L:realtime_client
     realtime_client:B <-- T:tool_temp_monitor
     realtime_client:R <-- L:production_cell_relay_interface
-     production_cell_relay_interface:B -- T:production_cell
+     production_cell_relay_interface:B <-- T:production_cell
     tool_temp_monitor:R <-- L:production_cell
     dfs_namespace:B --> T:realtime_display
-    junction4d_server:R -- L:odbc_driver
+    junctionTop:R -- L:odbc_driver
     odbc_driver:R --> L:excel_reports
-    junction4d_server:L -- R:rest_api
+    junctionTop:L -- R:rest_api
     rest_api:L <--> R:4d_mobile
     dfs_namespace:L -- R:junctionFileshare
     junctionFileshare:L --> R:companyNoticeBoard
     junctionFileshare:B --> T:secondaryOpsPerformance
     4d_server:L --> R:4d_emails
     4d_emails:L --> R:microsoft_smtp_relay
+    realtime_client:T --> L:uptime_kuma
 ```
 
-<script type="module">    
+<script type="module">
+    
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.8.1/dist/mermaid.esm.min.mjs';
     mermaid.registerIconPacks([
         {
