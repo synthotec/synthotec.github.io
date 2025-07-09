@@ -44,7 +44,7 @@ architecture-beta
         {
             name: 'logos',
             loader: () =>
-            fetch('https://unpkg.com/@iconify-json/vscode-icons@1/icons.json').then((res) => res.json()),
+            fetch('https://unpkg.com/@iconify-json/ri@1/icons.json').then((res) => res.json()),
         },
     ]);
     // mermaid.registerIconPacks([
