@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: CollectionObject ⌛
+title: CollectionObject ✅
 parent: Classes
 ---
 
