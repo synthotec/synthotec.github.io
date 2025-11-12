@@ -1,55 +1,80 @@
-﻿---
-layout: default
-title: EntitySelectionMenu ⌛
-parent: Classes
+﻿# EntitySelectionMenu
+
+## Table of Contents
+
+### Properties
+
+- [EntitySelection](#entityselection)
+- [_selectedEntity](#selectedentity)
+
+### Functions
+
+- [display()](#display)
+- [displayWithParents()](#displaywithparents)
+- [selectedEntity() [setter]](#selectedentity)
+- [selectedEntity() [getter]](#selectedentity)
+
 ---
 
-# EntitySelectionMenu
+## Properties
 
-|   |
-|:---|
-|[**.new**( *EntitySelection* : 4D.EntitySelection; *ParentPath* : Text )](#new)<br>|
-|[**.set selectedEntity**( *SelectedEntity* : 4D.Entity )](#set selectedentity)<br>|
-|[**.display**( *DisplayTextProperty* : Object ) : 4D.Entity](#display)<br>|
-|[**.displayWithParents**( *DisplayTextProperty* : Object; *ParentProperty* : Object ) : 4D.Entity](#displaywithparents)<br>|
-|[**.get selectedEntity**() : 4D.Entity](#get selectedentity)<br>|
+### EntitySelection {#entityselection}
+
+**Type:** `4D.EntitySelection`
+
+---
+
+### _selectedEntity {#selectedentity}
+
+**Type:** `4D.Entity`
+
+---
+
+## Functions
+
+### display {#display}
 
 
-## new()
-**.new**( *EntitySelection* : 4D.EntitySelection; *ParentPath* : Text )
+```4d
+Function display($DisplayTextProperty : Object) -> 4D.Entity
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|EntitySelection|4D.EntitySelection|->|<Description>|
-|ParentPath|Text|->|<Description>|
+**Returns:** `4D.Entity`
 
-## set selectedEntity()
-**.set selectedEntity**( *SelectedEntity* : 4D.Entity )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SelectedEntity|4D.Entity|->|<Description>|
+### displayWithParents {#displaywithparents}
 
-## display()
-**.display**( *DisplayTextProperty* : Object ) : 4D.Entity
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DisplayTextProperty|Object|->|<Description>|
-||4D.Entity|<-|<Description>|
+```4d
+Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Object) -> 4D.Entity
+```
 
-## displayWithParents()
-**.displayWithParents**( *DisplayTextProperty* : Object; *ParentProperty* : Object ) : 4D.Entity
+**Returns:** `4D.Entity`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DisplayTextProperty|Object|->|<Description>|
-|ParentProperty|Object|->|<Description>|
-||4D.Entity|<-|<Description>|
+---
 
-## get selectedEntity()
-**.get selectedEntity**() : 4D.Entity
+### selectedEntity {#selectedentity}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||4D.Entity|<-|<Description>|
+```4d
+Function selectedEntity($SelectedEntity : 4D.Entity)
+```
+
+---
+
+### selectedEntity {#selectedentity}
+ `[getter]`
+
+```4d
+Function selectedEntity -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+---
+
+*Generated from EntitySelectionMenu.4dm*
+*Last updated: 2025-11-12T17:04:21.652Z*

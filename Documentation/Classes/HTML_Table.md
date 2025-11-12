@@ -1,66 +1,64 @@
-﻿---
-layout: default
-title: HTML_Table ⌛
-parent: Classes
+﻿# HTML_Table
+
+## Description
+
+var $RowObject : Object
+$RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
+
+## Table of Contents
+
+### Functions
+
+- [AddRow()](#addrow)
+- [Output()](#output)
+- [HTML_Cell()](#html_cell)
+- [merge()](#merge)
+
 ---
 
-# HTML_Table
+## Functions
 
-|   |
-|:---|
-|[**.new**( *BorderWidth* : Integer; *CellPadding* : Integer; *UpperCase* : Boolean; *Centralize* : Boolean )](#new)<br>|
-|[**.Output**()->Output_table : Text](#output)<br>|
-|[**.AddRow**( *RowCellCollection* : Collection; *Bold* : Boolean; *ForegroundColour* : Text; *BackgroundColour* : Text; *Alignment* : Text )](#addrow)<br>|
-|[**.merge**( *SkipFirstRow* : Boolean; *ColumnsToIgnore* : Collection )](#merge)<br>|
-|[**.HTML_Cell**( *CellValue* : Text; *ForegroundColour* : Text; *BackgroundColour* : Text; *Alignment* : Text; *Strong* : Boolean; *RowSpan* : Integer; *ColumnSpan* : Integer ) : Object](#html_cell)<br>|
+### AddRow {#addrow}
 
 
-## new()
-**.new**( *BorderWidth* : Integer; *CellPadding* : Integer; *UpperCase* : Boolean; *Centralize* : Boolean )
+```4d
+Function AddRow($RowCellCollection : Collection; $Bold : Boolean; $ForegroundColour : Text; $BackgroundColour : Text; $Alignment : Text)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BorderWidth|Integer|->|<Description>|
-|CellPadding|Integer|->|<Description>|
-|UpperCase|Boolean|->|<Description>|
-|Centralize|Boolean|->|<Description>|
+---
 
-## Output()
-**.Output**()->Output_table : Text
+### Output {#output}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Output_table|Text|<-|<Description>|
 
-## AddRow()
-**.AddRow**( *RowCellCollection* : Collection; *Bold* : Boolean; *ForegroundColour* : Text; *BackgroundColour* : Text; *Alignment* : Text )
+```4d
+Function Output -> Text
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|RowCellCollection|Collection|->|<Description>|
-|Bold|Boolean|->|<Description>|
-|ForegroundColour|Text|->|<Description>|
-|BackgroundColour|Text|->|<Description>|
-|Alignment|Text|->|<Description>|
+**Returns:** `Text`
 
-## merge()
-**.merge**( *SkipFirstRow* : Boolean; *ColumnsToIgnore* : Collection )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SkipFirstRow|Boolean|->|<Description>|
-|ColumnsToIgnore|Collection|->|<Description>|
+### HTML_Cell {#html_cell}
 
-## HTML_Cell()
-**.HTML_Cell**( *CellValue* : Text; *ForegroundColour* : Text; *BackgroundColour* : Text; *Alignment* : Text; *Strong* : Boolean; *RowSpan* : Integer; *ColumnSpan* : Integer ) : Object
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|CellValue|Text|->|<Description>|
-|ForegroundColour|Text|->|<Description>|
-|BackgroundColour|Text|->|<Description>|
-|Alignment|Text|->|<Description>|
-|Strong|Boolean|->|<Description>|
-|RowSpan|Integer|->|<Description>|
-|ColumnSpan|Integer|->|<Description>|
-||Object|<-|<Description>|
+```4d
+Function HTML_Cell($CellValue : Text; $ForegroundColour : Text; $BackgroundColour : Text; $Alignment : Text; $Strong : Boolean; $RowSpan : Integer; $ColumnSpan : Integer) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### merge {#merge}
+
+
+```4d
+Function merge($SkipFirstRow : Boolean; $ColumnsToIgnore : Collection)
+```
+
+---
+
+---
+
+*Generated from HTML_Table.4dm*
+*Last updated: 2025-11-12T17:04:21.810Z*

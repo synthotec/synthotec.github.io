@@ -1,90 +1,115 @@
-﻿---
-layout: default
-title: PrintSettings ⌛
-parent: Classes
+﻿# PrintSettings
+
+## Table of Contents
+
+### Properties
+
+- [Name](#name)
+- [Paper](#paper)
+- [Orientation](#orientation)
+- [Copies](#copies)
+- [CurrentPrinter](#currentprinter)
+
+### Functions
+
+- [display()](#display)
+- [load()](#load)
+- [save()](#save)
+- [apply()](#apply)
+- [restore()](#restore)
+
 ---
 
-# PrintSettings
+## Properties
 
-|   |
-|:---|
-|[**.new**( *UseSystemDefaultPrinter* : Boolean; *Paper* : Text; *Copies* : Integer; *Orientation* : Integer )](#new)<br>|
-|[**.display**()->Accepted : Boolean](#display)<br>|
-|[**.load**( *SettingName* : Text; *LoadCopyCount* : Boolean ) : cs.PrintSettings](#load)<br>|
-|[**.restore**()->Success : Boolean](#restore)<br>|
-|[**.apply**()->Success : Boolean](#apply)<br>|
-|[**.save**( *SettingName* : Text ) : cs.PrintSettings](#save)<br>|
-|[CurrentPrinter : Text](#currentprinter)<br>|
-|[Paper : Text](#paper)<br>|
-|[Name : Text](#name)<br>|
-|[Orientation : Integer](#orientation)<br>|
-|[Copies : Integer](#copies)<br>|
+### Name {#name}
 
+**Type:** `Text`
 
-## new()
-**.new**( *UseSystemDefaultPrinter* : Boolean; *Paper* : Text; *Copies* : Integer; *Orientation* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|UseSystemDefaultPrinter|Boolean|->|<Description>|
-|Paper|Text|->|<Description>|
-|Copies|Integer|->|<Description>|
-|Orientation|Integer|->|<Description>|
+### Paper {#paper}
 
-## display()
-**.display**()->Accepted : Boolean
+**Type:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Accepted|Boolean|<-|<Description>|
+---
 
-## load()
-**.load**( *SettingName* : Text; *LoadCopyCount* : Boolean ) : cs.PrintSettings
+### Orientation {#orientation}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SettingName|Text|->|<Description>|
-|LoadCopyCount|Boolean|->|<Description>|
-||cs.PrintSettings|<-|<Description>|
+**Type:** `Integer`
 
-## restore()
-**.restore**()->Success : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Success|Boolean|<-|<Description>|
+### Copies {#copies}
 
-## apply()
-**.apply**()->Success : Boolean
+**Type:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Success|Boolean|<-|<Description>|
+---
 
-## save()
-**.save**( *SettingName* : Text ) : cs.PrintSettings
+### CurrentPrinter {#currentprinter}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SettingName|Text|->|<Description>|
-||cs.PrintSettings|<-|<Description>|
+**Type:** `Text`
 
-## CurrentPrinter
-CurrentPrinter : Text
+---
+
+## Functions
+
+### display {#display}
 
 
-## Paper
-Paper : Text
+```4d
+Function display -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### load {#load}
 
 
-## Name
-Name : Text
+```4d
+Function load($SettingName : Text; $LoadCopyCount : Boolean) -> cs.PrintSettings
+```
+
+**Returns:** `cs.PrintSettings`
+
+---
+
+### save {#save}
 
 
-## Orientation
-Orientation : Integer
+```4d
+Function save($SettingName : Text) -> cs.PrintSettings
+```
+
+**Returns:** `cs.PrintSettings`
+
+---
+
+### apply {#apply}
 
 
-## Copies
-Copies : Integer
+```4d
+Function apply -> Boolean
+```
 
+**Returns:** `Boolean`
+
+---
+
+### restore {#restore}
+
+
+```4d
+Function restore -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from PrintSettings.4dm*
+*Last updated: 2025-11-12T17:04:22.160Z*

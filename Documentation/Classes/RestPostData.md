@@ -1,79 +1,94 @@
-﻿---
-layout: default
-title: RestPostData ⌛
-parent: Classes
+﻿# RestPostData
+
+## Table of Contents
+
+### Properties
+
+- [RestPostJson; ScannerData; PromptResult](#restpostjson; scannerdata; promptresult)
+- [StaffID](#staffid)
+
+### Functions
+
+- [getStaffEntity()](#getstaffentity)
+- [getScannerObject()](#getscannerobject)
+- [getScannerText()](#getscannertext)
+- [getRestPostObject()](#getrestpostobject)
+- [toObject()](#toobject)
+
 ---
 
-# RestPostData
+## Properties
 
-|   |
-|:---|
-|[**.new**( *RestPostDataObject* : Object )](#new)<br>|
-|[**.getStaffEntity**() : cs.StaffEntity](#getstaffentity)<br>|
-|[**.getScannerObject**() : Object](#getscannerobject)<br>|
-|[**.getRestPostObject**() : Object](#getrestpostobject)<br>|
-|[**.getScannerText**() : Text](#getscannertext)<br>|
-|[**.toObject**() : Object](#toobject)<br>|
-|[RestPostJson : Text](#restpostjson)<br>|
-|[ScannerData : Text](#scannerdata)<br>|
-|[PromptResult : Text](#promptresult)<br>|
-|[StaffID : Integer](#staffid)<br>|
+### RestPostJson; ScannerData; PromptResult {#restpostjson; scannerdata; promptresult}
 
+**Type:** `Text`
 
-## new()
-**.new**( *RestPostDataObject* : Object )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|RestPostDataObject|Object|->|<Description>|
+### StaffID {#staffid}
 
-## getStaffEntity()
-**.getStaffEntity**() : cs.StaffEntity
+**Type:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||cs.StaffEntity|<-|<Description>|
+---
 
-## getScannerObject()
-**.getScannerObject**() : Object
+## Functions
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Object|<-|<Description>|
-
-## getRestPostObject()
-**.getRestPostObject**() : Object
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Object|<-|<Description>|
-
-## getScannerText()
-**.getScannerText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## toObject()
-**.toObject**() : Object
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Object|<-|<Description>|
-
-## RestPostJson
-RestPostJson : Text
+### getStaffEntity {#getstaffentity}
 
 
-## ScannerData
-ScannerData : Text
+```4d
+Function getStaffEntity -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+### getScannerObject {#getscannerobject}
 
 
-## PromptResult
-PromptResult : Text
+```4d
+Function getScannerObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### getScannerText {#getscannertext}
 
 
-## StaffID
-StaffID : Integer
+```4d
+Function getScannerText -> Text
+```
 
+**Returns:** `Text`
+
+---
+
+### getRestPostObject {#getrestpostobject}
+
+
+```4d
+Function getRestPostObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### toObject {#toobject}
+
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from RestPostData.4dm*
+*Last updated: 2025-11-12T17:04:22.387Z*

@@ -1,62 +1,75 @@
-﻿---
-layout: default
-title: UnitTest ⌛
-parent: Classes
+﻿# UnitTest
+
+## Table of Contents
+
+### Properties
+
+- [Description; Process](#description; process)
+- [UnitTestResults](#unittestresults)
+- [FailedTestCount](#failedtestcount)
+
+### Functions
+
+- [evaluate()](#evaluate)
+- [Success() [getter]](#success)
+- [displayResultsAlert()](#displayresultsalert)
+
 ---
 
-# UnitTest
+## Properties
 
-|   |
-|:---|
-|[**.new**( *Description* : Text )](#new)<br>|
-|[**.evaluate**( *TestFormula* : 4D.Function; *TestFormulaParameters* : Collection )->UnitTestResult : cs._UnitTestResult](#evaluate)<br>|
-|[**.get Success**() : Boolean](#get success)<br>|
-|[**.displayResultsAlert**()](#displayresultsalert)<br>|
-|[Description : Text](#description)<br>|
-|[Process : Text](#process)<br>|
-|[UnitTestResults : Collection](#unittestresults)<br>|
-|[FailedTestCount : Integer](#failedtestcount)<br>|
+### Description; Process {#description; process}
 
+**Type:** `Text`
 
-## new()
-**.new**( *Description* : Text )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Description|Text|->|<Description>|
+### UnitTestResults {#unittestresults}
 
-## evaluate()
-**.evaluate**( *TestFormula* : 4D.Function; *TestFormulaParameters* : Collection )->UnitTestResult : cs._UnitTestResult
+**Type:** `Collection`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|TestFormula|4D.Function|->|<Description>|
-|TestFormulaParameters|Collection|->|<Description>|
-|UnitTestResult|cs._UnitTestResult|<-|<Description>|
+---
 
-## get Success()
-**.get Success**() : Boolean
+### FailedTestCount {#failedtestcount}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+**Type:** `Integer`
 
-## displayResultsAlert()
-**.displayResultsAlert**()
+---
+
+## Functions
+
+### evaluate {#evaluate}
 
 
-## Description
-Description : Text
+```4d
+Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> cs._UnitTestResult
+```
+
+**Returns:** `cs._UnitTestResult`
+
+---
+
+### Success {#success}
+ `[getter]`
+
+```4d
+Function Success -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### displayResultsAlert {#displayresultsalert}
 
 
-## Process
-Process : Text
+```4d
+Function displayResultsAlert
+```
 
+---
 
-## UnitTestResults
-UnitTestResults : Collection
+---
 
-
-## FailedTestCount
-FailedTestCount : Integer
-
+*Generated from UnitTest.4dm*
+*Last updated: 2025-11-12T17:04:22.568Z*

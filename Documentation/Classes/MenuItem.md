@@ -1,57 +1,138 @@
-﻿---
-layout: default
-title: MenuItem ⌛
-parent: Classes
+﻿# MenuItem
+
+## Table of Contents
+
+### Properties
+
+- [_UUID](#uuid)
+- [_IsFormulaItem](#isformulaitem)
+- [_Formula](#formula)
+- [_IsVariantItem](#isvariantitem)
+- [_Variant](#variant)
+- [MenuText](#menutext)
+- [Bold](#bold)
+- [Italic](#italic)
+- [Underline](#underline)
+- [Checked](#checked)
+- [Enabled](#enabled)
+- [_IsSeperator](#isseperator)
+
+### Functions
+
+- [_Style() [getter]](#_style)
+- [_addMenuItem()](#_addmenuitem)
+- [_process()](#_process)
+
 ---
 
-# MenuItem
+## Properties
 
-|   |
-|:---|
-|[**.new**( *MenuText* : Text )](#new)<br>|
-|[**.get _Style**() : Integer](#get _style)<br>|
-|[Bold : Boolean](#bold)<br>|
-|[Italic : Boolean](#italic)<br>|
-|[MenuText : Text](#menutext)<br>|
-|[Underline : Boolean](#underline)<br>|
-|[Checked : Boolean](#checked)<br>|
-|[Enabled : Boolean](#enabled)<br>|
+### _UUID {#uuid}
+
+**Type:** `Text`
+
+---
+
+### _IsFormulaItem {#isformulaitem}
+
+**Type:** `Boolean`
+
+---
+
+### _Formula {#formula}
+
+**Type:** `Variant`
+
+---
+
+### _IsVariantItem {#isvariantitem}
+
+**Type:** `Boolean`
+
+---
+
+### _Variant {#variant}
+
+**Type:** `Variant`
+
+---
+
+### MenuText {#menutext}
+
+**Type:** `Text`
+
+---
+
+### Bold {#bold}
+
+**Type:** `Boolean`
+
+---
+
+### Italic {#italic}
+
+**Type:** `Boolean`
+
+---
+
+### Underline {#underline}
+
+**Type:** `Boolean`
+
+---
+
+### Checked {#checked}
+
+**Type:** `Boolean`
+
+---
+
+### Enabled {#enabled}
+
+**Type:** `Boolean`
+
+---
+
+### _IsSeperator {#isseperator}
+
+**Type:** `Boolean`
+
+---
+
+## Functions
+
+### _Style {#_style}
+ `[getter]`
+
+```4d
+Function _Style -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### _addMenuItem {#_addmenuitem}
 
 
-## new()
-**.new**( *MenuText* : Text )
+```4d
+Function _addMenuItem($MenuReference : Text)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MenuText|Text|->|<Description>|
+---
 
-## get _Style()
-**.get _Style**() : Integer
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
-
-## Bold
-Bold : Boolean
+### _process {#_process}
 
 
-## Italic
-Italic : Boolean
+```4d
+Function _process -> Variant
+```
 
+**Returns:** `Variant`
 
-## MenuText
-MenuText : Text
+---
 
+---
 
-## Underline
-Underline : Boolean
-
-
-## Checked
-Checked : Boolean
-
-
-## Enabled
-Enabled : Boolean
-
+*Generated from MenuItem.4dm*
+*Last updated: 2025-11-12T17:04:21.898Z*

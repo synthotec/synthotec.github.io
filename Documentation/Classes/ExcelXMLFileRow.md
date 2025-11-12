@@ -1,27 +1,66 @@
-﻿---
-layout: default
-title: ExcelXMLFileRow ⌛
-parent: Classes
+﻿# ExcelXMLFileRow
+
+## Table of Contents
+
+### Properties
+
+- [Cells](#cells)
+- [CellType_Number](#celltypenumber)
+- [CellType_String](#celltypestring)
+- [CellType_ISODateTime](#celltypeisodatetime)
+
+### Functions
+
+- [addCell()](#addcell)
+
 ---
 
-# ExcelXMLFileRow
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.addCell**( *Value* : Text; *Type* : Text; *StyleID* : Text; *Formula* : Text )](#addcell)<br>|
+### Cells {#cells}
+
+**Type:** `Collection`
+
+**Default Value:** `[]`
+
+---
+
+### CellType_Number {#celltypenumber}
+
+**Type:** `Text`
+
+**Default Value:** `"Number"`
+
+---
+
+### CellType_String {#celltypestring}
+
+**Type:** `Text`
+
+**Default Value:** `"String"`
+
+---
+
+### CellType_ISODateTime {#celltypeisodatetime}
+
+**Type:** *Not specified*
+
+**Default Value:** `"DateTime"`
+
+---
+
+## Functions
+
+### addCell {#addcell}
 
 
-## new()
-**.new**()
+```4d
+Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
+```
 
+---
 
-## addCell()
-**.addCell**( *Value* : Text; *Type* : Text; *StyleID* : Text; *Formula* : Text )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Value|Text|->|<Description>|
-|Type|Text|->|<Description>|
-|StyleID|Text|->|<Description>|
-|Formula|Text|->|<Description>|
+*Generated from ExcelXMLFileRow.4dm*
+*Last updated: 2025-11-12T17:04:21.711Z*

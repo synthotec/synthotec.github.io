@@ -1,0 +1,41 @@
+﻿# Tools
+
+**Extends:** `DataClass`
+
+## Table of Contents
+
+### Functions
+
+- [getMigrationSettings()](#getmigrationsettings)
+- [createForProduct()](#createforproduct)
+
+---
+
+## Functions
+
+### getMigrationSettings {#getmigrationsettings}
+ `[local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### createForProduct {#createforproduct}
+ `[local]`
+
+```4d
+Function createForProduct -> cs.ToolsEntity
+```
+
+**Returns:** `cs.ToolsEntity`
+
+---
+
+---
+
+*Generated from Tools.4dm*
+*Last updated: 2025-11-12T17:04:22.521Z*

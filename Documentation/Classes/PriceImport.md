@@ -1,44 +1,66 @@
-﻿---
-layout: default
-title: PriceImport ⌛
-parent: Classes
+﻿# PriceImport
+
+## Table of Contents
+
+### Properties
+
+- [PasteBoardText](#pasteboardtext)
+- [ColumnNames](#columnnames)
+- [DataLines](#datalines)
+- [CellCollection](#cellcollection)
+
+### Functions
+
+- [importPrices()](#importprices)
+
 ---
 
-# PriceImport
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.importPrices**()->Result : Object](#importprices)<br>|
-|[PasteBoardText : Text](#pasteboardtext)<br>|
-|[ColumnNames : Collection](#columnnames)<br>|
-|[DataLines : Collection](#datalines)<br>|
-|[CellCollection : Collection](#cellcollection)<br>|
+### PasteBoardText {#pasteboardtext}
+
+**Type:** `Text`
+
+---
+
+### ColumnNames {#columnnames}
+
+**Type:** *Not specified*
+
+**Default Value:** `[]`
+
+---
+
+### DataLines {#datalines}
+
+**Type:** *Not specified*
+
+**Default Value:** `[]`
+
+---
+
+### CellCollection {#cellcollection}
+
+**Type:** *Not specified*
+
+**Default Value:** `[]`
+
+---
+
+## Functions
+
+### importPrices {#importprices}
 
 
-## new()
-**.new**()
+```4d
+Function importPrices -> Object
+```
 
+**Returns:** `Object`
 
-## importPrices()
-**.importPrices**()->Result : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Result|Object|<-|<Description>|
+---
 
-## PasteBoardText
-PasteBoardText : Text
-
-
-## ColumnNames
-ColumnNames : Collection
-
-
-## DataLines
-DataLines : Collection
-
-
-## CellCollection
-CellCollection : Collection
-
+*Generated from PriceImport.4dm*
+*Last updated: 2025-11-12T17:04:22.127Z*

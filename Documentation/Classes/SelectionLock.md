@@ -1,49 +1,54 @@
-﻿---
-layout: default
-title: SelectionLock ⌛
-parent: Classes
+﻿# SelectionLock
+
+## Table of Contents
+
+### Properties
+
+- [LockedEntityCollection; FailedLockObjectCollection](#lockedentitycollection; failedlockobjectcollection)
+- [Success](#success)
+
+### Functions
+
+- [displayAlert()](#displayalert)
+- [unlock()](#unlock)
+
 ---
 
-# SelectionLock
+## Properties
 
-|   |
-|:---|
-|[**.new**( *EntitySelectionCollection* : Collection; *UnlockOnError* : Boolean )](#new)<br>|
-|[**.unlock**()](#unlock)<br>|
-|[**.displayAlert**( *Unlock* : Boolean; *DisplayForAllEntities* : Boolean )](#displayalert)<br>|
-|[LockedEntityCollection : Collection](#lockedentitycollection)<br>|
-|[FailedLockObjectCollection : Collection](#failedlockobjectcollection)<br>|
-|[Success : Boolean](#success)<br>|
+### LockedEntityCollection; FailedLockObjectCollection {#lockedentitycollection; failedlockobjectcollection}
 
+**Type:** `Collection`
 
-## new()
-**.new**( *EntitySelectionCollection* : Collection; *UnlockOnError* : Boolean )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|EntitySelectionCollection|Collection|->|<Description>|
-|UnlockOnError|Boolean|->|<Description>|
+### Success {#success}
 
-## unlock()
-**.unlock**()
+**Type:** `Boolean`
+
+---
+
+## Functions
+
+### displayAlert {#displayalert}
 
 
-## displayAlert()
-**.displayAlert**( *Unlock* : Boolean; *DisplayForAllEntities* : Boolean )
+```4d
+Function displayAlert($Unlock : Boolean; $DisplayForAllEntities : Boolean)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Unlock|Boolean|->|<Description>|
-|DisplayForAllEntities|Boolean|->|<Description>|
+---
 
-## LockedEntityCollection
-LockedEntityCollection : Collection
+### unlock {#unlock}
 
 
-## FailedLockObjectCollection
-FailedLockObjectCollection : Collection
+```4d
+Function unlock
+```
 
+---
 
-## Success
-Success : Boolean
+---
 
+*Generated from SelectionLock.4dm*
+*Last updated: 2025-11-12T17:04:22.416Z*

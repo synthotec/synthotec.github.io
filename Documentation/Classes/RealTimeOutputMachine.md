@@ -1,233 +1,348 @@
-﻿---
-layout: default
-title: RealTimeOutputMachine ⌛
-parent: Classes
+﻿# RealTimeOutputMachine
+
+## Description
+
+MARK:Primary Colors
+
+## Table of Contents
+
+### Properties
+
+- [RealTimeMachinesEntity](#realtimemachinesentity)
+- [WorksOrderEntity](#worksorderentity)
+- [ProductEntity](#productentity)
+- [ToolsEntity](#toolsentity)
+- [DownReasonsEntity](#downreasonsentity)
+- [AverageCycleTime](#averagecycletime)
+- [RunningSlow](#runningslow)
+- [MachineWheelsEntity](#machinewheelsentity)
+- [QuantityMade](#quantitymade)
+- [QuantityScrapped](#quantityscrapped)
+
+### Functions
+
+- [ProcessColors()](#processcolors)
+- [SecondaryStatusText() [getter]](#secondarystatustext)
+- [TimeRemainingText() [getter]](#timeremainingtext)
+- [setPrimaryColors()](#setprimarycolors)
+- [setAlternatingColors()](#setalternatingcolors)
+- [setDateTimeColors()](#setdatetimecolors)
+- [setAlertColors()](#setalertcolors)
+- [DeviceMaintenanceActive() [getter]](#devicemaintenanceactive)
+- [MachineDisconnected() [getter]](#machinedisconnected)
+- [MachineRunning() [getter]](#machinerunning)
+- [WorksOrderIsOpen() [getter]](#worksorderisopen)
+- [UnacknowledgedSensorExceptions() [getter]](#unacknowledgedsensorexceptions)
+- [PrimaryStatusText() [getter]](#primarystatustext)
+- [ScrapText() [getter]](#scraptext)
+- [PartsMadeText() [getter]](#partsmadetext)
+- [AlertsText() [getter]](#alertstext)
+- [PercentMade() [getter]](#percentmade)
+- [MouldStatusText() [getter]](#mouldstatustext)
+- [MachineNumberText() [getter]](#machinenumbertext)
+- [PartNameText() [getter]](#partnametext)
+- [UnicodeSymbolsText() [getter]](#unicodesymbolstext)
+- [setTimeRemainingText()](#settimeremainingtext)
+
 ---
 
-# RealTimeOutputMachine
+## Properties
 
-|   |
-|:---|
-|[**.new**( *RealTimeMachinesEntity* : cs.RealTimeMachinesEntity )](#new)<br>|
-|[**.ProcessColors**()](#processcolors)<br>|
-|[**.setDateTimeColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )](#setdatetimecolors)<br>|
-|[**.get SecondaryStatusText**()->DateTimeObject : Object](#get secondarystatustext)<br>|
-|[**.get TimeRemainingText**()->DateTimeObject : Object](#get timeremainingtext)<br>|
-|[**.get MouldStatusText**() : Text](#get mouldstatustext)<br>|
-|[**.setPrimaryColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )](#setprimarycolors)<br>|
-|[**.get DeviceMaintenanceActive**() : Boolean](#get devicemaintenanceactive)<br>|
-|[**.setAlternatingColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )](#setalternatingcolors)<br>|
-|[**.setAlertColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )](#setalertcolors)<br>|
-|[**.get MachineDisconnected**() : Boolean](#get machinedisconnected)<br>|
-|[**.get MachineRunning**() : Boolean](#get machinerunning)<br>|
-|[**.get WorksOrderIsOpen**() : Boolean](#get worksorderisopen)<br>|
-|[**.get UnacknowledgedSensorExceptions**() : Boolean](#get unacknowledgedsensorexceptions)<br>|
-|[**.get PrimaryStatusText**() : Text](#get primarystatustext)<br>|
-|[**.get ScrapText**() : Text](#get scraptext)<br>|
-|[**.get PartsMadeText**() : Text](#get partsmadetext)<br>|
-|[**.get AlertsText**() : Text](#get alertstext)<br>|
-|[**.get PercentMade**() : Real](#get percentmade)<br>|
-|[**.get MachineNumberText**() : Text](#get machinenumbertext)<br>|
-|[**.get PartNameText**() : Text](#get partnametext)<br>|
-|[**.get UnicodeSymbolsText**() : Text](#get unicodesymbolstext)<br>|
-|[**.setTimeRemainingText**( *Text* : Text; *DateTime* : Variant; *AdditionalSeconds* : Real )](#settimeremainingtext)<br>|
-|[RealTimeMachinesEntity : cs.RealTimeMachinesEntity](#realtimemachinesentity)<br>|
-|[WorksOrderEntity : cs.WorksOrderEntity](#worksorderentity)<br>|
-|[ProductEntity : cs.ProductEntity](#productentity)<br>|
-|[RunningSlow : Boolean](#runningslow)<br>|
-|[ToolsEntity : cs.ToolsEntity](#toolsentity)<br>|
-|[AverageCycleTime : Real](#averagecycletime)<br>|
-|[DownReasonsEntity : cs.DownReasonsEntity](#downreasonsentity)<br>|
+### RealTimeMachinesEntity {#realtimemachinesentity}
 
+**Type:** `cs.RealTimeMachinesEntity`
 
-## new()
-**.new**( *RealTimeMachinesEntity* : cs.RealTimeMachinesEntity )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|RealTimeMachinesEntity|cs.RealTimeMachinesEntity|->|<Description>|
+### WorksOrderEntity {#worksorderentity}
 
-## ProcessColors()
-**.ProcessColors**()
+**Type:** `cs.WorksOrderEntity`
 
+---
 
-## setDateTimeColors()
-**.setDateTimeColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )
+### ProductEntity {#productentity}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Integer|->|<Description>|
-|ForegroundColor|Integer|->|<Description>|
+**Type:** `cs.ProductEntity`
 
-## get SecondaryStatusText()
-**.get SecondaryStatusText**()->DateTimeObject : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DateTimeObject|Object|<-|<Description>|
+### ToolsEntity {#toolsentity}
 
-## get TimeRemainingText()
-**.get TimeRemainingText**()->DateTimeObject : Object
+**Type:** `cs.ToolsEntity`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DateTimeObject|Object|<-|<Description>|
+---
 
-## get MouldStatusText()
-**.get MouldStatusText**() : Text
+### DownReasonsEntity {#downreasonsentity}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+**Type:** `cs.DownReasonsEntity`
 
-## setPrimaryColors()
-**.setPrimaryColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Integer|->|<Description>|
-|ForegroundColor|Integer|->|<Description>|
+### AverageCycleTime {#averagecycletime}
 
-## get DeviceMaintenanceActive()
-**.get DeviceMaintenanceActive**() : Boolean
+**Type:** `Real`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## setAlternatingColors()
-**.setAlternatingColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )
+### RunningSlow {#runningslow}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Integer|->|<Description>|
-|ForegroundColor|Integer|->|<Description>|
+**Type:** `Boolean`
 
-## setAlertColors()
-**.setAlertColors**( *BackgroundColor* : Integer; *ForegroundColor* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Integer|->|<Description>|
-|ForegroundColor|Integer|->|<Description>|
+### MachineWheelsEntity {#machinewheelsentity}
 
-## get MachineDisconnected()
-**.get MachineDisconnected**() : Boolean
+**Type:** `cs.MachineWheelsEntity`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## get MachineRunning()
-**.get MachineRunning**() : Boolean
+### QuantityMade {#quantitymade}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+**Type:** `Integer`
 
-## get WorksOrderIsOpen()
-**.get WorksOrderIsOpen**() : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+### QuantityScrapped {#quantityscrapped}
 
-## get UnacknowledgedSensorExceptions()
-**.get UnacknowledgedSensorExceptions**() : Boolean
+**Type:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## get PrimaryStatusText()
-**.get PrimaryStatusText**() : Text
+## Functions
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get ScrapText()
-**.get ScrapText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get PartsMadeText()
-**.get PartsMadeText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get AlertsText()
-**.get AlertsText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get PercentMade()
-**.get PercentMade**() : Real
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Real|<-|<Description>|
-
-## get MachineNumberText()
-**.get MachineNumberText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get PartNameText()
-**.get PartNameText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## get UnicodeSymbolsText()
-**.get UnicodeSymbolsText**() : Text
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
-
-## setTimeRemainingText()
-**.setTimeRemainingText**( *Text* : Text; *DateTime* : Variant; *AdditionalSeconds* : Real )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Text|Text|->|<Description>|
-|DateTime|Variant|->|<Description>|
-|AdditionalSeconds|Real|->|<Description>|
-
-## RealTimeMachinesEntity
-RealTimeMachinesEntity : cs.RealTimeMachinesEntity
+### ProcessColors {#processcolors}
 
 
-## WorksOrderEntity
-WorksOrderEntity : cs.WorksOrderEntity
+```4d
+Function ProcessColors
+```
+
+MARK:Primary Colors
+
+---
+
+### SecondaryStatusText {#secondarystatustext}
+ `[getter]`
+
+```4d
+Function SecondaryStatusText -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### TimeRemainingText {#timeremainingtext}
+ `[getter]`
+
+```4d
+Function TimeRemainingText -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### setPrimaryColors {#setprimarycolors}
 
 
-## ProductEntity
-ProductEntity : cs.ProductEntity
+```4d
+Function setPrimaryColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+---
+
+### setAlternatingColors {#setalternatingcolors}
 
 
-## RunningSlow
-RunningSlow : Boolean
+```4d
+Function setAlternatingColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+---
+
+### setDateTimeColors {#setdatetimecolors}
 
 
-## ToolsEntity
-ToolsEntity : cs.ToolsEntity
+```4d
+Function setDateTimeColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+---
+
+### setAlertColors {#setalertcolors}
 
 
-## AverageCycleTime
-AverageCycleTime : Real
+```4d
+Function setAlertColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+---
+
+### DeviceMaintenanceActive {#devicemaintenanceactive}
+ `[getter]`
+
+```4d
+Function DeviceMaintenanceActive -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### MachineDisconnected {#machinedisconnected}
+ `[getter]`
+
+```4d
+Function MachineDisconnected -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### MachineRunning {#machinerunning}
+ `[getter]`
+
+```4d
+Function MachineRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### WorksOrderIsOpen {#worksorderisopen}
+ `[getter]`
+
+```4d
+Function WorksOrderIsOpen -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### UnacknowledgedSensorExceptions {#unacknowledgedsensorexceptions}
+ `[getter]`
+
+```4d
+Function UnacknowledgedSensorExceptions -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### PrimaryStatusText {#primarystatustext}
+ `[getter]`
+
+```4d
+Function PrimaryStatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### ScrapText {#scraptext}
+ `[getter]`
+
+```4d
+Function ScrapText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PartsMadeText {#partsmadetext}
+ `[getter]`
+
+```4d
+Function PartsMadeText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### AlertsText {#alertstext}
+ `[getter]`
+
+```4d
+Function AlertsText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PercentMade {#percentmade}
+ `[getter]`
+
+```4d
+Function PercentMade -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+### MouldStatusText {#mouldstatustext}
+ `[getter]`
+
+```4d
+Function MouldStatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### MachineNumberText {#machinenumbertext}
+ `[getter]`
+
+```4d
+Function MachineNumberText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PartNameText {#partnametext}
+ `[getter]`
+
+```4d
+Function PartNameText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### UnicodeSymbolsText {#unicodesymbolstext}
+ `[getter]`
+
+```4d
+Function UnicodeSymbolsText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### setTimeRemainingText {#settimeremainingtext}
 
 
-## DownReasonsEntity
-DownReasonsEntity : cs.DownReasonsEntity
+```4d
+Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeconds : Real)
+```
 
+---
+
+---
+
+*Generated from RealTimeOutputMachine.4dm*
+*Last updated: 2025-11-12T17:04:22.360Z*

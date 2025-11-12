@@ -1,34 +1,35 @@
-﻿---
-layout: default
-title: Loading ⌛
-parent: Classes
+﻿# Loading
+
+## Table of Contents
+
+### Functions
+
+- [stop()](#stop)
+- [update()](#update)
+
 ---
 
-# Loading
+## Functions
 
-|   |
-|:---|
-|[**.new**( *LoadingText* : Text; *LoadingProgress* : Real )](#new)<br>|
-|[**.stop**()](#stop)<br>|
-|[**.update**( *LoadingText* : Text; *LoadingProgress* : Real )](#update)<br>|
+### stop {#stop}
 
 
-## new()
-**.new**( *LoadingText* : Text; *LoadingProgress* : Real )
+```4d
+Function stop
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|LoadingText|Text|->|<Description>|
-|LoadingProgress|Real|->|<Description>|
+---
 
-## stop()
-**.stop**()
+### update {#update}
 
 
-## update()
-**.update**( *LoadingText* : Text; *LoadingProgress* : Real )
+```4d
+Function update($LoadingText : Text; $LoadingProgress : Real)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|LoadingText|Text|->|<Description>|
-|LoadingProgress|Real|->|<Description>|
+---
+
+---
+
+*Generated from Loading.4dm*
+*Last updated: 2025-11-12T17:04:21.816Z*

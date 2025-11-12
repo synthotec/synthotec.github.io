@@ -1,56 +1,79 @@
-﻿---
-layout: default
-title: RealTimeTemperatureSensor ⌛
-parent: Classes
+﻿# RealTimeTemperatureSensor
+
+## Table of Contents
+
+### Properties
+
+- [Index](#index)
+- [Zone](#zone)
+- [CelsiusValue](#celsiusvalue)
+- [_WorksOrderEntity](#worksorderentity)
+- [ToolTemperatureTargetEntity](#tooltemperaturetargetentity)
+
+### Functions
+
+- [ZoneName() [getter]](#zonename)
+- [InRange() [getter]](#inrange)
+
 ---
 
-# RealTimeTemperatureSensor
+## Properties
 
-|   |
-|:---|
-|[**.new**( *WorksOrderEntity* : cs.WorksOrderEntity; *TemperatureSensorObject* : Object )](#new)<br>|
-|[**.get ZoneName**() : Text](#get zonename)<br>|
-|[**.get InRange**() : Boolean](#get inrange)<br>|
-|[ToolTemperatureTargetEntity : cs.ToolTemperatureTargetEntity](#tooltemperaturetargetentity)<br>|
-|[Index : Integer](#index)<br>|
-|[Zone : Integer](#zone)<br>|
-|[CelsiusValue : Real](#celsiusvalue)<br>|
+### Index {#index}
 
+**Type:** `Integer`
 
-## new()
-**.new**( *WorksOrderEntity* : cs.WorksOrderEntity; *TemperatureSensorObject* : Object )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|WorksOrderEntity|cs.WorksOrderEntity|->|<Description>|
-|TemperatureSensorObject|Object|->|<Description>|
+### Zone {#zone}
 
-## get ZoneName()
-**.get ZoneName**() : Text
+**Type:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+---
 
-## get InRange()
-**.get InRange**() : Boolean
+### CelsiusValue {#celsiusvalue}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+**Type:** `Real`
 
-## ToolTemperatureTargetEntity
-ToolTemperatureTargetEntity : cs.ToolTemperatureTargetEntity
+---
 
+### _WorksOrderEntity {#worksorderentity}
 
-## Index
-Index : Integer
+**Type:** `cs.WorksOrderEntity`
 
+---
 
-## Zone
-Zone : Integer
+### ToolTemperatureTargetEntity {#tooltemperaturetargetentity}
 
+**Type:** `cs.ToolTemperatureTargetEntity`
 
-## CelsiusValue
-CelsiusValue : Real
+---
 
+## Functions
+
+### ZoneName {#zonename}
+ `[getter]`
+
+```4d
+Function ZoneName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### InRange {#inrange}
+ `[getter]`
+
+```4d
+Function InRange -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from RealTimeTemperatureSensor.4dm*
+*Last updated: 2025-11-12T17:04:22.382Z*

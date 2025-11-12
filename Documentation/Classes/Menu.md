@@ -1,66 +1,140 @@
-﻿---
-layout: default
-title: Menu ⌛
-parent: Classes
+﻿# Menu
+
+## Table of Contents
+
+### Properties
+
+- [_MenuItems](#menuitems)
+- [_MenuReference](#menureference)
+- [_SubMenu](#submenu)
+- [_SubMenuText](#submenutext)
+- [_MenuItemCollection](#menuitemcollection)
+- [Cancelled](#cancelled)
+
+### Functions
+
+- [addSeperator()](#addseperator)
+- [addVariantItem()](#addvariantitem)
+- [addFormulaItem()](#addformulaitem)
+- [addSubMenu()](#addsubmenu)
+- [show()](#show)
+- [_addMenuItems()](#_addmenuitems)
+- [_release()](#_release)
+
 ---
 
-# Menu
+## Properties
 
-|   |
-|:---|
-|[**.new**( *BasicMenuItems* : Collection )](#new)<br>|
-|[**.addSubMenu**( *SubMenuText* : Text )->Menu : cs.Menu](#addsubmenu)<br>|
-|[**.addSeperator**()](#addseperator)<br>|
-|[**.addVariantItem**( *MenuText* : Text; *Variant* : Variant )->MenuItem : cs.MenuItem](#addvariantitem)<br>|
-|[**.addFormulaItem**( *MenuText* : Text; *FormulaOrFormulaSet* : Variant )->MenuItem : cs.MenuItem](#addformulaitem)<br>|
-|[**.show**()->FormulaResult : Variant](#show)<br>|
-|[Cancelled : Boolean](#cancelled)<br>|
+### _MenuItems {#menuitems}
+
+**Type:** `Collection`
+
+---
+
+### _MenuReference {#menureference}
+
+**Type:** `Text`
+
+---
+
+### _SubMenu {#submenu}
+
+**Type:** `Boolean`
+
+---
+
+### _SubMenuText {#submenutext}
+
+**Type:** `Text`
+
+---
+
+### _MenuItemCollection {#menuitemcollection}
+
+**Type:** `Collection`
+
+---
+
+### Cancelled {#cancelled}
+
+**Type:** `Boolean`
+
+---
+
+## Functions
+
+### addSeperator {#addseperator}
 
 
-## new()
-**.new**( *BasicMenuItems* : Collection )
+```4d
+Function addSeperator
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BasicMenuItems|Collection|->|<Description>|
+---
 
-## addSubMenu()
-**.addSubMenu**( *SubMenuText* : Text )->Menu : cs.Menu
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SubMenuText|Text|->|<Description>|
-|Menu|cs.Menu|<-|<Description>|
-
-## addSeperator()
-**.addSeperator**()
+### addVariantItem {#addvariantitem}
 
 
-## addVariantItem()
-**.addVariantItem**( *MenuText* : Text; *Variant* : Variant )->MenuItem : cs.MenuItem
+```4d
+Function addVariantItem($MenuText : Text; $Variant : Variant) -> cs.MenuItem
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MenuText|Text|->|<Description>|
-|Variant|Variant|->|<Description>|
-|MenuItem|cs.MenuItem|<-|<Description>|
+**Returns:** `cs.MenuItem`
 
-## addFormulaItem()
-**.addFormulaItem**( *MenuText* : Text; *FormulaOrFormulaSet* : Variant )->MenuItem : cs.MenuItem
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MenuText|Text|->|<Description>|
-|FormulaOrFormulaSet|Variant|->|<Description>|
-|MenuItem|cs.MenuItem|<-|<Description>|
+### addFormulaItem {#addformulaitem}
 
-## show()
-**.show**()->FormulaResult : Variant
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|FormulaResult|Variant|<-|<Description>|
+```4d
+Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> cs.MenuItem
+```
 
-## Cancelled
-Cancelled : Boolean
+**Returns:** `cs.MenuItem`
 
+---
+
+### addSubMenu {#addsubmenu}
+
+
+```4d
+Function addSubMenu($SubMenuText : Text) -> cs.Menu
+```
+
+**Returns:** `cs.Menu`
+
+---
+
+### show {#show}
+
+
+```4d
+Function show -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### _addMenuItems {#_addmenuitems}
+
+
+```4d
+Function _addMenuItems($ParentMenuReference : Text)
+```
+
+---
+
+### _release {#_release}
+
+
+```4d
+Function _release
+```
+
+---
+
+---
+
+*Generated from Menu.4dm*
+*Last updated: 2025-11-12T17:04:21.892Z*

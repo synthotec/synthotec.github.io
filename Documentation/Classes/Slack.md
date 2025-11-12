@@ -1,92 +1,111 @@
-﻿---
-layout: default
-title: Slack ⌛
-parent: Classes
+﻿# Slack
+
+## Table of Contents
+
+### Properties
+
+- [ChannelID](#channelid)
+
+### Functions
+
+- [newHttpRequest()](#newhttprequest)
+- [createChannel()](#createchannel)
+- [setChannelID()](#setchannelid)
+- [convertBlocks()](#convertblocks)
+- [createMessage()](#createmessage)
+- [updateMessage()](#updatemessage)
+- [deleteMessage()](#deletemessage)
+
 ---
 
-# Slack
+## Properties
 
-|   |
-|:---|
-|[**.new**( *ChannelName* : Text )](#new)<br>|
-|[**.newHttpRequest**( *Url* : Text; *Options* : Object ) : 4D.HTTPRequest](#newhttprequest)<br>|
-|[**.createChannel**( *ChannelName* : Text ) : Text](#createchannel)<br>|
-|[**.createMessage**( *HeaderText* : Text; *Blocks* : Collection )->MessageTimeStamp : Text](#createmessage)<br>|
-|[**.setChannelID**( *ChannelName* : Text ) : Boolean](#setchannelid)<br>|
-|[**.convertBlocks**( *HeaderText* : Text; *Blocks* : Collection )->BlocksCollection : Collection](#convertblocks)<br>|
-|[**.deleteMessage**( *MessageTimeStamp* : Text ) : Boolean](#deletemessage)<br>|
-|[**.updateMessage**( *MessageTimeStamp* : Text; *text* : Text; *Blocks* : Collection ) : Boolean](#updatemessage)<br>|
-|[ChannelID : Text](#channelid)<br>|
+### ChannelID {#channelid}
+
+**Type:** `Text`
+
+---
+
+## Functions
+
+### newHttpRequest {#newhttprequest}
 
 
-## new()
-**.new**( *ChannelName* : Text )
+```4d
+Function newHttpRequest($Url : Text; $Options : Object) -> 4D.HTTPRequest
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ChannelName|Text|->|<Description>|
+**Returns:** `4D.HTTPRequest`
 
-## newHttpRequest()
-**.newHttpRequest**( *Url* : Text; *Options* : Object ) : 4D.HTTPRequest
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Url|Text|->|<Description>|
-|Options|Object|->|<Description>|
-||4D.HTTPRequest|<-|<Description>|
+### createChannel {#createchannel}
 
-## createChannel()
-**.createChannel**( *ChannelName* : Text ) : Text
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ChannelName|Text|->|<Description>|
-||Text|<-|<Description>|
+```4d
+Function createChannel($ChannelName : Text) -> Text
+```
 
-## createMessage()
-**.createMessage**( *HeaderText* : Text; *Blocks* : Collection )->MessageTimeStamp : Text
+**Returns:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HeaderText|Text|->|<Description>|
-|Blocks|Collection|->|<Description>|
-|MessageTimeStamp|Text|<-|<Description>|
+---
 
-## setChannelID()
-**.setChannelID**( *ChannelName* : Text ) : Boolean
+### setChannelID {#setchannelid}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ChannelName|Text|->|<Description>|
-||Boolean|<-|<Description>|
 
-## convertBlocks()
-**.convertBlocks**( *HeaderText* : Text; *Blocks* : Collection )->BlocksCollection : Collection
+```4d
+Function setChannelID($ChannelName : Text) -> Boolean
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HeaderText|Text|->|<Description>|
-|Blocks|Collection|->|<Description>|
-|BlocksCollection|Collection|<-|<Description>|
+**Returns:** `Boolean`
 
-## deleteMessage()
-**.deleteMessage**( *MessageTimeStamp* : Text ) : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MessageTimeStamp|Text|->|<Description>|
-||Boolean|<-|<Description>|
+### convertBlocks {#convertblocks}
 
-## updateMessage()
-**.updateMessage**( *MessageTimeStamp* : Text; *text* : Text; *Blocks* : Collection ) : Boolean
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MessageTimeStamp|Text|->|<Description>|
-|text|Text|->|<Description>|
-|Blocks|Collection|->|<Description>|
-||Boolean|<-|<Description>|
+```4d
+Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> Collection
+```
 
-## ChannelID
-ChannelID : Text
+**Returns:** `Collection`
 
+---
+
+### createMessage {#createmessage}
+
+
+```4d
+Function createMessage($HeaderText : Text; $Blocks : Collection) -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### updateMessage {#updatemessage}
+
+
+```4d
+Function updateMessage($MessageTimeStamp : Text; $text : Text; $Blocks : Collection) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### deleteMessage {#deletemessage}
+
+
+```4d
+Function deleteMessage($MessageTimeStamp : Text) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from Slack.4dm*
+*Last updated: 2025-11-12T17:04:22.452Z*

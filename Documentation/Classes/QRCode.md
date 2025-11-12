@@ -1,76 +1,93 @@
-﻿---
-layout: default
-title: QRCode ⌛
-parent: Classes
+﻿# QRCode
+
+## Table of Contents
+
+### Functions
+
+- [fillBoxLabelsQR()](#fillboxlabelsqr)
+- [fillPalletQR()](#fillpalletqr)
+- [fillPrinterQR()](#fillprinterqr)
+- [getJson()](#getjson)
+- [generate()](#generate)
+- [BarcodeType() [getter]](#barcodetype)
+- [PrimaryKey() [getter]](#primarykey)
+
 ---
 
-# QRCode
+## Functions
 
-|   |
-|:---|
-|[**.new**( *BarcodeType* : Text; *PrimaryKey* : Integer )](#new)<br>|
-|[**.fillBoxLabelsQR**( *BoxLabelID* : Integer )](#fillboxlabelsqr)<br>|
-|[**.fillPalletQR**( *PalletID* : Integer )](#fillpalletqr)<br>|
-|[**.get PrimaryKey**() : Integer](#get primarykey)<br>|
-|[**.generate**() : Picture](#generate)<br>|
-|[**.fillPrinterQR**( *PrinterID* : Integer )](#fillprinterqr)<br>|
-|[**.get BarcodeType**() : Text](#get barcodetype)<br>|
-|[**.getJson**() : Text](#getjson)<br>|
+### fillBoxLabelsQR {#fillboxlabelsqr}
 
 
-## new()
-**.new**( *BarcodeType* : Text; *PrimaryKey* : Integer )
+```4d
+Function fillBoxLabelsQR($BoxLabelID : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BarcodeType|Text|->|<Description>|
-|PrimaryKey|Integer|->|<Description>|
+---
 
-## fillBoxLabelsQR()
-**.fillBoxLabelsQR**( *BoxLabelID* : Integer )
+### fillPalletQR {#fillpalletqr}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BoxLabelID|Integer|->|<Description>|
 
-## fillPalletQR()
-**.fillPalletQR**( *PalletID* : Integer )
+```4d
+Function fillPalletQR($PalletID : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|PalletID|Integer|->|<Description>|
+---
 
-## get PrimaryKey()
-**.get PrimaryKey**() : Integer
+### fillPrinterQR {#fillprinterqr}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
 
-## generate()
-**.generate**() : Picture
+```4d
+Function fillPrinterQR($PrinterID : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Picture|<-|<Description>|
+---
 
-## fillPrinterQR()
-**.fillPrinterQR**( *PrinterID* : Integer )
+### getJson {#getjson}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|PrinterID|Integer|->|<Description>|
 
-## get BarcodeType()
-**.get BarcodeType**() : Text
+```4d
+Function getJson -> Text
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+**Returns:** `Text`
 
-## getJson()
-**.getJson**() : Text
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+### generate {#generate}
+
+
+```4d
+Function generate -> Picture
+```
+
+**Returns:** `Picture`
+
+---
+
+### BarcodeType {#barcodetype}
+ `[getter]`
+
+```4d
+Function BarcodeType -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PrimaryKey {#primarykey}
+ `[getter]`
+
+```4d
+Function PrimaryKey -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+---
+
+*Generated from QRCode.4dm*
+*Last updated: 2025-11-12T17:04:22.270Z*

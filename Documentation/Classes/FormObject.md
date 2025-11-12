@@ -1,487 +1,663 @@
-﻿---
-layout: default
-title: FormObject ⌛
-parent: Classes
+﻿# FormObject
+
+## Table of Contents
+
+### Properties
+
+- [Name](#name)
+
+### Functions
+
+- [Title() [getter]](#title)
+- [Title() [setter]](#title)
+- [MinimumValue() [getter]](#minimumvalue)
+- [MinimumValue() [setter]](#minimumvalue)
+- [MaximumValue() [getter]](#maximumvalue)
+- [MaximumValue() [setter]](#maximumvalue)
+- [Visible() [getter]](#visible)
+- [Visible() [setter]](#visible)
+- [Enterable() [getter]](#enterable)
+- [Enterable() [setter]](#enterable)
+- [Enabled() [getter]](#enabled)
+- [Enabled() [setter]](#enabled)
+- [ForegroundColor() [getter]](#foregroundcolor)
+- [ForegroundColor() [setter]](#foregroundcolor)
+- [BackgroundColor() [getter]](#backgroundcolor)
+- [BackgroundColor() [setter]](#backgroundcolor)
+- [Left() [getter]](#left)
+- [Left() [setter]](#left)
+- [Top() [getter]](#top)
+- [Top() [setter]](#top)
+- [Right() [getter]](#right)
+- [Right() [setter]](#right)
+- [Bottom() [getter]](#bottom)
+- [Bottom() [setter]](#bottom)
+- [Width() [getter]](#width)
+- [Width() [setter]](#width)
+- [Height() [getter]](#height)
+- [Height() [setter]](#height)
+- [setMaxFontSize()](#setmaxfontsize)
+- [setBestObjectSize()](#setbestobjectsize)
+- [Font() [getter]](#font)
+- [Font() [setter]](#font)
+- [FontSize() [getter]](#fontsize)
+- [FontSize() [setter]](#fontsize)
+- [Bold() [getter]](#bold)
+- [Bold() [setter]](#bold)
+- [Italic() [getter]](#italic)
+- [Italic() [setter]](#italic)
+- [Underline() [getter]](#underline)
+- [Underline() [setter]](#underline)
+- [DisplayFormat() [getter]](#displayformat)
+- [DisplayFormat() [setter]](#displayformat)
+- [Multiline() [getter]](#multiline)
+- [Multiline() [setter]](#multiline)
+- [PlaceholderText() [getter]](#placeholdertext)
+- [PlaceholderText() [setter]](#placeholdertext)
+- [VerticalScrollPosition() [getter]](#verticalscrollposition)
+- [VerticalScrollPosition() [setter]](#verticalscrollposition)
+- [HorizontalScrollPosition() [getter]](#horizontalscrollposition)
+- [HorizontalScrollPosition() [setter]](#horizontalscrollposition)
+- [CornerRadius() [getter]](#cornerradius)
+- [CornerRadius() [setter]](#cornerradius)
+- [HelpTip() [getter]](#helptip)
+- [HelpTip() [setter]](#helptip)
+- [Pointer() [getter]](#pointer)
+- [HasFocus() [getter]](#hasfocus)
+- [Focus()](#focus)
+- [HighlightText()](#highlighttext)
+
 ---
 
-# FormObject
-
-|   |
-|:---|
-|[**.new**( *FormObjectName* : Text )](#new)<br>|
-|[**.set PlaceholderText**( *PlaceholderText* : Text )](#set placeholdertext)<br>|
-|[**.set Font**( *Font* : Text )](#set font)<br>|
-|[**.set Enterable**( *Enterable* : Boolean )](#set enterable)<br>|
-|[**.get MaximumValue**()->MaximumValue : Variant](#get maximumvalue)<br>|
-|[**.set Bottom**( *Bottom* : Integer )](#set bottom)<br>|
-|[**.get Title**() : Text](#get title)<br>|
-|[**.set MaximumValue**( *MaximumValue* : Variant )](#set maximumvalue)<br>|
-|[**.set Title**( *Title* : Text )](#set title)<br>|
-|[**.get Visible**() : Boolean](#get visible)<br>|
-|[**.get MinimumValue**()->MinimumValue : Variant](#get minimumvalue)<br>|
-|[**.get ForegroundColor**()->ForegroundColor : Integer](#get foregroundcolor)<br>|
-|[**.set Visible**( *Visible* : Boolean )](#set visible)<br>|
-|[**.set MinimumValue**( *MinimumValue* : Variant )](#set minimumvalue)<br>|
-|[**.get PlaceholderText**() : Text](#get placeholdertext)<br>|
-|[**.get Font**() : Text](#get font)<br>|
-|[**.set Left**( *Left* : Integer )](#set left)<br>|
-|[**.get Enterable**() : Boolean](#get enterable)<br>|
-|[**.get Enabled**() : Boolean](#get enabled)<br>|
-|[**.set Enabled**( *Enabled* : Boolean )](#set enabled)<br>|
-|[**.set ForegroundColor**( *ForegroundColor* : Variant )](#set foregroundcolor)<br>|
-|[**.set FontSize**( *FontSize* : Integer )](#set fontsize)<br>|
-|[**.get BackgroundColor**()->BackgroundColor : Integer](#get backgroundcolor)<br>|
-|[**.set BackgroundColor**( *BackgroundColor* : Variant )](#set backgroundcolor)<br>|
-|[**.set Right**( *Right* : Integer )](#set right)<br>|
-|[**.get Left**()->Left : Integer](#get left)<br>|
-|[**.get Top**()->Top : Integer](#get top)<br>|
-|[**.set Top**( *Top* : Integer )](#set top)<br>|
-|[**.get Right**()->Right : Integer](#get right)<br>|
-|[**.set Underline**( *Underline* : Boolean )](#set underline)<br>|
-|[**.get Bottom**()->Bottom : Integer](#get bottom)<br>|
-|[**.get Bold**() : Boolean](#get bold)<br>|
-|[**.get Width**() : Integer](#get width)<br>|
-|[**.set Bold**( *Bold* : Boolean )](#set bold)<br>|
-|[**.set Width**( *Width* : Integer )](#set width)<br>|
-|[**.get Height**() : Integer](#get height)<br>|
-|[**.set Height**( *Height* : Integer )](#set height)<br>|
-|[**.setMaxFontSize**( *MultiLine* : Boolean; *UpperFontSizeLimit* : Integer )](#setmaxfontsize)<br>|
-|[**.setBestObjectSize**( *HeightOnly* : Boolean )](#setbestobjectsize)<br>|
-|[**.get FontSize**() : Integer](#get fontsize)<br>|
-|[**.get Italic**() : Boolean](#get italic)<br>|
-|[**.get Pointer**() : Pointer](#get pointer)<br>|
-|[**.set Italic**( *Italic* : Boolean )](#set italic)<br>|
-|[**.get Underline**() : Boolean](#get underline)<br>|
-|[**.get DisplayFormat**() : Text](#get displayformat)<br>|
-|[**.set DisplayFormat**( *DisplayFormat* : Variant )](#set displayformat)<br>|
-|[**.get Multiline**() : Boolean](#get multiline)<br>|
-|[**.set Multiline**( *Multiline* : Boolean )](#set multiline)<br>|
-|[**.get VerticalScrollPosition**()->VerticalScrollPosition : Integer](#get verticalscrollposition)<br>|
-|[**.set VerticalScrollPosition**( *VerticalScrollPosition* : Integer )](#set verticalscrollposition)<br>|
-|[**.get HorizontalScrollPosition**()->HorizontalScrollPosition : Integer](#get horizontalscrollposition)<br>|
-|[**.set HorizontalScrollPosition**( *HorizontalScrollPosition* : Integer )](#set horizontalscrollposition)<br>|
-|[**.get CornerRadius**() : Integer](#get cornerradius)<br>|
-|[**.set CornerRadius**( *CornerRadius* : Integer )](#set cornerradius)<br>|
-|[**.get HelpTip**() : Text](#get helptip)<br>|
-|[**.set HelpTip**( *HelpTip* : Text )](#set helptip)<br>|
-|[**.get HasFocus**() : Boolean](#get hasfocus)<br>|
-|[**.Focus**()](#focus)<br>|
-|[**.HighlightText**( *StartPosition* : Integer; *EndPosition* : Integer )](#highlighttext)<br>|
-|[Name : Text](#name)<br>|
-
-
-## new()
-**.new**( *FormObjectName* : Text )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|FormObjectName|Text|->|<Description>|
-
-## set PlaceholderText()
-**.set PlaceholderText**( *PlaceholderText* : Text )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|PlaceholderText|Text|->|<Description>|
-
-## set Font()
-**.set Font**( *Font* : Text )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Font|Text|->|<Description>|
-
-## set Enterable()
-**.set Enterable**( *Enterable* : Boolean )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Enterable|Boolean|->|<Description>|
-
-## get MaximumValue()
-**.get MaximumValue**()->MaximumValue : Variant
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MaximumValue|Variant|<-|<Description>|
-
-## set Bottom()
-**.set Bottom**( *Bottom* : Integer )
+## Properties
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Bottom|Integer|->|<Description>|
+### Name {#name}
 
-## get Title()
-**.get Title**() : Text
+**Type:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+---
 
-## set MaximumValue()
-**.set MaximumValue**( *MaximumValue* : Variant )
+## Functions
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MaximumValue|Variant|->|<Description>|
+### Title {#title}
+ `[getter]`
 
-## set Title()
-**.set Title**( *Title* : Text )
+```4d
+Function Title -> Text
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Title|Text|->|<Description>|
+**Returns:** `Text`
 
-## get Visible()
-**.get Visible**() : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+### Title {#title}
+ `[setter]`
 
-## get MinimumValue()
-**.get MinimumValue**()->MinimumValue : Variant
+```4d
+Function Title($Title : Text)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MinimumValue|Variant|<-|<Description>|
+---
 
-## get ForegroundColor()
-**.get ForegroundColor**()->ForegroundColor : Integer
+### MinimumValue {#minimumvalue}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ForegroundColor|Integer|<-|<Description>|
+```4d
+Function MinimumValue -> Variant
+```
 
-## set Visible()
-**.set Visible**( *Visible* : Boolean )
+**Returns:** `Variant`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Visible|Boolean|->|<Description>|
+---
 
-## set MinimumValue()
-**.set MinimumValue**( *MinimumValue* : Variant )
+### MinimumValue {#minimumvalue}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MinimumValue|Variant|->|<Description>|
+```4d
+Function MinimumValue($MinimumValue : Variant)
+```
 
-## get PlaceholderText()
-**.get PlaceholderText**() : Text
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+### MaximumValue {#maximumvalue}
+ `[getter]`
 
-## get Font()
-**.get Font**() : Text
+```4d
+Function MaximumValue -> Variant
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+**Returns:** `Variant`
 
-## set Left()
-**.set Left**( *Left* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Left|Integer|->|<Description>|
+### MaximumValue {#maximumvalue}
+ `[setter]`
 
-## get Enterable()
-**.get Enterable**() : Boolean
+```4d
+Function MaximumValue($MaximumValue : Variant)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## get Enabled()
-**.get Enabled**() : Boolean
+### Visible {#visible}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+```4d
+Function Visible -> Boolean
+```
 
-## set Enabled()
-**.set Enabled**( *Enabled* : Boolean )
+**Returns:** `Boolean`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Enabled|Boolean|->|<Description>|
+---
 
-## set ForegroundColor()
-**.set ForegroundColor**( *ForegroundColor* : Variant )
+### Visible {#visible}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ForegroundColor|Variant|->|<Description>|
+```4d
+Function Visible($Visible : Boolean)
+```
 
-## set FontSize()
-**.set FontSize**( *FontSize* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|FontSize|Integer|->|<Description>|
+### Enterable {#enterable}
+ `[getter]`
 
-## get BackgroundColor()
-**.get BackgroundColor**()->BackgroundColor : Integer
+```4d
+Function Enterable -> Boolean
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Integer|<-|<Description>|
+**Returns:** `Boolean`
 
-## set BackgroundColor()
-**.set BackgroundColor**( *BackgroundColor* : Variant )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|BackgroundColor|Variant|->|<Description>|
+### Enterable {#enterable}
+ `[setter]`
 
-## set Right()
-**.set Right**( *Right* : Integer )
+```4d
+Function Enterable($Enterable : Boolean)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Right|Integer|->|<Description>|
+---
 
-## get Left()
-**.get Left**()->Left : Integer
+### Enabled {#enabled}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Left|Integer|<-|<Description>|
+```4d
+Function Enabled -> Boolean
+```
 
-## get Top()
-**.get Top**()->Top : Integer
+**Returns:** `Boolean`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Top|Integer|<-|<Description>|
+---
 
-## set Top()
-**.set Top**( *Top* : Integer )
+### Enabled {#enabled}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Top|Integer|->|<Description>|
+```4d
+Function Enabled($Enabled : Boolean)
+```
 
-## get Right()
-**.get Right**()->Right : Integer
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Right|Integer|<-|<Description>|
+### ForegroundColor {#foregroundcolor}
+ `[getter]`
 
-## set Underline()
-**.set Underline**( *Underline* : Boolean )
+```4d
+Function ForegroundColor -> Integer
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Underline|Boolean|->|<Description>|
+**Returns:** `Integer`
 
-## get Bottom()
-**.get Bottom**()->Bottom : Integer
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Bottom|Integer|<-|<Description>|
+### ForegroundColor {#foregroundcolor}
+ `[setter]`
 
-## get Bold()
-**.get Bold**() : Boolean
+```4d
+Function ForegroundColor($ForegroundColor : Variant)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## get Width()
-**.get Width**() : Integer
+### BackgroundColor {#backgroundcolor}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
+```4d
+Function BackgroundColor -> Integer
+```
 
-## set Bold()
-**.set Bold**( *Bold* : Boolean )
+**Returns:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Bold|Boolean|->|<Description>|
+---
 
-## set Width()
-**.set Width**( *Width* : Integer )
+### BackgroundColor {#backgroundcolor}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Width|Integer|->|<Description>|
+```4d
+Function BackgroundColor($BackgroundColor : Variant)
+```
 
-## get Height()
-**.get Height**() : Integer
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
+### Left {#left}
+ `[getter]`
 
-## set Height()
-**.set Height**( *Height* : Integer )
+```4d
+Function Left -> Integer
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Height|Integer|->|<Description>|
+**Returns:** `Integer`
 
-## setMaxFontSize()
-**.setMaxFontSize**( *MultiLine* : Boolean; *UpperFontSizeLimit* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|MultiLine|Boolean|->|<Description>|
-|UpperFontSizeLimit|Integer|->|<Description>|
+### Left {#left}
+ `[setter]`
 
-## setBestObjectSize()
-**.setBestObjectSize**( *HeightOnly* : Boolean )
+```4d
+Function Left($Left : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HeightOnly|Boolean|->|<Description>|
+---
 
-## get FontSize()
-**.get FontSize**() : Integer
+### Top {#top}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
+```4d
+Function Top -> Integer
+```
 
-## get Italic()
-**.get Italic**() : Boolean
+**Returns:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## get Pointer()
-**.get Pointer**() : Pointer
+### Top {#top}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Pointer|<-|<Description>|
+```4d
+Function Top($Top : Integer)
+```
 
-## set Italic()
-**.set Italic**( *Italic* : Boolean )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Italic|Boolean|->|<Description>|
+### Right {#right}
+ `[getter]`
 
-## get Underline()
-**.get Underline**() : Boolean
+```4d
+Function Right -> Integer
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+**Returns:** `Integer`
 
-## get DisplayFormat()
-**.get DisplayFormat**() : Text
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+### Right {#right}
+ `[setter]`
 
-## set DisplayFormat()
-**.set DisplayFormat**( *DisplayFormat* : Variant )
+```4d
+Function Right($Right : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DisplayFormat|Variant|->|<Description>|
+---
 
-## get Multiline()
-**.get Multiline**() : Boolean
+### Bottom {#bottom}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+```4d
+Function Bottom -> Integer
+```
 
-## set Multiline()
-**.set Multiline**( *Multiline* : Boolean )
+**Returns:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Multiline|Boolean|->|<Description>|
+---
 
-## get VerticalScrollPosition()
-**.get VerticalScrollPosition**()->VerticalScrollPosition : Integer
+### Bottom {#bottom}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|VerticalScrollPosition|Integer|<-|<Description>|
+```4d
+Function Bottom($Bottom : Integer)
+```
 
-## set VerticalScrollPosition()
-**.set VerticalScrollPosition**( *VerticalScrollPosition* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|VerticalScrollPosition|Integer|->|<Description>|
+### Width {#width}
+ `[getter]`
 
-## get HorizontalScrollPosition()
-**.get HorizontalScrollPosition**()->HorizontalScrollPosition : Integer
+```4d
+Function Width -> Integer
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HorizontalScrollPosition|Integer|<-|<Description>|
+**Returns:** `Integer`
 
-## set HorizontalScrollPosition()
-**.set HorizontalScrollPosition**( *HorizontalScrollPosition* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HorizontalScrollPosition|Integer|->|<Description>|
+### Width {#width}
+ `[setter]`
 
-## get CornerRadius()
-**.get CornerRadius**() : Integer
+```4d
+Function Width($Width : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
+---
 
-## set CornerRadius()
-**.set CornerRadius**( *CornerRadius* : Integer )
+### Height {#height}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|CornerRadius|Integer|->|<Description>|
+```4d
+Function Height -> Integer
+```
 
-## get HelpTip()
-**.get HelpTip**() : Text
+**Returns:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+---
 
-## set HelpTip()
-**.set HelpTip**( *HelpTip* : Text )
+### Height {#height}
+ `[setter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HelpTip|Text|->|<Description>|
+```4d
+Function Height($Height : Integer)
+```
 
-## get HasFocus()
-**.get HasFocus**() : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+### setMaxFontSize {#setmaxfontsize}
 
-## Focus()
-**.Focus**()
 
+```4d
+Function setMaxFontSize($MultiLine : Boolean; $UpperFontSizeLimit : Integer)
+```
 
-## HighlightText()
-**.HighlightText**( *StartPosition* : Integer; *EndPosition* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|StartPosition|Integer|->|<Description>|
-|EndPosition|Integer|->|<Description>|
+### setBestObjectSize {#setbestobjectsize}
 
-## Name
-Name : Text
 
+```4d
+Function setBestObjectSize($HeightOnly : Boolean)
+```
+
+---
+
+### Font {#font}
+ `[getter]`
+
+```4d
+Function Font -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### Font {#font}
+ `[setter]`
+
+```4d
+Function Font($Font : Text)
+```
+
+---
+
+### FontSize {#fontsize}
+ `[getter]`
+
+```4d
+Function FontSize -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### FontSize {#fontsize}
+ `[setter]`
+
+```4d
+Function FontSize($FontSize : Integer)
+```
+
+---
+
+### Bold {#bold}
+ `[getter]`
+
+```4d
+Function Bold -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Bold {#bold}
+ `[setter]`
+
+```4d
+Function Bold($Bold : Boolean)
+```
+
+---
+
+### Italic {#italic}
+ `[getter]`
+
+```4d
+Function Italic -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Italic {#italic}
+ `[setter]`
+
+```4d
+Function Italic($Italic : Boolean)
+```
+
+---
+
+### Underline {#underline}
+ `[getter]`
+
+```4d
+Function Underline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Underline {#underline}
+ `[setter]`
+
+```4d
+Function Underline($Underline : Boolean)
+```
+
+---
+
+### DisplayFormat {#displayformat}
+ `[getter]`
+
+```4d
+Function DisplayFormat -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### DisplayFormat {#displayformat}
+ `[setter]`
+
+```4d
+Function DisplayFormat($DisplayFormat : Variant)
+```
+
+---
+
+### Multiline {#multiline}
+ `[getter]`
+
+```4d
+Function Multiline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Multiline {#multiline}
+ `[setter]`
+
+```4d
+Function Multiline($Multiline : Boolean)
+```
+
+---
+
+### PlaceholderText {#placeholdertext}
+ `[getter]`
+
+```4d
+Function PlaceholderText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PlaceholderText {#placeholdertext}
+ `[setter]`
+
+```4d
+Function PlaceholderText($PlaceholderText : Text)
+```
+
+---
+
+### VerticalScrollPosition {#verticalscrollposition}
+ `[getter]`
+
+```4d
+Function VerticalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### VerticalScrollPosition {#verticalscrollposition}
+ `[setter]`
+
+```4d
+Function VerticalScrollPosition($VerticalScrollPosition : Integer)
+```
+
+---
+
+### HorizontalScrollPosition {#horizontalscrollposition}
+ `[getter]`
+
+```4d
+Function HorizontalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### HorizontalScrollPosition {#horizontalscrollposition}
+ `[setter]`
+
+```4d
+Function HorizontalScrollPosition($HorizontalScrollPosition : Integer)
+```
+
+---
+
+### CornerRadius {#cornerradius}
+ `[getter]`
+
+```4d
+Function CornerRadius -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### CornerRadius {#cornerradius}
+ `[setter]`
+
+```4d
+Function CornerRadius($CornerRadius : Integer)
+```
+
+---
+
+### HelpTip {#helptip}
+ `[getter]`
+
+```4d
+Function HelpTip -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### HelpTip {#helptip}
+ `[setter]`
+
+```4d
+Function HelpTip($HelpTip : Text)
+```
+
+---
+
+### Pointer {#pointer}
+ `[getter]`
+
+```4d
+Function Pointer -> Pointer
+```
+
+**Returns:** `Pointer`
+
+---
+
+### HasFocus {#hasfocus}
+ `[getter]`
+
+```4d
+Function HasFocus -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Focus {#focus}
+
+
+```4d
+Function Focus
+```
+
+---
+
+### HighlightText {#highlighttext}
+
+
+```4d
+Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
+```
+
+---
+
+---
+
+*Generated from FormObject.4dm*
+*Last updated: 2025-11-12T17:04:21.778Z*

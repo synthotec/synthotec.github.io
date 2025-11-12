@@ -1,56 +1,79 @@
-﻿---
-layout: default
-title: RealTimeOutput ⌛
-parent: Classes
+﻿# RealTimeOutput
+
+## Description
+
+$SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
+
+## Table of Contents
+
+### Functions
+
+- [Machines() [getter]](#machines)
+- [SecondarySummaryText() [getter]](#secondarysummarytext)
+- [SummaryText() [getter]](#summarytext)
+- [Layout() [getter]](#layout)
+- [InfoTextBox() [getter]](#infotextbox)
+
 ---
 
-# RealTimeOutput
+## Functions
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.get Machines**()->Collection : Collection](#get machines)<br>|
-|[**.get Layout**()->Layout : Object](#get layout)<br>|
-|[**.get SecondarySummaryText**()->SecondarySummaryText : Text](#get secondarysummarytext)<br>|
-|[**.get SummaryText**()->SummaryText : Text](#get summarytext)<br>|
-|[**.get InfoTextBox**()->InfoTextBox : Object](#get infotextbox)<br>|
+### Machines {#machines}
+ `[getter]`
 
+```4d
+Function Machines -> Collection
+```
 
-## new()
-**.new**()
+**Returns:** `Collection`
 
+---
 
-## get Machines()
-**.get Machines**()->Collection : Collection
+### SecondarySummaryText {#secondarysummarytext}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Collection|Collection|<-|<Description>|
+```4d
+Function SecondarySummaryText -> Text
+```
 
-## get Layout()
-**.get Layout**()->Layout : Object
+**Returns:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Layout|Object|<-|<Description>|
+---
 
-## get SecondarySummaryText()
-**.get SecondarySummaryText**()->SecondarySummaryText : Text
+### SummaryText {#summarytext}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SecondarySummaryText|Text|<-|<Description>|
+```4d
+Function SummaryText -> Text
+```
 
-## get SummaryText()
-**.get SummaryText**()->SummaryText : Text
+**Returns:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|SummaryText|Text|<-|<Description>|
+---
 
-## get InfoTextBox()
-**.get InfoTextBox**()->InfoTextBox : Object
+### Layout {#layout}
+ `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|InfoTextBox|Object|<-|<Description>|
+```4d
+Function Layout -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### InfoTextBox {#infotextbox}
+ `[getter]`
+
+```4d
+Function InfoTextBox -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from RealTimeOutput.4dm*
+*Last updated: 2025-11-12T17:04:22.324Z*

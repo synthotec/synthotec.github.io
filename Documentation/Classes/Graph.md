@@ -1,24 +1,29 @@
-﻿---
-layout: default
-title: Graph ⌛
-parent: Classes
+﻿# Graph
+
+## Table of Contents
+
+### Functions
+
+- [generate()](#generate)
+
 ---
 
-# Graph
+## Functions
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.generate**()->Picture : Picture](#generate)<br>|
+### generate {#generate}
 
 
-## new()
-**.new**()
+```4d
+Function generate -> Picture
+```
 
+GRAPH($Picture; This.Settings;
 
-## generate()
-**.generate**()->Picture : Picture
+**Returns:** `Picture`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Picture|Picture|<-|<Description>|
+---
+
+---
+
+*Generated from Graph.4dm*
+*Last updated: 2025-11-12T17:04:21.790Z*

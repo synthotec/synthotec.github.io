@@ -1,73 +1,157 @@
-﻿---
-layout: default
-title: ExcelXMLFile ⌛
-parent: Classes
+﻿# ExcelXMLFile
+
+## Description
+
+SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
+
+## Table of Contents
+
+### Properties
+
+- [Styles](#styles)
+- [Rows](#rows)
+- [Columns](#columns)
+- [FileContents](#filecontents)
+- [FreezeRowsAbove](#freezerowsabove)
+- [FreezeRowsToLeft](#freezerowstoleft)
+- [ConditionalFormatting](#conditionalformatting)
+
+### Functions
+
+- [addSelectionBasedListbox()](#addselectionbasedlistbox)
+- [setFreezePanes()](#setfreezepanes)
+- [addColumn()](#addcolumn)
+- [addRow()](#addrow)
+- [addStyle()](#addstyle)
+- [saveToClipboard()](#savetoclipboard)
+- [generate()](#generate)
+
 ---
 
-# ExcelXMLFile
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.addSelectionBasedListbox**( *ListboxName* : Text )](#addselectionbasedlistbox)<br>|
-|[**.addStyle**( *NewExcelXMLFileStyle* : cs.ExcelXMLFileStyle ) : Text](#addstyle)<br>|
-|[**.setFreezePanes**( *RowsAbove* : Integer; *RowsToLeft* : Integer )](#setfreezepanes)<br>|
-|[**.addColumn**( *Width* : Real; *Span* : Integer )](#addcolumn)<br>|
-|[**.addRow**( *ExcelXMLFileRow* : cs.ExcelXMLFileRow )](#addrow)<br>|
-|[**.saveToClipboard**( *FileNameWithoutExtension* : Text; *ShowAlert* : Boolean )](#savetoclipboard)<br>|
-|[**.generate**()](#generate)<br>|
+### Styles {#styles}
+
+**Type:** `Collection`
+
+**Default Value:** `[]`
+
+---
+
+### Rows {#rows}
+
+**Type:** `Collection`
+
+**Default Value:** `[]`
+
+---
+
+### Columns {#columns}
+
+**Type:** `Collection`
+
+**Default Value:** `[]`
+
+---
+
+### FileContents {#filecontents}
+
+**Type:** `Text`
+
+**Default Value:** `""`
+
+---
+
+### FreezeRowsAbove {#freezerowsabove}
+
+**Type:** `Integer`
+
+**Default Value:** `0`
+
+---
+
+### FreezeRowsToLeft {#freezerowstoleft}
+
+**Type:** `Integer`
+
+**Default Value:** `0`
+
+---
+
+### ConditionalFormatting {#conditionalformatting}
+
+**Type:** `Object`
+
+---
+
+## Functions
+
+### addSelectionBasedListbox {#addselectionbasedlistbox}
 
 
-## new()
-**.new**()
+```4d
+Function addSelectionBasedListbox($ListboxName : Text)
+```
+
+---
+
+### setFreezePanes {#setfreezepanes}
 
 
-## addSelectionBasedListbox()
-**.addSelectionBasedListbox**( *ListboxName* : Text )
+```4d
+Function setFreezePanes($RowsAbove : Integer; $RowsToLeft : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ListboxName|Text|->|<Description>|
+---
 
-## addStyle()
-**.addStyle**( *NewExcelXMLFileStyle* : cs.ExcelXMLFileStyle ) : Text
+### addColumn {#addcolumn}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|NewExcelXMLFileStyle|cs.ExcelXMLFileStyle|->|<Description>|
-||Text|<-|<Description>|
 
-## setFreezePanes()
-**.setFreezePanes**( *RowsAbove* : Integer; *RowsToLeft* : Integer )
+```4d
+Function addColumn($Width : Real; $Span : Integer)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|RowsAbove|Integer|->|<Description>|
-|RowsToLeft|Integer|->|<Description>|
+---
 
-## addColumn()
-**.addColumn**( *Width* : Real; *Span* : Integer )
+### addRow {#addrow}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Width|Real|->|<Description>|
-|Span|Integer|->|<Description>|
 
-## addRow()
-**.addRow**( *ExcelXMLFileRow* : cs.ExcelXMLFileRow )
+```4d
+Function addRow($ExcelXMLFileRow : cs.ExcelXMLFileRow)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ExcelXMLFileRow|cs.ExcelXMLFileRow|->|<Description>|
+---
 
-## saveToClipboard()
-**.saveToClipboard**( *FileNameWithoutExtension* : Text; *ShowAlert* : Boolean )
+### addStyle {#addstyle}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|FileNameWithoutExtension|Text|->|<Description>|
-|ShowAlert|Boolean|->|<Description>|
 
-## generate()
-**.generate**()
+```4d
+Function addStyle($NewExcelXMLFileStyle : cs.ExcelXMLFileStyle) -> Text
+```
 
+**Returns:** `Text`
+
+---
+
+### saveToClipboard {#savetoclipboard}
+
+
+```4d
+Function saveToClipboard($FileNameWithoutExtension : Text; $ShowAlert : Boolean)
+```
+
+---
+
+### generate {#generate}
+
+
+```4d
+Function generate
+```
+
+---
+
+---
+
+*Generated from ExcelXMLFile.4dm*
+*Last updated: 2025-11-12T17:04:21.708Z*

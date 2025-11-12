@@ -1,56 +1,61 @@
-﻿---
-layout: default
-title: GitHubApi ⌛
-parent: Classes
+﻿# GitHubApi
+
+## Table of Contents
+
+### Functions
+
+- [newHttpRequest()](#newhttprequest)
+- [createIssue()](#createissue)
+- [getIssues()](#getissues)
+- [onError()](#onerror)
+
 ---
 
-# GitHubApi
+## Functions
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.newHttpRequest**( *Url* : Text; *Method* : Text; *Body* : Variant ) : 4D.HTTPRequest](#newhttprequest)<br>|
-|[**.createIssue**( *Title* : Text; *Body* : Text; *Labels* : Collection ) : Object](#createissue)<br>|
-|[**.getIssues**( *Label* : Text ) : Collection](#getissues)<br>|
-|[**.onError**( *HttpRequest* : 4D.HTTPRequest; *Event* : Object )](#onerror)<br>|
+### newHttpRequest {#newhttprequest}
 
 
-## new()
-**.new**()
+```4d
+Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTPRequest
+```
+
+**Returns:** `4D.HTTPRequest`
+
+---
+
+### createIssue {#createissue}
 
 
-## newHttpRequest()
-**.newHttpRequest**( *Url* : Text; *Method* : Text; *Body* : Variant ) : 4D.HTTPRequest
+```4d
+Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Object
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Url|Text|->|<Description>|
-|Method|Text|->|<Description>|
-|Body|Variant|->|<Description>|
-||4D.HTTPRequest|<-|<Description>|
+**Returns:** `Object`
 
-## createIssue()
-**.createIssue**( *Title* : Text; *Body* : Text; *Labels* : Collection ) : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Title|Text|->|<Description>|
-|Body|Text|->|<Description>|
-|Labels|Collection|->|<Description>|
-||Object|<-|<Description>|
+### getIssues {#getissues}
 
-## getIssues()
-**.getIssues**( *Label* : Text ) : Collection
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Label|Text|->|<Description>|
-||Collection|<-|<Description>|
+```4d
+Function getIssues($Label : Text) -> Collection
+```
 
-## onError()
-**.onError**( *HttpRequest* : 4D.HTTPRequest; *Event* : Object )
+**Returns:** `Collection`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|HttpRequest|4D.HTTPRequest|->|<Description>|
-|Event|Object|->|<Description>|
+---
+
+### onError {#onerror}
+
+
+```4d
+Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
+```
+
+---
+
+---
+
+*Generated from GitHubApi.4dm*
+*Last updated: 2025-11-12T17:04:21.789Z*

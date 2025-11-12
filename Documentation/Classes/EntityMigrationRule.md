@@ -1,85 +1,108 @@
-﻿---
-layout: default
-title: EntityMigrationRule ⌛
-parent: Classes
+﻿# EntityMigrationRule
+
+## Table of Contents
+
+### Properties
+
+- [FormulaObjectCollection](#formulaobjectcollection)
+- [CriteriaCollection](#criteriacollection)
+
+### Functions
+
+- [overwrite()](#overwrite)
+- [fillIfBlank()](#fillifblank)
+- [addFormula()](#addformula)
+- [addCriteria()](#addcriteria)
+- [addEntity()](#addentity)
+- [apply()](#apply)
+
 ---
 
-# EntityMigrationRule
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.overwrite**( *PropertyName* : Text ) : cs.EntityMigrationRule](#overwrite)<br>|
-|[**.addFormula**( *Formula* : 4D.Function; *SecondParameter* : Variant; *CheckProperty* : Text ) : cs.EntityMigrationRule](#addformula)<br>|
-|[**.fillIfBlank**( *PropertyName* : Text ) : cs.EntityMigrationRule](#fillifblank)<br>|
-|[**.addEntity**( *DataClass* : 4D.DataClass; *LocalEntity* : 4D.Entity; *Formula* : 4D.Function; *Sync* : Boolean ) : cs.EntityMigrationRule](#addentity)<br>|
-|[**.addCriteria**( *Formula* : 4D.Function ) : cs.EntityMigrationRule](#addcriteria)<br>|
-|[**.apply**( *LocalEntity* : 4D.Entity; *RemoteEntity* : 4D.Entity )](#apply)<br>|
-|[FormulaObjectCollection : Collection](#formulaobjectcollection)<br>|
-|[CriteriaCollection : Collection](#criteriacollection)<br>|
+### FormulaObjectCollection {#formulaobjectcollection}
 
+**Type:** *Not specified*
 
-## new()
-**.new**()
+**Default Value:** `[]`
 
+---
 
-## overwrite()
-**.overwrite**( *PropertyName* : Text ) : cs.EntityMigrationRule
+### CriteriaCollection {#criteriacollection}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|PropertyName|Text|->|<Description>|
-||cs.EntityMigrationRule|<-|<Description>|
+**Type:** *Not specified*
 
-## addFormula()
-**.addFormula**( *Formula* : 4D.Function; *SecondParameter* : Variant; *CheckProperty* : Text ) : cs.EntityMigrationRule
+**Default Value:** `[]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Formula|4D.Function|->|<Description>|
-|SecondParameter|Variant|->|<Description>|
-|CheckProperty|Text|->|<Description>|
-||cs.EntityMigrationRule|<-|<Description>|
+---
 
-## fillIfBlank()
-**.fillIfBlank**( *PropertyName* : Text ) : cs.EntityMigrationRule
+## Functions
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|PropertyName|Text|->|<Description>|
-||cs.EntityMigrationRule|<-|<Description>|
-
-## addEntity()
-**.addEntity**( *DataClass* : 4D.DataClass; *LocalEntity* : 4D.Entity; *Formula* : 4D.Function; *Sync* : Boolean ) : cs.EntityMigrationRule
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DataClass|4D.DataClass|->|<Description>|
-|LocalEntity|4D.Entity|->|<Description>|
-|Formula|4D.Function|->|<Description>|
-|Sync|Boolean|->|<Description>|
-||cs.EntityMigrationRule|<-|<Description>|
-
-## addCriteria()
-**.addCriteria**( *Formula* : 4D.Function ) : cs.EntityMigrationRule
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Formula|4D.Function|->|<Description>|
-||cs.EntityMigrationRule|<-|<Description>|
-
-## apply()
-**.apply**( *LocalEntity* : 4D.Entity; *RemoteEntity* : 4D.Entity )
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|LocalEntity|4D.Entity|->|<Description>|
-|RemoteEntity|4D.Entity|->|<Description>|
-
-## FormulaObjectCollection
-FormulaObjectCollection : Collection
+### overwrite {#overwrite}
 
 
-## CriteriaCollection
-CriteriaCollection : Collection
+```4d
+Function overwrite($PropertyName : Text) -> cs.EntityMigrationRule
+```
 
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### fillIfBlank {#fillifblank}
+
+
+```4d
+Function fillIfBlank($PropertyName : Text) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addFormula {#addformula}
+
+
+```4d
+Function addFormula($Formula : 4D.Function; $SecondParameter : Variant; $CheckProperty : Text) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addCriteria {#addcriteria}
+
+
+```4d
+Function addCriteria($Formula : 4D.Function) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addEntity {#addentity}
+
+
+```4d
+Function addEntity($DataClass : 4D.DataClass; $LocalEntity : 4D.Entity; $Formula : 4D.Function; $Sync : Boolean) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### apply {#apply}
+
+
+```4d
+Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
+```
+
+---
+
+---
+
+*Generated from EntityMigrationRule.4dm*
+*Last updated: 2025-11-12T17:04:21.645Z*

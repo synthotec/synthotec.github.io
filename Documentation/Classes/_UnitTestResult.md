@@ -1,70 +1,91 @@
-﻿---
-layout: default
-title: _UnitTestResult ✅
-parent: Classes
+﻿# _UnitTestResult
+
+## Table of Contents
+
+### Properties
+
+- [UnitTest](#unittest)
+- [Success; ErrorOccurred](#success; erroroccurred)
+- [StackTrace](#stacktrace)
+- [TestFormula](#testformula)
+- [TestFormulaParameters](#testformulaparameters)
+
+### Functions
+
+- [TestFormulaText() [getter]](#testformulatext)
+- [TestFormulaParametersText->$TestFormulaParametersText() [getter]](#testformulaparameterstext->$testformulaparameterstext)
+- [StatusEmoji() [getter]](#statusemoji)
+
 ---
 
-# _UnitTestResult
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.get StatusEmoji**() : Text](#get statusemoji)<br>|
-|[**.get TestFormulaText**() : Text](#get testformulatext)<br>|
-|[**.get TestFormulaParametersText**()->TestFormulaParametersText : Text](#get testformulaparameterstext)<br>|
-|[Success : Boolean](#success)<br>|
-|[UnitTest : cs.UnitTest](#unittest)<br>|
-|[ErrorOccurred : Boolean](#erroroccurred)<br>|
-|[StackTrace : Collection](#stacktrace)<br>|
-|[TestFormula : 4D.Function](#testformula)<br>|
-|[TestFormulaParameters : Collection](#testformulaparameters)<br>|
+### UnitTest {#unittest}
 
+**Type:** `cs.UnitTest`
 
-## new()
-**.new**()
+---
 
+### Success; ErrorOccurred {#success; erroroccurred}
 
-## get StatusEmoji()
-**.get StatusEmoji**() : Text
+**Type:** `Boolean`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+---
 
-## get TestFormulaText()
-**.get TestFormulaText**() : Text
+### StackTrace {#stacktrace}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+**Type:** `Collection`
 
-## get TestFormulaParametersText()
-**.get TestFormulaParametersText**()->TestFormulaParametersText : Text
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|TestFormulaParametersText|Text|<-|<Description>|
+### TestFormula {#testformula}
 
-## Success
-Success : Boolean
+**Type:** `4D.Function`
 
+---
 
-## UnitTest
-UnitTest : cs.UnitTest
+### TestFormulaParameters {#testformulaparameters}
 
+**Type:** `Collection`
 
-## ErrorOccurred
-ErrorOccurred : Boolean
+---
 
+## Functions
 
-## StackTrace
-StackTrace : Collection
+### TestFormulaText {#testformulatext}
+ `[getter]`
 
+```4d
+Function TestFormulaText -> Text
+```
 
-## TestFormula
-TestFormula : 4D.Function
+**Returns:** `Text`
 
+---
 
-## TestFormulaParameters
-TestFormulaParameters : Collection
+### TestFormulaParametersText->$TestFormulaParametersText {#testformulaparameterstext->$testformulaparameterstext}
+ `[getter]`
 
+```4d
+Function TestFormulaParametersText->$TestFormulaParametersText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### StatusEmoji {#statusemoji}
+ `[getter]`
+
+```4d
+Function StatusEmoji -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+---
+
+*Generated from _UnitTestResult.4dm*
+*Last updated: 2025-11-12T17:04:22.634Z*

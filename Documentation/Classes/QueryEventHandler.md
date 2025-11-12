@@ -1,74 +1,96 @@
-﻿---
-layout: default
-title: QueryEventHandler ⌛
-parent: Classes
+﻿# QueryEventHandler
+
+## Table of Contents
+
+### Properties
+
+- [value](#value)
+- [operator](#operator)
+- [eventKind](#eventkind)
+- [attributeName](#attributename)
+- [dataClassName](#dataclassname)
+- [QueryEventObject](#queryeventobject)
+
+### Functions
+
+- [setResult()](#setresult)
+- [valueType() [getter]](#valuetype)
+- [booleanResult() [getter]](#booleanresult)
+
 ---
 
-# QueryEventHandler
+## Properties
 
-|   |
-|:---|
-|[**.new**( *QueryEventObject* : Object )](#new)<br>|
-|[**.get valueType**() : Integer](#get valuetype)<br>|
-|[**.setResult**( *QueryText* : Text; *QueryParameters* : Collection )](#setresult)<br>|
-|[**.get booleanResult**() : Variant](#get booleanresult)<br>|
-|[attributeName : Text](#attributename)<br>|
-|[value : Variant](#value)<br>|
-|[operator : Text](#operator)<br>|
-|[eventKind : Text](#eventkind)<br>|
-|[dataClassName : Text](#dataclassname)<br>|
-|[QueryEventObject : Object](#queryeventobject)<br>|
+### value {#value}
 
+**Type:** `Variant`
 
-## new()
-**.new**( *QueryEventObject* : Object )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|QueryEventObject|Object|->|<Description>|
+### operator {#operator}
 
-## get valueType()
-**.get valueType**() : Integer
+**Type:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Integer|<-|<Description>|
+---
 
-## setResult()
-**.setResult**( *QueryText* : Text; *QueryParameters* : Collection )
+### eventKind {#eventkind}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|QueryText|Text|->|<Description>|
-|QueryParameters|Collection|->|<Description>|
+**Type:** `Text`
 
-## get booleanResult()
-**.get booleanResult**() : Variant
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Variant|<-|<Description>|
+### attributeName {#attributename}
 
-## attributeName
-attributeName : Text
+**Type:** `Text`
+
+---
+
+### dataClassName {#dataclassname}
+
+**Type:** `Text`
+
+---
+
+### QueryEventObject {#queryeventobject}
+
+**Type:** `Object`
+
+---
+
+## Functions
+
+### setResult {#setresult}
 
 
-## value
-value : Variant
+```4d
+Function setResult($QueryText : Text; $QueryParameters : Collection)
+```
 
+---
 
-## operator
-operator : Text
+### valueType {#valuetype}
+ `[getter]`
 
+```4d
+Function valueType -> Integer
+```
 
-## eventKind
-eventKind : Text
+**Returns:** `Integer`
 
+---
 
-## dataClassName
-dataClassName : Text
+### booleanResult {#booleanresult}
+ `[getter]`
 
+```4d
+Function booleanResult -> Variant
+```
 
-## QueryEventObject
-QueryEventObject : Object
+**Returns:** `Variant`
 
+---
+
+---
+
+*Generated from QueryEventHandler.4dm*
+*Last updated: 2025-11-12T17:04:22.281Z*

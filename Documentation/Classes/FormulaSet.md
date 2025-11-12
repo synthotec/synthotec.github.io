@@ -1,34 +1,60 @@
-﻿---
-layout: default
-title: FormulaSet ⌛
-parent: Classes
+﻿# FormulaSet
+
+## Table of Contents
+
+### Properties
+
+- [_FormulaCollection](#formulacollection)
+- [_ThisObject](#thisobject)
+- [_Parameters](#parameters)
+- [FormulaResults](#formularesults)
+
+### Functions
+
+- [apply()](#apply)
+
 ---
 
-# FormulaSet
+## Properties
 
-|   |
-|:---|
-|[**.new**( *FormulaOrFormulaCollection* : Variant; *ThisObject* : Object; *Parameters* : Collection )](#new)<br>|
-|[**.apply**()->LastFormulaResult : Variant](#apply)<br>|
-|[FormulaResults : Collection](#formularesults)<br>|
+### _FormulaCollection {#formulacollection}
+
+**Type:** `Collection`
+
+---
+
+### _ThisObject {#thisobject}
+
+**Type:** `4D.Function`
+
+---
+
+### _Parameters {#parameters}
+
+**Type:** `Collection`
+
+---
+
+### FormulaResults {#formularesults}
+
+**Type:** `Collection`
+
+---
+
+## Functions
+
+### apply {#apply}
 
 
-## new()
-**.new**( *FormulaOrFormulaCollection* : Variant; *ThisObject* : Object; *Parameters* : Collection )
+```4d
+Function apply -> Variant
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|FormulaOrFormulaCollection|Variant|->|<Description>|
-|ThisObject|Object|->|<Description>|
-|Parameters|Collection|->|<Description>|
+**Returns:** `Variant`
 
-## apply()
-**.apply**()->LastFormulaResult : Variant
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|LastFormulaResult|Variant|<-|<Description>|
+---
 
-## FormulaResults
-FormulaResults : Collection
-
+*Generated from FormulaSet.4dm*
+*Last updated: 2025-11-12T17:04:21.782Z*

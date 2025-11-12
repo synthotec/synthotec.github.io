@@ -1,57 +1,147 @@
-﻿---
-layout: default
-title: ExcelXMLFileStyle ⌛
-parent: Classes
+﻿# ExcelXMLFileStyle
+
+## Table of Contents
+
+### Properties
+
+- [NumberFormat_ShortDate](#numberformatshortdate)
+- [NumberFormat_dd_mmm](#numberformatddmmm)
+- [NumberFormat_Decimal](#numberformatdecimal)
+- [NumberFormat_Number](#numberformatnumber)
+- [Font](#font)
+- [Interior](#interior)
+- [Alignment](#alignment)
+- [NumberFormat](#numberformat)
+- [ID](#id)
+
+### Functions
+
+- [setFontStyle()](#setfontstyle)
+- [setInteriorColor()](#setinteriorcolor)
+- [setNumberFormat()](#setnumberformat)
+- [setAlignment()](#setalignment)
+
 ---
 
-# ExcelXMLFileStyle
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.setFontStyle**( *Name* : Text; *Family* : Text; *Size* : Real; *Color* : Integer; *Bold* : Boolean ) : cs.ExcelXMLFileStyle](#setfontstyle)<br>|
-|[**.setAlignment**( *Horizontal* : Text; *Vertical* : Text ) : cs.ExcelXMLFileStyle](#setalignment)<br>|
-|[**.setInteriorColor**( *Color* : Integer ) : cs.ExcelXMLFileStyle](#setinteriorcolor)<br>|
-|[**.setNumberFormat**( *NumberFormat* : Text ) : cs.ExcelXMLFileStyle](#setnumberformat)<br>|
+### NumberFormat_ShortDate {#numberformatshortdate}
+
+**Type:** `Text`
+
+**Default Value:** `"Short Date"`
+
+---
+
+### NumberFormat_dd_mmm {#numberformatddmmm}
+
+**Type:** `Text`
+
+**Default Value:** `"dd\\-mmm"`
+
+---
+
+### NumberFormat_Decimal {#numberformatdecimal}
+
+**Type:** `Text`
+
+**Default Value:** `"General;#;;@"`
+
+---
+
+### NumberFormat_Number {#numberformatnumber}
+
+**Type:** `Text`
+
+**Default Value:** `"#,###,###,##0"`
+
+---
+
+### Font {#font}
+
+**Type:** `Object`
+
+**Default Value:** `{}`
+
+---
+
+### Interior {#interior}
+
+**Type:** `Object`
+
+**Default Value:** `{}`
+
+---
+
+### Alignment {#alignment}
+
+**Type:** `Object`
+
+**Default Value:** `{}`
+
+---
+
+### NumberFormat {#numberformat}
+
+**Type:** `Text`
+
+**Default Value:** `"General"`
+
+---
+
+### ID {#id}
+
+**Type:** `Text`
+
+---
+
+## Functions
+
+### setFontStyle {#setfontstyle}
 
 
-## new()
-**.new**()
+```4d
+Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integer; $Bold : Boolean) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+### setInteriorColor {#setinteriorcolor}
 
 
-## setFontStyle()
-**.setFontStyle**( *Name* : Text; *Family* : Text; *Size* : Real; *Color* : Integer; *Bold* : Boolean ) : cs.ExcelXMLFileStyle
+```4d
+Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Name|Text|->|<Description>|
-|Family|Text|->|<Description>|
-|Size|Real|->|<Description>|
-|Color|Integer|->|<Description>|
-|Bold|Boolean|->|<Description>|
-||cs.ExcelXMLFileStyle|<-|<Description>|
+**Returns:** `cs.ExcelXMLFileStyle`
 
-## setAlignment()
-**.setAlignment**( *Horizontal* : Text; *Vertical* : Text ) : cs.ExcelXMLFileStyle
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Horizontal|Text|->|<Description>|
-|Vertical|Text|->|<Description>|
-||cs.ExcelXMLFileStyle|<-|<Description>|
+### setNumberFormat {#setnumberformat}
 
-## setInteriorColor()
-**.setInteriorColor**( *Color* : Integer ) : cs.ExcelXMLFileStyle
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Color|Integer|->|<Description>|
-||cs.ExcelXMLFileStyle|<-|<Description>|
+```4d
+Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
+```
 
-## setNumberFormat()
-**.setNumberFormat**( *NumberFormat* : Text ) : cs.ExcelXMLFileStyle
+**Returns:** `cs.ExcelXMLFileStyle`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|NumberFormat|Text|->|<Description>|
-||cs.ExcelXMLFileStyle|<-|<Description>|
+---
+
+### setAlignment {#setalignment}
+
+
+```4d
+Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+---
+
+*Generated from ExcelXMLFileStyle.4dm*
+*Last updated: 2025-11-12T17:04:21.717Z*

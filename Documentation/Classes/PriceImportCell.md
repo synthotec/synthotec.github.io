@@ -1,11 +1,10 @@
-﻿---
-layout: default
-title: PriceImportCell ⌛
-parent: Classes
+﻿# PriceImportCell
+
+## Table of Contents
+
 ---
 
-# PriceImportCell
+---
 
-|   |
-|:---|
-
+*Generated from PriceImportCell.4dm*
+*Last updated: 2025-11-12T17:04:22.128Z*

@@ -1,90 +1,140 @@
-﻿---
-layout: default
-title: ProcurementProgram ⌛
-parent: Classes
+﻿# ProcurementProgram
+
+## Table of Contents
+
+### Properties
+
+- [Lines](#lines)
+- [ItemNumberIndex](#itemnumberindex)
+- [StatusIndex](#statusindex)
+- [QuantityIndex](#quantityindex)
+- [DueDateIndex](#duedateindex)
+- [ItemDescriptionIndex](#itemdescriptionindex)
+- [VmiIndex](#vmiindex)
+- [WarehouseIndex](#warehouseindex)
+- [ErrorOccurred](#erroroccurred)
+- [ds](#ds)
+
+### Functions
+
+- [AllLinesActioned() [getter]](#alllinesactioned)
+- [UnactionedLines() [getter]](#unactionedlines)
+- [process()](#process)
+
 ---
 
-# ProcurementProgram
+## Properties
 
-|   |
-|:---|
-|[**.new**( *ClipboardText* : Text )](#new)<br>|
-|[**.get AllLinesActioned**() : Boolean](#get alllinesactioned)<br>|
-|[**.get UnactionedLines**() : Collection](#get unactionedlines)<br>|
-|[**.process**()](#process)<br>|
-|[DueDateIndex : Real](#duedateindex)<br>|
-|[ItemDescriptionIndex : Real](#itemdescriptionindex)<br>|
-|[Lines : Collection](#lines)<br>|
-|[StatusIndex : Real](#statusindex)<br>|
-|[ItemNumberIndex : Real](#itemnumberindex)<br>|
-|[VmiIndex : Real](#vmiindex)<br>|
-|[QuantityIndex : Real](#quantityindex)<br>|
-|[WarehouseIndex : Real](#warehouseindex)<br>|
-|[ErrorOccurred : Boolean](#erroroccurred)<br>|
-|[ds : 4D.DataStoreImplementation](#ds)<br>|
+### Lines {#lines}
+
+**Type:** `Collection`
+
+---
+
+### ItemNumberIndex {#itemnumberindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### StatusIndex {#statusindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### QuantityIndex {#quantityindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### DueDateIndex {#duedateindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### ItemDescriptionIndex {#itemdescriptionindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### VmiIndex {#vmiindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### WarehouseIndex {#warehouseindex}
+
+**Type:** *Not specified*
+
+**Default Value:** `-1`
+
+---
+
+### ErrorOccurred {#erroroccurred}
+
+**Type:** `Boolean`
+
+---
+
+### ds {#ds}
+
+**Type:** *Not specified*
+
+**Default Value:** `DataStore(0)`
+
+---
+
+## Functions
+
+### AllLinesActioned {#alllinesactioned}
+ `[getter]`
+
+```4d
+Function AllLinesActioned -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### UnactionedLines {#unactionedlines}
+ `[getter]`
+
+```4d
+Function UnactionedLines -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### process {#process}
 
 
-## new()
-**.new**( *ClipboardText* : Text )
+```4d
+Function process
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|ClipboardText|Text|->|<Description>|
+---
 
-## get AllLinesActioned()
-**.get AllLinesActioned**() : Boolean
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
-
-## get UnactionedLines()
-**.get UnactionedLines**() : Collection
-
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Collection|<-|<Description>|
-
-## process()
-**.process**()
-
-
-## DueDateIndex
-DueDateIndex : Real
-
-
-## ItemDescriptionIndex
-ItemDescriptionIndex : Real
-
-
-## Lines
-Lines : Collection
-
-
-## StatusIndex
-StatusIndex : Real
-
-
-## ItemNumberIndex
-ItemNumberIndex : Real
-
-
-## VmiIndex
-VmiIndex : Real
-
-
-## QuantityIndex
-QuantityIndex : Real
-
-
-## WarehouseIndex
-WarehouseIndex : Real
-
-
-## ErrorOccurred
-ErrorOccurred : Boolean
-
-
-## ds
-ds : 4D.DataStoreImplementation
-
+*Generated from ProcurementProgram.4dm*
+*Last updated: 2025-11-12T17:04:22.170Z*

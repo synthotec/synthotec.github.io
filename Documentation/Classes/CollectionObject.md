@@ -1,102 +1,125 @@
-﻿---
-layout: default
-title: CollectionObject ✅
-parent: Classes
+﻿# CollectionObject
+
+## Table of Contents
+
+### Functions
+
+- [CollectionObject()](#collectionobject)
+- [SetIndex()](#setindex)
+- [GetIndex()](#getindex)
+- [SetPlaceholder()](#setplaceholder)
+- [AppendValue()](#appendvalue)
+- [AppendValueWithPrimaryKey()](#appendvaluewithprimarykey)
+- [AppendValueWithEntity()](#appendvaluewithentity)
+- [GetCurrentValue()](#getcurrentvalue)
+- [GetCurrentPrimaryKey()](#getcurrentprimarykey)
+- [GetCurrentEntity()](#getcurrententity)
+
 ---
 
-# CollectionObject
+## Functions
 
-|   |
-|:---|
-|[**.new**( *valuesCollection* : Collection; *placeHolderText* : Text )](#new)<br>|
-|[**.CollectionObject**()->CollectionObject : Object](#collectionobject)<br>|
-|[**.AppendValueWithPrimaryKey**( *value* : Variant; *primaryKey* : Integer )](#appendvaluewithprimarykey)<br>|
-|[**.SetIndex**( *index* : Integer )](#setindex)<br>|
-|[**.GetIndex**()->index : Integer](#getindex)<br>|
-|[**.AppendValue**( *value* : Variant )](#appendvalue)<br>|
-|[**.AppendValueWithEntity**( *value* : Variant; *entity* : 4D.Entity )](#appendvaluewithentity)<br>|
-|[**.SetPlaceholder**( *placeHolderText* : Text )](#setplaceholder)<br>|
-|[**.GetCurrentValue**()->currentValue : Variant](#getcurrentvalue)<br>|
-|[**.GetCurrentPrimaryKey**()->currentPrimaryKey : Integer](#getcurrentprimarykey)<br>|
-|[**.GetCurrentEntity**()->currentEntity : 4D.Entity](#getcurrententity)<br>|
+### CollectionObject {#collectionobject}
 
 
-## new()
-**.new**( *valuesCollection* : Collection; *placeHolderText* : Text )
+```4d
+Function CollectionObject -> Object
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|valuesCollection|Collection|->|<Description>|
-|placeHolderText|Text|->|<Description>|
+**Returns:** `Object`
 
-## CollectionObject()
-**.CollectionObject**()->CollectionObject : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|CollectionObject|Object|<-|<Description>|
+### SetIndex {#setindex}
 
-## AppendValueWithPrimaryKey()
-**.AppendValueWithPrimaryKey**( *value* : Variant; *primaryKey* : Integer )
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|value|Variant|->|<Description>|
-|primaryKey|Integer|->|<Description>|
+```4d
+Function SetIndex($index : Integer)
+```
 
-## SetIndex()
-**.SetIndex**( *index* : Integer )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|index|Integer|->|<Description>|
+### GetIndex {#getindex}
 
-## GetIndex()
-**.GetIndex**()->index : Integer
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|index|Integer|<-|<Description>|
+```4d
+Function GetIndex -> Integer
+```
 
-## AppendValue()
-**.AppendValue**( *value* : Variant )
+**Returns:** `Integer`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|value|Variant|->|<Description>|
+---
 
-## AppendValueWithEntity()
-**.AppendValueWithEntity**( *value* : Variant; *entity* : 4D.Entity )
+### SetPlaceholder {#setplaceholder}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|value|Variant|->|<Description>|
-|entity|4D.Entity|->|<Description>|
 
-## SetPlaceholder()
-**.SetPlaceholder**( *placeHolderText* : Text )
+```4d
+Function SetPlaceholder($placeHolderText : Text)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|placeHolderText|Text|->|<Description>|
+---
 
-## GetCurrentValue()
-**.GetCurrentValue**()->currentValue : Variant
+### AppendValue {#appendvalue}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|currentValue|Variant|<-|<Description>|
 
-## GetCurrentPrimaryKey()
-**.GetCurrentPrimaryKey**()->currentPrimaryKey : Integer
+```4d
+Function AppendValue($value : Variant)
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|currentPrimaryKey|Integer|<-|<Description>|
+---
 
-## GetCurrentEntity()
-**.GetCurrentEntity**()->currentEntity : 4D.Entity
+### AppendValueWithPrimaryKey {#appendvaluewithprimarykey}
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|currentEntity|4D.Entity|<-|<Description>|
+
+```4d
+Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
+```
+
+---
+
+### AppendValueWithEntity {#appendvaluewithentity}
+
+
+```4d
+Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
+```
+
+---
+
+### GetCurrentValue {#getcurrentvalue}
+
+
+```4d
+Function GetCurrentValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### GetCurrentPrimaryKey {#getcurrentprimarykey}
+
+
+```4d
+Function GetCurrentPrimaryKey -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### GetCurrentEntity {#getcurrententity}
+
+
+```4d
+Function GetCurrentEntity -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+---
+
+*Generated from CollectionObject.4dm*
+*Last updated: 2025-11-12T17:04:21.468Z*

@@ -1,37 +1,101 @@
-﻿---
-layout: default
-title: Documentation ⌛
-parent: Classes
+﻿# Documentation
+
+## Description
+
+////////
+
+## Table of Contents
+
+### Properties
+
+- [CompiledClassesObject](#compiledclassesobject)
+
+### Functions
+
+- [generateClassDocumentation()](#generateclassdocumentation)
+- [getCompiledClassesObject()](#getcompiledclassesobject)
+- [generateTableDocumentation()](#generatetabledocumentation)
+- [generateAllClassJSON()](#generateallclassjson)
+- [generateMarkdownFromJSON()](#generatemarkdownfromjson)
+- [_generateMarkdownForClass()](#_generatemarkdownforclass)
+
 ---
 
-# Documentation
+## Properties
 
-|   |
-|:---|
-|[**.new**()](#new)<br>|
-|[**.generateTableDocumentation**( *DataClass* : 4D.DataClass )](#generatetabledocumentation)<br>|
-|[**.getCompiledClassesObject**() : Object](#getcompiledclassesobject)<br>|
-|[CompiledClassesObject : Object](#compiledclassesobject)<br>|
+### CompiledClassesObject {#compiledclassesobject}
+
+**Type:** `Object`
+
+---
+
+## Functions
+
+### generateClassDocumentation {#generateclassdocumentation}
 
 
-## new()
-**.new**()
+```4d
+Function generateClassDocumentation
+```
+
+---
+
+### getCompiledClassesObject {#getcompiledclassesobject}
 
 
-## generateTableDocumentation()
-**.generateTableDocumentation**( *DataClass* : 4D.DataClass )
+```4d
+Function getCompiledClassesObject($CompileCode : Boolean) -> Object
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DataClass|4D.DataClass|->|<Description>|
+**Returns:** `Object`
 
-## getCompiledClassesObject()
-**.getCompiledClassesObject**() : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Object|<-|<Description>|
+### generateTableDocumentation {#generatetabledocumentation}
 
-## CompiledClassesObject
-CompiledClassesObject : Object
 
+```4d
+Function generateTableDocumentation($DataClass : 4D.DataClass)
+```
+
+---
+
+### generateAllClassJSON {#generateallclassjson}
+
+
+```4d
+Function generateAllClassJSON
+```
+
+Generate JSON files for all classes using ClassInspector
+
+---
+
+### generateMarkdownFromJSON {#generatemarkdownfromjson}
+
+
+```4d
+Function generateMarkdownFromJSON
+```
+
+Generate markdown documentation from JSON files
+
+---
+
+### _generateMarkdownForClass {#_generatemarkdownforclass}
+
+
+```4d
+Function _generateMarkdownForClass($ClassJSON : Object) -> Text
+```
+
+Helper function to generate markdown for a single class
+
+**Returns:** `Text`
+
+---
+
+---
+
+*Generated from Documentation.4dm*
+*Last updated: 2025-11-12T17:04:21.595Z*
