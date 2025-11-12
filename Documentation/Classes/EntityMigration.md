@@ -4,16 +4,102 @@
 
 Initialize migration manager for a specific dataclass with optional remote selection for linking
 
+## Table of Contents
+
+### Properties
+
+- [`_RemoteDataStore`](#-remotedatastore)
+- [`_DataClass`](#-dataclass)
+- [`LinkFunctionCancelled`](#linkfunctioncancelled)
+- [`RemoteDataClass`](#remotedataclass)
+- [`LinkRemoteSelection`](#linkremoteselection)
+- [`Loading`](#loading)
+
+### Functions
+
+- [`sync()`](#sync)
+- [`_functionsExistChecks()`](#_functionsexistchecks)
+- [`create()`](#create)
+- [`link()`](#link)
+- [`get()`](#get)
+- [`NewEntityPropertyFormulas()`](#newentitypropertyformulas) *[getter]*
+- [`LinkDisplayProperty()`](#linkdisplayproperty) *[getter]*
+- [`LinkAdditionalInfoProperty()`](#linkadditionalinfoproperty) *[getter]*
+- [`LinkDisplayPropertyValue()`](#linkdisplaypropertyvalue)
+- [`LinkingEnabled()`](#linkingenabled) *[getter]*
+- [`_MigrationSettings()`](#_migrationsettings) *[getter]*
+- [`DataClassName()`](#dataclassname) *[getter]*
+- [`MigrationPropertyExists()`](#migrationpropertyexists) *[getter]*
+- [`updateLoading()`](#updateloading)
+- [`startTransactions()`](#starttransactions)
+- [`validateTransactions()`](#validatetransactions)
+- [`cancelTransactions()`](#canceltransactions)
+
+---
+
 ## Properties
 
-|Name|Type|Default|Description|
-|:---|:---|:---|:---|
-|`_RemoteDataStore`|`4D.DataStoreImplementation`|`DataStore(2)`|Remote datastore connection for migration target|
-|`_DataClass`|`4D.DataClass`||Local dataclass being migrated|
-|`LinkFunctionCancelled`||`False`|Flag indicating user cancelled the link dialog|
-|`RemoteDataClass`|`4D.DataClass`||Remote dataclass corresponding to local dataclass|
-|`LinkRemoteSelection`|`4D.EntitySelection`||Remote entities available for linking|
-|`Loading`|`cs.Loading`||Loading indicator for migration progress|
+### _RemoteDataStore {#-remotedatastore}
+
+|   |   |
+|:---|:---|
+| **Type** | `4D.DataStoreImplementation` |
+| **Default** | `DataStore(2)` |
+
+Remote datastore connection for migration target
+
+---
+
+### _DataClass {#-dataclass}
+
+|   |   |
+|:---|:---|
+| **Type** | `4D.DataClass` |
+
+Local dataclass being migrated
+
+---
+
+### LinkFunctionCancelled {#linkfunctioncancelled}
+
+|   |   |
+|:---|:---|
+| **Type** | `Variant` |
+| **Default** | `False` |
+
+Flag indicating user cancelled the link dialog
+
+---
+
+### RemoteDataClass {#remotedataclass}
+
+|   |   |
+|:---|:---|
+| **Type** | `4D.DataClass` |
+
+Remote dataclass corresponding to local dataclass
+
+---
+
+### LinkRemoteSelection {#linkremoteselection}
+
+|   |   |
+|:---|:---|
+| **Type** | `4D.EntitySelection` |
+
+Remote entities available for linking
+
+---
+
+### Loading {#loading}
+
+|   |   |
+|:---|:---|
+| **Type** | `cs.Loading` |
+
+Loading indicator for migration progress
+
+---
 
 ## Functions
 
