@@ -1,4 +1,9 @@
-﻿# CofC
+﻿---
+layout : default
+title : CofC
+parent : Tables
+---
+# CofC
 
 ## Table Information
 
@@ -1487,4 +1492,4 @@ Links from table: [ToolNotice](ToolNotice.md)
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-12T23:46:13Z*
+*Generated at: 2025-11-12T23:51:54Z*
