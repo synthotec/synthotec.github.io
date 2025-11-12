@@ -4,6 +4,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [fillBoxLabelsQR()](#fillboxlabelsqr)
 - [fillPalletQR()](#fillpalletqr)
 - [fillPrinterQR()](#fillprinterqr)
@@ -15,6 +16,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
+```
+
+---
 
 ### fillBoxLabelsQR {#fillboxlabelsqr}
 
@@ -90,4 +100,4 @@ Function PrimaryKey -> Integer
 ---
 
 *Generated from QRCode.4dm*
-*Last updated: 2025-11-12T17:04:22.270Z*
+*Last updated: 2025-11-12T17:17:32.211Z*

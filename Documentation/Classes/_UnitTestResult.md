@@ -12,6 +12,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [TestFormulaText() [getter]](#testformulatext)
 - [TestFormulaParametersText->$TestFormulaParametersText() [getter]](#testformulaparameterstext->$testformulaparameterstext)
 - [StatusEmoji() [getter]](#statusemoji)
@@ -52,6 +53,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### TestFormulaText {#testformulatext}
  `[getter]`
 
@@ -88,4 +98,4 @@ Function StatusEmoji -> Text
 ---
 
 *Generated from _UnitTestResult.4dm*
-*Last updated: 2025-11-12T17:04:22.634Z*
+*Last updated: 2025-11-12T17:17:32.545Z*

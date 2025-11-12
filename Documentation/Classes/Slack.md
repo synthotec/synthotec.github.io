@@ -8,6 +8,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [newHttpRequest()](#newhttprequest)
 - [createChannel()](#createchannel)
 - [setChannelID()](#setchannelid)
@@ -27,6 +28,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($ChannelName : Text)
+```
+
+---
 
 ### newHttpRequest {#newhttprequest}
 
@@ -108,4 +118,4 @@ Function deleteMessage($MessageTimeStamp : Text) -> Boolean
 ---
 
 *Generated from Slack.4dm*
-*Last updated: 2025-11-12T17:04:22.452Z*
+*Last updated: 2025-11-12T17:17:32.375Z*

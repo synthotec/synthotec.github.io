@@ -50,4 +50,4 @@ Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from MaterialStock.4dm*
-*Last updated: 2025-11-12T17:04:21.871Z*
+*Last updated: 2025-11-12T17:17:31.836Z*

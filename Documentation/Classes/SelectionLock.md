@@ -9,6 +9,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [displayAlert()](#displayalert)
 - [unlock()](#unlock)
 
@@ -29,6 +30,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Boolean)
+```
+
+---
 
 ### displayAlert {#displayalert}
 
@@ -51,4 +61,4 @@ Function unlock
 ---
 
 *Generated from SelectionLock.4dm*
-*Last updated: 2025-11-12T17:04:22.416Z*
+*Last updated: 2025-11-12T17:17:32.344Z*

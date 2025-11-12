@@ -50,4 +50,4 @@ Function ShiftColor -> Integer
 ---
 
 *Generated from ShiftSummaryEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.439Z*
+*Last updated: 2025-11-12T17:17:32.363Z*

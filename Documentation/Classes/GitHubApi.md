@@ -4,6 +4,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [newHttpRequest()](#newhttprequest)
 - [createIssue()](#createissue)
 - [getIssues()](#getissues)
@@ -12,6 +13,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
 
 ### newHttpRequest {#newhttprequest}
 
@@ -58,4 +68,4 @@ Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
 ---
 
 *Generated from GitHubApi.4dm*
-*Last updated: 2025-11-12T17:04:21.789Z*
+*Last updated: 2025-11-12T17:17:31.746Z*

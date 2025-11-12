@@ -13,6 +13,7 @@ Example class to demonstrate inline comments and parameter documentation
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [calculateValue()](#calculatevalue)
 - [processOrder()](#processorder)
 - [ItemCount() [getter]](#itemcount)
@@ -40,6 +41,17 @@ Number of items in stock
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($InitialCount : Integer)
+```
+
+$InitialCount: Starting inventory count
+
+---
 
 ### calculateValue {#calculatevalue}
 
@@ -81,4 +93,4 @@ Function ItemCount -> Integer
 ---
 
 *Generated from ExampleClass.4dm*
-*Last updated: 2025-11-12T17:04:21.681Z*
+*Last updated: 2025-11-12T17:17:31.635Z*

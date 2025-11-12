@@ -204,4 +204,4 @@ Function getPickRequestQuantitiesColor -> Integer
 ---
 
 *Generated from Customer_OrderEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.515Z*
+*Last updated: 2025-11-12T17:17:31.459Z*

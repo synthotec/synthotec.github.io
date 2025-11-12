@@ -13,6 +13,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [setResult()](#setresult)
 - [valueType() [getter]](#valuetype)
 - [booleanResult() [getter]](#booleanresult)
@@ -59,6 +60,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($QueryEventObject : Object)
+```
+
+---
+
 ### setResult {#setresult}
 
 
@@ -93,4 +103,4 @@ Function booleanResult -> Variant
 ---
 
 *Generated from QueryEventHandler.4dm*
-*Last updated: 2025-11-12T17:04:22.281Z*
+*Last updated: 2025-11-12T17:17:32.225Z*

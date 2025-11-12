@@ -18,6 +18,7 @@ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $Bac
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [addSelectionBasedListbox()](#addselectionbasedlistbox)
 - [setFreezePanes()](#setfreezepanes)
 - [addColumn()](#addcolumn)
@@ -85,6 +86,15 @@ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $Bac
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
 
 ### addSelectionBasedListbox {#addselectionbasedlistbox}
 
@@ -154,4 +164,4 @@ Function generate
 ---
 
 *Generated from ExcelXMLFile.4dm*
-*Last updated: 2025-11-12T17:04:21.708Z*
+*Last updated: 2025-11-12T17:17:31.663Z*

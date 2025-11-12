@@ -13,6 +13,7 @@ if(Match regex(Email Regex;$EmailAddress))
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [addTo()](#addto)
 - [addCc()](#addcc)
 - [addBcc()](#addbcc)
@@ -43,6 +44,15 @@ if(Match regex(Email Regex;$EmailAddress))
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($Subject : Text; $HTML_Body : Text)
+```
+
+---
 
 ### addTo {#addto}
 
@@ -159,4 +169,4 @@ Function send -> Boolean
 ---
 
 *Generated from Email.4dm*
-*Last updated: 2025-11-12T17:04:21.611Z*
+*Last updated: 2025-11-12T17:17:31.562Z*

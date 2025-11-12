@@ -62,4 +62,4 @@ Function PartBoxStore -> cs.Stock_LocationEntity
 ---
 
 *Generated from Stock_Location.4dm*
-*Last updated: 2025-11-12T17:04:22.492Z*
+*Last updated: 2025-11-12T17:17:32.409Z*

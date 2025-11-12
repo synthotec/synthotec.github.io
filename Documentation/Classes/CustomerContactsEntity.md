@@ -48,4 +48,4 @@ Function HasMigrationID -> Boolean
 ---
 
 *Generated from CustomerContactsEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.479Z*
+*Last updated: 2025-11-12T17:17:31.425Z*

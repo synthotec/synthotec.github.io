@@ -17,6 +17,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [sync()](#sync)
 - [_functionsExistChecks()](#_functionsexistchecks)
 - [create()](#create)
@@ -93,6 +94,17 @@ Loading indicator for migration progress
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($DataClass : 4D.DataClass; $LinkRemoteSelection : 4D.EntitySelection)
+```
+
+Initialize migration manager for a specific dataclass with optional remote selection for linking
+
+---
+
 ### sync {#sync}
 
 
@@ -101,13 +113,6 @@ Function sync($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
 ```
 
 Synchronize local entity with remote entity, applying migration rules to update remote properties
-
-**Note:** Test 2
-
-**Parameters:**
-
-- `$Entity` (4D.Entity): Test
-- `$PreventSync` (Boolean)
 
 **Returns:** `4D.Entity`
 
@@ -314,4 +319,4 @@ Rollback transactions on both local and remote datastores
 ---
 
 *Generated from EntityMigration.4dm*
-*Last updated: 2025-11-12T17:04:21.636Z*
+*Last updated: 2025-11-12T17:17:31.593Z*

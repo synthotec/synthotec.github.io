@@ -17,6 +17,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [AllLinesActioned() [getter]](#alllinesactioned)
 - [UnactionedLines() [getter]](#unactionedlines)
 - [process()](#process)
@@ -103,6 +104,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($ClipboardText : Text)
+```
+
+---
+
 ### AllLinesActioned {#alllinesactioned}
  `[getter]`
 
@@ -137,4 +147,4 @@ Function process
 ---
 
 *Generated from ProcurementProgram.4dm*
-*Last updated: 2025-11-12T17:04:22.170Z*
+*Last updated: 2025-11-12T17:17:32.126Z*

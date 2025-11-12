@@ -4,6 +4,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [CollectionObject()](#collectionobject)
 - [SetIndex()](#setindex)
 - [GetIndex()](#getindex)
@@ -18,6 +19,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($valuesCollection : Collection; $placeHolderText : Text)
+```
+
+---
 
 ### CollectionObject {#collectionobject}
 
@@ -122,4 +132,4 @@ Function GetCurrentEntity -> 4D.Entity
 ---
 
 *Generated from CollectionObject.4dm*
-*Last updated: 2025-11-12T17:04:21.468Z*
+*Last updated: 2025-11-12T17:17:31.419Z*

@@ -352,4 +352,4 @@ Function TestProduct -> cs.ProductEntity
 ---
 
 *Generated from BoxLabelsEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.393Z*
+*Last updated: 2025-11-12T17:17:31.353Z*

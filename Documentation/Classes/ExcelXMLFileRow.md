@@ -11,6 +11,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [addCell()](#addcell)
 
 ---
@@ -51,6 +52,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### addCell {#addcell}
 
 
@@ -63,4 +73,4 @@ Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
 ---
 
 *Generated from ExcelXMLFileRow.4dm*
-*Last updated: 2025-11-12T17:04:21.711Z*
+*Last updated: 2025-11-12T17:17:31.666Z*

@@ -98,4 +98,4 @@ Function sendEmail -> Boolean
 ---
 
 *Generated from RealTimeSensorExceptionsEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.375Z*
+*Last updated: 2025-11-12T17:17:32.308Z*

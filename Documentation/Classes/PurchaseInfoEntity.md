@@ -50,4 +50,4 @@ Function createReceipt -> cs.PurchaseReceiptsEntity
 ---
 
 *Generated from PurchaseInfoEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.263Z*
+*Last updated: 2025-11-12T17:17:32.205Z*

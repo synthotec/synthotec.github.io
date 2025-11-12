@@ -12,6 +12,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [generateClassDocumentation()](#generateclassdocumentation)
 - [getCompiledClassesObject()](#getcompiledclassesobject)
 - [generateTableDocumentation()](#generatetabledocumentation)
@@ -30,6 +31,17 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($CompileCode : Boolean)
+```
+
+This.generateClassDocumentation()
+
+---
 
 ### generateClassDocumentation {#generateclassdocumentation}
 
@@ -98,4 +110,4 @@ Helper function to generate markdown for a single class
 ---
 
 *Generated from Documentation.4dm*
-*Last updated: 2025-11-12T17:04:21.595Z*
+*Last updated: 2025-11-12T17:17:31.545Z*

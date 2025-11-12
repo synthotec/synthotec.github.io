@@ -4,11 +4,21 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [generate()](#generate)
 
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
 
 ### generate {#generate}
 
@@ -26,4 +36,4 @@ GRAPH($Picture; This.Settings;
 ---
 
 *Generated from Graph.4dm*
-*Last updated: 2025-11-12T17:04:21.790Z*
+*Last updated: 2025-11-12T17:17:31.748Z*

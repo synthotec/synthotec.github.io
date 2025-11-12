@@ -10,6 +10,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [evaluate()](#evaluate)
 - [Success() [getter]](#success)
 - [displayResultsAlert()](#displayresultsalert)
@@ -37,6 +38,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($Description : Text)
+```
+
+---
 
 ### evaluate {#evaluate}
 
@@ -72,4 +82,4 @@ Function displayResultsAlert
 ---
 
 *Generated from UnitTest.4dm*
-*Last updated: 2025-11-12T17:04:22.568Z*
+*Last updated: 2025-11-12T17:17:32.483Z*

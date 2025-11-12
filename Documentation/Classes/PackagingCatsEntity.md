@@ -38,4 +38,4 @@ var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.Supplies
 ---
 
 *Generated from PackagingCatsEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.912Z*
+*Last updated: 2025-11-12T17:17:31.874Z*

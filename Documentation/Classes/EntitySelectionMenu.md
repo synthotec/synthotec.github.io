@@ -9,6 +9,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [display()](#display)
 - [displayWithParents()](#displaywithparents)
 - [selectedEntity() [setter]](#selectedentity)
@@ -31,6 +32,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($EntitySelection : 4D.EntitySelection; $ParentPath : Text)
+```
+
+---
 
 ### display {#display}
 
@@ -77,4 +87,4 @@ Function selectedEntity -> 4D.Entity
 ---
 
 *Generated from EntitySelectionMenu.4dm*
-*Last updated: 2025-11-12T17:04:21.652Z*
+*Last updated: 2025-11-12T17:17:31.610Z*

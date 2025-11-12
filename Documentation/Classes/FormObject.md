@@ -8,6 +8,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [Title() [getter]](#title)
 - [Title() [setter]](#title)
 - [MinimumValue() [getter]](#minimumvalue)
@@ -78,6 +79,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($FormObjectName : Text)
+```
+
+---
 
 ### Title {#title}
  `[getter]`
@@ -660,4 +670,4 @@ Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
 ---
 
 *Generated from FormObject.4dm*
-*Last updated: 2025-11-12T17:04:21.778Z*
+*Last updated: 2025-11-12T17:17:31.730Z*

@@ -46,4 +46,4 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 ---
 
 *Generated from Printer.4dm*
-*Last updated: 2025-11-12T17:04:22.133Z*
+*Last updated: 2025-11-12T17:17:32.089Z*

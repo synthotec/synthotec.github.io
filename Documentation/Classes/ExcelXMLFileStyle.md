@@ -16,6 +16,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [setFontStyle()](#setfontstyle)
 - [setInteriorColor()](#setinteriorcolor)
 - [setNumberFormat()](#setnumberformat)
@@ -97,6 +98,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### setFontStyle {#setfontstyle}
 
 
@@ -144,4 +154,4 @@ Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileSt
 ---
 
 *Generated from ExcelXMLFileStyle.4dm*
-*Last updated: 2025-11-12T17:04:21.717Z*
+*Last updated: 2025-11-12T17:17:31.671Z*

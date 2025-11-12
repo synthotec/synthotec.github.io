@@ -12,6 +12,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [ZoneName() [getter]](#zonename)
 - [InRange() [getter]](#inrange)
 
@@ -51,6 +52,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObject : Object)
+```
+
+---
+
 ### ZoneName {#zonename}
  `[getter]`
 
@@ -76,4 +86,4 @@ Function InRange -> Boolean
 ---
 
 *Generated from RealTimeTemperatureSensor.4dm*
-*Last updated: 2025-11-12T17:04:22.382Z*
+*Last updated: 2025-11-12T17:17:32.314Z*

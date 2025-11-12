@@ -11,6 +11,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [apply()](#apply)
 
 ---
@@ -43,6 +44,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $Parameters : Collection)
+```
+
+---
+
 ### apply {#apply}
 
 
@@ -57,4 +67,4 @@ Function apply -> Variant
 ---
 
 *Generated from FormulaSet.4dm*
-*Last updated: 2025-11-12T17:04:21.782Z*
+*Last updated: 2025-11-12T17:17:31.737Z*

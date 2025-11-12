@@ -26,4 +26,4 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 ---
 
 *Generated from RealTimeMachines.4dm*
-*Last updated: 2025-11-12T17:04:22.305Z*
+*Last updated: 2025-11-12T17:17:32.245Z*

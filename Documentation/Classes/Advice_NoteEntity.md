@@ -58,4 +58,4 @@ Function cancel -> Boolean
 ---
 
 *Generated from Advice_NoteEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.326Z*
+*Last updated: 2025-11-12T17:17:31.296Z*

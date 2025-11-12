@@ -8,6 +8,7 @@ Stores metadata about a class function
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [addModifier()](#addmodifier)
 - [addParameter()](#addparameter)
 - [toObject()](#toobject)
@@ -15,6 +16,17 @@ Stores metadata about a class function
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($Name : Text)
+```
+
+Stores metadata about a class function
+
+---
 
 ### addModifier {#addmodifier}
 
@@ -48,4 +60,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassFunction.4dm*
-*Last updated: 2025-11-12T17:04:21.398Z*
+*Last updated: 2025-11-12T17:17:31.358Z*

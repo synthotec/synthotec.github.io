@@ -144,4 +144,4 @@ Function getPickedStockListboxCollection -> Collection
 ---
 
 *Generated from OrderPickRequestEntity.4dm*
-*Last updated: 2025-11-12T17:04:21.907Z*
+*Last updated: 2025-11-12T17:17:31.869Z*

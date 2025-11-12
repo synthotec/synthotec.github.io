@@ -74,4 +74,4 @@ Function restRemoveEntry($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from MaterialStockTake.4dm*
-*Last updated: 2025-11-12T17:04:21.883Z*
+*Last updated: 2025-11-12T17:17:31.844Z*

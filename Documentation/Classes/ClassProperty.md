@@ -8,12 +8,24 @@ Stores metadata about a class property
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [setDefault()](#setdefault)
 - [toObject()](#toobject)
 
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($Name : Text; $Type : Text)
+```
+
+Stores metadata about a class property
+
+---
 
 ### setDefault {#setdefault}
 
@@ -38,4 +50,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassProperty.4dm*
-*Last updated: 2025-11-12T17:04:21.456Z*
+*Last updated: 2025-11-12T17:17:31.409Z*

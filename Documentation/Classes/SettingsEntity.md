@@ -74,4 +74,4 @@ Function reset -> Boolean
 ---
 
 *Generated from SettingsEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.425Z*
+*Last updated: 2025-11-12T17:17:32.352Z*

@@ -8,6 +8,7 @@ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [Machines() [getter]](#machines)
 - [SecondarySummaryText() [getter]](#secondarysummarytext)
 - [SummaryText() [getter]](#summarytext)
@@ -17,6 +18,15 @@ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
 
 ### Machines {#machines}
  `[getter]`
@@ -76,4 +86,4 @@ Function InfoTextBox -> Object
 ---
 
 *Generated from RealTimeOutput.4dm*
-*Last updated: 2025-11-12T17:04:22.324Z*
+*Last updated: 2025-11-12T17:17:32.263Z*

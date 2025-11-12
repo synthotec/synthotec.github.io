@@ -38,4 +38,4 @@ Function createForProduct -> cs.ToolsEntity
 ---
 
 *Generated from Tools.4dm*
-*Last updated: 2025-11-12T17:04:22.521Z*
+*Last updated: 2025-11-12T17:17:32.439Z*

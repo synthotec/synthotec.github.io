@@ -8,11 +8,23 @@ Stores metadata about a function parameter
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [toObject()](#toobject)
 
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($Name : Text; $Type : Text)
+```
+
+Stores metadata about a function parameter
+
+---
 
 ### toObject {#toobject}
 
@@ -28,4 +40,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassParameter.4dm*
-*Last updated: 2025-11-12T17:04:21.447Z*
+*Last updated: 2025-11-12T17:17:31.405Z*

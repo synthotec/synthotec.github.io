@@ -26,4 +26,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from ToolTemperatureZone.4dm*
-*Last updated: 2025-11-12T17:04:22.554Z*
+*Last updated: 2025-11-12T17:17:32.471Z*

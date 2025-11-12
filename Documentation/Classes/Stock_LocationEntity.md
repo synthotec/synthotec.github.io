@@ -9,4 +9,4 @@
 ---
 
 *Generated from Stock_LocationEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.493Z*
+*Last updated: 2025-11-12T17:17:32.410Z*

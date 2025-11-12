@@ -4,6 +4,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [adjust()](#adjust)
 - [move()](#move)
 - [SetNewStockQuarantineStatus()](#setnewstockquarantinestatus)
@@ -25,6 +26,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer)
+```
+
+---
 
 ### adjust {#adjust}
 
@@ -210,4 +220,4 @@ Function GetQuarantineReason -> Text
 ---
 
 *Generated from Stock.4dm*
-*Last updated: 2025-11-12T17:04:22.488Z*
+*Last updated: 2025-11-12T17:17:32.406Z*

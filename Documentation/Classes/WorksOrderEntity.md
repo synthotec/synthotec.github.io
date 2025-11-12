@@ -198,4 +198,4 @@ Function ExS1Stock -> Integer
 ---
 
 *Generated from WorksOrderEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.631Z*
+*Last updated: 2025-11-12T17:17:32.541Z*

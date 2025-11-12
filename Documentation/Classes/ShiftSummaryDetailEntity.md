@@ -70,4 +70,4 @@ Function StatusColor -> Integer
 ---
 
 *Generated from ShiftSummaryDetailEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.435Z*
+*Last updated: 2025-11-12T17:17:32.360Z*

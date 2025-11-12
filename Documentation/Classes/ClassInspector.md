@@ -22,6 +22,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [_parse()](#_parse)
 - [_extractInlineComment()](#_extractinlinecomment)
 - [_removeInlineComment()](#_removeinlinecomment)
@@ -118,6 +119,15 @@ List of changes detected
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($File : 4D.File)
+```
+
+---
 
 ### _parse {#_parse}
 
@@ -277,4 +287,4 @@ Save JSON to file in Documentation\json\Classes folder
 ---
 
 *Generated from ClassInspector.4dm*
-*Last updated: 2025-11-12T17:04:21.444Z*
+*Last updated: 2025-11-12T17:17:31.403Z*

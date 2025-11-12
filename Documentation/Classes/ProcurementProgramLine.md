@@ -29,6 +29,7 @@ $Column.BackgroundColor:=Color.PastelGreen
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [IsActionSet() [getter]](#isactionset)
 - [setDefaultActions()](#setdefaultactions)
 - [IsBacklog() [getter]](#isbacklog)
@@ -172,6 +173,15 @@ $Column.BackgroundColor:=Color.PastelGreen
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram : cs.ProcurementProgram)
+```
+
+---
 
 ### IsActionSet {#isactionset}
  `[getter]`
@@ -449,4 +459,4 @@ Function process_CloseOrder
 ---
 
 *Generated from ProcurementProgramLine.4dm*
-*Last updated: 2025-11-12T17:04:22.207Z*
+*Last updated: 2025-11-12T17:17:32.158Z*

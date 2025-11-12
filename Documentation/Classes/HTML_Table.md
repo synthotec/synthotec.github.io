@@ -9,6 +9,7 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [AddRow()](#addrow)
 - [Output()](#output)
 - [HTML_Cell()](#html_cell)
@@ -17,6 +18,15 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($BorderWidth : Integer; $CellPadding : Integer; $UpperCase : Boolean; $Centralize : Boolean)
+```
+
+---
 
 ### AddRow {#addrow}
 
@@ -61,4 +71,4 @@ Function merge($SkipFirstRow : Boolean; $ColumnsToIgnore : Collection)
 ---
 
 *Generated from HTML_Table.4dm*
-*Last updated: 2025-11-12T17:04:21.810Z*
+*Last updated: 2025-11-12T17:17:31.771Z*

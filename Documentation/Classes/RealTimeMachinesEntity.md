@@ -98,4 +98,4 @@ Function AssignedTemperatureSensorsPresent -> Boolean
 ---
 
 *Generated from RealTimeMachinesEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.310Z*
+*Last updated: 2025-11-12T17:17:32.250Z*

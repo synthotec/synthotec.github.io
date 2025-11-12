@@ -9,4 +9,4 @@
 ---
 
 *Generated from SuppliersEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.494Z*
+*Last updated: 2025-11-12T17:17:32.411Z*

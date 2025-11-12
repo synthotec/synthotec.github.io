@@ -106,4 +106,4 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 ---
 
 *Generated from RealTime.4dm*
-*Last updated: 2025-11-12T17:04:22.299Z*
+*Last updated: 2025-11-12T17:17:32.240Z*

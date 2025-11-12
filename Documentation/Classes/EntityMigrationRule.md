@@ -9,6 +9,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [overwrite()](#overwrite)
 - [fillIfBlank()](#fillifblank)
 - [addFormula()](#addformula)
@@ -37,6 +38,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
 
 ### overwrite {#overwrite}
 
@@ -105,4 +115,4 @@ Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
 ---
 
 *Generated from EntityMigrationRule.4dm*
-*Last updated: 2025-11-12T17:04:21.645Z*
+*Last updated: 2025-11-12T17:17:31.602Z*

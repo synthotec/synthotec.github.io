@@ -9,6 +9,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [getStaffEntity()](#getstaffentity)
 - [getScannerObject()](#getscannerobject)
 - [getScannerText()](#getscannertext)
@@ -32,6 +33,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($RestPostDataObject : Object)
+```
+
+---
 
 ### getStaffEntity {#getstaffentity}
 
@@ -91,4 +101,4 @@ Function toObject -> Object
 ---
 
 *Generated from RestPostData.4dm*
-*Last updated: 2025-11-12T17:04:22.387Z*
+*Last updated: 2025-11-12T17:17:32.318Z*

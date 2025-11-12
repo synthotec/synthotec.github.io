@@ -19,6 +19,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [_Style() [getter]](#_style)
 - [_addMenuItem()](#_addmenuitem)
 - [_process()](#_process)
@@ -101,6 +102,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($MenuText : Text)
+```
+
+---
+
 ### _Style {#_style}
  `[getter]`
 
@@ -135,4 +145,4 @@ Function _process -> Variant
 ---
 
 *Generated from MenuItem.4dm*
-*Last updated: 2025-11-12T17:04:21.898Z*
+*Last updated: 2025-11-12T17:17:31.860Z*

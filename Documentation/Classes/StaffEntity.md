@@ -50,4 +50,4 @@ Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> Boolean
 ---
 
 *Generated from StaffEntity.4dm*
-*Last updated: 2025-11-12T17:04:22.461Z*
+*Last updated: 2025-11-12T17:17:32.383Z*

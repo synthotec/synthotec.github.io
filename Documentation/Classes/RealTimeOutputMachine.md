@@ -21,6 +21,7 @@ MARK:Primary Colors
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [ProcessColors()](#processcolors)
 - [SecondaryStatusText() [getter]](#secondarystatustext)
 - [TimeRemainingText() [getter]](#timeremainingtext)
@@ -109,6 +110,15 @@ MARK:Primary Colors
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
+```
+
+---
 
 ### ProcessColors {#processcolors}
 
@@ -345,4 +355,4 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 ---
 
 *Generated from RealTimeOutputMachine.4dm*
-*Last updated: 2025-11-12T17:04:22.360Z*
+*Last updated: 2025-11-12T17:17:32.297Z*

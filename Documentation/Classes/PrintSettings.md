@@ -12,6 +12,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [display()](#display)
 - [load()](#load)
 - [save()](#save)
@@ -53,6 +54,15 @@
 ---
 
 ## Functions
+
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : Integer; $Orientation : Integer)
+```
+
+---
 
 ### display {#display}
 
@@ -112,4 +122,4 @@ Function restore -> Boolean
 ---
 
 *Generated from PrintSettings.4dm*
-*Last updated: 2025-11-12T17:04:22.160Z*
+*Last updated: 2025-11-12T17:17:32.116Z*

@@ -11,6 +11,7 @@
 
 ### Functions
 
+- [constructor() [constructor]](#constructor)
 - [importPrices()](#importprices)
 
 ---
@@ -49,6 +50,15 @@
 
 ## Functions
 
+### constructor {#constructor}
+ `[constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### importPrices {#importprices}
 
 
@@ -63,4 +73,4 @@ Function importPrices -> Object
 ---
 
 *Generated from PriceImport.4dm*
-*Last updated: 2025-11-12T17:04:22.127Z*
+*Last updated: 2025-11-12T17:17:32.085Z*
