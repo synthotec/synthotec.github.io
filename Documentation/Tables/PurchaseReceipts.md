@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PurchaseReceipts
+title: PurchaseReceipts ⌛
 parent: Tables
 ---
 # PurchaseReceipts Table

@@ -1,0 +1,50 @@
+﻿# Staff
+
+**Extends:** `DataClass`
+
+## Functions
+
+### getUsingKeyfob `[local]`
+
+```4d
+Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+### getCurrentUser `[local]`
+
+```4d
+Function getCurrentUser -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+### getNonArchived `[local]`
+
+```4d
+Function getNonArchived -> cs.StaffSelection
+```
+
+**Returns:** `cs.StaffSelection`
+
+---
+
+### newUsingEntry `[local]`
+
+```4d
+Function newUsingEntry -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+---
+
+*Generated from Staff.4dm*
+*Last updated: 2025-11-12T16:28:03.482Z*

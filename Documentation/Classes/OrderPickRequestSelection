@@ -1,0 +1,20 @@
+﻿# OrderPickRequestSelection
+
+**Extends:** `EntitySelection`
+
+## Functions
+
+### getUnprocessedQuantity `[local]`
+
+```4d
+Function getUnprocessedQuantity -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+---
+
+*Generated from OrderPickRequestSelection.4dm*
+*Last updated: 2025-11-12T16:28:02.961Z*

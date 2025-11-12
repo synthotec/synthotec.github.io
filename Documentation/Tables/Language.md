@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Language
+title: Language ⌛
 parent: Tables
 ---
 # Language Table

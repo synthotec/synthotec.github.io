@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Printer
+title: Printer ⌛
 parent: Tables
 ---
 # Printer Table
@@ -50,29 +50,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |PrintJobSelection|[PrintJob](PrintJob.md)|PrinterEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getDefault()|✔️||
-|populate()|✔️||
-|getComputerPrinters()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getLabelPaperOptions()|||
-|updateOptions()|✔️||
-|printJobs()|✔️||
-|setCurrent()|✔️||
-|setDefault()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getLabelPrinters()|✔️||

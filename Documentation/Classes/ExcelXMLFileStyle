@@ -1,0 +1,62 @@
+﻿# ExcelXMLFileStyle
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`NumberFormat_ShortDate`|`Text`|`"Short Date"`||
+|`NumberFormat_dd_mmm`|`Text`|`"dd\\-mmm"`||
+|`NumberFormat_Decimal`|`Text`|`"General;#;;@"`||
+|`NumberFormat_Number`|`Text`|`"#,###,###,##0"`||
+|`Font`|`Object`|`{}`||
+|`Interior`|`Object`|`{}`||
+|`Alignment`|`Object`|`{}`||
+|`NumberFormat`|`Text`|`"General"`||
+|`ID`|`Text`|||
+
+## Functions
+
+### setFontStyle
+
+```4d
+Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integer; $Bold : Boolean) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+### setInteriorColor
+
+```4d
+Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+### setNumberFormat
+
+```4d
+Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+### setAlignment
+
+```4d
+Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileStyle
+```
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+---
+
+*Generated from ExcelXMLFileStyle.4dm*
+*Last updated: 2025-11-12T16:28:02.744Z*

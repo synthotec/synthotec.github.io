@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Test
+title: Test ⌛
 parent: Tables
 ---
 # Test Table

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ShiftSummaryDetail
+title: ShiftSummaryDetail ⌛
 parent: Tables
 ---
 # ShiftSummaryDetail Table
@@ -45,12 +45,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |ShiftSummaryEntity|[ShiftSummary](ShiftSummary.md)|ShiftSummaryDetailSelection|✔️||
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|ShiftSummaryDetailSelection|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryDetailEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|fillDowntimeSincePrevious()|✔️||
-|fillRealTimeOutputMachine()|✔️||

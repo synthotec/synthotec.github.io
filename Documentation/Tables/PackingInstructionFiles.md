@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PackingInstructionFiles
+title: PackingInstructionFiles ⌛
 parent: Tables
 ---
 # PackingInstructionFiles Table
@@ -38,19 +38,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|[Product](Product.md)|PackingInstructionFilesSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackingInstructionFiles.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getLatest()|||
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackingInstructionFilesEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

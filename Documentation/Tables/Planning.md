@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Planning
+title: Planning ⌛
 parent: Tables
 ---
 # Planning Table

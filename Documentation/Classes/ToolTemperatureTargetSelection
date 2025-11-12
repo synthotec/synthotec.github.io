@@ -1,0 +1,30 @@
+﻿# ToolTemperatureTargetSelection
+
+**Extends:** `EntitySelection`
+
+## Functions
+
+### CheckInRange
+
+```4d
+Function CheckInRange($TemperatureSensorCollection : Collection) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### CheckTargetsSet
+
+```4d
+Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from ToolTemperatureTargetSelection.4dm*
+*Last updated: 2025-11-12T16:28:03.575Z*

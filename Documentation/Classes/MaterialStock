@@ -1,0 +1,40 @@
+﻿# MaterialStock
+
+**Extends:** `DataClass`
+
+## Functions
+
+### restLoadMaterialStock `[exposed]`
+
+```4d
+Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### restUpdateQuantity `[exposed]`
+
+```4d
+Function restUpdateQuantity($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### restLocateMaterialStock `[exposed]`
+
+```4d
+Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from MaterialStock.4dm*
+*Last updated: 2025-11-12T16:28:02.924Z*

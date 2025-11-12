@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Stock_Location
+title: Stock_Location ⌛
 parent: Tables
 ---
 # Stock_Location Table
@@ -50,11 +50,3 @@ No description for this table has been created yet.
 |CustomerSelection|[Customer](Customer.md)|Stock_LocationEntity|✔️||
 |Finished_StockSelection|[Finished_Stock](Finished_Stock.md)|Stock_LocationEntity|✔️||
 |Stock_MovementSelection|[Stock_Movement](Stock_Movement.md)|Stock_LocationEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getDefaultDespatchLocation()|✔️||

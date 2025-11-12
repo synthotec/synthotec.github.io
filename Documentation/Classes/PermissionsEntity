@@ -1,0 +1,28 @@
+﻿# PermissionsEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getStaffPermissionsEntity `[local]`
+
+```4d
+Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> cs.StaffPermissionsEntity
+```
+
+**Returns:** `cs.StaffPermissionsEntity`
+
+---
+
+### displayWarning `[local]`
+
+```4d
+Function displayWarning($StaffEntity : cs.StaffEntity)
+```
+
+---
+
+---
+
+*Generated from PermissionsEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.079Z*

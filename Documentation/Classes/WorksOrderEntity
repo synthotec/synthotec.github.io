@@ -1,0 +1,162 @@
+﻿# WorksOrderEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### AvailableStock `[local]` `[getter]`
+
+```4d
+Function AvailableStock -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### setQuantityMade `[local]`
+
+```4d
+Function setQuantityMade($NewQuantity : Integer; $AdjustmentDate : Date) -> Date
+```
+
+**Returns:** `Date`
+
+---
+
+### getQuantityMade `[local]`
+
+```4d
+Function getQuantityMade($UseRealTimeData : Boolean) -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### getQuantityPacked `[local]`
+
+```4d
+Function getQuantityPacked($InStockOnly : Boolean) -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### getQuantityScrapped `[local]`
+
+```4d
+Function getQuantityScrapped -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### WIP `[local]` `[getter]`
+
+```4d
+Function WIP -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### IsRunning `[local]` `[getter]`
+
+```4d
+Function IsRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query IsRunning `[local]`
+
+```4d
+Function query IsRunning($QueryEventObject : Object)
+```
+
+---
+
+### IsOpen `[local]` `[getter]`
+
+```4d
+Function IsOpen -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query IsOpen `[local]`
+
+```4d
+Function query IsOpen($QueryEventObject : Object)
+```
+
+---
+
+### calculateProcessScrap `[local]`
+
+```4d
+Function calculateProcessScrap($MachineCompleted : Boolean; $PackingCompleted : Boolean)
+```
+
+---
+
+### getMigrationRules `[local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.WorksOrderEntity) -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### syncMigrationSelections `[local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.WorksOrderEntity)
+```
+
+---
+
+### HasMigrationID `[local]` `[getter]`
+
+```4d
+Function HasMigrationID -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query HasMigrationID `[local]`
+
+```4d
+Function query HasMigrationID($QueryEventObject : Object) -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### ExS1Stock `[local]` `[getter]`
+
+```4d
+Function ExS1Stock -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+---
+
+*Generated from WorksOrderEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.646Z*

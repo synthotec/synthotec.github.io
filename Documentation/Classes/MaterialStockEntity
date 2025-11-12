@@ -1,0 +1,20 @@
+﻿# MaterialStockEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getStockListBoxObject `[local]`
+
+```4d
+Function getStockListBoxObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from MaterialStockEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.926Z*

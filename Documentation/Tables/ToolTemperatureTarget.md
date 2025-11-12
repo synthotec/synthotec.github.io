@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ToolTemperatureTarget
+title: ToolTemperatureTarget ⌛
 parent: Tables
 ---
 # ToolTemperatureTarget Table
@@ -47,27 +47,3 @@ No description for this table has been created yet.
 |StaffEntity|[Staff](Staff.md)|ToolTemperatureTargetSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|ToolTemperatureTargetSelection|✔️||
 |ToolTemperatureZoneEntity|[ToolTemperatureZone](ToolTemperatureZone.md)|ToolTemperatureTargetSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTarget.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getByWorksOrder()|||
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTargetEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|SetTargetValues()|✔️||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTargetSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|CheckInRange()|||
-|CheckTargetsSet()|||

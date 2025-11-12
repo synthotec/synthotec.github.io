@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ToolTemperatureZone
+title: ToolTemperatureZone ⌛
 parent: Tables
 ---
 # ToolTemperatureZone Table
@@ -34,18 +34,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ToolTemperatureTargetSelection|[ToolTemperatureTarget](ToolTemperatureTarget.md)|ToolTemperatureZoneEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureZone.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureZoneEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

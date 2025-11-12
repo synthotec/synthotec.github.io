@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Printing
+title: Printing ⌛
 parent: Tables
 ---
 # Printing Table

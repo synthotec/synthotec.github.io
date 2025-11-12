@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ToolDocument
+title: ToolDocument ⌛
 parent: Tables
 ---
 # ToolDocument Table
@@ -35,11 +35,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ToolsEntity|[Tools](Tools.md)|ToolDocumentSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolDocument.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|newUsingEntry()|✔️||

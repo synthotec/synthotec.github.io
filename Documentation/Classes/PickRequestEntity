@@ -1,0 +1,178 @@
+﻿# PickRequestEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### OrderPickRequest `[getter]`
+
+```4d
+Function OrderPickRequest -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### MovementPickRequest `[getter]`
+
+```4d
+Function MovementPickRequest -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### modify `[local]`
+
+```4d
+Function modify -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### cancel
+
+```4d
+Function cancel
+```
+
+---
+
+### despatch `[local]`
+
+```4d
+Function despatch
+```
+
+---
+
+### despatchOrder `[local]`
+
+```4d
+Function despatchOrder($Advice_NoteEntity : cs.Advice_NoteEntity)
+```
+
+---
+
+### PartsRequested `[local]` `[getter]`
+
+```4d
+Function PartsRequested -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### despatchConsignment `[local]`
+
+```4d
+Function despatchConsignment
+```
+
+---
+
+### Picked `[local]` `[getter]`
+
+```4d
+Function Picked -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query Picked `[local]`
+
+```4d
+Function query Picked($QueryEventObject : Object) -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PickingStarted `[local]` `[getter]`
+
+```4d
+Function PickingStarted -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### getNotInStockWorksOrders `[local]`
+
+```4d
+Function getNotInStockWorksOrders -> cs.WorksOrderSelection
+```
+
+**Returns:** `cs.WorksOrderSelection`
+
+---
+
+### Status `[local]` `[getter]`
+
+```4d
+Function Status -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### StatusColor `[local]` `[getter]`
+
+```4d
+Function StatusColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### getWorksOrderSummaryListboxCollection `[local]`
+
+```4d
+Function getWorksOrderSummaryListboxCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### getPickedStockListboxObject `[local]`
+
+```4d
+Function getPickedStockListboxObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### sendNotification
+
+```4d
+Function sendNotification
+```
+
+---
+
+### sendPickedNotification
+
+```4d
+Function sendPickedNotification
+```
+
+---
+
+---
+
+*Generated from PickRequestEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.160Z*

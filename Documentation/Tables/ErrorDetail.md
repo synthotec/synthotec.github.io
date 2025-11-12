@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ErrorDetail
+title: ErrorDetail ⌛
 parent: Tables
 ---
 # ErrorDetail Table

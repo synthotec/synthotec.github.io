@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: OrderPickRequest
+title: OrderPickRequest ⌛
 parent: Tables
 ---
 # OrderPickRequest Table
@@ -59,17 +59,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|OrderPickRequestEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|OrderPickRequestEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getPickedStockListboxCollection()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getUnprocessedQuantity()|✔️||

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Customer_Order
+title: Customer_Order ⌛
 parent: Tables
 ---
 # Customer_Order Table
@@ -67,7 +67,7 @@ No description for this table has been created yet.
 |NSKDelivered|number|||||✔️|||
 |NSKUndelivered|number|||||✔️|||
 |Order_Price|number|||||✔️|||
-|OrderDescription|string|||||✔️|||
+|OrderNotes|string|||||✔️|||
 |OTIF|bool|||||✔️|||
 |OTIF_Comments|string|||||✔️|||
 |OTIF_Shortfall|number|||||✔️|||
@@ -128,26 +128,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Customer_OrderEntity|✔️||
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|Customer_OrderEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_Order.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|classicMakeOrderSort()|✔️||
-|classicOrderOverviewSort()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|createCofC()|✔️||
-|getAvailableForPickRequest()|✔️||
-|modifyOrderPickRequest()|✔️||
-|getPickRequestedQuantity()|✔️||
-|getPickedQuantity()|✔️||
-|getPickedQuantitiesColor()|✔️||
-|getPickedQuantitiesText()|✔️||
-|getPickRequestQuantitiesText()|✔️||
-|getPickRequestQuantitiesColor()|✔️||

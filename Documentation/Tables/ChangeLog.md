@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ChangeLog
+title: ChangeLog ⌛
 parent: Tables
 ---
 # ChangeLog Table

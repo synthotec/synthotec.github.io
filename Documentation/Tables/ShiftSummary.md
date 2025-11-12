@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ShiftSummary
+title: ShiftSummary ⌛
 parent: Tables
 ---
 # ShiftSummary Table
@@ -49,11 +49,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ShiftSummaryDetailSelection|[ShiftSummaryDetail](ShiftSummaryDetail.md)|ShiftSummaryEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getPreviousShiftSummaryEntity()|✔️||

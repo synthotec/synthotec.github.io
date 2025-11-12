@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Material
+title: Material ⌛
 parent: Tables
 ---
 # Material Table
@@ -89,19 +89,3 @@ No description for this table has been created yet.
 |UsageMat3Selection|[Material](Material.md)|UsageMat3Entity|✔️||
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|MaterialEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|MaterialEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Material.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMaterialsUsingThis()|||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

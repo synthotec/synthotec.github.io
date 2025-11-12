@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Supplies
+title: Supplies ⌛
 parent: Tables
 ---
 # Supplies Table
@@ -63,18 +63,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |ProductPackagingSelection|[ProductPackaging](ProductPackaging.md)|SuppliesEntity|✔️||
 |PurchaseInfoSelection|[PurchaseInfo](PurchaseInfo.md)|SuppliesEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Supplies.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SuppliesEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

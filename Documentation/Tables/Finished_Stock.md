@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Finished_Stock
+title: Finished_Stock ⌛
 parent: Tables
 ---
 # Finished_Stock Table

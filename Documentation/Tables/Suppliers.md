@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Suppliers
+title: Suppliers ⌛
 parent: Tables
 ---
 # Suppliers Table

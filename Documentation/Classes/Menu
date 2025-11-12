@@ -1,0 +1,83 @@
+﻿# Menu
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`_MenuItems`|`Collection`|||
+|`_MenuReference`|`Text`|||
+|`_SubMenu`|`Boolean`|||
+|`_SubMenuText`|`Text`|||
+|`_MenuItemCollection`|`Collection`|||
+|`Cancelled`|`Boolean`|||
+
+## Functions
+
+### addSeperator
+
+```4d
+Function addSeperator
+```
+
+---
+
+### addVariantItem
+
+```4d
+Function addVariantItem($MenuText : Text; $Variant : Variant) -> cs.MenuItem
+```
+
+**Returns:** `cs.MenuItem`
+
+---
+
+### addFormulaItem
+
+```4d
+Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> cs.MenuItem
+```
+
+**Returns:** `cs.MenuItem`
+
+---
+
+### addSubMenu
+
+```4d
+Function addSubMenu($SubMenuText : Text) -> cs.Menu
+```
+
+**Returns:** `cs.Menu`
+
+---
+
+### show
+
+```4d
+Function show -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### _addMenuItems
+
+```4d
+Function _addMenuItems($ParentMenuReference : Text)
+```
+
+---
+
+### _release
+
+```4d
+Function _release
+```
+
+---
+
+---
+
+*Generated from Menu.4dm*
+*Last updated: 2025-11-12T16:28:02.943Z*

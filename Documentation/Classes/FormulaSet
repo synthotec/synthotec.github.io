@@ -1,0 +1,27 @@
+﻿# FormulaSet
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`_FormulaCollection`|`Collection`|||
+|`_ThisObject`|`4D.Function`|||
+|`_Parameters`|`Collection`|||
+|`FormulaResults`|`Collection`|||
+
+## Functions
+
+### apply
+
+```4d
+Function apply -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+---
+
+*Generated from FormulaSet.4dm*
+*Last updated: 2025-11-12T16:28:02.829Z*

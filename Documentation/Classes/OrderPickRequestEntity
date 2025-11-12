@@ -1,0 +1,118 @@
+﻿# OrderPickRequestEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### QuantityPicked `[local]` `[getter]`
+
+```4d
+Function QuantityPicked -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### QuantityToPick `[local]` `[getter]`
+
+```4d
+Function QuantityToPick -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### BoxesPerPallet `[local]` `[getter]`
+
+```4d
+Function BoxesPerPallet -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Pallets `[local]` `[getter]`
+
+```4d
+Function Pallets -> Real
+```
+
+MARK:Pallets
+
+**Returns:** `Real`
+
+---
+
+### Pallets `[local]` `[setter]`
+
+```4d
+Function Pallets($Pallets : Real)
+```
+
+---
+
+### Boxes `[local]` `[getter]`
+
+```4d
+Function Boxes -> Real
+```
+
+MARK:Boxes
+
+**Returns:** `Real`
+
+---
+
+### Boxes `[local]` `[setter]`
+
+```4d
+Function Boxes($Boxes : Real)
+```
+
+---
+
+### Parts `[local]` `[getter]`
+
+```4d
+Function Parts -> Integer
+```
+
+MARK: Parts
+
+**Returns:** `Integer`
+
+---
+
+### Parts `[local]` `[setter]`
+
+```4d
+Function Parts($Parts : Integer)
+```
+
+---
+
+### query Parts `[local]`
+
+```4d
+Function query Parts($QueryEventObject : Object)
+```
+
+---
+
+### getPickedStockListboxCollection `[local]`
+
+```4d
+Function getPickedStockListboxCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+---
+
+*Generated from OrderPickRequestEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.959Z*

@@ -1,0 +1,73 @@
+﻿# EntityMigrationRule
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`FormulaObjectCollection`||`[]`||
+|`CriteriaCollection`||`[]`||
+
+## Functions
+
+### overwrite
+
+```4d
+Function overwrite($PropertyName : Text) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### fillIfBlank
+
+```4d
+Function fillIfBlank($PropertyName : Text) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addFormula
+
+```4d
+Function addFormula($Formula : 4D.Function; $SecondParameter : Variant; $CheckProperty : Text) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addCriteria
+
+```4d
+Function addCriteria($Formula : 4D.Function) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### addEntity
+
+```4d
+Function addEntity($DataClass : 4D.DataClass; $LocalEntity : 4D.Entity; $Formula : 4D.Function; $Sync : Boolean) -> cs.EntityMigrationRule
+```
+
+**Returns:** `cs.EntityMigrationRule`
+
+---
+
+### apply
+
+```4d
+Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
+```
+
+---
+
+---
+
+*Generated from EntityMigrationRule.4dm*
+*Last updated: 2025-11-12T16:28:02.655Z*

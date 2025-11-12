@@ -1,0 +1,50 @@
+﻿# Location
+
+**Extends:** `DataClass`
+
+## Functions
+
+### getUsingScanner
+
+```4d
+Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
+```
+
+**Returns:** `cs.LocationEntity`
+
+---
+
+### newLocation `[local]`
+
+```4d
+Function newLocation($ParentLocationEntity : cs.LocationEntity) -> cs.LocationEntity
+```
+
+**Returns:** `cs.LocationEntity`
+
+---
+
+### restClearStockLocation `[exposed]`
+
+```4d
+Function restClearStockLocation($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### restSetStockLocation `[exposed]`
+
+```4d
+Function restSetStockLocation($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from Location.4dm*
+*Last updated: 2025-11-12T16:28:02.877Z*

@@ -1,0 +1,50 @@
+﻿# MaterialEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getMaterialsUsingThis
+
+```4d
+Function getMaterialsUsingThis -> cs.MaterialSelection
+```
+
+**Returns:** `cs.MaterialSelection`
+
+---
+
+### getMigrationRules `[local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> Collection
+```
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+**Returns:** `Collection`
+
+---
+
+### syncMigrationSelections `[local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
+```
+
+---
+
+### HasMigrationID `[local]` `[getter]`
+
+```4d
+Function HasMigrationID -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from MaterialEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.905Z*

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PurchaseInfo
+title: PurchaseInfo ⌛
 parent: Tables
 ---
 # PurchaseInfo Table
@@ -76,11 +76,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|PurchaseInfoEntity|✔️||
 |RMCSelection|[RMC](RMC.md)|PurchaseInfoEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchaseInfoEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|createReceipt()|✔️||

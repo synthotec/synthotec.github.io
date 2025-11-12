@@ -1,0 +1,42 @@
+﻿# ToolsEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getMigrationRules `[local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.ToolsEntity) -> Collection
+```
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**Returns:** `Collection`
+
+---
+
+### syncMigrationSelections `[local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.ToolsEntity)
+```
+
+return
+
+---
+
+### NextToolChangeText `[getter]`
+
+```4d
+Function NextToolChangeText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+---
+
+*Generated from ToolsEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.560Z*

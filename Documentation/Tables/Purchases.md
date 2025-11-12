@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Purchases
+title: Purchases ⌛
 parent: Tables
 ---
 # Purchases Table

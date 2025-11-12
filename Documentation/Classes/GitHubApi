@@ -1,0 +1,46 @@
+﻿# GitHubApi
+
+## Functions
+
+### newHttpRequest
+
+```4d
+Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTPRequest
+```
+
+**Returns:** `4D.HTTPRequest`
+
+---
+
+### createIssue
+
+```4d
+Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### getIssues
+
+```4d
+Function getIssues($Label : Text) -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### onError
+
+```4d
+Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
+```
+
+---
+
+---
+
+*Generated from GitHubApi.4dm*
+*Last updated: 2025-11-12T16:28:02.837Z*

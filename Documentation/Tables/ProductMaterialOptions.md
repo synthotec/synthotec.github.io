@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ProductMaterialOptions
+title: ProductMaterialOptions ⌛
 parent: Tables
 ---
 # ProductMaterialOptions Table
@@ -43,18 +43,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|ProductMaterialOptionsSelection|✔️||
 |ProductEntity|[Product](Product.md)|ProductMaterialOptionsSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptions.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptionsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

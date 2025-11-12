@@ -1,0 +1,20 @@
+﻿# PalletSelection
+
+**Extends:** `EntitySelection`
+
+## Functions
+
+### getAvailable `[local]`
+
+```4d
+Function getAvailable -> cs.PalletSelection
+```
+
+**Returns:** `cs.PalletSelection`
+
+---
+
+---
+
+*Generated from PalletSelection.4dm*
+*Last updated: 2025-11-12T16:28:03.072Z*

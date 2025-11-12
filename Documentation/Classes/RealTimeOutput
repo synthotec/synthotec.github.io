@@ -1,0 +1,62 @@
+﻿# RealTimeOutput
+
+## Description
+
+$SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
+
+## Functions
+
+### Machines `[getter]`
+
+```4d
+Function Machines -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### SecondarySummaryText `[getter]`
+
+```4d
+Function SecondarySummaryText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### SummaryText `[getter]`
+
+```4d
+Function SummaryText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### Layout `[getter]`
+
+```4d
+Function Layout -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### InfoTextBox `[getter]`
+
+```4d
+Function InfoTextBox -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from RealTimeOutput.4dm*
+*Last updated: 2025-11-12T16:28:03.361Z*

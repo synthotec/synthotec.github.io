@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MachineOEE
+title: MachineOEE ⌛
 parent: Tables
 ---
 # MachineOEE Table

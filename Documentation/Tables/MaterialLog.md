@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MaterialLog
+title: MaterialLog ⌛
 parent: Tables
 ---
 # MaterialLog Table

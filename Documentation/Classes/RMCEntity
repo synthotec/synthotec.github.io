@@ -1,0 +1,26 @@
+﻿# RMCEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### delete `[local]`
+
+```4d
+Function delete
+```
+
+---
+
+### requestCertificate `[local]`
+
+```4d
+Function requestCertificate
+```
+
+---
+
+---
+
+*Generated from RMCEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.430Z*

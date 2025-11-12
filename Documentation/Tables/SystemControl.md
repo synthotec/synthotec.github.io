@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: SystemControl
+title: SystemControl ⌛
 parent: Tables
 ---
 # SystemControl Table

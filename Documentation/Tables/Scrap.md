@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Scrap
+title: Scrap ⌛
 parent: Tables
 ---
 # Scrap Table

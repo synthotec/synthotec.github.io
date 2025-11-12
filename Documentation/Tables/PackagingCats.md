@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PackagingCats
+title: PackagingCats ⌛
 parent: Tables
 ---
 # PackagingCats Table
@@ -34,18 +34,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |SuppliesSelection|[Supplies](Supplies.md)|PackagingCatsEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackagingCats.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackagingCatsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MaterialStockTake
+title: MaterialStockTake ⌛
 parent: Tables
 ---
 # MaterialStockTake Table
@@ -42,15 +42,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |RMCEntity|[RMC](RMC.md)|MaterialStockTakeSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockTake.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getLastStockTakeDate()|✔️||
-|getLastStockTakeAmount()|✔️||
-|getLastStockTakeSelection()|✔️||
-|restViewResults()|||
-|restRemoveEntry()|||

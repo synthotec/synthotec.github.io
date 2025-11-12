@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: EquipmentStock
+title: EquipmentStock ⌛
 parent: Tables
 ---
 # EquipmentStock Table

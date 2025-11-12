@@ -1,0 +1,104 @@
+﻿# PrinterEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### LabelPrinter `[getter]`
+
+```4d
+Function LabelPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### LabelPaperName `[getter]`
+
+```4d
+Function LabelPaperName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### getLabelPaperOptions
+
+```4d
+Function getLabelPaperOptions -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### updateOptions `[local]`
+
+```4d
+Function updateOptions
+```
+
+---
+
+### printJobs `[local]`
+
+```4d
+Function printJobs
+```
+
+---
+
+### setCurrent `[local]`
+
+```4d
+Function setCurrent -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### setDefault `[local]`
+
+```4d
+Function setDefault
+```
+
+---
+
+### isLabelPrinter `[local]` `[getter]`
+
+```4d
+Function isLabelPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### isDocumentPrinter `[local]` `[getter]`
+
+```4d
+Function isDocumentPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### TypeDisplay `[local]` `[getter]`
+
+```4d
+Function TypeDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+---
+
+*Generated from PrinterEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.189Z*

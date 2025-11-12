@@ -1,0 +1,68 @@
+﻿# PrintSettings
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Name`|`Text`|||
+|`Paper`|`Text`|||
+|`Orientation`|`Integer`|||
+|`Copies`|`Integer`|||
+|`CurrentPrinter`|`Text`|||
+
+## Functions
+
+### display
+
+```4d
+Function display -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### load
+
+```4d
+Function load($SettingName : Text; $LoadCopyCount : Boolean) -> cs.PrintSettings
+```
+
+**Returns:** `cs.PrintSettings`
+
+---
+
+### save
+
+```4d
+Function save($SettingName : Text) -> cs.PrintSettings
+```
+
+**Returns:** `cs.PrintSettings`
+
+---
+
+### apply
+
+```4d
+Function apply -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### restore
+
+```4d
+Function restore -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from PrintSettings.4dm*
+*Last updated: 2025-11-12T16:28:03.201Z*

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Emojis
+title: Emojis ⌛
 parent: Tables
 ---
 # Emojis Table

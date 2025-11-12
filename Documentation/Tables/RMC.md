@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RMC
+title: RMC ⌛
 parent: Tables
 ---
 # RMC Table
@@ -60,12 +60,3 @@ No description for this table has been created yet.
 |MaterialStockSelection|[MaterialStock](MaterialStock.md)|RMCEntity|✔️||
 |MaterialStockTakeSelection|[MaterialStockTake](MaterialStockTake.md)|RMCEntity|✔️||
 |PurchaseReceiptsSelection|[PurchaseReceipts](PurchaseReceipts.md)|RMCEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RMCEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|delete()|✔️||
-|requestCertificate()|✔️||

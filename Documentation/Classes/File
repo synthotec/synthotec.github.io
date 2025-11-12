@@ -1,0 +1,20 @@
+﻿# File
+
+**Extends:** `DataClass`
+
+## Functions
+
+### upload `[local]`
+
+```4d
+Function upload -> cs.FileEntity
+```
+
+**Returns:** `cs.FileEntity`
+
+---
+
+---
+
+*Generated from File.4dm*
+*Last updated: 2025-11-12T16:28:02.760Z*

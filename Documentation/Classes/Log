@@ -1,0 +1,26 @@
+﻿# Log
+
+**Extends:** `DataClass`
+
+## Functions
+
+### record `[local]`
+
+```4d
+Function record($Message : Text; $RecordMessage : Boolean)
+```
+
+---
+
+### trim
+
+```4d
+Function trim
+```
+
+---
+
+---
+
+*Generated from Log.4dm*
+*Last updated: 2025-11-12T16:28:02.891Z*

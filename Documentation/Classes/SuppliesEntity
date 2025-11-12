@@ -1,0 +1,28 @@
+﻿# SuppliesEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getMigrationRules `[local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.SuppliesEntity) -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### syncMigrationSelections `[local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.SuppliesEntity)
+```
+
+---
+
+---
+
+*Generated from SuppliesEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.526Z*

@@ -1,0 +1,38 @@
+﻿# RealTimeTemperatureSensor
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Index`|`Integer`|||
+|`Zone`|`Integer`|||
+|`CelsiusValue`|`Real`|||
+|`_WorksOrderEntity`|`cs.WorksOrderEntity`|||
+|`ToolTemperatureTargetEntity`|`cs.ToolTemperatureTargetEntity`|||
+
+## Functions
+
+### ZoneName `[getter]`
+
+```4d
+Function ZoneName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### InRange `[getter]`
+
+```4d
+Function InRange -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from RealTimeTemperatureSensor.4dm*
+*Last updated: 2025-11-12T16:28:03.415Z*

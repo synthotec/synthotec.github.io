@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: WorkFaults
+title: WorkFaults ⌛
 parent: Tables
 ---
 # WorkFaults Table

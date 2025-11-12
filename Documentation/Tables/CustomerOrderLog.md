@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: CustomerOrderLog
+title: CustomerOrderLog ⌛
 parent: Tables
 ---
 # CustomerOrderLog Table

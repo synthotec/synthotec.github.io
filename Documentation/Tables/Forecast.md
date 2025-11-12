@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Forecast
+title: Forecast ⌛
 parent: Tables
 ---
 # Forecast Table
@@ -42,12 +42,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ProductEntity|[Product](Product.md)|ForecastSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Forecast.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|generate()|✔️||
-|generateForecastOrders()|✔️||

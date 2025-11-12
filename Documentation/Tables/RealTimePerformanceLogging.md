@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RealTimePerformanceLogging
+title: RealTimePerformanceLogging ⌛
 parent: Tables
 ---
 # RealTimePerformanceLogging Table

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Location
+title: Location ⌛
 parent: Tables
 ---
 # Location Table
@@ -51,24 +51,3 @@ No description for this table has been created yet.
 |LocationSelection|[Location](Location.md)|LocationEntity|✔️||
 |MaterialStockSelection|[MaterialStock](MaterialStock.md)|LocationEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|LocationEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Location.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getUsingScanner()|||
-|newLocation()|✔️||
-|restClearStockLocation()|||
-|restSetStockLocation()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|CheckRelated()|✔️||
-|printQRSheet()|✔️||
-|printLabel()|✔️||
-|generateQR()|✔️||
-|getStockListboxCollection()|✔️||

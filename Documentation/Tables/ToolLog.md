@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ToolLog
+title: ToolLog ⌛
 parent: Tables
 ---
 # ToolLog Table

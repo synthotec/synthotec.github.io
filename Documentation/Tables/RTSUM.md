@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RTSUM
+title: RTSUM ⌛
 parent: Tables
 ---
 # RTSUM Table
@@ -40,17 +40,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |WorksOrderEntity|[WorksOrder](WorksOrder.md)|RTSUMSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUM.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|generate()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUMSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMaterialUsedForProduction()|✔️||

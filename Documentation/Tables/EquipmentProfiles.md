@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: EquipmentProfiles
+title: EquipmentProfiles ⌛
 parent: Tables
 ---
 # EquipmentProfiles Table

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: CalibrationEquipment
+title: CalibrationEquipment ⌛
 parent: Tables
 ---
 # CalibrationEquipment Table
@@ -30,7 +30,7 @@ No description for this table has been created yet.
 |EquipmentLocation|string|||||✔️|||
 |EquipmentName|string|||||✔️|||
 |InternallyCalibrated|bool|||||✔️|||
-|Description|string|||||✔️|||
+|Notes|string|||||✔️|||
 |Sensitivity|number|||||✔️|||
 |Serial|string|||||✔️|||
 |UsageFrequency|number|||||✔️|||

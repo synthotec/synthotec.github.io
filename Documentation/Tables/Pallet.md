@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Pallet
+title: Pallet ⌛
 parent: Tables
 ---
 # Pallet Table
@@ -77,46 +77,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|PalletEntity|✔️||
 |PrintJobSelection|[PrintJob](PrintJob.md)|PalletEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-|getAvailableToPick()|✔️||
-|getUsingScanner()|||
-|Create()|||
-|Verify()|||
-|Print()|||
-|Delete()|||
-|restLoadPalletList()|||
-|restAddToPallet()|||
-|restCompletePallet()|||
-|restPrintPallet()|✔️||
-|restVerifyPallet()|||
-|restLocatePallet()|||
-|restDeletePallet()|||
-|restReassignLocation()|||
-|restLoadPallet()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|createPrintJob()|||
-|getWorksOrderCollection()|||
-|getTotalQuantity()|||
-|getTotalBoxes()|||
-|generateQR()|✔️||
-|getStockListBoxObject()|✔️||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||
-|transfer()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getAvailable()|✔️||

@@ -1,0 +1,47 @@
+﻿# QueryEventHandler
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`value`|`Variant`|||
+|`operator`|`Text`|||
+|`eventKind`|`Text`|||
+|`attributeName`|`Text`|||
+|`dataClassName`|`Text`|||
+|`QueryEventObject`|`Object`|||
+
+## Functions
+
+### setResult
+
+```4d
+Function setResult($QueryText : Text; $QueryParameters : Collection)
+```
+
+---
+
+### valueType `[getter]`
+
+```4d
+Function valueType -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### booleanResult `[getter]`
+
+```4d
+Function booleanResult -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+---
+
+*Generated from QueryEventHandler.4dm*
+*Last updated: 2025-11-12T16:28:03.322Z*

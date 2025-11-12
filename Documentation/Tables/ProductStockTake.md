@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ProductStockTake
+title: ProductStockTake ⌛
 parent: Tables
 ---
 # ProductStockTake Table

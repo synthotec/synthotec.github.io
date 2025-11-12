@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MaterialStock
+title: MaterialStock ⌛
 parent: Tables
 ---
 # MaterialStock Table
@@ -44,19 +44,3 @@ No description for this table has been created yet.
 |LocationEntity|[Location](Location.md)|MaterialStockSelection|✔️||
 |MaterialEntity|[Material](Material.md)|MaterialStockSelection|✔️||
 |RMCEntity|[RMC](RMC.md)|MaterialStockSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStock.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|restLoadMaterialStock()|||
-|restUpdateQuantity()|||
-|restLocateMaterialStock()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getStockListBoxObject()|✔️||

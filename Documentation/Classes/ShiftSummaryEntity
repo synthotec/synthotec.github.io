@@ -1,0 +1,40 @@
+﻿# ShiftSummaryEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### getPreviousShiftSummaryEntity `[local]`
+
+```4d
+Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
+```
+
+**Returns:** `cs.ShiftSummaryEntity`
+
+---
+
+### ShiftSymbol `[local]` `[getter]`
+
+```4d
+Function ShiftSymbol -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### ShiftColor `[local]` `[getter]`
+
+```4d
+Function ShiftColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+---
+
+*Generated from ShiftSummaryEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.465Z*

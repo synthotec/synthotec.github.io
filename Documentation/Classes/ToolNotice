@@ -1,0 +1,20 @@
+﻿# ToolNotice
+
+**Extends:** `DataClass`
+
+## Functions
+
+### create `[local]`
+
+```4d
+Function create($ToolsEntity : cs.ToolsEntity) -> cs.ToolNoticeEntity
+```
+
+**Returns:** `cs.ToolNoticeEntity`
+
+---
+
+---
+
+*Generated from ToolNotice.4dm*
+*Last updated: 2025-11-12T16:28:03.533Z*

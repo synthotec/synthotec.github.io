@@ -1,0 +1,290 @@
+﻿# BoxLabelsEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### NetWeightKg `[local]` `[getter]`
+
+```4d
+Function NetWeightKg -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+### GrossWeightKg `[local]` `[getter]`
+
+```4d
+Function GrossWeightKg -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+### getStatesCollection
+
+```4d
+Function getStatesCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### CurrentStatus `[getter]`
+
+```4d
+Function CurrentStatus -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### ModifyStatus `[local]`
+
+```4d
+Function ModifyStatus
+```
+
+---
+
+### AddComment `[local]`
+
+```4d
+Function AddComment($Comment : Text; $StaffEntity : cs.StaffEntity)
+```
+
+---
+
+### StatusText `[getter]`
+
+```4d
+Function StatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PartsFromOtherWorksOrders->$Text `[getter]`
+
+```4d
+Function PartsFromOtherWorksOrders->$Text -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### BoxNumberColor `[getter]`
+
+```4d
+Function BoxNumberColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### AdviceNote `[getter]`
+
+```4d
+Function AdviceNote -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### BoxQuantityDisplay `[getter]`
+
+```4d
+Function BoxQuantityDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PackedByDisplay `[getter]`
+
+```4d
+Function PackedByDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### BoxNumberDisplay `[getter]`
+
+```4d
+Function BoxNumberDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### RouteCardColor `[getter]`
+
+```4d
+Function RouteCardColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### PartBox `[getter]`
+
+```4d
+Function PartBox -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query PartBox
+
+```4d
+Function query PartBox($QueryEventObject : Object)
+```
+
+---
+
+### Despatched `[getter]`
+
+```4d
+Function Despatched -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### query Despatched
+
+```4d
+Function query Despatched($QueryEventObject : Object)
+```
+
+---
+
+### removeFromPallet
+
+```4d
+Function removeFromPallet -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### linkedBoxesQuantity `[local]` `[getter]`
+
+```4d
+Function linkedBoxesQuantity -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### totalBoxQuantity `[local]` `[getter]`
+
+```4d
+Function totalBoxQuantity -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### getNextBoxPacked `[local]`
+
+```4d
+Function getNextBoxPacked -> cs.BoxLabelsEntity
+```
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
+
+### partBoxSkipped `[local]` `[getter]`
+
+```4d
+Function partBoxSkipped -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### toolIsRunning `[local]` `[getter]`
+
+```4d
+Function toolIsRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### generateQR `[local]`
+
+```4d
+Function generateQR -> Picture
+```
+
+**Returns:** `Picture`
+
+---
+
+### getMigrationRules `[local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.BoxLabelsEntity) -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### syncMigrationSelections `[local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
+```
+
+---
+
+### HasMigrationID `[local]` `[getter]`
+
+```4d
+Function HasMigrationID -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### TestProduct `[exposed]` `[getter]`
+
+```4d
+Function TestProduct -> cs.ProductEntity
+```
+
+**Returns:** `cs.ProductEntity`
+
+---
+
+---
+
+*Generated from BoxLabelsEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.422Z*

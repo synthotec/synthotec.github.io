@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Staff
+title: Staff ⌛
 parent: Tables
 ---
 # Staff Table
@@ -72,21 +72,3 @@ No description for this table has been created yet.
 |ToolNoticeSelection|[ToolNotice](ToolNotice.md)|StaffEntity|✔️||
 |ToolTemperatureTargetSelection|[ToolTemperatureTarget](ToolTemperatureTarget.md)|StaffEntity|✔️||
 |WorkRequestCommentsSelection|[WorkRequestComments](WorkRequestComments.md)|StaffEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getUsingKeyfob()|✔️||
-|getCurrentUser()|✔️||
-|getNonArchived()|✔️||
-|newUsingEntry()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/StaffEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|permissionCheck()|✔️||
-|copyPermissionsFrom()|✔️||

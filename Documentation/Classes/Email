@@ -1,0 +1,119 @@
+﻿# Email
+
+## Description
+
+if(Match regex(Email Regex;$EmailAddress))
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`EmailObject`|`Object`|||
+|`_PermissionFooterCollection`|`Collection`|||
+
+## Functions
+
+### addTo
+
+```4d
+Function addTo($EmailAddress : Text)
+```
+
+---
+
+### addCc
+
+```4d
+Function addCc($EmailAddress : Text)
+```
+
+---
+
+### addBcc
+
+```4d
+Function addBcc($EmailAddress : Text)
+```
+
+---
+
+### addPermissionGroup
+
+```4d
+Function addPermissionGroup($PermissionName : Text; $RecipientType : Integer; $ShowPermissionFooter : Boolean)
+```
+
+---
+
+### addCustomerGroup
+
+```4d
+Function addCustomerGroup($CustomerCode : Text)
+```
+
+---
+
+### setFromAddress
+
+```4d
+Function setFromAddress($EmailAddress : Text; $EmailName : Text)
+```
+
+---
+
+### setFromCurrentUser
+
+```4d
+Function setFromCurrentUser -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### setMessageID
+
+```4d
+Function setMessageID($MessageID : Text)
+```
+
+---
+
+### setHtmlBody
+
+```4d
+Function setHtmlBody($HTML_Body : Text)
+```
+
+---
+
+### setSubject
+
+```4d
+Function setSubject($Subject : Text)
+```
+
+---
+
+### attachFile
+
+```4d
+Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
+```
+
+---
+
+### send
+
+```4d
+Function send -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from Email.4dm*
+*Last updated: 2025-11-12T16:28:02.621Z*

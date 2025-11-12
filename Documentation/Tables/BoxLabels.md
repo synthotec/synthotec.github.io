@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: BoxLabels
+title: BoxLabels ⌛
 parent: Tables
 ---
 # BoxLabels Table
@@ -110,30 +110,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |LinkedBoxLabelsSelection|[BoxLabels](BoxLabels.md)|LinkedBoxLabelsEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabels.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-|getAvailableToPick()|✔️||
-|checkPalletQuantity()|||
-|getUsingScanner()|||
-|getByUUID()|||
-|GetBoxQuantity()|||
-|restScannedBoxLabel()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getStatesCollection()|||
-|ModifyStatus()|✔️||
-|AddComment()|✔️||
-|removeFromPallet()|||
-|getNextBoxPacked()|✔️||
-|generateQR()|✔️||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

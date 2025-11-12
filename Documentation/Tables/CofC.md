@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: CofC
+title: CofC ⌛
 parent: Tables
 ---
 # CofC Table
@@ -74,11 +74,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |BoxLabelsSelection|[BoxLabels](BoxLabels.md)|CofCEntity|✔️||
 |PalletSelection|[Pallet](Pallet.md)|CofCEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CofCEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|cancel()|||

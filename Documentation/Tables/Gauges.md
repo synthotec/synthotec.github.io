@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Gauges
+title: Gauges ⌛
 parent: Tables
 ---
 # Gauges Table

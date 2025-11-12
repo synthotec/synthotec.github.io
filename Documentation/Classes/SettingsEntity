@@ -1,0 +1,60 @@
+﻿# SettingsEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### setValue `[local]`
+
+```4d
+Function setValue($Value : Variant) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### setObject `[local]`
+
+```4d
+Function setObject($Object : Object) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### getValue `[local]`
+
+```4d
+Function getValue($DefaultValue : Variant) -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### getObject `[local]`
+
+```4d
+Function getObject($DefaultValue : Variant) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### reset `[local]`
+
+```4d
+Function reset -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from SettingsEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.454Z*

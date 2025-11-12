@@ -1,0 +1,534 @@
+﻿# FormObject
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Name`|`Text`|||
+
+## Functions
+
+### Title `[getter]`
+
+```4d
+Function Title -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### Title `[setter]`
+
+```4d
+Function Title($Title : Text)
+```
+
+---
+
+### MinimumValue `[getter]`
+
+```4d
+Function MinimumValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### MinimumValue `[setter]`
+
+```4d
+Function MinimumValue($MinimumValue : Variant)
+```
+
+---
+
+### MaximumValue `[getter]`
+
+```4d
+Function MaximumValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### MaximumValue `[setter]`
+
+```4d
+Function MaximumValue($MaximumValue : Variant)
+```
+
+---
+
+### Visible `[getter]`
+
+```4d
+Function Visible -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Visible `[setter]`
+
+```4d
+Function Visible($Visible : Boolean)
+```
+
+---
+
+### Enterable `[getter]`
+
+```4d
+Function Enterable -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Enterable `[setter]`
+
+```4d
+Function Enterable($Enterable : Boolean)
+```
+
+---
+
+### Enabled `[getter]`
+
+```4d
+Function Enabled -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Enabled `[setter]`
+
+```4d
+Function Enabled($Enabled : Boolean)
+```
+
+---
+
+### ForegroundColor `[getter]`
+
+```4d
+Function ForegroundColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### ForegroundColor `[setter]`
+
+```4d
+Function ForegroundColor($ForegroundColor : Variant)
+```
+
+---
+
+### BackgroundColor `[getter]`
+
+```4d
+Function BackgroundColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### BackgroundColor `[setter]`
+
+```4d
+Function BackgroundColor($BackgroundColor : Variant)
+```
+
+---
+
+### Left `[getter]`
+
+```4d
+Function Left -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Left `[setter]`
+
+```4d
+Function Left($Left : Integer)
+```
+
+---
+
+### Top `[getter]`
+
+```4d
+Function Top -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Top `[setter]`
+
+```4d
+Function Top($Top : Integer)
+```
+
+---
+
+### Right `[getter]`
+
+```4d
+Function Right -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Right `[setter]`
+
+```4d
+Function Right($Right : Integer)
+```
+
+---
+
+### Bottom `[getter]`
+
+```4d
+Function Bottom -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Bottom `[setter]`
+
+```4d
+Function Bottom($Bottom : Integer)
+```
+
+---
+
+### Width `[getter]`
+
+```4d
+Function Width -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Width `[setter]`
+
+```4d
+Function Width($Width : Integer)
+```
+
+---
+
+### Height `[getter]`
+
+```4d
+Function Height -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Height `[setter]`
+
+```4d
+Function Height($Height : Integer)
+```
+
+---
+
+### setMaxFontSize
+
+```4d
+Function setMaxFontSize($MultiLine : Boolean; $UpperFontSizeLimit : Integer)
+```
+
+---
+
+### setBestObjectSize
+
+```4d
+Function setBestObjectSize($HeightOnly : Boolean)
+```
+
+---
+
+### Font `[getter]`
+
+```4d
+Function Font -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### Font `[setter]`
+
+```4d
+Function Font($Font : Text)
+```
+
+---
+
+### FontSize `[getter]`
+
+```4d
+Function FontSize -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### FontSize `[setter]`
+
+```4d
+Function FontSize($FontSize : Integer)
+```
+
+---
+
+### Bold `[getter]`
+
+```4d
+Function Bold -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Bold `[setter]`
+
+```4d
+Function Bold($Bold : Boolean)
+```
+
+---
+
+### Italic `[getter]`
+
+```4d
+Function Italic -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Italic `[setter]`
+
+```4d
+Function Italic($Italic : Boolean)
+```
+
+---
+
+### Underline `[getter]`
+
+```4d
+Function Underline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Underline `[setter]`
+
+```4d
+Function Underline($Underline : Boolean)
+```
+
+---
+
+### DisplayFormat `[getter]`
+
+```4d
+Function DisplayFormat -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### DisplayFormat `[setter]`
+
+```4d
+Function DisplayFormat($DisplayFormat : Variant)
+```
+
+---
+
+### Multiline `[getter]`
+
+```4d
+Function Multiline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Multiline `[setter]`
+
+```4d
+Function Multiline($Multiline : Boolean)
+```
+
+---
+
+### PlaceholderText `[getter]`
+
+```4d
+Function PlaceholderText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### PlaceholderText `[setter]`
+
+```4d
+Function PlaceholderText($PlaceholderText : Text)
+```
+
+---
+
+### VerticalScrollPosition `[getter]`
+
+```4d
+Function VerticalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### VerticalScrollPosition `[setter]`
+
+```4d
+Function VerticalScrollPosition($VerticalScrollPosition : Integer)
+```
+
+---
+
+### HorizontalScrollPosition `[getter]`
+
+```4d
+Function HorizontalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### HorizontalScrollPosition `[setter]`
+
+```4d
+Function HorizontalScrollPosition($HorizontalScrollPosition : Integer)
+```
+
+---
+
+### CornerRadius `[getter]`
+
+```4d
+Function CornerRadius -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### CornerRadius `[setter]`
+
+```4d
+Function CornerRadius($CornerRadius : Integer)
+```
+
+---
+
+### HelpTip `[getter]`
+
+```4d
+Function HelpTip -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### HelpTip `[setter]`
+
+```4d
+Function HelpTip($HelpTip : Text)
+```
+
+---
+
+### Pointer `[getter]`
+
+```4d
+Function Pointer -> Pointer
+```
+
+**Returns:** `Pointer`
+
+---
+
+### HasFocus `[getter]`
+
+```4d
+Function HasFocus -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### Focus
+
+```4d
+Function Focus
+```
+
+---
+
+### HighlightText
+
+```4d
+Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
+```
+
+---
+
+---
+
+*Generated from FormObject.4dm*
+*Last updated: 2025-11-12T16:28:02.825Z*

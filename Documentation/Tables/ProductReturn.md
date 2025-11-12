@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ProductReturn
+title: ProductReturn ⌛
 parent: Tables
 ---
 # ProductReturn Table
@@ -31,7 +31,7 @@ No description for this table has been created yet.
 |ProductID_l|number||||✔️|✔️|||
 |ReturnClosed_b|bool|||||✔️|||
 |ReturnID_l|number||||✔️|✔️|||
-|ReturnDescription_txt|string|||||✔️|||
+|ReturnNotes_txt|string|||||✔️|||
 
 ## Relationships
 ### Many to One

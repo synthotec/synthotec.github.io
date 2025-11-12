@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: WorksOrder
+title: WorksOrder ⌛
 parent: Tables
 ---
 # WorksOrder Table
@@ -70,7 +70,7 @@ No description for this table has been created yet.
 |MigrationID|number||||✔️|✔️|||
 |NewSystem|bool||||✔️|✔️|||
 |No_In_Stock|number||||✔️|✔️|||
-|Description|string|||||✔️|||
+|Notes|string|||||✔️|||
 |OEEgenerated|bool||||✔️|✔️|||
 |Packing_Box_No|number|||||✔️|||
 |Packing_Completed|bool||||✔️|✔️|||
@@ -154,23 +154,3 @@ No description for this table has been created yet.
 |Stock_MovementSelection|[Stock_Movement](Stock_Movement.md)|WorksOrderEntity|✔️||
 |ToolNoticeWorksOrderSelection|[ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)|WorksOrderEntity|✔️||
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|WorksOrderEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrder.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|setQuantityMade()|✔️||
-|getQuantityMade()|✔️||
-|getQuantityPacked()|✔️||
-|getQuantityScrapped()|✔️||
-|calculateProcessScrap()|✔️||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

@@ -1,0 +1,20 @@
+﻿# CofCEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### cancel
+
+```4d
+Function cancel -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from CofCEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.482Z*

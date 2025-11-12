@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Product
+title: Product ⌛
 parent: Tables
 ---
 # Product Table
@@ -177,28 +177,3 @@ No description for this table has been created yet.
 |ToolsSelection|[Tools](Tools.md)|ProductEntity|✔️||
 |WheelCalendarSelection|[WheelCalendar](WheelCalendar.md)|ProductEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ProductEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-|populateEmojis()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getRobotHeadList()|✔️||
-|getMainTool()|✔️||
-|getPreviousPickRequestQuantity()|✔️||
-|getFinishedStock()|✔️||
-|getQuarantinedStock()|✔️||
-|getWIP()|✔️||
-|getPlannedProduction()|✔️||
-|getPickRequestedQuantity()|✔️||
-|getAvailableStock()|✔️||
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

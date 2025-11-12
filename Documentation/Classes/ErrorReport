@@ -1,0 +1,18 @@
+﻿# ErrorReport
+
+**Extends:** `DataClass`
+
+## Functions
+
+### processError `[local]`
+
+```4d
+Function processError
+```
+
+---
+
+---
+
+*Generated from ErrorReport.4dm*
+*Last updated: 2025-11-12T16:28:02.687Z*

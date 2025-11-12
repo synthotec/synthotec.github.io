@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MachineWheels
+title: MachineWheels ⌛
 parent: Tables
 ---
 # MachineWheels Table
@@ -37,6 +37,7 @@ No description for this table has been created yet.
 |MouldStatus|string|||||✔️|||
 |NextJobID|number|||||✔️|||
 |Performance|number|||||✔️|||
+|Priority|bool|||||✔️|||
 |Quality|number|||||✔️|||
 |RemainingHours|number|||||✔️|||
 |SatHours|number|||||✔️|||

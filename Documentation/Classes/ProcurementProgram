@@ -1,0 +1,51 @@
+﻿# ProcurementProgram
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Lines`|`Collection`|||
+|`ItemNumberIndex`||`-1`||
+|`StatusIndex`||`-1`||
+|`QuantityIndex`||`-1`||
+|`DueDateIndex`||`-1`||
+|`ItemDescriptionIndex`||`-1`||
+|`VmiIndex`||`-1`||
+|`WarehouseIndex`||`-1`||
+|`ErrorOccurred`|`Boolean`|||
+|`ds`||`DataStore(0)`||
+
+## Functions
+
+### AllLinesActioned `[getter]`
+
+```4d
+Function AllLinesActioned -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### UnactionedLines `[getter]`
+
+```4d
+Function UnactionedLines -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### process
+
+```4d
+Function process
+```
+
+---
+
+---
+
+*Generated from ProcurementProgram.4dm*
+*Last updated: 2025-11-12T16:28:03.216Z*

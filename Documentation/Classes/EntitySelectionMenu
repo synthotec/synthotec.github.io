@@ -1,0 +1,53 @@
+﻿# EntitySelectionMenu
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`EntitySelection`|`4D.EntitySelection`|||
+|`_selectedEntity`|`4D.Entity`|||
+
+## Functions
+
+### display
+
+```4d
+Function display($DisplayTextProperty : Object) -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+### displayWithParents
+
+```4d
+Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Object) -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+### selectedEntity `[setter]`
+
+```4d
+Function selectedEntity($SelectedEntity : 4D.Entity)
+```
+
+---
+
+### selectedEntity `[getter]`
+
+```4d
+Function selectedEntity -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+---
+
+*Generated from EntitySelectionMenu.4dm*
+*Last updated: 2025-11-12T16:28:02.663Z*

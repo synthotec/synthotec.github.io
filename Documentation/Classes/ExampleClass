@@ -1,0 +1,53 @@
+﻿# ExampleClass
+
+## Description
+
+Example class to demonstrate inline comments and parameter documentation
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Title`|`Text`||The title of the item|
+|`Count`|`Integer`|`0`|Number of items in stock|
+
+## Functions
+
+### calculateValue
+
+```4d
+Function calculateValue($UnitPrice : Real) -> Real
+```
+
+Returns total inventory value
+
+**Returns:** `Real`
+
+---
+
+### processOrder
+
+```4d
+Function processOrder($Quantity : Integer; $DiscountPercent : Real) -> Boolean
+```
+
+$Quantity: Number of items to order
+
+**Returns:** `Boolean`
+
+---
+
+### ItemCount `[getter]`
+
+```4d
+Function ItemCount -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+---
+
+*Generated from ExampleClass.4dm*
+*Last updated: 2025-11-12T16:28:02.697Z*

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Tools
+title: Tools ⌛
 parent: Tables
 ---
 # Tools Table
@@ -144,7 +144,7 @@ No description for this table has been created yet.
 |TimePerPallet|number|||||✔️|||
 |Tool Mod|string|||||✔️|||
 |Tool_No|string||✔️||✔️|✔️|||
-|Tool_Description|string|||||✔️|||
+|Tool_Notes|string|||||✔️|||
 |ToolDueDate|date|||||✔️|||
 |ToolNoticeObject|object|||||✔️|||
 |ToolOffsite|bool|||||✔️|||
@@ -200,19 +200,3 @@ No description for this table has been created yet.
 |ToolTemperatureTargetSelection|[ToolTemperatureTarget](ToolTemperatureTarget.md)|ToolsEntity|✔️||
 |WorkRequestsSelection|[WorkRequests](WorkRequests.md)|ToolsEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|ToolsEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Tools.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-|createForProduct()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: File
+title: File ⌛
 parent: Tables
 ---
 # File Table
@@ -35,17 +35,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |CustomerSelection|[Customer](Customer.md)|TransportInstructionFileEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/File.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|upload()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/FileEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|open()|✔️||

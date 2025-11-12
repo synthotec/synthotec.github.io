@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PlanningSettings
+title: PlanningSettings ⌛
 parent: Tables
 ---
 # PlanningSettings Table

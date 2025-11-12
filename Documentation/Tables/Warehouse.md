@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Warehouse
+title: Warehouse ⌛
 parent: Tables
 ---
 # Warehouse Table
@@ -24,18 +24,3 @@ No description for this table has been created yet.
 |Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |**ID**|number|✔️|✔️|✔️|✔️|✔️|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Warehouse.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|restExecutePromptFormula()|||
-|restExecuteFormula()|||
-|restTest()|||
-|restStartPage()|||
-|restInitialScan()|||
-|restDisplayPrinterList()|||
-|restSetLabelPrinter()|||
-|restScanTest()|||

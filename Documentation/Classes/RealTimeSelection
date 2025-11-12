@@ -1,0 +1,30 @@
+﻿# RealTimeSelection
+
+**Extends:** `EntitySelection`
+
+## Functions
+
+### getTemperatureSensors
+
+```4d
+Function getTemperatureSensors -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### getTemperatureSensorZones
+
+```4d
+Function getTemperatureSensorZones -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+---
+
+*Generated from RealTimeSelection.4dm*
+*Last updated: 2025-11-12T16:28:03.399Z*

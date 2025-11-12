@@ -1,0 +1,98 @@
+﻿# CollectionObject
+
+## Functions
+
+### CollectionObject
+
+```4d
+Function CollectionObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### SetIndex
+
+```4d
+Function SetIndex($index : Integer)
+```
+
+---
+
+### GetIndex
+
+```4d
+Function GetIndex -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### SetPlaceholder
+
+```4d
+Function SetPlaceholder($placeHolderText : Text)
+```
+
+---
+
+### AppendValue
+
+```4d
+Function AppendValue($value : Variant)
+```
+
+---
+
+### AppendValueWithPrimaryKey
+
+```4d
+Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
+```
+
+---
+
+### AppendValueWithEntity
+
+```4d
+Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
+```
+
+---
+
+### GetCurrentValue
+
+```4d
+Function GetCurrentValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### GetCurrentPrimaryKey
+
+```4d
+Function GetCurrentPrimaryKey -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### GetCurrentEntity
+
+```4d
+Function GetCurrentEntity -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
+
+---
+
+*Generated from CollectionObject.4dm*
+*Last updated: 2025-11-12T16:28:02.489Z*

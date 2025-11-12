@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Permissions
+title: Permissions ⌛
 parent: Tables
 ---
 # Permissions Table
@@ -33,19 +33,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |StaffPermissionsSelection|[StaffPermissions](StaffPermissions.md)|PermissionsEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Permissions.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getByName()|||
-|check()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PermissionsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getStaffPermissionsEntity()|✔️||
-|displayWarning()|✔️||

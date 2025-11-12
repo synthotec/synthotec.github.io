@@ -1,0 +1,44 @@
+﻿# UnitTest
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`Description; Process`|`Text`|||
+|`UnitTestResults`|`Collection`|||
+|`FailedTestCount`|`Integer`|||
+
+## Functions
+
+### evaluate
+
+```4d
+Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> cs._UnitTestResult
+```
+
+**Returns:** `cs._UnitTestResult`
+
+---
+
+### Success `[getter]`
+
+```4d
+Function Success -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### displayResultsAlert
+
+```4d
+Function displayResultsAlert
+```
+
+---
+
+---
+
+*Generated from UnitTest.4dm*
+*Last updated: 2025-11-12T16:28:03.589Z*

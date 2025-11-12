@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MachineMaintenanceLog
+title: MachineMaintenanceLog ⌛
 parent: Tables
 ---
 # MachineMaintenanceLog Table

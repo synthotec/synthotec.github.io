@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RealTimeMachines
+title: RealTimeMachines ⌛
 parent: Tables
 ---
 # RealTimeMachines Table
@@ -79,17 +79,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |DownReasonsEntity|[DownReasons](DownReasons.md)|RealTimeMachinesSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachines.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getByMachine()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachinesEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|checkTempZoneExists()|||

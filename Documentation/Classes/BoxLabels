@@ -1,0 +1,78 @@
+﻿# BoxLabels
+
+**Extends:** `DataClass`
+
+## Functions
+
+### getMigrationSettings `[local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### getAvailableToPick `[local]`
+
+```4d
+Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.BoxLabelsSelection
+```
+
+**Returns:** `cs.BoxLabelsSelection`
+
+---
+
+### checkPalletQuantity
+
+```4d
+Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCardNumber : Integer)
+```
+
+---
+
+### getUsingScanner
+
+```4d
+Function getUsingScanner($ScannerObject : Object) -> cs.BoxLabelsEntity
+```
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
+
+### getByUUID
+
+```4d
+Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
+```
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
+
+### GetBoxQuantity `[exposed]`
+
+```4d
+Function GetBoxQuantity($BoxLabelID : Integer) -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### restScannedBoxLabel `[exposed]`
+
+```4d
+Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from BoxLabels.4dm*
+*Last updated: 2025-11-12T16:28:02.388Z*

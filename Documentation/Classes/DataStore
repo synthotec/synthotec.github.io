@@ -1,0 +1,196 @@
+﻿# DataStore
+
+**Extends:** `DataStoreImplementation`
+
+## Functions
+
+### getDuplicateValueEntities `[local]`
+
+```4d
+Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribute : Object) -> 4D.EntitySelection
+```
+
+**Returns:** `4D.EntitySelection`
+
+---
+
+### applyFormulasToSelection `[local]`
+
+```4d
+Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $FormulaOrFormulaCollection : Variant; $FormulaParamsCollection : Collection) -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### lockEntitySelection `[local]`
+
+```4d
+Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfErrorOccurs : Boolean) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### unlockEntitySelection `[local]`
+
+```4d
+Function unlockEntitySelection($LockedSelectionObject : Object)
+```
+
+---
+
+### lockEntity `[local]`
+
+```4d
+Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### getTablePrimaryKeyField `[local]`
+
+```4d
+Function getTablePrimaryKeyField($TablePointerOrNumber : Variant) -> Pointer
+```
+
+**Returns:** `Pointer`
+
+---
+
+### getRelation `[local]`
+
+```4d
+Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.DataClass) -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### getRelationName
+
+```4d
+Function getRelationName($sourceTableClass : 4D.Class; $destinationTableClass : 4D.Class; $supressNoRelationWarning : Boolean) -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### updateClientFiles `[exposed]`
+
+```4d
+Function updateClientFiles -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### stringTest `[exposed]`
+
+```4d
+Function stringTest($Text : Text) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### echoTest `[exposed]`
+
+```4d
+Function echoTest($Variant : Variant) -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+### blobTest `[exposed]`
+
+```4d
+Function blobTest($Blob : Blob) -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### _getUpdateFolder
+
+```4d
+Function _getUpdateFolder -> 4D.Folder
+```
+
+**Returns:** `4D.Folder`
+
+---
+
+### updateServer `[exposed]`
+
+```4d
+Function updateServer($RestartServer : Boolean) -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### testA `[exposed]`
+
+```4d
+Function testA -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### testB `[exposed]`
+
+```4d
+Function testB -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+### unpackServerUpdate `[exposed]`
+
+```4d
+Function unpackServerUpdate -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### _updateServer `[local]`
+
+```4d
+Function _updateServer
+```
+
+---
+
+### _unpackServerUpdate->$UpdateFolder `[local]`
+
+```4d
+Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
+```
+
+**Returns:** `4D.Folder`
+
+---
+
+---
+
+*Generated from DataStore.4dm*
+*Last updated: 2025-11-12T16:28:02.560Z*

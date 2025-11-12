@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ToolNotice
+title: ToolNotice ⌛
 parent: Tables
 ---
 # ToolNotice Table
@@ -56,18 +56,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ToolNoticeWorksOrderSelection|[ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)|ToolNoticeEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|create()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNoticeEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|displayWorkOrders()|✔️||
-|deactivate()|✔️||

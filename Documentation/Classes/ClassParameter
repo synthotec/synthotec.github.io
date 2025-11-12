@@ -1,0 +1,22 @@
+﻿# ClassParameter
+
+## Description
+
+Stores metadata about a function parameter
+
+## Functions
+
+### toObject
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from ClassParameter.4dm*
+*Last updated: 2025-11-12T16:28:02.476Z*

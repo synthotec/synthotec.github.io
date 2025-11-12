@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: RealTime
+title: RealTime ⌛
 parent: Tables
 ---
 # RealTime Table
@@ -59,24 +59,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |FirstRealTimeSensorExceptionsSelection|[RealTimeSensorExceptions](RealTimeSensorExceptions.md)|FirstRealTimeEntity|✔️||
 |LastRealTimeSensorExceptionsSelection|[RealTimeSensorExceptions](RealTimeSensorExceptions.md)|LastRealTimeEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTime.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|newFromJson()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getTemperatureSensors()|✔️||
-
-### [Selection Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSelection.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getTemperatureSensors()|||
-|getTemperatureSensorZones()|||

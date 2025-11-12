@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Error
+title: Error ⌛
 parent: Tables
 ---
 # Error Table
@@ -49,20 +49,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |ErrorDetailSelection|[ErrorDetail](ErrorDetail.md)|ErrorEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Error.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|fillGitHubIssues()|||
-|setDebugInfo()|✔️||
-|notify()|||
-|record()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|createGitHubIssue()|||

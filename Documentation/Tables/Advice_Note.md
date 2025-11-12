@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Advice_Note
+title: Advice_Note ⌛
 parent: Tables
 ---
 # Advice_Note Table
@@ -38,14 +38,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |CofCSelection|[CofC](CofC.md)|Advice_NoteEntity|✔️||
 |PickRequestSelection|[PickRequest](PickRequest.md)|Advice_NoteEntity|✔️||
-
-## Class Functions
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|generateNTNSNR_DESADV()|✔️||
-|print()|✔️||
-|tryEmailMaterialCertificates()|✔️||
-|cancel()|✔️||

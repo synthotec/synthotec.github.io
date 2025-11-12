@@ -1,0 +1,27 @@
+﻿# PriceImport
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`PasteBoardText`|`Text`|||
+|`ColumnNames`||`[]`||
+|`DataLines`||`[]`||
+|`CellCollection`||`[]`||
+
+## Functions
+
+### importPrices
+
+```4d
+Function importPrices -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from PriceImport.4dm*
+*Last updated: 2025-11-12T16:28:03.173Z*

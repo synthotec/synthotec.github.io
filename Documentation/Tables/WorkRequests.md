@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: WorkRequests
+title: WorkRequests ⌛
 parent: Tables
 ---
 # WorkRequests Table

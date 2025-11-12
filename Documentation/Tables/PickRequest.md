@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PickRequest
+title: PickRequest ⌛
 parent: Tables
 ---
 # PickRequest Table
@@ -63,36 +63,3 @@ No description for this table has been created yet.
 |Name|Related Table|Inverse Name|Exposed|Description|
 |:---|:---:|:---:|:---:|:---:|
 |OrderPickRequestSelection|[OrderPickRequest](OrderPickRequest.md)|PickRequestEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequest.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|create()|✔️||
-|newUsingEntry()|✔️||
-|getOpenRequests()|✔️||
-|restInitialPage()|||
-|restPickPage()|||
-|restUnpickStock()|||
-|restViewStock()|||
-|restScanStock()|||
-|restSelectOrderToPickAgainst()|||
-|restPickAgainstOrder()|||
-|checkForPickedPickRequests()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequestEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|modify()|✔️||
-|cancel()|||
-|despatch()|✔️||
-|despatchOrder()|✔️||
-|despatchConsignment()|✔️||
-|getNotInStockWorksOrders()|✔️||
-|getWorksOrderSummaryListboxCollection()|✔️||
-|getPickedStockListboxObject()|✔️||
-|sendNotification()|||
-|sendPickedNotification()|||

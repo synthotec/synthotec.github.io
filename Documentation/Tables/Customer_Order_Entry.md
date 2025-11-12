@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Customer_Order_Entry
+title: Customer_Order_Entry ⌛
 parent: Tables
 ---
 # Customer_Order_Entry Table

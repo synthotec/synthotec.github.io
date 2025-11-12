@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: MaterialCheckHistory
+title: MaterialCheckHistory ⌛
 parent: Tables
 ---
 # MaterialCheckHistory Table

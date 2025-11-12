@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PalletMethods
+title: PalletMethods ⌛
 parent: Tables
 ---
 # PalletMethods Table

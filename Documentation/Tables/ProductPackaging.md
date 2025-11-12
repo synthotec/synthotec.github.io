@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ProductPackaging
+title: ProductPackaging ⌛
 parent: Tables
 ---
 # ProductPackaging Table
@@ -41,20 +41,3 @@ No description for this table has been created yet.
 |CustomerEntity|[Customer](Customer.md)|ProductPackagingSelection|✔️||
 |ProductEntity|[Product](Product.md)|ProductPackagingSelection|✔️||
 |SuppliesEntity|[Supplies](Supplies.md)|ProductPackagingSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductPackaging.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-|queueCustomerPackagingUpdate()|||
-|generateCustomerPackaging()|||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductPackagingEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

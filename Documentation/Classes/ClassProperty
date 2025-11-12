@@ -1,0 +1,30 @@
+﻿# ClassProperty
+
+## Description
+
+Stores metadata about a class property
+
+## Functions
+
+### setDefault
+
+```4d
+Function setDefault($Value : Text)
+```
+
+---
+
+### toObject
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+---
+
+*Generated from ClassProperty.4dm*
+*Last updated: 2025-11-12T16:28:02.479Z*

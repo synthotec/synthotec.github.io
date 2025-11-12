@@ -1,0 +1,50 @@
+﻿# Stock_Location
+
+**Extends:** `DataClass`
+
+## Functions
+
+### getDefaultDespatchLocation `[local]`
+
+```4d
+Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+### DefaultDespatchLocation `[local]` `[getter]`
+
+```4d
+Function DefaultDespatchLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+### DefaultPackingLocation `[local]` `[getter]`
+
+```4d
+Function DefaultPackingLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+### PartBoxStore `[local]` `[getter]`
+
+```4d
+Function PartBoxStore -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+---
+
+*Generated from Stock_Location.4dm*
+*Last updated: 2025-11-12T16:28:03.514Z*

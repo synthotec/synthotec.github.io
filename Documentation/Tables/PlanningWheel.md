@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: PlanningWheel
+title: PlanningWheel ⌛
 parent: Tables
 ---
 # PlanningWheel Table
@@ -41,7 +41,7 @@ No description for this table has been created yet.
 |Machine|number||||✔️|✔️|||
 |MaterialConflict|bool||||✔️|✔️|||
 |MaterialID|number|||||✔️|||
-|Description|string|||||✔️|||
+|Notes|string|||||✔️|||
 |OnlyForecast|bool|||||✔️|||
 |PartName|string|||||✔️|||
 |PeriodFinish|date|||||✔️|||
@@ -71,12 +71,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |MaterialEntity|[Material](Material.md)|PlanningWheelSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|PlanningWheelSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheel.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|insertLine()|✔️||
-|reducePlannedStand()|✔️||

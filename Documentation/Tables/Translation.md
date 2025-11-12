@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Translation
+title: Translation ⌛
 parent: Tables
 ---
 # Translation Table
@@ -28,14 +28,3 @@ No description for this table has been created yet.
 |OriginalText|string||||✔️|✔️|||
 |Process|string||||✔️|✔️|||
 |TranslatedText|string|||||✔️|||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Translation.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|pushProcess()|✔️||
-|popProcess()|✔️||
-|translate()|✔️||
-|translateFormObjects()|✔️||

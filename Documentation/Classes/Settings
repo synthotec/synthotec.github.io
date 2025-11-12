@@ -1,0 +1,30 @@
+﻿# Settings
+
+**Extends:** `DataClass`
+
+## Functions
+
+### global `[local]`
+
+```4d
+Function global($VariableName : Text) -> cs.SettingsEntity
+```
+
+**Returns:** `cs.SettingsEntity`
+
+---
+
+### userSpecific `[local]`
+
+```4d
+Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEntity
+```
+
+**Returns:** `cs.SettingsEntity`
+
+---
+
+---
+
+*Generated from Settings.4dm*
+*Last updated: 2025-11-12T16:28:03.448Z*

@@ -1,0 +1,80 @@
+﻿# RealTimeMachinesEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### TemperatureSensorsInstalled `[getter]`
+
+```4d
+Function TemperatureSensorsInstalled -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### checkTempZoneExists
+
+```4d
+Function checkTempZoneExists($Zone : Integer) -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### WorksOrderEntity `[getter]`
+
+```4d
+Function WorksOrderEntity -> cs.WorksOrderEntity
+```
+
+**Returns:** `cs.WorksOrderEntity`
+
+---
+
+### WorksOrder `[getter]`
+
+```4d
+Function WorksOrder -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+### Changing `[getter]`
+
+```4d
+Function Changing -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+### UniChar `[getter]`
+
+```4d
+Function UniChar -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### AssignedTemperatureSensorsPresent `[getter]`
+
+```4d
+Function AssignedTemperatureSensorsPresent -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+---
+
+*Generated from RealTimeMachinesEntity.4dm*
+*Last updated: 2025-11-12T16:28:03.347Z*

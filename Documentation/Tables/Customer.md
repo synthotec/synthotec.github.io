@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Customer
+title: Customer ⌛
 parent: Tables
 ---
 # Customer Table
@@ -43,7 +43,7 @@ No description for this table has been created yet.
 |Cust Label2|string|||||✔️|||
 |Cust label3|string|||||✔️|||
 |Cust Name|string|||||✔️|||
-|Cust Description|string|||||✔️|||
+|Cust Notes|string|||||✔️|||
 |Cust Phone1|string|||||✔️|||
 |Cust Postcode|string|||||✔️|||
 |CustContact2|string|||||✔️|||
@@ -112,18 +112,3 @@ No description for this table has been created yet.
 |Product_OptionSelection|[Product_Option](Product_Option.md)|CustomerEntity|✔️||
 |ProductPackagingSelection|[ProductPackaging](ProductPackaging.md)|CustomerEntity|✔️||
 |WorksOrderSelection|[WorksOrder](WorksOrder.md)|CustomerEntity|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

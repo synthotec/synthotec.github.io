@@ -1,0 +1,78 @@
+﻿# ErrorEntity
+
+**Extends:** `Entity`
+
+## Functions
+
+### ListboxMeta->$ListboxMeta `[getter]`
+
+```4d
+Function ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
+```
+
+**Returns:** `cs.UI.ListBoxMeta`
+
+---
+
+### GitHubIssueText `[getter]`
+
+```4d
+Function GitHubIssueText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### GitHubIssueLabel `[getter]`
+
+```4d
+Function GitHubIssueLabel -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### GitHubIssueTitle `[getter]`
+
+```4d
+Function GitHubIssueTitle -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### createGitHubIssue
+
+```4d
+Function createGitHubIssue
+```
+
+---
+
+### FirstOccurrence `[getter]`
+
+```4d
+Function FirstOccurrence -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### LastOccurrence `[getter]`
+
+```4d
+Function LastOccurrence -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+---
+
+*Generated from ErrorEntity.4dm*
+*Last updated: 2025-11-12T16:28:02.682Z*

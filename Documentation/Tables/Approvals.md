@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: Approvals
+title: Approvals ⌛
 parent: Tables
 ---
 # Approvals Table
@@ -44,18 +44,3 @@ No description for this table has been created yet.
 |:---|:---:|:---:|:---:|:---:|
 |CustomerEntity|[Customer](Customer.md)|ApprovalsSelection|✔️||
 |ToolsEntity|[Tools](Tools.md)|ApprovalsSelection|✔️||
-
-## Class Functions
-
-### [DataClass Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Approvals.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationSettings()|✔️||
-
-### [Entity Functions](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ApprovalsEntity.4dm)
-
-|Name|Local|Description|
-|:---|:---:|:---:|
-|getMigrationRules()|✔️||
-|syncMigrationSelections()|✔️||

@@ -1,0 +1,64 @@
+﻿# Translation
+
+**Extends:** `DataClass`
+
+## Functions
+
+### CurrentProcess `[local]` `[getter]`
+
+```4d
+Function CurrentProcess -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### _TranslationProcessCollection `[local]` `[getter]`
+
+```4d
+Function _TranslationProcessCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+### pushProcess `[local]`
+
+```4d
+Function pushProcess($Process : Text)
+```
+
+---
+
+### popProcess `[local]`
+
+```4d
+Function popProcess
+```
+
+---
+
+### translate `[local]`
+
+```4d
+Function translate($Text : Text; $TranslationProcess : Text) -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+### translateFormObjects `[local]`
+
+```4d
+Function translateFormObjects($TranslationProcess : Text)
+```
+
+---
+
+---
+
+*Generated from Translation.4dm*
+*Last updated: 2025-11-12T16:28:03.585Z*

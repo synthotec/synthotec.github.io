@@ -1,6 +1,6 @@
 ﻿---
 layout: default
-title: ScheduleConflicts
+title: ScheduleConflicts ⌛
 parent: Tables
 ---
 # ScheduleConflicts Table
