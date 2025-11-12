@@ -1088,6 +1088,8 @@ Links from table: [MaterialStockTake](MaterialStockTake.md)
 
 ### MaterialCheckHistorySelection1
 
+> Relationship comment test
+
 Links from table: [MaterialCheckHistory](MaterialCheckHistory.md)
 
 - **Source Table:** `MaterialCheckHistory`
@@ -1485,4 +1487,4 @@ Links from table: [ToolNotice](ToolNotice.md)
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-12T23:35:58Z*
+*Generated at: 2025-11-12T23:41:13Z*
