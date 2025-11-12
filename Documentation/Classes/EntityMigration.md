@@ -1,170 +1,217 @@
-﻿---
-layout: default
-title: EntityMigration ⌛
-parent: Classes
+﻿# EntityMigration
+
+## Description
+
+Initialize migration manager for a specific dataclass with optional remote selection for linking
+
+## Properties
+
+|Name|Type|Default|Description|
+|:---|:---|:---|:---|
+|`_RemoteDataStore`|`4D.DataStoreImplementation`|`DataStore(2)`|Remote datastore connection for migration target|
+|`_DataClass`|`4D.DataClass`||Local dataclass being migrated|
+|`LinkFunctionCancelled`||`False`|Flag indicating user cancelled the link dialog|
+|`RemoteDataClass`|`4D.DataClass`||Remote dataclass corresponding to local dataclass|
+|`LinkRemoteSelection`|`4D.EntitySelection`||Remote entities available for linking|
+|`Loading`|`cs.Loading`||Loading indicator for migration progress|
+
+## Functions
+
+### sync
+
+```4d
+Function sync($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+```
+
+Synchronize local entity with remote entity, applying migration rules to update remote properties
+
+**Returns:** `4D.Entity`
+
 ---
 
-# EntityMigration
+### _functionsExistChecks
 
-|   |
-|:---|
-|[**.new**( *DataClass* : 4D.DataClass; *LinkRemoteSelection* : 4D.EntitySelection )](#new)<br>|
-|[**.get LinkAdditionalInfoProperty**() : Text](#get linkadditionalinfoproperty)<br>|
-|[**.sync**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity](#sync)<br>|
-|[**.get LinkDisplayProperty**() : Text](#get linkdisplayproperty)<br>|
-|[**.get LinkingEnabled**() : Boolean](#get linkingenabled)<br>|
-|[**.LinkDisplayPropertyValue**( *Entity* : 4D.Entity ) : Variant](#linkdisplaypropertyvalue)<br>|
-|[**.link**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity](#link)<br>|
-|[**.create**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity](#create)<br>|
-|[**.get**( *Entity* : 4D.Entity; *LinkEntity* : Boolean; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity](#get)<br>|
-|[**.get NewEntityPropertyFormulas**() : Collection](#get newentitypropertyformulas)<br>|
-|[**.get _MigrationSettings**() : Object](#get _migrationsettings)<br>|
-|[**.get DataClassName**() : Text](#get dataclassname)<br>|
-|[**.get MigrationPropertyExists**() : Boolean](#get migrationpropertyexists)<br>|
-|[**.updateLoading**( *LoadingText* : Text; *Entity* : 4D.Entity )](#updateloading)<br>|
-|[**.startTransactions**()](#starttransactions)<br>|
-|[**.validateTransactions**()](#validatetransactions)<br>|
-|[**.cancelTransactions**()](#canceltransactions)<br>|
-|[LinkRemoteSelection : 4D.EntitySelection](#linkremoteselection)<br>|
-|[LinkFunctionCancelled : Boolean](#linkfunctioncancelled)<br>|
-|[RemoteDataClass : 4D.DataClass](#remotedataclass)<br>|
-|[Loading : cs.Loading](#loading)<br>|
+```4d
+Function _functionsExistChecks
+```
 
+Development helper function to verify required migration functions exist on entity classes
 
-## new()
-**.new**( *DataClass* : 4D.DataClass; *LinkRemoteSelection* : 4D.EntitySelection )
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|DataClass|4D.DataClass|->|<Description>|
-|LinkRemoteSelection|4D.EntitySelection|->|<Description>|
+### create
 
-## get LinkAdditionalInfoProperty()
-**.get LinkAdditionalInfoProperty**() : Text
+```4d
+Function create($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+Create a new remote entity from local entity, applying initial property formulas
 
-## sync()
-**.sync**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity
+**Returns:** `4D.Entity`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Entity|4D.Entity|->|<Description>|
-|PreventSync|Boolean|->|<Description>|
-|RemoteEntity|4D.Entity|<-|<Description>|
+---
 
-## get LinkDisplayProperty()
-**.get LinkDisplayProperty**() : Text
+### link
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+```4d
+Function link($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+```
 
-## get LinkingEnabled()
-**.get LinkingEnabled**() : Boolean
+Prompt user to link local entity to existing remote entity or create new one
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+**Returns:** `4D.Entity`
 
-## LinkDisplayPropertyValue()
-**.LinkDisplayPropertyValue**( *Entity* : 4D.Entity ) : Variant
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Entity|4D.Entity|->|<Description>|
-||Variant|<-|<Description>|
+### get
 
-## link()
-**.link**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity
+```4d
+Function get($Entity : 4D.Entity; $LinkEntity : Boolean; $PreventSync : Boolean) -> 4D.Entity
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Entity|4D.Entity|->|<Description>|
-|PreventSync|Boolean|->|<Description>|
-|RemoteEntity|4D.Entity|<-|<Description>|
+Retrieve remote entity by MigrationID, optionally linking if not found
 
-## create()
-**.create**( *Entity* : 4D.Entity; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity
+**Returns:** `4D.Entity`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Entity|4D.Entity|->|<Description>|
-|PreventSync|Boolean|->|<Description>|
-|RemoteEntity|4D.Entity|<-|<Description>|
+---
 
-## get()
-**.get**( *Entity* : 4D.Entity; *LinkEntity* : Boolean; *PreventSync* : Boolean )->RemoteEntity : 4D.Entity
+### NewEntityPropertyFormulas `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|Entity|4D.Entity|->|<Description>|
-|LinkEntity|Boolean|->|<Description>|
-|PreventSync|Boolean|->|<Description>|
-|RemoteEntity|4D.Entity|<-|<Description>|
+```4d
+Function NewEntityPropertyFormulas -> Collection
+```
 
-## get NewEntityPropertyFormulas()
-**.get NewEntityPropertyFormulas**() : Collection
+Collection of formulas to apply when creating new remote entities
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Collection|<-|<Description>|
+**Returns:** `Collection`
 
-## get _MigrationSettings()
-**.get _MigrationSettings**() : Object
+---
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Object|<-|<Description>|
+### LinkDisplayProperty `[getter]`
 
-## get DataClassName()
-**.get DataClassName**() : Text
+```4d
+Function LinkDisplayProperty -> Text
+```
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Text|<-|<Description>|
+Property name to display when linking entities
 
-## get MigrationPropertyExists()
-**.get MigrationPropertyExists**() : Boolean
+**Returns:** `Text`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-||Boolean|<-|<Description>|
+---
 
-## updateLoading()
-**.updateLoading**( *LoadingText* : Text; *Entity* : 4D.Entity )
+### LinkAdditionalInfoProperty `[getter]`
 
-|Parameter|Type|   |Description|
-|:---|:---:|:---:|:---:|
-|LoadingText|Text|->|<Description>|
-|Entity|4D.Entity|->|<Description>|
+```4d
+Function LinkAdditionalInfoProperty -> Text
+```
 
-## startTransactions()
-**.startTransactions**()
+Additional property to show during linking for context
 
+**Returns:** `Text`
 
-## validateTransactions()
-**.validateTransactions**()
+---
 
+### LinkDisplayPropertyValue
 
-## cancelTransactions()
-**.cancelTransactions**()
+```4d
+Function LinkDisplayPropertyValue($Entity : 4D.Entity) -> Variant
+```
 
+Get the display value for an entity, using LinkDisplayProperty or primary key
 
-## LinkRemoteSelection
-LinkRemoteSelection : 4D.EntitySelection
+**Returns:** `Variant`
 
+---
 
-## LinkFunctionCancelled
-LinkFunctionCancelled : Boolean
+### LinkingEnabled `[getter]`
 
+```4d
+Function LinkingEnabled -> Boolean
+```
 
-## RemoteDataClass
-RemoteDataClass : 4D.DataClass
+Whether interactive linking is enabled for this migration
 
+**Returns:** `Boolean`
 
-## Loading
-Loading : cs.Loading
+---
 
+### _MigrationSettings `[getter]`
+
+```4d
+Function _MigrationSettings -> Object
+```
+
+Migration settings from the dataclass's getMigrationSettings function
+
+**Returns:** `Object`
+
+---
+
+### DataClassName `[getter]`
+
+```4d
+Function DataClassName -> Text
+```
+
+Name of the local dataclass being migrated
+
+**Returns:** `Text`
+
+---
+
+### MigrationPropertyExists `[getter]`
+
+```4d
+Function MigrationPropertyExists -> Boolean
+```
+
+Check if the dataclass has a MigrationID property
+
+**Returns:** `Boolean`
+
+---
+
+### updateLoading
+
+```4d
+Function updateLoading($LoadingText : Text; $Entity : 4D.Entity)
+```
+
+Update migration progress log with color-coded status messages
+
+---
+
+### startTransactions
+
+```4d
+Function startTransactions
+```
+
+Begin transactions on both local and remote datastores
+
+---
+
+### validateTransactions
+
+```4d
+Function validateTransactions
+```
+
+Commit transactions on both local and remote datastores
+
+---
+
+### cancelTransactions
+
+```4d
+Function cancelTransactions
+```
+
+Rollback transactions on both local and remote datastores
+
+---
+
+---
+
+*Generated from EntityMigration.4dm*
+*Last updated: 2025-11-12T16:28:02.646Z*
