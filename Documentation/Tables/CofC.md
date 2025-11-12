@@ -1,76 +1,90 @@
-﻿---
-layout: default
-title: CofC ⌛
-parent: Tables
----
-# CofC Table
-No description for this table has been created yet.
+﻿# CofC
 
-*[Primary Key]: This field is the primary key of the table
-*[Unique]: 4D will not allow this field to be saved if it contains a value already used
-*[Mandatory]: 4D will not allow this record to be saved if this field is equal to null
-*[Indexed]: 4D will create an index for this field allowing for faster queries at the expense of disk storage
-*[Exposed]: Field is available with remote ORDA connections
-*[Auto Filled]: 4D will fill this field automatically when saving the record if it is equal to null
-*[Type]: Type of data held within this field
-*[Read Only]: No setter/write functionality has been added to this field
-*[Alias Path]: The path that 4D will follow when this alias is called
-*[Description]: This description has been manually added to this item for documentation purposes
-*[Inverse Name]: The name of the inverse relationship from the corresponding table
-*[Related Table]: The table that this relationship corresponds to
-*[Local]: Function to be called on local 4D client in user space instead of remotely on server
+## Table Information
+
+- **Table ID:** null
+- **UUID:** 81B9B2AF685A1B4E892794C866475FCC
+- **Primary Key:** `Cert_Of_Conformance_No`
+
+## Table of Contents
+
+- [Fields](#fields)
+
 ## Fields
 
-|Name|Type|Primary Key|Unique|Mandatory|Indexed|Exposed|Auto Filled|Description|
-|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|**Cert_Of_Conformance_No**|number|✔️|✔️||✔️|✔️|✔️||
-|Advice_Note_No|number||||✔️|✔️|||
-|Batch_No|string|||||✔️|||
-|CofC_Report|bool||||✔️|✔️|||
-|Created_Date|date|||||✔️|||
-|Customer_Code|string||||✔️|✔️|||
-|Customer_Order_No|string|||||✔️|||
-|Date_Int|number||||✔️|✔️|||
-|DeliveredDate_d|date|||||✔️|||
-|Delivery_Method_s|string|||||✔️|||
-|Delivery_Quantity|number|||||✔️|||
-|Invoice_Report|bool||||✔️|✔️|||
-|LocationID_l|number|||||✔️|||
-|LocationName_s|string|||||✔️|||
-|loose|string|||||✔️|||
-|MovementCofC|bool||||✔️|✔️|||
-|Number_In_Box|number|||||✔️|||
-|Nunber_Of_Boxes|number|||||✔️|||
-|Order_Completed|bool|||||✔️|||
-|Part No|string||||✔️|✔️|||
-|Petes No|number||||✔️|✔️|||
-|Price|number|||||✔️|||
-|ProductID_l|number||||✔️|✔️|||
-|Quantity_Loose|number|||||✔️|||
-|RMC_Nos|string|||||✔️|||
-|Works_Order_No|number||||✔️|✔️|||
+### Cert_Of_Conformance_No
 
-## Aliases
+**Properties:**
 
-|Name|Alias Path|Type|Read Only|Description|
-|:---|:---:|:---:|:---:|:---:|
-|ID|Cert_Of_Conformance_No|number|||
-|Product_OptionID|Customer_OrderEntity.Product_OptionID|number|✔️||
+- **Type:** Date
+- **Constraints:** Primary Key, Unique, Auto-sequence, Mandatory, Never Null
 
-## Relationships
-### Many to One
+---
 
-|Name|Related Table|Inverse Name|Exposed|Description|
-|:---|:---:|:---:|:---:|:---:|
-|Advice_NoteEntity|[Advice_Note](Advice_Note.md)|CofCSelection|✔️||
-|Customer_OrderEntity|[Customer_Order](Customer_Order.md)|CofCSelection|✔️||
-|ProductEntity|[Product](Product.md)|CofCSelection|✔️||
-|Stock_LocationEntity|[Stock_Location](Stock_Location.md)|CofCSelection|✔️||
-|WorksOrderEntity|[WorksOrder](WorksOrder.md)|CofCSelection|✔️||
+### Customer_Code
 
-### One to Many
+**Properties:**
 
-|Name|Related Table|Inverse Name|Exposed|Description|
-|:---|:---:|:---:|:---:|:---:|
-|BoxLabelsSelection|[BoxLabels](BoxLabels.md)|CofCEntity|✔️||
-|PalletSelection|[Pallet](Pallet.md)|CofCEntity|✔️||
+- **Type:** String (max length: 3)
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Created_Date
+
+**Properties:**
+
+- **Type:** Integer
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Part No
+
+**Properties:**
+
+- **Type:** String (max length: 30)
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Customer_Order_No
+
+**Properties:**
+
+- **Type:** String (max length: 20)
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Delivery_Quantity
+
+**Properties:**
+
+- **Type:** Date
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Works_Order_No
+
+**Properties:**
+
+- **Type:** Date
+- **Constraints:** Mandatory, Never Null
+
+---
+
+### Batch_No
+
+**Properties:**
+
+- **Type:** String (max length: 5)
+- **Constraints:** Never Null
+
+---
+
+---
+
+*Generated from catalog.4DCatalog*
+*Generated at: 2025-11-12T22:36:09Z*
