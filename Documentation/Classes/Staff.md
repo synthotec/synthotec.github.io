@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.334Z*
+🕐 *Last updated: 2025-11-13T12:58:34.649Z*
 
 ---
 
@@ -80,6 +80,17 @@ Function newUsingEntry -> cs.StaffEntity
 **Returns:** `cs.StaffEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Staff](Staff.md) - DataClass class
+- [StaffEntity](StaffEntity.md) - Entity class
+
+### 📄 Forms
+
+- [Staff](../Forms/Staff.md) - DataClass class
 
 ---
 

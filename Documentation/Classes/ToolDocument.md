@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.441Z*
+🕐 *Last updated: 2025-11-13T12:58:34.764Z*
 
 ---
 
@@ -43,6 +43,16 @@ Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> cs.ToolDocumentEntity
 **Returns:** `cs.ToolDocumentEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [ToolDocument](ToolDocument.md) - DataClass class
+
+### 🗂️ Used By Tables
+
+- [ToolDocument](../Tables/ToolDocument.md) - DataClass class
 
 ---
 

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T02:47:32.577Z*
+🕐 *Last updated: 2025-11-13T12:58:33.818Z*
 
 ---
 
@@ -132,6 +132,12 @@ Function selectedEntity($SelectedEntity : 4D.Entity)
 | `$SelectedEntity` | `4D.Entity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

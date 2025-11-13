@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.317Z*
+🕐 *Last updated: 2025-11-13T12:58:34.630Z*
 
 ---
 
@@ -66,6 +66,12 @@ Function ShiftColor -> Integer
 **Returns:** `Integer`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [ShiftSummary](../Tables/ShiftSummary.md) - Entity class
 
 ---
 

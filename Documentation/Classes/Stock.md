@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:33.364Z*
+🕐 *Last updated: 2025-11-13T12:58:34.678Z*
 
 ---
 
@@ -314,6 +314,12 @@ Function GetQuarantineReason -> Text
 **Returns:** `Text`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

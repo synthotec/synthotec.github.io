@@ -41,6 +41,12 @@ parent : Tables
 |:------|:-----|:-----|:-------|
 | `Unique_ID` | Keywords | regular | ✨ Yes |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PrintingEntity](../Classes/PrintingEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

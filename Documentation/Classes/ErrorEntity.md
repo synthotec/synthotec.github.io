@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.589Z*
+🕐 *Last updated: 2025-11-13T12:58:33.831Z*
 
 ---
 
@@ -112,6 +112,12 @@ Function LastOccurrence -> Text
 **Returns:** `Text`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Error](../Tables/Error.md) - Entity class
 
 ---
 

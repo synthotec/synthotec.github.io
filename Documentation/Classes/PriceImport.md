@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:33.034Z*
+🕐 *Last updated: 2025-11-13T12:58:34.300Z*
 
 ---
 
@@ -66,6 +66,12 @@ Function importPrices -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

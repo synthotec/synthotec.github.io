@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.386Z*
+🕐 *Last updated: 2025-11-13T12:58:33.575Z*
 
 ---
 
@@ -61,6 +61,17 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 | `$ProductEntity` | `cs.ProductEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Customer_Order](Customer_Order.md) - DataClass class
+- [Customer_OrderEntity](Customer_OrderEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - DataClass class
 
 ---
 

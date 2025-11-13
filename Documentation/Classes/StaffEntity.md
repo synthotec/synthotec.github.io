@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.338Z*
+🕐 *Last updated: 2025-11-13T12:58:34.653Z*
 
 ---
 
@@ -79,6 +79,12 @@ Function FullName -> Text
 **Returns:** `Text`
 
 ---
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [Staff](../Forms/Staff.md) - Entity class
 
 ---
 

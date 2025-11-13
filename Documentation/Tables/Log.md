@@ -40,6 +40,12 @@ parent : Tables
 | `ID` | Keywords | regular | ✨ Yes |
 | `Date` | Keywords | regular | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Log](../Classes/Log.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

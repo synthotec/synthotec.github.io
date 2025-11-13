@@ -52,6 +52,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [QualitySystemProcedures](../Classes/QualitySystemProcedures.md) - DataClass class
+- [QualitySystemProceduresEntity](../Classes/QualitySystemProceduresEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -208,6 +208,13 @@ parent : Tables
 | `Product_OptionSelection` | [Product_Option](Product_Option.md) | `Tool ID` → `Tool_ID` | Active | - |
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `ToolID` → `Tool_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Tools](../Classes/Tools.md) - DataClass class
+- [ToolsEntity](../Classes/ToolsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

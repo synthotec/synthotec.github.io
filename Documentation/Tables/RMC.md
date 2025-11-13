@@ -69,6 +69,12 @@ parent : Tables
 | `MaterialCheckHistorySelection3` | [MaterialCheckHistory](MaterialCheckHistory.md) | `RMC3` → `RMCNo_l` | Active | - |
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `RMC` → `RMCNo_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RMCEntity](../Classes/RMCEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

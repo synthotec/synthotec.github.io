@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.172Z*
+🕐 *Last updated: 2025-11-13T12:58:34.435Z*
 
 ---
 
@@ -59,6 +59,12 @@ Function syncMigrationSelections($RemoteEntity : cs.QualitySystemProceduresEntit
 | `$RemoteEntity` | `cs.QualitySystemProceduresEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [QualitySystemProcedures](../Forms/QualitySystemProcedures.md) - Entity class
 
 ---
 

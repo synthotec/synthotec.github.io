@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T02:47:32.629Z*
+🕐 *Last updated: 2025-11-13T12:58:33.873Z*
 
 ---
 
@@ -175,6 +175,12 @@ Function generate
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

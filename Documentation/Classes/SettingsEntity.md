@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.305Z*
+🕐 *Last updated: 2025-11-13T12:58:34.618Z*
 
 ---
 
@@ -109,6 +109,12 @@ Function reset -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Settings](../Tables/Settings.md) - Entity class
 
 ---
 

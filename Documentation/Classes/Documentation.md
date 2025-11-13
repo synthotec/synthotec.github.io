@@ -5,13 +5,13 @@ parent : Classes
 ---
 # Documentation
 
-📊 **Overview:** 1 Properties | 1 Constructor | 10 Functions
+📊 **Overview:** 1 Properties | 1 Constructor | 14 Functions
 
 ## 📝 Description
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T02:47:32.518Z*
+🕐 *Last updated: 2025-11-13T12:58:33.757Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (10):**
+**⚙️ Functions (14):**
 
 - [generateClassDocumentation](#generateclassdocumentation)
 - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
@@ -39,6 +39,10 @@ parent : Classes
 - [generateAllTableJSON](#generatealltablejson)
 - [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
 - [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
+- [generateAllFormJSON](#generateallformjson)
+- [discoverRelationships](#discoverrelationships) → `Integer`
+- [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
+- [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
 
 ---
 
@@ -212,6 +216,66 @@ Helper function to generate markdown for a single table
 **Returns:** `Text`
 
 ---
+
+#### generateAllFormJSON {#generateallformjson}
+
+
+```4d
+Function generateAllFormJSON
+```
+
+Generate JSON files for all forms using FormInspector
+
+---
+
+#### discoverRelationships {#discoverrelationships}
+
+
+```4d
+Function discoverRelationships -> Integer
+```
+
+Discover and update relationships between Forms, Tables, and Classes
+
+**Returns:** `Integer`
+
+---
+
+#### generateMarkdownFromFormJSON {#generatemarkdownfromformjson}
+
+
+```4d
+Function generateMarkdownFromFormJSON
+```
+
+Generate markdown documentation from form JSON files
+
+---
+
+#### _generateMarkdownForForm {#_generatemarkdownforform}
+
+
+```4d
+Function _generateMarkdownForForm($FormJSON : Object) -> Text
+```
+
+Helper function to generate markdown for a single form
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FormJSON` | `Object` | - | - |
+
+**Returns:** `Text`
+
+---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

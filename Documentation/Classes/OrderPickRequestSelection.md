@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T02:47:32.823Z*
+🕐 *Last updated: 2025-11-13T12:58:34.088Z*
 
 ---
 
@@ -37,6 +37,12 @@ Function getUnprocessedQuantity -> Integer
 **Returns:** `Integer`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - EntitySelection class
 
 ---
 

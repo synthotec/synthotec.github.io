@@ -56,6 +56,12 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `ShiftSummaryID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ShiftSummaryEntity](../Classes/ShiftSummaryEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

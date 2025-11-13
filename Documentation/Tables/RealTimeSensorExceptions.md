@@ -54,6 +54,13 @@ parent : Tables
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RealTimeSensorExceptionsEntity](../Classes/RealTimeSensorExceptionsEntity.md) - Entity class
+- [RealTimeSensorExceptionsSelection](../Classes/RealTimeSensorExceptionsSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

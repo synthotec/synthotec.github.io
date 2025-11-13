@@ -48,6 +48,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `LanguageENtity` | [Language](Language.md) | `Language_ID` → `ID_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [LanguageTagEntity](../Classes/LanguageTagEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

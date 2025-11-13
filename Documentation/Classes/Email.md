@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T02:47:32.534Z*
+🕐 *Last updated: 2025-11-13T12:58:33.776Z*
 
 ---
 
@@ -249,6 +249,12 @@ Function send -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

@@ -56,6 +56,13 @@ parent : Tables
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Approvals](../Classes/Approvals.md) - DataClass class
+- [ApprovalsEntity](../Classes/ApprovalsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

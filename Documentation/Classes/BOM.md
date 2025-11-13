@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.257Z*
+🕐 *Last updated: 2025-11-13T12:58:33.442Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [BOM](BOM.md) - DataClass class
+- [BOMEntity](BOMEntity.md) - Entity class
+
+### 📄 Forms
+
+- [BOM](../Forms/BOM.md) - DataClass class
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.197Z*
+🕐 *Last updated: 2025-11-13T12:58:34.463Z*
 
 ---
 
@@ -43,6 +43,17 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 **Returns:** `cs.RealTimeMachinesEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [RealTimeMachines](RealTimeMachines.md) - DataClass class
+- [RealTimeMachinesEntity](RealTimeMachinesEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - DataClass class
 
 ---
 

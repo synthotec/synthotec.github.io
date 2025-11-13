@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-13T02:47:32.724Z*
+🕐 *Last updated: 2025-11-13T12:58:33.991Z*
 
 ---
 
@@ -125,6 +125,12 @@ Function merge($SkipFirstRow : Boolean; $ColumnsToIgnore : Collection)
 | `$ColumnsToIgnore` | `Collection` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

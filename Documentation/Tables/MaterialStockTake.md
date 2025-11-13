@@ -56,6 +56,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `RMCEntity` | [RMC](RMC.md) | `RMC` → `RMCNo_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [MaterialStockTake](../Classes/MaterialStockTake.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

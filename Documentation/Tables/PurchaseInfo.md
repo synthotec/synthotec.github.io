@@ -82,6 +82,12 @@ parent : Tables
 | `PurchaseReceiptsSelection` | [PurchaseReceipts](PurchaseReceipts.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
 | `RMCSelection` | [RMC](RMC.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PurchaseInfoEntity](../Classes/PurchaseInfoEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

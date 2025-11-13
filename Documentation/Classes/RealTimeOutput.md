@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T02:47:33.215Z*
+🕐 *Last updated: 2025-11-13T12:58:34.483Z*
 
 ---
 
@@ -102,6 +102,12 @@ Function InfoTextBox -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

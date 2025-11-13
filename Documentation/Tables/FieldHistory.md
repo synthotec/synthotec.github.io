@@ -45,6 +45,12 @@ parent : Tables
 | `Table` | Keywords | regular | - |
 | `Field` | Keywords | regular | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [FieldHistory](../Classes/FieldHistory.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

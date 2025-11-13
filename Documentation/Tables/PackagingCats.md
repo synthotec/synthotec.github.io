@@ -44,6 +44,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `SuppliesSelection` | [Supplies](Supplies.md) | `PackagingCat` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PackagingCats](../Classes/PackagingCats.md) - DataClass class
+- [PackagingCatsEntity](../Classes/PackagingCatsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

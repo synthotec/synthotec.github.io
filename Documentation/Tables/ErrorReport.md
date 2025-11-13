@@ -44,6 +44,13 @@ parent : Tables
 | `Digest` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ErrorReport](../Classes/ErrorReport.md) - DataClass class
+- [ErrorReportEntity](../Classes/ErrorReportEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -50,6 +50,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PackingInstructionFiles](../Classes/PackingInstructionFiles.md) - DataClass class
+- [PackingInstructionFilesEntity](../Classes/PackingInstructionFilesEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

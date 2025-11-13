@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T10:46:36.565Z |
+| **Generated** | 🕐 2025-11-13T12:58:35.744Z |
 
 ## 🎯 Form Events
 
@@ -55,6 +55,13 @@ This form handles **16** of **44** possible events:
 | 📋 listbox | 1 |
 | 🔘 button | 2 |
 | ☑️ checkbox | 1 |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Staff](../Classes/Staff.md) - DataClass class
+- [StaffEntity](../Classes/StaffEntity.md) - Entity class
 
 ---
 

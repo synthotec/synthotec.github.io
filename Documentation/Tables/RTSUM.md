@@ -54,6 +54,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RTSUM](../Classes/RTSUM.md) - DataClass class
+- [RTSUMSelection](../Classes/RTSUMSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

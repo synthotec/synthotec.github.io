@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.704Z*
+🕐 *Last updated: 2025-11-13T12:58:33.969Z*
 
 ---
 
@@ -52,6 +52,12 @@ GRAPH($Picture; This.Settings;
 **Returns:** `Picture`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

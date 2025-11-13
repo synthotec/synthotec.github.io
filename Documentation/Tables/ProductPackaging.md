@@ -57,6 +57,13 @@ parent : Tables
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ProductPackaging](../Classes/ProductPackaging.md) - DataClass class
+- [ProductPackagingEntity](../Classes/ProductPackagingEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

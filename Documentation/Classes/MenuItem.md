@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T02:47:32.813Z*
+🕐 *Last updated: 2025-11-13T12:58:34.078Z*
 
 ---
 
@@ -121,6 +121,12 @@ Function _Style -> Integer
 **Returns:** `Integer`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

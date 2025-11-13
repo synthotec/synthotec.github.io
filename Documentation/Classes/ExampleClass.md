@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T02:47:32.602Z*
+🕐 *Last updated: 2025-11-13T12:58:33.844Z*
 
 ---
 
@@ -120,6 +120,12 @@ Function ItemCount -> Integer
 **Returns:** `Integer`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

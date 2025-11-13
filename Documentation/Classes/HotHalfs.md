@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.709Z*
+🕐 *Last updated: 2025-11-13T12:58:33.976Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [HotHalfs](HotHalfs.md) - DataClass class
+- [HotHalfsEntity](HotHalfsEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [HotHalfs](../Tables/HotHalfs.md) - DataClass class
 
 ---
 

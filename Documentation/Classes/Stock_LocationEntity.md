@@ -9,13 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.368Z*
+🕐 *Last updated: 2025-11-13T12:58:34.684Z*
 
 ---
 
 ## 📑 Table of Contents
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Stock_Location](../Tables/Stock_Location.md) - Entity class
 
 ---
 

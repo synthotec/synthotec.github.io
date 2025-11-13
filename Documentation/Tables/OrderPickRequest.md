@@ -56,6 +56,13 @@ parent : Tables
 | `PalletSelection` | [Pallet](Pallet.md) | `OrderPickRequestID` → `ID` | Active | - |
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `OrderPickRequestID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [OrderPickRequestEntity](../Classes/OrderPickRequestEntity.md) - Entity class
+- [OrderPickRequestSelection](../Classes/OrderPickRequestSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

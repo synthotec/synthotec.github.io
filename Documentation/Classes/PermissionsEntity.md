@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.941Z*
+🕐 *Last updated: 2025-11-13T12:58:34.205Z*
 
 ---
 
@@ -59,6 +59,12 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 | `$StaffEntity` | `cs.StaffEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Permissions](../Tables/Permissions.md) - Entity class
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.309Z*
+🕐 *Last updated: 2025-11-13T12:58:33.494Z*
 
 ---
 
@@ -399,6 +399,12 @@ Function TestProduct -> cs.ProductEntity
 **Returns:** `cs.ProductEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [BoxLabels](../Tables/BoxLabels.md) - Entity class
 
 ---
 

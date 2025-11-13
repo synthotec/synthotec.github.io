@@ -118,6 +118,13 @@ parent : Tables
 | `CustomerContactsSelection` | [CustomerContacts](CustomerContacts.md) | `Customer` → `Customer_Code` | Active | - |
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `Customer` → `Customer_Code` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Customer](../Classes/Customer.md) - DataClass class
+- [CustomerEntity](../Classes/CustomerEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

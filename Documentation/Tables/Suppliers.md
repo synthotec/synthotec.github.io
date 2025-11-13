@@ -70,6 +70,12 @@ parent : Tables
 | `PurchasesSelection` | [Purchases](Purchases.md) | `SupplierID_l` → `SupplierID_l` | Active | - |
 | `SupplierDocumentationSelection` | [SupplierDocumentation](SupplierDocumentation.md) | `SupplierID` → `SupplierID_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [SuppliersEntity](../Classes/SuppliersEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

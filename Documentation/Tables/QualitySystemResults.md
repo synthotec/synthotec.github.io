@@ -59,6 +59,12 @@ parent : Tables
 | `WorksOrder` | Keywords | regular | - |
 | `System` | Keywords | regular | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [QualitySystemResults](../Classes/QualitySystemResults.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

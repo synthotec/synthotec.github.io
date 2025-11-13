@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.367Z*
+🕐 *Last updated: 2025-11-13T12:58:34.682Z*
 
 ---
 
@@ -78,6 +78,17 @@ Function PartBoxStore -> cs.Stock_LocationEntity
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Stock_Location](Stock_Location.md) - DataClass class
+- [Stock_LocationEntity](Stock_LocationEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [Stock_Location](../Tables/Stock_Location.md) - DataClass class
 
 ---
 

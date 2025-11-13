@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.253Z*
+🕐 *Last updated: 2025-11-13T12:58:33.438Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Approvals](Approvals.md) - DataClass class
+- [ApprovalsEntity](ApprovalsEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [Approvals](../Tables/Approvals.md) - DataClass class
 
 ---
 

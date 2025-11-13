@@ -89,6 +89,12 @@ parent : Tables
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `CofCID` → `Cert_Of_Conformance_No` | Active | - |
 | `PalletSelection` | [Pallet](Pallet.md) | `CofCID` → `Cert_Of_Conformance_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [CofCEntity](../Classes/CofCEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

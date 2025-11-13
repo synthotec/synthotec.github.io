@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T02:47:33.268Z*
+🕐 *Last updated: 2025-11-13T12:58:34.538Z*
 
 ---
 
@@ -87,6 +87,12 @@ Function InRange -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

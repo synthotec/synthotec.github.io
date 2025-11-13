@@ -52,6 +52,12 @@ parent : Tables
 | `ProductReturnEntity` | [ProductReturn](ProductReturn.md) | `ReturnID_l` → `ReturnID_l` | Active | - |
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ProductReturnWorksOrderEntity](../Classes/ProductReturnWorksOrderEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

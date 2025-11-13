@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.445Z*
+🕐 *Last updated: 2025-11-13T12:58:34.769Z*
 
 ---
 
@@ -43,6 +43,17 @@ Function create($ToolsEntity : cs.ToolsEntity) -> cs.ToolNoticeEntity
 **Returns:** `cs.ToolNoticeEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [ToolNotice](ToolNotice.md) - DataClass class
+- [ToolNoticeEntity](ToolNoticeEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [ToolNotice](../Tables/ToolNotice.md) - DataClass class
 
 ---
 

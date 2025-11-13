@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.648Z*
+🕐 *Last updated: 2025-11-13T12:58:33.893Z*
 
 ---
 
@@ -71,6 +71,16 @@ Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 | `$ChangedBy` | `Text` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [FieldHistory](FieldHistory.md) - DataClass class
+
+### 📄 Forms
+
+- [FieldHistory](../Forms/FieldHistory.md) - DataClass class
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.501Z*
+🕐 *Last updated: 2025-11-13T12:58:34.830Z*
 
 ---
 
@@ -115,6 +115,16 @@ Function _TranslationProcessCollection -> Collection
 **Returns:** `Collection`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Translation](Translation.md) - DataClass class
+
+### 🗂️ Used By Tables
+
+- [Translation](../Tables/Translation.md) - DataClass class
 
 ---
 

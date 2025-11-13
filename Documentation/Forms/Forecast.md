@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 25 |
-| **Generated** | 🕐 2025-11-13T10:46:36.447Z |
+| **Generated** | 🕐 2025-11-13T12:58:35.610Z |
 
 ## 🎯 Form Events
 
@@ -58,6 +58,13 @@ This form handles **17** of **44** possible events:
 | 📝 input | 2 |
 | 📄 text | 4 |
 | 🔹 subform | 2 |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Forecast](../Classes/Forecast.md) - DataClass class
+- [ForecastEntity](../Classes/ForecastEntity.md) - Entity class
 
 ---
 

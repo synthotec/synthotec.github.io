@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.374Z*
+🕐 *Last updated: 2025-11-13T12:58:33.562Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [CustomerContacts](CustomerContacts.md) - DataClass class
+- [CustomerContactsEntity](CustomerContactsEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [CustomerContacts](../Tables/CustomerContacts.md) - DataClass class
 
 ---
 

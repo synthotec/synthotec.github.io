@@ -41,6 +41,12 @@ parent : Tables
 | `Process` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Translation](../Classes/Translation.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -49,6 +49,12 @@ parent : Tables
 | `ShiftSummaryEntity` | [ShiftSummary](ShiftSummary.md) | `ShiftSummaryID` → `ID` | Active | - |
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ShiftSummaryDetailEntity](../Classes/ShiftSummaryDetailEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T02:47:33.290Z*
+🕐 *Last updated: 2025-11-13T12:58:34.603Z*
 
 ---
 
@@ -43,6 +43,12 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 **Returns:** `Real`
 
 ---
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [RTSUM](../Forms/RTSUM.md) - EntitySelection class
 
 ---
 

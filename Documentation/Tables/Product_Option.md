@@ -87,6 +87,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `Customer_OrderSelection` | [Customer_Order](Customer_Order.md) | `Product_OptionID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Product_Option](../Classes/Product_Option.md) - DataClass class
+- [Product_OptionEntity](../Classes/Product_OptionEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

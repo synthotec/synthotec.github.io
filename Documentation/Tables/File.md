@@ -45,6 +45,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `CustomerSelection` | [Customer](Customer.md) | `TransportInstructionFileID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [File](../Classes/File.md) - DataClass class
+- [FileEntity](../Classes/FileEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

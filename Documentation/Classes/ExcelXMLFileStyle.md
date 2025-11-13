@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.637Z*
+🕐 *Last updated: 2025-11-13T12:58:33.881Z*
 
 ---
 
@@ -141,6 +141,12 @@ Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileSt
 **Returns:** `cs.ExcelXMLFileStyle`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

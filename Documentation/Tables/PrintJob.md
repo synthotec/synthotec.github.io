@@ -58,6 +58,12 @@ parent : Tables
 | `PalletEntity` | [Pallet](Pallet.md) | `RelatedUUID` → `UUID` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PrintJobEntity](../Classes/PrintJobEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

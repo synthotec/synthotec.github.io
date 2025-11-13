@@ -48,6 +48,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `MachineMaintenanceActionsEntity` | [MachineMaintenanceActions](MachineMaintenanceActions.md) | `MachineMaintenanceActionID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [MachineMaintenanceLogEntity](../Classes/MachineMaintenanceLogEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

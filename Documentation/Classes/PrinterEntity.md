@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.051Z*
+🕐 *Last updated: 2025-11-13T12:58:34.317Z*
 
 ---
 
@@ -144,6 +144,12 @@ Function TypeDisplay -> Text
 **Returns:** `Text`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Printer](../Tables/Printer.md) - Entity class
 
 ---
 

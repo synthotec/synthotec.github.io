@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class function
 
-🕐 *Last updated: 2025-11-13T02:47:32.314Z*
+🕐 *Last updated: 2025-11-13T12:58:33.499Z*
 
 ---
 
@@ -94,6 +94,12 @@ Function toObject -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

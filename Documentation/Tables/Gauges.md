@@ -50,6 +50,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `Product_ID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [GaugesEntity](../Classes/GaugesEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

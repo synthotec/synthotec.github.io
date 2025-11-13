@@ -94,6 +94,13 @@ parent : Tables
 | `ProductSelection` | [Product](Product.md) | `DefMatID` → `Unique_ID` | Active | - |
 | `WorksOrderSelection` | [WorksOrder](WorksOrder.md) | `MaterialID` → `Unique_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Material](../Classes/Material.md) - DataClass class
+- [MaterialEntity](../Classes/MaterialEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

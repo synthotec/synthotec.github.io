@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T02:47:33.052Z*
+🕐 *Last updated: 2025-11-13T12:58:34.318Z*
 
 ---
 
@@ -37,6 +37,12 @@ Function getLabelPrinters -> cs.PrinterSelection
 **Returns:** `cs.PrinterSelection`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Printer](../Tables/Printer.md) - EntitySelection class
 
 ---
 

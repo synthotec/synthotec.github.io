@@ -49,6 +49,12 @@ parent : Tables
 | `CofCSelection` | [CofC](CofC.md) | `Advice_Note_No` → `Advice_Note_No` | Active | - |
 | `PickRequestSelection` | [PickRequest](PickRequest.md) | `AdviceNoteID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Advice_NoteEntity](../Classes/Advice_NoteEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

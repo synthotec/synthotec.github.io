@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T10:46:36.550Z |
+| **Generated** | 🕐 2025-11-13T12:58:35.726Z |
 
 ## 🎯 Form Events
 
@@ -57,6 +57,13 @@ This form handles **17** of **44** possible events:
 | 📝 input | 1 |
 | 📄 text | 2 |
 | 🔘 radio | 3 |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RTSUM](../Classes/RTSUM.md) - DataClass class
+- [RTSUMSelection](../Classes/RTSUMSelection.md) - EntitySelection class
 
 ---
 

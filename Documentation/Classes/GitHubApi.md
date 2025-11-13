@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.702Z*
+🕐 *Last updated: 2025-11-13T12:58:33.968Z*
 
 ---
 
@@ -113,6 +113,12 @@ Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
 | `$Event` | `Object` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

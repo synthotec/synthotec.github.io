@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.040Z*
+🕐 *Last updated: 2025-11-13T12:58:34.306Z*
 
 ---
 
@@ -69,6 +69,18 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 **Returns:** `cs.PrinterSelection`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Printer](Printer.md) - DataClass class
+- [PrinterEntity](PrinterEntity.md) - Entity class
+- [PrinterSelection](PrinterSelection.md) - EntitySelection class
+
+### 🗂️ Used By Tables
+
+- [Printer](../Tables/Printer.md) - DataClass class
 
 ---
 

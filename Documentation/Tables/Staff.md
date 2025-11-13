@@ -70,6 +70,13 @@ parent : Tables
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `StaffID` → `StaffID` | Active | - |
 | `DeactivatedToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `DeactivatedStaffID` → `StaffID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Staff](../Classes/Staff.md) - DataClass class
+- [StaffEntity](../Classes/StaffEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

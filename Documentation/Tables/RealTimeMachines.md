@@ -74,6 +74,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `DownReasonsEntity` | [DownReasons](DownReasons.md) | `DownReason` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RealTimeMachines](../Classes/RealTimeMachines.md) - DataClass class
+- [RealTimeMachinesEntity](../Classes/RealTimeMachinesEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

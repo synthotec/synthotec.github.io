@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.144Z*
+🕐 *Last updated: 2025-11-13T12:58:34.410Z*
 
 ---
 
@@ -57,6 +57,17 @@ Function generateCustomerPackaging
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [ProductPackaging](ProductPackaging.md) - DataClass class
+- [ProductPackagingEntity](ProductPackagingEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [ProductPackaging](../Tables/ProductPackaging.md) - DataClass class
 
 ---
 

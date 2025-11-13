@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.759Z*
+🕐 *Last updated: 2025-11-13T12:58:34.025Z*
 
 ---
 
@@ -52,6 +52,16 @@ Function trim
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Log](Log.md) - DataClass class
+
+### 🗂️ Used By Tables
+
+- [Log](../Tables/Log.md) - DataClass class
 
 ---
 

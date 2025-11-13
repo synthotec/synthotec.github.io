@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.632Z*
+🕐 *Last updated: 2025-11-13T12:58:33.876Z*
 
 ---
 
@@ -73,6 +73,12 @@ Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
 | `$Formula` | `Text` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

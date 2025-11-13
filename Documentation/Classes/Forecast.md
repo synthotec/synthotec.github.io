@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.663Z*
+🕐 *Last updated: 2025-11-13T12:58:33.907Z*
 
 ---
 
@@ -47,6 +47,17 @@ Function generateForecastOrders
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Forecast](Forecast.md) - DataClass class
+- [ForecastEntity](ForecastEntity.md) - Entity class
+
+### 📄 Forms
+
+- [Forecast](../Forms/Forecast.md) - DataClass class
 
 ---
 

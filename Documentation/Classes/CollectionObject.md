@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.371Z*
+🕐 *Last updated: 2025-11-13T12:58:33.557Z*
 
 ---
 
@@ -187,6 +187,12 @@ Function GetCurrentEntity -> 4D.Entity
 **Returns:** `4D.Entity`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

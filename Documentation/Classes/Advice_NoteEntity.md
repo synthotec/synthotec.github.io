@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.251Z*
+🕐 *Last updated: 2025-11-13T12:58:33.436Z*
 
 ---
 
@@ -69,6 +69,12 @@ Function cancel -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Advice_Note](../Tables/Advice_Note.md) - Entity class
 
 ---
 

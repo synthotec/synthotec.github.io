@@ -82,6 +82,13 @@ parent : Tables
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PlanningWheel](../Classes/PlanningWheel.md) - DataClass class
+- [PlanningWheelEntity](../Classes/PlanningWheelEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T02:47:33.250Z*
+🕐 *Last updated: 2025-11-13T12:58:34.523Z*
 
 ---
 
@@ -49,6 +49,12 @@ Function getTemperatureSensorZones -> Collection
 **Returns:** `Collection`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [RealTime](../Tables/RealTime.md) - EntitySelection class
 
 ---
 

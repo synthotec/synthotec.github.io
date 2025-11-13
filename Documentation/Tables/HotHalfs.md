@@ -47,6 +47,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ToolsSelection` | [Tools](Tools.md) | `HotHalfID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [HotHalfs](../Classes/HotHalfs.md) - DataClass class
+- [HotHalfsEntity](../Classes/HotHalfsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

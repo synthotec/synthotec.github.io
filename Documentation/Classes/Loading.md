@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.730Z*
+🕐 *Last updated: 2025-11-13T12:58:33.997Z*
 
 ---
 
@@ -72,6 +72,12 @@ Function update($LoadingText : Text; $LoadingProgress : Real)
 | `$LoadingProgress` | `Real` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

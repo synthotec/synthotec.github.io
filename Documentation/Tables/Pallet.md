@@ -91,6 +91,14 @@ parent : Tables
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `PalletID` → `ID` | Active | - |
 | `PrintJobSelection` | [PrintJob](PrintJob.md) | `RelatedUUID` → `UUID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Pallet](../Classes/Pallet.md) - DataClass class
+- [PalletEntity](../Classes/PalletEntity.md) - Entity class
+- [PalletSelection](../Classes/PalletSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -54,6 +54,13 @@ parent : Tables
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `Stock_LocationID` → `StockLocationID_l` | Active | - |
 | `CustomerSelection` | [Customer](Customer.md) | `ConsignmentLocationID` → `StockLocationID_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Stock_Location](../Classes/Stock_Location.md) - DataClass class
+- [Stock_LocationEntity](../Classes/Stock_LocationEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.162Z*
+🕐 *Last updated: 2025-11-13T12:58:34.424Z*
 
 ---
 
@@ -66,6 +66,12 @@ Function value -> Real
 **Returns:** `Real`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Entity class
 
 ---
 

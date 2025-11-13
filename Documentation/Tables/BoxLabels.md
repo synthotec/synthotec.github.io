@@ -102,6 +102,13 @@ parent : Tables
 | `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `Stock_LocationID` → `StockLocationID_l` | Active | - |
 | `StatusUpdatedStaffEntity` | [Staff](Staff.md) | `StatusUpdatedStaffID` → `StaffID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [BoxLabels](../Classes/BoxLabels.md) - DataClass class
+- [BoxLabelsEntity](../Classes/BoxLabelsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

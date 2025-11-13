@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.831Z*
+🕐 *Last updated: 2025-11-13T12:58:34.096Z*
 
 ---
 
@@ -59,6 +59,12 @@ Function syncMigrationSelections($RemoteEntity : cs.PackingInstructionFilesEntit
 | `$RemoteEntity` | `cs.PackingInstructionFilesEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [PackingInstructionFiles](../Tables/PackingInstructionFiles.md) - Entity class
 
 ---
 

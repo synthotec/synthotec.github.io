@@ -90,6 +90,13 @@ parent : Tables
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [BOM](../Classes/BOM.md) - DataClass class
+- [BOMEntity](../Classes/BOMEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

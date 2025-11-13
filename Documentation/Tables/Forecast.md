@@ -49,6 +49,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Forecast](../Classes/Forecast.md) - DataClass class
+- [ForecastEntity](../Classes/ForecastEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.789Z*
+🕐 *Last updated: 2025-11-13T12:58:34.053Z*
 
 ---
 
@@ -79,6 +79,17 @@ Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [MaterialStock](MaterialStock.md) - DataClass class
+- [MaterialStockEntity](MaterialStockEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [MaterialStock](../Tables/MaterialStock.md) - DataClass class
 
 ---
 

@@ -61,6 +61,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `ToolNoticeID` → `ToolID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ToolNotice](../Classes/ToolNotice.md) - DataClass class
+- [ToolNoticeEntity](../Classes/ToolNoticeEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

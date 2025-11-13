@@ -45,6 +45,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [CustomerContacts](../Classes/CustomerContacts.md) - DataClass class
+- [CustomerContactsEntity](../Classes/CustomerContactsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

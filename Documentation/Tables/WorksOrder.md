@@ -166,6 +166,13 @@ parent : Tables
 | `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 | `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [WorksOrder](../Classes/WorksOrder.md) - DataClass class
+- [WorksOrderEntity](../Classes/WorksOrderEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

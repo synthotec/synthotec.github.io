@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T02:47:33.110Z*
+🕐 *Last updated: 2025-11-13T12:58:34.373Z*
 
 ---
 
@@ -422,6 +422,12 @@ Function ActionText->$ActionText -> Text
 **Returns:** `Text`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

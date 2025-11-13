@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.376Z*
+🕐 *Last updated: 2025-11-13T12:58:33.565Z*
 
 ---
 
@@ -76,6 +76,12 @@ Function HasMigrationID -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [CustomerContacts](../Tables/CustomerContacts.md) - Entity class
 
 ---
 

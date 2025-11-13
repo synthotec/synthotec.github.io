@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.276Z*
+🕐 *Last updated: 2025-11-13T12:58:33.462Z*
 
 ---
 
@@ -144,6 +144,17 @@ Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [BoxLabels](BoxLabels.md) - DataClass class
+- [BoxLabelsEntity](BoxLabelsEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [BoxLabels](../Tables/BoxLabels.md) - DataClass class
 
 ---
 

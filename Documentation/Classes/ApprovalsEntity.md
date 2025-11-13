@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.256Z*
+🕐 *Last updated: 2025-11-13T12:58:33.441Z*
 
 ---
 
@@ -59,6 +59,12 @@ Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
 | `$RemoteEntity` | `cs.ApprovalsEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Approvals](../Tables/Approvals.md) - Entity class
 
 ---
 

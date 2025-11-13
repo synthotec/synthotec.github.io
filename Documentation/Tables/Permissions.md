@@ -43,6 +43,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `StaffPermissionsSelection` | [StaffPermissions](StaffPermissions.md) | `PermissionID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Permissions](../Classes/Permissions.md) - DataClass class
+- [PermissionsEntity](../Classes/PermissionsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

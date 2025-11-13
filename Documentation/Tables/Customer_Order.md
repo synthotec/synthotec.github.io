@@ -139,6 +139,13 @@ parent : Tables
 | `CofCSelection` | [CofC](CofC.md) | `Petes No` → `Petes_No` | Active | - |
 | `OrderPickRequestSelection` | [OrderPickRequest](OrderPickRequest.md) | `CustomerOrderID` → `Petes_No` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Customer_Order](../Classes/Customer_Order.md) - DataClass class
+- [Customer_OrderEntity](../Classes/Customer_OrderEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

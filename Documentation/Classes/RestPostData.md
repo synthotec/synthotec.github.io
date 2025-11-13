@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:33.272Z*
+🕐 *Last updated: 2025-11-13T12:58:34.584Z*
 
 ---
 
@@ -116,6 +116,12 @@ Function toObject -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

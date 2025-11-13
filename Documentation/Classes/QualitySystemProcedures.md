@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.170Z*
+🕐 *Last updated: 2025-11-13T12:58:34.432Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [QualitySystemProcedures](QualitySystemProcedures.md) - DataClass class
+- [QualitySystemProceduresEntity](QualitySystemProceduresEntity.md) - Entity class
+
+### 📄 Forms
+
+- [QualitySystemProcedures](../Forms/QualitySystemProcedures.md) - DataClass class
 
 ---
 

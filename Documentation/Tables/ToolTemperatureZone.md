@@ -44,6 +44,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ToolTemperatureTargetSelection` | [ToolTemperatureTarget](ToolTemperatureTarget.md) | `ZoneID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ToolTemperatureZone](../Classes/ToolTemperatureZone.md) - DataClass class
+- [ToolTemperatureZoneEntity](../Classes/ToolTemperatureZoneEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

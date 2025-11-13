@@ -9,13 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.162Z*
+🕐 *Last updated: 2025-11-13T12:58:34.425Z*
 
 ---
 
 ## 📑 Table of Contents
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Purchases](../Tables/Purchases.md) - Entity class
 
 ---
 

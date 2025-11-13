@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.742Z*
+🕐 *Last updated: 2025-11-13T12:58:34.010Z*
 
 ---
 
@@ -97,6 +97,17 @@ Function restSetStockLocation($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Location](Location.md) - DataClass class
+- [LocationEntity](LocationEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [Location](../Tables/Location.md) - DataClass class
 
 ---
 

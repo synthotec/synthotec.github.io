@@ -50,6 +50,13 @@ parent : Tables
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ProductMaterialOptions](../Classes/ProductMaterialOptions.md) - DataClass class
+- [ProductMaterialOptionsEntity](../Classes/ProductMaterialOptionsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

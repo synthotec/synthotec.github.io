@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:33.030Z*
+🕐 *Last updated: 2025-11-13T12:58:34.296Z*
 
 ---
 
@@ -54,6 +54,17 @@ Function reducePlannedStand
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [PlanningWheel](PlanningWheel.md) - DataClass class
+- [PlanningWheelEntity](PlanningWheelEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [PlanningWheel](../Tables/PlanningWheel.md) - DataClass class
 
 ---
 

@@ -68,6 +68,12 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `OrderNo_l` → `OrderNo_l` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PurchasesEntity](../Classes/PurchasesEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

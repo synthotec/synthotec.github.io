@@ -49,6 +49,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ErrorDetailSelection` | [ErrorDetail](ErrorDetail.md) | `ErrorID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Error](../Classes/Error.md) - DataClass class
+- [ErrorEntity](../Classes/ErrorEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

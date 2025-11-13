@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T10:46:36.540Z |
+| **Generated** | 🕐 2025-11-13T12:58:35.714Z |
 
 ## 🎯 Form Events
 
@@ -57,6 +57,12 @@ This form handles **16** of **44** possible events:
 | 📋 listbox | 1 |
 | 🔘 button | 3 |
 | 📄 text | 1 |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [QualitySystemResults](../Classes/QualitySystemResults.md) - DataClass class
 
 ---
 

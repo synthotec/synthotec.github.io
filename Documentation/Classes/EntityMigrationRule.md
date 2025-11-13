@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-13T02:47:32.569Z*
+🕐 *Last updated: 2025-11-13T12:58:33.810Z*
 
 ---
 
@@ -162,6 +162,12 @@ Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
 | `$RemoteEntity` | `4D.Entity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

@@ -67,6 +67,14 @@ parent : Tables
 | `FirstRealTimeSensorExceptionsSelection` | [RealTimeSensorExceptions](RealTimeSensorExceptions.md) | `FirstRealTimeID` → `ID` | Active | - |
 | `LastRealTimeSensorExceptionsSelection` | [RealTimeSensorExceptions](RealTimeSensorExceptions.md) | `LastRealTimeID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RealTime](../Classes/RealTime.md) - DataClass class
+- [RealTimeEntity](../Classes/RealTimeEntity.md) - Entity class
+- [RealTimeSelection](../Classes/RealTimeSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

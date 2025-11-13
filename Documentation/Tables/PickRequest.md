@@ -63,6 +63,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `OrderPickRequestSelection` | [OrderPickRequest](OrderPickRequest.md) | `PickRequestID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PickRequest](../Classes/PickRequest.md) - DataClass class
+- [PickRequestEntity](../Classes/PickRequestEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

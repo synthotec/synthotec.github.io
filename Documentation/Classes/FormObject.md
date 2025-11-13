@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T02:47:32.692Z*
+🕐 *Last updated: 2025-11-13T12:58:33.957Z*
 
 ---
 
@@ -876,6 +876,12 @@ Function HelpTip($HelpTip : Text)
 | `$HelpTip` | `Text` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

@@ -53,6 +53,13 @@ parent : Tables
 | `PalletSelection` | [Pallet](Pallet.md) | `LocationID` → `ID` | Active | - |
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `LocationID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Location](../Classes/Location.md) - DataClass class
+- [LocationEntity](../Classes/LocationEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

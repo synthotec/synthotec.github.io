@@ -47,6 +47,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Settings](../Classes/Settings.md) - DataClass class
+- [SettingsEntity](../Classes/SettingsEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

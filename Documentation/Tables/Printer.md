@@ -53,6 +53,14 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PrintJobSelection` | [PrintJob](PrintJob.md) | `PrinterID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Printer](../Classes/Printer.md) - DataClass class
+- [PrinterEntity](../Classes/PrinterEntity.md) - Entity class
+- [PrinterSelection](../Classes/PrinterSelection.md) - EntitySelection class
+
 ---
 
 *Generated from catalog.4DCatalog*

@@ -35,6 +35,12 @@ parent : Tables
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Warehouse](../Classes/Warehouse.md) - DataClass class
+
 ---
 
 *Generated from catalog.4DCatalog*

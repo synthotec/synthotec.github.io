@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T02:47:32.705Z*
+🕐 *Last updated: 2025-11-13T12:58:33.972Z*
 
 ---
 
@@ -37,6 +37,17 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [Grippers](Grippers.md) - DataClass class
+- [GrippersEntity](GrippersEntity.md) - Entity class
+
+### 🗂️ Used By Tables
+
+- [Grippers](../Tables/Grippers.md) - DataClass class
 
 ---
 

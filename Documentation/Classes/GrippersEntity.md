@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.708Z*
+🕐 *Last updated: 2025-11-13T12:58:33.975Z*
 
 ---
 
@@ -59,6 +59,12 @@ Function syncMigrationSelections($RemoteEntity : cs.GrippersEntity)
 | `$RemoteEntity` | `cs.GrippersEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Grippers](../Tables/Grippers.md) - Entity class
 
 ---
 

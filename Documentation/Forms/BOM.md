@@ -25,7 +25,7 @@ Main view showing the Bill of Materials interface with listbox for parts selecti
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T10:46:36.387Z |
+| **Generated** | 🕐 2025-11-13T12:58:35.508Z |
 
 ## 🎯 Form Events
 
@@ -66,6 +66,13 @@ This form handles **17** of **44** possible events:
 | 🔘 button | 4 |
 | 🔹 subform | 2 |
 | 📥 dropdown | 2 |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [BOM](../Classes/BOM.md) - DataClass class
+- [BOMEntity](../Classes/BOMEntity.md) - Entity class
 
 ---
 

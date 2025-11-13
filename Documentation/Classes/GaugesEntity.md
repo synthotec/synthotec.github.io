@@ -9,13 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.697Z*
+🕐 *Last updated: 2025-11-13T12:58:33.962Z*
 
 ---
 
 ## 📑 Table of Contents
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Gauges](../Tables/Gauges.md) - Entity class
 
 ---
 

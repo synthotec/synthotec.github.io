@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.261Z*
+🕐 *Last updated: 2025-11-13T12:58:34.531Z*
 
 ---
 
@@ -120,6 +120,12 @@ Function HighestCelciusTemperature -> Real
 **Returns:** `Real`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Entity class
 
 ---
 

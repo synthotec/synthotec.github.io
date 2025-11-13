@@ -178,6 +178,13 @@ parent : Tables
 | `ForecastSelection` | [Forecast](Forecast.md) | `ProductID` → `Product_ID` | Active | - |
 | `QualitySystemProceduresSelection` | [QualitySystemProcedures](QualitySystemProcedures.md) | `ProductID` → `Product_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Product](../Classes/Product.md) - DataClass class
+- [ProductEntity](../Classes/ProductEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

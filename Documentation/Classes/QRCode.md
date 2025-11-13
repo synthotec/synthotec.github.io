@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T02:47:33.168Z*
+🕐 *Last updated: 2025-11-13T12:58:34.431Z*
 
 ---
 
@@ -146,6 +146,12 @@ Function PrimaryKey -> Integer
 **Returns:** `Integer`
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

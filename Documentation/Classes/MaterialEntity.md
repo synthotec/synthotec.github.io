@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:32.768Z*
+🕐 *Last updated: 2025-11-13T12:58:34.033Z*
 
 ---
 
@@ -90,6 +90,12 @@ Function HasMigrationID -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [Material](../Tables/Material.md) - Entity class
 
 ---
 

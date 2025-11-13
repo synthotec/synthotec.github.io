@@ -61,6 +61,13 @@ parent : Tables
 | `RMCEntity` | [RMC](RMC.md) | `RMC` → `RMCNo_l` | Active | - |
 | `LocationEntity` | [Location](Location.md) | `LocationID` → `ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [MaterialStock](../Classes/MaterialStock.md) - DataClass class
+- [MaterialStockEntity](../Classes/MaterialStockEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

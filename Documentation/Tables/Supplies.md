@@ -71,6 +71,13 @@ parent : Tables
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `SuppliesID` → `UniqueID_i` | Active | - |
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `SuppliesID_i` → `UniqueID_i` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Supplies](../Classes/Supplies.md) - DataClass class
+- [SuppliesEntity](../Classes/SuppliesEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*

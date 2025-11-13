@@ -7,13 +7,19 @@ parent : Classes
 
 📊 **Overview:** 
 
-🕐 *Last updated: 2025-11-13T02:47:33.035Z*
+🕐 *Last updated: 2025-11-13T12:58:34.301Z*
 
 ---
 
 ## 📑 Table of Contents
 
 ---
+
+## 🔗 Related Items
+
+### 📦 Related Classes
+
+- [](.md) - Extends this class
 
 ---
 

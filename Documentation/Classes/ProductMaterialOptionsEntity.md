@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T02:47:33.140Z*
+🕐 *Last updated: 2025-11-13T12:58:34.406Z*
 
 ---
 
@@ -76,6 +76,12 @@ Function Default -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Used By Tables
+
+- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Entity class
 
 ---
 

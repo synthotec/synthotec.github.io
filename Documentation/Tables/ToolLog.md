@@ -47,6 +47,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ToolsEntity` | [Tools](Tools.md) | `Tool_ID` → `Tool_ID` | Active | - |
 
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ToolLogEntity](../Classes/ToolLogEntity.md) - Entity class
+
 ---
 
 *Generated from catalog.4DCatalog*
