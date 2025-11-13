@@ -3,7 +3,7 @@ layout : default
 title : ChangeLogScreen
 parent : Forms
 ---
-# ChangeLogScreen
+# ChangeLogScreen [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeLogScreen)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 15 Events | 2 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:54.978Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.096Z |
 
 ---
 
@@ -59,12 +59,14 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 1 |
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/Button.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ChangeLogCollection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/List%20Box.4dm) |
 
 ---
 

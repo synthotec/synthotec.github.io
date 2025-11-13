@@ -3,7 +3,7 @@ layout : default
 title : Phonebook
 parent : Forms
 ---
-# Phonebook
+# Phonebook [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Phonebook)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:55.091Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.249Z |
 
 ---
 
@@ -57,11 +57,13 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 1
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Phonebook/ObjectMethods/Button.4dm) |
 
 ---
 

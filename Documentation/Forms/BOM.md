@@ -7,16 +7,6 @@ parent : Forms
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 8 Object Methods
 
-## 📸 Screenshots
-
-### BOM Management Screen
-
-![BOM Management Screen](Images/BOM-1.png)
-
-Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
-
----
-
 ## ℹ️ Form Information
 
 | Property | Value |
@@ -25,7 +15,7 @@ Main view showing the Bill of Materials interface with listbox for parts selecti
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:37:17.262Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.067Z |
 
 ---
 
@@ -33,6 +23,8 @@ Main view showing the Bill of Materials interface with listbox for parts selecti
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (10)
+- [📸 Screenshots](#-screenshots) (1)
+  - [BOM Management Screen](#bom-management-screen)
 
 ---
 
@@ -83,6 +75,16 @@ This form handles **17** of **44** possible events:
 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button.4dm) |
 | Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button2.4dm) |
 | Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button3.4dm) |
+
+## 📸 Screenshots
+
+### BOM Management Screen {#bom-management-screen}
+
+![BOM Management Screen](Images/BOM-1.png)
+
+Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
+
+---
 
 ---
 

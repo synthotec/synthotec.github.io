@@ -3,7 +3,7 @@ layout : default
 title : BOM_MaterialPrices
 parent : Forms
 ---
-# BOM_MaterialPrices
+# BOM_MaterialPrices [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM_MaterialPrices)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.958Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.070Z |
 
 ---
 
@@ -58,11 +58,13 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 1
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaterialList | 📋 listbox | ✅ | ✅ | ❌ | - | [MaterialList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_MaterialPrices/ObjectMethods/MaterialList.4dm) |
 
 ---
 

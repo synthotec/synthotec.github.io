@@ -3,7 +3,7 @@ layout : default
 title : ToolMaintenanceLog
 parent : Forms
 ---
-# ToolMaintenanceLog
+# ToolMaintenanceLog [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolMaintenanceLog)
 
 📊 **Overview:** 3 Objects | 3 Types | 2 Pages | 15 Events | 2 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.184Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.357Z |
 
 ---
 
@@ -59,13 +59,15 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 3
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 1 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/Button.4dm) |
+| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.WorkRequestComments | - |
 
 ---
 

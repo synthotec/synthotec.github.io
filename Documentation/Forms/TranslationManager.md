@@ -3,7 +3,7 @@ layout : default
 title : TranslationManager
 parent : Forms
 ---
-# TranslationManager
+# TranslationManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/TranslationManager)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 15 Events | 4 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.191Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.367Z |
 
 ---
 
@@ -59,14 +59,18 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 3 |
-| 📋 listbox | 1 |
-| 📥 dropdown | 1 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/List%20Box.4dm) |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Translation_Processes_Detailed | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Button* | 🔘 button | ✅ | ❌ | ❌ | - | [Button%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Button%2A.4dm) |
+| Text1* | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2* | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

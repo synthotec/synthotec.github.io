@@ -5,13 +5,13 @@ parent : Classes
 ---
 # Documentation
 
-📊 **Overview:** 1 Properties | 1 Constructor | 14 Functions
+📊 **Overview:** 1 Properties | 1 Constructor | 15 Functions
 
 ## 📝 Description
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T15:02:53.064Z*
+🕐 *Last updated: 2025-11-13T16:07:01.148Z*
 
 ---
 
@@ -25,7 +25,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Regular Functions (14):**
+**⚙️ Regular Functions (15):**
 
 - [generateClassDocumentation](#generateclassdocumentation)
 - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
@@ -41,6 +41,7 @@ parent : Classes
 - [discoverRelationships](#discoverrelationships) → `Integer`
 - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
 - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
+- [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
 
 ---
 
@@ -264,6 +265,25 @@ Helper function to generate markdown for a single form
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
 | `$FormJSON` | `Object` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### _getObjectTypeEmoji {#_getobjecttypeemoji}
+
+
+```4d
+Function _getObjectTypeEmoji($ObjectType : Text) -> Text
+```
+
+Get emoji for object type
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ObjectType` | `Text` | - | - |
 
 **Returns:** `Text`
 

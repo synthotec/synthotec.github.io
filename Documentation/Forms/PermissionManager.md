@@ -3,7 +3,7 @@ layout : default
 title : PermissionManager
 parent : Forms
 ---
-# PermissionManager
+# PermissionManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PermissionManager)
 
 📊 **Overview:** 9 Objects | 5 Types | 3 Pages | 15 Events | 6 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.090Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.247Z |
 
 ---
 
@@ -59,15 +59,21 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 3 |
-| 📋 listbox | 2 |
-| 📥 dropdown | 1 |
-| 🔹 subform | 2 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| HidePanel | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/List%20Box1.4dm) |
+| SelectedSubject | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Permissions_SetType | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/List%20Box.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| SubjectFilter | 🔲 subform | ✅ | ✅ | ❌ | Permissions_Subject_Filter | [SubjectFilter.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/SubjectFilter.4dm) |
+| ObjectFilter | 🔲 subform | ✅ | ✅ | ❌ | Permissions_Object_Filter | [ObjectFilter.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/ObjectFilter.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/Button2.4dm) |
 
 ---
 

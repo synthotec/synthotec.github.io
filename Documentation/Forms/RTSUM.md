@@ -3,7 +3,7 @@ layout : default
 title : RTSUM
 parent : Forms
 ---
-# RTSUM
+# RTSUM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RTSUM)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 7 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T15:02:55.139Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.308Z |
 
 ---
 
@@ -58,14 +58,22 @@ This form handles **17** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 10
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 4 |
-| 📝 input | 1 |
-| 📄 text | 2 |
-| 🔘 radio | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| sbox | 📋 listbox | ✅ | ✅ | ❌ | sbox | [sbox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/sbox.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vSearchBox | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/Variable.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Radio Button | 🔘 radio | ✅ | ✅ | ❌ | rd1 | [Radio Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/Radio%20Button.4dm) |
+| Radio Button1 | 🔘 radio | ✅ | ✅ | ❌ | rd2 | [Radio Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/Radio%20Button1.4dm) |
+| Radio Button2 | 🔘 radio | ✅ | ✅ | ❌ | rd3 | [Radio Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/Radio%20Button2.4dm) |
+| rtlist | 📋 listbox | ✅ | ✅ | ❌ | rtlist | [rtlist.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/rtlist.4dm) |
+| sbox1 | 📋 listbox | ✅ | ✅ | ❌ | WOList | [sbox1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RTSUM/ObjectMethods/sbox1.4dm) |
 
 ---
 

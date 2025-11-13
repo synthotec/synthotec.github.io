@@ -3,7 +3,7 @@ layout : default
 title : ConsignmentSSLs
 parent : Forms
 ---
-# ConsignmentSSLs
+# ConsignmentSSLs [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ConsignmentSSLs)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 16 Events | 5 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:54.993Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.113Z |
 
 ---
 
@@ -57,14 +57,18 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| ☑️ checkbox | 1 |
-| 🔘 button | 2 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | vHideZero | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Check%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | LastSNRUpdate | - |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | ConsignmentSSLs_CustList | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box1.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button1.4dm) |
 
 ---
 

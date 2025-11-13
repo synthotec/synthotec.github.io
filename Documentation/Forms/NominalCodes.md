@@ -3,7 +3,7 @@ layout : default
 title : NominalCodes
 parent : Forms
 ---
-# NominalCodes
+# NominalCodes [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NominalCodes)
 
 📊 **Overview:** 7 Objects | 4 Types | 2 Pages | 16 Events | 5 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.065Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.217Z |
 
 ---
 
@@ -58,14 +58,19 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 7
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 🔘 button | 3 |
-| 📋 listbox | 1 |
-| 📄 text | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | vCategories | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button1.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/List%20Box.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button2.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

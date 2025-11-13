@@ -3,7 +3,7 @@ layout : default
 title : TransferSupply
 parent : Forms
 ---
-# TransferSupply
+# TransferSupply [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/TransferSupply)
 
 📊 **Overview:** 5 Objects | 3 Types | 2 Pages | 16 Events | 2 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.190Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.365Z |
 
 ---
 
@@ -58,13 +58,17 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 5
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 2 |
-| 📋 listbox | 1 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button.4dm) |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button1.4dm) |
 
 ---
 

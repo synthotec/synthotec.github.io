@@ -3,7 +3,7 @@ layout : default
 title : ForecastImporter
 parent : Forms
 ---
-# ForecastImporter
+# ForecastImporter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ForecastImporter)
 
 📊 **Overview:** 9 Objects | 5 Types | 2 Pages | 16 Events | 4 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.030Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.163Z |
 
 ---
 
@@ -58,15 +58,21 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 2 |
-| 📋 listbox | 1 |
-| 📥 dropdown | 2 |
-| 📄 text | 3 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button1.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | MissingList | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportMonth | - |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button2.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportYear | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable | 📝 input | ✅ | ✅ | ❌ | LastUpdated | - |
 
 ---
 

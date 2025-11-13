@@ -3,7 +3,7 @@ layout : default
 title : DatabaseSettings
 parent : Forms
 ---
-# DatabaseSettings
+# DatabaseSettings [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DatabaseSettings)
 
 📊 **Overview:** 6 Objects | 3 Types | 3 Pages | 15 Events | 5 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.012Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.137Z |
 
 ---
 
@@ -59,13 +59,23 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 4 |
-| 📋 listbox | 1 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/List%20Box.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button1.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button3.4dm) |
+
+#### Page 2
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button2.4dm) |
+| CodeToProcess | 📝 input | ✅ | ✅ | ❌ | CodeToProcess | - |
 
 ---
 

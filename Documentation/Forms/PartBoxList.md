@@ -3,7 +3,7 @@ layout : default
 title : PartBoxList
 parent : Forms
 ---
-# PartBoxList
+# PartBoxList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PartBoxList)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 17 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:55.087Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.244Z |
 
 ---
 
@@ -57,11 +57,13 @@ This form handles **17** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 1
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PartBoxList/ObjectMethods/List%20Box1.4dm) |
 
 ---
 

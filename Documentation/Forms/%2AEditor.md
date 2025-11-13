@@ -3,7 +3,7 @@ layout : default
 title : %2AEditor
 parent : Forms
 ---
-# %2AEditor
+# %2AEditor [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2AEditor)
 
 📊 **Overview:** 6 Objects | 3 Types | 2 Pages | 16 Events | 6 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:54.873Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.994Z |
 
 ---
 
@@ -57,13 +57,18 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 📋 listbox | 1 |
-| 🔘 button | 4 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | aTables | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| MasterList | 📋 listbox | ✅ | ✅ | ❌ | MasterList | [MasterList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/MasterList.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button2.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button3.4dm) |
 
 ---
 

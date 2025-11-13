@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
 
-🕐 *Last updated: 2025-11-13T15:02:53.230Z*
+🕐 *Last updated: 2025-11-13T16:07:01.334Z*
 
 ---
 
@@ -76,7 +76,7 @@ Parse the form.4DForm JSON file
 Function _countObjects($Pages : Collection)
 ```
 
-Count objects by type across all pages
+Count objects by type across all pages and collect interactive object details
 
 **Parameters:**
 

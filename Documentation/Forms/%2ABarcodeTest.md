@@ -3,7 +3,7 @@ layout : default
 title : %2ABarcodeTest
 parent : Forms
 ---
-# %2ABarcodeTest
+# %2ABarcodeTest [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2ABarcodeTest)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.839Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.960Z |
 
 ---
 
@@ -57,12 +57,16 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 3 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | 📝 input | ✅ | ✅ | ❌ | bOne | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | NewOne | - |
+| Input | 📝 input | ✅ | ✅ | ❌ | test_input_text | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABarcodeTest/ObjectMethods/Button.4dm) |
 
 ---
 

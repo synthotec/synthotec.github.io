@@ -3,7 +3,7 @@ layout : default
 title : BOM_CustomerTransport
 parent : Forms
 ---
-# BOM_CustomerTransport
+# BOM_CustomerTransport [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM_CustomerTransport)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T15:02:54.957Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.069Z |
 
 ---
 
@@ -57,11 +57,13 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 1
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaterialList | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 
 ---
 

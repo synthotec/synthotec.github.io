@@ -3,7 +3,7 @@ layout : default
 title : WODateRange
 parent : Forms
 ---
-# WODateRange
+# WODateRange [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WODateRange)
 
 📊 **Overview:** 8 Objects | 4 Types | 2 Pages | 16 Events | 4 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.204Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.377Z |
 
 ---
 
@@ -57,14 +57,20 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 8
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 2 |
-| 🔹 subform | 2 |
-| 📝 input | 2 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| PopupDate | 🔲 subform | ✅ | ✅ | ❌ | vsDate | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vsDate | - |
+| PopupDate1 | 🔲 subform | ✅ | ✅ | ❌ | vfDate | [PopupDate1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate1.4dm) |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | vfDate | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button1.4dm) |
 
 ---
 

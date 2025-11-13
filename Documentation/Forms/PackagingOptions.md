@@ -3,7 +3,7 @@ layout : default
 title : PackagingOptions
 parent : Forms
 ---
-# PackagingOptions
+# PackagingOptions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PackagingOptions)
 
 📊 **Overview:** 11 Objects | 5 Types | 3 Pages | 16 Events | 10 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 10 |
-| **Generated** | 🕐 2025-11-13T15:02:55.074Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.231Z |
 
 ---
 
@@ -58,15 +58,33 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 11
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 3 |
-| 📋 listbox | 3 |
-| 📥 dropdown | 2 |
-| 📝 input | 1 |
-| 🔹 subform | 2 |
+#### Page 0 (Visible on All Pages)
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/Button2.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/List%20Box1.4dm) |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aMaterialNames | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/Button1.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vHeader | - |
+| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.TypeDropdownObject | [Popup Dropdown List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/Popup%20Dropdown%20List1.4dm) |
+
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/List%20Box.4dm) |
+| SearchPicker1 | 🔲 subform | ✅ | ✅ | ❌ | vMaterialSearch | [SearchPicker1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/SearchPicker1.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vPartSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/SearchPicker.4dm) |
+
+#### Page 2
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.CustomerSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/List%20Box2.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/Button.4dm) |
 
 ---
 

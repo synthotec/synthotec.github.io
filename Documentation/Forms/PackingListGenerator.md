@@ -3,7 +3,7 @@ layout : default
 title : PackingListGenerator
 parent : Forms
 ---
-# PackingListGenerator
+# PackingListGenerator [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PackingListGenerator)
 
 📊 **Overview:** 12 Objects | 6 Types | 2 Pages | 16 Events | 8 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:55.077Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.235Z |
 
 ---
 
@@ -58,16 +58,23 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 12
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 4 |
-| 📥 dropdown | 1 |
-| 🔹 subform | 2 |
-| 📝 input | 2 |
-| ➖ line | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Scrollable Area | 📋 listbox | ✅ | ✅ | ❌ | - | [Scrollable Area.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Scrollable%20Area.4dm) |
+| Scrollable Area1 | 📋 listbox | ✅ | ✅ | ❌ | - | [Scrollable Area1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Scrollable%20Area1.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Button.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | PackingList_DateType | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Button2.4dm) |
+| PopupDate | 🔲 subform | ✅ | ✅ | ❌ | vStartDate | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/PopupDate.4dm) |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | vStartDate | - |
+| PopupDate1 | 🔲 subform | ✅ | ✅ | ❌ | vEndDate | [PopupDate1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/PopupDate1.4dm) |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | vEndDate | - |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Button3.4dm) |
 
 ---
 

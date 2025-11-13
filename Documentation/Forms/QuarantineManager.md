@@ -3,7 +3,7 @@ layout : default
 title : QuarantineManager
 parent : Forms
 ---
-# QuarantineManager
+# QuarantineManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QuarantineManager)
 
 📊 **Overview:** 17 Objects | 5 Types | 2 Pages | 16 Events | 6 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.132Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.300Z |
 
 ---
 
@@ -59,15 +59,27 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 17
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| ⬜ rectangle | 1 |
-| 📝 input | 6 |
-| 📄 text | 6 |
-| 🔘 button | 3 |
-| ➖ line | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | vQFinished | - |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | vWOFinished | - |
+| Field | 📝 input | ✅ | ✅ | ❌ | [Product:10]Our Part No:2 | - |
+| Variable3 | 📝 input | ✅ | ✅ | ❌ | vParts | [Variable3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable3.4dm) |
+| Variable4 | 📝 input | ✅ | ✅ | ❌ | vBoxes | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable4.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button1.4dm) |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button2.4dm) |
 
 ---
 

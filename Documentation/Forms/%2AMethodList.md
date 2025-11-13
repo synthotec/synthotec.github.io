@@ -3,7 +3,7 @@ layout : default
 title : %2AMethodList
 parent : Forms
 ---
-# %2AMethodList
+# %2AMethodList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2AMethodList)
 
 📊 **Overview:** 5 Objects | 2 Types | 2 Pages | 16 Events | 9 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 9 |
-| **Generated** | 🕐 2025-11-13T15:02:54.876Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.997Z |
 
 ---
 
@@ -59,12 +59,17 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 5
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.Methods.orderBy("Pinned DESC, LastAccessed DESC, Name ASC") | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.MethodForms | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box1.4dm) |
+| BuildButton | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/Button.4dm) |
+| BuildButton1 | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton1.4dm) |
 
 ---
 

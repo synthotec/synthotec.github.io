@@ -3,7 +3,7 @@ layout : default
 title : Update4D
 parent : Forms
 ---
-# Update4D
+# Update4D [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Update4D)
 
 📊 **Overview:** 5 Objects | 2 Types | 2 Pages | 15 Events | 4 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.194Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.371Z |
 
 ---
 
@@ -59,12 +59,17 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 5
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 1 |
-| 🔘 button | 4 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | Update4D_UpdateFolderPath | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/Button.4dm) |
+| ValidateButton | 🔘 button | ✅ | ✅ | ❌ | - | [ValidateButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/ValidateButton.4dm) |
+| RestartButton | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton.4dm) |
+| RestartButton1 | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton1.4dm) |
 
 ---
 

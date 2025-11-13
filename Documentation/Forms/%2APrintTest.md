@@ -3,7 +3,7 @@ layout : default
 title : %2APrintTest
 parent : Forms
 ---
-# %2APrintTest
+# %2APrintTest [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2APrintTest)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 15 Events
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T15:02:54.882Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.007Z |
 
 ---
 
@@ -57,12 +57,6 @@ This form handles **15** of **44** possible events:
 | `onMouseLeave` | ❌ | `onMouseMove` | ❌ |
 
 ## 🧩 Form Objects
-
-**Total Objects:** 1
-
-| Object Type | Count |
-|:------------|------:|
-| ⬜ rectangle | 1 |
 
 ---
 

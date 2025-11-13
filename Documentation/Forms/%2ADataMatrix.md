@@ -3,7 +3,7 @@ layout : default
 title : %2ADataMatrix
 parent : Forms
 ---
-# %2ADataMatrix
+# %2ADataMatrix [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2ADataMatrix)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 15 Events | 1 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.870Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.991Z |
 
 ---
 
@@ -59,12 +59,16 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 3 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | DataMatrix | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ADataMatrix/ObjectMethods/Button.4dm) |
+| Input1 | 📝 input | ✅ | ✅ | ❌ | DataMatrixText | - |
+| Input2 | 📝 input | ✅ | ✅ | ❌ | DM_Title | - |
 
 ---
 

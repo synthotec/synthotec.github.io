@@ -3,7 +3,7 @@ layout : default
 title : EP-Lists
 parent : Forms
 ---
-# EP-Lists
+# EP-Lists [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EP-Lists)
 
 📊 **Overview:** 8 Objects | 4 Types | 2 Pages | 16 Events | 6 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.019Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.150Z |
 
 ---
 
@@ -58,14 +58,20 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 8
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 📋 listbox | 1 |
-| 🔘 button | 5 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | EPlistArray | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Button2.4dm) |
+| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Button4.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Button1.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Button3.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EP-Lists/ObjectMethods/Button.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

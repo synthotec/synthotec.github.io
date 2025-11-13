@@ -3,7 +3,7 @@ layout : default
 title : PalletDespatchList
 parent : Forms
 ---
-# PalletDespatchList
+# PalletDespatchList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PalletDespatchList)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 15 Events | 3 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:55.079Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.236Z |
 
 ---
 
@@ -59,14 +59,17 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 1 |
-| 📄 text | 2 |
-| ➖ line | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| PalletDespatchList_List | 📋 listbox | ✅ | ✅ | ❌ | - | [PalletDespatchList_List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/PalletDespatchList_List.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/Button.4dm) |
+| PalletDespatchList_Title | 📄 text | ✅ | ✅ | ❌ | - | - |
+| PalletDespatchList_Company | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/List%20Box.4dm) |
 
 ---
 

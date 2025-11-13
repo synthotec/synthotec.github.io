@@ -3,7 +3,7 @@ layout : default
 title : BOM_Output
 parent : Forms
 ---
-# BOM_Output
+# BOM_Output [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM_Output)
 
 📊 **Overview:** 9 Objects | 5 Types | 2 Pages | 16 Events | 6 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:54.960Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.072Z |
 
 ---
 
@@ -57,15 +57,21 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔹 subform | 1 |
-| 📥 dropdown | 3 |
-| 🔘 button | 1 |
-| 📋 listbox | 3 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/SearchPicker.4dm) |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aBOMProducts | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | aBOMCustomers | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Button.4dm) |
+| Popup Dropdown List2 | 📥 dropdown | ✅ | ✅ | ❌ | BOM_ForecastYear | [Popup Dropdown List2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List2.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/List%20Box1.4dm) |
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | TopListBox | - |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | MainListBox | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

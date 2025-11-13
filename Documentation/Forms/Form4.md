@@ -3,7 +3,7 @@ layout : default
 title : Form4
 parent : Forms
 ---
-# Form4
+# Form4 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Form4)
 
 📊 **Overview:** 0 Objects | 0 Types | 2 Pages | 15 Events
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
-| **Generated** | 🕐 2025-11-13T15:02:55.035Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.168Z |
 
 ---
 

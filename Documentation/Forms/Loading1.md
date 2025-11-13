@@ -3,7 +3,7 @@ layout : default
 title : Loading1
 parent : Forms
 ---
-# Loading1
+# Loading1 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Loading1)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:55.044Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.183Z |
 
 ---
 
@@ -58,12 +58,13 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔹 progress | 1 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Loading_Text | 📝 input | ✅ | ✅ | ❌ | Form:C1466.LoadingText+Char:C90(13)+Form:C1466.ProgressText | [Loading_Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Loading1/ObjectMethods/Loading_Text.4dm) |
 
 ---
 

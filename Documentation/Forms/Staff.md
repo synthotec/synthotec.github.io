@@ -3,7 +3,7 @@ layout : default
 title : Staff
 parent : Forms
 ---
-# Staff
+# Staff [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Staff)
 
 📊 **Overview:** 4 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.158Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.331Z |
 
 ---
 
@@ -57,13 +57,16 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 2 |
-| ☑️ checkbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button.4dm) |
+| Button3 | 🔘 button | ✅ | ❌ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button3.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.ShowArchived | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Check%20Box.4dm) |
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : Form1
 parent : Forms
 ---
-# Form1
+# Form1 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Form1)
 
 📊 **Overview:** 3 Objects | 2 Types | 2 Pages | 16 Events | 3 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:55.031Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.165Z |
 
 ---
 
@@ -57,12 +57,15 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 3
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Hierarchical Popup Menu | 📥 dropdown | ✅ | ✅ | ❌ | MainList | [Hierarchical Popup Menu.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Hierarchical%20Popup%20Menu.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button1.4dm) |
 
 ---
 

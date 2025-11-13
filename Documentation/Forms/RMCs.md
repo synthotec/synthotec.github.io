@@ -3,7 +3,7 @@ layout : default
 title : RMCs
 parent : Forms
 ---
-# RMCs
+# RMCs [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RMCs)
 
 📊 **Overview:** 3 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.137Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.306Z |
 
 ---
 
@@ -57,13 +57,15 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 3
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 1 |
-| 🔹 subform | 1 |
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | "RELOAD RMC DATA" | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/Variable2.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | Form:C1466.Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/SearchPicker.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RMCSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/List%20Box1.4dm) |
 
 ---
 

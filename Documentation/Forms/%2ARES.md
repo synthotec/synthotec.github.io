@@ -3,7 +3,7 @@ layout : default
 title : %2ARES
 parent : Forms
 ---
-# %2ARES
+# %2ARES [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2ARES)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 15 Events | 1 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.892Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.010Z |
 
 ---
 
@@ -59,12 +59,14 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ARES/ObjectMethods/Button.4dm) |
 
 ---
 

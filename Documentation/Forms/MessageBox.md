@@ -3,7 +3,7 @@ layout : default
 title : MessageBox
 parent : Forms
 ---
-# MessageBox
+# MessageBox [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MessageBox)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 15 Events | 2 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.061Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.213Z |
 
 ---
 
@@ -59,14 +59,16 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| ⬜ rectangle | 1 |
-| 📝 input | 2 |
-| ➖ line | 1 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MessageBox.Emoji | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Emoji | - |
+| MessageBox.Text | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Text | [MessageBox.Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.Text.4dm) |
+| MessageBox.AcceptButton | 🔘 button | ✅ | ✅ | ❌ | - | [MessageBox.AcceptButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.AcceptButton.4dm) |
+| MessageBox.CancelButton | 🔘 button | ✅ | ✅ | ❌ | - | - |
 
 ---
 

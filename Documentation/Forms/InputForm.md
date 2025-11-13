@@ -3,7 +3,7 @@ layout : default
 title : InputForm
 parent : Forms
 ---
-# InputForm
+# InputForm [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/InputForm)
 
 📊 **Overview:** 5 Objects | 2 Types | 3 Pages | 16 Events | 5 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.037Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.172Z |
 
 ---
 
@@ -58,12 +58,17 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 5
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 2 |
-| 🔘 button | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | InputBox_RequestText | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/InputForm/ObjectMethods/Variable1.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | InputBox_Answer | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/InputForm/ObjectMethods/Variable.4dm) |
+| *SubmitButton | 🔘 button | ✅ | ✅ | ❌ | Button | [%2ASubmitButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/InputForm/ObjectMethods/%2ASubmitButton.4dm) |
+| *CancelButton | 🔘 button | ✅ | ✅ | ❌ | Button | [%2ACancelButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/InputForm/ObjectMethods/%2ACancelButton.4dm) |
+| Form.DatePicker | 🔘 button | ✅ | ✅ | ❌ | - | [Form.DatePicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/InputForm/ObjectMethods/Form.DatePicker.4dm) |
 
 ---
 

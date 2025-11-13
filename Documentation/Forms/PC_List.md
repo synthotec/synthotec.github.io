@@ -3,7 +3,7 @@ layout : default
 title : PC_List
 parent : Forms
 ---
-# PC_List
+# PC_List [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PC_List)
 
 📊 **Overview:** 7 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.089Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.246Z |
 
 ---
 
@@ -58,13 +58,19 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 7
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 5 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | LBSel | - |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button2.4dm) |
+| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button4.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button1.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button3.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

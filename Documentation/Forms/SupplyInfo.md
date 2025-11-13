@@ -3,7 +3,7 @@ layout : default
 title : SupplyInfo
 parent : Forms
 ---
-# SupplyInfo
+# SupplyInfo [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SupplyInfo)
 
 📊 **Overview:** 9 Objects | 6 Types | 2 Pages | 16 Events | 4 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.174Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.346Z |
 
 ---
 
@@ -58,16 +58,20 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 1 |
-| ☑️ checkbox | 2 |
-| 📥 dropdown | 2 |
-| 🔘 button | 2 |
-| 📄 text | 1 |
-| ➖ line | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | 📝 input | ✅ | ✅ | ❌ | varName | - |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | varPackaging | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | aCats | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button1.4dm) |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | varRaw | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box1.4dm) |
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | SupplyInfo_MaterialNames | - |
 
 ---
 

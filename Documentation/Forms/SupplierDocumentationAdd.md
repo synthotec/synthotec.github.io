@@ -3,7 +3,7 @@ layout : default
 title : SupplierDocumentationAdd
 parent : Forms
 ---
-# SupplierDocumentationAdd
+# SupplierDocumentationAdd [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SupplierDocumentationAdd)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 16 Events | 3 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:55.171Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.343Z |
 
 ---
 
@@ -58,14 +58,22 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 10
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 3 |
-| 📥 dropdown | 1 |
-| 📝 input | 3 |
-| 🔘 button | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | SupplierDoc_TypeArray | - |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vDocumentReference | - |
+| Button2 | 🔘 button | ✅ | ❌ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button2.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button.4dm) |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | vValidUntil | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button1.4dm) |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | vFileName | - |
+| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

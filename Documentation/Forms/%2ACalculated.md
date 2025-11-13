@@ -3,7 +3,7 @@ layout : default
 title : %2ACalculated
 parent : Forms
 ---
-# %2ACalculated
+# %2ACalculated [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2ACalculated)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 15 Events | 2 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:54.869Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.990Z |
 
 ---
 
@@ -59,12 +59,14 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Collection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ACalculated/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ACalculated/ObjectMethods/Button.4dm) |
 
 ---
 

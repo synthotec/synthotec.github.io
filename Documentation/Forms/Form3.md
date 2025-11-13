@@ -3,7 +3,7 @@ layout : default
 title : Form3
 parent : Forms
 ---
-# Form3
+# Form3 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Form3)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 15 Events
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T15:02:55.034Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.167Z |
 
 ---
 
@@ -58,11 +58,13 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 1
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Collection | - |
 
 ---
 

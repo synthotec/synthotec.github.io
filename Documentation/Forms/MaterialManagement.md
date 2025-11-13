@@ -3,7 +3,7 @@ layout : default
 title : MaterialManagement
 parent : Forms
 ---
-# MaterialManagement
+# MaterialManagement [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialManagement)
 
 📊 **Overview:** 14 Objects | 6 Types | 2 Pages | 1 Events | 8 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:55.055Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.204Z |
 
 ---
 
@@ -57,16 +57,26 @@ This form handles **1** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 14
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 3 |
-| 📄 text | 4 |
-| 📋 listbox | 2 |
-| 🔘 button | 3 |
-| 🔹 subform | 1 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | vFromLocations | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List2 | 📥 dropdown | ✅ | ✅ | ❌ | vToLocations | [Popup Drop down List2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Popup%20Drop%20down%20List2.4dm) |
+| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | MaterialManagement_Listbox1 | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Button1.4dm) |
+| Text8 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List3 | 📥 dropdown | ✅ | ✅ | ❌ | vMaterials | [Popup Drop down List3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Popup%20Drop%20down%20List3.4dm) |
+| Text9 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button4 | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Button4.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | MaterialManagement_Listbox2 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/List%20Box1.4dm) |
+| Datepicker | 🔲 subform | ✅ | ✅ | ❌ | vDate | [Datepicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Datepicker.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vDate | - |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button4 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Button2.4dm) |
 
 ---
 

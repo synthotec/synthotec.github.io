@@ -3,7 +3,7 @@ layout : default
 title : CancelAdviceNote
 parent : Forms
 ---
-# CancelAdviceNote
+# CancelAdviceNote [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CancelAdviceNote)
 
 📊 **Overview:** 5 Objects | 3 Types | 2 Pages | 16 Events | 3 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:54.973Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.091Z |
 
 ---
 
@@ -58,13 +58,17 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 5
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 1 |
-| 🔘 button | 3 |
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | 📝 input | ✅ | ✅ | ❌ | vAdviceNote | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button2.4dm) |
 
 ---
 

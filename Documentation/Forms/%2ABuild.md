@@ -3,7 +3,7 @@ layout : default
 title : %2ABuild
 parent : Forms
 ---
-# %2ABuild
+# %2ABuild [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2ABuild)
 
 📊 **Overview:** 9 Objects | 3 Types | 3 Pages | 16 Events | 8 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:54.841Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.988Z |
 
 ---
 
@@ -59,13 +59,21 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 7 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Errors | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/Button.4dm) |
+| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.BuildVersionText | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/Button2.4dm) |
+| BuildButton | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/BuildButton.4dm) |
+| DeployButton | 🔘 button | ✅ | ✅ | ❌ | - | [DeployButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/DeployButton.4dm) |
+| FullBuildButton | 🔘 button | ✅ | ✅ | ❌ | - | [FullBuildButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/FullBuildButton.4dm) |
+| FullDeployButton | 🔘 button | ✅ | ✅ | ❌ | - | [FullDeployButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/ObjectMethods/FullDeployButton.4dm) |
 
 ---
 

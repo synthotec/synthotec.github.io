@@ -3,7 +3,7 @@ layout : default
 title : Schedule_Planner
 parent : Forms
 ---
-# Schedule_Planner
+# Schedule_Planner [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Schedule_Planner)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 16 Events | 6 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.147Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.317Z |
 
 ---
 
@@ -57,14 +57,18 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 📥 dropdown | 2 |
-| 📝 input | 1 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Calendar | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | vYear | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | SchedulePlanner_MonthArray | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | WorkingDays | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Variable.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button1.4dm) |
 
 ---
 

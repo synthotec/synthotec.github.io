@@ -3,7 +3,7 @@ layout : default
 title : ToolDocuments
 parent : Forms
 ---
-# ToolDocuments
+# ToolDocuments [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolDocuments)
 
 📊 **Overview:** 3 Objects | 2 Types | 3 Pages | 15 Events | 3 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:55.182Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.355Z |
 
 ---
 
@@ -59,12 +59,20 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 3
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 1 |
+#### Page 0 (Visible on All Pages)
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolDocuments/ObjectMethods/List%20Box.4dm) |
+
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ToolDocumentSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolDocuments/ObjectMethods/List%20Box1.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolDocuments/ObjectMethods/Button.4dm) |
 
 ---
 

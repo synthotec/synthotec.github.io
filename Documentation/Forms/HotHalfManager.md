@@ -3,7 +3,7 @@ layout : default
 title : HotHalfManager
 parent : Forms
 ---
-# HotHalfManager
+# HotHalfManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/HotHalfManager)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:55.036Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.170Z |
 
 ---
 
@@ -57,12 +57,14 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/HotHalfManager/ObjectMethods/Button.4dm) |
 
 ---
 

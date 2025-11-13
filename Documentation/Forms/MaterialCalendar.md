@@ -3,7 +3,7 @@ layout : default
 title : MaterialCalendar
 parent : Forms
 ---
-# MaterialCalendar
+# MaterialCalendar [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialCalendar)
 
 📊 **Overview:** 17 Objects | 7 Types | 2 Pages | 16 Events | 13 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 13 |
-| **Generated** | 🕐 2025-11-13T15:02:55.052Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.194Z |
 
 ---
 
@@ -57,17 +57,29 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 17
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 🔘 button | 6 |
-| ☑️ checkbox | 3 |
-| 📋 listbox | 3 |
-| 📝 input | 2 |
-| 🔹 subform | 1 |
-| 📥 dropdown | 1 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Button.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Button3.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Button2.4dm) |
+| Button1 | 🔘 button | ✅ | ❌ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Button1.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | bUseRegrind | - |
+| MatCalList | 📋 listbox | ✅ | ✅ | ❌ | MatCalList | [MatCalList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/MatCalList.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/List%20Box1.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | SelectedCellInfo+" Usage" | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | SelectedCellInfo+" Deliveries" | - |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | MaterialCalendar_IncludeOffsite | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Check%20Box1.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | MaterialCalendar_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/SearchPicker.4dm) |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.StockTakeDates | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| ChangeCalendarDaysButton | 🔘 button | ✅ | ✅ | ❌ | - | [ChangeCalendarDaysButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/ChangeCalendarDaysButton.4dm) |
+| ChangeOrderWindowButton | 🔘 button | ✅ | ✅ | ❌ | - | [ChangeOrderWindowButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/ChangeOrderWindowButton.4dm) |
+| Check Box2 | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.DeliverNoDatesToday | [Check Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCalendar/ObjectMethods/Check%20Box2.4dm) |
 
 ---
 

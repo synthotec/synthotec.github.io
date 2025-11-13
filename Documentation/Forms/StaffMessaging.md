@@ -3,7 +3,7 @@ layout : default
 title : StaffMessaging
 parent : Forms
 ---
-# StaffMessaging
+# StaffMessaging [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StaffMessaging)
 
 📊 **Overview:** 12 Objects | 4 Types | 2 Pages | 15 Events | 5 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T15:02:55.165Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.335Z |
 
 ---
 
@@ -59,14 +59,24 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 12
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 📄 text | 3 |
-| 📝 input | 5 |
-| 🔘 button | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/List%20Box.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input | 📝 input | ✅ | ✅ | ❌ | from_Address | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input1 | 📝 input | ✅ | ✅ | ❌ | email_Subject | - |
+| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input2 | 📝 input | ✅ | ✅ | ❌ | email_Body | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Input2.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button2.4dm) |
+| Input3 | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSLimit | - |
+| Input4 | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSCredits | - |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button3.4dm) |
 
 ---
 

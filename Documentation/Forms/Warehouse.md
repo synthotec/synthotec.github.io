@@ -3,7 +3,7 @@ layout : default
 title : Warehouse
 parent : Forms
 ---
-# Warehouse
+# Warehouse [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Warehouse)
 
 📊 **Overview:** 8 Objects | 5 Types | 3 Pages | 17 Events | 6 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.195Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.372Z |
 
 ---
 
@@ -59,15 +59,24 @@ This form handles **17** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 8
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| ⬜ rectangle | 1 |
-| 📝 input | 2 |
-| 🔘 button | 2 |
-| 📄 text | 2 |
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Warehouse_ScannerInput | 📝 input | ✅ | ✅ | ❌ | Warehouse_ScannerInput | [Warehouse_ScannerInput.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Warehouse_ScannerInput.4dm) |
+| Warehouse_Button2 | 🔘 button | ✅ | ✅ | ❌ | Warehouse_Button2 | [Warehouse_Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Warehouse_Button2.4dm) |
+| Warehouse_Button1 | 🔘 button | ✅ | ✅ | ❌ | Warehouse_Button1 | [Warehouse_Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Warehouse_Button1.4dm) |
+| Warehouse_TitleLine1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Warehouse_TitleLine2 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Warehouse_Listbox | 📋 listbox | ✅ | ✅ | ❌ | - | [Warehouse_Listbox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Warehouse_Listbox.4dm) |
+
+#### Page 2
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | Warehouse_WarningText | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Input.4dm) |
 
 ---
 

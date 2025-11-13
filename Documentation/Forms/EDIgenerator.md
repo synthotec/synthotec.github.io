@@ -3,7 +3,7 @@ layout : default
 title : EDIgenerator
 parent : Forms
 ---
-# EDIgenerator
+# EDIgenerator [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EDIgenerator)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 1 Events | 4 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.016Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.147Z |
 
 ---
 
@@ -58,14 +58,18 @@ This form handles **1** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 3 |
-| 🔘 button | 1 |
-| 🔹 subform | 1 |
-| 📝 input | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box2.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/Button.4dm) |
+| DateEntry | 🔲 subform | ✅ | ✅ | ❌ | vDate | [DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/DateEntry.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vWeight | - |
 
 ---
 

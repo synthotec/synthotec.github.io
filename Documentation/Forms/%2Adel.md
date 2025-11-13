@@ -3,7 +3,7 @@ layout : default
 title : %2Adel
 parent : Forms
 ---
-# %2Adel
+# %2Adel [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2Adel)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.872Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.992Z |
 
 ---
 
@@ -57,12 +57,14 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.collectionObject.CollectionObject() | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Adel/ObjectMethods/Button.4dm) |
 
 ---
 

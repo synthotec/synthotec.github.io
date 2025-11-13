@@ -3,7 +3,7 @@ layout : default
 title : %2AToolEditor
 parent : Forms
 ---
-# %2AToolEditor
+# %2AToolEditor [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2AToolEditor)
 
 📊 **Overview:** 9 Objects | 6 Types | 2 Pages | 16 Events | 9 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 9 |
-| **Generated** | 🕐 2025-11-13T15:02:54.901Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.021Z |
 
 ---
 
@@ -59,16 +59,21 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 3 |
-| 🔹 subform | 1 |
-| ☑️ checkbox | 2 |
-| 📝 input | 1 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | ToolEditorListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | ToolEditor_SearchText | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/SearchPicker.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedProducts | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box.4dm) |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedTools | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box1.4dm) |
+| Input | 📝 input | ✅ | ✅ | ❌ | FloatingSymbol | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Input.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button2.4dm) |
 
 ---
 

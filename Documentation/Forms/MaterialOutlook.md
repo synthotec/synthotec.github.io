@@ -3,7 +3,7 @@ layout : default
 title : MaterialOutlook
 parent : Forms
 ---
-# MaterialOutlook
+# MaterialOutlook [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialOutlook)
 
 📊 **Overview:** 13 Objects | 6 Types | 2 Pages | 16 Events | 8 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:55.058Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.208Z |
 
 ---
 
@@ -58,16 +58,25 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 13
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 📋 listbox | 4 |
-| 🔘 button | 2 |
-| 📄 text | 1 |
-| 📝 input | 2 |
-| ☑️ checkbox | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | StockDates | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| List Box | 📋 listbox | ✅ | ❌ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box1.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button.4dm) |
+| List Box2 | 📋 listbox | ✅ | ❌ | ❌ | - | - |
+| List Box3 | 📋 listbox | ✅ | ❌ | ❌ | - | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable | 📝 input | ✅ | ✅ | ❌ | tMat | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | tDate | - |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | HideMat | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button1.4dm) |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | DeductSafety | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box1.4dm) |
+| Check Box2 | ☑️ checkbox | ✅ | ✅ | ❌ | UseAllA3HG5 | [Check Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box2.4dm) |
 
 ---
 

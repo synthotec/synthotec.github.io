@@ -3,7 +3,7 @@ layout : default
 title : Pricing
 parent : Forms
 ---
-# Pricing
+# Pricing [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Pricing)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 2 Events | 7 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T15:02:55.097Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.255Z |
 
 ---
 
@@ -57,14 +57,18 @@ This form handles **2** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 📥 dropdown | 1 |
-| 📄 text | 2 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | Pricing_CustomerArray | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button1.4dm) |
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : ProcurementProgramImporter
 parent : Forms
 ---
-# ProcurementProgramImporter
+# ProcurementProgramImporter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ProcurementProgramImporter)
 
 📊 **Overview:** 6 Objects | 3 Types | 2 Pages | 15 Events | 7 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T15:02:55.100Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.263Z |
 
 ---
 
@@ -59,13 +59,18 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔘 button | 3 |
-| ☑️ checkbox | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.VisibleLines | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/List%20Box.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Button.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideActioned | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box.4dm) |
+| ReloadButton | 🔘 button | ✅ | ✅ | ❌ | - | [ReloadButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ReloadButton.4dm) |
+| ProcessButton | 🔘 button | ✅ | ✅ | ❌ | - | [ProcessButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ProcessButton.4dm) |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideForecasts | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box1.4dm) |
 
 ---
 

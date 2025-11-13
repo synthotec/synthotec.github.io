@@ -3,7 +3,7 @@ layout : default
 title : %2AHSL_Picker
 parent : Forms
 ---
-# %2AHSL_Picker
+# %2AHSL_Picker [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/%2AHSL_Picker)
 
 📊 **Overview:** 9 Objects | 4 Types | 2 Pages | 15 Events | 8 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:54.875Z |
+| **Generated** | 🕐 2025-11-13T16:07:02.995Z |
 
 ---
 
@@ -59,14 +59,20 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 9
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| ⬜ rectangle | 1 |
-| 📝 input | 4 |
-| 🔹 ruler | 3 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Hue | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input.4dm) |
+| Input1 | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Saturation | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input1.4dm) |
+| Input2 | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Lightness | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input2.4dm) |
+| Ruler | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Hue | [Ruler.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler.4dm) |
+| Ruler1 | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Saturation | [Ruler1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler1.4dm) |
+| Ruler2 | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Lightness | [Ruler2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler2.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Button.4dm) |
+| Form.HexCode | 📝 input | ✅ | ✅ | ❌ | Form:C1466.HexCode | [Form.HexCode.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Form.HexCode.4dm) |
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : CycleHistory
 parent : Forms
 ---
-# CycleHistory
+# CycleHistory [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CycleHistory)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 16 Events | 4 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T15:02:55.005Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.135Z |
 
 ---
 
@@ -57,14 +57,18 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 2 |
-| 📝 input | 1 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box1.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | "CYCLE TIME HISTORY FOR WORKS ORDER "+String:C10(<>HistoryWO)+" FOR "+vDateRange | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button1.4dm) |
 
 ---
 

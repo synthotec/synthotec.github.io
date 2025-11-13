@@ -3,7 +3,7 @@ layout : default
 title : AddWorkRequest
 parent : Forms
 ---
-# AddWorkRequest
+# AddWorkRequest [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/AddWorkRequest)
 
 📊 **Overview:** 17 Objects | 5 Types | 2 Pages | 16 Events | 7 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T15:02:54.905Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.062Z |
 
 ---
 
@@ -58,15 +58,29 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 17
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 6 |
-| 📝 input | 4 |
-| 🔘 button | 2 |
-| 📥 dropdown | 4 |
-| 🔹 subform | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | tRemain | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Button1.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | Fault | - |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vDesc | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Variable.4dm) |
+| Popup Drop down List2 | 📥 dropdown | ✅ | ✅ | ❌ | AddWorkRequest_PriorityArray | - |
+| Field | 📝 input | ✅ | ✅ | ❌ | vComment | [Field.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Field.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Button.4dm) |
+| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List3 | 📥 dropdown | ✅ | ✅ | ❌ | Category | [Popup Drop down List3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Popup%20Drop%20down%20List3.4dm) |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | vUnit | - |
+| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | AddWorkRequest_ToolArray | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | AddWorkRequest_ToolSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/SearchPicker.4dm) |
 
 ---
 

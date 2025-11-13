@@ -3,7 +3,7 @@ layout : default
 title : Errors
 parent : Forms
 ---
-# Errors
+# Errors [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Errors)
 
 📊 **Overview:** 6 Objects | 2 Types | 2 Pages | 15 Events | 2 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.023Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.156Z |
 
 ---
 
@@ -59,12 +59,18 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 6
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 4 |
-| 📝 input | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Errors/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailSelection | - |
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.Stack | - |
+| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.CallChain | - |
+| Input | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.CurrentStackTrace; *) | - |
+| Input1 | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.ErrorDetailEntity.ErrorObject.DebugInfo || ""; *) | - |
 
 ---
 

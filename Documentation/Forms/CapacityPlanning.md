@@ -3,7 +3,7 @@ layout : default
 title : CapacityPlanning
 parent : Forms
 ---
-# CapacityPlanning
+# CapacityPlanning [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CapacityPlanning)
 
 📊 **Overview:** 24 Objects | 6 Types | 2 Pages | 16 Events | 20 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 20 |
-| **Generated** | 🕐 2025-11-13T15:02:54.975Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.093Z |
 
 ---
 
@@ -58,16 +58,36 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 24
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 4 |
-| ☑️ checkbox | 4 |
-| 🔘 button | 10 |
-| 📝 input | 2 |
-| 📥 dropdown | 2 |
-| 📄 text | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/List%20Box.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | $ListBox1 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/List%20Box1.4dm) |
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | $ListBox2 | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/List%20Box2.4dm) |
+| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | $ListBox3 | [List Box3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/List%20Box3.4dm) |
+| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | allMC | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Check%20Box.4dm) |
+| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | allPALLET | - |
+| Check Box2 | ☑️ checkbox | ✅ | ✅ | ❌ | allMANDREL | - |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button1.4dm) |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Variable2.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Variable.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button2.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button3.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button.4dm) |
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | vProfile | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button4.4dm) |
+| Button5 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button5.4dm) |
+| Button6 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button6.4dm) |
+| Button7 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button7.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button7.4dm) |
+| Button8 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button8.4dm) |
+| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | vSnapDates | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button9 | 🔘 button | ✅ | ✅ | ❌ | Button9 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button9.4dm) |
+| Check Box3 | ☑️ checkbox | ✅ | ✅ | ❌ | CapacityPlanning_HideZero | [Check Box3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Check%20Box3.4dm) |
 
 ---
 

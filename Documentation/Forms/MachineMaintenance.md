@@ -3,7 +3,7 @@ layout : default
 title : MachineMaintenance
 parent : Forms
 ---
-# MachineMaintenance
+# MachineMaintenance [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MachineMaintenance)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 15 Events | 6 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T15:02:55.048Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.187Z |
 
 ---
 
@@ -59,14 +59,27 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 10
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 4 |
-| 🔘 button | 3 |
-| 📝 input | 1 |
-| 📄 text | 2 |
+#### Page 0 (Visible on All Pages)
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaintenanceRequirementsListBox | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MaintenanceRequirementsCollection | [MaintenanceRequirementsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/MaintenanceRequirementsListBox.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceLogSelection | - |
+| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceActionsSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/List%20Box2.4dm) |
+| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceRequirementsSelection.orderBy("Machine ASC") | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button1.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button2.4dm) |
+| Input | 📝 input | ✅ | ✅ | ❌ | "<span>MC "+String:C10(Form:C1466.CurrentMaintenanceRequirementsObject.Machine)+" Maintenance Log : <span style=\"font-weight:bold\">"+Form:C1466.CurrentMaintenanceRequirementsObject.Action+"</span></span>" | - |
+
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaintenanceLogText | 📄 text | ✅ | ✅ | ❌ | - | - |
+| MachineRequirementsText | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

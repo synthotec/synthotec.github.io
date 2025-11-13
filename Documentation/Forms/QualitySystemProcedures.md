@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemProcedures
 parent : Forms
 ---
-# QualitySystemProcedures
+# QualitySystemProcedures [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemProcedures)
 
 📊 **Overview:** 11 Objects | 6 Types | 2 Pages | 15 Events | 11 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T15:02:55.127Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.293Z |
 
 ---
 
@@ -59,16 +59,23 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 11
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 2 |
-| 📋 listbox | 1 |
-| 🔹 subform | 1 |
-| 🔘 button | 5 |
-| 📝 input | 1 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | QualitySystem_SystemTypes | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | QualitySystem_Products | [Popup Dropdown List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/Popup%20Dropdown%20List1.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/List%20Box.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | QualitySystem_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/SearchPicker.4dm) |
+| CopyOneButton | 🔘 button | ✅ | ✅ | ❌ | - | [CopyOneButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/CopyOneButton.4dm) |
+| CopyAllButton | 🔘 button | ✅ | ✅ | ❌ | - | [CopyAllButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/CopyAllButton.4dm) |
+| PasteButton | 🔘 button | ✅ | ✅ | ❌ | PasteButton | [PasteButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/PasteButton.4dm) |
+| DeleteButton | 🔘 button | ✅ | ✅ | ❌ | DeleteButton | [DeleteButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/DeleteButton.4dm) |
+| AddButton | 🔘 button | ✅ | ✅ | ❌ | AddButton | [AddButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/ObjectMethods/AddButton.4dm) |
+| Input | 📝 input | ✅ | ✅ | ❌ | GlobalInformationText | - |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

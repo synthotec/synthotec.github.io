@@ -3,7 +3,7 @@ layout : default
 title : StockMovements
 parent : Forms
 ---
-# StockMovements
+# StockMovements [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StockMovements)
 
 📊 **Overview:** 4 Objects | 3 Types | 2 Pages | 16 Events | 3 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:55.168Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.339Z |
 
 ---
 
@@ -57,13 +57,16 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 📝 input | 2 |
-| 📄 text | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/List%20Box.4dm) |
+| Variable | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable.4dm) |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable1.4dm) |
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

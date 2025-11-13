@@ -3,7 +3,7 @@ layout : default
 title : ChangeUser
 parent : Forms
 ---
-# ChangeUser
+# ChangeUser [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeUser)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 15 Events | 3 Object Methods
 
@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T15:02:54.983Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.101Z |
 
 ---
 
@@ -59,12 +59,16 @@ This form handles **15** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 2 |
-| 🔘 button | 2 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | ChangeUser_PromptText | - |
+| Input1 | 📝 input | ✅ | ✅ | ✅ | ChangeUser_Input | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Input1.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | ChangeUser_Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | EmailButton | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button1.4dm) |
 
 ---
 

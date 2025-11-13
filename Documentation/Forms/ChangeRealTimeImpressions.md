@@ -3,7 +3,7 @@ layout : default
 title : ChangeRealTimeImpressions
 parent : Forms
 ---
-# ChangeRealTimeImpressions
+# ChangeRealTimeImpressions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeRealTimeImpressions)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 
@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T15:02:54.981Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.100Z |
 
 ---
 
@@ -57,12 +57,16 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📝 input | 3 |
-| 🔘 button | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeRealTimeImpressions/ObjectMethods/Button.4dm) |
+| Variable1 | 📝 input | ✅ | ✅ | ❌ | vOldImps | - |
+| Variable2 | 📝 input | ✅ | ✅ | ❌ | vNewImps | - |
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : EquipmentStock
 parent : Forms
 ---
-# EquipmentStock
+# EquipmentStock [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EquipmentStock)
 
 📊 **Overview:** 3 Objects | 3 Types | 2 Pages | 16 Events | 2 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.022Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.154Z |
 
 ---
 
@@ -58,13 +58,15 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 3
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📥 dropdown | 1 |
-| 🔘 button | 1 |
-| 📋 listbox | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | vType | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Button.4dm) |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 
 ---
 

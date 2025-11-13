@@ -3,7 +3,7 @@ layout : default
 title : NSKPalletIDs
 parent : Forms
 ---
-# NSKPalletIDs
+# NSKPalletIDs [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NSKPalletIDs)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 2 Object Methods
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T15:02:55.067Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.221Z |
 
 ---
 
@@ -58,12 +58,14 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 2
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 1 |
-| 🔹 subform | 1 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | List Box1 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletIDs/ObjectMethods/List%20Box1.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletIDs/ObjectMethods/SearchPicker.4dm) |
 
 ---
 

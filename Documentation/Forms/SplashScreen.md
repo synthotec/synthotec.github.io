@@ -3,7 +3,7 @@ layout : default
 title : SplashScreen
 parent : Forms
 ---
-# SplashScreen
+# SplashScreen [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SplashScreen)
 
 📊 **Overview:** 4 Objects | 2 Types | 3 Pages | 16 Events
 
@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T15:02:55.157Z |
+| **Generated** | 🕐 2025-11-13T16:07:03.329Z |
 
 ---
 
@@ -58,12 +58,21 @@ This form handles **16** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 4
+### Interactive Objects by Page
 
-| Object Type | Count |
-|:------------|------:|
-| 📄 text | 1 |
-| 📝 input | 3 |
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Country | 📝 input | ✅ | ✅ | ❌ | Uppercase:C13(ds:C1482.Settings.global("Location").getValue("United Kingdom")) | - |
+| Input2 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.VersionInfo | - |
+
+#### Page 2
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | 📝 input | ✅ | ✅ | ❌ | SplashScreen_SplashImage | - |
 
 ---
 
