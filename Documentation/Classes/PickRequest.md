@@ -9,38 +9,28 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.205Z*
+🕐 *Last updated: 2025-11-13T23:49:47.099Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (11):**
-
-- [create](#create) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
-- [newUsingEntry](#newusingentry) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
-- [getOpenRequests](#getopenrequests) → `cs.PickRequestSelection` 🖥️
-- [restInitialPage](#restinitialpage) (1 param) → `Object`
-- [restPickPage](#restpickpage) (1 param) → `Object`
-- [restUnpickStock](#restunpickstock) (1 param) → `Object`
-- [restViewStock](#restviewstock) (1 param) → `Object`
-- [restScanStock](#restscanstock) (1 param) → `Object`
-- [restSelectOrderToPickAgainst](#restselectordertopickagainst) (1 param) → `Object`
-- [restPickAgainstOrder](#restpickagainstorder) (1 param) → `Object`
-- [checkForPickedPickRequests](#checkforpickedpickrequests)
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [create](#create) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
+  - [newUsingEntry](#newusingentry) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
+  - [getOpenRequests](#getopenrequests) → `cs.PickRequestSelection` 🖥️
+  - [restInitialPage](#restinitialpage) (1 param) → `Object`
+  - [restPickPage](#restpickpage) (1 param) → `Object`
+  - [restUnpickStock](#restunpickstock) (1 param) → `Object`
+  - [restViewStock](#restviewstock) (1 param) → `Object`
+  - [restScanStock](#restscanstock) (1 param) → `Object`
+  - [restSelectOrderToPickAgainst](#restselectordertopickagainst) (1 param) → `Object`
+  - [restPickAgainstOrder](#restpickagainstorder) (1 param) → `Object`
+  - [checkForPickedPickRequests](#checkforpickedpickrequests)
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### create {#create}
  `[🖥️ local]`

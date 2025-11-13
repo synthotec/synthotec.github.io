@@ -9,29 +9,19 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.614Z*
+🕐 *Last updated: 2025-11-13T23:49:47.484Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
-- [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
+  - [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### global {#global}
  `[🖥️ local]`

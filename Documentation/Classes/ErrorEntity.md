@@ -9,37 +9,24 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.696Z*
+🕐 *Last updated: 2025-11-13T23:49:46.615Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [createGitHubIssue](#creategithubissue)
-
-**🔍 Getters (6):**
-
-- [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) → `cs.UI.ListBoxMeta`
-- [GitHubIssueText](#githubissuetext) → `Text`
-- [GitHubIssueLabel](#githubissuelabel) → `Text`
-- [GitHubIssueTitle](#githubissuetitle) → `Text`
-- [FirstOccurrence](#firstoccurrence) → `Text`
-- [LastOccurrence](#lastoccurrence) → `Text`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [createGitHubIssue](#creategithubissue)
+  - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) → `cs.UI.ListBoxMeta`
+  - [GitHubIssueText](#githubissuetext) → `Text`
+  - [GitHubIssueLabel](#githubissuelabel) → `Text`
+  - [GitHubIssueTitle](#githubissuetitle) → `Text`
+  - [FirstOccurrence](#firstoccurrence) → `Text`
+  - [LastOccurrence](#lastoccurrence) → `Text`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### createGitHubIssue {#creategithubissue}
 
@@ -49,8 +36,6 @@ Function createGitHubIssue
 ```
 
 ---
-
-### 🔍 Getters
 
 #### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
  `[🔍 getter]`

@@ -9,37 +9,24 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.454Z*
+🕐 *Last updated: 2025-11-13T23:49:47.328Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (5):**
-
-- [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
-- [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️
-- [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
-- [_createFragmentedCycles](#_createfragmentedcycles) (2 params) → `cs.RealTimeEntity` 🖥️
-- [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
-
-**🔍 Getters (2):**
-
-- [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) → `Real`
-- [SECONDS_IN_DAY](#seconds_in_day) → `Real`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
+  - [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️
+  - [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
+  - [_createFragmentedCycles](#_createfragmentedcycles) (2 params) → `cs.RealTimeEntity` 🖥️
+  - [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
+  - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) → `Real`
+  - [SECONDS_IN_DAY](#seconds_in_day) → `Real`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### _getNextEvenHourBoundary {#_getnextevenhourboundary}
  `[🖥️ local]`
@@ -138,8 +125,6 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 **Returns:** `cs.RealTimeEntity`
 
 ---
-
-### 🔍 Getters
 
 #### TWO_HOURS_IN_SECONDS {#two_hours_in_seconds}
  `[🔍 getter]`

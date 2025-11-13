@@ -9,28 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.355Z*
+🕐 *Last updated: 2025-11-13T23:49:46.274Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [cancel](#cancel) → `$Cancelled : Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [cancel](#cancel) → `$Cancelled : Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### cancel {#cancel}
 

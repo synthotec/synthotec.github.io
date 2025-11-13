@@ -7,29 +7,18 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:29:28.436Z*
+🕐 *Last updated: 2025-11-13T23:49:47.311Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (6)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (1):**
-
-- [setResult](#setresult) (2 params)
-
-**🔍 Getters (2):**
-
-- [valueType](#valuetype) → `Integer`
-- [booleanResult](#booleanresult) → `Variant`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [setResult](#setresult) (2 params)
+  - [valueType](#valuetype) → `Integer`
+  - [booleanResult](#booleanresult) → `Variant`
 ---
 
 ## 📋 Properties
@@ -43,9 +32,7 @@ parent : Classes
 | `dataClassName` | `Text` | - | - |
 | `QueryEventObject` | `Object` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -62,7 +49,7 @@ Class constructor($QueryEventObject : Object)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### setResult {#setresult}
 
@@ -79,8 +66,6 @@ Function setResult($QueryText : Text; $QueryParameters : Collection)
 | `$QueryParameters` | `Collection` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### valueType {#valuetype}
  `[🔍 getter]`

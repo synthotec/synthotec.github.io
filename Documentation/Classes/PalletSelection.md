@@ -9,28 +9,18 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:29:28.145Z*
+🕐 *Last updated: 2025-11-13T23:49:47.047Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [getAvailable](#getavailable) → `cs.PalletSelection` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [getAvailable](#getavailable) → `cs.PalletSelection` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getAvailable {#getavailable}
  `[🖥️ local]`

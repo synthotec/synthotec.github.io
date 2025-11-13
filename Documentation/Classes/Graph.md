@@ -7,27 +7,18 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.871Z*
+🕐 *Last updated: 2025-11-13T23:49:46.810Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor)
-
-**⚙️ Regular Functions (1):**
-
-- [generate](#generate) → `$Picture : Picture`
-
+- [🏗️ Constructor](#-constructor)
+- [⚙️ Functions](#️-functions)
+  - [generate](#generate) → `$Picture : Picture`
 ---
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -38,7 +29,7 @@ Class constructor
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### generate {#generate}
 

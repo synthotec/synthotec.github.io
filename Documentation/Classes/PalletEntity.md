@@ -9,43 +9,30 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.143Z*
+🕐 *Last updated: 2025-11-13T23:49:47.045Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (9):**
-
-- [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
-- [getWorksOrderCollection](#getworksordercollection) → `Collection`
-- [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
-- [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
-- [generateQR](#generateqr) → `Picture` 🖥️
-- [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-- [transfer](#transfer) (1 param) → `Boolean` 🖥️
-
-**🔍 Getters (4):**
-
-- [NetWeightKg](#netweightkg) → `Real`
-- [GrossWeightKg](#grossweightkg) → `Real`
-- [QRObject](#qrobject) → `Object`
-- [HasMigrationID](#hasmigrationid) → `Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
+  - [getWorksOrderCollection](#getworksordercollection) → `Collection`
+  - [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
+  - [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
+  - [generateQR](#generateqr) → `Picture` 🖥️
+  - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [transfer](#transfer) (1 param) → `Boolean` 🖥️
+  - [NetWeightKg](#netweightkg) → `Real`
+  - [GrossWeightKg](#grossweightkg) → `Real`
+  - [QRObject](#qrobject) → `Object`
+  - [HasMigrationID](#hasmigrationid) → `Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### createPrintJob {#createprintjob}
 
@@ -180,8 +167,6 @@ Function transfer($ToLocation : Integer) -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-### 🔍 Getters
 
 #### NetWeightKg {#netweightkg}
  `[🖥️ local, 🔍 getter]`

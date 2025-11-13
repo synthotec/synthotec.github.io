@@ -9,28 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.786Z*
+🕐 *Last updated: 2025-11-13T23:49:46.710Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🔍 Getters (1):**
-
-- [Consignment](#consignment) → `Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [Consignment](#consignment) → `Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### 🔍 Getters
 
 #### Consignment {#consignment}
  `[🔍 getter]`

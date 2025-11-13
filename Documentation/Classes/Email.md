@@ -11,39 +11,28 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T23:29:27.628Z*
+🕐 *Last updated: 2025-11-13T23:49:46.554Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (2)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (12):**
-
-- [addTo](#addto) (1 param)
-- [addCc](#addcc) (1 param)
-- [addBcc](#addbcc) (1 param)
-- [addPermissionGroup](#addpermissiongroup) (3 params)
-- [addCustomerGroup](#addcustomergroup) (1 param)
-- [setFromAddress](#setfromaddress) (2 params)
-- [setFromCurrentUser](#setfromcurrentuser) → `$Success : Boolean`
-- [setMessageID](#setmessageid) (1 param)
-- [setHtmlBody](#sethtmlbody) (1 param)
-- [setSubject](#setsubject) (1 param)
-- [attachFile](#attachfile) (2 params)
-- [send](#send) → `$EmailSent : Boolean`
-
-### 📚 Examples (1)
-
-- [Sending notification email](#sending-notification-email)
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [addTo](#addto) (1 param)
+  - [addCc](#addcc) (1 param)
+  - [addBcc](#addbcc) (1 param)
+  - [addPermissionGroup](#addpermissiongroup) (3 params)
+  - [addCustomerGroup](#addcustomergroup) (1 param)
+  - [setFromAddress](#setfromaddress) (2 params)
+  - [setFromCurrentUser](#setfromcurrentuser) → `$Success : Boolean`
+  - [setMessageID](#setmessageid) (1 param)
+  - [setHtmlBody](#sethtmlbody) (1 param)
+  - [setSubject](#setsubject) (1 param)
+  - [attachFile](#attachfile) (2 params)
+  - [send](#send) → `$EmailSent : Boolean`
+- [📚 Examples (1)](#-examples)
 ---
 
 ## 📋 Properties
@@ -53,9 +42,7 @@ parent : Classes
 | `EmailObject` | `Object` | - | - |
 | `_PermissionFooterCollection` | `Collection` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -73,7 +60,7 @@ Class constructor($Subject : Text; $HTML_Body : Text)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### addTo {#addto}
 

@@ -7,29 +7,18 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T23:29:28.840Z*
+🕐 *Last updated: 2025-11-13T23:49:47.694Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (3)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (2):**
-
-- [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
-- [displayResultsAlert](#displayresultsalert)
-
-**🔍 Getters (1):**
-
-- [Success](#success) → `Boolean`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
+  - [displayResultsAlert](#displayresultsalert)
+  - [Success](#success) → `Boolean`
 ---
 
 ## 📋 Properties
@@ -40,9 +29,7 @@ parent : Classes
 | `UnitTestResults` | `Collection` | - | - |
 | `FailedTestCount` | `Integer` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -59,7 +46,7 @@ Class constructor($Description : Text)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### evaluate {#evaluate}
 
@@ -87,8 +74,6 @@ Function displayResultsAlert
 ```
 
 ---
-
-### 🔍 Getters
 
 #### Success {#success}
  `[🔍 getter]`

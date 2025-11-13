@@ -9,34 +9,21 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.689Z*
+🕐 *Last updated: 2025-11-13T23:49:47.556Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
-
-**🔍 Getters (3):**
-
-- [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
-- [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
-- [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
+  - [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
+  - [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
+  - [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getDefaultDespatchLocation {#getdefaultdespatchlocation}
  `[🖥️ local]`
@@ -48,8 +35,6 @@ Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
-
-### 🔍 Getters
 
 #### DefaultDespatchLocation {#defaultdespatchlocation}
  `[🖥️ local, 🔍 getter]`

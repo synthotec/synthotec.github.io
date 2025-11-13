@@ -9,59 +9,46 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.295Z*
+🕐 *Last updated: 2025-11-13T23:49:46.207Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (10):**
-
-- [getStatesCollection](#getstatescollection) → `Collection`
-- [ModifyStatus](#modifystatus) 🖥️
-- [AddComment](#addcomment) (2 params) 🖥️
-- [query PartBox](#query partbox) (1 param)
-- [query Despatched](#query despatched) (1 param)
-- [removeFromPallet](#removefrompallet) → `$Success : Boolean`
-- [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
-- [generateQR](#generateqr) → `Picture` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-
-**🔍 Getters (19):**
-
-- [NetWeightKg](#netweightkg) → `Real`
-- [GrossWeightKg](#grossweightkg) → `Real`
-- [CurrentStatus](#currentstatus) → `Object`
-- [StatusText](#statustext) → `Text`
-- [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) → `Text`
-- [BoxNumberColor](#boxnumbercolor) → `Integer`
-- [AdviceNote](#advicenote) → `Integer`
-- [BoxQuantityDisplay](#boxquantitydisplay) → `Text`
-- [PackedByDisplay](#packedbydisplay) → `Text`
-- [BoxNumberDisplay](#boxnumberdisplay) → `Text`
-- [RouteCardColor](#routecardcolor) → `Integer`
-- [PartBox](#partbox) → `Boolean`
-- [Despatched](#despatched) → `Boolean`
-- [linkedBoxesQuantity](#linkedboxesquantity) → `Integer`
-- [totalBoxQuantity](#totalboxquantity) → `Integer`
-- [partBoxSkipped](#partboxskipped) → `Boolean`
-- [toolIsRunning](#toolisrunning) → `Boolean`
-- [HasMigrationID](#hasmigrationid) → `Boolean`
-- [TestProduct](#testproduct) → `cs.ProductEntity`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getStatesCollection](#getstatescollection) → `Collection`
+  - [ModifyStatus](#modifystatus) 🖥️
+  - [AddComment](#addcomment) (2 params) 🖥️
+  - [query PartBox](#query partbox) (1 param)
+  - [query Despatched](#query despatched) (1 param)
+  - [removeFromPallet](#removefrompallet) → `$Success : Boolean`
+  - [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
+  - [generateQR](#generateqr) → `Picture` 🖥️
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [NetWeightKg](#netweightkg) → `Real`
+  - [GrossWeightKg](#grossweightkg) → `Real`
+  - [CurrentStatus](#currentstatus) → `Object`
+  - [StatusText](#statustext) → `Text`
+  - [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) → `Text`
+  - [BoxNumberColor](#boxnumbercolor) → `Integer`
+  - [AdviceNote](#advicenote) → `Integer`
+  - [BoxQuantityDisplay](#boxquantitydisplay) → `Text`
+  - [PackedByDisplay](#packedbydisplay) → `Text`
+  - [BoxNumberDisplay](#boxnumberdisplay) → `Text`
+  - [RouteCardColor](#routecardcolor) → `Integer`
+  - [PartBox](#partbox) → `Boolean`
+  - [Despatched](#despatched) → `Boolean`
+  - [linkedBoxesQuantity](#linkedboxesquantity) → `Integer`
+  - [totalBoxQuantity](#totalboxquantity) → `Integer`
+  - [partBoxSkipped](#partboxskipped) → `Boolean`
+  - [toolIsRunning](#toolisrunning) → `Boolean`
+  - [HasMigrationID](#hasmigrationid) → `Boolean`
+  - [TestProduct](#testproduct) → `cs.ProductEntity`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getStatesCollection {#getstatescollection}
 
@@ -193,8 +180,6 @@ Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
 | `$RemoteEntity` | `cs.BoxLabelsEntity` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### NetWeightKg {#netweightkg}
  `[🖥️ local, 🔍 getter]`

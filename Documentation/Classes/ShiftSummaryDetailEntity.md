@@ -9,35 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.630Z*
+🕐 *Last updated: 2025-11-13T23:49:47.498Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
-- [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
-
-**🔍 Getters (3):**
-
-- [Status](#status) → `Integer`
-- [StatusText](#statustext) → `Text`
-- [StatusColor](#statuscolor) → `Integer`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
+  - [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
+  - [Status](#status) → `Integer`
+  - [StatusText](#statustext) → `Text`
+  - [StatusColor](#statuscolor) → `Integer`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### fillDowntimeSincePrevious {#filldowntimesinceprevious}
  `[🖥️ local]`
@@ -62,8 +49,6 @@ Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachines
 | `$RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### Status {#status}
  `[🖥️ local, 🔍 getter]`

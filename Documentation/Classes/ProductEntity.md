@@ -9,49 +9,33 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.387Z*
+🕐 *Last updated: 2025-11-13T23:49:47.263Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (12):**
-
-- [query OurPartName](#query ourpartname) (1 param) 🖥️
-- [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
-- [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
-- [getPreviousPickRequestQuantity](#getpreviouspickrequestquantity) (2 params) → `Integer` 🖥️
-- [getFinishedStock](#getfinishedstock) → `Integer` 🖥️
-- [getQuarantinedStock](#getquarantinedstock) → `Integer` 🖥️
-- [getWIP](#getwip) → `Integer` 🖥️
-- [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
-- [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
-- [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-
-**🔍 Getters (3):**
-
-- [Emoji](#emoji) → `Text`
-- [MainToolRegrind](#maintoolregrind) → `Boolean`
-- [HasMigrationID](#hasmigrationid) → `Boolean`
-
-**✏️ Setters (1):**
-
-- [MainToolRegrind](#maintoolregrind) (1 param)
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [query OurPartName](#query ourpartname) (1 param) 🖥️
+  - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
+  - [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
+  - [getPreviousPickRequestQuantity](#getpreviouspickrequestquantity) (2 params) → `Integer` 🖥️
+  - [getFinishedStock](#getfinishedstock) → `Integer` 🖥️
+  - [getQuarantinedStock](#getquarantinedstock) → `Integer` 🖥️
+  - [getWIP](#getwip) → `Integer` 🖥️
+  - [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
+  - [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
+  - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [Emoji](#emoji) → `Text`
+  - [MainToolRegrind](#maintoolregrind) → `Boolean`
+  - [HasMigrationID](#hasmigrationid) → `Boolean`
+  - [MainToolRegrind](#maintoolregrind) (1 param)
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### query OurPartName {#query ourpartname}
  `[🖥️ local]`
@@ -227,8 +211,6 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 
 ---
 
-### 🔍 Getters
-
 #### Emoji {#emoji}
  `[🖥️ local, 🔍 getter]`
 
@@ -261,8 +243,6 @@ Function HasMigrationID -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-### ✏️ Setters
 
 #### MainToolRegrind {#maintoolregrind}
  `[🖥️ local, ✏️ setter]`

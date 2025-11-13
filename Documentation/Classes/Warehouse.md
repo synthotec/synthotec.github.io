@@ -9,35 +9,25 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.868Z*
+🕐 *Last updated: 2025-11-13T23:49:47.718Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (8):**
-
-- [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
-- [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
-- [restTest](#resttest) (1 param) → `Object`
-- [restStartPage](#reststartpage) (1 param) → `Object`
-- [restInitialScan](#restinitialscan) (1 param) → `Object`
-- [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
-- [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
-- [restScanTest](#restscantest) (1 param) → `Object`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
+  - [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
+  - [restTest](#resttest) (1 param) → `Object`
+  - [restStartPage](#reststartpage) (1 param) → `Object`
+  - [restInitialScan](#restinitialscan) (1 param) → `Object`
+  - [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
+  - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
+  - [restScanTest](#restscantest) (1 param) → `Object`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### restExecutePromptFormula {#restexecutepromptformula}
 

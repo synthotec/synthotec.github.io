@@ -9,31 +9,21 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:27.690Z*
+🕐 *Last updated: 2025-11-13T23:49:46.609Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (4):**
-
-- [fillGitHubIssues](#fillgithubissues)
-- [setDebugInfo](#setdebuginfo) (1 param) 🖥️
-- [notify](#notify)
-- [record](#record) 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [fillGitHubIssues](#fillgithubissues)
+  - [setDebugInfo](#setdebuginfo) (1 param) 🖥️
+  - [notify](#notify)
+  - [record](#record) 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### fillGitHubIssues {#fillgithubissues}
 

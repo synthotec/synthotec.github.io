@@ -9,34 +9,21 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.947Z*
+🕐 *Last updated: 2025-11-13T23:49:46.877Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (3):**
-
-- [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-
-**🔍 Getters (1):**
-
-- [HasMigrationID](#hasmigrationid) → `Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [HasMigrationID](#hasmigrationid) → `Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getMaterialsUsingThis {#getmaterialsusingthis}
 
@@ -82,8 +69,6 @@ Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
 | `$RemoteEntity` | `cs.MaterialEntity` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### HasMigrationID {#hasmigrationid}
  `[🖥️ local, 🔍 getter]`

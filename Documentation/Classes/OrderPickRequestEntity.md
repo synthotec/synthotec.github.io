@@ -9,44 +9,28 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.015Z*
+🕐 *Last updated: 2025-11-13T23:49:46.934Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [query Parts](#query parts) (1 param) 🖥️
-- [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
-
-**🔍 Getters (6):**
-
-- [QuantityPicked](#quantitypicked) → `Integer`
-- [QuantityToPick](#quantitytopick) → `Integer`
-- [BoxesPerPallet](#boxesperpallet) → `Integer`
-- [Pallets](#pallets) → `Real`
-- [Boxes](#boxes) → `Real`
-- [Parts](#parts) → `Integer`
-
-**✏️ Setters (3):**
-
-- [Pallets](#pallets) (1 param)
-- [Boxes](#boxes) (1 param)
-- [Parts](#parts) (1 param)
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [query Parts](#query parts) (1 param) 🖥️
+  - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
+  - [QuantityPicked](#quantitypicked) → `Integer`
+  - [QuantityToPick](#quantitytopick) → `Integer`
+  - [BoxesPerPallet](#boxesperpallet) → `Integer`
+  - [Pallets](#pallets) → `Real`
+  - [Boxes](#boxes) → `Real`
+  - [Parts](#parts) → `Integer`
+  - [Pallets](#pallets) (1 param)
+  - [Boxes](#boxes) (1 param)
+  - [Parts](#parts) (1 param)
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### query Parts {#query parts}
  `[🖥️ local]`
@@ -73,8 +57,6 @@ Function getPickedStockListboxCollection -> Collection
 **Returns:** `Collection`
 
 ---
-
-### 🔍 Getters
 
 #### QuantityPicked {#quantitypicked}
  `[🖥️ local, 🔍 getter]`
@@ -147,8 +129,6 @@ MARK: Parts
 **Returns:** `Integer`
 
 ---
-
-### ✏️ Setters
 
 #### Pallets {#pallets}
  `[🖥️ local, ✏️ setter]`

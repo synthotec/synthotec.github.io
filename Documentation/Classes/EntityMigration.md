@@ -11,43 +11,32 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T23:29:27.660Z*
+🕐 *Last updated: 2025-11-13T23:49:46.582Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (6)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (10):**
-
-- [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
-- [_functionsExistChecks](#_functionsexistchecks)
-- [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
-- [link](#link) (2 params) → `$RemoteEntity : 4D.Entity`
-- [get](#get) (3 params) → `$RemoteEntity : 4D.Entity`
-- [LinkDisplayPropertyValue](#linkdisplaypropertyvalue) (1 param) → `Variant`
-- [updateLoading](#updateloading) (2 params)
-- [startTransactions](#starttransactions)
-- [validateTransactions](#validatetransactions)
-- [cancelTransactions](#canceltransactions)
-
-**🔍 Getters (7):**
-
-- [NewEntityPropertyFormulas](#newentitypropertyformulas) → `Collection`
-- [LinkDisplayProperty](#linkdisplayproperty) → `Text`
-- [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) → `Text`
-- [LinkingEnabled](#linkingenabled) → `Boolean`
-- [_MigrationSettings](#_migrationsettings) → `Object`
-- [DataClassName](#dataclassname) → `Text`
-- [MigrationPropertyExists](#migrationpropertyexists) → `Boolean`
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
+  - [_functionsExistChecks](#_functionsexistchecks)
+  - [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
+  - [link](#link) (2 params) → `$RemoteEntity : 4D.Entity`
+  - [get](#get) (3 params) → `$RemoteEntity : 4D.Entity`
+  - [LinkDisplayPropertyValue](#linkdisplaypropertyvalue) (1 param) → `Variant`
+  - [updateLoading](#updateloading) (2 params)
+  - [startTransactions](#starttransactions)
+  - [validateTransactions](#validatetransactions)
+  - [cancelTransactions](#canceltransactions)
+  - [NewEntityPropertyFormulas](#newentitypropertyformulas) → `Collection`
+  - [LinkDisplayProperty](#linkdisplayproperty) → `Text`
+  - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) → `Text`
+  - [LinkingEnabled](#linkingenabled) → `Boolean`
+  - [_MigrationSettings](#_migrationsettings) → `Object`
+  - [DataClassName](#dataclassname) → `Text`
+  - [MigrationPropertyExists](#migrationpropertyexists) → `Boolean`
 ---
 
 ## 📋 Properties
@@ -61,9 +50,7 @@ parent : Classes
 | `LinkRemoteSelection` | `4D.EntitySelection` | - | Remote entities available for linking |
 | `Loading` | `cs.Loading` | - | Loading indicator for migration progress |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -83,7 +70,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### sync {#sync}
 
@@ -246,8 +233,6 @@ Function cancelTransactions
 Rollback transactions on both local and remote datastores
 
 ---
-
-### 🔍 Getters
 
 #### NewEntityPropertyFormulas {#newentitypropertyformulas}
  `[🔍 getter]`

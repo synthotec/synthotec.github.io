@@ -7,25 +7,17 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:28.610Z*
+🕐 *Last updated: 2025-11-13T23:49:47.479Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (2)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (2):**
-
-- [displayAlert](#displayalert) (2 params)
-- [unlock](#unlock)
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [displayAlert](#displayalert) (2 params)
+  - [unlock](#unlock)
 ---
 
 ## 📋 Properties
@@ -35,9 +27,7 @@ parent : Classes
 | `LockedEntityCollection; FailedLockObjectCollection` | `Collection` | - | - |
 | `Success` | `Boolean` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -55,7 +45,7 @@ Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Bool
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### displayAlert {#displayalert}
 

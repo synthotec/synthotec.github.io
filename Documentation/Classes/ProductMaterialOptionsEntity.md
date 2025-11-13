@@ -9,33 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.394Z*
+🕐 *Last updated: 2025-11-13T23:49:47.268Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-
-**🔍 Getters (1):**
-
-- [Default](#default) → `Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [Default](#default) → `Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getMigrationRules {#getmigrationrules}
  `[🖥️ local]`
@@ -68,8 +55,6 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity
 | `$RemoteEntity` | `cs.ProductMaterialOptionsEntity` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### Default {#default}
  `[🖥️ local, 🔍 getter]`

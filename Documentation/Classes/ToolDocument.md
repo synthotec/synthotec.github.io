@@ -9,28 +9,18 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.763Z*
+🕐 *Last updated: 2025-11-13T23:49:47.629Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [newUsingEntry](#newusingentry) (1 param) → `$ToolDocumentEntity : cs.ToolDocumentEntity` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [newUsingEntry](#newusingentry) (1 param) → `$ToolDocumentEntity : cs.ToolDocumentEntity` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### newUsingEntry {#newusingentry}
  `[🖥️ local]`

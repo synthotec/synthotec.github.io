@@ -9,33 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.633Z*
+🕐 *Last updated: 2025-11-13T23:49:47.502Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
-
-**🔍 Getters (2):**
-
-- [ShiftSymbol](#shiftsymbol) → `Text`
-- [ShiftColor](#shiftcolor) → `Integer`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
+  - [ShiftSymbol](#shiftsymbol) → `Text`
+  - [ShiftColor](#shiftcolor) → `Integer`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getPreviousShiftSummaryEntity {#getpreviousshiftsummaryentity}
  `[🖥️ local]`
@@ -47,8 +34,6 @@ Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
 **Returns:** `cs.ShiftSummaryEntity`
 
 ---
-
-### 🔍 Getters
 
 #### ShiftSymbol {#shiftsymbol}
  `[🖥️ local, 🔍 getter]`

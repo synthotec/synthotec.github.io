@@ -9,29 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.156Z*
+🕐 *Last updated: 2025-11-13T23:49:47.055Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `$StaffPermissionsEntity : cs.StaffPermissionsEntity` 🖥️
-- [displayWarning](#displaywarning) (1 param) 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `$StaffPermissionsEntity : cs.StaffPermissionsEntity` 🖥️
+  - [displayWarning](#displaywarning) (1 param) 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getStaffPermissionsEntity {#getstaffpermissionsentity}
  `[🖥️ local]`

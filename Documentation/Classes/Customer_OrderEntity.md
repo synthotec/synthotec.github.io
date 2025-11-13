@@ -9,49 +9,33 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.405Z*
+🕐 *Last updated: 2025-11-13T23:49:46.335Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (9):**
-
-- [createCofC](#createcofc) (3 params) → `$CofCEntity : cs.CofCEntity` 🖥️
-- [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `$AvailableForPickRequest : Integer` 🖥️
-- [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `$OrderPickRequestEntity : cs.OrderPickRequestEntity` 🖥️
-- [getPickRequestedQuantity](#getpickrequestedquantity) (1 param) → `Integer` 🖥️
-- [getPickedQuantity](#getpickedquantity) (1 param) → `Integer` 🖥️
-- [getPickedQuantitiesColor](#getpickedquantitiescolor) → `Integer` 🖥️
-- [getPickedQuantitiesText](#getpickedquantitiestext) (1 param) → `Text` 🖥️
-- [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
-- [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
-
-**🔍 Getters (6):**
-
-- [DespatchDateTime](#despatchdatetime) → `cs.System.DateTime`
-- [DeliveryDateTime](#deliverydatetime) → `cs.System.DateTime`
-- [DespatchDate](#despatchdate) → `Date`
-- [DeliveryDate](#deliverydate) → `Date`
-- [OutstandingToDeliver](#outstandingtodeliver) → `Integer`
-- [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
-
-**✏️ Setters (1):**
-
-- [OutstandingToDeliver](#outstandingtodeliver) (1 param)
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [createCofC](#createcofc) (3 params) → `$CofCEntity : cs.CofCEntity` 🖥️
+  - [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `$AvailableForPickRequest : Integer` 🖥️
+  - [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `$OrderPickRequestEntity : cs.OrderPickRequestEntity` 🖥️
+  - [getPickRequestedQuantity](#getpickrequestedquantity) (1 param) → `Integer` 🖥️
+  - [getPickedQuantity](#getpickedquantity) (1 param) → `Integer` 🖥️
+  - [getPickedQuantitiesColor](#getpickedquantitiescolor) → `Integer` 🖥️
+  - [getPickedQuantitiesText](#getpickedquantitiestext) (1 param) → `Text` 🖥️
+  - [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
+  - [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
+  - [DespatchDateTime](#despatchdatetime) → `cs.System.DateTime`
+  - [DeliveryDateTime](#deliverydatetime) → `cs.System.DateTime`
+  - [DespatchDate](#despatchdate) → `Date`
+  - [DeliveryDate](#deliverydate) → `Date`
+  - [OutstandingToDeliver](#outstandingtodeliver) → `Integer`
+  - [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
+  - [OutstandingToDeliver](#outstandingtodeliver) (1 param)
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### createCofC {#createcofc}
  `[🖥️ local]`
@@ -196,8 +180,6 @@ Function getPickRequestQuantitiesColor -> Integer
 
 ---
 
-### 🔍 Getters
-
 #### DespatchDateTime {#despatchdatetime}
  `[🖥️ local, 🔍 getter]`
 
@@ -263,8 +245,6 @@ Function OutstandingToPickRequest -> Integer
 **Returns:** `Integer`
 
 ---
-
-### ✏️ Setters
 
 #### OutstandingToDeliver {#outstandingtodeliver}
  `[🖥️ local, ✏️ setter]`

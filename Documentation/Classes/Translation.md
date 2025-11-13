@@ -9,36 +9,23 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.831Z*
+🕐 *Last updated: 2025-11-13T23:49:47.689Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (4):**
-
-- [pushProcess](#pushprocess) (1 param) 🖥️
-- [popProcess](#popprocess) 🖥️
-- [translate](#translate) (2 params) → `Text` 🖥️
-- [translateFormObjects](#translateformobjects) (1 param) 🖥️
-
-**🔍 Getters (2):**
-
-- [CurrentProcess](#currentprocess) → `Text`
-- [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [pushProcess](#pushprocess) (1 param) 🖥️
+  - [popProcess](#popprocess) 🖥️
+  - [translate](#translate) (2 params) → `Text` 🖥️
+  - [translateFormObjects](#translateformobjects) (1 param) 🖥️
+  - [CurrentProcess](#currentprocess) → `Text`
+  - [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### pushProcess {#pushprocess}
  `[🖥️ local]`
@@ -96,8 +83,6 @@ Function translateFormObjects($TranslationProcess : Text)
 | `$TranslationProcess` | `Text` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### CurrentProcess {#currentprocess}
  `[🖥️ local, 🔍 getter]`

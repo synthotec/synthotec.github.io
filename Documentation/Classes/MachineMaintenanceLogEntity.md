@@ -9,29 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.937Z*
+🕐 *Last updated: 2025-11-13T23:49:46.868Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🔍 Getters (2):**
-
-- [TimeStamp](#timestamp) → `Text`
-- [TimeStampWithTab](#timestampwithtab) → `Text`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [TimeStamp](#timestamp) → `Text`
+  - [TimeStampWithTab](#timestampwithtab) → `Text`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### 🔍 Getters
 
 #### TimeStamp {#timestamp}
  `[🖥️ local, 🔍 getter]`

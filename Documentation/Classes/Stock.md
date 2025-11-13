@@ -7,43 +7,34 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:28.685Z*
+🕐 *Last updated: 2025-11-13T23:49:47.550Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (17):**
-
-- [adjust](#adjust) (5 params) → `$lockObject : Object`
-- [move](#move) (5 params) → `$lockObject : Object`
-- [SetNewStockQuarantineStatus](#setnewstockquarantinestatus) (1 param) → `$lockObject : Object`
-- [Quarantine_Stock](#quarantine_stock) (2 params) → `$lockObject : Object`
-- [Quarantine_Release](#quarantine_release) (2 params) → `$lockObject : Object`
-- [Quarantine_Scrap](#quarantine_scrap) (2 params) → `$lockObject : Object`
-- [startTransaction](#starttransaction)
-- [validateTransaction](#validatetransaction)
-- [cancelTransaction](#canceltransaction)
-- [InTransaction](#intransaction) → `$InTransaction : Boolean`
-- [_RecordStockMovement](#_recordstockmovement) (7 params) → `$Stock_MovementEntity : cs.Stock_MovementEntity`
-- [SetQuarantineReason](#setquarantinereason) (1 param) → `$lockObject : Object`
-- [GetAvailableQuantity](#getavailablequantity) (1 param) → `$AvailableQuantity : Integer`
-- [GetQuarantinedQuantity](#getquarantinedquantity) → `$QuarantinedQuantity : Integer`
-- [GetStockEntitySelection](#getstockentityselection) → `$EntitySelection : 4D.EntitySelection`
-- [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `$QuarantineNewStock : Boolean`
-- [GetQuarantineReason](#getquarantinereason) → `$QuarantineReason : Text`
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [adjust](#adjust) (5 params) → `$lockObject : Object`
+  - [move](#move) (5 params) → `$lockObject : Object`
+  - [SetNewStockQuarantineStatus](#setnewstockquarantinestatus) (1 param) → `$lockObject : Object`
+  - [Quarantine_Stock](#quarantine_stock) (2 params) → `$lockObject : Object`
+  - [Quarantine_Release](#quarantine_release) (2 params) → `$lockObject : Object`
+  - [Quarantine_Scrap](#quarantine_scrap) (2 params) → `$lockObject : Object`
+  - [startTransaction](#starttransaction)
+  - [validateTransaction](#validatetransaction)
+  - [cancelTransaction](#canceltransaction)
+  - [InTransaction](#intransaction) → `$InTransaction : Boolean`
+  - [_RecordStockMovement](#_recordstockmovement) (7 params) → `$Stock_MovementEntity : cs.Stock_MovementEntity`
+  - [SetQuarantineReason](#setquarantinereason) (1 param) → `$lockObject : Object`
+  - [GetAvailableQuantity](#getavailablequantity) (1 param) → `$AvailableQuantity : Integer`
+  - [GetQuarantinedQuantity](#getquarantinedquantity) → `$QuarantinedQuantity : Integer`
+  - [GetStockEntitySelection](#getstockentityselection) → `$EntitySelection : 4D.EntitySelection`
+  - [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `$QuarantineNewStock : Boolean`
+  - [GetQuarantineReason](#getquarantinereason) → `$QuarantineReason : Text`
 ---
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -61,7 +52,7 @@ Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### adjust {#adjust}
 

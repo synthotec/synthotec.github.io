@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PriceChangeOrders/method.4dm) |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T23:29:29.742Z |
+| **Generated** | 🕐 2025-11-13T23:49:49.490Z |
 
 ---
 

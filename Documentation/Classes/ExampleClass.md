@@ -11,29 +11,18 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T23:29:27.713Z*
+🕐 *Last updated: 2025-11-13T23:49:46.631Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (2)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (2):**
-
-- [calculateValue](#calculatevalue) (1 param) → `Real`
-- [processOrder](#processorder) (2 params) → `Boolean`
-
-**🔍 Getters (1):**
-
-- [ItemCount](#itemcount) → `Integer`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [calculateValue](#calculatevalue) (1 param) → `Real`
+  - [processOrder](#processorder) (2 params) → `Boolean`
+  - [ItemCount](#itemcount) → `Integer`
 ---
 
 ## 📋 Properties
@@ -43,9 +32,7 @@ parent : Classes
 | `Title` | `Text` | - | The title of the item |
 | `Count` | `Integer` | `0` | Number of items in stock |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -64,7 +51,7 @@ $InitialCount: Starting inventory count
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### calculateValue {#calculatevalue}
 
@@ -104,8 +91,6 @@ $Quantity: Number of items to order
 **Returns:** `Boolean`
 
 ---
-
-### 🔍 Getters
 
 #### ItemCount {#itemcount}
  `[🔍 getter]`

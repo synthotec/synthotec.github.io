@@ -9,35 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.774Z*
+🕐 *Last updated: 2025-11-13T23:49:47.640Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [displayWorkOrders](#displayworkorders) 🖥️
-- [deactivate](#deactivate) 🖥️
-
-**🔍 Getters (3):**
-
-- [IsActive](#isactive) → `Boolean`
-- [RemainingRuns](#remainingruns) → `Integer`
-- [ActiveUntilText](#activeuntiltext) → `Text`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [displayWorkOrders](#displayworkorders) 🖥️
+  - [deactivate](#deactivate) 🖥️
+  - [IsActive](#isactive) → `Boolean`
+  - [RemainingRuns](#remainingruns) → `Integer`
+  - [ActiveUntilText](#activeuntiltext) → `Text`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### displayWorkOrders {#displayworkorders}
  `[🖥️ local]`
@@ -56,8 +43,6 @@ Function deactivate
 ```
 
 ---
-
-### 🔍 Getters
 
 #### IsActive {#isactive}
  `[🔍 getter]`

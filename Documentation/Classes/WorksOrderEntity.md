@@ -9,46 +9,33 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.908Z*
+🕐 *Last updated: 2025-11-13T23:49:47.752Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (10):**
-
-- [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
-- [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
-- [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
-- [getQuantityScrapped](#getquantityscrapped) → `Integer` 🖥️
-- [query IsRunning](#query isrunning) (1 param) 🖥️
-- [query IsOpen](#query isopen) (1 param) 🖥️
-- [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-- [query HasMigrationID](#query hasmigrationid) (1 param) → `Text` 🖥️
-
-**🔍 Getters (6):**
-
-- [AvailableStock](#availablestock) → `Integer`
-- [WIP](#wip) → `Integer`
-- [IsRunning](#isrunning) → `Boolean`
-- [IsOpen](#isopen) → `Boolean`
-- [HasMigrationID](#hasmigrationid) → `Boolean`
-- [ExS1Stock](#exs1stock) → `Integer`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
+  - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
+  - [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
+  - [getQuantityScrapped](#getquantityscrapped) → `Integer` 🖥️
+  - [query IsRunning](#query isrunning) (1 param) 🖥️
+  - [query IsOpen](#query isopen) (1 param) 🖥️
+  - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
+  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - [query HasMigrationID](#query hasmigrationid) (1 param) → `Text` 🖥️
+  - [AvailableStock](#availablestock) → `Integer`
+  - [WIP](#wip) → `Integer`
+  - [IsRunning](#isrunning) → `Boolean`
+  - [IsOpen](#isopen) → `Boolean`
+  - [HasMigrationID](#hasmigrationid) → `Boolean`
+  - [ExS1Stock](#exs1stock) → `Integer`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### setQuantityMade {#setquantitymade}
  `[🖥️ local]`
@@ -207,8 +194,6 @@ Function query HasMigrationID($QueryEventObject : Object) -> Text
 **Returns:** `Text`
 
 ---
-
-### 🔍 Getters
 
 #### AvailableStock {#availablestock}
  `[🖥️ local, 🔍 getter]`

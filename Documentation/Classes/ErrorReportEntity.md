@@ -9,29 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.708Z*
+🕐 *Last updated: 2025-11-13T23:49:46.626Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [sendEmailReport](#sendemailreport)
-- [sendSlackReport](#sendslackreport) → `$Success : Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [sendEmailReport](#sendemailreport)
+  - [sendSlackReport](#sendslackreport) → `$Success : Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### sendEmailReport {#sendemailreport}
 

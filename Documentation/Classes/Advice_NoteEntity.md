@@ -9,31 +9,21 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:27.235Z*
+🕐 *Last updated: 2025-11-13T23:49:46.143Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (4):**
-
-- [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
-- [print](#print) 🖥️
-- [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
-- [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
+  - [print](#print) 🖥️
+  - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
+  - [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### generateNTNSNR_DESADV {#generatentnsnr_desadv}
  `[🖥️ local]`

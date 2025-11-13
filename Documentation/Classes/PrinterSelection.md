@@ -9,28 +9,18 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:29:28.292Z*
+🕐 *Last updated: 2025-11-13T23:49:47.172Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [getLabelPrinters](#getlabelprinters) → `$PrinterSelection : cs.PrinterSelection` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [getLabelPrinters](#getlabelprinters) → `$PrinterSelection : cs.PrinterSelection` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getLabelPrinters {#getlabelprinters}
  `[🖥️ local]`

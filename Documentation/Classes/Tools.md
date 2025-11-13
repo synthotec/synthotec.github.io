@@ -9,29 +9,19 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.780Z*
+🕐 *Last updated: 2025-11-13T23:49:47.646Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (2):**
-
-- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
-- [createForProduct](#createforproduct) → `cs.ToolsEntity` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+  - [createForProduct](#createforproduct) → `cs.ToolsEntity` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`

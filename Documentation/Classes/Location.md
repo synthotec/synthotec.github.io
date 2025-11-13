@@ -9,31 +9,21 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:27.918Z*
+🕐 *Last updated: 2025-11-13T23:49:46.851Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (4):**
-
-- [getUsingScanner](#getusingscanner) (1 param) → `cs.LocationEntity`
-- [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
-- [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
-- [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getUsingScanner](#getusingscanner) (1 param) → `cs.LocationEntity`
+  - [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
+  - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
+  - [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getUsingScanner {#getusingscanner}
 

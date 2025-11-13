@@ -9,37 +9,24 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.532Z*
+🕐 *Last updated: 2025-11-13T23:49:47.402Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (3):**
-
-- [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
-- [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
-- [sendEmail](#sendemail) → `Boolean`
-
-**🔍 Getters (4):**
-
-- [PartsMade](#partsmade) → `Integer`
-- [Duration](#duration) → `Time`
-- [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
-- [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
+  - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
+  - [sendEmail](#sendemail) → `Boolean`
+  - [PartsMade](#partsmade) → `Integer`
+  - [Duration](#duration) → `Time`
+  - [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
+  - [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getRealTimeSelection {#getrealtimeselection}
  `[🖥️ local]`
@@ -79,8 +66,6 @@ Function sendEmail -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-### 🔍 Getters
 
 #### PartsMade {#partsmade}
  `[🖥️ local, 🔍 getter]`

@@ -9,42 +9,32 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:28.125Z*
+🕐 *Last updated: 2025-11-13T23:49:47.029Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (15):**
-
-- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
-- [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️
-- [getUsingScanner](#getusingscanner) (2 params) → `cs.PalletEntity`
-- [Create](#create) (2 params) → `$ResultObject : Object`
-- [Verify](#verify) (3 params) → `$ResultObject : Object`
-- [Print](#print) (2 params) → `$ResultObject : Object`
-- [Delete](#delete) (1 param) → `$ResultObject : Object`
-- [restLoadPalletList](#restloadpalletlist) (1 param) → `Object`
-- [restAddToPallet](#restaddtopallet) (1 param) → `Object`
-- [restCompletePallet](#restcompletepallet) (1 param) → `Object`
-- [restVerifyPallet](#restverifypallet) (1 param) → `Object`
-- [restLocatePallet](#restlocatepallet) (1 param) → `Object`
-- [restDeletePallet](#restdeletepallet) (1 param) → `Object`
-- [restReassignLocation](#restreassignlocation) (1 param) → `Object`
-- [restLoadPallet](#restloadpallet) (1 param) → `Object`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+  - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️
+  - [getUsingScanner](#getusingscanner) (2 params) → `cs.PalletEntity`
+  - [Create](#create) (2 params) → `$ResultObject : Object`
+  - [Verify](#verify) (3 params) → `$ResultObject : Object`
+  - [Print](#print) (2 params) → `$ResultObject : Object`
+  - [Delete](#delete) (1 param) → `$ResultObject : Object`
+  - [restLoadPalletList](#restloadpalletlist) (1 param) → `Object`
+  - [restAddToPallet](#restaddtopallet) (1 param) → `Object`
+  - [restCompletePallet](#restcompletepallet) (1 param) → `Object`
+  - [restVerifyPallet](#restverifypallet) (1 param) → `Object`
+  - [restLocatePallet](#restlocatepallet) (1 param) → `Object`
+  - [restDeletePallet](#restdeletepallet) (1 param) → `Object`
+  - [restReassignLocation](#restreassignlocation) (1 param) → `Object`
+  - [restLoadPallet](#restloadpallet) (1 param) → `Object`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`

@@ -7,29 +7,18 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:29:28.316Z*
+🕐 *Last updated: 2025-11-13T23:49:47.195Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (10)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (1):**
-
-- [process](#process)
-
-**🔍 Getters (2):**
-
-- [AllLinesActioned](#alllinesactioned) → `Boolean`
-- [UnactionedLines](#unactionedlines) → `Collection`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [process](#process)
+  - [AllLinesActioned](#alllinesactioned) → `Boolean`
+  - [UnactionedLines](#unactionedlines) → `Collection`
 ---
 
 ## 📋 Properties
@@ -47,9 +36,7 @@ parent : Classes
 | `ErrorOccurred` | `Boolean` | - | - |
 | `ds` | *Not specified* | `DataStore(0)` | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -66,7 +53,7 @@ Class constructor($ClipboardText : Text)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### process {#process}
 
@@ -76,8 +63,6 @@ Function process
 ```
 
 ---
-
-### 🔍 Getters
 
 #### AllLinesActioned {#alllinesactioned}
  `[🔍 getter]`

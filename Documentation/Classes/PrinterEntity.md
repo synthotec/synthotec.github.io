@@ -9,40 +9,27 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.290Z*
+🕐 *Last updated: 2025-11-13T23:49:47.171Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (5):**
-
-- [getLabelPaperOptions](#getlabelpaperoptions) → `Collection`
-- [updateOptions](#updateoptions) 🖥️
-- [printJobs](#printjobs) 🖥️
-- [setCurrent](#setcurrent) → `$Success : Boolean` 🖥️
-- [setDefault](#setdefault) 🖥️
-
-**🔍 Getters (5):**
-
-- [LabelPrinter](#labelprinter) → `Boolean`
-- [LabelPaperName](#labelpapername) → `Text`
-- [isLabelPrinter](#islabelprinter) → `Boolean`
-- [isDocumentPrinter](#isdocumentprinter) → `Boolean`
-- [TypeDisplay](#typedisplay) → `Text`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (3)
-
+- [⚙️ Functions](#️-functions)
+  - [getLabelPaperOptions](#getlabelpaperoptions) → `Collection`
+  - [updateOptions](#updateoptions) 🖥️
+  - [printJobs](#printjobs) 🖥️
+  - [setCurrent](#setcurrent) → `$Success : Boolean` 🖥️
+  - [setDefault](#setdefault) 🖥️
+  - [LabelPrinter](#labelprinter) → `Boolean`
+  - [LabelPaperName](#labelpapername) → `Text`
+  - [isLabelPrinter](#islabelprinter) → `Boolean`
+  - [isDocumentPrinter](#isdocumentprinter) → `Boolean`
+  - [TypeDisplay](#typedisplay) → `Text`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getLabelPaperOptions {#getlabelpaperoptions}
 
@@ -92,8 +79,6 @@ Function setDefault
 ```
 
 ---
-
-### 🔍 Getters
 
 #### LabelPrinter {#labelprinter}
  `[🔍 getter]`

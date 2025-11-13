@@ -12,37 +12,29 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T23:29:27.345Z*
+🕐 *Last updated: 2025-11-13T23:49:46.264Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (10)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (14):**
-
-- [_parse](#_parse)
-- [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
-- [_removeInlineComment](#_removeinlinecomment) (1 param) → `Text`
-- [_extractParameterComments](#_extractparametercomments) (2 params) → `Object`
-- [_loadExistingJSON](#_loadexistingjson)
-- [_mergeExistingPropertyComment](#_mergeexistingpropertycomment) (1 param)
-- [_mergeExistingClassComment](#_mergeexistingclasscomment)
-- [_preserveExistingExamples](#_preserveexistingexamples)
-- [_mergeExistingFunctionComment](#_mergeexistingfunctioncomment) (1 param)
-- [_mergeExistingParameterComment](#_mergeexistingparametercomment) (2 params)
-- [_recordChange](#_recordchange) (1 param)
-- [toObject](#toobject) → `Object`
-- [toJSON](#tojson) → `Text`
-- [saveToFile](#savetofile) → `4D.File`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [_parse](#_parse)
+  - [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
+  - [_removeInlineComment](#_removeinlinecomment) (1 param) → `Text`
+  - [_extractParameterComments](#_extractparametercomments) (2 params) → `Object`
+  - [_loadExistingJSON](#_loadexistingjson)
+  - [_mergeExistingPropertyComment](#_mergeexistingpropertycomment) (1 param)
+  - [_mergeExistingClassComment](#_mergeexistingclasscomment)
+  - [_preserveExistingExamples](#_preserveexistingexamples)
+  - [_mergeExistingFunctionComment](#_mergeexistingfunctioncomment) (1 param)
+  - [_mergeExistingParameterComment](#_mergeexistingparametercomment) (2 params)
+  - [_recordChange](#_recordchange) (1 param)
+  - [toObject](#toobject) → `Object`
+  - [toJSON](#tojson) → `Text`
+  - [saveToFile](#savetofile) → `4D.File`
 ---
 
 ## 📋 Properties
@@ -61,9 +53,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File) |
 | `ExistingJSON` | `Object` | - | Previously saved JSON for comment merging |
 | `Changes` | `Collection` | - | List of changes detected |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -80,7 +70,7 @@ Class constructor($File : 4D.File)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### _parse {#_parse}
 

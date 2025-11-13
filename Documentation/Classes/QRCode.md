@@ -7,36 +7,24 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:29:28.424Z*
+🕐 *Last updated: 2025-11-13T23:49:47.299Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (5):**
-
-- [fillBoxLabelsQR](#fillboxlabelsqr) (1 param)
-- [fillPalletQR](#fillpalletqr) (1 param)
-- [fillPrinterQR](#fillprinterqr) (1 param)
-- [getJson](#getjson) → `Text`
-- [generate](#generate) → `Picture`
-
-**🔍 Getters (2):**
-
-- [BarcodeType](#barcodetype) → `Text`
-- [PrimaryKey](#primarykey) → `Integer`
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [fillBoxLabelsQR](#fillboxlabelsqr) (1 param)
+  - [fillPalletQR](#fillpalletqr) (1 param)
+  - [fillPrinterQR](#fillprinterqr) (1 param)
+  - [getJson](#getjson) → `Text`
+  - [generate](#generate) → `Picture`
+  - [BarcodeType](#barcodetype) → `Text`
+  - [PrimaryKey](#primarykey) → `Integer`
 ---
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -54,7 +42,7 @@ Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### fillBoxLabelsQR {#fillboxlabelsqr}
 
@@ -122,8 +110,6 @@ Function generate -> Picture
 **Returns:** `Picture`
 
 ---
-
-### 🔍 Getters
 
 #### BarcodeType {#barcodetype}
  `[🔍 getter]`

@@ -11,28 +11,19 @@ parent : Classes
 
 🗨️ Stores metadata about a class property
 
-🕐 *Last updated: 2025-11-13T23:29:27.352Z*
+🕐 *Last updated: 2025-11-13T23:49:46.271Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (2):**
-
-- [setDefault](#setdefault) (1 param)
-- [toObject](#toobject) → `Object`
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [setDefault](#setdefault) (1 param)
+  - [toObject](#toobject) → `Object`
 ---
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -52,7 +43,7 @@ Stores metadata about a class property
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### setDefault {#setdefault}
 

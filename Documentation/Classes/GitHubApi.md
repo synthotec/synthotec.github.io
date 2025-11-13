@@ -7,30 +7,21 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.869Z*
+🕐 *Last updated: 2025-11-13T23:49:46.808Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor)
-
-**⚙️ Regular Functions (4):**
-
-- [newHttpRequest](#newhttprequest) (3 params) → `4D.HTTPRequest`
-- [createIssue](#createissue) (3 params) → `Object`
-- [getIssues](#getissues) (1 param) → `Collection`
-- [onError](#onerror) (2 params)
-
+- [🏗️ Constructor](#-constructor)
+- [⚙️ Functions](#️-functions)
+  - [newHttpRequest](#newhttprequest) (3 params) → `4D.HTTPRequest`
+  - [createIssue](#createissue) (3 params) → `Object`
+  - [getIssues](#getissues) (1 param) → `Collection`
+  - [onError](#onerror) (2 params)
 ---
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -41,7 +32,7 @@ Class constructor
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### newHttpRequest {#newhttprequest}
 

@@ -9,32 +9,22 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:27.981Z*
+🕐 *Last updated: 2025-11-13T23:49:46.906Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (5):**
-
-- [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
-- [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
-- [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
-- [restViewResults](#restviewresults) (1 param) → `Object`
-- [restRemoveEntry](#restremoveentry) (1 param) → `Object`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
+  - [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
+  - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
+  - [restViewResults](#restviewresults) (1 param) → `Object`
+  - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getLastStockTakeDate {#getlaststocktakedate}
  `[🖥️ local]`

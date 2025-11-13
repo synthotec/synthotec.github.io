@@ -9,32 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.620Z*
+🕐 *Last updated: 2025-11-13T23:49:47.489Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (5):**
-
-- [setValue](#setvalue) (1 param) → `Boolean` 🖥️
-- [setObject](#setobject) (1 param) → `Boolean` 🖥️
-- [getValue](#getvalue) (1 param) → `Variant` 🖥️
-- [getObject](#getobject) (1 param) → `Object` 🖥️
-- [reset](#reset) → `Boolean` 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [setValue](#setvalue) (1 param) → `Boolean` 🖥️
+  - [setObject](#setobject) (1 param) → `Boolean` 🖥️
+  - [getValue](#getvalue) (1 param) → `Variant` 🖥️
+  - [getObject](#getobject) (1 param) → `Object` 🖥️
+  - [reset](#reset) → `Boolean` 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### setValue {#setvalue}
  `[🖥️ local]`

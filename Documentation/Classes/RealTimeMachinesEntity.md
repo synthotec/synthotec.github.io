@@ -9,37 +9,24 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.466Z*
+🕐 *Last updated: 2025-11-13T23:49:47.338Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (1):**
-
-- [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
-
-**🔍 Getters (6):**
-
-- [TemperatureSensorsInstalled](#temperaturesensorsinstalled) → `Boolean`
-- [WorksOrderEntity](#worksorderentity) → `cs.WorksOrderEntity`
-- [WorksOrder](#worksorder) → `Integer`
-- [Changing](#changing) → `Boolean`
-- [UniChar](#unichar) → `Text`
-- [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
+  - [TemperatureSensorsInstalled](#temperaturesensorsinstalled) → `Boolean`
+  - [WorksOrderEntity](#worksorderentity) → `cs.WorksOrderEntity`
+  - [WorksOrder](#worksorder) → `Integer`
+  - [Changing](#changing) → `Boolean`
+  - [UniChar](#unichar) → `Text`
+  - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### checkTempZoneExists {#checktempzoneexists}
 
@@ -57,8 +44,6 @@ Function checkTempZoneExists($Zone : Integer) -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-### 🔍 Getters
 
 #### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
  `[🔍 getter]`

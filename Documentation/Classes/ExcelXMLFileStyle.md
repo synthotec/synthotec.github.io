@@ -7,27 +7,19 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.757Z*
+🕐 *Last updated: 2025-11-13T23:49:46.676Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (9)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor)
-
-**⚙️ Regular Functions (4):**
-
-- [setFontStyle](#setfontstyle) (5 params) → `cs.ExcelXMLFileStyle`
-- [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
-- [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
-- [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
-
+- [🏗️ Constructor](#-constructor)
+- [⚙️ Functions](#️-functions)
+  - [setFontStyle](#setfontstyle) (5 params) → `cs.ExcelXMLFileStyle`
+  - [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
+  - [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
+  - [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
 ---
 
 ## 📋 Properties
@@ -44,9 +36,7 @@ parent : Classes
 | `NumberFormat` | `Text` | `"General"` | - |
 | `ID` | `Text` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -57,7 +47,7 @@ Class constructor
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### setFontStyle {#setfontstyle}
 

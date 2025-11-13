@@ -7,24 +7,16 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.750Z*
+🕐 *Last updated: 2025-11-13T23:49:46.668Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (4)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor)
-
-**⚙️ Regular Functions (1):**
-
-- [addCell](#addcell) (4 params)
-
+- [🏗️ Constructor](#-constructor)
+- [⚙️ Functions](#️-functions)
+  - [addCell](#addcell) (4 params)
 ---
 
 ## 📋 Properties
@@ -36,9 +28,7 @@ parent : Classes
 | `CellType_String` | `Text` | `"String"` | - |
 | `CellType_ISODateTime` | *Not specified* | `"DateTime"` | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -49,7 +39,7 @@ Class constructor
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### addCell {#addcell}
 

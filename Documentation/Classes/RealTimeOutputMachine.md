@@ -11,48 +11,37 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T23:29:28.518Z*
+🕐 *Last updated: 2025-11-13T23:49:47.389Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (10)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (6):**
-
-- [ProcessColors](#processcolors)
-- [setPrimaryColors](#setprimarycolors) (2 params)
-- [setAlternatingColors](#setalternatingcolors) (2 params)
-- [setDateTimeColors](#setdatetimecolors) (2 params)
-- [setAlertColors](#setalertcolors) (2 params)
-- [setTimeRemainingText](#settimeremainingtext) (3 params)
-
-**🔍 Getters (16):**
-
-- [SecondaryStatusText](#secondarystatustext) → `Object`
-- [TimeRemainingText](#timeremainingtext) → `Object`
-- [DeviceMaintenanceActive](#devicemaintenanceactive) → `Boolean`
-- [MachineDisconnected](#machinedisconnected) → `Boolean`
-- [MachineRunning](#machinerunning) → `Boolean`
-- [WorksOrderIsOpen](#worksorderisopen) → `Boolean`
-- [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) → `Boolean`
-- [PrimaryStatusText](#primarystatustext) → `Text`
-- [ScrapText](#scraptext) → `Text`
-- [PartsMadeText](#partsmadetext) → `Text`
-- [AlertsText](#alertstext) → `Text`
-- [PercentMade](#percentmade) → `Real`
-- [MouldStatusText](#mouldstatustext) → `Text`
-- [MachineNumberText](#machinenumbertext) → `Text`
-- [PartNameText](#partnametext) → `Text`
-- [UnicodeSymbolsText](#unicodesymbolstext) → `Text`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [ProcessColors](#processcolors)
+  - [setPrimaryColors](#setprimarycolors) (2 params)
+  - [setAlternatingColors](#setalternatingcolors) (2 params)
+  - [setDateTimeColors](#setdatetimecolors) (2 params)
+  - [setAlertColors](#setalertcolors) (2 params)
+  - [setTimeRemainingText](#settimeremainingtext) (3 params)
+  - [SecondaryStatusText](#secondarystatustext) → `Object`
+  - [TimeRemainingText](#timeremainingtext) → `Object`
+  - [DeviceMaintenanceActive](#devicemaintenanceactive) → `Boolean`
+  - [MachineDisconnected](#machinedisconnected) → `Boolean`
+  - [MachineRunning](#machinerunning) → `Boolean`
+  - [WorksOrderIsOpen](#worksorderisopen) → `Boolean`
+  - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) → `Boolean`
+  - [PrimaryStatusText](#primarystatustext) → `Text`
+  - [ScrapText](#scraptext) → `Text`
+  - [PartsMadeText](#partsmadetext) → `Text`
+  - [AlertsText](#alertstext) → `Text`
+  - [PercentMade](#percentmade) → `Real`
+  - [MouldStatusText](#mouldstatustext) → `Text`
+  - [MachineNumberText](#machinenumbertext) → `Text`
+  - [PartNameText](#partnametext) → `Text`
+  - [UnicodeSymbolsText](#unicodesymbolstext) → `Text`
 ---
 
 ## 📋 Properties
@@ -70,9 +59,7 @@ parent : Classes
 | `QuantityMade` | `Integer` | - | - |
 | `QuantityScrapped` | `Integer` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -89,7 +76,7 @@ Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### ProcessColors {#processcolors}
 
@@ -182,8 +169,6 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 | `$AdditionalSeconds` | `Real` | - | - |
 
 ---
-
-### 🔍 Getters
 
 #### SecondaryStatusText {#secondarystatustext}
  `[🔍 getter]`

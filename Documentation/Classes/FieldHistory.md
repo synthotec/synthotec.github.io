@@ -9,30 +9,20 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:27.768Z*
+🕐 *Last updated: 2025-11-13T23:49:46.688Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (3):**
-
-- [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
-- [display](#display) (4 params) 🖥️
-- [triggerLog](#triggerlog) (2 params) 🖥️
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (1)
-
+- [⚙️ Functions](#️-functions)
+  - [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
+  - [display](#display) (4 params) 🖥️
+  - [triggerLog](#triggerlog) (2 params) 🖥️
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### ClassicListboxClickedEvent {#classiclistboxclickedevent}
  `[🖥️ local]`

@@ -11,53 +11,42 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T23:29:28.355Z*
+🕐 *Last updated: 2025-11-13T23:49:47.234Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (18)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (2 params)
-
-**⚙️ Regular Functions (14):**
-
-- [setDefaultActions](#setdefaultactions)
-- [newFromText](#newfromtext) (1 param)
-- [newFromCustomerOrder](#newfromcustomerorder) (1 param)
-- [getWarehouseWithCustomerCode](#getwarehousewithcustomercode) → `Text`
-- [setAction](#setaction)
-- [_setActions](#_setactions) (1 param)
-- [_copyItemNumber](#_copyitemnumber)
-- [_setActionIgnore](#_setactionignore) (1 param)
-- [process](#process)
-- [_setNewCustomer_OrderEntity](#_setnewcustomer_orderentity) → `$Customer_OrderEntity : cs.Customer_OrderEntity`
-- [process_CreateForecast](#process_createforecast)
-- [process_CreateOrder](#process_createorder)
-- [process_UpdateOrder](#process_updateorder)
-- [process_CloseOrder](#process_closeorder)
-
-**🔍 Getters (13):**
-
-- [IsActionSet](#isactionset) → `Boolean`
-- [IsBacklog](#isbacklog) → `Boolean`
-- [IsForecast](#isforecast) → `Boolean`
-- [IsItemMissing](#isitemmissing) → `Boolean`
-- [IsNewOrder](#isneworder) → `Boolean`
-- [IsExistingOrder](#isexistingorder) → `Boolean`
-- [IsExistingOrderModified](#isexistingordermodified) → `Boolean`
-- [WeekNumberText](#weeknumbertext) → `Text`
-- [OrderBatchNumber](#orderbatchnumber) → `Text`
-- [OurPartName](#ourpartname) → `Text`
-- [Meta->$Meta](#meta->$meta) → `cs.UI.ListBoxMeta`
-- [StatusText->$StatusText](#statustext->$statustext) → `Text`
-- [ActionText->$ActionText](#actiontext->$actiontext) → `Text`
-
+- [🏗️ Constructor](#-constructor) (2 params)
+- [⚙️ Functions](#️-functions)
+  - [setDefaultActions](#setdefaultactions)
+  - [newFromText](#newfromtext) (1 param)
+  - [newFromCustomerOrder](#newfromcustomerorder) (1 param)
+  - [getWarehouseWithCustomerCode](#getwarehousewithcustomercode) → `Text`
+  - [setAction](#setaction)
+  - [_setActions](#_setactions) (1 param)
+  - [_copyItemNumber](#_copyitemnumber)
+  - [_setActionIgnore](#_setactionignore) (1 param)
+  - [process](#process)
+  - [_setNewCustomer_OrderEntity](#_setnewcustomer_orderentity) → `$Customer_OrderEntity : cs.Customer_OrderEntity`
+  - [process_CreateForecast](#process_createforecast)
+  - [process_CreateOrder](#process_createorder)
+  - [process_UpdateOrder](#process_updateorder)
+  - [process_CloseOrder](#process_closeorder)
+  - [IsActionSet](#isactionset) → `Boolean`
+  - [IsBacklog](#isbacklog) → `Boolean`
+  - [IsForecast](#isforecast) → `Boolean`
+  - [IsItemMissing](#isitemmissing) → `Boolean`
+  - [IsNewOrder](#isneworder) → `Boolean`
+  - [IsExistingOrder](#isexistingorder) → `Boolean`
+  - [IsExistingOrderModified](#isexistingordermodified) → `Boolean`
+  - [WeekNumberText](#weeknumbertext) → `Text`
+  - [OrderBatchNumber](#orderbatchnumber) → `Text`
+  - [OurPartName](#ourpartname) → `Text`
+  - [Meta->$Meta](#meta->$meta) → `cs.UI.ListBoxMeta`
+  - [StatusText->$StatusText](#statustext->$statustext) → `Text`
+  - [ActionText->$ActionText](#actiontext->$actiontext) → `Text`
 ---
 
 ## 📋 Properties
@@ -83,9 +72,7 @@ parent : Classes
 | `WarehouseWithCustomerCode` | `Text` | - | - |
 | `ds` | *Not specified* | `DataStore(0)` | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -103,7 +90,7 @@ Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### setDefaultActions {#setdefaultactions}
 
@@ -258,8 +245,6 @@ Function process_CloseOrder
 ```
 
 ---
-
-### 🔍 Getters
 
 #### IsActionSet {#isactionset}
  `[🔍 getter]`

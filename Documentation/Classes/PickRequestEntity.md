@@ -9,48 +9,35 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:29:28.249Z*
+🕐 *Last updated: 2025-11-13T23:49:47.140Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (11):**
-
-- [modify](#modify) → `$Modified : Boolean` 🖥️
-- [cancel](#cancel)
-- [despatch](#despatch) 🖥️
-- [despatchOrder](#despatchorder) (1 param) 🖥️
-- [despatchConsignment](#despatchconsignment) 🖥️
-- [query Picked](#query picked) (1 param) → `Text` 🖥️
-- [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
-- [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
-- [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
-- [sendNotification](#sendnotification)
-- [sendPickedNotification](#sendpickednotification)
-
-**🔍 Getters (7):**
-
-- [OrderPickRequest](#orderpickrequest) → `Boolean`
-- [MovementPickRequest](#movementpickrequest) → `Boolean`
-- [PartsRequested](#partsrequested) → `Boolean`
-- [Picked](#picked) → `Boolean`
-- [PickingStarted](#pickingstarted) → `Boolean`
-- [Status](#status) → `Text`
-- [StatusColor](#statuscolor) → `Integer`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [modify](#modify) → `$Modified : Boolean` 🖥️
+  - [cancel](#cancel)
+  - [despatch](#despatch) 🖥️
+  - [despatchOrder](#despatchorder) (1 param) 🖥️
+  - [despatchConsignment](#despatchconsignment) 🖥️
+  - [query Picked](#query picked) (1 param) → `Text` 🖥️
+  - [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
+  - [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
+  - [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
+  - [sendNotification](#sendnotification)
+  - [sendPickedNotification](#sendpickednotification)
+  - [OrderPickRequest](#orderpickrequest) → `Boolean`
+  - [MovementPickRequest](#movementpickrequest) → `Boolean`
+  - [PartsRequested](#partsrequested) → `Boolean`
+  - [Picked](#picked) → `Boolean`
+  - [PickingStarted](#pickingstarted) → `Boolean`
+  - [Status](#status) → `Text`
+  - [StatusColor](#statuscolor) → `Integer`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### modify {#modify}
  `[🖥️ local]`
@@ -172,8 +159,6 @@ Function sendPickedNotification
 ```
 
 ---
-
-### 🔍 Getters
 
 #### OrderPickRequest {#orderpickrequest}
  `[🔍 getter]`

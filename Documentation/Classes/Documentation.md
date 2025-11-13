@@ -11,38 +11,30 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T23:29:27.609Z*
+🕐 *Last updated: 2025-11-13T23:49:46.536Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (1)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (15):**
-
-- [generateClassDocumentation](#generateclassdocumentation)
-- [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
-- [generateTableDocumentation](#generatetabledocumentation) (1 param)
-- [generateAllClassJSON](#generateallclassjson)
-- [generateMarkdownFromJSON](#generatemarkdownfromjson)
-- [_generateMarkdownForClass](#_generatemarkdownforclass) (1 param) → `Text`
-- [_generateFunctionMarkdown](#_generatefunctionmarkdown) (1 param) → `Text`
-- [generateAllTableJSON](#generatealltablejson)
-- [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
-- [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
-- [generateAllFormJSON](#generateallformjson)
-- [discoverRelationships](#discoverrelationships) → `Integer`
-- [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
-- [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
-- [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [generateClassDocumentation](#generateclassdocumentation)
+  - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
+  - [generateTableDocumentation](#generatetabledocumentation) (1 param)
+  - [generateAllClassJSON](#generateallclassjson)
+  - [generateMarkdownFromJSON](#generatemarkdownfromjson)
+  - [_generateMarkdownForClass](#_generatemarkdownforclass) (1 param) → `Text`
+  - [_generateFunctionMarkdown](#_generatefunctionmarkdown) (1 param) → `Text`
+  - [generateAllTableJSON](#generatealltablejson)
+  - [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
+  - [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
+  - [generateAllFormJSON](#generateallformjson)
+  - [discoverRelationships](#discoverrelationships) → `Integer`
+  - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
+  - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
+  - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
 ---
 
 ## 📋 Properties
@@ -51,9 +43,7 @@ parent : Classes
 |:---------|:-----|:--------|:------------|
 | `CompiledClassesObject` | `Object` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -72,7 +62,7 @@ This.generateClassDocumentation()
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### generateClassDocumentation {#generateclassdocumentation}
 

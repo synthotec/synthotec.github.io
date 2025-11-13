@@ -7,24 +7,16 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.860Z*
+🕐 *Last updated: 2025-11-13T23:49:46.799Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (4)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (3 params)
-
-**⚙️ Regular Functions (1):**
-
-- [apply](#apply) → `$LastFormulaResult : Variant`
-
+- [🏗️ Constructor](#-constructor) (3 params)
+- [⚙️ Functions](#️-functions)
+  - [apply](#apply) → `$LastFormulaResult : Variant`
 ---
 
 ## 📋 Properties
@@ -36,9 +28,7 @@ parent : Classes
 | `_Parameters` | `Collection` | - | - |
 | `FormulaResults` | `Collection` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -57,7 +47,7 @@ Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### apply {#apply}
 

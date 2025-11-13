@@ -7,29 +7,18 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T23:29:28.002Z*
+🕐 *Last updated: 2025-11-13T23:49:46.924Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (12)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (2):**
-
-- [_addMenuItem](#_addmenuitem) (1 param)
-- [_process](#_process) → `Variant`
-
-**🔍 Getters (1):**
-
-- [_Style](#_style) → `Integer`
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [_addMenuItem](#_addmenuitem) (1 param)
+  - [_process](#_process) → `Variant`
+  - [_Style](#_style) → `Integer`
 ---
 
 ## 📋 Properties
@@ -49,9 +38,7 @@ parent : Classes
 | `Enabled` | `Boolean` | - | - |
 | `_IsSeperator` | `Boolean` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -68,7 +55,7 @@ Class constructor($MenuText : Text)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### _addMenuItem {#_addmenuitem}
 
@@ -95,8 +82,6 @@ Function _process -> Variant
 **Returns:** `Variant`
 
 ---
-
-### 🔍 Getters
 
 #### _Style {#_style}
  `[🔍 getter]`

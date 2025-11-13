@@ -7,30 +7,22 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T23:29:27.995Z*
+🕐 *Last updated: 2025-11-13T23:49:46.917Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (6)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor) (1 param)
-
-**⚙️ Regular Functions (7):**
-
-- [addSeperator](#addseperator)
-- [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
-- [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
-- [addSubMenu](#addsubmenu) (1 param) → `$Menu : cs.Menu`
-- [show](#show) → `$FormulaResult : Variant`
-- [_addMenuItems](#_addmenuitems) (1 param)
-- [_release](#_release)
-
+- [🏗️ Constructor](#-constructor) (1 param)
+- [⚙️ Functions](#️-functions)
+  - [addSeperator](#addseperator)
+  - [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
+  - [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
+  - [addSubMenu](#addsubmenu) (1 param) → `$Menu : cs.Menu`
+  - [show](#show) → `$FormulaResult : Variant`
+  - [_addMenuItems](#_addmenuitems) (1 param)
+  - [_release](#_release)
 ---
 
 ## 📋 Properties
@@ -44,9 +36,7 @@ parent : Classes
 | `_MenuItemCollection` | `Collection` | - | - |
 | `Cancelled` | `Boolean` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -63,7 +53,7 @@ Class constructor($BasicMenuItems : Collection)
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### addSeperator {#addseperator}
 

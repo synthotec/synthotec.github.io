@@ -11,30 +11,22 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T23:29:27.746Z*
+🕐 *Last updated: 2025-11-13T23:49:46.663Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [📋 Properties (7)](#-properties)
-
-### ⚙️ Functions
-
-**🏗️ Constructors (1):**
-
-- [constructor](#constructor)
-
-**⚙️ Regular Functions (7):**
-
-- [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
-- [setFreezePanes](#setfreezepanes) (2 params)
-- [addColumn](#addcolumn) (2 params)
-- [addRow](#addrow) (1 param)
-- [addStyle](#addstyle) (1 param) → `Text`
-- [saveToClipboard](#savetoclipboard) (2 params)
-- [generate](#generate)
-
+- [🏗️ Constructor](#-constructor)
+- [⚙️ Functions](#️-functions)
+  - [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
+  - [setFreezePanes](#setfreezepanes) (2 params)
+  - [addColumn](#addcolumn) (2 params)
+  - [addRow](#addrow) (1 param)
+  - [addStyle](#addstyle) (1 param) → `Text`
+  - [saveToClipboard](#savetoclipboard) (2 params)
+  - [generate](#generate)
 ---
 
 ## 📋 Properties
@@ -49,9 +41,7 @@ parent : Classes
 | `FreezeRowsToLeft` | `Integer` | `0` | - |
 | `ConditionalFormatting` | `Object` | - | - |
 
-## ⚙️ Functions
-
-### 🏗️ Constructors
+## 🏗️ Constructor
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -62,7 +52,7 @@ Class constructor
 
 ---
 
-### ⚙️ Regular Functions
+## ⚙️ Functions
 
 #### addSelectionBasedListbox {#addselectionbasedlistbox}
 

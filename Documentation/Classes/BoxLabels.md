@@ -9,34 +9,24 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:29:27.261Z*
+🕐 *Last updated: 2025-11-13T23:49:46.171Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### ⚙️ Functions
-
-**⚙️ Regular Functions (7):**
-
-- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
-- [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
-- [checkPalletQuantity](#checkpalletquantity) (2 params)
-- [getUsingScanner](#getusingscanner) (1 param) → `$BoxLabelsEntity : cs.BoxLabelsEntity`
-- [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
-- [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
-- [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
-
-### 🔗 Related Items
-
-- [Tables](#️-tables) (2)
-- [Classes](#-related-classes) (2)
-
+- [⚙️ Functions](#️-functions)
+  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+  - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
+  - [checkPalletQuantity](#checkpalletquantity) (2 params)
+  - [getUsingScanner](#getusingscanner) (1 param) → `$BoxLabelsEntity : cs.BoxLabelsEntity`
+  - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
+  - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
+  - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
+- [🔗 Related Items](#-related-items)
 ---
 
 ## ⚙️ Functions
-
-### ⚙️ Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`
