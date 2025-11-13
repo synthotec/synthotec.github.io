@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T13:39:36.394Z*
+🕐 *Last updated: 2025-11-13T13:52:49.963Z*
 
 ---
 
@@ -52,7 +52,7 @@ Class constructor
  `[🔍 getter]`
 
 ```4d
-Function Machines -> Collection
+Function Machines -> $Collection : Collection
 ```
 
 **Returns:** `Collection`
@@ -63,7 +63,7 @@ Function Machines -> Collection
  `[🔍 getter]`
 
 ```4d
-Function SecondarySummaryText -> Text
+Function SecondarySummaryText -> $SecondarySummaryText : Text
 ```
 
 **Returns:** `Text`
@@ -74,7 +74,7 @@ Function SecondarySummaryText -> Text
  `[🔍 getter]`
 
 ```4d
-Function SummaryText -> Text
+Function SummaryText -> $SummaryText : Text
 ```
 
 **Returns:** `Text`
@@ -85,7 +85,7 @@ Function SummaryText -> Text
  `[🔍 getter]`
 
 ```4d
-Function Layout -> Object
+Function Layout -> $Layout : Object
 ```
 
 **Returns:** `Object`
@@ -96,7 +96,7 @@ Function Layout -> Object
  `[🔍 getter]`
 
 ```4d
-Function InfoTextBox -> Object
+Function InfoTextBox -> $InfoTextBox : Object
 ```
 
 **Returns:** `Object`

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T13:39:35.685Z*
+🕐 *Last updated: 2025-11-13T13:52:49.220Z*
 
 ---
 
@@ -36,12 +36,12 @@ parent : Classes
 - [addPermissionGroup](#addpermissiongroup) (3 params)
 - [addCustomerGroup](#addcustomergroup) (1 param)
 - [setFromAddress](#setfromaddress) (2 params)
-- [setFromCurrentUser](#setfromcurrentuser) → `Boolean`
+- [setFromCurrentUser](#setfromcurrentuser) → `$Success : Boolean`
 - [setMessageID](#setmessageid) (1 param)
 - [setHtmlBody](#sethtmlbody) (1 param)
 - [setSubject](#setsubject) (1 param)
 - [attachFile](#attachfile) (2 params)
-- [send](#send) → `Boolean`
+- [send](#send) → `$EmailSent : Boolean`
 
 ---
 
@@ -171,7 +171,7 @@ Function setFromAddress($EmailAddress : Text; $EmailName : Text)
 
 
 ```4d
-Function setFromCurrentUser -> Boolean
+Function setFromCurrentUser -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -243,7 +243,7 @@ Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
 
 
 ```4d
-Function send -> Boolean
+Function send -> $EmailSent : Boolean
 ```
 
 **Returns:** `Boolean`

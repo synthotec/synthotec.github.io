@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.375Z*
+🕐 *Last updated: 2025-11-13T13:52:49.941Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [getTemperatureSensors](#gettemperaturesensors) → `Collection` 🖥️
+- [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection` 🖥️
 
 **🔍 Getters (3):**
 
@@ -41,7 +41,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function getTemperatureSensors -> Collection
+Function getTemperatureSensors -> $TemperatureSensors : Collection
 ```
 
 Returns a collection of cs.RealTimeTemperatureSensor

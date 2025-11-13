@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.754Z*
+🕐 *Last updated: 2025-11-13T13:52:49.288Z*
 
 ---
 
@@ -20,7 +20,7 @@ parent : Classes
 **⚙️ Regular Functions (2):**
 
 - [sendEmailReport](#sendemailreport)
-- [sendSlackReport](#sendslackreport) → `Boolean`
+- [sendSlackReport](#sendslackreport) → `$Success : Boolean`
 
 ### 🔗 Related Items
 
@@ -45,7 +45,7 @@ Function sendEmailReport
 
 
 ```4d
-Function sendSlackReport -> Boolean
+Function sendSlackReport -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`

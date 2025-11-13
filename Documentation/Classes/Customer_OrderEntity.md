@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.511Z*
+🕐 *Last updated: 2025-11-13T13:52:49.041Z*
 
 ---
 
@@ -19,9 +19,9 @@ parent : Classes
 
 **⚙️ Regular Functions (9):**
 
-- [createCofC](#createcofc) (3 params) → `cs.CofCEntity` 🖥️
-- [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `Integer` 🖥️
-- [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `cs.OrderPickRequestEntity` 🖥️
+- [createCofC](#createcofc) (3 params) → `$CofCEntity : cs.CofCEntity` 🖥️
+- [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `$AvailableForPickRequest : Integer` 🖥️
+- [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `$OrderPickRequestEntity : cs.OrderPickRequestEntity` 🖥️
 - [getPickRequestedQuantity](#getpickrequestedquantity) (1 param) → `Integer` 🖥️
 - [getPickedQuantity](#getpickedquantity) (1 param) → `Integer` 🖥️
 - [getPickedQuantitiesColor](#getpickedquantitiescolor) → `Integer` 🖥️
@@ -56,7 +56,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity : cs.WorksOrderEntity; $Quantity : Integer) -> cs.CofCEntity
+Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity : cs.WorksOrderEntity; $Quantity : Integer) -> $CofCEntity : cs.CofCEntity
 ```
 
 **Parameters:**
@@ -75,7 +75,7 @@ Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity
  `[🖥️ local]`
 
 ```4d
-Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -> Integer
+Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -> $AvailableForPickRequest : Integer
 ```
 
 **Parameters:**
@@ -92,7 +92,7 @@ Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -
  `[🖥️ local]`
 
 ```4d
-Function modifyOrderPickRequest($PickRequestEntity : cs.PickRequestEntity) -> cs.OrderPickRequestEntity
+Function modifyOrderPickRequest($PickRequestEntity : cs.PickRequestEntity) -> $OrderPickRequestEntity : cs.OrderPickRequestEntity
 ```
 
 **Parameters:**

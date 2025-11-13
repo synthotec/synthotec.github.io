@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T13:39:36.427Z*
+🕐 *Last updated: 2025-11-13T13:52:49.999Z*
 
 ---
 
@@ -200,7 +200,7 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
  `[🔍 getter]`
 
 ```4d
-Function SecondaryStatusText -> Object
+Function SecondaryStatusText -> $DateTimeObject : Object
 ```
 
 **Returns:** `Object`
@@ -211,7 +211,7 @@ Function SecondaryStatusText -> Object
  `[🔍 getter]`
 
 ```4d
-Function TimeRemainingText -> Object
+Function TimeRemainingText -> $DateTimeObject : Object
 ```
 
 **Returns:** `Object`

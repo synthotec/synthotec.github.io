@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T13:39:35.713Z*
+🕐 *Last updated: 2025-11-13T13:52:49.247Z*
 
 ---
 
@@ -34,11 +34,11 @@ parent : Classes
 
 **⚙️ Regular Functions (10):**
 
-- [sync](#sync) (2 params) → `4D.Entity`
+- [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
 - [_functionsExistChecks](#_functionsexistchecks)
-- [create](#create) (2 params) → `4D.Entity`
-- [link](#link) (2 params) → `4D.Entity`
-- [get](#get) (3 params) → `4D.Entity`
+- [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
+- [link](#link) (2 params) → `$RemoteEntity : 4D.Entity`
+- [get](#get) (3 params) → `$RemoteEntity : 4D.Entity`
 - [LinkDisplayPropertyValue](#linkdisplaypropertyvalue) (1 param) → `Variant`
 - [updateLoading](#updateloading) (2 params)
 - [startTransactions](#starttransactions)
@@ -96,7 +96,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 
 
 ```4d
-Function sync($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+Function sync($Entity : 4D.Entity; $PreventSync : Boolean) -> $RemoteEntity : 4D.Entity
 ```
 
 Synchronize local entity with remote entity, applying migration rules to update remote properties
@@ -127,7 +127,7 @@ Development helper function to verify required migration functions exist on enti
 
 
 ```4d
-Function create($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+Function create($Entity : 4D.Entity; $PreventSync : Boolean) -> $RemoteEntity : 4D.Entity
 ```
 
 Create a new remote entity from local entity, applying initial property formulas
@@ -147,7 +147,7 @@ Create a new remote entity from local entity, applying initial property formulas
 
 
 ```4d
-Function link($Entity : 4D.Entity; $PreventSync : Boolean) -> 4D.Entity
+Function link($Entity : 4D.Entity; $PreventSync : Boolean) -> $RemoteEntity : 4D.Entity
 ```
 
 Prompt user to link local entity to existing remote entity or create new one
@@ -167,7 +167,7 @@ Prompt user to link local entity to existing remote entity or create new one
 
 
 ```4d
-Function get($Entity : 4D.Entity; $LinkEntity : Boolean; $PreventSync : Boolean) -> 4D.Entity
+Function get($Entity : 4D.Entity; $LinkEntity : Boolean; $PreventSync : Boolean) -> $RemoteEntity : 4D.Entity
 ```
 
 Retrieve remote entity by MigrationID, optionally linking if not found

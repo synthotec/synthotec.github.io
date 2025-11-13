@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T13:39:36.524Z*
+🕐 *Last updated: 2025-11-13T13:52:50.098Z*
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.941Z*
+🕐 *Last updated: 2025-11-13T13:52:49.474Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 - [printQRSheet](#printqrsheet) (2 params) 🖥️
 - [printLabel](#printlabel) (1 param) 🖥️
 - [generateQR](#generateqr) → `Picture` 🖥️
-- [getStockListboxCollection](#getstocklistboxcollection) → `Collection` 🖥️
+- [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
 
 **🔍 Getters (5):**
 
@@ -106,7 +106,7 @@ Function generateQR -> Picture
  `[🖥️ local]`
 
 ```4d
-Function getStockListboxCollection -> Collection
+Function getStockListboxCollection -> $StockListboxCollection : Collection
 ```
 
 **Returns:** `Collection`
@@ -119,7 +119,7 @@ Function getStockListboxCollection -> Collection
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function SortOrder -> Text
+Function SortOrder -> $SortOrder : Text
 ```
 
 **Returns:** `Text`
@@ -130,7 +130,7 @@ Function SortOrder -> Text
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function ListBoxDisplayName -> Text
+Function ListBoxDisplayName -> $ListBoxDisplayName : Text
 ```
 
 **Returns:** `Text`
@@ -141,7 +141,7 @@ Function ListBoxDisplayName -> Text
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function DisplayName -> Text
+Function DisplayName -> $DisplayName : Text
 ```
 
 **Returns:** `Text`
@@ -152,7 +152,7 @@ Function DisplayName -> Text
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function ListboxMetaExpression -> Object
+Function ListboxMetaExpression -> $ListboxMetaExpression : Object
 ```
 
 **Returns:** `Object`
@@ -163,7 +163,7 @@ Function ListboxMetaExpression -> Object
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function Level -> Integer
+Function Level -> $Level : Integer
 ```
 
 **Returns:** `Integer`

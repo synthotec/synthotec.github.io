@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T13:39:35.878Z*
+🕐 *Last updated: 2025-11-13T13:52:49.407Z*
 
 ---
 
@@ -192,7 +192,7 @@ Function Title -> Text
  `[🔍 getter]`
 
 ```4d
-Function MinimumValue -> Variant
+Function MinimumValue -> $MinimumValue : Variant
 ```
 
 **Returns:** `Variant`
@@ -203,7 +203,7 @@ Function MinimumValue -> Variant
  `[🔍 getter]`
 
 ```4d
-Function MaximumValue -> Variant
+Function MaximumValue -> $MaximumValue : Variant
 ```
 
 **Returns:** `Variant`
@@ -247,7 +247,7 @@ Function Enabled -> Boolean
  `[🔍 getter]`
 
 ```4d
-Function ForegroundColor -> Integer
+Function ForegroundColor -> $ForegroundColor : Integer
 ```
 
 **Returns:** `Integer`
@@ -258,7 +258,7 @@ Function ForegroundColor -> Integer
  `[🔍 getter]`
 
 ```4d
-Function BackgroundColor -> Integer
+Function BackgroundColor -> $BackgroundColor : Integer
 ```
 
 **Returns:** `Integer`
@@ -269,7 +269,7 @@ Function BackgroundColor -> Integer
  `[🔍 getter]`
 
 ```4d
-Function Left -> Integer
+Function Left -> $Left : Integer
 ```
 
 **Returns:** `Integer`
@@ -280,7 +280,7 @@ Function Left -> Integer
  `[🔍 getter]`
 
 ```4d
-Function Top -> Integer
+Function Top -> $Top : Integer
 ```
 
 **Returns:** `Integer`
@@ -291,7 +291,7 @@ Function Top -> Integer
  `[🔍 getter]`
 
 ```4d
-Function Right -> Integer
+Function Right -> $Right : Integer
 ```
 
 **Returns:** `Integer`
@@ -302,7 +302,7 @@ Function Right -> Integer
  `[🔍 getter]`
 
 ```4d
-Function Bottom -> Integer
+Function Bottom -> $Bottom : Integer
 ```
 
 **Returns:** `Integer`
@@ -423,7 +423,7 @@ Function PlaceholderText -> Text
  `[🔍 getter]`
 
 ```4d
-Function VerticalScrollPosition -> Integer
+Function VerticalScrollPosition -> $VerticalScrollPosition : Integer
 ```
 
 **Returns:** `Integer`
@@ -434,7 +434,7 @@ Function VerticalScrollPosition -> Integer
  `[🔍 getter]`
 
 ```4d
-Function HorizontalScrollPosition -> Integer
+Function HorizontalScrollPosition -> $HorizontalScrollPosition : Integer
 ```
 
 **Returns:** `Integer`

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:35.814Z*
+🕐 *Last updated: 2025-11-13T13:52:49.343Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [upload](#upload) → `cs.FileEntity` 🖥️
+- [upload](#upload) → `$FileEntity : cs.FileEntity` 🖥️
 
 ---
 
@@ -31,7 +31,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function upload -> cs.FileEntity
+Function upload -> $FileEntity : cs.FileEntity
 ```
 
 **Returns:** `cs.FileEntity`

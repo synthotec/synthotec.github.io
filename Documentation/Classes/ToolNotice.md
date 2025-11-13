@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.676Z*
+🕐 *Last updated: 2025-11-13T13:52:50.258Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [create](#create) (1 param) → `cs.ToolNoticeEntity` 🖥️
+- [create](#create) (1 param) → `$ToolNoticeEntity : cs.ToolNoticeEntity` 🖥️
 
 ---
 
@@ -31,7 +31,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function create($ToolsEntity : cs.ToolsEntity) -> cs.ToolNoticeEntity
+Function create($ToolsEntity : cs.ToolsEntity) -> $ToolNoticeEntity : cs.ToolNoticeEntity
 ```
 
 **Parameters:**

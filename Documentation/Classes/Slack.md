@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:36.565Z*
+🕐 *Last updated: 2025-11-13T13:52:50.141Z*
 
 ---
 
@@ -28,8 +28,8 @@ parent : Classes
 - [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
 - [createChannel](#createchannel) (1 param) → `Text`
 - [setChannelID](#setchannelid) (1 param) → `Boolean`
-- [convertBlocks](#convertblocks) (2 params) → `Collection`
-- [createMessage](#createmessage) (2 params) → `Text`
+- [convertBlocks](#convertblocks) (2 params) → `$BlocksCollection : Collection`
+- [createMessage](#createmessage) (2 params) → `$MessageTimeStamp : Text`
 - [updateMessage](#updatemessage) (3 params) → `Boolean`
 - [deleteMessage](#deletemessage) (1 param) → `Boolean`
 
@@ -118,7 +118,7 @@ Function setChannelID($ChannelName : Text) -> Boolean
 
 
 ```4d
-Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> Collection
+Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> $BlocksCollection : Collection
 ```
 
 **Parameters:**
@@ -136,7 +136,7 @@ Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> Collection
 
 
 ```4d
-Function createMessage($HeaderText : Text; $Blocks : Collection) -> Text
+Function createMessage($HeaderText : Text; $Blocks : Collection) -> $MessageTimeStamp : Text
 ```
 
 **Parameters:**

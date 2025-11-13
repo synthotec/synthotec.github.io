@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.573Z*
+🕐 *Last updated: 2025-11-13T13:52:50.150Z*
 
 ---
 
@@ -19,8 +19,8 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [permissionCheck](#permissioncheck) (2 params) → `Boolean` 🖥️
-- [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `Boolean` 🖥️
+- [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
+- [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
 
 **🔍 Getters (1):**
 
@@ -40,7 +40,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> Boolean
+Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> $HasPermission : Boolean
 ```
 
 **Parameters:**
@@ -58,7 +58,7 @@ Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> B
  `[🖥️ local]`
 
 ```4d
-Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> Boolean
+Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> $Success : Boolean
 ```
 
 **Parameters:**

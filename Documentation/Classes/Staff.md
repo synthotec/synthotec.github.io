@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.570Z*
+🕐 *Last updated: 2025-11-13T13:52:50.145Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (4):**
 
-- [getUsingKeyfob](#getusingkeyfob) (2 params) → `cs.StaffEntity` 🖥️
+- [getUsingKeyfob](#getusingkeyfob) (2 params) → `$StaffEntity : cs.StaffEntity` 🖥️
 - [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
 - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
 - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
@@ -34,7 +34,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> cs.StaffEntity
+Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> $StaffEntity : cs.StaffEntity
 ```
 
 **Parameters:**

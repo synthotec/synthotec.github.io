@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:35.882Z*
+🕐 *Last updated: 2025-11-13T13:52:49.411Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [apply](#apply) → `Variant`
+- [apply](#apply) → `$LastFormulaResult : Variant`
 
 ---
 
@@ -68,7 +68,7 @@ Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $
 
 
 ```4d
-Function apply -> Variant
+Function apply -> $LastFormulaResult : Variant
 ```
 
 **Returns:** `Variant`

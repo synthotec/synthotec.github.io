@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.123Z*
+🕐 *Last updated: 2025-11-13T13:52:49.665Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `cs.StaffPermissionsEntity` 🖥️
+- [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `$StaffPermissionsEntity : cs.StaffPermissionsEntity` 🖥️
 - [displayWarning](#displaywarning) (1 param) 🖥️
 
 ### 🔗 Related Items
@@ -36,7 +36,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> cs.StaffPermissionsEntity
+Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> $StaffPermissionsEntity : cs.StaffPermissionsEntity
 ```
 
 **Parameters:**

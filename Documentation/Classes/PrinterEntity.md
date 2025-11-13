@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.234Z*
+🕐 *Last updated: 2025-11-13T13:52:49.782Z*
 
 ---
 
@@ -22,7 +22,7 @@ parent : Classes
 - [getLabelPaperOptions](#getlabelpaperoptions) → `Collection`
 - [updateOptions](#updateoptions) 🖥️
 - [printJobs](#printjobs) 🖥️
-- [setCurrent](#setcurrent) → `Boolean` 🖥️
+- [setCurrent](#setcurrent) → `$Success : Boolean` 🖥️
 - [setDefault](#setdefault) 🖥️
 
 **🔍 Getters (5):**
@@ -76,7 +76,7 @@ Function printJobs
  `[🖥️ local]`
 
 ```4d
-Function setCurrent -> Boolean
+Function setCurrent -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`

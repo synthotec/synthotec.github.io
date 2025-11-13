@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.786Z*
+🕐 *Last updated: 2025-11-13T13:52:50.386Z*
 
 ---
 
@@ -26,7 +26,7 @@ parent : Classes
 - [query IsRunning](#query isrunning) (1 param) 🖥️
 - [query IsOpen](#query isopen) (1 param) 🖥️
 - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 - [query HasMigrationID](#query hasmigrationid) (1 param) → `Text` 🖥️
 
@@ -162,7 +162,7 @@ Function calculateProcessScrap($MachineCompleted : Boolean; $PackingCompleted : 
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.WorksOrderEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.WorksOrderEntity) -> $Collection : Collection
 ```
 
 **Parameters:**

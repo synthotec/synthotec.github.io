@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.168Z*
+🕐 *Last updated: 2025-11-13T13:52:49.712Z*
 
 ---
 
@@ -19,8 +19,8 @@ parent : Classes
 
 **⚙️ Regular Functions (11):**
 
-- [create](#create) → `cs.PickRequestEntity` 🖥️
-- [newUsingEntry](#newusingentry) → `cs.PickRequestEntity` 🖥️
+- [create](#create) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
+- [newUsingEntry](#newusingentry) → `$PickRequestEntity : cs.PickRequestEntity` 🖥️
 - [getOpenRequests](#getopenrequests) → `cs.PickRequestSelection` 🖥️
 - [restInitialPage](#restinitialpage) (1 param) → `Object`
 - [restPickPage](#restpickpage) (1 param) → `Object`
@@ -41,7 +41,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function create -> cs.PickRequestEntity
+Function create -> $PickRequestEntity : cs.PickRequestEntity
 ```
 
 **Returns:** `cs.PickRequestEntity`
@@ -52,7 +52,7 @@ Function create -> cs.PickRequestEntity
  `[🖥️ local]`
 
 ```4d
-Function newUsingEntry -> cs.PickRequestEntity
+Function newUsingEntry -> $PickRequestEntity : cs.PickRequestEntity
 ```
 
 **Returns:** `cs.PickRequestEntity`

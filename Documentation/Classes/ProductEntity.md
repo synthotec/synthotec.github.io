@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.317Z*
+🕐 *Last updated: 2025-11-13T13:52:49.874Z*
 
 ---
 
@@ -29,7 +29,7 @@ parent : Classes
 - [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
 - [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
 - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 **🔍 Getters (3):**
@@ -196,7 +196,7 @@ Function getAvailableStock($PickRequestEntity : cs.PickRequestEntity; $OrderPick
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.ProductEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.ProductEntity) -> $Collection : Collection
 ```
 
 /////////////////////////////////////////////////////////////////////////////////////

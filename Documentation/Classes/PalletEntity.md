@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.115Z*
+🕐 *Last updated: 2025-11-13T13:52:49.656Z*
 
 ---
 
@@ -19,13 +19,13 @@ parent : Classes
 
 **⚙️ Regular Functions (9):**
 
-- [createPrintJob](#createprintjob) (2 params) → `Boolean`
+- [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
 - [getWorksOrderCollection](#getworksordercollection) → `Collection`
 - [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
 - [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
 - [generateQR](#generateqr) → `Picture` 🖥️
 - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 - [transfer](#transfer) (1 param) → `Boolean` 🖥️
 
@@ -50,7 +50,7 @@ parent : Classes
 
 
 ```4d
-Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> Boolean
+Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> $Success : Boolean
 ```
 
 **Parameters:**
@@ -135,7 +135,7 @@ Function getStockListBoxObject -> Object
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> $Collection : Collection
 ```
 
 **Parameters:**

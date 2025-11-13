@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T13:39:36.290Z*
+🕐 *Last updated: 2025-11-13T13:52:49.845Z*
 
 ---
 
@@ -55,7 +55,7 @@ parent : Classes
 - [_copyItemNumber](#_copyitemnumber)
 - [_setActionIgnore](#_setactionignore) (1 param)
 - [process](#process)
-- [_setNewCustomer_OrderEntity](#_setnewcustomer_orderentity) → `cs.Customer_OrderEntity`
+- [_setNewCustomer_OrderEntity](#_setnewcustomer_orderentity) → `$Customer_OrderEntity : cs.Customer_OrderEntity`
 - [process_CreateForecast](#process_createforecast)
 - [process_CreateOrder](#process_createorder)
 - [process_UpdateOrder](#process_updateorder)
@@ -235,7 +235,7 @@ Function process
 
 
 ```4d
-Function _setNewCustomer_OrderEntity -> cs.Customer_OrderEntity
+Function _setNewCustomer_OrderEntity -> $Customer_OrderEntity : cs.Customer_OrderEntity
 ```
 
 **Returns:** `cs.Customer_OrderEntity`

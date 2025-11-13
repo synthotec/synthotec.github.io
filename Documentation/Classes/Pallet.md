@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.100Z*
+🕐 *Last updated: 2025-11-13T13:52:49.640Z*
 
 ---
 
@@ -22,10 +22,10 @@ parent : Classes
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️
 - [getUsingScanner](#getusingscanner) (2 params) → `cs.PalletEntity`
-- [Create](#create) (2 params) → `Object`
-- [Verify](#verify) (3 params) → `Object`
-- [Print](#print) (2 params) → `Object`
-- [Delete](#delete) (1 param) → `Object`
+- [Create](#create) (2 params) → `$ResultObject : Object`
+- [Verify](#verify) (3 params) → `$ResultObject : Object`
+- [Print](#print) (2 params) → `$ResultObject : Object`
+- [Delete](#delete) (1 param) → `$ResultObject : Object`
 - [restLoadPalletList](#restloadpalletlist) (1 param) → `Object`
 - [restAddToPallet](#restaddtopallet) (1 param) → `Object`
 - [restCompletePallet](#restcompletepallet) (1 param) → `Object`
@@ -93,7 +93,7 @@ Function getUsingScanner($ScannerObject : Object; $ScannerText : Text) -> cs.Pal
 
 
 ```4d
-Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> Object
+Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> $ResultObject : Object
 ```
 
 **Parameters:**
@@ -111,7 +111,7 @@ Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> Objec
 
 
 ```4d
-Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) -> Object
+Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) -> $ResultObject : Object
 ```
 
 **Parameters:**
@@ -130,7 +130,7 @@ Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) 
 
 
 ```4d
-Function Print($PalletID : Integer; $Printer : Text) -> Object
+Function Print($PalletID : Integer; $Printer : Text) -> $ResultObject : Object
 ```
 
 **Parameters:**
@@ -148,7 +148,7 @@ Function Print($PalletID : Integer; $Printer : Text) -> Object
 
 
 ```4d
-Function Delete($PalletID : Integer) -> Object
+Function Delete($PalletID : Integer) -> $ResultObject : Object
 ```
 
 **Parameters:**

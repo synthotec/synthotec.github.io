@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.602Z*
+🕐 *Last updated: 2025-11-13T13:52:50.180Z*
 
 ---
 
@@ -72,7 +72,7 @@ Function DefaultPackingLocation -> cs.Stock_LocationEntity
  `[🖥️ local, 🔍 getter]`
 
 ```4d
-Function PartBoxStore -> cs.Stock_LocationEntity
+Function PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 ```
 
 **Returns:** `cs.Stock_LocationEntity`

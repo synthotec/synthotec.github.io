@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.609Z*
+🕐 *Last updated: 2025-11-13T13:52:50.187Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ### 🔗 Related Items
@@ -36,7 +36,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.SuppliesEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.SuppliesEntity) -> $Collection : Collection
 ```
 
 **Parameters:**

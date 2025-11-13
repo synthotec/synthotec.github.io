@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.345Z*
+🕐 *Last updated: 2025-11-13T13:52:48.863Z*
 
 ---
 
@@ -22,7 +22,7 @@ parent : Classes
 - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
 - [print](#print) 🖥️
 - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
-- [cancel](#cancel) → `Boolean` 🖥️
+- [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
 
 ### 🔗 Related Items
 
@@ -67,7 +67,7 @@ Function tryEmailMaterialCertificates
  `[🖥️ local]`
 
 ```4d
-Function cancel -> Boolean
+Function cancel -> $Cancelled : Boolean
 ```
 
 **Returns:** `Boolean`

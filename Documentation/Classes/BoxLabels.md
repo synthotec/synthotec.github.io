@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:35.369Z*
+🕐 *Last updated: 2025-11-13T13:52:48.890Z*
 
 ---
 
@@ -22,9 +22,9 @@ parent : Classes
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
 - [checkPalletQuantity](#checkpalletquantity) (2 params)
-- [getUsingScanner](#getusingscanner) (1 param) → `cs.BoxLabelsEntity`
+- [getUsingScanner](#getusingscanner) (1 param) → `$BoxLabelsEntity : cs.BoxLabelsEntity`
 - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
-- [GetBoxQuantity](#getboxquantity) (1 param) → `Integer`
+- [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
 - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
 
 ---
@@ -81,7 +81,7 @@ Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCard
 
 
 ```4d
-Function getUsingScanner($ScannerObject : Object) -> cs.BoxLabelsEntity
+Function getUsingScanner($ScannerObject : Object) -> $BoxLabelsEntity : cs.BoxLabelsEntity
 ```
 
 **Parameters:**
@@ -115,7 +115,7 @@ Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
 
 
 ```4d
-Function GetBoxQuantity($BoxLabelID : Integer) -> Integer
+Function GetBoxQuantity($BoxLabelID : Integer) -> $BoxQuantity : Integer
 ```
 
 **Parameters:**

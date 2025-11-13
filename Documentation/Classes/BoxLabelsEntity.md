@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.404Z*
+🕐 *Last updated: 2025-11-13T13:52:48.924Z*
 
 ---
 
@@ -24,10 +24,10 @@ parent : Classes
 - [AddComment](#addcomment) (2 params) 🖥️
 - [query PartBox](#query partbox) (1 param)
 - [query Despatched](#query despatched) (1 param)
-- [removeFromPallet](#removefrompallet) → `Boolean`
+- [removeFromPallet](#removefrompallet) → `$Success : Boolean`
 - [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
 - [generateQR](#generateqr) → `Picture` 🖥️
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 **🔍 Getters (19):**
@@ -132,7 +132,7 @@ Function query Despatched($QueryEventObject : Object)
 
 
 ```4d
-Function removeFromPallet -> Boolean
+Function removeFromPallet -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -165,7 +165,7 @@ Function generateQR -> Picture
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.BoxLabelsEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.BoxLabelsEntity) -> $Collection : Collection
 ```
 
 **Parameters:**

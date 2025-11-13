@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:36.218Z*
+🕐 *Last updated: 2025-11-13T13:52:49.765Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [importPrices](#importprices) → `Object`
+- [importPrices](#importprices) → `$Result : Object`
 
 ---
 
@@ -60,7 +60,7 @@ Class constructor
 
 
 ```4d
-Function importPrices -> Object
+Function importPrices -> $Result : Object
 ```
 
 **Returns:** `Object`

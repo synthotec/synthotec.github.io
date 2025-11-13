@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:39:36.731Z*
+🕐 *Last updated: 2025-11-13T13:52:50.326Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [evaluate](#evaluate) (2 params) → `cs._UnitTestResult`
+- [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
 - [displayResultsAlert](#displayresultsalert)
 
 **🔍 Getters (1):**
@@ -69,7 +69,7 @@ Class constructor($Description : Text)
 
 
 ```4d
-Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> cs._UnitTestResult
+Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> $UnitTestResult : cs._UnitTestResult
 ```
 
 **Parameters:**

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:36.245Z*
+🕐 *Last updated: 2025-11-13T13:52:49.798Z*
 
 ---
 
@@ -29,11 +29,11 @@ parent : Classes
 
 **⚙️ Regular Functions (5):**
 
-- [display](#display) → `Boolean`
+- [display](#display) → `$Accepted : Boolean`
 - [load](#load) (2 params) → `cs.PrintSettings`
 - [save](#save) (1 param) → `cs.PrintSettings`
-- [apply](#apply) → `Boolean`
-- [restore](#restore) → `Boolean`
+- [apply](#apply) → `$Success : Boolean`
+- [restore](#restore) → `$Success : Boolean`
 
 ---
 
@@ -75,7 +75,7 @@ Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : I
 
 
 ```4d
-Function display -> Boolean
+Function display -> $Accepted : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -121,7 +121,7 @@ Function save($SettingName : Text) -> cs.PrintSettings
 
 
 ```4d
-Function apply -> Boolean
+Function apply -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -132,7 +132,7 @@ Function apply -> Boolean
 
 
 ```4d
-Function restore -> Boolean
+Function restore -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`

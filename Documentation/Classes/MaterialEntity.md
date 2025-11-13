@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.952Z*
+🕐 *Last updated: 2025-11-13T13:52:49.488Z*
 
 ---
 
@@ -20,7 +20,7 @@ parent : Classes
 **⚙️ Regular Functions (3):**
 
 - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
-- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 **🔍 Getters (1):**
@@ -52,7 +52,7 @@ Function getMaterialsUsingThis -> cs.MaterialSelection
  `[🖥️ local]`
 
 ```4d
-Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> Collection
+Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> $Collection : Collection
 ```
 
 ////////////////////////////////////////////////////////////////////////////////////////

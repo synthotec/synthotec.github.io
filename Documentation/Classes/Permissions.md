@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.119Z*
+🕐 *Last updated: 2025-11-13T13:52:49.660Z*
 
 ---
 
@@ -19,8 +19,8 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [getByName](#getbyname) (1 param) → `cs.PermissionsEntity`
-- [check](#check) (3 params) → `Boolean` 🖥️
+- [getByName](#getbyname) (1 param) → `$PermissionsEntity : cs.PermissionsEntity`
+- [check](#check) (3 params) → `$HasPermission : Boolean` 🖥️
 
 ---
 
@@ -32,7 +32,7 @@ parent : Classes
 
 
 ```4d
-Function getByName($PermissionName : Text) -> cs.PermissionsEntity
+Function getByName($PermissionName : Text) -> $PermissionsEntity : cs.PermissionsEntity
 ```
 
 **Parameters:**
@@ -49,7 +49,7 @@ Function getByName($PermissionName : Text) -> cs.PermissionsEntity
  `[🖥️ local]`
 
 ```4d
-Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity : cs.StaffEntity) -> Boolean
+Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity : cs.StaffEntity) -> $HasPermission : Boolean
 ```
 
 **Parameters:**

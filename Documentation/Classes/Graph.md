@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:35.890Z*
+🕐 *Last updated: 2025-11-13T13:52:49.420Z*
 
 ---
 
@@ -21,7 +21,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [generate](#generate) → `Picture`
+- [generate](#generate) → `$Picture : Picture`
 
 ---
 
@@ -44,7 +44,7 @@ Class constructor
 
 
 ```4d
-Function generate -> Picture
+Function generate -> $Picture : Picture
 ```
 
 GRAPH($Picture; This.Settings;

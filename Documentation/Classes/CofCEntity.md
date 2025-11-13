@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:35.463Z*
+🕐 *Last updated: 2025-11-13T13:52:48.988Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [cancel](#cancel) → `Boolean`
+- [cancel](#cancel) → `$Cancelled : Boolean`
 
 ### 🔗 Related Items
 
@@ -35,7 +35,7 @@ parent : Classes
 
 
 ```4d
-Function cancel -> Boolean
+Function cancel -> $Cancelled : Boolean
 ```
 
 **Returns:** `Boolean`

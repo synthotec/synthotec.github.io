@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.205Z*
+🕐 *Last updated: 2025-11-13T13:52:49.750Z*
 
 ---
 
@@ -19,15 +19,15 @@ parent : Classes
 
 **⚙️ Regular Functions (11):**
 
-- [modify](#modify) → `Boolean` 🖥️
+- [modify](#modify) → `$Modified : Boolean` 🖥️
 - [cancel](#cancel)
 - [despatch](#despatch) 🖥️
 - [despatchOrder](#despatchorder) (1 param) 🖥️
 - [despatchConsignment](#despatchconsignment) 🖥️
 - [query Picked](#query picked) (1 param) → `Text` 🖥️
-- [getNotInStockWorksOrders](#getnotinstockworksorders) → `cs.WorksOrderSelection` 🖥️
-- [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `Collection` 🖥️
-- [getPickedStockListboxObject](#getpickedstocklistboxobject) → `Object` 🖥️
+- [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
+- [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
+- [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
 - [sendNotification](#sendnotification)
 - [sendPickedNotification](#sendpickednotification)
 
@@ -55,7 +55,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function modify -> Boolean
+Function modify -> $Modified : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -125,7 +125,7 @@ Function query Picked($QueryEventObject : Object) -> Text
  `[🖥️ local]`
 
 ```4d
-Function getNotInStockWorksOrders -> cs.WorksOrderSelection
+Function getNotInStockWorksOrders -> $WorksOrderSelection : cs.WorksOrderSelection
 ```
 
 **Returns:** `cs.WorksOrderSelection`
@@ -136,7 +136,7 @@ Function getNotInStockWorksOrders -> cs.WorksOrderSelection
  `[🖥️ local]`
 
 ```4d
-Function getWorksOrderSummaryListboxCollection -> Collection
+Function getWorksOrderSummaryListboxCollection -> $Collection : Collection
 ```
 
 **Returns:** `Collection`
@@ -147,7 +147,7 @@ Function getWorksOrderSummaryListboxCollection -> Collection
  `[🖥️ local]`
 
 ```4d
-Function getPickedStockListboxObject -> Object
+Function getPickedStockListboxObject -> $Object : Object
 ```
 
 **Returns:** `Object`

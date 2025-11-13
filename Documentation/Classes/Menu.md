@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:35.991Z*
+🕐 *Last updated: 2025-11-13T13:52:49.529Z*
 
 ---
 
@@ -31,10 +31,10 @@ parent : Classes
 **⚙️ Regular Functions (7):**
 
 - [addSeperator](#addseperator)
-- [addVariantItem](#addvariantitem) (2 params) → `cs.MenuItem`
-- [addFormulaItem](#addformulaitem) (2 params) → `cs.MenuItem`
-- [addSubMenu](#addsubmenu) (1 param) → `cs.Menu`
-- [show](#show) → `Variant`
+- [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
+- [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
+- [addSubMenu](#addsubmenu) (1 param) → `$Menu : cs.Menu`
+- [show](#show) → `$FormulaResult : Variant`
 - [_addMenuItems](#_addmenuitems) (1 param)
 - [_release](#_release)
 
@@ -85,7 +85,7 @@ Function addSeperator
 
 
 ```4d
-Function addVariantItem($MenuText : Text; $Variant : Variant) -> cs.MenuItem
+Function addVariantItem($MenuText : Text; $Variant : Variant) -> $MenuItem : cs.MenuItem
 ```
 
 **Parameters:**
@@ -103,7 +103,7 @@ Function addVariantItem($MenuText : Text; $Variant : Variant) -> cs.MenuItem
 
 
 ```4d
-Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> cs.MenuItem
+Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> $MenuItem : cs.MenuItem
 ```
 
 **Parameters:**
@@ -121,7 +121,7 @@ Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> cs.
 
 
 ```4d
-Function addSubMenu($SubMenuText : Text) -> cs.Menu
+Function addSubMenu($SubMenuText : Text) -> $Menu : cs.Menu
 ```
 
 **Parameters:**
@@ -138,7 +138,7 @@ Function addSubMenu($SubMenuText : Text) -> cs.Menu
 
 
 ```4d
-Function show -> Variant
+Function show -> $FormulaResult : Variant
 ```
 
 **Returns:** `Variant`

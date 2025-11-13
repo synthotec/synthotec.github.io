@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-13T13:39:35.911Z*
+🕐 *Last updated: 2025-11-13T13:52:49.442Z*
 
 ---
 
@@ -27,7 +27,7 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 **⚙️ Regular Functions (4):**
 
 - [AddRow](#addrow) (5 params)
-- [Output](#output) → `Text`
+- [Output](#output) → `$Output_table : Text`
 - [HTML_Cell](#html_cell) (7 params) → `Object`
 - [merge](#merge) (2 params)
 
@@ -80,7 +80,7 @@ Function AddRow($RowCellCollection : Collection; $Bold : Boolean; $ForegroundCol
 
 
 ```4d
-Function Output -> Text
+Function Output -> $Output_table : Text
 ```
 
 **Returns:** `Text`

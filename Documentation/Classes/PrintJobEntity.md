@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:39:36.238Z*
+🕐 *Last updated: 2025-11-13T13:52:49.789Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (1):**
 
-- [print](#print) → `Boolean` 🖥️
+- [print](#print) → `$Success : Boolean` 🖥️
 
 ### 🔗 Related Items
 
@@ -35,7 +35,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function print -> Boolean
+Function print -> $Success : Boolean
 ```
 
 **Returns:** `Boolean`

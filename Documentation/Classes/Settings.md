@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.532Z*
+🕐 *Last updated: 2025-11-13T13:52:50.109Z*
 
 ---
 
@@ -19,8 +19,8 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [global](#global) (1 param) → `cs.SettingsEntity` 🖥️
-- [userSpecific](#userspecific) (2 params) → `cs.SettingsEntity` 🖥️
+- [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
+- [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
 
 ---
 
@@ -32,7 +32,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function global($VariableName : Text) -> cs.SettingsEntity
+Function global($VariableName : Text) -> $SettingsEntity : cs.SettingsEntity
 ```
 
 **Parameters:**
@@ -49,7 +49,7 @@ Function global($VariableName : Text) -> cs.SettingsEntity
  `[🖥️ local]`
 
 ```4d
-Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEntity
+Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEntity : cs.SettingsEntity
 ```
 
 **Parameters:**

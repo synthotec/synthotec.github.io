@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-13T13:39:35.540Z*
+🕐 *Last updated: 2025-11-13T13:52:49.075Z*
 
 ---
 
@@ -19,14 +19,14 @@ parent : Classes
 
 **⚙️ Regular Functions (19):**
 
-- [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `4D.EntitySelection` 🖥️
-- [applyFormulasToSelection](#applyformulastoselection) (3 params) → `Collection` 🖥️
-- [lockEntitySelection](#lockentityselection) (2 params) → `Object` 🖥️
+- [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `$DuplicateEntitySelection : 4D.EntitySelection` 🖥️
+- [applyFormulasToSelection](#applyformulastoselection) (3 params) → `$LockedEntityCollection : Collection` 🖥️
+- [lockEntitySelection](#lockentityselection) (2 params) → `$LockedSelectionObject : Object` 🖥️
 - [unlockEntitySelection](#unlockentityselection) (1 param) 🖥️
-- [lockEntity](#lockentity) (2 params) → `Boolean` 🖥️
+- [lockEntity](#lockentity) (2 params) → `$Success : Boolean` 🖥️
 - [getTablePrimaryKeyField](#gettableprimarykeyfield) (1 param) → `Pointer` 🖥️
-- [getRelation](#getrelation) (2 params) → `Variant` 🖥️
-- [getRelationName](#getrelationname) (3 params) → `Text`
+- [getRelation](#getrelation) (2 params) → `$relatedEntityOrEntitySelection : Variant` 🖥️
+- [getRelationName](#getrelationname) (3 params) → `$relationName : Text`
 - [updateClientFiles](#updateclientfiles) → `Boolean`
 - [stringTest](#stringtest) (1 param) → `Boolean`
 - [echoTest](#echotest) (1 param) → `Variant`
@@ -53,7 +53,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribute : Object) -> 4D.EntitySelection
+Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribute : Object) -> $DuplicateEntitySelection : 4D.EntitySelection
 ```
 
 **Parameters:**
@@ -71,7 +71,7 @@ Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribut
  `[🖥️ local]`
 
 ```4d
-Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $FormulaOrFormulaCollection : Variant; $FormulaParamsCollection : Collection) -> Collection
+Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $FormulaOrFormulaCollection : Variant; $FormulaParamsCollection : Collection) -> $LockedEntityCollection : Collection
 ```
 
 **Parameters:**
@@ -90,7 +90,7 @@ Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $Formul
  `[🖥️ local]`
 
 ```4d
-Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfErrorOccurs : Boolean) -> Object
+Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfErrorOccurs : Boolean) -> $LockedSelectionObject : Object
 ```
 
 **Parameters:**
@@ -123,7 +123,7 @@ Function unlockEntitySelection($LockedSelectionObject : Object)
  `[🖥️ local]`
 
 ```4d
-Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> Boolean
+Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> $Success : Boolean
 ```
 
 **Parameters:**
@@ -158,7 +158,7 @@ Function getTablePrimaryKeyField($TablePointerOrNumber : Variant) -> Pointer
  `[🖥️ local]`
 
 ```4d
-Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.DataClass) -> Variant
+Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.DataClass) -> $relatedEntityOrEntitySelection : Variant
 ```
 
 **Parameters:**
@@ -176,7 +176,7 @@ Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.
 
 
 ```4d
-Function getRelationName($sourceTableClass : 4D.Class; $destinationTableClass : 4D.Class; $supressNoRelationWarning : Boolean) -> Text
+Function getRelationName($sourceTableClass : 4D.Class; $destinationTableClass : 4D.Class; $supressNoRelationWarning : Boolean) -> $relationName : Text
 ```
 
 **Parameters:**

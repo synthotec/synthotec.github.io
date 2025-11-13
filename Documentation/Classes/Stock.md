@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T13:39:36.598Z*
+🕐 *Last updated: 2025-11-13T13:52:50.175Z*
 
 ---
 
@@ -21,23 +21,23 @@ parent : Classes
 
 **⚙️ Regular Functions (17):**
 
-- [adjust](#adjust) (5 params) → `Object`
-- [move](#move) (5 params) → `Object`
-- [SetNewStockQuarantineStatus](#setnewstockquarantinestatus) (1 param) → `Object`
-- [Quarantine_Stock](#quarantine_stock) (2 params) → `Object`
-- [Quarantine_Release](#quarantine_release) (2 params) → `Object`
-- [Quarantine_Scrap](#quarantine_scrap) (2 params) → `Object`
+- [adjust](#adjust) (5 params) → `$lockObject : Object`
+- [move](#move) (5 params) → `$lockObject : Object`
+- [SetNewStockQuarantineStatus](#setnewstockquarantinestatus) (1 param) → `$lockObject : Object`
+- [Quarantine_Stock](#quarantine_stock) (2 params) → `$lockObject : Object`
+- [Quarantine_Release](#quarantine_release) (2 params) → `$lockObject : Object`
+- [Quarantine_Scrap](#quarantine_scrap) (2 params) → `$lockObject : Object`
 - [startTransaction](#starttransaction)
 - [validateTransaction](#validatetransaction)
 - [cancelTransaction](#canceltransaction)
-- [InTransaction](#intransaction) → `Boolean`
-- [_RecordStockMovement](#_recordstockmovement) (7 params) → `cs.Stock_MovementEntity`
-- [SetQuarantineReason](#setquarantinereason) (1 param) → `Object`
-- [GetAvailableQuantity](#getavailablequantity) (1 param) → `Integer`
-- [GetQuarantinedQuantity](#getquarantinedquantity) → `Integer`
-- [GetStockEntitySelection](#getstockentityselection) → `4D.EntitySelection`
-- [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `Boolean`
-- [GetQuarantineReason](#getquarantinereason) → `Text`
+- [InTransaction](#intransaction) → `$InTransaction : Boolean`
+- [_RecordStockMovement](#_recordstockmovement) (7 params) → `$Stock_MovementEntity : cs.Stock_MovementEntity`
+- [SetQuarantineReason](#setquarantinereason) (1 param) → `$lockObject : Object`
+- [GetAvailableQuantity](#getavailablequantity) (1 param) → `$AvailableQuantity : Integer`
+- [GetQuarantinedQuantity](#getquarantinedquantity) → `$QuarantinedQuantity : Integer`
+- [GetStockEntitySelection](#getstockentityselection) → `$EntitySelection : 4D.EntitySelection`
+- [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `$QuarantineNewStock : Boolean`
+- [GetQuarantineReason](#getquarantinereason) → `$QuarantineReason : Text`
 
 ---
 
@@ -67,7 +67,7 @@ Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer
 
 
 ```4d
-Function adjust($LocationID : Integer; $AdjustmentQuantity : Integer; $CreateStockMovement : Boolean; $AdjustmentReason : Text; $AdviceNote : Integer) -> Object
+Function adjust($LocationID : Integer; $AdjustmentQuantity : Integer; $CreateStockMovement : Boolean; $AdjustmentReason : Text; $AdviceNote : Integer) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -88,7 +88,7 @@ Function adjust($LocationID : Integer; $AdjustmentQuantity : Integer; $CreateSto
 
 
 ```4d
-Function move($FromLocation : Integer; $ToLocation : Integer; $AdjustmentQuantity : Integer; $AdjustmentReason : Text; $AdviceNote : Integer) -> Object
+Function move($FromLocation : Integer; $ToLocation : Integer; $AdjustmentQuantity : Integer; $AdjustmentReason : Text; $AdviceNote : Integer) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -109,7 +109,7 @@ Function move($FromLocation : Integer; $ToLocation : Integer; $AdjustmentQuantit
 
 
 ```4d
-Function SetNewStockQuarantineStatus($QuarantineNewStock : Boolean) -> Object
+Function SetNewStockQuarantineStatus($QuarantineNewStock : Boolean) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -126,7 +126,7 @@ Function SetNewStockQuarantineStatus($QuarantineNewStock : Boolean) -> Object
 
 
 ```4d
-Function Quarantine_Stock($QuantityToQuarantine : Integer; $QuarantineReason : Text) -> Object
+Function Quarantine_Stock($QuantityToQuarantine : Integer; $QuarantineReason : Text) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -144,7 +144,7 @@ Function Quarantine_Stock($QuantityToQuarantine : Integer; $QuarantineReason : T
 
 
 ```4d
-Function Quarantine_Release($QuantityToRelease : Integer; $ReleaseReason : Text) -> Object
+Function Quarantine_Release($QuantityToRelease : Integer; $ReleaseReason : Text) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -162,7 +162,7 @@ Function Quarantine_Release($QuantityToRelease : Integer; $ReleaseReason : Text)
 
 
 ```4d
-Function Quarantine_Scrap($QuantityToScrap : Integer; $ScrapReason : Text) -> Object
+Function Quarantine_Scrap($QuantityToScrap : Integer; $ScrapReason : Text) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -207,7 +207,7 @@ Function cancelTransaction
 
 
 ```4d
-Function InTransaction -> Boolean
+Function InTransaction -> $InTransaction : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -218,7 +218,7 @@ Function InTransaction -> Boolean
 
 
 ```4d
-Function _RecordStockMovement($Quantity : Integer; $From_LocationID : Integer; $To_LocationID : Integer; $From_Type : Text; $To_Type : Text; $Reason : Text; $AdviceNote : Integer) -> cs.Stock_MovementEntity
+Function _RecordStockMovement($Quantity : Integer; $From_LocationID : Integer; $To_LocationID : Integer; $From_Type : Text; $To_Type : Text; $Reason : Text; $AdviceNote : Integer) -> $Stock_MovementEntity : cs.Stock_MovementEntity
 ```
 
 **Parameters:**
@@ -241,7 +241,7 @@ Function _RecordStockMovement($Quantity : Integer; $From_LocationID : Integer; $
 
 
 ```4d
-Function SetQuarantineReason($QuarantineReason : Text) -> Object
+Function SetQuarantineReason($QuarantineReason : Text) -> $lockObject : Object
 ```
 
 **Parameters:**
@@ -258,7 +258,7 @@ Function SetQuarantineReason($QuarantineReason : Text) -> Object
 
 
 ```4d
-Function GetAvailableQuantity($StockLocation : Integer) -> Integer
+Function GetAvailableQuantity($StockLocation : Integer) -> $AvailableQuantity : Integer
 ```
 
 **Parameters:**
@@ -275,7 +275,7 @@ Function GetAvailableQuantity($StockLocation : Integer) -> Integer
 
 
 ```4d
-Function GetQuarantinedQuantity -> Integer
+Function GetQuarantinedQuantity -> $QuarantinedQuantity : Integer
 ```
 
 **Returns:** `Integer`
@@ -286,7 +286,7 @@ Function GetQuarantinedQuantity -> Integer
 
 
 ```4d
-Function GetStockEntitySelection -> 4D.EntitySelection
+Function GetStockEntitySelection -> $EntitySelection : 4D.EntitySelection
 ```
 
 **Returns:** `4D.EntitySelection`
@@ -297,7 +297,7 @@ Function GetStockEntitySelection -> 4D.EntitySelection
 
 
 ```4d
-Function GetNewStockQuarantineStatus -> Boolean
+Function GetNewStockQuarantineStatus -> $QuarantineNewStock : Boolean
 ```
 
 **Returns:** `Boolean`
@@ -308,7 +308,7 @@ Function GetNewStockQuarantineStatus -> Boolean
 
 
 ```4d
-Function GetQuarantineReason -> Text
+Function GetQuarantineReason -> $QuarantineReason : Text
 ```
 
 **Returns:** `Text`

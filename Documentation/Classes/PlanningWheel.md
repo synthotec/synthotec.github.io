@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:36.213Z*
+🕐 *Last updated: 2025-11-13T13:52:49.759Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 **⚙️ Regular Functions (2):**
 
-- [insertLine](#insertline) (2 params) → `cs.PlanningWheelEntity` 🖥️
+- [insertLine](#insertline) (2 params) → `$PlanningWheelEntity : cs.PlanningWheelEntity` 🖥️
 - [reducePlannedStand](#reduceplannedstand) 🖥️
 
 ---
@@ -32,7 +32,7 @@ parent : Classes
  `[🖥️ local]`
 
 ```4d
-Function insertLine($Machine : Integer; $RunOrder : Integer) -> cs.PlanningWheelEntity
+Function insertLine($Machine : Integer; $RunOrder : Integer) -> $PlanningWheelEntity : cs.PlanningWheelEntity
 ```
 
 **Parameters:**

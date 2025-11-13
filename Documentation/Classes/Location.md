@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:39:35.928Z*
+🕐 *Last updated: 2025-11-13T13:52:49.461Z*
 
 ---
 
@@ -20,7 +20,7 @@ parent : Classes
 **⚙️ Regular Functions (4):**
 
 - [getUsingScanner](#getusingscanner) (1 param) → `cs.LocationEntity`
-- [newLocation](#newlocation) (1 param) → `cs.LocationEntity` 🖥️
+- [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
 - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
 - [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
 
@@ -51,7 +51,7 @@ Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
  `[🖥️ local]`
 
 ```4d
-Function newLocation($ParentLocationEntity : cs.LocationEntity) -> cs.LocationEntity
+Function newLocation($ParentLocationEntity : cs.LocationEntity) -> $LocationEntity : cs.LocationEntity
 ```
 
 **Parameters:**
