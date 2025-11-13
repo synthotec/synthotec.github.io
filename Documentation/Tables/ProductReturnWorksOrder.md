@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 31
 - **UUID:** 130945D5E0DF0E4498FBB20449311F51
 - **Primary Key:** 🔑 `WOReturnID_l`
-- **Generated:** 🕐 2025-11-13T02:48:06Z
+- **Generated:** 🕐 2025-11-13T16:08:18Z
 
 ---
 
@@ -63,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:48:06Z*
+*Generated at: 2025-11-13T16:08:18Z*

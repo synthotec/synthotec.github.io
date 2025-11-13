@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 29
 - **UUID:** 916903B13AB83B4A9937B1348364CCA9
 - **Primary Key:** 🔑 `StockLocationID_l`
-- **Generated:** 🕐 2025-11-13T02:48:04Z
+- **Generated:** 🕐 2025-11-13T16:08:16Z
 
 ---
 
@@ -66,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:48:04Z*
+*Generated at: 2025-11-13T16:08:16Z*

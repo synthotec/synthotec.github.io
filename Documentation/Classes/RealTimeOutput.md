@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T16:07:01.921Z*
+🕐 *Last updated: 2025-11-13T16:07:43.088Z*
 
 ---
 

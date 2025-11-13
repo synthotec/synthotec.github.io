@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 1
 - **UUID:** 29D34E506C4DF7418EA055008A0624CE
 - **Primary Key:** 🔑 `Customer_Code`
-- **Generated:** 🕐 2025-11-13T02:47:40Z
+- **Generated:** 🕐 2025-11-13T16:07:52Z
 
 ---
 
@@ -130,4 +130,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:47:40Z*
+*Generated at: 2025-11-13T16:07:52Z*

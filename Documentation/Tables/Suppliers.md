@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 18
 - **UUID:** DD48C27A4EEF9442A7DB4C93B8CD90D3
 - **Primary Key:** 🔑 `SupplierID_l`
-- **Generated:** 🕐 2025-11-13T02:47:54Z
+- **Generated:** 🕐 2025-11-13T16:08:06Z
 
 ---
 
@@ -81,4 +81,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:47:54Z*
+*Generated at: 2025-11-13T16:08:06Z*
