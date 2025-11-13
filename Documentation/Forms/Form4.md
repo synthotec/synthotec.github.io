@@ -16,31 +16,24 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
-| **Generated** | 🕐 2025-11-13T10:32:52.319Z |
+| **Generated** | 🕐 2025-11-13T10:41:15.446Z |
 
 ## 🎯 Form Events
 
 This form handles **15** events:
 
-<div style="column-count: 2;">
-
-- `onLoad`
-- `onPageChange`
-- `onValidate`
-- `onClick`
-- `onDoubleClick`
-- `onOutsideCall`
-- `onBeginDragOver`
-- `onDragOver`
-- `onDrop`
-- `onAfterKeystroke`
-- `onMenuSelect`
-- `onPluginArea`
-- `onAfterEdit`
-- `onTimer`
-- `onBoundVariableChange`
-
-</div>
+| Column 1 | Column 2 |
+|:---------|:---------|
+| `onLoad` | `onMenuSelect` |
+| `onPageChange` | `onPluginArea` |
+| `onValidate` | `onAfterEdit` |
+| `onClick` | `onTimer` |
+| `onDoubleClick` | `onBoundVariableChange` |
+| `onOutsideCall` |  |
+| `onBeginDragOver` |  |
+| `onDragOver` |  |
+| `onDrop` |  |
+| `onAfterKeystroke` |  |
 
 ---
 

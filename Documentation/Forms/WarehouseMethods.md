@@ -14,32 +14,24 @@ parent : Forms
 | **Destination** | detailScreen |
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
-| **Generated** | 🕐 2025-11-13T10:32:52.507Z |
+| **Generated** | 🕐 2025-11-13T10:41:15.606Z |
 
 ## 🎯 Form Events
 
 This form handles **16** events:
 
-<div style="column-count: 2;">
-
-- `onLoad`
-- `onValidate`
-- `onClick`
-- `onOutsideCall`
-- `onDoubleClick`
-- `onDrop`
-- `onMenuSelect`
-- `onPluginArea`
-- `onDataChange`
-- `onDragOver`
-- `onTimer`
-- `onAfterKeystroke`
-- `onAfterEdit`
-- `onBeginDragOver`
-- `onBoundVariableChange`
-- `onPageChange`
-
-</div>
+| Column 1 | Column 2 |
+|:---------|:---------|
+| `onLoad` | `onTimer` |
+| `onValidate` | `onAfterKeystroke` |
+| `onClick` | `onAfterEdit` |
+| `onOutsideCall` | `onBeginDragOver` |
+| `onDoubleClick` | `onBoundVariableChange` |
+| `onDrop` | `onPageChange` |
+| `onMenuSelect` |  |
+| `onPluginArea` |  |
+| `onDataChange` |  |
+| `onDragOver` |  |
 
 ## 🧩 Form Objects
 
