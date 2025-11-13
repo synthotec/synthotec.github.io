@@ -25,7 +25,7 @@ Main view showing the Bill of Materials interface with listbox for parts selecti
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T15:02:54.955Z |
+| **Generated** | 🕐 2025-11-13T15:37:17.262Z |
 
 ---
 
@@ -69,12 +69,31 @@ This form handles **17** of **44** possible events:
 
 **Total Objects:** 10
 
+### Object Type Summary
+
 | Object Type | Count |
 |:------------|------:|
 | 📋 listbox | 2 |
 | 🔘 button | 4 |
-| 🔹 subform | 2 |
+| 🔲 subform | 2 |
 | 📥 dropdown | 2 |
+
+### Interactive Objects by Page
+
+#### Page 1
+
+| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | MasterList | List Box.4dm |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | Button1.4dm |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | List Box1.4dm |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | SearchPicker.4dm |
+| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | BOM_AddProductCustomers | - |
+| SearchPicker1 | 🔲 subform | ✅ | ✅ | ❌ | BOM_AddProductFilter | SearchPicker1.4dm |
+| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | BOM_AddProductArray | - |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | Button.4dm |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | Button2.4dm |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | Button3.4dm |
 
 ---
 
