@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.708Z*
+🕐 *Last updated: 2025-11-13T13:39:35.793Z*
 
 ---
 
@@ -29,10 +29,6 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [addCell](#addcell) (4 params)
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -77,12 +73,6 @@ Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
 | `$Formula` | `Text` | - | - |
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.907Z*
+🕐 *Last updated: 2025-11-13T13:39:35.991Z*
 
 ---
 
@@ -37,10 +37,6 @@ parent : Classes
 - [show](#show) → `Variant`
 - [_addMenuItems](#_addmenuitems) (1 param)
 - [_release](#_release)
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -172,12 +168,6 @@ Function _release
 ```
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

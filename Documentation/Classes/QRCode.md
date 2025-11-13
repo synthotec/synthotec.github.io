@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:33:27.274Z*
+🕐 *Last updated: 2025-11-13T13:39:36.345Z*
 
 ---
 
@@ -31,10 +31,6 @@ parent : Classes
 
 - [BarcodeType](#barcodetype) → `Text`
 - [PrimaryKey](#primarykey) → `Integer`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -150,12 +146,6 @@ Function PrimaryKey -> Integer
 **Returns:** `Integer`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

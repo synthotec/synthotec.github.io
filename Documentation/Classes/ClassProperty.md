@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class property
 
-🕐 *Last updated: 2025-11-13T13:33:26.363Z*
+🕐 *Last updated: 2025-11-13T13:39:35.461Z*
 
 ---
 
@@ -27,10 +27,6 @@ parent : Classes
 
 - [setDefault](#setdefault) (1 param)
 - [toObject](#toobject) → `Object`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -83,12 +79,6 @@ Function toObject -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

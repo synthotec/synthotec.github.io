@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
 
-🕐 *Last updated: 2025-11-13T13:33:26.760Z*
+🕐 *Last updated: 2025-11-13T13:39:35.850Z*
 
 ---
 
@@ -32,10 +32,6 @@ parent : Classes
 - [toObject](#toobject) → `Object`
 - [toJSON](#tojson) → `Text`
 - [saveToFile](#savetofile)
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -156,12 +152,6 @@ Function saveToFile
 Save to file
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

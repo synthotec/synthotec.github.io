@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:33:27.283Z*
+🕐 *Last updated: 2025-11-13T13:39:36.356Z*
 
 ---
 
@@ -36,10 +36,6 @@ parent : Classes
 
 - [valueType](#valuetype) → `Integer`
 - [booleanResult](#booleanresult) → `Variant`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -114,12 +110,6 @@ Function booleanResult -> Variant
 **Returns:** `Variant`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

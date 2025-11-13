@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:33:27.665Z*
+🕐 *Last updated: 2025-11-13T13:39:36.731Z*
 
 ---
 
@@ -33,10 +33,6 @@ parent : Classes
 **🔍 Getters (1):**
 
 - [Success](#success) → `Boolean`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -108,12 +104,6 @@ Function Success -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

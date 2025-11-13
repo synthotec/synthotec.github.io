@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:27.430Z*
+🕐 *Last updated: 2025-11-13T13:39:36.507Z*
 
 ---
 
@@ -31,10 +31,6 @@ parent : Classes
 - [getScannerText](#getscannertext) → `Text`
 - [getRestPostObject](#getrestpostobject) → `Object`
 - [toObject](#toobject) → `Object`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -120,12 +116,6 @@ Function toObject -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

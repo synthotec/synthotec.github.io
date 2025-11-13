@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:27.485Z*
+🕐 *Last updated: 2025-11-13T13:39:36.565Z*
 
 ---
 
@@ -32,10 +32,6 @@ parent : Classes
 - [createMessage](#createmessage) (2 params) → `Text`
 - [updateMessage](#updatemessage) (3 params) → `Boolean`
 - [deleteMessage](#deletemessage) (1 param) → `Boolean`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -189,12 +185,6 @@ Function deleteMessage($MessageTimeStamp : Text) -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

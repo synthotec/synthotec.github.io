@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:27.146Z*
+🕐 *Last updated: 2025-11-13T13:39:36.218Z*
 
 ---
 
@@ -29,10 +29,6 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [importPrices](#importprices) → `Object`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -70,12 +66,6 @@ Function importPrices -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

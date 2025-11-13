@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:27.519Z*
+🕐 *Last updated: 2025-11-13T13:39:36.598Z*
 
 ---
 
@@ -38,10 +38,6 @@ parent : Classes
 - [GetStockEntitySelection](#getstockentityselection) → `4D.EntitySelection`
 - [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `Boolean`
 - [GetQuarantineReason](#getquarantinereason) → `Text`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -318,12 +314,6 @@ Function GetQuarantineReason -> Text
 **Returns:** `Text`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:33:27.372Z*
+🕐 *Last updated: 2025-11-13T13:39:36.447Z*
 
 ---
 
@@ -31,10 +31,6 @@ parent : Classes
 
 - [ZoneName](#zonename) → `Text`
 - [InRange](#inrange) → `Boolean`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -91,12 +87,6 @@ Function InRange -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

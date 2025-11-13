@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T13:33:26.622Z*
+🕐 *Last updated: 2025-11-13T13:39:35.713Z*
 
 ---
 
@@ -54,10 +54,6 @@ parent : Classes
 - [_MigrationSettings](#_migrationsettings) → `Object`
 - [DataClassName](#dataclassname) → `Text`
 - [MigrationPropertyExists](#migrationpropertyexists) → `Boolean`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -350,12 +346,6 @@ Check if the dataclass has a MigrationID property
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.632Z*
+🕐 *Last updated: 2025-11-13T13:39:35.721Z*
 
 ---
 
@@ -32,10 +32,6 @@ parent : Classes
 - [addCriteria](#addcriteria) (1 param) → `cs.EntityMigrationRule`
 - [addEntity](#addentity) (4 params) → `cs.EntityMigrationRule`
 - [apply](#apply) (2 params)
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -166,12 +162,6 @@ Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
 | `$RemoteEntity` | `4D.Entity` | - | - |
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

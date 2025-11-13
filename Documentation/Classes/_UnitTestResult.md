@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-13T13:33:27.722Z*
+🕐 *Last updated: 2025-11-13T13:39:36.789Z*
 
 ---
 
@@ -32,10 +32,6 @@ parent : Classes
 - [TestFormulaText](#testformulatext) → `Text`
 - [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) → `Text`
 - [StatusEmoji](#statusemoji) → `Text`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -96,12 +92,6 @@ Function StatusEmoji -> Text
 **Returns:** `Text`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

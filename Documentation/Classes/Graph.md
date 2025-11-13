@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.801Z*
+🕐 *Last updated: 2025-11-13T13:39:35.890Z*
 
 ---
 
@@ -22,10 +22,6 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [generate](#generate) → `Picture`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -56,12 +52,6 @@ GRAPH($Picture; This.Settings;
 **Returns:** `Picture`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

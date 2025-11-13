@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.800Z*
+🕐 *Last updated: 2025-11-13T13:39:35.888Z*
 
 ---
 
@@ -25,10 +25,6 @@ parent : Classes
 - [createIssue](#createissue) (3 params) → `Object`
 - [getIssues](#getissues) (1 param) → `Collection`
 - [onError](#onerror) (2 params)
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -117,12 +113,6 @@ Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
 | `$Event` | `Object` | - | - |
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

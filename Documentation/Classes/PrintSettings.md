@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:27.176Z*
+🕐 *Last updated: 2025-11-13T13:39:36.245Z*
 
 ---
 
@@ -34,10 +34,6 @@ parent : Classes
 - [save](#save) (1 param) → `cs.PrintSettings`
 - [apply](#apply) → `Boolean`
 - [restore](#restore) → `Boolean`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -142,12 +138,6 @@ Function restore -> Boolean
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

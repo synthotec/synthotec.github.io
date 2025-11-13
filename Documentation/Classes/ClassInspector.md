@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T13:33:26.356Z*
+🕐 *Last updated: 2025-11-13T13:39:35.455Z*
 
 ---
 
@@ -52,10 +52,6 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 - [toObject](#toobject) → `Object`
 - [toJSON](#tojson) → `Text`
 - [saveToFile](#savetofile) → `4D.File`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -294,12 +290,6 @@ Save JSON to file in Documentation\json\Classes folder
 **Returns:** `4D.File`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

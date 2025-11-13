@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.714Z*
+🕐 *Last updated: 2025-11-13T13:39:35.802Z*
 
 ---
 
@@ -37,10 +37,6 @@ parent : Classes
 - [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
 - [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
 - [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -145,12 +141,6 @@ Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileSt
 **Returns:** `cs.ExcelXMLFileStyle`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

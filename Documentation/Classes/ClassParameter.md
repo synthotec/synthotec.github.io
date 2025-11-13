@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T13:33:26.359Z*
+🕐 *Last updated: 2025-11-13T13:39:35.457Z*
 
 ---
 
@@ -26,10 +26,6 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [toObject](#toobject) → `Object`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -67,12 +63,6 @@ Function toObject -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 

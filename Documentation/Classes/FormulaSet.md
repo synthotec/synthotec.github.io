@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:33:26.792Z*
+🕐 *Last updated: 2025-11-13T13:39:35.882Z*
 
 ---
 
@@ -29,10 +29,6 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [apply](#apply) → `Variant`
-
-### 🔗 Related Items
-
-- [Classes](#-related-classes) (1)
 
 ---
 
@@ -78,12 +74,6 @@ Function apply -> Variant
 **Returns:** `Variant`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [](.md) - Extends this class
 
 ---
 
