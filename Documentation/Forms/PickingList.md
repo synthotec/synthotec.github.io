@@ -14,7 +14,16 @@ parent : Forms
 | **Destination** | detailScreen |
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
-| **Generated** | 🕐 2025-11-13T13:14:53.049Z |
+| **Generated** | 🕐 2025-11-13T13:29:04.935Z |
+
+---
+
+## 📑 Table of Contents
+
+- [🎯 Form Events](#-form-events) (16)
+- [🧩 Form Objects](#-form-objects) (1)
+
+---
 
 ## 🎯 Form Events
 

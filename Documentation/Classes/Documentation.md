@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T13:14:50.870Z*
+🕐 *Last updated: 2025-11-13T13:29:02.603Z*
 
 ---
 
@@ -43,6 +43,10 @@ parent : Classes
 - [discoverRelationships](#discoverrelationships) → `Integer`
 - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
 - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

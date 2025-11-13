@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T13:14:51.943Z*
+🕐 *Last updated: 2025-11-13T13:29:03.680Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [CheckInRange](#checkinrange) (1 param) → `Boolean`
 - [CheckTargetsSet](#checktargetsset) (1 param) → `Boolean`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

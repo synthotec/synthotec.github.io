@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.602Z*
+🕐 *Last updated: 2025-11-13T13:29:03.320Z*
 
 ---
 
@@ -26,6 +26,10 @@ parent : Classes
 - [MouldOpenTime](#mouldopentime) → `Real`
 - [StartTime](#starttime) → `Time`
 - [EndDateTime](#enddatetime) → `cs.System.DateTime`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

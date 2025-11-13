@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T13:14:50.934Z*
+🕐 *Last updated: 2025-11-13T13:29:02.662Z*
 
 ---
 
@@ -36,6 +36,10 @@ parent : Classes
 **✏️ Setters (1):**
 
 - [selectedEntity](#selectedentity) (1 param)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

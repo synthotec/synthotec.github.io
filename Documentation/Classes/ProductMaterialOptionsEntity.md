@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.544Z*
+🕐 *Last updated: 2025-11-13T13:29:03.258Z*
 
 ---
 
@@ -25,6 +25,10 @@ parent : Classes
 **🔍 Getters (1):**
 
 - [Default](#default) → `Boolean`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

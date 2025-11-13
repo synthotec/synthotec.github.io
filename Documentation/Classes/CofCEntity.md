@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:50.662Z*
+🕐 *Last updated: 2025-11-13T13:29:02.402Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Functions (1):**
 
 - [cancel](#cancel) → `Boolean`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

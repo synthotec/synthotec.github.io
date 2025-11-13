@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.345Z*
+🕐 *Last updated: 2025-11-13T13:29:03.042Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `cs.StaffPermissionsEntity` 🖥️
 - [displayWarning](#displaywarning) (1 param) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

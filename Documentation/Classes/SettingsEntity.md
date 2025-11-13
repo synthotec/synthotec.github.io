@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.765Z*
+🕐 *Last updated: 2025-11-13T13:29:03.491Z*
 
 ---
 
@@ -24,6 +24,10 @@ parent : Classes
 - [getValue](#getvalue) (1 param) → `Variant` 🖥️
 - [getObject](#getobject) (1 param) → `Object` 🖥️
 - [reset](#reset) → `Boolean` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

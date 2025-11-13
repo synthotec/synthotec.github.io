@@ -16,7 +16,16 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T13:14:52.865Z |
+| **Generated** | 🕐 2025-11-13T13:29:04.790Z |
+
+---
+
+## 📑 Table of Contents
+
+- [🎯 Form Events](#-form-events) (16)
+- [🧩 Form Objects](#-form-objects) (5)
+
+---
 
 ## 🎯 Form Events
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-🕐 *Last updated: 2025-11-13T13:14:51.893Z*
+🕐 *Last updated: 2025-11-13T13:29:03.624Z*
 
 ---
 
@@ -39,6 +39,10 @@ parent : Classes
 - [toObject](#toobject) → `Object`
 - [toJSON](#tojson) → `Text`
 - [saveToFile](#savetofile)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

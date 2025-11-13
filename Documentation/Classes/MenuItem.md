@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:14:51.214Z*
+🕐 *Last updated: 2025-11-13T13:29:02.913Z*
 
 ---
 
@@ -42,6 +42,10 @@ parent : Classes
 **🔍 Getters (1):**
 
 - [_Style](#_style) → `Integer`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

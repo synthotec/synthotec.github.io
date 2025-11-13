@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.777Z*
+🕐 *Last updated: 2025-11-13T13:29:03.502Z*
 
 ---
 
@@ -25,6 +25,10 @@ parent : Classes
 
 - [ShiftSymbol](#shiftsymbol) → `Text`
 - [ShiftColor](#shiftcolor) → `Integer`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T13:14:51.657Z*
+🕐 *Last updated: 2025-11-13T13:29:03.375Z*
 
 ---
 
@@ -63,6 +63,10 @@ parent : Classes
 - [MachineNumberText](#machinenumbertext) → `Text`
 - [PartNameText](#partnametext) → `Text`
 - [UnicodeSymbolsText](#unicodesymbolstext) → `Text`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

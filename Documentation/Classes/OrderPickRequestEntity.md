@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.224Z*
+🕐 *Last updated: 2025-11-13T13:29:02.923Z*
 
 ---
 
@@ -36,6 +36,10 @@ parent : Classes
 - [Pallets](#pallets) (1 param)
 - [Boxes](#boxes) (1 param)
 - [Parts](#parts) (1 param)
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

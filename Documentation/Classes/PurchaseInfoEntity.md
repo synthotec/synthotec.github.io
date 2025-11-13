@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.563Z*
+🕐 *Last updated: 2025-11-13T13:29:03.277Z*
 
 ---
 
@@ -25,6 +25,10 @@ parent : Classes
 
 - [OutstandingQuantity](#outstandingquantity) → `Real`
 - [value](#value) → `Real`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

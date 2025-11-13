@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (22)
 - [🔍 Indexes](#-indexes) (4)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
 
 ---
 

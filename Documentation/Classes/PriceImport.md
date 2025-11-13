@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:51.438Z*
+🕐 *Last updated: 2025-11-13T13:29:03.141Z*
 
 ---
 
@@ -29,6 +29,10 @@ parent : Classes
 **⚙️ Functions (1):**
 
 - [importPrices](#importprices) → `Object`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

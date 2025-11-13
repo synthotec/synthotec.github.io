@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.540Z*
+🕐 *Last updated: 2025-11-13T13:29:03.254Z*
 
 ---
 
@@ -41,6 +41,10 @@ parent : Classes
 **✏️ Setters (1):**
 
 - [MainToolRegrind](#maintoolregrind) (1 param)
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

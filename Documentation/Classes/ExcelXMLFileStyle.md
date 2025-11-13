@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:51.005Z*
+🕐 *Last updated: 2025-11-13T13:29:02.722Z*
 
 ---
 
@@ -37,6 +37,10 @@ parent : Classes
 - [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
 - [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
 - [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

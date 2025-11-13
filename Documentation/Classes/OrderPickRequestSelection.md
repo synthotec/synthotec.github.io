@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T13:14:51.226Z*
+🕐 *Last updated: 2025-11-13T13:29:02.925Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Functions (1):**
 
 - [getUnprocessedQuantity](#getunprocessedquantity) → `Integer` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (34)
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
 
 ---
 

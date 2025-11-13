@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:50.671Z*
+🕐 *Last updated: 2025-11-13T13:29:02.409Z*
 
 ---
 
@@ -31,6 +31,10 @@ parent : Classes
 - [GetCurrentValue](#getcurrentvalue) → `Variant`
 - [GetCurrentPrimaryKey](#getcurrentprimarykey) → `Integer`
 - [GetCurrentEntity](#getcurrententity) → `4D.Entity`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

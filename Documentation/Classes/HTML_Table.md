@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-13T13:14:51.115Z*
+🕐 *Last updated: 2025-11-13T13:29:02.830Z*
 
 ---
 
@@ -30,6 +30,10 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 - [Output](#output) → `Text`
 - [HTML_Cell](#html_cell) (7 params) → `Object`
 - [merge](#merge) (2 params)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

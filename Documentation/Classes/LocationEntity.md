@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.144Z*
+🕐 *Last updated: 2025-11-13T13:29:02.860Z*
 
 ---
 
@@ -32,6 +32,10 @@ parent : Classes
 - [DisplayName](#displayname) → `Text`
 - [ListboxMetaExpression](#listboxmetaexpression) → `Object`
 - [Level](#level) → `Integer`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

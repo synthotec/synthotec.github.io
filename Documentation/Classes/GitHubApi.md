@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:51.091Z*
+🕐 *Last updated: 2025-11-13T13:29:02.808Z*
 
 ---
 
@@ -25,6 +25,10 @@ parent : Classes
 - [createIssue](#createissue) (3 params) → `Object`
 - [getIssues](#getissues) (1 param) → `Collection`
 - [onError](#onerror) (2 params)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.336Z*
+🕐 *Last updated: 2025-11-13T13:29:03.034Z*
 
 ---
 
@@ -35,6 +35,10 @@ parent : Classes
 - [GrossWeightKg](#grossweightkg) → `Real`
 - [QRObject](#qrobject) → `Object`
 - [HasMigrationID](#hasmigrationid) → `Boolean`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

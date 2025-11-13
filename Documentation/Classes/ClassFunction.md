@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class function
 
-🕐 *Last updated: 2025-11-13T13:14:50.602Z*
+🕐 *Last updated: 2025-11-13T13:29:02.349Z*
 
 ---
 
@@ -28,6 +28,10 @@ parent : Classes
 - [addModifier](#addmodifier) (1 param)
 - [addParameter](#addparameter) (1 param)
 - [toObject](#toobject) → `Object`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

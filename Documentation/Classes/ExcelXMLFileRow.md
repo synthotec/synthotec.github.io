@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:50.997Z*
+🕐 *Last updated: 2025-11-13T13:29:02.717Z*
 
 ---
 
@@ -29,6 +29,10 @@ parent : Classes
 **⚙️ Functions (1):**
 
 - [addCell](#addcell) (4 params)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

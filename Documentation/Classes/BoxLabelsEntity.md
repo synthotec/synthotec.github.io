@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:50.597Z*
+🕐 *Last updated: 2025-11-13T13:29:02.341Z*
 
 ---
 
@@ -51,6 +51,10 @@ parent : Classes
 - [toolIsRunning](#toolisrunning) → `Boolean`
 - [HasMigrationID](#hasmigrationid) → `Boolean`
 - [TestProduct](#testproduct) → `cs.ProductEntity`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

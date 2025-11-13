@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:14:51.476Z*
+🕐 *Last updated: 2025-11-13T13:29:03.189Z*
 
 ---
 
@@ -40,6 +40,10 @@ parent : Classes
 
 - [AllLinesActioned](#alllinesactioned) → `Boolean`
 - [UnactionedLines](#unactionedlines) → `Collection`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

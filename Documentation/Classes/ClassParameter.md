@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T13:14:50.656Z*
+🕐 *Last updated: 2025-11-13T13:29:02.395Z*
 
 ---
 
@@ -26,6 +26,10 @@ parent : Classes
 **⚙️ Functions (1):**
 
 - [toObject](#toobject) → `Object`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

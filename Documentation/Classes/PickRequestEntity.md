@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.425Z*
+🕐 *Last updated: 2025-11-13T13:29:03.126Z*
 
 ---
 
@@ -40,6 +40,10 @@ parent : Classes
 - [PickingStarted](#pickingstarted) → `Boolean`
 - [Status](#status) → `Text`
 - [StatusColor](#statuscolor) → `Integer`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T13:14:51.513Z*
+🕐 *Last updated: 2025-11-13T13:29:03.224Z*
 
 ---
 
@@ -76,6 +76,10 @@ parent : Classes
 - [Meta->$Meta](#meta->$meta) → `cs.UI.ListBoxMeta`
 - [StatusText->$StatusText](#statustext->$statustext) → `Text`
 - [ActionText->$ActionText](#actiontext->$actiontext) → `Text`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

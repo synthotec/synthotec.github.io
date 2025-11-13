@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.774Z*
+🕐 *Last updated: 2025-11-13T13:29:03.499Z*
 
 ---
 
@@ -27,6 +27,10 @@ parent : Classes
 - [Status](#status) → `Integer`
 - [StatusText](#statustext) → `Text`
 - [StatusColor](#statuscolor) → `Integer`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

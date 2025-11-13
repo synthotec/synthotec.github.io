@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T13:14:51.624Z*
+🕐 *Last updated: 2025-11-13T13:29:03.340Z*
 
 ---
 
@@ -30,6 +30,10 @@ parent : Classes
 - [SummaryText](#summarytext) → `Text`
 - [Layout](#layout) → `Object`
 - [InfoTextBox](#infotextbox) → `Object`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

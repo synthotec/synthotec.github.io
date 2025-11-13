@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:50.531Z*
+🕐 *Last updated: 2025-11-13T13:29:02.283Z*
 
 ---
 
@@ -23,6 +23,10 @@ parent : Classes
 - [print](#print) 🖥️
 - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
 - [cancel](#cancel) → `Boolean` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

@@ -15,7 +15,16 @@ parent : Forms
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T13:14:52.846Z |
+| **Generated** | 🕐 2025-11-13T13:29:04.777Z |
+
+---
+
+## 📑 Table of Contents
+
+- [🎯 Form Events](#-form-events) (16)
+- [🧩 Form Objects](#-form-objects) (1)
+
+---
 
 ## 🎯 Form Events
 

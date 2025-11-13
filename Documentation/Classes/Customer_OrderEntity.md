@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:50.711Z*
+🕐 *Last updated: 2025-11-13T13:29:02.452Z*
 
 ---
 
@@ -41,6 +41,10 @@ parent : Classes
 **✏️ Setters (1):**
 
 - [OutstandingToDeliver](#outstandingtodeliver) (1 param)
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

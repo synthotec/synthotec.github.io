@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.150Z*
+🕐 *Last updated: 2025-11-13T13:29:02.865Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [TimeStamp](#timestamp) → `Text`
 - [TimeStampWithTab](#timestampwithtab) → `Text`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

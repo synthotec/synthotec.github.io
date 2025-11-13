@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T13:14:51.757Z*
+🕐 *Last updated: 2025-11-13T13:29:03.480Z*
 
 ---
 
@@ -28,6 +28,10 @@ parent : Classes
 
 - [displayAlert](#displayalert) (2 params)
 - [unlock](#unlock)
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

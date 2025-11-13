@@ -22,6 +22,8 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (8)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
 
 ---
 

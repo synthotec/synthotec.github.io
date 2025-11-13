@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T13:14:50.887Z*
+🕐 *Last updated: 2025-11-13T13:29:02.619Z*
 
 ---
 
@@ -42,6 +42,10 @@ parent : Classes
 - [setSubject](#setsubject) (1 param)
 - [attachFile](#attachfile) (2 params)
 - [send](#send) → `Boolean`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

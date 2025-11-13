@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:51.454Z*
+🕐 *Last updated: 2025-11-13T13:29:03.158Z*
 
 ---
 
@@ -32,6 +32,10 @@ parent : Classes
 - [isLabelPrinter](#islabelprinter) → `Boolean`
 - [isDocumentPrinter](#isdocumentprinter) → `Boolean`
 - [TypeDisplay](#typedisplay) → `Text`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

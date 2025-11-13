@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Manages relationships/links between Forms, Tables, and Classes for documentation
 
-🕐 *Last updated: 2025-11-13T13:14:51.730Z*
+🕐 *Last updated: 2025-11-13T13:29:03.452Z*
 
 ---
 
@@ -36,6 +36,10 @@ parent : Classes
 - [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Object`
 - [save](#save)
 - [toJSON](#tojson) → `Text`
+
+### 🔗 Related Items
+
+- [Classes](#-related-classes) (1)
 
 ---
 

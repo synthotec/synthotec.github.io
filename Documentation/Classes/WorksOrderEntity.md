@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:52.008Z*
+🕐 *Last updated: 2025-11-13T13:29:03.747Z*
 
 ---
 
@@ -38,6 +38,10 @@ parent : Classes
 - [IsOpen](#isopen) → `Boolean`
 - [HasMigrationID](#hasmigrationid) → `Boolean`
 - [ExS1Stock](#exs1stock) → `Integer`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 

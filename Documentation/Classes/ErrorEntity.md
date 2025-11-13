@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:14:50.950Z*
+🕐 *Last updated: 2025-11-13T13:29:02.674Z*
 
 ---
 
@@ -29,6 +29,10 @@ parent : Classes
 - [GitHubIssueTitle](#githubissuetitle) → `Text`
 - [FirstOccurrence](#firstoccurrence) → `Text`
 - [LastOccurrence](#lastoccurrence) → `Text`
+
+### 🔗 Related Items
+
+- [Tables](#-tables) (1)
 
 ---
 
