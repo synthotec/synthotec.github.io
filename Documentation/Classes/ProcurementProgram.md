@@ -7,24 +7,13 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:52:49.809Z*
+🕐 *Last updated: 2025-11-13T14:26:50.497Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (10)
-
-- [Lines](#lines) : `Collection`
-- [ItemNumberIndex](#itemnumberindex)
-- [StatusIndex](#statusindex)
-- [QuantityIndex](#quantityindex)
-- [DueDateIndex](#duedateindex)
-- [ItemDescriptionIndex](#itemdescriptionindex)
-- [VmiIndex](#vmiindex)
-- [WarehouseIndex](#warehouseindex)
-- [ErrorOccurred](#erroroccurred) : `Boolean`
-- [ds](#ds)
+- [📋 Properties (10)](#-properties)
 
 ### ⚙️ Functions
 

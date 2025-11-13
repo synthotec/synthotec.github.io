@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-13T13:52:49.442Z*
+🕐 *Last updated: 2025-11-13T14:26:50.101Z*
 
 ---
 

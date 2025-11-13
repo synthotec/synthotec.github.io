@@ -7,18 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.765Z*
+🕐 *Last updated: 2025-11-13T14:26:50.456Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (4)
-
-- [PasteBoardText](#pasteboardtext) : `Text`
-- [ColumnNames](#columnnames)
-- [DataLines](#datalines)
-- [CellCollection](#cellcollection)
+- [📋 Properties (4)](#-properties)
 
 ### ⚙️ Functions
 

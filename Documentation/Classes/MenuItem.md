@@ -7,26 +7,13 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:52:49.534Z*
+🕐 *Last updated: 2025-11-13T14:26:50.205Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (12)
-
-- [_UUID](#uuid) : `Text`
-- [_IsFormulaItem](#isformulaitem) : `Boolean`
-- [_Formula](#formula) : `Variant`
-- [_IsVariantItem](#isvariantitem) : `Boolean`
-- [_Variant](#variant) : `Variant`
-- [MenuText](#menutext) : `Text`
-- [Bold](#bold) : `Boolean`
-- [Italic](#italic) : `Boolean`
-- [Underline](#underline) : `Boolean`
-- [Checked](#checked) : `Boolean`
-- [Enabled](#enabled) : `Boolean`
-- [_IsSeperator](#isseperator) : `Boolean`
+- [📋 Properties (12)](#-properties)
 
 ### ⚙️ Functions
 

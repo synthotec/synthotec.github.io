@@ -7,16 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T13:52:49.264Z*
+🕐 *Last updated: 2025-11-13T14:26:49.898Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [EntitySelection](#entityselection) : `4D.EntitySelection`
-- [_selectedEntity](#selectedentity) : `4D.Entity`
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 

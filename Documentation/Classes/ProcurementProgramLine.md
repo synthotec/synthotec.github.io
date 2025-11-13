@@ -11,32 +11,13 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T13:52:49.845Z*
+🕐 *Last updated: 2025-11-13T14:26:50.533Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (18)
-
-- [ItemNumber](#itemnumber) : `Text`
-- [OrderNumber](#ordernumber) : `Text`
-- [Quantity](#quantity) : `Integer`
-- [DueDate](#duedate) : `Date`
-- [ItemDescription](#itemdescription) : `Text`
-- [Vmi](#vmi) : `Boolean`
-- [Warehouse](#warehouse) : `Text`
-- [Product_OptionEntity](#productoptionentity) : `cs.Product_OptionEntity`
-- [Customer_OrderEntity](#customerorderentity) : `cs.Customer_OrderEntity`
-- [ProcurementProgram](#procurementprogram) : `cs.ProcurementProgram`
-- [RemovedFromProgram](#removedfromprogram) : `Boolean`
-- [Action_CreateForecast](#actioncreateforecast) : `Boolean`
-- [Action_CreateOrder](#actioncreateorder) : `Boolean`
-- [Action_Ignore](#actionignore) : `Boolean`
-- [Action_CloseOrder](#actioncloseorder) : `Boolean`
-- [Action_UpdateOrder](#actionupdateorder) : `Boolean`
-- [WarehouseWithCustomerCode](#warehousewithcustomercode) : `Text`
-- [ds](#ds)
+- [📋 Properties (18)](#-properties)
 
 ### ⚙️ Functions
 

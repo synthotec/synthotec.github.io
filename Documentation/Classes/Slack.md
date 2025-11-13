@@ -7,15 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:50.141Z*
+🕐 *Last updated: 2025-11-13T14:26:50.827Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (1)
-
-- [ChannelID](#channelid) : `Text`
+- [📋 Properties (1)](#-properties)
 
 ### ⚙️ Functions
 

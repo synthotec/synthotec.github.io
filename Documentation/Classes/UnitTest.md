@@ -7,17 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:52:50.326Z*
+🕐 *Last updated: 2025-11-13T14:26:51.014Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (3)
-
-- [Description; Process](#description; process) : `Text`
-- [UnitTestResults](#unittestresults) : `Collection`
-- [FailedTestCount](#failedtestcount) : `Integer`
+- [📋 Properties (3)](#-properties)
 
 ### ⚙️ Functions
 

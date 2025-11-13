@@ -7,18 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.411Z*
+🕐 *Last updated: 2025-11-13T14:26:50.065Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (4)
-
-- [_FormulaCollection](#formulacollection) : `Collection`
-- [_ThisObject](#thisobject) : `4D.Function`
-- [_Parameters](#parameters) : `Collection`
-- [FormulaResults](#formularesults) : `Collection`
+- [📋 Properties (4)](#-properties)
 
 ### ⚙️ Functions
 

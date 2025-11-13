@@ -7,23 +7,13 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.330Z*
+🕐 *Last updated: 2025-11-13T14:26:49.971Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (9)
-
-- [NumberFormat_ShortDate](#numberformatshortdate) : `Text`
-- [NumberFormat_dd_mmm](#numberformatddmmm) : `Text`
-- [NumberFormat_Decimal](#numberformatdecimal) : `Text`
-- [NumberFormat_Number](#numberformatnumber) : `Text`
-- [Font](#font) : `Object`
-- [Interior](#interior) : `Object`
-- [Alignment](#alignment) : `Object`
-- [NumberFormat](#numberformat) : `Text`
-- [ID](#id) : `Text`
+- [📋 Properties (9)](#-properties)
 
 ### ⚙️ Functions
 

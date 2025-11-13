@@ -7,16 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.255Z*
+🕐 *Last updated: 2025-11-13T14:26:49.890Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [FormulaObjectCollection](#formulaobjectcollection)
-- [CriteriaCollection](#criteriacollection)
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 

@@ -7,19 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-13T13:52:50.389Z*
+🕐 *Last updated: 2025-11-13T14:26:51.073Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (5)
-
-- [UnitTest](#unittest) : `cs.UnitTest`
-- [Success; ErrorOccurred](#success; erroroccurred) : `Boolean`
-- [StackTrace](#stacktrace) : `Collection`
-- [TestFormula](#testformula) : `4D.Function`
-- [TestFormulaParameters](#testformulaparameters) : `Collection`
+- [📋 Properties (5)](#-properties)
 
 ### ⚙️ Functions
 

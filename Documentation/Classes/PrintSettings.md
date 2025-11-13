@@ -7,19 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.798Z*
+🕐 *Last updated: 2025-11-13T14:26:50.486Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (5)
-
-- [Name](#name) : `Text`
-- [Paper](#paper) : `Text`
-- [Orientation](#orientation) : `Integer`
-- [Copies](#copies) : `Integer`
-- [CurrentPrinter](#currentprinter) : `Text`
+- [📋 Properties (5)](#-properties)
 
 ### ⚙️ Functions
 

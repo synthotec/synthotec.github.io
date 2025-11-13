@@ -7,20 +7,13 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.529Z*
+🕐 *Last updated: 2025-11-13T14:26:50.199Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (6)
-
-- [_MenuItems](#menuitems) : `Collection`
-- [_MenuReference](#menureference) : `Text`
-- [_SubMenu](#submenu) : `Boolean`
-- [_SubMenuText](#submenutext) : `Text`
-- [_MenuItemCollection](#menuitemcollection) : `Collection`
-- [Cancelled](#cancelled) : `Boolean`
+- [📋 Properties (6)](#-properties)
 
 ### ⚙️ Functions
 

@@ -7,19 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:52:50.020Z*
+🕐 *Last updated: 2025-11-13T14:26:50.707Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (5)
-
-- [Index](#index) : `Integer`
-- [Zone](#zone) : `Integer`
-- [CelsiusValue](#celsiusvalue) : `Real`
-- [_WorksOrderEntity](#worksorderentity) : `cs.WorksOrderEntity`
-- [ToolTemperatureTargetEntity](#tooltemperaturetargetentity) : `cs.ToolTemperatureTargetEntity`
+- [📋 Properties (5)](#-properties)
 
 ### ⚙️ Functions
 

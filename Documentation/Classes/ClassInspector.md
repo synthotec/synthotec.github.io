@@ -5,31 +5,20 @@ parent : Classes
 ---
 # ClassInspector
 
-📊 **Overview:** 10 Properties | 1 Constructor | 13 Functions
+📊 **Overview:** 10 Properties | 1 Constructor | 14 Functions
 
 ## 📝 Description
 
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T13:52:48.978Z*
+🕐 *Last updated: 2025-11-13T14:26:49.590Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (10)
-
-- [ClassName](#classname) : `Text`
-- [SuperClass](#superclass) : `Text`
-- [ClassAutoComment](#classautocomment) : `Text`
-- [ClassManualComment](#classmanualcomment) : `Text`
-- [Properties](#properties) : `Collection`
-- [Functions](#functions) : `Collection`
-- [Source](#source) : `Text`
-- [OutputFolder](#outputfolder) : `4D.Folder`
-- [ExistingJSON](#existingjson) : `Object`
-- [Changes](#changes) : `Collection`
+- [📋 Properties (10)](#-properties)
 
 ### ⚙️ Functions
 
@@ -37,7 +26,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Regular Functions (13):**
+**⚙️ Regular Functions (14):**
 
 - [_parse](#_parse)
 - [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
@@ -46,6 +35,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 - [_loadExistingJSON](#_loadexistingjson)
 - [_mergeExistingPropertyComment](#_mergeexistingpropertycomment) (1 param)
 - [_mergeExistingClassComment](#_mergeexistingclasscomment)
+- [_preserveExistingExamples](#_preserveexistingexamples)
 - [_mergeExistingFunctionComment](#_mergeexistingfunctioncomment) (1 param)
 - [_mergeExistingParameterComment](#_mergeexistingparametercomment) (2 params)
 - [_recordChange](#_recordchange) (1 param)
@@ -197,6 +187,17 @@ Function _mergeExistingClassComment
 ```
 
 Merge existing class comment if available
+
+---
+
+#### _preserveExistingExamples {#_preserveexistingexamples}
+
+
+```4d
+Function _preserveExistingExamples
+```
+
+Initialize examples array
 
 ---
 

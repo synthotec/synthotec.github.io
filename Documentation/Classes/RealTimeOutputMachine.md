@@ -11,24 +11,13 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T13:52:49.999Z*
+🕐 *Last updated: 2025-11-13T14:26:50.687Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (10)
-
-- [RealTimeMachinesEntity](#realtimemachinesentity) : `cs.RealTimeMachinesEntity`
-- [WorksOrderEntity](#worksorderentity) : `cs.WorksOrderEntity`
-- [ProductEntity](#productentity) : `cs.ProductEntity`
-- [ToolsEntity](#toolsentity) : `cs.ToolsEntity`
-- [DownReasonsEntity](#downreasonsentity) : `cs.DownReasonsEntity`
-- [AverageCycleTime](#averagecycletime) : `Real`
-- [RunningSlow](#runningslow) : `Boolean`
-- [MachineWheelsEntity](#machinewheelsentity) : `cs.MachineWheelsEntity`
-- [QuantityMade](#quantitymade) : `Integer`
-- [QuantityScrapped](#quantityscrapped) : `Integer`
+- [📋 Properties (10)](#-properties)
 
 ### ⚙️ Functions
 

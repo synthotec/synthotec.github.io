@@ -7,16 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:50.105Z*
+🕐 *Last updated: 2025-11-13T14:26:50.792Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [LockedEntityCollection; FailedLockObjectCollection](#lockedentitycollection; failedlockobjectcollection) : `Collection`
-- [Success](#success) : `Boolean`
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 

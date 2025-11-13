@@ -7,18 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:49.324Z*
+🕐 *Last updated: 2025-11-13T14:26:49.964Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (4)
-
-- [Cells](#cells) : `Collection`
-- [CellType_Number](#celltypenumber) : `Text`
-- [CellType_String](#celltypestring) : `Text`
-- [CellType_ISODateTime](#celltypeisodatetime)
+- [📋 Properties (4)](#-properties)
 
 ### ⚙️ Functions
 

@@ -11,16 +11,13 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T13:52:49.220Z*
+🕐 *Last updated: 2025-11-13T14:26:49.853Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [EmailObject](#emailobject) : `Object`
-- [_PermissionFooterCollection](#permissionfootercollection) : `Collection`
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 
@@ -42,6 +39,8 @@ parent : Classes
 - [setSubject](#setsubject) (1 param)
 - [attachFile](#attachfile) (2 params)
 - [send](#send) → `$EmailSent : Boolean`
+
+### 📚 Examples (1)
 
 ---
 
@@ -249,6 +248,20 @@ Function send -> $EmailSent : Boolean
 **Returns:** `Boolean`
 
 ---
+
+## 📚 Examples
+
+### Sending notification email
+
+Example of sending an email using the Email class after creating the email object.
+
+```4d
+	var $Email:=cs.Email.new(_Text("Pick Request #:1 Picked :2").parse(This.ID; "✅"); $Table.Output())
+	$Email.setMessageID("PickRequestNotification"+String(This.ID))
+	$Email.addPermissionGroup("PickRequest.PickedNotificationEmails"; Email Recipient Type To; True)
+	$Email.setFromAddress("pickrequests"; "4D Pick Requests")
+	$Email.send()
+```
 
 ---
 

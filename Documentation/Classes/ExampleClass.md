@@ -11,16 +11,13 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T13:52:49.292Z*
+🕐 *Last updated: 2025-11-13T14:26:49.929Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [Title](#title) : `Text`
-- [Count](#count) : `Integer`
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 

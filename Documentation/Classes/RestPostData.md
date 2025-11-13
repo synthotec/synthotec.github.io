@@ -7,16 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:52:50.078Z*
+🕐 *Last updated: 2025-11-13T14:26:50.768Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (2)
-
-- [RestPostJson; ScannerData; PromptResult](#restpostjson; scannerdata; promptresult) : `Text`
-- [StaffID](#staffid) : `Integer`
+- [📋 Properties (2)](#-properties)
 
 ### ⚙️ Functions
 

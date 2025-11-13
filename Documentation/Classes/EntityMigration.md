@@ -11,20 +11,13 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T13:52:49.247Z*
+🕐 *Last updated: 2025-11-13T14:26:49.879Z*
 
 ---
 
 ## 📑 Table of Contents
 
-### 📋 Properties (6)
-
-- [_RemoteDataStore](#remotedatastore) : `4D.DataStoreImplementation`
-- [_DataClass](#dataclass) : `4D.DataClass`
-- [LinkFunctionCancelled](#linkfunctioncancelled)
-- [RemoteDataClass](#remotedataclass) : `4D.DataClass`
-- [LinkRemoteSelection](#linkremoteselection) : `4D.EntitySelection`
-- [Loading](#loading) : `cs.Loading`
+- [📋 Properties (6)](#-properties)
 
 ### ⚙️ Functions
 
