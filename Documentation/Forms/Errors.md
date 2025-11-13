@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.593Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.356Z |
 
 ---
 
@@ -63,14 +63,14 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Errors/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailSelection | - |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.Stack | - |
-| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.CallChain | - |
-| Input | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.CurrentStackTrace; *) | - |
-| Input1 | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.ErrorDetailEntity.ErrorObject.DebugInfo || ""; *) | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Errors/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailSelection | - |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.Stack | - |
+| List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.CallChain | - |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.CurrentStackTrace; *) | - |
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.ErrorDetailEntity.ErrorObject.DebugInfo || ""; *) | - |
 
 ---
 

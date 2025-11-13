@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T16:35:16.663Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.424Z |
 
 ---
 
@@ -61,36 +61,36 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | pSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Variable.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box.4dm) |
-| MainBox1 | 📋 listbox | ✅ | ✅ | ❌ | List Box1 | [MainBox1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/MainBox1.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vSYN | - |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vOFF | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | vQUAR | - |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | vWIP | - |
-| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable5 | 📝 input | ✅ | ✅ | ❌ | vTotal | - |
-| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text8 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable6 | 📝 input | ✅ | ✅ | ❌ | vBox | - |
-| Variable7 | 📝 input | ✅ | ✅ | ❌ | vPPH | - |
-| Variable8 | 📝 input | ✅ | ✅ | ❌ | vUSED | - |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | List Box2 | - |
-| Text11 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Button.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | List Box1 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box1.4dm) |
-| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | List Box3 | [List Box3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box3.4dm) |
-| List Box4 | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box4.4dm) |
-| Text9 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.PrioritizeStandardOrders | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Check%20Box.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | pSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Variable.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box.4dm) |
+| MainBox1 | - | 📋 listbox | ✅ | ✅ | ❌ | List Box1 | [MainBox1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/MainBox1.4dm) |
+| Text | STOCK AT SYNTHOTEC | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | STOCK OFFSITE | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2 | QUARANTINED STOCK | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text3 | WIP | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vSYN | - |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vOFF | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | vQUAR | - |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | vWIP | - |
+| Text4 |                                 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text5 | TOTAL | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable5 | - | 📝 input | ✅ | ✅ | ❌ | vTotal | - |
+| Text6 | Parts Per Box | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text7 | Parts Per Hour | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text8 | USED SINCE LAST BILL | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable6 | - | 📝 input | ✅ | ✅ | ❌ | vBox | - |
+| Variable7 | - | 📝 input | ✅ | ✅ | ❌ | vPPH | - |
+| Variable8 | - | 📝 input | ✅ | ✅ | ❌ | vUSED | - |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | List Box2 | - |
+| Text11 | DAILY STOCK BALANCE | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button | Display Stock Movements | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Button.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | List Box1 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box1.4dm) |
+| List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | List Box3 | [List Box3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box3.4dm) |
+| List Box4 | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/List%20Box4.4dm) |
+| Text9 | Customer Drill Down | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Check Box | Prioritize Standard Orders | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.PrioritizeStandardOrders | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/OrderOverview/ObjectMethods/Check%20Box.4dm) |
 
 ---
 

@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.757Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.523Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/List%20Box.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable.4dm) |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable1.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/List%20Box.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable.4dm) |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable1.4dm) |
+| Text | The search function has been improved! You can now search by name, quantity, works order, CofC, advice note or movement reason. | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

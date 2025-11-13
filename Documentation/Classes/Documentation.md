@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T16:35:14.443Z*
+🕐 *Last updated: 2025-11-13T16:46:51.774Z*
 
 ---
 

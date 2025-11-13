@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.736Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.499Z |
 
 ---
 
@@ -61,14 +61,14 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Calendar | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/List%20Box.4dm) |
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | vYear | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | SchedulePlanner_MonthArray | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | WorkingDays | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Variable.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Calendar | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | vYear | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | SchedulePlanner_MonthArray | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | WorkingDays | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Variable.4dm) |
+| Button | Previous Month | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button.4dm) |
+| Button1 | Next Month | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Planner/ObjectMethods/Button1.4dm) |
 
 ---
 

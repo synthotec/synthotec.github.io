@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.675Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.441Z |
 
 ---
 
@@ -61,9 +61,9 @@ This form handles **17** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PartBoxList/ObjectMethods/List%20Box1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PartBoxList/ObjectMethods/List%20Box1.4dm) |
 
 ---
 

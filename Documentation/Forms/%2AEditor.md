@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.435Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.192Z |
 
 ---
 
@@ -61,14 +61,14 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | aTables | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| MasterList | 📋 listbox | ✅ | ✅ | ❌ | MasterList | [MasterList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/MasterList.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button2.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button3.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | aTables | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| MasterList | - | 📋 listbox | ✅ | ✅ | ❌ | MasterList | [MasterList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/MasterList.4dm) |
+| Button | Query | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button.4dm) |
+| Button1 | All Records | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button1.4dm) |
+| Button2 | Set Table Sequence Number | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button2.4dm) |
+| Button3 | Delete Selection | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AEditor/ObjectMethods/Button3.4dm) |
 
 ---
 

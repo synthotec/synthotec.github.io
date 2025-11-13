@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T16:35:16.603Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.369Z |
 
 ---
 
@@ -62,9 +62,9 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Collection | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Collection | - |
 
 ---
 

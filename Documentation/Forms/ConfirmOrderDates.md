@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.545Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.307Z |
 
 ---
 
@@ -62,30 +62,30 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable | 📝 input | ✅ | ✅ | ❌ | oReceived | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | oRequested | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | oRequired | - |
-| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | oReadyStatus | - |
-| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | oDespatch | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable4.4dm) |
-| PopupDate | 🔲 subform | ✅ | ✅ | ❌ | oDespatch | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/PopupDate.4dm) |
-| Variable5 | 📝 input | ✅ | ✅ | ❌ | oDays | [Variable5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable5.4dm) |
-| PopupDate3 | 🔲 subform | ✅ | ✅ | ❌ | oArrival | [PopupDate3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/PopupDate3.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Button.4dm) |
-| Variable6 | 📝 input | ✅ | ✅ | ❌ | oArrival | [Variable6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable6.4dm) |
-| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable7 | 📝 input | ✅ | ✅ | ❌ | String:C10(oRequested-oReceived)+" Days / "+String:C10(Round:C94((oRequested-oReceived)/7; 1))+" Weeks" | - |
-| Variable8 | 📝 input | ✅ | ✅ | ❌ | String:C10(oRequired-oReceived)+" Days / "+String:C10(Round:C94((oRequired-oReceived)/7; 1))+" Weeks" | - |
-| Variable9 | 📝 input | ✅ | ✅ | ❌ | String:C10(oDespatch-oReceived)+" Days / "+String:C10(Round:C94((oDespatch-oReceived)/7; 1))+" Weeks" | - |
-| Variable10 | 📝 input | ✅ | ✅ | ❌ | String:C10(oArrival-oReceived)+" Days / "+String:C10(Round:C94((oArrival-oReceived)/7; 1))+" Weeks" | - |
-| Variable11 | 📝 input | ✅ | ✅ | ❌ | oLeadTimeNotice | [Variable11.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable11.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | Date Received | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | oReceived | - |
+| Text1 | Date Requested | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | oRequested | - |
+| Text2 | Despatch Required | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | oRequired | - |
+| Text3 | Order Ready | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | oReadyStatus | - |
+| Text4 | Planned Despatch | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | oDespatch | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable4.4dm) |
+| PopupDate | - | 🔲 subform | ✅ | ✅ | ❌ | oDespatch | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/PopupDate.4dm) |
+| Variable5 | - | 📝 input | ✅ | ✅ | ❌ | oDays | [Variable5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable5.4dm) |
+| PopupDate3 | - | 🔲 subform | ✅ | ✅ | ❌ | oArrival | [PopupDate3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/PopupDate3.4dm) |
+| Button | Mark Order as Reviewed & Confirm to Customer | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Button.4dm) |
+| Variable6 | - | 📝 input | ✅ | ✅ | ❌ | oArrival | [Variable6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable6.4dm) |
+| Text5 | Delivery Time (Days) | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text6 | Planned Arrival | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable7 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oRequested-oReceived)+" Days / "+String:C10(Round:C94((oRequested-oReceived)/7; 1))+" Weeks" | - |
+| Variable8 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oRequired-oReceived)+" Days / "+String:C10(Round:C94((oRequired-oReceived)/7; 1))+" Weeks" | - |
+| Variable9 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oDespatch-oReceived)+" Days / "+String:C10(Round:C94((oDespatch-oReceived)/7; 1))+" Weeks" | - |
+| Variable10 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oArrival-oReceived)+" Days / "+String:C10(Round:C94((oArrival-oReceived)/7; 1))+" Weeks" | - |
+| Variable11 | - | 📝 input | ✅ | ✅ | ❌ | oLeadTimeNotice | [Variable11.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable11.4dm) |
 
 ---
 

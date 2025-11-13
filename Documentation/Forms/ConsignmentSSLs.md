@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.552Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.314Z |
 
 ---
 
@@ -61,14 +61,14 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | vHideZero | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Check%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | LastSNRUpdate | - |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | ConsignmentSSLs_CustList | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box1.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box.4dm) |
+| Check Box | Hide Zero Requirement Lines | ☑️ checkbox | ✅ | ✅ | ❌ | vHideZero | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Check%20Box.4dm) |
+| Button | Refresh | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | LastSNRUpdate | - |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | ConsignmentSSLs_CustList | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/List%20Box1.4dm) |
+| Button1 | Update SSL Order Date Offset | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentSSLs/ObjectMethods/Button1.4dm) |
 
 ---
 

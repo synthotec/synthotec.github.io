@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.591Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.354Z |
 
 ---
 
@@ -62,11 +62,11 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | vType | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Button.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | vType | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Button | ADD | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Button.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 
 ---
 

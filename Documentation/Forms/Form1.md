@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.601Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.366Z |
 
 ---
 
@@ -61,11 +61,11 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Hierarchical Popup Menu | 📥 dropdown | ✅ | ✅ | ❌ | MainList | [Hierarchical Popup Menu.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Hierarchical%20Popup%20Menu.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Hierarchical Popup Menu | - | 📥 dropdown | ✅ | ✅ | ❌ | MainList | [Hierarchical Popup Menu.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Hierarchical%20Popup%20Menu.4dm) |
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button.4dm) |
+| Button1 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Form1/ObjectMethods/Button1.4dm) |
 
 ---
 

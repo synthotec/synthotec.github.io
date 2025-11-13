@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T16:35:16.437Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.194Z |
 
 ---
 
@@ -63,16 +63,16 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Hue | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input.4dm) |
-| Input1 | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Saturation | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input1.4dm) |
-| Input2 | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Lightness | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input2.4dm) |
-| Ruler | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Hue | [Ruler.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler.4dm) |
-| Ruler1 | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Saturation | [Ruler1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler1.4dm) |
-| Ruler2 | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Lightness | [Ruler2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler2.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Button.4dm) |
-| Form.HexCode | 📝 input | ✅ | ✅ | ❌ | Form:C1466.HexCode | [Form.HexCode.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Form.HexCode.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Hue | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input.4dm) |
+| Input1 | - | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Saturation | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input1.4dm) |
+| Input2 | - | 📝 input | ✅ | ✅ | ✅ | Form:C1466.Lightness | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Input2.4dm) |
+| Ruler | - | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Hue | [Ruler.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler.4dm) |
+| Ruler1 | - | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Saturation | [Ruler1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler1.4dm) |
+| Ruler2 | - | 📏 ruler | ✅ | ✅ | ❌ | Form:C1466.Lightness | [Ruler2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Ruler2.4dm) |
+| Button | Select RGB Colour | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Button.4dm) |
+| Form.HexCode | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.HexCode | [Form.HexCode.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AHSL_Picker/ObjectMethods/Form.HexCode.4dm) |
 
 ---
 

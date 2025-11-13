@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 4 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T16:35:16.529Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.290Z |
 
 ---
 
@@ -62,49 +62,49 @@ This form handles **17** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button.4dm) |
-| Button4 | 🔘 button | ✅ | ✅ | ❌ | - | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button4.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | EquipmentListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/List%20Box.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | "EQUIPMENT ID #"+String:C10(CalibrationTracker_VisibleID) | - |
-| ButtonLog | 🔘 button | ✅ | ✅ | ❌ | ButtonLog | [ButtonLog.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/ButtonLog.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/List%20Box1.4dm) |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vLocation | - |
-| Popup Dropdown List4 | 📥 dropdown | ✅ | ✅ | ❌ | aCalibrationType | - |
-| bMethods | 🔘 button | ✅ | ✅ | ❌ | MethodsButton | [bMethods.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/bMethods.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aUsageFrequency | - |
-| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | aWearRate | - |
-| Popup Dropdown List2 | 📥 dropdown | ✅ | ✅ | ❌ | aEnvironment | - |
-| Popup Dropdown List3 | 📥 dropdown | ✅ | ✅ | ❌ | aSensitivity | - |
-| Variable6 | 📝 input | ✅ | ✅ | ❌ | vContact | - |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | vNotes | - |
-| Button5 | 🔘 button | ✅ | ✅ | ❌ | EditButton | [Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button5.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | CancelButton | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button3.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | SaveButton | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button2.4dm) |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text8 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text9 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text10 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | CalibrationTracker_VisibleID | - |
-| ArchiveButton* | 🔘 button | ✅ | ✅ | ❌ | ArchiveButton | [ArchiveButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/ArchiveButton%2A.4dm) |
-| Popup Dropdown List5 | 📥 dropdown | ✅ | ✅ | ❌ | EquipmentStatusArray | [Popup Dropdown List5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Popup%20Dropdown%20List5.4dm) |
-| Text11 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable5 | 📝 input | ✅ | ✅ | ❌ | vSerial | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vName | - |
-| Text12 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Add Equipment | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button.4dm) |
+| Button4 | Refresh | 🔘 button | ✅ | ✅ | ❌ | - | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button4.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | EquipmentListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/List%20Box.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | "EQUIPMENT ID #"+String:C10(CalibrationTracker_VisibleID) | - |
+| ButtonLog | Log Calibration | 🔘 button | ✅ | ✅ | ❌ | ButtonLog | [ButtonLog.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/ButtonLog.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/List%20Box1.4dm) |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vLocation | - |
+| Popup Dropdown List4 | - | 📥 dropdown | ✅ | ✅ | ❌ | aCalibrationType | - |
+| bMethods | Edit Calibration Methods | 🔘 button | ✅ | ✅ | ❌ | MethodsButton | [bMethods.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/bMethods.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | aUsageFrequency | - |
+| Popup Dropdown List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | aWearRate | - |
+| Popup Dropdown List2 | - | 📥 dropdown | ✅ | ✅ | ❌ | aEnvironment | - |
+| Popup Dropdown List3 | - | 📥 dropdown | ✅ | ✅ | ❌ | aSensitivity | - |
+| Variable6 | - | 📝 input | ✅ | ✅ | ❌ | vContact | - |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | vNotes | - |
+| Button5 | Edit Equipment | 🔘 button | ✅ | ✅ | ❌ | EditButton | [Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button5.4dm) |
+| Button3 | Cancel Changes | 🔘 button | ✅ | ✅ | ❌ | CancelButton | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button3.4dm) |
+| Button2 | Save Changes | 🔘 button | ✅ | ✅ | ❌ | SaveButton | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Button2.4dm) |
+| Text1 | Equipment Name | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2 | Equipment Location | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text3 | Usage Frequency | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text4 | Wear Rate | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text5 | Environment | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text6 | Sensitivity | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text7 | Calibration Type | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text8 | Calibration Contact | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text9 | Notes | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text10 | Equipment ID | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | CalibrationTracker_VisibleID | - |
+| ArchiveButton* | ArchiveButton | 🔘 button | ✅ | ✅ | ❌ | ArchiveButton | [ArchiveButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/ArchiveButton%2A.4dm) |
+| Popup Dropdown List5 | - | 📥 dropdown | ✅ | ✅ | ❌ | EquipmentStatusArray | [Popup Dropdown List5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CalibrationTracker/ObjectMethods/Popup%20Dropdown%20List5.4dm) |
+| Text11 | Serial # | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable5 | - | 📝 input | ✅ | ✅ | ❌ | vSerial | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vName | - |
+| Text12 | Right click a calibration line to delete it or rename its document | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | Select an equipment item to view its calibration information | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

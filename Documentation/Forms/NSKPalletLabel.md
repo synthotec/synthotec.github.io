@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.653Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.418Z |
 
 ---
 
@@ -62,16 +62,16 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | ePurchaseOrder | - |
-| Variable | 📝 input | ✅ | ✅ | ❌ | eAdviceNote | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | ePalletNumber | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | eQuantity | - |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | ePartName | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletLabel/ObjectMethods/Variable2.4dm) |
-| vQRpallet | 📝 input | ✅ | ✅ | ❌ | vQRpallet | - |
-| Variable5 | 📝 input | ✅ | ✅ | ❌ | ePalletID | - |
-| Variable8 | 📝 input | ✅ | ✅ | ❌ | vSymbol | [Variable8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletLabel/ObjectMethods/Variable8.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | ePurchaseOrder | - |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | eAdviceNote | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | ePalletNumber | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | eQuantity | - |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | ePartName | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletLabel/ObjectMethods/Variable2.4dm) |
+| vQRpallet | - | 📝 input | ✅ | ✅ | ❌ | vQRpallet | - |
+| Variable5 | - | 📝 input | ✅ | ✅ | ❌ | ePalletID | - |
+| Variable8 | - | 📝 input | ✅ | ✅ | ❌ | vSymbol | [Variable8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NSKPalletLabel/ObjectMethods/Variable8.4dm) |
 
 ---
 

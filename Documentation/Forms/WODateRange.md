@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.796Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.564Z |
 
 ---
 
@@ -61,16 +61,16 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| PopupDate | 🔲 subform | ✅ | ✅ | ❌ | vsDate | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vsDate | - |
-| PopupDate1 | 🔲 subform | ✅ | ✅ | ❌ | vfDate | [PopupDate1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate1.4dm) |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vfDate | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | From Date | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | To Date | 📄 text | ✅ | ✅ | ❌ | - | - |
+| PopupDate | - | 🔲 subform | ✅ | ✅ | ❌ | vsDate | [PopupDate.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vsDate | - |
+| PopupDate1 | - | 🔲 subform | ✅ | ✅ | ❌ | vfDate | [PopupDate1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/PopupDate1.4dm) |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vfDate | - |
+| Button | Close | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button.4dm) |
+| Button1 | Generate | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WODateRange/ObjectMethods/Button1.4dm) |
 
 ---
 

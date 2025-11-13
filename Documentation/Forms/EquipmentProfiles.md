@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.590Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.352Z |
 
 ---
 
@@ -61,15 +61,15 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | EquipmentProfiles_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button1.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vTitle | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button2.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button3 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button3.4dm) |
-| Field | 📝 input | ✅ | ✅ | ❌ | [EquipmentProfiles:59]PalletLayout:10 | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | EquipmentProfiles_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/List%20Box.4dm) |
+| Button | New Equipment Profile | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button.4dm) |
+| Button1 | Search by Tool Number | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button1.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vTitle | - |
+| Button2 | Approve Profile | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button2.4dm) |
+| Button3 | Open List Editor | 🔘 button | ✅ | ✅ | ❌ | Button3 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button3.4dm) |
+| Field | - | 📝 input | ✅ | ✅ | ❌ | [EquipmentProfiles:59]PalletLayout:10 | - |
 
 ---
 

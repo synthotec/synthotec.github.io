@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 9 |
-| **Generated** | 🕐 2025-11-13T16:35:16.465Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.223Z |
 
 ---
 
@@ -63,17 +63,17 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | ToolEditorListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button.4dm) |
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | ToolEditor_SearchText | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/SearchPicker.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedProducts | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box.4dm) |
-| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedTools | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box1.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | FloatingSymbol | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Input.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | ToolEditorListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/List%20Box.4dm) |
+| Button | Refresh Data | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button.4dm) |
+| SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | ToolEditor_SearchText | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/SearchPicker.4dm) |
+| Check Box | Hide Archived Products | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedProducts | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box.4dm) |
+| Check Box1 | Hide Archived Tools | ☑️ checkbox | ✅ | ✅ | ❌ | HideArchivedTools | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Check%20Box1.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | FloatingSymbol | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Input.4dm) |
+| Text | CTRL + CLICK A CELL TO VIEW ITS HISTORY | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | Cancel Changes | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button1.4dm) |
+| Button2 | Save Changes | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AToolEditor/ObjectMethods/Button2.4dm) |
 
 ---
 

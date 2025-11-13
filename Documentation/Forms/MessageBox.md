@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.645Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.410Z |
 
 ---
 
@@ -63,12 +63,12 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| MessageBox.Emoji | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Emoji | - |
-| MessageBox.Text | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Text | [MessageBox.Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.Text.4dm) |
-| MessageBox.AcceptButton | 🔘 button | ✅ | ✅ | ❌ | - | [MessageBox.AcceptButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.AcceptButton.4dm) |
-| MessageBox.CancelButton | 🔘 button | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MessageBox.Emoji | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Emoji | - |
+| MessageBox.Text | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Text | [MessageBox.Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.Text.4dm) |
+| MessageBox.AcceptButton | Accept | 🔘 button | ✅ | ✅ | ❌ | - | [MessageBox.AcceptButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MessageBox/ObjectMethods/MessageBox.AcceptButton.4dm) |
+| MessageBox.CancelButton | Cancel | 🔘 button | ✅ | ✅ | ❌ | - | - |
 
 ---
 

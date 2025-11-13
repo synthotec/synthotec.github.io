@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.754Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.520Z |
 
 ---
 
@@ -63,20 +63,20 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/List%20Box.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input | 📝 input | ✅ | ✅ | ❌ | from_Address | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input1 | 📝 input | ✅ | ✅ | ❌ | email_Subject | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input2 | 📝 input | ✅ | ✅ | ❌ | email_Body | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Input2.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button2.4dm) |
-| Input3 | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSLimit | - |
-| Input4 | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSCredits | - |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button3.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/List%20Box.4dm) |
+| Text | From Address (Only Applies To Emails) | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | from_Address | - |
+| Text1 | Subject (Only Applies To Emails) | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | email_Subject | - |
+| Text2 | Message Body | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input2 | - | 📝 input | ✅ | ✅ | ❌ | email_Body | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Input2.4dm) |
+| Button1 | Toggle All (SMS) | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button1.4dm) |
+| Button2 | Toggle All (Email) | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button2.4dm) |
+| Input3 | - | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSLimit | - |
+| Input4 | - | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSCredits | - |
+| Button3 | Send Messages | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button3.4dm) |
 
 ---
 

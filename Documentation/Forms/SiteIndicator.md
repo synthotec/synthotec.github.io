@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T16:35:16.744Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.507Z |
 
 ---
 
@@ -62,9 +62,9 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| SiteIndicator_Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| SiteIndicator_Text | S1 | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.540Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.302Z |
 
 ---
 
@@ -63,12 +63,12 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | ChangeUser_PromptText | - |
-| Input1 | 📝 input | ✅ | ✅ | ✅ | ChangeUser_Input | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Input1.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | ChangeUser_Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | EmailButton | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | ChangeUser_PromptText | - |
+| Input1 | - | 📝 input | ✅ | ✅ | ✅ | ChangeUser_Input | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Input1.4dm) |
+| Button | NEXT | 🔘 button | ✅ | ✅ | ❌ | ChangeUser_Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button.4dm) |
+| Button1 | USE EMAIL ADDRESS | 🔘 button | ✅ | ✅ | ❌ | EmailButton | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeUser/ObjectMethods/Button1.4dm) |
 
 ---
 

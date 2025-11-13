@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.539Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.300Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeRealTimeImpressions/ObjectMethods/Button.4dm) |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vOldImps | - |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vNewImps | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | - |
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeRealTimeImpressions/ObjectMethods/Button.4dm) |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vOldImps | - |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vNewImps | - |
 
 ---
 

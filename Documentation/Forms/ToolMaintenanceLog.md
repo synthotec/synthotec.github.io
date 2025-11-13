@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.776Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.543Z |
 
 ---
 
@@ -63,11 +63,11 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/Button.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.WorkRequestComments | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/List%20Box.4dm) |
+| Button | LOG MAINTENANCE | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolMaintenanceLog/ObjectMethods/Button.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.WorkRequestComments | - |
 
 ---
 

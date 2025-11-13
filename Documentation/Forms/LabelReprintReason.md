@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.615Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.381Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelReprintReason/ObjectMethods/List%20Box.4dm) |
-| Variable | 📝 input | ✅ | ❌ | ❌ | vOtherReason | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelReprintReason/ObjectMethods/Button.4dm) |
-| TextOtherReason | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelReprintReason/ObjectMethods/List%20Box.4dm) |
+| Variable | - | 📝 input | ✅ | ❌ | ❌ | vOtherReason | - |
+| Button | Continue | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelReprintReason/ObjectMethods/Button.4dm) |
+| TextOtherReason | Other Reason | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

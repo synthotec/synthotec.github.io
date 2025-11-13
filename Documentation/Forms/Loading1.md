@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.618Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.384Z |
 
 ---
 
@@ -62,9 +62,9 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Loading_Text | 📝 input | ✅ | ✅ | ❌ | Form:C1466.LoadingText+Char:C90(13)+Form:C1466.ProgressText | [Loading_Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Loading1/ObjectMethods/Loading_Text.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Loading_Text | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.LoadingText+Char:C90(13)+Form:C1466.ProgressText | [Loading_Text.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Loading1/ObjectMethods/Loading_Text.4dm) |
 
 ---
 

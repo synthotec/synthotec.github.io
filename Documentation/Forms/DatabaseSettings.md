@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.575Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.339Z |
 
 ---
 
@@ -63,19 +63,19 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/List%20Box.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button1.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button3.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Save | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/List%20Box.4dm) |
+| Button1 | Import Data From File | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button1.4dm) |
+| Button3 | DELETE | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button3.4dm) |
 
 #### Page 2
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button2.4dm) |
-| CodeToProcess | 📝 input | ✅ | ✅ | ❌ | CodeToProcess | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button2 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DatabaseSettings/ObjectMethods/Button2.4dm) |
+| CodeToProcess | - | 📝 input | ✅ | ✅ | ❌ | CodeToProcess | - |
 
 ---
 

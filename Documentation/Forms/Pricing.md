@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.688Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.452Z |
 
 ---
 
@@ -61,14 +61,14 @@ This form handles **2** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/List%20Box.4dm) |
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | Pricing_CustomerArray | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | Pricing_CustomerArray | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Text | Double click a price to change prices for orders | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | CTRL + CLICK A CELL TO VIEW ITS HISTORY | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button | Add Price Option | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button.4dm) |
+| Button1 | Regenerate SSL Orders | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button1.4dm) |
 
 ---
 

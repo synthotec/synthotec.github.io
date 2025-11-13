@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.580Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.348Z |
 
 ---
 
@@ -62,14 +62,14 @@ This form handles **1** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | - |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box2.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/Button.4dm) |
-| DateEntry | 🔲 subform | ✅ | ✅ | ❌ | vDate | [DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/DateEntry.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vWeight | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/List%20Box2.4dm) |
+| Button | Create EDI File | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/Button.4dm) |
+| DateEntry | - | 🔲 subform | ✅ | ✅ | ❌ | vDate | [DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/DateEntry.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vWeight | - |
 
 ---
 

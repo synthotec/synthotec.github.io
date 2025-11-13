@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.399Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.150Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | bOne | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | NewOne | - |
-| Input | 📝 input | ✅ | ✅ | ❌ | test_input_text | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABarcodeTest/ObjectMethods/Button.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | bOne | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | NewOne | - |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | test_input_text | - |
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABarcodeTest/ObjectMethods/Button.4dm) |
 
 ---
 

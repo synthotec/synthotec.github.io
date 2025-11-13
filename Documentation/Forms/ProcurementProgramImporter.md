@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.691Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.456Z |
 
 ---
 
@@ -63,14 +63,14 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.VisibleLines | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Button.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideActioned | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box.4dm) |
-| ReloadButton | 🔘 button | ✅ | ✅ | ❌ | - | [ReloadButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ReloadButton.4dm) |
-| ProcessButton | 🔘 button | ✅ | ✅ | ❌ | - | [ProcessButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ProcessButton.4dm) |
-| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideForecasts | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.VisibleLines | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/List%20Box.4dm) |
+| Button | 📋 Read Data from Clipboard | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Button.4dm) |
+| Check Box | Hide Actioned Orders | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideActioned | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box.4dm) |
+| ReloadButton | 🔃 Reload Data | 🔘 button | ✅ | ✅ | ❌ | - | [ReloadButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ReloadButton.4dm) |
+| ProcessButton | ⚡Process Procurement Prgram Orders | 🔘 button | ✅ | ✅ | ❌ | - | [ProcessButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/ProcessButton.4dm) |
+| Check Box1 | Hide Forecast Orders | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.HideForecasts | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProcurementProgramImporter/ObjectMethods/Check%20Box1.4dm) |
 
 ---
 

@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.573Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.337Z |
 
 ---
 
@@ -61,14 +61,14 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box1.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | "CYCLE TIME HISTORY FOR WORKS ORDER "+String:C10(<>HistoryWO)+" FOR "+vDateRange | - |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/List%20Box1.4dm) |
+| Button | Refresh | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | "CYCLE TIME HISTORY FOR WORKS ORDER "+String:C10(<>HistoryWO)+" FOR "+vDateRange | - |
+| Text | SELECT A LINE TO SEE THE CYCLE TIME HISTORY FOR THAT DATE | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | Export to Excel File | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CycleHistory/ObjectMethods/Button1.4dm) |
 
 ---
 

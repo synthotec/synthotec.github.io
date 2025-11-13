@@ -15,7 +15,7 @@ parent : Forms
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T16:35:16.514Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.272Z |
 
 ---
 
@@ -61,9 +61,9 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| MaterialList | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaterialList | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 
 ---
 

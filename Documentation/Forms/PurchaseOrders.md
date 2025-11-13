@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 4 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 15 |
-| **Generated** | 🕐 2025-11-13T16:35:16.696Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.460Z |
 
 ---
 
@@ -61,37 +61,37 @@ This form handles **16** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ❌ | ❌ | PO_Detail_Listbox | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box1.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | QueryBox | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Variable.4dm) |
-| vDesc | 📝 input | ✅ | ❌ | ❌ | vDesc | - |
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | PurchaseOrder_WhoList | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | PurchaseOrder_WhatList | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
-| EditButton | 🔘 button | ✅ | ❌ | ❌ | Button | [EditButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/EditButton.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button1.4dm) |
-| Variable1 | 📝 input | ✅ | ❌ | ❌ | PurchaseDesc | - |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| PrintButton | 🔘 button | ✅ | ❌ | ❌ | Button | [PrintButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/PrintButton.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button3.4dm) |
-| Button4 | 🔘 button | ✅ | ❌ | ❌ | Button2 | - |
-| UnlockButton | 🔘 button | ✅ | ✅ | ❌ | Button | [UnlockButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/UnlockButton.4dm) |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | XBOX | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Variable2.4dm) |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.SelectedPurchaseInfoEntity.PurchaseReceiptsSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box2.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ❌ | ❌ | PO_Detail_Listbox | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box1.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | QueryBox | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Variable.4dm) |
+| vDesc | - | 📝 input | ✅ | ❌ | ❌ | vDesc | - |
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | PurchaseOrder_WhoList | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | PurchaseOrder_WhatList | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| EditButton | ✎ Edit Purchase Order | 🔘 button | ✅ | ❌ | ❌ | Button | [EditButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/EditButton.4dm) |
+| Button1 | 🆕 New Purchase Order | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button1.4dm) |
+| Variable1 | - | 📝 input | ✅ | ❌ | ❌ | PurchaseDesc | - |
+| Text | Search | 📄 text | ✅ | ✅ | ❌ | - | - |
+| PrintButton | Print Purchase Order | 🔘 button | ✅ | ❌ | ❌ | Button | [PrintButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/PrintButton.4dm) |
+| Button3 | 🏬 Modify Suppliers | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button3.4dm) |
+| Button4 | - | 🔘 button | ✅ | ❌ | ❌ | Button2 | - |
+| UnlockButton | 🔓 Unlock Purchase Order | 🔘 button | ✅ | ✅ | ❌ | Button | [UnlockButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/UnlockButton.4dm) |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | XBOX | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Variable2.4dm) |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.SelectedPurchaseInfoEntity.PurchaseReceiptsSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/List%20Box2.4dm) |
+| Button | 🧾 Record a receipt of goods or services | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PurchaseOrders/ObjectMethods/Button.4dm) |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | "Select a Purchase Order" | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | "Select a Purchase Order" | - |
 
 #### Page 3
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input1 | 📝 input | ✅ | ✅ | ❌ | "Select a Purchase Order line to see the full description and book / view receipts" | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | "Select a Purchase Order line to see the full description and book / view receipts" | - |
 
 ---
 

@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.510Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.269Z |
 
 ---
 
@@ -62,15 +62,15 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button2.4dm) |
-| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button4.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button1.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button3.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
+| Button2 | Delete Item | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button2.4dm) |
+| Button4 | Edit Item | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button4.4dm) |
+| Button1 | Add Item | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button1.4dm) |
+| Button3 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button3.4dm) |
+| Button | Save | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BagMethodListEdit/ObjectMethods/Button.4dm) |
+| Text | - | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

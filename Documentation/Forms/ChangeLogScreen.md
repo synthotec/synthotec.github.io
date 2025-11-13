@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.536Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.297Z |
 
 ---
 
@@ -63,10 +63,10 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/Button.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ChangeLogCollection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/List%20Box.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Close Change Log | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/Button.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ChangeLogCollection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLogScreen/ObjectMethods/List%20Box.4dm) |
 
 ---
 

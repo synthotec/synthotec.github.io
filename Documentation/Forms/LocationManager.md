@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.619Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.386Z |
 
 ---
 
@@ -63,12 +63,12 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.LocationSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.StockListboxCollection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/List%20Box1.4dm) |
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | Form_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/SearchPicker.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.OnlyShowWithLocations | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/Check%20Box.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.LocationSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.StockListboxCollection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/List%20Box1.4dm) |
+| SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | Form_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/SearchPicker.4dm) |
+| Check Box | Only Show Stock With Locations | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.OnlyShowWithLocations | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/Check%20Box.4dm) |
 
 ---
 

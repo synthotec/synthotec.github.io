@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.515Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.274Z |
 
 ---
 
@@ -62,9 +62,9 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| MaterialList | 📋 listbox | ✅ | ✅ | ❌ | - | [MaterialList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_MaterialPrices/ObjectMethods/MaterialList.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaterialList | - | 📋 listbox | ✅ | ✅ | ❌ | - | [MaterialList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_MaterialPrices/ObjectMethods/MaterialList.4dm) |
 
 ---
 

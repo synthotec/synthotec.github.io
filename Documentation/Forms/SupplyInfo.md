@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.764Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.531Z |
 
 ---
 
@@ -62,16 +62,16 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | varName | - |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | varPackaging | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box.4dm) |
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | aCats | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button1.4dm) |
-| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | varRaw | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box1.4dm) |
-| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | SupplyInfo_MaterialNames | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | varName | - |
+| Check Box | Packaging | ☑️ checkbox | ✅ | ✅ | ❌ | varPackaging | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box.4dm) |
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | aCats | - |
+| Button | OK | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button.4dm) |
+| Text | Supply Name | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button1.4dm) |
+| Check Box1 | Material | ☑️ checkbox | ✅ | ✅ | ❌ | varRaw | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box1.4dm) |
+| Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | SupplyInfo_MaterialNames | - |
 
 ---
 

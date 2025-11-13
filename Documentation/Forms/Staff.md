@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.750Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.515Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button.4dm) |
-| Button3 | 🔘 button | ✅ | ❌ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button3.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.ShowArchived | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Check%20Box.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/List%20Box.4dm) |
+| Button | Add | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button.4dm) |
+| Button3 | Edit System Users | 🔘 button | ✅ | ❌ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Button3.4dm) |
+| Check Box | Show Archived Staff | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.ShowArchived | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Staff/ObjectMethods/Check%20Box.4dm) |
 
 ---
 

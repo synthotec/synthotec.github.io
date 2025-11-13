@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.432Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.189Z |
 
 ---
 
@@ -63,12 +63,12 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | DataMatrix | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ADataMatrix/ObjectMethods/Button.4dm) |
-| Input1 | 📝 input | ✅ | ✅ | ❌ | DataMatrixText | - |
-| Input2 | 📝 input | ✅ | ✅ | ❌ | DM_Title | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | DataMatrix | - |
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ADataMatrix/ObjectMethods/Button.4dm) |
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | DataMatrixText | - |
+| Input2 | - | 📝 input | ✅ | ✅ | ❌ | DM_Title | - |
 
 ---
 

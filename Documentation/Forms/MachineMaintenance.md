@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.623Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.388Z |
 
 ---
 
@@ -63,23 +63,23 @@ This form handles **15** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| MaintenanceRequirementsListBox | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MaintenanceRequirementsCollection | [MaintenanceRequirementsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/MaintenanceRequirementsListBox.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceLogSelection | - |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceActionsSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/List%20Box2.4dm) |
-| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceRequirementsSelection.orderBy("Machine ASC") | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button2.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | "<span>MC "+String:C10(Form:C1466.CurrentMaintenanceRequirementsObject.Machine)+" Maintenance Log : <span style=\"font-weight:bold\">"+Form:C1466.CurrentMaintenanceRequirementsObject.Action+"</span></span>" | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaintenanceRequirementsListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MaintenanceRequirementsCollection | [MaintenanceRequirementsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/MaintenanceRequirementsListBox.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceLogSelection | - |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceActionsSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/List%20Box2.4dm) |
+| List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineMaintenanceRequirementsSelection.orderBy("Machine ASC") | - |
+| Button | 📝 Add New Maintenance Action | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button.4dm) |
+| Button1 | 🛠️ Record Machine Maintenance | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button1.4dm) |
+| Button2 | 🔃 Refresh Maintenance Data | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MachineMaintenance/ObjectMethods/Button2.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | "<span>MC "+String:C10(Form:C1466.CurrentMaintenanceRequirementsObject.Machine)+" Maintenance Log : <span style=\"font-weight:bold\">"+Form:C1466.CurrentMaintenanceRequirementsObject.Action+"</span></span>" | - |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| MaintenanceLogText | 📄 text | ✅ | ✅ | ❌ | - | - |
-| MachineRequirementsText | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| MaintenanceLogText | Select a machine maintenance action above to view / record a maintenance entry | 📄 text | ✅ | ✅ | ❌ | - | - |
+| MachineRequirementsText | Select a maintenance action to specify which machines it applies to | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

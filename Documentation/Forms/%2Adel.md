@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.434Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.190Z |
 
 ---
 
@@ -61,10 +61,10 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.collectionObject.CollectionObject() | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Adel/ObjectMethods/Button.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.collectionObject.CollectionObject() | - |
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Adel/ObjectMethods/Button.4dm) |
 
 ---
 

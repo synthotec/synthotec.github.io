@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T16:35:16.639Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.405Z |
 
 ---
 
@@ -62,21 +62,21 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | StockDates | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| List Box | 📋 listbox | ✅ | ❌ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box1.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button.4dm) |
-| List Box2 | 📋 listbox | ✅ | ❌ | ❌ | - | - |
-| List Box3 | 📋 listbox | ✅ | ❌ | ❌ | - | - |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable | 📝 input | ✅ | ✅ | ❌ | tMat | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | tDate | - |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | HideMat | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button1.4dm) |
-| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | DeductSafety | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box1.4dm) |
-| Check Box2 | ☑️ checkbox | ✅ | ✅ | ❌ | UseAllA3HG5 | [Check Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | StockDates | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
+| List Box | - | 📋 listbox | ✅ | ❌ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/List%20Box1.4dm) |
+| Button | Get Run Out Dates | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button.4dm) |
+| List Box2 | - | 📋 listbox | ✅ | ❌ | ❌ | - | - |
+| List Box3 | - | 📋 listbox | ✅ | ❌ | ❌ | - | - |
+| Text | Stock Take Date | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | tMat | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | tDate | - |
+| Check Box | Hide Materials With No Planned Usage or Deliveries | ☑️ checkbox | ✅ | ✅ | ❌ | HideMat | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box.4dm) |
+| Button1 | Export this material outlook to CSV file | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button1.4dm) |
+| Check Box1 | Treat Safety Stock Target as Zero | ☑️ checkbox | ✅ | ✅ | ❌ | DeductSafety | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box1.4dm) |
+| Check Box2 | Treat all IMR as A3HG5 Natural | ☑️ checkbox | ✅ | ✅ | ❌ | UseAllA3HG5 | [Check Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box2.4dm) |
 
 ---
 

@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.693Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.458Z |
 
 ---
 
@@ -61,15 +61,15 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | [Product:10]Our Part No:2 | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vWO | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Variable1.4dm) |
-| Button9 | 🔘 button | ✅ | ✅ | ❌ | Button9 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button9.4dm) |
-| Button11 | 🔘 button | ✅ | ✅ | ❌ | Button11 | [Button11.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button11.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | ProductStockTake_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/List%20Box.4dm) |
-| Button13 | 🔘 button | ✅ | ✅ | ❌ | Button13 | [Button13.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button13.4dm) |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | boxcount | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Variable4.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | [Product:10]Our Part No:2 | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vWO | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Variable1.4dm) |
+| Button9 | ENTER STOCK | 🔘 button | ✅ | ✅ | ❌ | Button9 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button9.4dm) |
+| Button11 | STOCK TAKE COMPLETED | 🔘 button | ✅ | ✅ | ❌ | Button11 | [Button11.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button11.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | ProductStockTake_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/List%20Box.4dm) |
+| Button13 | DELETE SELECTED ROW | 🔘 button | ✅ | ✅ | ❌ | Button13 | [Button13.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button13.4dm) |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | boxcount | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Variable4.4dm) |
 
 ---
 

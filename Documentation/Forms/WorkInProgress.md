@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.797Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.567Z |
 
 ---
 
@@ -63,11 +63,11 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/Button.4dm) |
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | WorkInProgress_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/SearchPicker.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/List%20Box.4dm) |
+| Button | REFRESH | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/Button.4dm) |
+| SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | WorkInProgress_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WorkInProgress/ObjectMethods/SearchPicker.4dm) |
 
 ---
 

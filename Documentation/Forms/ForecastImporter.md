@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.599Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.365Z |
 
 ---
 
@@ -62,17 +62,21 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button1.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | MissingList | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/List%20Box.4dm) |
-| Popup Drop down List | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportMonth | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button2.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Popup Drop down List1 | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportYear | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable | 📝 input | ✅ | ✅ | ❌ | LastUpdated | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button1 | Read Clipboard Data | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button1.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | MissingList | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/List%20Box.4dm) |
+| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportMonth | - |
+| Button2 | Apply To Forecast | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Button2.4dm) |
+| Text | Import From | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | To import data go to the SUMMARY PIVOT sheet in the Excel forecast and follow the instructions in cell P3
+
+Double click a missing from forecast line to add it to the forecast
+
+Select Apply To Forecast to commit the schedule changes (You should aim to have all non-zero items corrected first) | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportYear | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
+| Text2 | Import Year | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | LastUpdated | - |
 
 ---
 

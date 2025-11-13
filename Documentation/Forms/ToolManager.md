@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T16:35:16.778Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.545Z |
 
 ---
 
@@ -61,20 +61,20 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vGripperInfo | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button1.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/List%20Box.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Variable.4dm) |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Variable1.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button2.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button3.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.IncludeArchived | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Check%20Box.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity=Null:C1517 ? "Tool Notices" : _Text("Tool Notices for Tool :1 (:2)").parse(Form:C1466.ToolsEntity.Tool_No; Form:C1466.ToolsEntity.ProduictEntity.OurPartName) | - |
-| Button4 | 🔘 button | ✅ | ✅ | ❌ | - | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button4.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolNoticeSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/List%20Box1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vGripperInfo | - |
+| Button1 | Print List | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button1.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/List%20Box.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Variable.4dm) |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Variable1.4dm) |
+| Button | Allow Editing | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button.4dm) |
+| Button2 | Hot Half Manager | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button2.4dm) |
+| Button3 | Force Update Cycle Counts | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button3.4dm) |
+| Check Box | Show Archived Tools | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.IncludeArchived | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Check%20Box.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity=Null:C1517 ? "Tool Notices" : _Text("Tool Notices for Tool :1 (:2)").parse(Form:C1466.ToolsEntity.Tool_No; Form:C1466.ToolsEntity.ProduictEntity.OurPartName) | - |
+| Button4 | ➕New Tool Notice | 🔘 button | ✅ | ✅ | ❌ | - | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button4.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolNoticeSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/List%20Box1.4dm) |
 
 ---
 

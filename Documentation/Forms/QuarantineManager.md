@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.722Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.486Z |
 
 ---
 
@@ -63,23 +63,23 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vQFinished | - |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vWOFinished | - |
-| Field | 📝 input | ✅ | ✅ | ❌ | [Product:10]Our Part No:2 | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | vParts | [Variable3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable3.4dm) |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | vBoxes | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable4.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button1.4dm) |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vWorksOrder | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable.4dm) |
+| Text | Works Order | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vQFinished | - |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vWOFinished | - |
+| Field | - | 📝 input | ✅ | ✅ | ❌ | [Product:10]Our Part No:2 | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | vParts | [Variable3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable3.4dm) |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | vBoxes | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Variable4.4dm) |
+| Button | Move to Quarantine | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button.4dm) |
+| Button1 | Release to Finished Goods | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button1.4dm) |
+| Text1 | Product | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text4 | Finished Goods | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text5 | Quarantined | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text6 | Parts to Move | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text7 | Boxes to Move | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button2 | Button | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button2.4dm) |
 
 ---
 

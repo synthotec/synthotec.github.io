@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.761Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.527Z |
 
 ---
 
@@ -62,18 +62,18 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | SupplierDoc_TypeArray | - |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vDocumentReference | - |
-| Button2 | 🔘 button | ✅ | ❌ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button2.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button.4dm) |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vValidUntil | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button1.4dm) |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vFileName | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | Document Type | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | SupplierDoc_TypeArray | - |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vDocumentReference | - |
+| Button2 | Paste File | 🔘 button | ✅ | ❌ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button2.4dm) |
+| Button | Select File | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button.4dm) |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vValidUntil | - |
+| Button1 | Save Supplier Documentation | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierDocumentationAdd/ObjectMethods/Button1.4dm) |
+| Text1 | Document Reference | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vFileName | - |
+| Text2 | Document Valid Until | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

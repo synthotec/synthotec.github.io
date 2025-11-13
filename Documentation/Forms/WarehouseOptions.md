@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.794Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.562Z |
 
 ---
 
@@ -61,16 +61,16 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vxSearch | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/Variable1.4dm) |
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | X | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/Variable2.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | GetDBVariable("*test3"; False:C215) ? "test3" : (Form:C1466.SelectedProductEntity=Null:C1517 ? "" : (Form:C1466.SelectedProductEntity.EmojisEntity=Null:C1517 ? "" : Form:C1466.SelectedProductEntity.EmojisEntity.Emoji)+"\r"+(Form:C1466.SelectedProductEntity.PalletMethodsEntity=Null:C1517 ? "" : Form:C1466.SelectedProductEntity.PalletMethodsEntity.Symbol)) | - |
-| ClearArchivedButton | 🔘 button | ✅ | ✅ | ❌ | - | [ClearArchivedButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/ClearArchivedButton.4dm) |
-| AddMissingButton | 🔘 button | ✅ | ✅ | ❌ | - | [AddMissingButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/AddMissingButton.4dm) |
-| EmojiManagerButton | 🔘 button | ✅ | ✅ | ❌ | - | [EmojiManagerButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/EmojiManagerButton.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ProductSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/List%20Box1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vxSearch | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/Variable1.4dm) |
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | X | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/Variable2.4dm) |
+| Text | Right click a line for options | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | GetDBVariable("*test3"; False:C215) ? "test3" : (Form:C1466.SelectedProductEntity=Null:C1517 ? "" : (Form:C1466.SelectedProductEntity.EmojisEntity=Null:C1517 ? "" : Form:C1466.SelectedProductEntity.EmojisEntity.Emoji)+"\r"+(Form:C1466.SelectedProductEntity.PalletMethodsEntity=Null:C1517 ? "" : Form:C1466.SelectedProductEntity.PalletMethodsEntity.Symbol)) | - |
+| ClearArchivedButton | Clear Symbols from Archived Products | 🔘 button | ✅ | ✅ | ❌ | - | [ClearArchivedButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/ClearArchivedButton.4dm) |
+| AddMissingButton | Set Products Without Symbols | 🔘 button | ✅ | ✅ | ❌ | - | [AddMissingButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/AddMissingButton.4dm) |
+| EmojiManagerButton | Open Symbol Manager | 🔘 button | ✅ | ✅ | ❌ | - | [EmojiManagerButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/EmojiManagerButton.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ProductSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/List%20Box1.4dm) |
 
 ---
 

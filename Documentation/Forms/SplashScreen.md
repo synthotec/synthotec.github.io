@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T16:35:16.748Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.513Z |
 
 ---
 
@@ -62,17 +62,17 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Country | 📝 input | ✅ | ✅ | ❌ | Uppercase:C13(ds:C1482.Settings.global("Location").getValue("United Kingdom")) | - |
-| Input2 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.VersionInfo | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | SynthoTec 4D | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Country | - | 📝 input | ✅ | ✅ | ❌ | Uppercase:C13(ds:C1482.Settings.global("Location").getValue("United Kingdom")) | - |
+| Input2 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.VersionInfo | - |
 
 #### Page 2
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | SplashScreen_SplashImage | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | SplashScreen_SplashImage | - |
 
 ---
 

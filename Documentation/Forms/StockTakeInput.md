@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 10 |
-| **Generated** | 🕐 2025-11-13T16:35:16.760Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.525Z |
 
 ---
 
@@ -62,26 +62,26 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Variable33 | 📝 input | ✅ | ✅ | ❌ | StockTakeInput_RMC | [Variable33.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Variable33.4dm) |
-| Variable34 | 📝 input | ✅ | ✅ | ❌ | vRMCID | - |
-| Variable35 | 📝 input | ✅ | ✅ | ❌ | vBags | [Variable35.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Variable35.4dm) |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | vMaterialAmount | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button1.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | DELETESELECTEDITEM | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button3.4dm) |
-| Button12 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button12.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button12.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ❌ | ❌ | transit | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Check%20Box.4dm) |
-| Variable53 | 📝 input | ✅ | ✅ | ❌ | vMaterialName | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | StockTakeInput_Listbox1 | - |
-| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Check Box1 | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.AddToPreviousStockTake | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Check%20Box1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button2.4dm) |
-| Button4 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button4.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | RMC | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | Container ID | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2 | Number of Bags | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Variable33 | - | 📝 input | ✅ | ✅ | ❌ | StockTakeInput_RMC | [Variable33.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Variable33.4dm) |
+| Variable34 | - | 📝 input | ✅ | ✅ | ❌ | vRMCID | - |
+| Variable35 | - | 📝 input | ✅ | ✅ | ❌ | vBags | [Variable35.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Variable35.4dm) |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vMaterialAmount | - |
+| Button1 | Save | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button1.4dm) |
+| Button3 | DELETE SELECTED LINE | 🔘 button | ✅ | ✅ | ❌ | DELETESELECTEDITEM | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button3.4dm) |
+| Button12 | Add Stock From Warehouse | 🔘 button | ✅ | ✅ | ❌ | Button | [Button12.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button12.4dm) |
+| Button | Add Realtime Used | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button.4dm) |
+| Check Box | STOCK IN TRANIT | ☑️ checkbox | ✅ | ❌ | ❌ | transit | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Check%20Box.4dm) |
+| Variable53 | - | 📝 input | ✅ | ✅ | ❌ | vMaterialName | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | StockTakeInput_Listbox1 | - |
+| Text3 | Kg | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Check Box1 | Add to previous stock take | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.AddToPreviousStockTake | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Check%20Box1.4dm) |
+| Button2 | Add Scanned Results | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button2.4dm) |
+| Button4 | 📅 Set Next STock Take Date | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button4.4dm) |
 
 ---
 

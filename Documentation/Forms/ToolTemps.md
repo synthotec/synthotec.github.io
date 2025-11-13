@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T16:35:16.782Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.551Z |
 
 ---
 
@@ -63,26 +63,26 @@ This form handles **15** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/List%20Box.4dm) |
-| RealTimeSensorExceptionsListBox | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RealTimeSensorExceptionsSelection | [RealTimeSensorExceptionsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/RealTimeSensorExceptionsListBox.4dm) |
-| Form.RealTimeSelection | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RealTimeSelection | - |
-| Form.SearchText | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Search | [Form.SearchText.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchText.4dm) |
-| Form.SearchClear | 🔘 button | ✅ | ✅ | ❌ | - | [Form.SearchClear.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchClear.4dm) |
-| Form.SearchButton | 🔘 button | ✅ | ✅ | ❌ | - | [Form.SearchButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchButton.4dm) |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ToolTemperatureTargetSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/List%20Box2.4dm) |
-| AddTemperatureTargetButton | 🔘 button | ✅ | ✅ | ❌ | - | [AddTemperatureTargetButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/AddTemperatureTargetButton.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ProductEntity.OurPartName+" - Tool "+Form:C1466.ToolsEntity.Tool_No | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Button.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/List%20Box.4dm) |
+| RealTimeSensorExceptionsListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RealTimeSensorExceptionsSelection | [RealTimeSensorExceptionsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/RealTimeSensorExceptionsListBox.4dm) |
+| Form.RealTimeSelection | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RealTimeSelection | - |
+| Form.SearchText | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Search | [Form.SearchText.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchText.4dm) |
+| Form.SearchClear | ❌ | 🔘 button | ✅ | ✅ | ❌ | - | [Form.SearchClear.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchClear.4dm) |
+| Form.SearchButton | 🔎 | 🔘 button | ✅ | ✅ | ❌ | - | [Form.SearchButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Form.SearchButton.4dm) |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ToolTemperatureTargetSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/List%20Box2.4dm) |
+| AddTemperatureTargetButton | 🌡️ Add Temperature Target | 🔘 button | ✅ | ✅ | ❌ | - | [AddTemperatureTargetButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/AddTemperatureTargetButton.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ProductEntity.OurPartName+" - Tool "+Form:C1466.ToolsEntity.Tool_No | - |
+| Button | ↻ Refresh | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolTemps/ObjectMethods/Button.4dm) |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| TextBox_SelectATool | 📄 text | ✅ | ✅ | ❌ | - | - |
-| TextBox_SelectAnException | 📄 text | ✅ | ✅ | ❌ | - | - |
-| TextBox_TemperatureTargets | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| TextBox_SelectATool | SELECT A TOOL TO VIEW ITS EXCEPTIONS | 📄 text | ✅ | ✅ | ❌ | - | - |
+| TextBox_SelectAnException | SELECT AN EXCEPTION TO VIEW ITS CYCLE HISTORY | 📄 text | ✅ | ✅ | ❌ | - | - |
+| TextBox_TemperatureTargets | SELECT A TOOL TO VIEW ITS TEMPERATURE TARGETS | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

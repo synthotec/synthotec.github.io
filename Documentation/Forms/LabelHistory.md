@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.610Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.375Z |
 
 ---
 
@@ -61,12 +61,12 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ❌ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/Button.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/List%20Box1.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.SortMethodsObject | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/Popup%20Dropdown%20List.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Close Works Order | 🔘 button | ✅ | ❌ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/Button.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/List%20Box1.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.SortMethodsObject | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Text | Sorting Method | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

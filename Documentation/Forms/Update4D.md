@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.789Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.558Z |
 
 ---
 
@@ -63,13 +63,13 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | Update4D_UpdateFolderPath | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/Button.4dm) |
-| ValidateButton | 🔘 button | ✅ | ✅ | ❌ | - | [ValidateButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/ValidateButton.4dm) |
-| RestartButton | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton.4dm) |
-| RestartButton1 | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Update4D_UpdateFolderPath | - |
+| Button | Select Folder | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/Button.4dm) |
+| ValidateButton | Validate | 🔘 button | ✅ | ✅ | ❌ | - | [ValidateButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/ValidateButton.4dm) |
+| RestartButton | Restart & Update 4D | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton.4dm) |
+| RestartButton1 | Cancel Update | 🔘 button | ✅ | ✅ | ❌ | - | [RestartButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Update4D/ObjectMethods/RestartButton1.4dm) |
 
 ---
 

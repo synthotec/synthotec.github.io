@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T16:35:16.650Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.414Z |
 
 ---
 
@@ -62,15 +62,15 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | vCategories | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Popup%20Dropdown%20List.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button1.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/List%20Box.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button2.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | vCategories | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Button | New Category | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button.4dm) |
+| Button1 | Add Nominal Code To Category | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button1.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/List%20Box.4dm) |
+| Button2 | Delete Selected Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button2.4dm) |
+| Text | Enter CAP as the 4D Code to require a CAPEX number | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | Right click a line to change the category | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

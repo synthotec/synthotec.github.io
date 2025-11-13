@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.462Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.219Z |
 
 ---
 
@@ -61,16 +61,16 @@ This form handles **17** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.BoxLabelQR | - |
-| Input1 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.WorksOrder | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input1.4dm) |
-| Input2 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.BoxNumber | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input2.4dm) |
-| Input3 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PalletQR | [Input3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input3.4dm) |
-| Input4 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PalletID | [Input4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input4.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.BoxLabelQR | - |
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.WorksOrder | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input1.4dm) |
+| Input2 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.BoxNumber | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input2.4dm) |
+| Input3 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PalletQR | [Input3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input3.4dm) |
+| Input4 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PalletID | [Input4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Input4.4dm) |
+| Button1 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button1.4dm) |
+| Button2 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest/ObjectMethods/Button2.4dm) |
 
 ---
 

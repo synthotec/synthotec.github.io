@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.632Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.397Z |
 
 ---
 
@@ -62,24 +62,24 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable2 | 📝 input | ✅ | ✅ | ❌ | vTitle | - |
-| Variable1 | 📝 input | ✅ | ✅ | ❌ | TranslateText("Planned Material") | - |
-| Variable3 | 📝 input | ✅ | ✅ | ❌ | vPlannedMaterial | - |
-| Variable4 | 📝 input | ✅ | ✅ | ❌ | TranslateText("Planned Closed Loop") | - |
-| Variable5 | 📝 input | ✅ | ✅ | ❌ | vPlannedClosedLoop | - |
-| Variable6 | 📝 input | ✅ | ✅ | ❌ | TranslateText("Using Material") | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/List%20Box.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aMaterials | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/Popup%20Dropdown%20List.4dm) |
-| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | aClosedLoop | - |
-| Variable9 | 📝 input | ✅ | ✅ | ❌ | vComments | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/Button.4dm) |
-| Variable7 | 📝 input | ✅ | ✅ | ❌ | TranslateText("Closed Loop") | - |
-| Variable8 | 📝 input | ✅ | ✅ | ❌ | TranslateText("RMC Information") | - |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | - |
-| Variable10 | 📝 input | ✅ | ✅ | ❌ | TranslateText("Comments / Reason") | - |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vTitle | - |
+| Variable1 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("Planned Material") | - |
+| Variable3 | - | 📝 input | ✅ | ✅ | ❌ | vPlannedMaterial | - |
+| Variable4 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("Planned Closed Loop") | - |
+| Variable5 | - | 📝 input | ✅ | ✅ | ❌ | vPlannedClosedLoop | - |
+| Variable6 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("Using Material") | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/List%20Box.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | aMaterials | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Popup Dropdown List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | aClosedLoop | - |
+| Variable9 | - | 📝 input | ✅ | ✅ | ❌ | vComments | - |
+| Button | Submit Material Check Results | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialCheck/ObjectMethods/Button.4dm) |
+| Variable7 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("Closed Loop") | - |
+| Variable8 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("RMC Information") | - |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Variable10 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("Comments / Reason") | - |
+| Text | LINES THIS COLOUR INDICATE THAT THEY ARE FROM A MATERIAL CHECK COMPLETED FOR ANOTHER WORKS ORDER AND THIS MATERIAL IS SETUP TO USE A SHARED SOURCE | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

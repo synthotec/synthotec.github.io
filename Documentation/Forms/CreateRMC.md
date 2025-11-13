@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 10 |
-| **Generated** | 🕐 2025-11-13T16:35:16.554Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.324Z |
 
 ---
 
@@ -63,33 +63,33 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text8 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text2 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text3 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | CreateRMC_Materials | - |
-| CreateRMC_DateEntry | 🔲 subform | ✅ | ✅ | ❌ | Form:C1466.Date | [CreateRMC_DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/CreateRMC_DateEntry.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Batch | - |
-| Text4 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input2 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Quantity | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input2.4dm) |
-| Text6 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input3 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.FileName | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button.4dm) |
-| Input5 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Containers | [Input5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input5.4dm) |
-| Text7 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input7 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ContainerQty | [Input7.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input7.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/List%20Box.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button1.4dm) |
-| Text5 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input1 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PO | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input1.4dm) |
-| Text9 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Input4 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ReceivedBy | - |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.NotDelivered | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Check%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PurchaseInfoEntitySelection | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text8 | Number of Containers | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text1 | Material Name | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2 | Date Delivered | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text3 | Material Batch | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | CreateRMC_Materials | - |
+| CreateRMC_DateEntry | - | 🔲 subform | ✅ | ✅ | ❌ | Form:C1466.Date | [CreateRMC_DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/CreateRMC_DateEntry.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Batch | - |
+| Text4 | Quantity (Kg) | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input2 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Quantity | [Input2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input2.4dm) |
+| Text6 | Certificate of Analysis | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input3 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.FileName | - |
+| Button | Upload | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button.4dm) |
+| Input5 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.Containers | [Input5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input5.4dm) |
+| Text7 | Full Container Quantity | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input7 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ContainerQty | [Input7.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input7.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/List%20Box.4dm) |
+| Text | Adjust container quantities below | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | Create RMC | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button1.4dm) |
+| Text5 | Purchase Order | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.PO | [Input1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Input1.4dm) |
+| Text9 | Recieved By | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Input4 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ReceivedBy | - |
+| Check Box | Material Not Yet Delivered | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.NotDelivered | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Check%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PurchaseInfoEntitySelection | - |
+| Button2 | Load Purchase Order | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button2.4dm) |
 
 ---
 

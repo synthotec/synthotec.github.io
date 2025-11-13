@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T16:35:16.719Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.482Z |
 
 ---
 
@@ -63,13 +63,13 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/List%20Box1.4dm) |
-| AddButton* | 🔘 button | ✅ | ✅ | ❌ | - | [AddButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/AddButton%2A.4dm) |
-| Title* | 📄 text | ✅ | ✅ | ❌ | - | - |
-| SignInButton* | 🔘 button | ✅ | ✅ | ❌ | - | [SignInButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/SignInButton%2A.4dm) |
-| QuarantineButton | 🔘 button | ✅ | ✅ | ❌ | - | [QuarantineButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/QuarantineButton.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/List%20Box1.4dm) |
+| AddButton* | Button | 🔘 button | ✅ | ✅ | ❌ | - | [AddButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/AddButton%2A.4dm) |
+| Title* | text default | 📄 text | ✅ | ✅ | ❌ | - | - |
+| SignInButton* | Button | 🔘 button | ✅ | ✅ | ❌ | - | [SignInButton%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/SignInButton%2A.4dm) |
+| QuarantineButton | FIRST OFF FAILED - QUARANTINE WO | 🔘 button | ✅ | ✅ | ❌ | - | [QuarantineButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemResults/ObjectMethods/QuarantineButton.4dm) |
 
 ---
 

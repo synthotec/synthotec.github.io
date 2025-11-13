@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T16:35:16.463Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.221Z |
 
 ---
 
@@ -63,10 +63,10 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | testPicture | - |
-| Variable8 | 📝 input | ✅ | ✅ | ❌ | vSymbol | [Variable8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest1/ObjectMethods/Variable8.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | testPicture | - |
+| Variable8 | - | 📝 input | ✅ | ✅ | ❌ | vSymbol | [Variable8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2Atest1/ObjectMethods/Variable8.4dm) |
 
 ---
 

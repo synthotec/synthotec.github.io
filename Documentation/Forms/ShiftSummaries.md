@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.741Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.504Z |
 
 ---
 
@@ -63,27 +63,27 @@ This form handles **4** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input1 | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryTitle | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryDetailSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/List%20Box.4dm) |
-| Input | 📝 input | ✅ | ✅ | ❌ | "Additional Commentary" | - |
-| Form.ShiftSummaryEntity.Commentary | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryEntity.Commentary | - |
-| Form.NewButton | 🔘 button | ✅ | ✅ | ❌ | - | [Form.NewButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Form.NewButton.4dm) |
-| Form.ShiftSummarySelection | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ShiftSummarySelection | [Form.ShiftSummarySelection.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Form.ShiftSummarySelection.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input1 | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryTitle | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryDetailSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/List%20Box.4dm) |
+| Input | - | 📝 input | ✅ | ✅ | ❌ | "Additional Commentary" | - |
+| Form.ShiftSummaryEntity.Commentary | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ShiftSummaryEntity.Commentary | - |
+| Form.NewButton | ➕ New Shift Summary | 🔘 button | ✅ | ✅ | ❌ | - | [Form.NewButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Form.NewButton.4dm) |
+| Form.ShiftSummarySelection | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ShiftSummarySelection | [Form.ShiftSummarySelection.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Form.ShiftSummarySelection.4dm) |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| ModifyButton | 🔘 button | ✅ | ✅ | ❌ | - | [ModifyButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/ModifyButton.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| ModifyButton | ✏️ Modify Shift Summary | 🔘 button | ✅ | ✅ | ❌ | - | [ModifyButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/ModifyButton.4dm) |
 
 #### Page 2
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Button2.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Button3.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button2 | 💾 Save Shift Summary | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Button2.4dm) |
+| Button3 | ❌ Cancel Shift Summary | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/ObjectMethods/Button3.4dm) |
 
 ---
 

@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 4 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 10 |
-| **Generated** | 🕐 2025-11-13T16:35:16.445Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.201Z |
 
 ---
 
@@ -63,36 +63,36 @@ This form handles **15** of **44** possible events:
 
 #### Page 0 (Visible on All Pages)
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Input | 📝 input | ✅ | ✅ | ❌ | _Text("PICK REQUEST #:1").parse(Form:C1466.PickRequestEntity.ID) | - |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PickedStockListboxObject.Collection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box2.4dm) |
-| List Box3 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.WorksOrderSummaryListboxCollection | - |
-| PickRequestDespatchButton | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestDespatchButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestDespatchButton.4dm) |
-| PickRequestListBox | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PickRequestSelection | [PickRequestListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestListBox.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/Button.4dm) |
-| PickRequestSubmitButton | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestSubmitButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestSubmitButton.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/Button1.4dm) |
-| PickRequestTransportInstructionsButton | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestTransportInstructionsButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestTransportInstructionsButton.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Input | - | 📝 input | ✅ | ✅ | ❌ | _Text("PICK REQUEST #:1").parse(Form:C1466.PickRequestEntity.ID) | - |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PickedStockListboxObject.Collection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box2.4dm) |
+| List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.WorksOrderSummaryListboxCollection | - |
+| PickRequestDespatchButton | 🚚 Despatch Pick Request | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestDespatchButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestDespatchButton.4dm) |
+| PickRequestListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PickRequestSelection | [PickRequestListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestListBox.4dm) |
+| Button | ➕ New Pick Request | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/Button.4dm) |
+| PickRequestSubmitButton | 📩 Submit Pick Request | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestSubmitButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestSubmitButton.4dm) |
+| Button1 | 🔃 Refresh | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/Button1.4dm) |
+| PickRequestTransportInstructionsButton | 📖 Transport Instructions | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestTransportInstructionsButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestTransportInstructionsButton.4dm) |
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Customer_OrderSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Customer_OrderSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box1.4dm) |
 
 #### Page 2
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | SELECT OR CREATE A PICK REQUEST TO VIEW PRODUCTS AND ORDERS | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 #### Page 3
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| PickRequestAddMovementButton | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestAddMovementButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestAddMovementButton.4dm) |
-| List Box4 | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Customer_OrderSelection | [List Box4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box4.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| PickRequestAddMovementButton | ↪️ Add Movement Request | 🔘 button | ✅ | ✅ | ❌ | - | [PickRequestAddMovementButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/PickRequestAddMovementButton.4dm) |
+| List Box4 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.Customer_OrderSelection | [List Box4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AOrderPicking/ObjectMethods/List%20Box4.4dm) |
 
 ---
 

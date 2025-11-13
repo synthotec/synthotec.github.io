@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.670Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.432Z |
 
 ---
 
@@ -63,13 +63,13 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| PalletDespatchList_List | 📋 listbox | ✅ | ✅ | ❌ | - | [PalletDespatchList_List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/PalletDespatchList_List.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/Button.4dm) |
-| PalletDespatchList_Title | 📄 text | ✅ | ✅ | ❌ | - | - |
-| PalletDespatchList_Company | 📄 text | ✅ | ✅ | ❌ | - | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/List%20Box.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| PalletDespatchList_List | - | 📋 listbox | ✅ | ✅ | ❌ | - | [PalletDespatchList_List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/PalletDespatchList_List.4dm) |
+| Button | PRINT PALLET LIST | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/Button.4dm) |
+| PalletDespatchList_Title | PalletDespatchList_Title | 📄 text | ✅ | ✅ | ❌ | - | - |
+| PalletDespatchList_Company | SynthoTec Ltd | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/List%20Box.4dm) |
 
 ---
 

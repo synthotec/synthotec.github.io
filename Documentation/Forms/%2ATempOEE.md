@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.460Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.217Z |
 
 ---
 
@@ -61,11 +61,11 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ATempOEE/ObjectMethods/Button.4dm) |
-| Variable | 📝 input | ✅ | ✅ | ❌ | vNumber | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ATempOEE/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Button | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ATempOEE/ObjectMethods/Button.4dm) |
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vNumber | - |
+| Button1 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ATempOEE/ObjectMethods/Button1.4dm) |
 
 ---
 

@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T16:35:16.517Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.276Z |
 
 ---
 
@@ -61,17 +61,17 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/SearchPicker.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aBOMProducts | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List.4dm) |
-| Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | aBOMCustomers | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Button.4dm) |
-| Popup Dropdown List2 | 📥 dropdown | ✅ | ✅ | ❌ | BOM_ForecastYear | [Popup Dropdown List2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List2.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/List%20Box1.4dm) |
-| List Box2 | 📋 listbox | ✅ | ✅ | ❌ | TopListBox | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | MainListBox | - |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | vSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/SearchPicker.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | aBOMProducts | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Popup Dropdown List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | aBOMCustomers | - |
+| Button | Add Selected BOM Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Button.4dm) |
+| Popup Dropdown List2 | - | 📥 dropdown | ✅ | ✅ | ❌ | BOM_ForecastYear | [Popup Dropdown List2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/Popup%20Dropdown%20List2.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Output/ObjectMethods/List%20Box1.4dm) |
+| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | TopListBox | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | MainListBox | - |
+| Text | Forecast Year | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

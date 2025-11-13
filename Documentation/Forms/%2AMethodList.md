@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 9 |
-| **Generated** | 🕐 2025-11-13T16:35:16.439Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.196Z |
 
 ---
 
@@ -63,13 +63,13 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.Methods.orderBy("Pinned DESC, LastAccessed DESC, Name ASC") | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.MethodForms | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box1.4dm) |
-| BuildButton | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/Button.4dm) |
-| BuildButton1 | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.Methods.orderBy("Pinned DESC, LastAccessed DESC, Name ASC") | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Storage:C1525.MethodForms | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/List%20Box1.4dm) |
+| BuildButton | 🏗️ Open Build Manager | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton.4dm) |
+| Button | 🛑 Disable Global Error Handler | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/Button.4dm) |
+| BuildButton1 | 📂 Browse | 🔘 button | ✅ | ✅ | ❌ | - | [BuildButton1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AMethodList/ObjectMethods/BuildButton1.4dm) |
 
 ---
 

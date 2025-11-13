@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T16:35:16.785Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.555Z |
 
 ---
 
@@ -63,14 +63,14 @@ This form handles **15** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/List%20Box.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | Translation_Processes_Detailed | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Popup%20Dropdown%20List.4dm) |
-| Button* | 🔘 button | ✅ | ❌ | ❌ | - | [Button%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Button%2A.4dm) |
-| Text1* | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Text2* | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | Process | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/List%20Box.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | Translation_Processes_Detailed | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+| Button* | PURGE TRANSLATIONS - BUTTON TO BE REMOVED | 🔘 button | ✅ | ❌ | ❌ | - | [Button%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Button%2A.4dm) |
+| Text1* | DOUBLE CLICK THE ORIGINAL TEXT TO MOVE IT TO THE TRANSLATED TEXT SECTION | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Text2* | <PART> test | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

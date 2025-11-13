@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-13T16:35:16.783Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.553Z |
 
 ---
 
@@ -62,13 +62,15 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button.4dm) |
-| Text1 | 📄 text | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button1.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Text | This functionality will move a supply from one supplier to another.
+
+A copy of the old record will be left with the original supplier, in order to preserve history. | 📄 text | ✅ | ✅ | ❌ | - | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | List Box | - |
+| Button | Update | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button.4dm) |
+| Text1 | - | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Button1 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button1.4dm) |
 
 ---
 

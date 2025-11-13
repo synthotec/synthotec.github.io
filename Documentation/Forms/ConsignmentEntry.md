@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T16:35:16.550Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.311Z |
 
 ---
 
@@ -61,20 +61,20 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | ConsignmentEntry_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/List%20Box.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button.4dm) |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button1.4dm) |
-| Check Box | ☑️ checkbox | ✅ | ✅ | ❌ | vMinStock | - |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button2.4dm) |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button3.4dm) |
-| Button4 | 🔘 button | ✅ | ❌ | ❌ | Button2 | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button4.4dm) |
-| Button5 | 🔘 button | ✅ | ✅ | ❌ | Button | [Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button5.4dm) |
-| Button6 | 🔘 button | ✅ | ✅ | ❌ | Button6 | [Button6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button6.4dm) |
-| Button7 | 🔘 button | ✅ | ✅ | ❌ | Button7 | [Button7.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button7.4dm) |
-| Button8 | 🔘 button | ✅ | ✅ | ❌ | Button8 | [Button8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button8.4dm) |
-| Button9 | 🔘 button | ✅ | ❌ | ❌ | Button2 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button9.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | ConsignmentEntry_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/List%20Box.4dm) |
+| Button | CREATE FOR THIS WEEK | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button.4dm) |
+| Button1 | CREATE ORDERS | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button1.4dm) |
+| Check Box | USE MIN STOCK? | ☑️ checkbox | ✅ | ✅ | ❌ | vMinStock | - |
+| Button2 | IMPORT SNR CONSIGNMENT | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button2.4dm) |
+| Button3 | ADD NEW LINES | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button3.4dm) |
+| Button4 | IMPORT SNR ORDERS | 🔘 button | ✅ | ❌ | ❌ | Button2 | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button4.4dm) |
+| Button5 | DELETE PAST REQUIREMENTS | 🔘 button | ✅ | ✅ | ❌ | Button | [Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button5.4dm) |
+| Button6 | Button | 🔘 button | ✅ | ✅ | ❌ | Button6 | [Button6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button6.4dm) |
+| Button7 | LOAD SKF LINE | 🔘 button | ✅ | ✅ | ❌ | Button7 | [Button7.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button7.4dm) |
+| Button8 | Button | 🔘 button | ✅ | ✅ | ❌ | Button8 | [Button8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button8.4dm) |
+| Button9 | IMPORT SNR ORDERS | 🔘 button | ✅ | ❌ | ❌ | Button2 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConsignmentEntry/ObjectMethods/Button9.4dm) |
 
 ---
 

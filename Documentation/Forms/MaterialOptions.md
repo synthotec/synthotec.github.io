@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-13T16:35:16.636Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.403Z |
 
 ---
 
@@ -62,17 +62,17 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vPartSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/SearchPicker.4dm) |
-| SearchPicker1 | 🔲 subform | ✅ | ✅ | ❌ | vMaterialSearch | [SearchPicker1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/SearchPicker1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button2.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/List%20Box.4dm) |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/List%20Box1.4dm) |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button.4dm) |
-| Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | aMaterialNames | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button1.4dm) |
-| Text | 📄 text | ✅ | ✅ | ❌ | - | - |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | vPartSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/SearchPicker.4dm) |
+| SearchPicker1 | - | 🔲 subform | ✅ | ✅ | ❌ | vMaterialSearch | [SearchPicker1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/SearchPicker1.4dm) |
+| Button2 | Delete Selected Material Option | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button2.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/List%20Box.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/List%20Box1.4dm) |
+| Button | Add Missing Materials | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button.4dm) |
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | aMaterialNames | - |
+| Button1 | Add Selected Material Option To Product | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOptions/ObjectMethods/Button1.4dm) |
+| Text | Double click a line to change the default material | 📄 text | ✅ | ✅ | ❌ | - | - |
 
 ---
 

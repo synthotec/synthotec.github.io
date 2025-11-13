@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
 | **Object Methods** | 3 |
-| **Generated** | 🕐 2025-11-13T16:35:16.531Z |
+| **Generated** | 🕐 2025-11-13T16:46:55.292Z |
 
 ---
 
@@ -62,13 +62,13 @@ This form handles **16** of **44** possible events:
 
 #### Page 1
 
-| Name | Type | Enabled | Visible | Enterable | Data Source | Method |
-|:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| Variable | 📝 input | ✅ | ✅ | ❌ | vAdviceNote | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button.4dm) |
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | - | - |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button1.4dm) |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button2.4dm) |
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Variable | - | 📝 input | ✅ | ✅ | ❌ | vAdviceNote | - |
+| Button | Load Advice Note | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button.4dm) |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+| Button1 | Undo Selected Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button1.4dm) |
+| Button2 | Undo Entire Advice Note and Keep Pallet IDS | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button2.4dm) |
 
 ---
 
