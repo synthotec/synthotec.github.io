@@ -192,12 +192,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //UniqueID_i` (Unique) - Kind: regular
-UniqueID_i  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
-- **Field : **  //SupplierID_l` - Kind: regular
-SupplierID_l  // - Kind: regular, Type: 7
+- **Field:** `UniqueID_i` (Unique) - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
+- **Field:** `SupplierID_l` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -129,14 +129,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //MatID` - Kind: regular
-MatID  // - Kind: regular, Type: 7
-- **Field : **  //StockTakeDate` - Kind: regular
-StockTakeDate  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //PrimaryStockTake` - Kind: regular
-PrimaryStockTake  // - Kind: regular, Type: 7
+- **Field:** `MatID` - Kind: regular
+- **Field:** `StockTakeDate` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `PrimaryStockTake` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -39,8 +39,7 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID_l` (Unique) - Kind: regular
-ID_l  // (Unique) - Kind: regular, Type: 7
+- **Field:** `ID_l` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

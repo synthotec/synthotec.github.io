@@ -641,44 +641,25 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Petes_No` (Unique) - Kind: regular
-Petes_No  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Reviewed` - Kind: regular
-Reviewed  // - Kind: regular, Type: 7
-- **Field : **  //Forecast` - Kind: regular
-Forecast  // - Kind: regular, Type: 7
-- **Field : **  //Product_ID` - Kind: regular
-Product_ID  // - Kind: regular, Type: 7
-- **Field : **  //Completed` - Kind: regular
-Completed  // - Kind: regular, Type: 7
-- **Field : **  //Our_Delivery_Date` - Kind: regular
-Our_Delivery_Date  // - Kind: regular, Type: 7
-- **Field : **  //Confirmed` - Kind: regular
-Confirmed  // - Kind: regular, Type: 7
-- **Field : **  //Part_No` - Kind: regular
-Part_No  // - Kind: regular, Type: 7
-- **Field : **  //ProcurementProgramOrder` - Kind: regular
-ProcurementProgramOrder  // - Kind: regular, Type: 7
-- **Field : **  //Customer_Delivery_Date` - Kind: regular
-Customer_Delivery_Date  // - Kind: regular, Type: 7
-- **Field : **  //Material_ID` - Kind: regular
-Material_ID  // - Kind: regular, Type: 7
-- **Field : **  //FinWheelID` - Kind: regular
-FinWheelID  // - Kind: regular, Type: 7
-- **Field : **  //Product_OptionID` - Kind: regular
-Product_OptionID  // - Kind: regular, Type: 7
-- **Field : **  //Customer_Order_No` - Kind: regular
-Customer_Order_No  // - Kind: regular, Type: 7
-- **Field : **  //FutureYearForecast` - Kind: regular
-FutureYearForecast  // - Kind: regular, Type: 7
-- **Field : **  //Ready_To_Delete` - Kind: regular
-Ready_To_Delete  // - Kind: regular, Type: 7
-- **Field : **  //MakeOrder` - Kind: regular
-MakeOrder  // - Kind: regular, Type: 7
-- **Field : **  //Customer_Code` - Kind: regular
-Customer_Code  // - Kind: regular, Type: 7
-- **Field : **  //Ammeded_Date` - Kind: regular
-Ammeded_Date  // - Kind: regular, Type: 7
+- **Field:** `Petes_No` (Unique) - Kind: regular
+- **Field:** `Reviewed` - Kind: regular
+- **Field:** `Forecast` - Kind: regular
+- **Field:** `Product_ID` - Kind: regular
+- **Field:** `Completed` - Kind: regular
+- **Field:** `Our_Delivery_Date` - Kind: regular
+- **Field:** `Confirmed` - Kind: regular
+- **Field:** `Part_No` - Kind: regular
+- **Field:** `ProcurementProgramOrder` - Kind: regular
+- **Field:** `Customer_Delivery_Date` - Kind: regular
+- **Field:** `Material_ID` - Kind: regular
+- **Field:** `FinWheelID` - Kind: regular
+- **Field:** `Product_OptionID` - Kind: regular
+- **Field:** `Customer_Order_No` - Kind: regular
+- **Field:** `FutureYearForecast` - Kind: regular
+- **Field:** `Ready_To_Delete` - Kind: regular
+- **Field:** `MakeOrder` - Kind: regular
+- **Field:** `Customer_Code` - Kind: regular
+- **Field:** `Ammeded_Date` - Kind: regular
 
 ## Many-to-One Relations
 

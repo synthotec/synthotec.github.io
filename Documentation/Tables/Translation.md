@@ -66,12 +66,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //OriginalText` - Kind: regular
-OriginalText  // - Kind: regular, Type: 7
-- **Field : **  //Process` - Kind: regular
-Process  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `OriginalText` - Kind: regular
+- **Field:** `Process` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

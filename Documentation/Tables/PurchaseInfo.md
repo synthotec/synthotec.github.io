@@ -238,22 +238,14 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //OrderNo_l` - Kind: regular
-OrderNo_l  // - Kind: regular, Type: 7
-- **Field : **  //UniqueID_l` (Unique) - Kind: regular
-UniqueID_l  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Invoiced` - Kind: regular
-Invoiced  // - Kind: regular, Type: 7
-- **Field : **  //SuppliesID_i` - Kind: regular
-SuppliesID_i  // - Kind: regular, Type: 7
-- **Field : **  //Description_txt` - Kind: keywords
-Description_txt  // - Kind: keywords, Type: 3
-- **Field : **  //Received` - Kind: regular
-Received  // - Kind: regular, Type: 7
-- **Field : **  //DateRequested` - Kind: regular
-DateRequested  // - Kind: regular, Type: 7
-- **Field : **  //Description_txt` - Kind: regular
-Description_txt  // - Kind: regular, Type: 7
+- **Field:** `OrderNo_l` - Kind: regular
+- **Field:** `UniqueID_l` (Unique) - Kind: regular
+- **Field:** `Invoiced` - Kind: regular
+- **Field:** `SuppliesID_i` - Kind: regular
+- **Field:** `Description_txt` - Kind: keywords
+- **Field:** `Received` - Kind: regular
+- **Field:** `DateRequested` - Kind: regular
+- **Field:** `Description_txt` - Kind: regular
 
 ## Many-to-One Relations
 

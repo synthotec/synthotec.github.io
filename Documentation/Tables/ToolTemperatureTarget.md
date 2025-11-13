@@ -95,12 +95,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //ZoneID` - Kind: regular
-ZoneID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `ZoneID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

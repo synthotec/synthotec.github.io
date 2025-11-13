@@ -183,14 +183,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ToolNo` - Kind: regular
-ToolNo  // - Kind: regular, Type: 7
-- **Field : **  //Category` - Kind: regular
-Category  // - Kind: regular, Type: 7
-- **Field : **  //Completed` - Kind: regular
-Completed  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `ToolNo` - Kind: regular
+- **Field:** `Category` - Kind: regular
+- **Field:** `Completed` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

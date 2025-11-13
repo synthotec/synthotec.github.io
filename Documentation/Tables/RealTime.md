@@ -119,20 +119,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Stoppage` - Kind: regular
-Stoppage  // - Kind: regular, Type: 3
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 1
-- **Field : **  //Robot` - Kind: regular
-Robot  // - Kind: regular, Type: 3
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 3
-- **Field : **  //EndDate` - Kind: regular
-EndDate  // - Kind: regular, Type: 3
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 1
-- **Field : **  //DownReason` - Kind: regular
-DownReason  // - Kind: regular, Type: 7
+- **Field:** `Stoppage` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Robot` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `EndDate` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `DownReason` - Kind: regular
 
 ## Many-to-One Relations
 

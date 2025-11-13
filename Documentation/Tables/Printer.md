@@ -94,14 +94,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Computer` - Kind: regular
-Computer  // - Kind: regular, Type: 7
-- **Field : **  //Active` - Kind: regular
-Active  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //UpdateOptions` - Kind: regular
-UpdateOptions  // - Kind: regular, Type: 7
+- **Field:** `Computer` - Kind: regular
+- **Field:** `Active` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `UpdateOptions` - Kind: regular
 
 ## One-to-Many Relations
 

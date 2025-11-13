@@ -268,30 +268,18 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Version` - Kind: regular
-Version  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Despatched` - Kind: regular
-Despatched  // - Kind: regular, Type: 7
-- **Field : **  //OrderPickRequestID` - Kind: regular
-OrderPickRequestID  // - Kind: regular, Type: 7
-- **Field : **  //CofCID` - Kind: regular
-CofCID  // - Kind: regular, Type: 7
-- **Field : **  //Verified` - Kind: regular
-Verified  // - Kind: regular, Type: 7
-- **Field : **  //UUID` (Unique) - Kind: regular
-UUID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //Printed` - Kind: regular
-Printed  // - Kind: regular, Type: 7
-- **Field : **  //Completed` - Kind: regular
-Completed  // - Kind: regular, Type: 7
-- **Field : **  //LocationID` - Kind: regular
-LocationID  // - Kind: regular, Type: 7
-- **Field : **  //NewSystem` - Kind: regular
-NewSystem  // - Kind: regular, Type: 7
+- **Field:** `Version` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Despatched` - Kind: regular
+- **Field:** `OrderPickRequestID` - Kind: regular
+- **Field:** `CofCID` - Kind: regular
+- **Field:** `Verified` - Kind: regular
+- **Field:** `UUID` (Unique) - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `Printed` - Kind: regular
+- **Field:** `Completed` - Kind: regular
+- **Field:** `LocationID` - Kind: regular
+- **Field:** `NewSystem` - Kind: regular
 
 ## Many-to-One Relations
 

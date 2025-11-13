@@ -127,20 +127,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //LabelsPrinted` - Kind: regular
-LabelsPrinted  // - Kind: regular, Type: 7
-- **Field : **  //LocationID` - Kind: regular
-LocationID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //PalletNumber` - Kind: regular
-PalletNumber  // - Kind: regular, Type: 7
-- **Field : **  //SheetsPrinted` - Kind: regular
-SheetsPrinted  // - Kind: regular, Type: 7
-- **Field : **  //RMC` - Kind: regular
-RMC  // - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
+- **Field:** `LabelsPrinted` - Kind: regular
+- **Field:** `LocationID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `PalletNumber` - Kind: regular
+- **Field:** `SheetsPrinted` - Kind: regular
+- **Field:** `RMC` - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
 
 ## Many-to-One Relations
 

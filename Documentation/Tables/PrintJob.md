@@ -112,16 +112,11 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //RelatedUUID` - Kind: regular
-RelatedUUID  // - Kind: regular, Type: 7
-- **Field : **  //StaffID` - Kind: regular
-StaffID  // - Kind: regular, Type: 7
-- **Field : **  //Printed` - Kind: regular
-Printed  // - Kind: regular, Type: 7
-- **Field : **  //PrinterID` - Kind: regular
-PrinterID  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `RelatedUUID` - Kind: regular
+- **Field:** `StaffID` - Kind: regular
+- **Field:** `Printed` - Kind: regular
+- **Field:** `PrinterID` - Kind: regular
 
 ## Many-to-One Relations
 

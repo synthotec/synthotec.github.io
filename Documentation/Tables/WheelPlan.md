@@ -57,16 +57,11 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //dDate` - Kind: regular
-dDate  // - Kind: regular, Type: 1
-- **Field : **  //dDate` - Kind: regular
-dDate  // - Kind: regular, Type: 7
-- **Field : **  //Machine` - Kind: regular
-Machine  // - Kind: regular, Type: 7
-- **Field : **  //Machine` - Kind: regular
-Machine  // - Kind: regular, Type: 1
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `dDate` - Kind: regular
+- **Field:** `dDate` - Kind: regular
+- **Field:** `Machine` - Kind: regular
+- **Field:** `Machine` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

@@ -247,12 +247,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Name_s` - Kind: regular
-Name_s  // - Kind: regular, Type: 7
-- **Field : **  //Archived_b` - Kind: regular
-Archived_b  // - Kind: regular, Type: 7
-- **Field : **  //SupplierID_l` (Unique) - Kind: regular
-SupplierID_l  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Name_s` - Kind: regular
+- **Field:** `Archived_b` - Kind: regular
+- **Field:** `SupplierID_l` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

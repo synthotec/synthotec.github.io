@@ -783,42 +783,24 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //OEEgenerated` - Kind: regular
-OEEgenerated  // - Kind: regular, Type: 7
-- **Field : **  //Raised_Job_Card` - Kind: regular
-Raised_Job_Card  // - Kind: regular, Type: 7
-- **Field : **  //Machine_Started` - Kind: regular
-Machine_Started  // - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
-- **Field : **  //No_In_Stock` - Kind: regular
-No_In_Stock  // - Kind: regular, Type: 7
-- **Field : **  //NewSystem` - Kind: regular
-NewSystem  // - Kind: regular, Type: 3
-- **Field : **  //Machine_No` - Kind: regular
-Machine_No  // - Kind: regular, Type: 7
-- **Field : **  //Part_No` - Kind: regular
-Part_No  // - Kind: regular, Type: 7
-- **Field : **  //Customer_Code` - Kind: regular
-Customer_Code  // - Kind: regular, Type: 7
-- **Field : **  //Works_Order_No` (Unique) - Kind: regular
-Works_Order_No  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //Issue_No` - Kind: regular
-Issue_No  // - Kind: regular, Type: 7
-- **Field : **  //Machine_Completed` - Kind: regular
-Machine_Completed  // - Kind: regular, Type: 7
-- **Field : **  //ProductID_l` - Kind: regular
-ProductID_l  // - Kind: regular, Type: 7
-- **Field : **  //Packing_Completed` - Kind: regular
-Packing_Completed  // - Kind: regular, Type: 7
-- **Field : **  //Robot` - Kind: regular
-Robot  // - Kind: regular, Type: 3
-- **Field : **  //MigrationID` - Kind: regular
-MigrationID  // - Kind: regular, Type: 7
-- **Field : **  //AutomaticStock` - Kind: regular
-AutomaticStock  // - Kind: regular, Type: 3
+- **Field:** `OEEgenerated` - Kind: regular
+- **Field:** `Raised_Job_Card` - Kind: regular
+- **Field:** `Machine_Started` - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
+- **Field:** `No_In_Stock` - Kind: regular
+- **Field:** `NewSystem` - Kind: regular
+- **Field:** `Machine_No` - Kind: regular
+- **Field:** `Part_No` - Kind: regular
+- **Field:** `Customer_Code` - Kind: regular
+- **Field:** `Works_Order_No` (Unique) - Kind: regular
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `Issue_No` - Kind: regular
+- **Field:** `Machine_Completed` - Kind: regular
+- **Field:** `ProductID_l` - Kind: regular
+- **Field:** `Packing_Completed` - Kind: regular
+- **Field:** `Robot` - Kind: regular
+- **Field:** `MigrationID` - Kind: regular
+- **Field:** `AutomaticStock` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -121,8 +121,7 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 1
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

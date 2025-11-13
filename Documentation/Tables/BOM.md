@@ -398,18 +398,12 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //Customer` - Kind: regular
-Customer  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
-- **Field : **  //Locked` - Kind: regular
-Locked  // - Kind: regular, Type: 7
-- **Field : **  //SnapShotDate` - Kind: regular
-SnapShotDate  // - Kind: regular, Type: 7
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `Customer` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
+- **Field:** `Locked` - Kind: regular
+- **Field:** `SnapShotDate` - Kind: regular
 
 ## Many-to-One Relations
 

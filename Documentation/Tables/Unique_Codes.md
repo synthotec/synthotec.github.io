@@ -93,14 +93,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 1
-- **Field : **  //IsItMaster` - Kind: regular
-IsItMaster  // - Kind: regular, Type: 7
-- **Field : **  //FieldNo_l` - Kind: regular
-FieldNo_l  // - Kind: regular, Type: 7
-- **Field : **  //TableNo` - Kind: regular
-TableNo  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `IsItMaster` - Kind: regular
+- **Field:** `FieldNo_l` - Kind: regular
+- **Field:** `TableNo` - Kind: regular
 
 ## One-to-Many Relations
 

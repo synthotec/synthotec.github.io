@@ -56,14 +56,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ToolNoticeID` - Kind: regular
-ToolNoticeID  // - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //EmailSent` - Kind: regular
-EmailSent  // - Kind: regular, Type: 7
+- **Field:** `ToolNoticeID` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `EmailSent` - Kind: regular
 
 ## Many-to-One Relations
 

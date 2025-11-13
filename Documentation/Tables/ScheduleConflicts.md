@@ -66,10 +66,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ConflictType` - Kind: regular
-ConflictType  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `ConflictType` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

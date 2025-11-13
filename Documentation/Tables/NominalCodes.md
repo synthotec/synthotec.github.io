@@ -76,12 +76,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //FinishedGoodsTransport` - Kind: regular
-FinishedGoodsTransport  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //NominalCode` (Unique) - Kind: regular
-NominalCode  // (Unique) - Kind: regular, Type: 1
+- **Field:** `FinishedGoodsTransport` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `NominalCode` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

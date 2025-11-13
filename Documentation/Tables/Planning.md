@@ -139,14 +139,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //SnapDate` - Kind: regular
-SnapDate  // - Kind: regular, Type: 3
-- **Field : **  //Profile` - Kind: regular
-Profile  // - Kind: regular, Type: 3
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //tRoute` - Kind: regular
-tRoute  // - Kind: regular, Type: 3
+- **Field:** `SnapDate` - Kind: regular
+- **Field:** `Profile` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `tRoute` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -101,18 +101,12 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //CustomerSpecific` - Kind: regular
-CustomerSpecific  // - Kind: regular, Type: 7
-- **Field : **  //Customer` - Kind: regular
-Customer  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //SuppliesID` - Kind: regular
-SuppliesID  // - Kind: regular, Type: 7
+- **Field:** `CustomerSpecific` - Kind: regular
+- **Field:** `Customer` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `SuppliesID` - Kind: regular
 
 ## Many-to-One Relations
 

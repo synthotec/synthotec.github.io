@@ -306,10 +306,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Enabled` - Kind: regular
-Enabled  // - Kind: regular, Type: 7
-- **Field : **  //Machine` (Unique) - Kind: regular
-Machine  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Enabled` - Kind: regular
+- **Field:** `Machine` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

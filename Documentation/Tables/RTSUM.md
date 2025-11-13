@@ -112,14 +112,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //dDate` - Kind: regular
-dDate  // - Kind: regular, Type: 3
-- **Field : **  //Stoppage` - Kind: regular
-Stoppage  // - Kind: regular, Type: 3
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
+- **Field:** `dDate` - Kind: regular
+- **Field:** `Stoppage` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
 
 ## Many-to-One Relations
 

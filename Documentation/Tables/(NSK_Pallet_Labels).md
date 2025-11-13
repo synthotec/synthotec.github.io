@@ -112,10 +112,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Label_ID` (Unique) - Kind: regular
-Label_ID  // (Unique) - Kind: regular, Type: 1
-- **Field : **  //CofC` - Kind: regular
-CofC  // - Kind: regular, Type: 7
+- **Field:** `Label_ID` (Unique) - Kind: regular
+- **Field:** `CofC` - Kind: regular
 
 ## Many-to-One Relations
 

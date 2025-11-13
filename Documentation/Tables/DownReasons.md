@@ -66,12 +66,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Archive` - Kind: regular
-Archive  // - Kind: regular, Type: 7
-- **Field : **  //Exclude` - Kind: regular
-Exclude  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Archive` - Kind: regular
+- **Field:** `Exclude` - Kind: regular
 
 ## One-to-Many Relations
 

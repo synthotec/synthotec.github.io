@@ -58,12 +58,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Material_ID` - Kind: regular
-Material_ID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 1
-- **Field : **  //Company Code` - Kind: regular
-Company Code  // - Kind: regular, Type: 7
+- **Field:** `Material_ID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Company Code` - Kind: regular
 
 ## Many-to-One Relations
 

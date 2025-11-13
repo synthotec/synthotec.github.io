@@ -65,10 +65,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Name` - Kind: regular
-Name  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Name` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

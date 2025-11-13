@@ -48,10 +48,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //ListName` - Kind: regular
-ListName  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `ListName` - Kind: regular
 
 ## One-to-Many Relations
 

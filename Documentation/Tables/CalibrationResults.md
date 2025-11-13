@@ -120,10 +120,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //CalibrationID` - Kind: regular
-CalibrationID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `CalibrationID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

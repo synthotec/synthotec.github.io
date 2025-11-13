@@ -75,12 +75,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
 
 ## Many-to-One Relations
 

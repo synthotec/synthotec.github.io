@@ -71,10 +71,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
 
 ## Many-to-One Relations
 

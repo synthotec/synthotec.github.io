@@ -137,12 +137,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //ProductionDate` - Kind: regular
-ProductionDate  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `ProductionDate` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

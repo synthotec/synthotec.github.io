@@ -57,12 +57,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //StaffID` - Kind: regular
-StaffID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //VariableName` - Kind: regular
-VariableName  // - Kind: regular, Type: 7
+- **Field:** `StaffID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `VariableName` - Kind: regular
 
 ## Many-to-One Relations
 

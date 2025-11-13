@@ -462,14 +462,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Tool_ID` - Kind: regular
-Tool_ID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Is_A_PQI` - Kind: regular
-Is_A_PQI  // - Kind: regular, Type: 7
-- **Field : **  //Reference_No` (Unique) - Kind: regular
-Reference_No  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Tool_ID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Is_A_PQI` - Kind: regular
+- **Field:** `Reference_No` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

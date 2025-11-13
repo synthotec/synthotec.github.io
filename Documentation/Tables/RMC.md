@@ -130,14 +130,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //MaterialID_l` - Kind: regular
-MaterialID_l  // - Kind: regular, Type: 7
-- **Field : **  //PurchaseInfoID` - Kind: regular
-PurchaseInfoID  // - Kind: regular, Type: 7
-- **Field : **  //RMCNo_l` (Unique) - Kind: regular
-RMCNo_l  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //RMCDate_d` - Kind: regular
-RMCDate_d  // - Kind: regular, Type: 7
+- **Field:** `MaterialID_l` - Kind: regular
+- **Field:** `PurchaseInfoID` - Kind: regular
+- **Field:** `RMCNo_l` (Unique) - Kind: regular
+- **Field:** `RMCDate_d` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -76,8 +76,7 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //UniqueID` (Unique) - Kind: regular
-UniqueID  // (Unique) - Kind: regular, Type: 1
+- **Field:** `UniqueID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

@@ -121,18 +121,12 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //RMC1` - Kind: regular
-RMC1  // - Kind: regular, Type: 7
-- **Field : **  //RMC2` - Kind: regular
-RMC2  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //RMC3` - Kind: regular
-RMC3  // - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
+- **Field:** `RMC1` - Kind: regular
+- **Field:** `RMC2` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `RMC3` - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
 
 ## Many-to-One Relations
 

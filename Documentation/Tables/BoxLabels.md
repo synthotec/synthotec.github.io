@@ -335,44 +335,25 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //PalletID` - Kind: regular
-PalletID  // - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 3
-- **Field : **  //UUID` - Kind: regular
-UUID  // - Kind: regular, Type: 7
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Shift` - Kind: regular
-Shift  // - Kind: regular, Type: 7
-- **Field : **  //StockRemovedBy` - Kind: regular
-StockRemovedBy  // - Kind: regular, Type: 7
-- **Field : **  //RemoveFromStock` - Kind: regular
-RemoveFromStock  // - Kind: regular, Type: 3
-- **Field : **  //Stock_LocationID` - Kind: regular
-Stock_LocationID  // - Kind: regular, Type: 7
-- **Field : **  //LinkedBoxID` - Kind: regular
-LinkedBoxID  // - Kind: regular, Type: 7
-- **Field : **  //TimeProcessed` - Kind: regular
-TimeProcessed  // - Kind: regular, Type: 7
-- **Field : **  //PackedBy` - Kind: regular
-PackedBy  // - Kind: regular, Type: 7
-- **Field : **  //CofCID` - Kind: regular
-CofCID  // - Kind: regular, Type: 7
-- **Field : **  //Version` - Kind: regular
-Version  // - Kind: regular, Type: 7
-- **Field : **  //StockInput` - Kind: regular
-StockInput  // - Kind: regular, Type: 3
-- **Field : **  //OrderPickRequestID` - Kind: regular
-OrderPickRequestID  // - Kind: regular, Type: 7
-- **Field : **  //ShiftDate` - Kind: regular
-ShiftDate  // - Kind: regular, Type: 7
-- **Field : **  //PartBoxCode` - Kind: regular
-PartBoxCode  // - Kind: regular, Type: 7
-- **Field : **  //NotMade` - Kind: regular
-NotMade  // - Kind: regular, Type: 3
+- **Field:** `PalletID` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `UUID` - Kind: regular
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Shift` - Kind: regular
+- **Field:** `StockRemovedBy` - Kind: regular
+- **Field:** `RemoveFromStock` - Kind: regular
+- **Field:** `Stock_LocationID` - Kind: regular
+- **Field:** `LinkedBoxID` - Kind: regular
+- **Field:** `TimeProcessed` - Kind: regular
+- **Field:** `PackedBy` - Kind: regular
+- **Field:** `CofCID` - Kind: regular
+- **Field:** `Version` - Kind: regular
+- **Field:** `StockInput` - Kind: regular
+- **Field:** `OrderPickRequestID` - Kind: regular
+- **Field:** `ShiftDate` - Kind: regular
+- **Field:** `PartBoxCode` - Kind: regular
+- **Field:** `NotMade` - Kind: regular
 
 ## Many-to-One Relations
 

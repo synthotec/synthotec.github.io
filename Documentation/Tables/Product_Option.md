@@ -281,22 +281,14 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Material Name` - Kind: regular
-Material Name  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Part No` - Kind: regular
-Part No  // - Kind: regular, Type: 7
-- **Field : **  //Price` - Kind: regular
-Price  // - Kind: regular, Type: 7
-- **Field : **  //Product ID` - Kind: regular
-Product ID  // - Kind: regular, Type: 7
-- **Field : **  //Tool No` - Kind: regular
-Tool No  // - Kind: regular, Type: 7
-- **Field : **  //Customer Code` - Kind: regular
-Customer Code  // - Kind: regular, Type: 7
-- **Field : **  //Material_ID` - Kind: regular
-Material_ID  // - Kind: regular, Type: 7
+- **Field:** `Material Name` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Part No` - Kind: regular
+- **Field:** `Price` - Kind: regular
+- **Field:** `Product ID` - Kind: regular
+- **Field:** `Tool No` - Kind: regular
+- **Field:** `Customer Code` - Kind: regular
+- **Field:** `Material_ID` - Kind: regular
 
 ## Many-to-One Relations
 

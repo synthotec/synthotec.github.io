@@ -274,10 +274,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Machine` - Kind: regular
-Machine  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Machine` - Kind: regular
 
 ## Many-to-One Relations
 

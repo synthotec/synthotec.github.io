@@ -103,12 +103,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //DateValidUntil` - Kind: regular
-DateValidUntil  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Archived` - Kind: regular
-Archived  // - Kind: regular, Type: 7
+- **Field:** `DateValidUntil` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Archived` - Kind: regular
 
 ## Many-to-One Relations
 

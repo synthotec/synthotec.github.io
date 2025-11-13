@@ -102,16 +102,11 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Product_ID` - Kind: regular
-Product_ID  // - Kind: regular, Type: 7
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Part_No` - Kind: regular
-Part_No  // - Kind: regular, Type: 7
-- **Field : **  //Machine_No` - Kind: regular
-Machine_No  // - Kind: regular, Type: 7
+- **Field:** `Product_ID` - Kind: regular
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Part_No` - Kind: regular
+- **Field:** `Machine_No` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -94,10 +94,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Product_ID` - Kind: regular
-Product_ID  // - Kind: regular, Type: 7
-- **Field : **  //Unique_ID` (Unique) - Kind: regular
-Unique_ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Product_ID` - Kind: regular
+- **Field:** `Unique_ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

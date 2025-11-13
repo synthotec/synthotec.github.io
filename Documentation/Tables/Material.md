@@ -253,24 +253,15 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //UsageMatID3` - Kind: regular
-UsageMatID3  // - Kind: regular, Type: 7
-- **Field : **  //UsageMatID` - Kind: regular
-UsageMatID  // - Kind: regular, Type: 7
-- **Field : **  //Current` - Kind: regular
-Current  // - Kind: regular, Type: 7
-- **Field : **  //Archive` - Kind: regular
-Archive  // - Kind: regular, Type: 7
-- **Field : **  //MigrationID` - Kind: regular
-MigrationID  // - Kind: regular, Type: 7
-- **Field : **  //UsageMatID2` - Kind: regular
-UsageMatID2  // - Kind: regular, Type: 7
-- **Field : **  //MaterialName` - Kind: regular
-MaterialName  // - Kind: regular, Type: 7
-- **Field : **  //Unique_ID` (Unique) - Kind: regular
-Unique_ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Customers Name` - Kind: regular
-Customers Name  // - Kind: regular, Type: 7
+- **Field:** `UsageMatID3` - Kind: regular
+- **Field:** `UsageMatID` - Kind: regular
+- **Field:** `Current` - Kind: regular
+- **Field:** `Archive` - Kind: regular
+- **Field:** `MigrationID` - Kind: regular
+- **Field:** `UsageMatID2` - Kind: regular
+- **Field:** `MaterialName` - Kind: regular
+- **Field:** `Unique_ID` (Unique) - Kind: regular
+- **Field:** `Customers Name` - Kind: regular
 
 ## Many-to-One Relations
 

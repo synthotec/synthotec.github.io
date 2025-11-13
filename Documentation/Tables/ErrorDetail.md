@@ -79,14 +79,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Date` - Kind: regular
-Date  // - Kind: regular, Type: 7
-- **Field : **  //ErrorID` - Kind: regular
-ErrorID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Time` - Kind: regular
-Time  // - Kind: regular, Type: 7
+- **Field:** `Date` - Kind: regular
+- **Field:** `ErrorID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Time` - Kind: regular
 
 ## Many-to-One Relations
 

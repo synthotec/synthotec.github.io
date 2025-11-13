@@ -79,10 +79,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Suppress` - Kind: regular
-Suppress  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Suppress` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

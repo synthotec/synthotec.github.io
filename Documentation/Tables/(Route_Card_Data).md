@@ -184,16 +184,11 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Product_ID` - Kind: regular
-Product_ID  // - Kind: regular, Type: 7
-- **Field : **  //Chamber_No` - Kind: regular
-Chamber_No  // - Kind: regular, Type: 7
-- **Field : **  //Works_Order` - Kind: regular
-Works_Order  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Part_No` - Kind: regular
-Part_No  // - Kind: regular, Type: 7
+- **Field:** `Product_ID` - Kind: regular
+- **Field:** `Chamber_No` - Kind: regular
+- **Field:** `Works_Order` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Part_No` - Kind: regular
 
 ## Many-to-One Relations
 

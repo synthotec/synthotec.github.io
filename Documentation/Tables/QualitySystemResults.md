@@ -220,14 +220,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Completed` - Kind: regular
-Completed  // - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //System` - Kind: regular
-System  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Completed` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `System` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -1268,26 +1268,16 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //MigrationID` - Kind: regular
-MigrationID  // - Kind: regular, Type: 7
-- **Field : **  //PartNo` - Kind: regular
-PartNo  // - Kind: regular, Type: 7
-- **Field : **  //Archive` - Kind: regular
-Archive  // - Kind: regular, Type: 7
-- **Field : **  //ShortName` - Kind: regular
-ShortName  // - Kind: regular, Type: 7
-- **Field : **  //two_boxnos` - Kind: regular
-two_boxnos  // - Kind: regular, Type: 7
-- **Field : **  //HotHalfID` - Kind: regular
-HotHalfID  // - Kind: regular, Type: 7
-- **Field : **  //Tool_No` - Kind: regular
-Tool_No  // - Kind: regular, Type: 7
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //HotHalfBooked` - Kind: regular
-HotHalfBooked  // - Kind: regular, Type: 7
-- **Field : **  //Tool_ID` (Unique) - Kind: regular
-Tool_ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `MigrationID` - Kind: regular
+- **Field:** `PartNo` - Kind: regular
+- **Field:** `Archive` - Kind: regular
+- **Field:** `ShortName` - Kind: regular
+- **Field:** `two_boxnos` - Kind: regular
+- **Field:** `HotHalfID` - Kind: regular
+- **Field:** `Tool_No` - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `HotHalfBooked` - Kind: regular
+- **Field:** `Tool_ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

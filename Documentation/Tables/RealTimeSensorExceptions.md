@@ -88,12 +88,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //Acknowledged` - Kind: regular
-Acknowledged  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `Acknowledged` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

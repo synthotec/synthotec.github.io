@@ -67,12 +67,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID_l` (Unique) - Kind: regular
-ID_l  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Language_ID` - Kind: regular
-Language_ID  // - Kind: regular, Type: 7
-- **Field : **  //TagIdentifier_s` - Kind: regular
-TagIdentifier_s  // - Kind: regular, Type: 7
+- **Field:** `ID_l` (Unique) - Kind: regular
+- **Field:** `Language_ID` - Kind: regular
+- **Field:** `TagIdentifier_s` - Kind: regular
 
 ## Many-to-One Relations
 

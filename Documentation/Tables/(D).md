@@ -57,12 +57,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //PrimaryKey` - Kind: regular
-PrimaryKey  // - Kind: regular, Type: 7
-- **Field : **  //ValueName` - Kind: regular
-ValueName  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `PrimaryKey` - Kind: regular
+- **Field:** `ValueName` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

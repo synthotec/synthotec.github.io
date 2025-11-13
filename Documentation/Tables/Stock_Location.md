@@ -75,14 +75,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Is_Consignment_b` - Kind: regular
-Is_Consignment_b  // - Kind: regular, Type: 7
-- **Field : **  //DeafultPackingLocation_b` - Kind: regular
-DeafultPackingLocation_b  // - Kind: regular, Type: 7
-- **Field : **  //DespatchLocation` - Kind: regular
-DespatchLocation  // - Kind: regular, Type: 7
-- **Field : **  //StockLocationID_l` (Unique) - Kind: regular
-StockLocationID_l  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Is_Consignment_b` - Kind: regular
+- **Field:** `DeafultPackingLocation_b` - Kind: regular
+- **Field:** `DespatchLocation` - Kind: regular
+- **Field:** `StockLocationID_l` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

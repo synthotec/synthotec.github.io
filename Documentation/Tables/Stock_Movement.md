@@ -238,14 +238,10 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ProductID_l` - Kind: regular
-ProductID_l  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Works_Order_No_l` - Kind: regular
-Works_Order_No_l  // - Kind: regular, Type: 7
-- **Field : **  //Date_Of_Movement_d` - Kind: regular
-Date_Of_Movement_d  // - Kind: regular, Type: 7
+- **Field:** `ProductID_l` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Works_Order_No_l` - Kind: regular
+- **Field:** `Date_Of_Movement_d` - Kind: regular
 
 ## Many-to-One Relations
 

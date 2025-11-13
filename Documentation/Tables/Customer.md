@@ -520,20 +520,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Customer_Code` (Unique) - Kind: regular
-Customer_Code  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Cust Addr3` - Kind: regular
-Cust Addr3  // - Kind: regular, Type: 7
-- **Field : **  //Consignment` - Kind: regular
-Consignment  // - Kind: regular, Type: 7
-- **Field : **  //NtnSnrLocationCode` - Kind: regular
-NtnSnrLocationCode  // - Kind: regular, Type: 7
-- **Field : **  //MigrationID` - Kind: regular
-MigrationID  // - Kind: regular, Type: 7
-- **Field : **  //Archive` - Kind: regular
-Archive  // - Kind: regular, Type: 7
-- **Field : **  //ConsignmentLocationID` - Kind: regular
-ConsignmentLocationID  // - Kind: regular, Type: 7
+- **Field:** `Customer_Code` (Unique) - Kind: regular
+- **Field:** `Cust Addr3` - Kind: regular
+- **Field:** `Consignment` - Kind: regular
+- **Field:** `NtnSnrLocationCode` - Kind: regular
+- **Field:** `MigrationID` - Kind: regular
+- **Field:** `Archive` - Kind: regular
+- **Field:** `ConsignmentLocationID` - Kind: regular
 
 ## Many-to-One Relations
 

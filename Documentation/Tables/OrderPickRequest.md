@@ -55,12 +55,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //CustomerOrderID` - Kind: regular
-CustomerOrderID  // - Kind: regular, Type: 7
-- **Field : **  //PickRequestID` - Kind: regular
-PickRequestID  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `CustomerOrderID` - Kind: regular
+- **Field:** `PickRequestID` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

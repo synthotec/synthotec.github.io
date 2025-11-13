@@ -157,12 +157,9 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ShiftDate` - Kind: regular
-ShiftDate  // - Kind: regular, Type: 7
-- **Field : **  //WorksOrder` - Kind: regular
-WorksOrder  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `ShiftDate` - Kind: regular
+- **Field:** `WorksOrder` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

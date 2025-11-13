@@ -73,10 +73,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Advice_Note_No` - Kind: regular
-Advice_Note_No  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `Advice_Note_No` - Kind: regular
 
 ## Many-to-One Relations
 

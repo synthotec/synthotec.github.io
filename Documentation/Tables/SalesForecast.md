@@ -220,20 +220,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //fYear` - Kind: regular
-fYear  // - Kind: regular, Type: 3
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 3
-- **Field : **  //SnapDate` - Kind: regular
-SnapDate  // - Kind: regular, Type: 3
-- **Field : **  //Customer` - Kind: regular
-Customer  // - Kind: regular, Type: 3
-- **Field : **  //PartName` - Kind: regular
-PartName  // - Kind: regular, Type: 3
-- **Field : **  //SnapShot` - Kind: regular
-SnapShot  // - Kind: regular, Type: 3
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 1
+- **Field:** `fYear` - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `SnapDate` - Kind: regular
+- **Field:** `Customer` - Kind: regular
+- **Field:** `PartName` - Kind: regular
+- **Field:** `SnapShot` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

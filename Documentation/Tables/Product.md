@@ -963,20 +963,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //MigrationID` - Kind: regular
-MigrationID  // - Kind: regular, Type: 7
-- **Field : **  //PrimaryRoute` - Kind: regular
-PrimaryRoute  // - Kind: regular, Type: 3
-- **Field : **  //Product_ID` (Unique) - Kind: regular
-Product_ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //DefMatID` - Kind: regular
-DefMatID  // - Kind: regular, Type: 7
-- **Field : **  //Cust Part No` - Kind: regular
-Cust Part No  // - Kind: regular, Type: 7
-- **Field : **  //EmojiID` - Kind: regular
-EmojiID  // - Kind: regular, Type: 7
-- **Field : **  //Our Part No` - Kind: regular
-Our Part No  // - Kind: regular, Type: 7
+- **Field:** `MigrationID` - Kind: regular
+- **Field:** `PrimaryRoute` - Kind: regular
+- **Field:** `Product_ID` (Unique) - Kind: regular
+- **Field:** `DefMatID` - Kind: regular
+- **Field:** `Cust Part No` - Kind: regular
+- **Field:** `EmojiID` - Kind: regular
+- **Field:** `Our Part No` - Kind: regular
 
 ## Many-to-One Relations
 

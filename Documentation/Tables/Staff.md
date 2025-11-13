@@ -200,8 +200,7 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //StaffID` (Unique) - Kind: regular
-StaffID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `StaffID` (Unique) - Kind: regular
 
 ## Many-to-One Relations
 

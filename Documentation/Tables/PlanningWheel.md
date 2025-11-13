@@ -328,20 +328,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ToolID` - Kind: regular
-ToolID  // - Kind: regular, Type: 7
-- **Field : **  //Tool` - Kind: regular
-Tool  // - Kind: regular, Type: 7
-- **Field : **  //ProductID` - Kind: regular
-ProductID  // - Kind: regular, Type: 7
-- **Field : **  //Conflict` - Kind: regular
-Conflict  // - Kind: regular, Type: 3
-- **Field : **  //WheelID` (Unique) - Kind: regular
-WheelID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //Machine` - Kind: regular
-Machine  // - Kind: regular, Type: 3
-- **Field : **  //MaterialConflict` - Kind: regular
-MaterialConflict  // - Kind: regular, Type: 7
+- **Field:** `ToolID` - Kind: regular
+- **Field:** `Tool` - Kind: regular
+- **Field:** `ProductID` - Kind: regular
+- **Field:** `Conflict` - Kind: regular
+- **Field:** `WheelID` (Unique) - Kind: regular
+- **Field:** `Machine` - Kind: regular
+- **Field:** `MaterialConflict` - Kind: regular
 
 ## Many-to-One Relations
 

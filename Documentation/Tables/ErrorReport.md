@@ -94,10 +94,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Digest` - Kind: regular
-Digest  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Digest` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 

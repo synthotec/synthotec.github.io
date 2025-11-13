@@ -130,18 +130,12 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //LocationID_l` - Kind: regular
-LocationID_l  // - Kind: regular, Type: 7
-- **Field : **  //ProductID_l` - Kind: regular
-ProductID_l  // - Kind: regular, Type: 7
-- **Field : **  //Works_Order_No` - Kind: regular
-Works_Order_No  // - Kind: regular, Type: 7
-- **Field : **  //FinishedStockID` - Kind: regular
-FinishedStockID  // - Kind: regular, Type: 7
-- **Field : **  //MaterialID` - Kind: regular
-MaterialID  // - Kind: regular, Type: 7
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `LocationID_l` - Kind: regular
+- **Field:** `ProductID_l` - Kind: regular
+- **Field:** `Works_Order_No` - Kind: regular
+- **Field:** `FinishedStockID` - Kind: regular
+- **Field:** `MaterialID` - Kind: regular
 
 ## Many-to-One Relations
 

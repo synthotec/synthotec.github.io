@@ -90,20 +90,13 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Customer` - Kind: regular
-Customer  // - Kind: regular, Type: 7
-- **Field : **  //PickedNotificationSent` - Kind: regular
-PickedNotificationSent  // - Kind: regular, Type: 7
-- **Field : **  //ReadyToPick` - Kind: regular
-ReadyToPick  // - Kind: regular, Type: 7
-- **Field : **  //Type` - Kind: regular
-Type  // - Kind: regular, Type: 7
-- **Field : **  //Processed` - Kind: regular
-Processed  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
-- **Field : **  //AdviceNoteID` - Kind: regular
-AdviceNoteID  // - Kind: regular, Type: 7
+- **Field:** `Customer` - Kind: regular
+- **Field:** `PickedNotificationSent` - Kind: regular
+- **Field:** `ReadyToPick` - Kind: regular
+- **Field:** `Type` - Kind: regular
+- **Field:** `Processed` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
+- **Field:** `AdviceNoteID` - Kind: regular
 
 ## Many-to-One Relations
 

@@ -138,10 +138,8 @@ parent : Tables
 
 ## Indexes
 
-- **Field : **  //Archived` - Kind: regular
-Archived  // - Kind: regular, Type: 7
-- **Field : **  //ID` (Unique) - Kind: regular
-ID  // (Unique) - Kind: regular, Type: 7
+- **Field:** `Archived` - Kind: regular
+- **Field:** `ID` (Unique) - Kind: regular
 
 ## One-to-Many Relations
 
