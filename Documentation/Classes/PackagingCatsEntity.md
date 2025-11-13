@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:52.767Z*
+🕐 *Last updated: 2025-11-13T23:17:38.508Z*
 
 ---
 
@@ -72,12 +72,10 @@ var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.Supplies
 ### 🗂️ Tables
 
 - [PackagingCats](../Tables/PackagingCats.md) - Source table for this ORDA class
-- [PackagingCats](../Tables/PackagingCats.md) - Database table storing PackagingCats records
 
 ### � Related Classes
 
 - [PackagingCats](PackagingCats.md) - ORDA DataClass class for PackagingCats table
-- [PackagingCatsEntity](PackagingCatsEntity.md) - ORDA Entity class for PackagingCats table
 
 ---
 

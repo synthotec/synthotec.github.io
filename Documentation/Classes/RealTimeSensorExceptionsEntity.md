@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:54.872Z*
+🕐 *Last updated: 2025-11-13T23:17:38.969Z*
 
 ---
 
@@ -131,11 +131,9 @@ Function HighestCelciusTemperature -> Real
 ### 🗂️ Tables
 
 - [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table for this ORDA class
-- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Database table storing RealTimeSensorExceptions records
 
 ### � Related Classes
 
-- [RealTimeSensorExceptionsEntity](RealTimeSensorExceptionsEntity.md) - ORDA Entity class for RealTimeSensorExceptions table
 - [RealTimeSensorExceptionsSelection](RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---

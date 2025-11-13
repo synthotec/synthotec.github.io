@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:53.944Z*
+🕐 *Last updated: 2025-11-13T23:17:38.833Z*
 
 ---
 
@@ -284,12 +284,10 @@ Function MainToolRegrind($MainToolRegrind : Boolean)
 ### 🗂️ Tables
 
 - [Product](../Tables/Product.md) - Source table for this ORDA class
-- [Product](../Tables/Product.md) - Database table storing Product records
 
 ### � Related Classes
 
 - [Product](Product.md) - ORDA DataClass class for Product table
-- [ProductEntity](ProductEntity.md) - ORDA Entity class for Product table
 
 ---
 

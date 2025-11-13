@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:53.014Z*
+🕐 *Last updated: 2025-11-13T23:17:38.600Z*
 
 ---
 
@@ -307,11 +307,9 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 ### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
-- [Pallet](../Tables/Pallet.md) - Database table storing Pallet records
 
 ### � Related Classes
 
-- [Pallet](Pallet.md) - ORDA DataClass class for Pallet table
 - [PalletEntity](PalletEntity.md) - ORDA Entity class for Pallet table
 - [PalletSelection](PalletSelection.md) - ORDA EntitySelection class for Pallet table
 

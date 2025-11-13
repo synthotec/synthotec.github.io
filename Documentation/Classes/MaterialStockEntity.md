@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:52.469Z*
+🕐 *Last updated: 2025-11-13T23:17:38.469Z*
 
 ---
 
@@ -48,12 +48,10 @@ Function getStockListBoxObject -> Object
 ### 🗂️ Tables
 
 - [MaterialStock](../Tables/MaterialStock.md) - Source table for this ORDA class
-- [MaterialStock](../Tables/MaterialStock.md) - Database table storing MaterialStock records
 
 ### � Related Classes
 
 - [MaterialStock](MaterialStock.md) - ORDA DataClass class for MaterialStock table
-- [MaterialStockEntity](MaterialStockEntity.md) - ORDA Entity class for MaterialStock table
 
 ---
 

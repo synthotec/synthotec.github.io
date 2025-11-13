@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:55.107Z*
+🕐 *Last updated: 2025-11-13T23:17:39.033Z*
 
 ---
 
@@ -56,11 +56,6 @@ Function requestCertificate
 ### 🗂️ Tables
 
 - [RMC](../Tables/RMC.md) - Source table for this ORDA class
-- [RMC](../Tables/RMC.md) - Database table storing RMC records
-
-### � Related Classes
-
-- [RMCEntity](RMCEntity.md) - ORDA Entity class for RMC table
 
 ---
 

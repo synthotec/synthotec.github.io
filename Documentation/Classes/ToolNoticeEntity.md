@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:55.995Z*
+🕐 *Last updated: 2025-11-13T23:17:39.219Z*
 
 ---
 
@@ -97,12 +97,10 @@ Function ActiveUntilText -> Text
 ### 🗂️ Tables
 
 - [ToolNotice](../Tables/ToolNotice.md) - Source table for this ORDA class
-- [ToolNotice](../Tables/ToolNotice.md) - Database table storing ToolNotice records
 
 ### � Related Classes
 
 - [ToolNotice](ToolNotice.md) - ORDA DataClass class for ToolNotice table
-- [ToolNoticeEntity](ToolNoticeEntity.md) - ORDA Entity class for ToolNotice table
 
 ---
 

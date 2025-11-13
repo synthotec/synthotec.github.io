@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:51.499Z*
+🕐 *Last updated: 2025-11-13T23:17:38.279Z*
 
 ---
 
@@ -82,11 +82,6 @@ Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 ### 🗂️ Tables
 
 - [FieldHistory](../Tables/FieldHistory.md) - Source table for this ORDA class
-- [FieldHistory](../Tables/FieldHistory.md) - Database table storing FieldHistory records
-
-### � Related Classes
-
-- [FieldHistory](FieldHistory.md) - ORDA DataClass class for FieldHistory table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:54.398Z*
+🕐 *Last updated: 2025-11-13T23:17:38.868Z*
 
 ---
 
@@ -48,11 +48,9 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Source table for this ORDA class
-- [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Database table storing QualitySystemProcedures records
 
 ### � Related Classes
 
-- [QualitySystemProcedures](QualitySystemProcedures.md) - ORDA DataClass class for QualitySystemProcedures table
 - [QualitySystemProceduresEntity](QualitySystemProceduresEntity.md) - ORDA Entity class for QualitySystemProcedures table
 
 ---

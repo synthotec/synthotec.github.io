@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:55.651Z*
+🕐 *Last updated: 2025-11-13T23:17:39.130Z*
 
 ---
 
@@ -27,11 +27,6 @@ parent : Classes
 ### 🗂️ Tables
 
 - [Suppliers](../Tables/Suppliers.md) - Source table for this ORDA class
-- [Suppliers](../Tables/Suppliers.md) - Database table storing Suppliers records
-
-### � Related Classes
-
-- [SuppliersEntity](SuppliersEntity.md) - ORDA Entity class for Suppliers table
 
 ---
 

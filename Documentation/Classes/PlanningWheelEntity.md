@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:53.468Z*
+🕐 *Last updated: 2025-11-13T23:17:38.721Z*
 
 ---
 
@@ -27,12 +27,10 @@ parent : Classes
 ### 🗂️ Tables
 
 - [PlanningWheel](../Tables/PlanningWheel.md) - Source table for this ORDA class
-- [PlanningWheel](../Tables/PlanningWheel.md) - Database table storing PlanningWheel records
 
 ### � Related Classes
 
 - [PlanningWheel](PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
-- [PlanningWheelEntity](PlanningWheelEntity.md) - ORDA Entity class for PlanningWheel table
 
 ---
 

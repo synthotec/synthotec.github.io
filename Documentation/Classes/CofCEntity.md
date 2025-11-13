@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:50.225Z*
+🕐 *Last updated: 2025-11-13T23:17:37.885Z*
 
 ---
 
@@ -48,11 +48,6 @@ Function cancel -> $Cancelled : Boolean
 ### 🗂️ Tables
 
 - [CofC](../Tables/CofC.md) - Source table for this ORDA class
-- [CofC](../Tables/CofC.md) - Database table storing CofC records
-
-### � Related Classes
-
-- [CofCEntity](CofCEntity.md) - ORDA Entity class for CofC table
 
 ---
 

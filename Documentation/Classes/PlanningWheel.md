@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:53.442Z*
+🕐 *Last updated: 2025-11-13T23:17:38.720Z*
 
 ---
 
@@ -65,11 +65,9 @@ Function reducePlannedStand
 ### 🗂️ Tables
 
 - [PlanningWheel](../Tables/PlanningWheel.md) - Source table for this ORDA class
-- [PlanningWheel](../Tables/PlanningWheel.md) - Database table storing PlanningWheel records
 
 ### � Related Classes
 
-- [PlanningWheel](PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
 - [PlanningWheelEntity](PlanningWheelEntity.md) - ORDA Entity class for PlanningWheel table
 
 ---

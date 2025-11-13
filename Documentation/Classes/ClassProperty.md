@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class property
 
-🕐 *Last updated: 2025-11-13T21:44:50.192Z*
+🕐 *Last updated: 2025-11-13T23:17:37.882Z*
 
 ---
 

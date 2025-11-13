@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 42
 - **UUID:** 34740841F2B0904CA92D155632F47E87
 - **Primary Key:** 🔑 `StaffID`
-- **Generated:** 🕐 2025-11-13T16:08:26Z
+- **Generated:** 🕐 2025-11-13T23:18:20Z
 
 ---
 
@@ -82,4 +82,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T16:08:26Z*
+*Generated at: 2025-11-13T23:18:20Z*

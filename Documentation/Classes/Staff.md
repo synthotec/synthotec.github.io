@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:55.452Z*
+🕐 *Last updated: 2025-11-13T23:17:39.093Z*
 
 ---
 
@@ -91,11 +91,9 @@ Function newUsingEntry -> cs.StaffEntity
 ### 🗂️ Tables
 
 - [Staff](../Tables/Staff.md) - Source table for this ORDA class
-- [Staff](../Tables/Staff.md) - Database table storing Staff records
 
 ### � Related Classes
 
-- [Staff](Staff.md) - ORDA DataClass class for Staff table
 - [StaffEntity](StaffEntity.md) - ORDA Entity class for Staff table
 
 ---

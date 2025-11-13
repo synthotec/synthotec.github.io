@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 6
 - **UUID:** 81B9B2AF685A1B4E892794C866475FCC
 - **Primary Key:** 🔑 `Cert_Of_Conformance_No`
-- **Generated:** 🕐 2025-11-13T16:07:57Z
+- **Generated:** 🕐 2025-11-13T23:17:47Z
 
 ---
 
@@ -31,7 +31,7 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Cert_Of_Conformance_No** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | Test |
+| 🔑 **Cert_Of_Conformance_No** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
 | Customer_Code | `String` (3) | ⚠️ Required, 🚫 Not Null | - |
 | Created_Date | `Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Advice_Note_No | `Date` | 🚫 Not Null | - |
@@ -100,4 +100,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T16:07:57Z*
+*Generated at: 2025-11-13T23:17:47Z*

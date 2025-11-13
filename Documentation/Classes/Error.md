@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:51.201Z*
+🕐 *Last updated: 2025-11-13T23:17:38.204Z*
 
 ---
 
@@ -82,11 +82,9 @@ Function record
 ### 🗂️ Tables
 
 - [Error](../Tables/Error.md) - Source table for this ORDA class
-- [Error](../Tables/Error.md) - Database table storing Error records
 
 ### � Related Classes
 
-- [Error](Error.md) - ORDA DataClass class for Error table
 - [ErrorEntity](ErrorEntity.md) - ORDA Entity class for Error table
 
 ---

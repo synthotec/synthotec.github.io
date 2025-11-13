@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:54.278Z*
+🕐 *Last updated: 2025-11-13T23:17:38.860Z*
 
 ---
 
@@ -27,11 +27,6 @@ parent : Classes
 ### 🗂️ Tables
 
 - [Purchases](../Tables/Purchases.md) - Source table for this ORDA class
-- [Purchases](../Tables/Purchases.md) - Database table storing Purchases records
-
-### � Related Classes
-
-- [PurchasesEntity](PurchasesEntity.md) - ORDA Entity class for Purchases table
 
 ---
 

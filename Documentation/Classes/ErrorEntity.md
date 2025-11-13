@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:51.241Z*
+🕐 *Last updated: 2025-11-13T23:17:38.210Z*
 
 ---
 
@@ -123,12 +123,10 @@ Function LastOccurrence -> Text
 ### 🗂️ Tables
 
 - [Error](../Tables/Error.md) - Source table for this ORDA class
-- [Error](../Tables/Error.md) - Database table storing Error records
 
 ### � Related Classes
 
 - [Error](Error.md) - ORDA DataClass class for Error table
-- [ErrorEntity](ErrorEntity.md) - ORDA Entity class for Error table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:51.546Z*
+🕐 *Last updated: 2025-11-13T23:17:38.283Z*
 
 ---
 
@@ -46,12 +46,10 @@ Function open
 ### 🗂️ Tables
 
 - [File](../Tables/File.md) - Source table for this ORDA class
-- [File](../Tables/File.md) - Database table storing File records
 
 ### � Related Classes
 
 - [File](File.md) - ORDA DataClass class for File table
-- [FileEntity](FileEntity.md) - ORDA Entity class for File table
 
 ---
 

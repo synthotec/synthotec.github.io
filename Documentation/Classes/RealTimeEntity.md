@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:54.592Z*
+🕐 *Last updated: 2025-11-13T23:17:38.898Z*
 
 ---
 
@@ -91,12 +91,10 @@ Function EndDateTime -> cs.System.DateTime
 ### 🗂️ Tables
 
 - [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
-- [RealTime](../Tables/RealTime.md) - Database table storing RealTime records
 
 ### � Related Classes
 
 - [RealTime](RealTime.md) - ORDA DataClass class for RealTime table
-- [RealTimeEntity](RealTimeEntity.md) - ORDA Entity class for RealTime table
 - [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
 
 ---

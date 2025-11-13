@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:49.795Z*
+🕐 *Last updated: 2025-11-13T23:17:37.774Z*
 
 ---
 
@@ -70,12 +70,10 @@ Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 ### 🗂️ Tables
 
 - [BOM](../Tables/BOM.md) - Source table for this ORDA class
-- [BOM](../Tables/BOM.md) - Database table storing BOM records
 
 ### � Related Classes
 
 - [BOM](BOM.md) - ORDA DataClass class for BOM table
-- [BOMEntity](BOMEntity.md) - ORDA Entity class for BOM table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:51.293Z*
+🕐 *Last updated: 2025-11-13T23:17:38.223Z*
 
 ---
 
@@ -58,12 +58,10 @@ Function sendSlackReport -> $Success : Boolean
 ### 🗂️ Tables
 
 - [ErrorReport](../Tables/ErrorReport.md) - Source table for this ORDA class
-- [ErrorReport](../Tables/ErrorReport.md) - Database table storing ErrorReport records
 
 ### � Related Classes
 
 - [ErrorReport](ErrorReport.md) - ORDA DataClass class for ErrorReport table
-- [ErrorReportEntity](ErrorReportEntity.md) - ORDA Entity class for ErrorReport table
 
 ---
 

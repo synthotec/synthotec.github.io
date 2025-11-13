@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T21:44:55.169Z*
+🕐 *Last updated: 2025-11-13T23:17:39.045Z*
 
 ---
 
@@ -54,12 +54,10 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 ### 🗂️ Tables
 
 - [RTSUM](../Tables/RTSUM.md) - Source table for this ORDA class
-- [RTSUM](../Tables/RTSUM.md) - Database table storing RTSUM records
 
 ### � Related Classes
 
 - [RTSUM](RTSUM.md) - ORDA DataClass class for RTSUM table
-- [RTSUMSelection](RTSUMSelection.md) - ORDA EntitySelection class for RTSUM table
 
 ---
 

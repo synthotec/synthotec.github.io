@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:53.543Z*
+🕐 *Last updated: 2025-11-13T23:17:38.731Z*
 
 ---
 
@@ -80,11 +80,9 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 ### 🗂️ Tables
 
 - [Printer](../Tables/Printer.md) - Source table for this ORDA class
-- [Printer](../Tables/Printer.md) - Database table storing Printer records
 
 ### � Related Classes
 
-- [Printer](Printer.md) - ORDA DataClass class for Printer table
 - [PrinterEntity](PrinterEntity.md) - ORDA Entity class for Printer table
 - [PrinterSelection](PrinterSelection.md) - ORDA EntitySelection class for Printer table
 

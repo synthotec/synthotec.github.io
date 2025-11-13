@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:55.347Z*
+🕐 *Last updated: 2025-11-13T23:17:39.073Z*
 
 ---
 
@@ -77,11 +77,6 @@ Function ShiftColor -> Integer
 ### 🗂️ Tables
 
 - [ShiftSummary](../Tables/ShiftSummary.md) - Source table for this ORDA class
-- [ShiftSummary](../Tables/ShiftSummary.md) - Database table storing ShiftSummary records
-
-### � Related Classes
-
-- [ShiftSummaryEntity](ShiftSummaryEntity.md) - ORDA Entity class for ShiftSummary table
 
 ---
 

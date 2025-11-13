@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:53.630Z*
+🕐 *Last updated: 2025-11-13T23:17:38.746Z*
 
 ---
 
@@ -27,11 +27,6 @@ parent : Classes
 ### 🗂️ Tables
 
 - [Printing](../Tables/Printing.md) - Source table for this ORDA class
-- [Printing](../Tables/Printing.md) - Database table storing Printing records
-
-### � Related Classes
-
-- [PrintingEntity](PrintingEntity.md) - ORDA Entity class for Printing table
 
 ---
 

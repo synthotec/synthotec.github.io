@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:56.344Z*
+🕐 *Last updated: 2025-11-13T23:17:39.272Z*
 
 ---
 
@@ -126,11 +126,6 @@ Function _TranslationProcessCollection -> Collection
 ### 🗂️ Tables
 
 - [Translation](../Tables/Translation.md) - Source table for this ORDA class
-- [Translation](../Tables/Translation.md) - Database table storing Translation records
-
-### � Related Classes
-
-- [Translation](Translation.md) - ORDA DataClass class for Translation table
 
 ---
 

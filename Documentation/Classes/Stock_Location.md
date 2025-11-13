@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:55.599Z*
+🕐 *Last updated: 2025-11-13T23:17:39.128Z*
 
 ---
 
@@ -89,11 +89,9 @@ Function PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 ### 🗂️ Tables
 
 - [Stock_Location](../Tables/Stock_Location.md) - Source table for this ORDA class
-- [Stock_Location](../Tables/Stock_Location.md) - Database table storing Stock_Location records
 
 ### � Related Classes
 
-- [Stock_Location](Stock_Location.md) - ORDA DataClass class for Stock_Location table
 - [Stock_LocationEntity](Stock_LocationEntity.md) - ORDA Entity class for Stock_Location table
 
 ---

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:56.616Z*
+🕐 *Last updated: 2025-11-13T23:17:39.337Z*
 
 ---
 
@@ -281,12 +281,10 @@ Function ExS1Stock -> Integer
 ### 🗂️ Tables
 
 - [WorksOrder](../Tables/WorksOrder.md) - Source table for this ORDA class
-- [WorksOrder](../Tables/WorksOrder.md) - Database table storing WorksOrder records
 
 ### � Related Classes
 
 - [WorksOrder](WorksOrder.md) - ORDA DataClass class for WorksOrder table
-- [WorksOrderEntity](WorksOrderEntity.md) - ORDA Entity class for WorksOrder table
 
 ---
 

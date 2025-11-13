@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T21:44:50.495Z*
+🕐 *Last updated: 2025-11-13T23:17:37.937Z*
 
 ---
 
@@ -286,12 +286,10 @@ Function OutstandingToDeliver($OutstandingToDeliver : Integer)
 ### 🗂️ Tables
 
 - [Customer_Order](../Tables/Customer_Order.md) - Source table for this ORDA class
-- [Customer_Order](../Tables/Customer_Order.md) - Database table storing Customer_Order records
 
 ### � Related Classes
 
 - [Customer_Order](Customer_Order.md) - ORDA DataClass class for Customer_Order table
-- [Customer_OrderEntity](Customer_OrderEntity.md) - ORDA Entity class for Customer_Order table
 
 ---
 

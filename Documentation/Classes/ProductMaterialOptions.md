@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:53.967Z*
+🕐 *Last updated: 2025-11-13T23:17:38.835Z*
 
 ---
 
@@ -48,11 +48,9 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table for this ORDA class
-- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Database table storing ProductMaterialOptions records
 
 ### � Related Classes
 
-- [ProductMaterialOptions](ProductMaterialOptions.md) - ORDA DataClass class for ProductMaterialOptions table
 - [ProductMaterialOptionsEntity](ProductMaterialOptionsEntity.md) - ORDA Entity class for ProductMaterialOptions table
 
 ---

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T21:44:52.510Z*
+🕐 *Last updated: 2025-11-13T23:17:38.475Z*
 
 ---
 
@@ -114,11 +114,6 @@ Function restRemoveEntry($RestPostDataObject : Object) -> Object
 ### 🗂️ Tables
 
 - [MaterialStockTake](../Tables/MaterialStockTake.md) - Source table for this ORDA class
-- [MaterialStockTake](../Tables/MaterialStockTake.md) - Database table storing MaterialStockTake records
-
-### � Related Classes
-
-- [MaterialStockTake](MaterialStockTake.md) - ORDA DataClass class for MaterialStockTake table
 
 ---
 
