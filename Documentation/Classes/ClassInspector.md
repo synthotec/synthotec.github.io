@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T16:46:51.540Z*
+🕐 *Last updated: 2025-11-13T16:58:14.037Z*
 
 ---
 
@@ -286,7 +286,7 @@ Export to JSON string
 Function saveToFile -> 4D.File
 ```
 
-Save JSON to file in Documentation\json\Classes folder
+Save JSON to file in Documentation\Classes folder
 
 **Returns:** `4D.File`
 

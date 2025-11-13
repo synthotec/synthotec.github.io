@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-🕐 *Last updated: 2025-11-13T16:46:52.898Z*
+🕐 *Last updated: 2025-11-13T16:58:15.420Z*
 
 ---
 
