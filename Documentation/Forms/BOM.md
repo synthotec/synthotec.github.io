@@ -25,7 +25,7 @@ Main view showing the Bill of Materials interface with listbox for parts selecti
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T14:26:51.876Z |
+| **Generated** | 🕐 2025-11-13T15:02:54.955Z |
 
 ---
 

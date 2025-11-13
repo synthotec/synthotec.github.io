@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T14:26:49.879Z*
+🕐 *Last updated: 2025-11-13T15:02:53.105Z*
 
 ---
 

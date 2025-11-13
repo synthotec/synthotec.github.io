@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T14:26:49.853Z*
+🕐 *Last updated: 2025-11-13T15:02:53.080Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 - [send](#send) → `$EmailSent : Boolean`
 
 ### 📚 Examples (1)
+
+- [Sending notification email](#sending-notification-email)
 
 ---
 
@@ -251,16 +253,16 @@ Function send -> $EmailSent : Boolean
 
 ## 📚 Examples
 
-### Sending notification email
+### Sending notification email {#sending-notification-email}
 
 Example of sending an email using the Email class after creating the email object.
 
 ```4d
-	var $Email:=cs.Email.new(_Text("Pick Request #:1 Picked :2").parse(This.ID; "✅"); $Table.Output())
-	$Email.setMessageID("PickRequestNotification"+String(This.ID))
-	$Email.addPermissionGroup("PickRequest.PickedNotificationEmails"; Email Recipient Type To; True)
-	$Email.setFromAddress("pickrequests"; "4D Pick Requests")
-	$Email.send()
+		End if 
+	End for each 
+	
+	$Table.merge(True; [4; 5])
+	
 ```
 
 ---
