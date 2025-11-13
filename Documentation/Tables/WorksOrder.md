@@ -5,27 +5,25 @@ parent : Tables
 ---
 # WorksOrder
 
-📊 **Overview:** 85 Fields | 18 Indexes | 22 Many-to-One Relations | 114 One-to-Many Relations
+📊 **Overview:** 85 Fields | 18 Indexes | 4 Many-to-One Relations | 14 One-to-Many Relations
 
 ## ℹ️ Table Information
 
 - **Table ID:** 4
 - **UUID:** 305DC4E1E3339443B76C086981BBCB7C
 - **Primary Key:** 🔑 `Works_Order_No`
-- **Generated:** 🕐 2025-11-12T23:08:46Z
+- **Generated:** 🕐 2025-11-13T02:34:17Z
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Fields](#fields) (85)
-- [🔍 Indexes](#indexes) (18)
-- [🔗 Many-to-One Relations](#many-to-one-relations) (22)
-- [🔗 One-to-Many Relations](#one-to-many-relations) (114)
+- [📋 Fields](#-fields) (85)
+- [🔍 Indexes](#-indexes) (18)
+- [🔗 Many-to-One Relations](#-many-to-one-relations) (4)
+- [🔗 One-to-Many Relations](#-one-to-many-relations) (14)
 
 ---
-
-## 📋 Fields
 
 ## 📋 Fields
 
@@ -888,63 +886,81 @@ parent : Tables
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
-| `OEEgenerated` | - | regular | - |
-| `Raised_Job_Card` | - | regular | - |
-| `Machine_Started` | - | regular | - |
-| `MaterialID` | - | regular | - |
-| `No_In_Stock` | - | regular | - |
-| `NewSystem` | - | regular | - |
-| `Machine_No` | - | regular | - |
-| `Part_No` | - | regular | - |
-| `Customer_Code` | - | regular | - |
-| `Works_Order_No` | - | regular | ✨ Yes |
-| `ToolID` | - | regular | - |
-| `Issue_No` | - | regular | - |
-| `Machine_Completed` | - | regular | - |
-| `ProductID_l` | - | regular | - |
-| `Packing_Completed` | - | regular | - |
-| `Robot` | - | regular | - |
-| `MigrationID` | - | regular | - |
-| `AutomaticStock` | - | regular | - |
+| `OEEgenerated` | Keywords | regular | - |
+| `Raised_Job_Card` | Keywords | regular | - |
+| `Machine_Started` | Keywords | regular | - |
+| `MaterialID` | Keywords | regular | - |
+| `No_In_Stock` | Keywords | regular | - |
+| `NewSystem` | Cluster | regular | - |
+| `Machine_No` | Keywords | regular | - |
+| `Part_No` | Keywords | regular | - |
+| `Customer_Code` | Keywords | regular | - |
+| `Works_Order_No` | Keywords | regular | ✨ Yes |
+| `ToolID` | Keywords | regular | - |
+| `Issue_No` | Keywords | regular | - |
+| `Machine_Completed` | Keywords | regular | - |
+| `ProductID_l` | Keywords | regular | - |
+| `Packing_Completed` | Keywords | regular | - |
+| `Robot` | Cluster | regular | - |
+| `MigrationID` | Keywords | regular | - |
+| `AutomaticStock` | Cluster | regular | - |
 
 ### Detailed Information
 
 - **Field:** `OEEgenerated`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Raised_Job_Card`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Machine_Started`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `MaterialID`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `No_In_Stock`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `NewSystem`
   - **Kind:** regular
+  - **Type:** Cluster
 - **Field:** `Machine_No`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Part_No`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Customer_Code`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Works_Order_No` ✨ **(Unique)**
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `ToolID`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Issue_No`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Machine_Completed`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `ProductID_l`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Packing_Completed`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `Robot`
   - **Kind:** regular
+  - **Type:** Cluster
 - **Field:** `MigrationID`
   - **Kind:** regular
+  - **Type:** Keywords
 - **Field:** `AutomaticStock`
   - **Kind:** regular
+  - **Type:** Cluster
 
 ## 🔗 Many-to-One Relations
 
@@ -952,28 +968,10 @@ parent : Tables
 
 | Relation Name | Destination Table | Source → Destination | State |
 |:--------------|:------------------|:---------------------|:------|
-| `CustomerEntity` | [Customer](Customer.md) | `Customer_Code` → `Customer_Code` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No` → `Works_Order_No` | - |
-| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No` → `Works_Order_No` | - |
-| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | - |
-| `CustomerEntity` | [Customer](Customer.md) | `Customer_Code` → `Customer_Code` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
-| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | - |
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | - |
+| `CustomerEntity` | [Customer](Customer.md) | `Customer_Code` → `Customer_Code` | Active |
+| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active |
+| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | Active |
+| `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active |
 
 ### Detailed Information
 
@@ -983,6 +981,7 @@ parent : Tables
 
 - **Source Field:** `Customer_Code`
 - **Destination Field:** `Customer_Code`
+- **State:** Active
 
 ---
 
@@ -992,24 +991,7 @@ parent : Tables
 
 - **Source Field:** `ToolID`
 - **Destination Field:** `Tool_ID`
-
----
-
-#### WorksOrderEntity
-
-**Links to:** [WorksOrder](WorksOrder.md)
-
-- **Source Field:** `Works_Order_No`
-- **Destination Field:** `Works_Order_No`
-
----
-
-#### WorksOrderEntity
-
-**Links to:** [WorksOrder](WorksOrder.md)
-
-- **Source Field:** `Works_Order_No`
-- **Destination Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
@@ -1019,15 +1001,7 @@ parent : Tables
 
 - **Source Field:** `ProductID_l`
 - **Destination Field:** `Product_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
+- **State:** Active
 
 ---
 
@@ -1037,141 +1011,7 @@ parent : Tables
 
 - **Source Field:** `MaterialID`
 - **Destination Field:** `Unique_ID`
-
----
-
-#### MaterialEntity
-
-**Links to:** [Material](Material.md)
-
-- **Source Field:** `MaterialID`
-- **Destination Field:** `Unique_ID`
-
----
-
-#### MaterialEntity
-
-**Links to:** [Material](Material.md)
-
-- **Source Field:** `MaterialID`
-- **Destination Field:** `Unique_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### ProductEntity
-
-**Links to:** [Product](Product.md)
-
-- **Source Field:** `ProductID_l`
-- **Destination Field:** `Product_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### MaterialEntity
-
-**Links to:** [Material](Material.md)
-
-- **Source Field:** `MaterialID`
-- **Destination Field:** `Unique_ID`
-
----
-
-#### ProductEntity
-
-**Links to:** [Product](Product.md)
-
-- **Source Field:** `ProductID_l`
-- **Destination Field:** `Product_ID`
-
----
-
-#### CustomerEntity
-
-**Links to:** [Customer](Customer.md)
-
-- **Source Field:** `Customer_Code`
-- **Destination Field:** `Customer_Code`
-
----
-
-#### MaterialEntity
-
-**Links to:** [Material](Material.md)
-
-- **Source Field:** `MaterialID`
-- **Destination Field:** `Unique_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-
----
-
-#### MaterialEntity
-
-**Links to:** [Material](Material.md)
-
-- **Source Field:** `MaterialID`
-- **Destination Field:** `Unique_ID`
-
----
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
+- **State:** Active
 
 ---
 
@@ -1181,922 +1021,178 @@ parent : Tables
 
 | Relation Name | Source Table | Source → Destination | State |
 |:--------------|:-------------|:---------------------|:------|
-| `ToolsSelection` | - | `ProductID` → `Product_ID` | - |
-| `Customer_OrderSelection` | - | `Product_ID` → `Product_ID` | - |
-| `OrderPickRequestSelection` | - | `PickRequestID` → `ID` | - |
-| `Customer_OrderSelection` | - | `Material_ID` → `Unique_ID` | - |
-| `Stock_MovementSelection` | - | `Works_Order_No_l` → `Works_Order_No` | - |
-| `CofCSelection` | - | `Petes No` → `Petes_No` | - |
-| `Product_OptionSelection` | - | `Product ID` → `Product_ID` | - |
-| `Product_OptionSelection` | - | `Material_ID` → `Unique_ID` | - |
-| `NonConformanceSelection` | - | `Tool_ID` → `Tool_ID` | - |
-| `SuppliesSelection` | - | `SupplierID_l` → `SupplierID_l` | - |
-| `PurchasesSelection` | - | `SupplierID_l` → `SupplierID_l` | - |
-| `PurchaseInfoSelection` | - | `OrderNo_l` → `OrderNo_l` | - |
-| `GaugesSelection` | - | `Product_ID` → `Product_ID` | - |
-| `GrippersSelection` | - | `Product_ID` → `Product_ID` | - |
-| `RMCSelection` | - | `MaterialID_l` → `Unique_ID` | - |
-| `ProductReturnWorksOrderSelection` | - | `ReturnID_l` → `ReturnID_l` | - |
-| `ProductReturnWorksOrderSelection` | - | `Works_Order_No_l` → `Works_Order_No` | - |
-| `LanguageTagSelection` | - | `Language_ID` → `ID_l` | - |
-| `BoxLabelsSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `ProductPackagingSelection` | - | `SuppliesID` → `UniqueID_i` | - |
-| `SuppliesSelection` | - | `PackagingCat` → `ID` | - |
-| `ToolLogSelection` | - | `Tool_ID` → `Tool_ID` | - |
-| `Stock_MovementSelection` | - | `To_Location_l` → `StockLocationID_l` | - |
-| `MaterialCheckHistorySelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `PurchaseInfoSelection` | - | `SuppliesID_i` → `UniqueID_i` | - |
-| `RealTimeSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `ProductPackagingSelection` | - | `ProductID` → `Product_ID` | - |
-| `WheelCalendarSelection` | - | `MatID` → `Unique_ID` | - |
-| `ProductStockTakeSelection` | - | `WO` → `Works_Order_No` | - |
-| `ProductStocktakeSelection` | - | `ProductID` → `Product_ID` | - |
-| `ConsignmentEntrySelection` | - | `ProductID` → `Product_ID` | - |
-| `ScrapSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `RTSUMSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `RealTimeSelection` | - | `DownReason` → `ID` | - |
-| `WorkRequestCommentsSelection` | - | `WorkRequestID` → `ID` | - |
-| `BOMSelection` | - | `ProductID` → `Product_ID` | - |
-| `PurchaseInfoSelection` | - | `NominalCode` → `ID` | - |
-| `CalibrationsSelection` | - | `EquipmentID` → `ID` | - |
-| `SupplierDocumentationSelection` | - | `SupplierID` → `SupplierID_l` | - |
-| `ProductSelection` | - | `PalletMethodID` → `ID` | - |
-| `StaffPermissionsSelection` | - | `PermissionID` → `ID` | - |
-| `StaffPermissionsSelection` | - | `StaffID` → `StaffID` | - |
-| `CalibrationProceduresSelection` | - | `EquipmentID` → `ID` | - |
-| `CalibrationResultsSelection` | - | `CalibrationID` → `ID` | - |
-| `Product_OptionSelection` | - | `Customer Code` → `Customer_Code` | - |
-| `Finished_StockSelection` | - | `LocationID_l` → `StockLocationID_l` | - |
-| `PalletSelection` | - | `ProductID` → `Product_ID` | - |
-| `LinkedBoxLabelsSelection` | - | `LinkedBoxID` → `ID` | - |
-| `PurchaseReceiptsSelection` | - | `PurchaseInfoID` → `UniqueID_l` | - |
-| `RMCSelection` | - | `PurchaseInfoID` → `UniqueID_l` | - |
-| `PurchaseReceiptsSelection` | - | `RMC` → `RMCNo_l` | - |
-| `ProductSelection` | - | `EmojiID` → `ID` | - |
-| `ToolMaintenanceLogSelection` | - | `WorkRequestID` → `ID` | - |
-| `MachineMaintenanceLogSelection` | - | `MachineMaintenanceActionID` → `ID` | - |
-| `MachineMaintenanceRequirementsSelection` | - | `MachineMaintenanceActionID` → `ID` | - |
-| `DB_VariablesSelection` | - | `StaffID` → `StaffID` | - |
-| `PackingInstructionFilesSelection` | - | `ProductID` → `Product_ID` | - |
-| `WorkRequestCommentsSelection` | - | `StaffID` → `StaffID` | - |
-| `BoxLabelsSelection` | - | `PalletID` → `ID` | - |
-| `FirstRealTimeSensorExceptionsSelection` | - | `FirstRealTimeID` → `ID` | - |
-| `LastRealTimeSensorExceptionsSelection` | - | `LastRealTimeID` → `ID` | - |
-| `RealTimeSensorExceptionsSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `RealTimeSensorExceptionsSelection` | - | `StaffID` → `StaffID` | - |
-| `RealTimeMachinesSelection` | - | `DownReason` → `ID` | - |
-| `ToolTemperatureTargetSelection` | - | `ZoneID` → `ID` | - |
-| `ToolTemperatureTargetSelection` | - | `StaffID` → `StaffID` | - |
-| `PalletSelection` | - | `LocationID` → `ID` | - |
-| `LocationSelection` | - | `ParentLocationID` → `ID` | - |
-| `OrderPickRequestSelection` | - | `CustomerOrderID` → `Petes_No` | - |
-| `WheelCalendarSelection` | - | `ProductID` → `Product_ID` | - |
-| `ProductMaterialOptionsSelection` | - | `ProductID` → `Product_ID` | - |
-| `MaterialStockTakeSelection` | - | `RMC` → `RMCNo_l` | - |
-| `MaterialCheckHistorySelection1` | - | `RMC1` → `RMCNo_l` | - |
-| `MaterialCheckHistorySelection2` | - | `RMC2` → `RMCNo_l` | - |
-| `MaterialCheckHistorySelection3` | - | `RMC3` → `RMCNo_l` | - |
-| `PalletSelection` | - | `OrderPickRequestID` → `ID` | - |
-| `BoxLabelsSelection` | - | `OrderPickRequestID` → `ID` | - |
-| `PickRequestSelection` | - | `Customer` → `Customer_Code` | - |
-| `BoxLabelsSelection` | - | `CofCID` → `Cert_Of_Conformance_No` | - |
-| `PalletSelection` | - | `CofCID` → `Cert_Of_Conformance_No` | - |
-| `CofCSelection` | - | `Advice_Note_No` → `Advice_Note_No` | - |
-| `CofCSelection` | - | `LocationID_l` → `StockLocationID_l` | - |
-| `PickRequestSelection` | - | `AdviceNoteID` → `ID` | - |
-| `MaterialStockSelection` | - | `RMC` → `RMCNo_l` | - |
-| `MaterialStockSelection` | - | `LocationID` → `ID` | - |
-| `WheelCalendarSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `PrintJobSelection` | - | `PrinterID` → `ID` | - |
-| `PrintJobSelection` | - | `RelatedUUID` → `UUID` | - |
-| `PrintJobSelection` | - | `StaffID` → `StaffID` | - |
-| `BoxLabelsSelection` | - | `Stock_LocationID` → `StockLocationID_l` | - |
-| `ShiftSummaryDetailSelection` | - | `ShiftSummaryID` → `ID` | - |
-| `ShiftSummarySelection` | - | `StaffID` → `StaffID` | - |
-| `ShiftSummaryDetailSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `ProductSelection` | - | `DefMatID` → `Unique_ID` | - |
-| `StatusUpdatedBoxLabelsSelection` | - | `StatusUpdatedStaffID` → `StaffID` | - |
-| `ErrorDetailSelection` | - | `ErrorID` → `ID` | - |
-| `Customer_OrderSelection` | - | `Product_OptionID` → `ID` | - |
-| `ForecastSelection` | - | `ProductID` → `Product_ID` | - |
-| `CustomerSelection` | - | `ConsignmentLocationID` → `StockLocationID_l` | - |
-| `ToolsSelection` | - | `HotHalfID` → `ID` | - |
-| `UsageMat1Selection` | - | `UsageMatID` → `Unique_ID` | - |
-| `UsageMat2Selection` | - | `UsageMatID2` → `Unique_ID` | - |
-| `UsageMat3Selection` | - | `UsageMatID3` → `Unique_ID` | - |
-| `QualitySystemProceduresSelection` | - | `ProductID` → `Product_ID` | - |
-| `ApprovalsSelection` | - | `Customer` → `Customer_Code` | - |
-| `BOMSelection` | - | `Customer` → `Customer_Code` | - |
-| `Product_OptionSelection` | - | `Tool ID` → `Tool_ID` | - |
-| `CustomerContactsSelection` | - | `Customer` → `Customer_Code` | - |
-| `CustomerSelection` | - | `TransportInstructionFileID` → `ID` | - |
-| `ProductPackagingSelection` | - | `Customer` → `Customer_Code` | - |
-| `ToolNoticeSelection` | - | `StaffID` → `StaffID` | - |
-| `ToolNoticeWorksOrderSelection` | - | `ToolNoticeID` → `ToolID` | - |
-| `ToolNoticeWorksOrderSelection` | - | `WorksOrder` → `Works_Order_No` | - |
-| `DeactivatedToolNoticeSelection` | - | `DeactivatedStaffID` → `StaffID` | - |
+| `Stock_MovementSelection` | [Stock_Movement](Stock_Movement.md) | `Works_Order_No_l` → `Works_Order_No` | Active |
+| `CofCSelection` | [CofC](CofC.md) | `Works_Order_No` → `Works_Order_No` | Active |
+| `Finished_StockSelection` | [Finished_Stock](Finished_Stock.md) | `Works_Order_No` → `Works_Order_No` | Active |
+| `ProductReturnWorksOrderSelection` | [ProductReturnWorksOrder](ProductReturnWorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active |
+| `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `MaterialCheckHistorySelection` | [MaterialCheckHistory](MaterialCheckHistory.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `RealTimeSelection` | [RealTime](RealTime.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `ProductStockTakeSelection` | [ProductStockTake](ProductStockTake.md) | `WO` → `Works_Order_No` | Active |
+| `ScrapSelection` | [Scrap](Scrap.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `RTSUMSelection` | [RTSUM](RTSUM.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `RealTimeSensorExceptionsSelection` | [RealTimeSensorExceptions](RealTimeSensorExceptions.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `WheelCalendarSelection` | [WheelCalendar](WheelCalendar.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `WorksOrder` → `Works_Order_No` | Active |
+| `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active |
 
 ### Detailed Information
 
-#### ToolsSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### Customer_OrderSelection
-
-- **Source Field:** `Product_ID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### OrderPickRequestSelection
-
-- **Source Field:** `PickRequestID`
-- **This Table Field:** `ID`
-
----
-
-#### Customer_OrderSelection
-
-- **Source Field:** `Material_ID`
-- **This Table Field:** `Unique_ID`
-
----
-
 #### Stock_MovementSelection
 
+**Links from:** [Stock_Movement](Stock_Movement.md)
+
+- **Source Table:** `Stock_Movement`
 - **Source Field:** `Works_Order_No_l`
 - **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
 #### CofCSelection
 
-- **Source Field:** `Petes No`
-- **This Table Field:** `Petes_No`
+**Links from:** [CofC](CofC.md)
 
----
-
-#### Product_OptionSelection
-
-- **Source Field:** `Product ID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### Product_OptionSelection
-
-- **Source Field:** `Material_ID`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### NonConformanceSelection
-
-- **Source Field:** `Tool_ID`
-- **This Table Field:** `Tool_ID`
-
----
-
-#### SuppliesSelection
-
-- **Source Field:** `SupplierID_l`
-- **This Table Field:** `SupplierID_l`
-
----
-
-#### PurchasesSelection
-
-- **Source Field:** `SupplierID_l`
-- **This Table Field:** `SupplierID_l`
-
----
-
-#### PurchaseInfoSelection
-
-- **Source Field:** `OrderNo_l`
-- **This Table Field:** `OrderNo_l`
-
----
-
-#### GaugesSelection
-
-- **Source Field:** `Product_ID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### GrippersSelection
-
-- **Source Field:** `Product_ID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### RMCSelection
-
-- **Source Field:** `MaterialID_l`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### ProductReturnWorksOrderSelection
-
-- **Source Field:** `ReturnID_l`
-- **This Table Field:** `ReturnID_l`
-
----
-
-#### ProductReturnWorksOrderSelection
-
-- **Source Field:** `Works_Order_No_l`
+- **Source Table:** `CofC`
+- **Source Field:** `Works_Order_No`
 - **This Table Field:** `Works_Order_No`
-
----
-
-#### LanguageTagSelection
-
-- **Source Field:** `Language_ID`
-- **This Table Field:** `ID_l`
-
----
-
-#### BoxLabelsSelection
-
-- **Source Field:** `WorksOrder`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### ProductPackagingSelection
-
-- **Source Field:** `SuppliesID`
-- **This Table Field:** `UniqueID_i`
-
----
-
-#### SuppliesSelection
-
-- **Source Field:** `PackagingCat`
-- **This Table Field:** `ID`
-
----
-
-#### ToolLogSelection
-
-- **Source Field:** `Tool_ID`
-- **This Table Field:** `Tool_ID`
-
----
-
-#### Stock_MovementSelection
-
-- **Source Field:** `To_Location_l`
-- **This Table Field:** `StockLocationID_l`
-
----
-
-#### MaterialCheckHistorySelection
-
-- **Source Field:** `WorksOrder`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### PurchaseInfoSelection
-
-- **Source Field:** `SuppliesID_i`
-- **This Table Field:** `UniqueID_i`
-
----
-
-#### RealTimeSelection
-
-- **Source Field:** `WorksOrder`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### ProductPackagingSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### WheelCalendarSelection
-
-- **Source Field:** `MatID`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### ProductStockTakeSelection
-
-- **Source Field:** `WO`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### ProductStocktakeSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### ConsignmentEntrySelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### ScrapSelection
-
-- **Source Field:** `WorksOrder`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### RTSUMSelection
-
-- **Source Field:** `WorksOrder`
-- **This Table Field:** `Works_Order_No`
-
----
-
-#### RealTimeSelection
-
-- **Source Field:** `DownReason`
-- **This Table Field:** `ID`
-
----
-
-#### WorkRequestCommentsSelection
-
-- **Source Field:** `WorkRequestID`
-- **This Table Field:** `ID`
-
----
-
-#### BOMSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### PurchaseInfoSelection
-
-- **Source Field:** `NominalCode`
-- **This Table Field:** `ID`
-
----
-
-#### CalibrationsSelection
-
-- **Source Field:** `EquipmentID`
-- **This Table Field:** `ID`
-
----
-
-#### SupplierDocumentationSelection
-
-- **Source Field:** `SupplierID`
-- **This Table Field:** `SupplierID_l`
-
----
-
-#### ProductSelection
-
-- **Source Field:** `PalletMethodID`
-- **This Table Field:** `ID`
-
----
-
-#### StaffPermissionsSelection
-
-- **Source Field:** `PermissionID`
-- **This Table Field:** `ID`
-
----
-
-#### StaffPermissionsSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### CalibrationProceduresSelection
-
-- **Source Field:** `EquipmentID`
-- **This Table Field:** `ID`
-
----
-
-#### CalibrationResultsSelection
-
-- **Source Field:** `CalibrationID`
-- **This Table Field:** `ID`
-
----
-
-#### Product_OptionSelection
-
-- **Source Field:** `Customer Code`
-- **This Table Field:** `Customer_Code`
+- **State:** Active
 
 ---
 
 #### Finished_StockSelection
 
-- **Source Field:** `LocationID_l`
-- **This Table Field:** `StockLocationID_l`
+**Links from:** [Finished_Stock](Finished_Stock.md)
+
+- **Source Table:** `Finished_Stock`
+- **Source Field:** `Works_Order_No`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
-#### PalletSelection
+#### ProductReturnWorksOrderSelection
 
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
+**Links from:** [ProductReturnWorksOrder](ProductReturnWorksOrder.md)
 
----
-
-#### LinkedBoxLabelsSelection
-
-- **Source Field:** `LinkedBoxID`
-- **This Table Field:** `ID`
-
----
-
-#### PurchaseReceiptsSelection
-
-- **Source Field:** `PurchaseInfoID`
-- **This Table Field:** `UniqueID_l`
-
----
-
-#### RMCSelection
-
-- **Source Field:** `PurchaseInfoID`
-- **This Table Field:** `UniqueID_l`
-
----
-
-#### PurchaseReceiptsSelection
-
-- **Source Field:** `RMC`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### ProductSelection
-
-- **Source Field:** `EmojiID`
-- **This Table Field:** `ID`
-
----
-
-#### ToolMaintenanceLogSelection
-
-- **Source Field:** `WorkRequestID`
-- **This Table Field:** `ID`
-
----
-
-#### MachineMaintenanceLogSelection
-
-- **Source Field:** `MachineMaintenanceActionID`
-- **This Table Field:** `ID`
-
----
-
-#### MachineMaintenanceRequirementsSelection
-
-- **Source Field:** `MachineMaintenanceActionID`
-- **This Table Field:** `ID`
-
----
-
-#### DB_VariablesSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### PackingInstructionFilesSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### WorkRequestCommentsSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
+- **Source Table:** `ProductReturnWorksOrder`
+- **Source Field:** `Works_Order_No_l`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
 #### BoxLabelsSelection
 
-- **Source Field:** `PalletID`
-- **This Table Field:** `ID`
+**Links from:** [BoxLabels](BoxLabels.md)
+
+- **Source Table:** `BoxLabels`
+- **Source Field:** `WorksOrder`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
-#### FirstRealTimeSensorExceptionsSelection
+#### MaterialCheckHistorySelection
 
-- **Source Field:** `FirstRealTimeID`
-- **This Table Field:** `ID`
+**Links from:** [MaterialCheckHistory](MaterialCheckHistory.md)
+
+- **Source Table:** `MaterialCheckHistory`
+- **Source Field:** `WorksOrder`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
-#### LastRealTimeSensorExceptionsSelection
+#### RealTimeSelection
 
-- **Source Field:** `LastRealTimeID`
-- **This Table Field:** `ID`
+**Links from:** [RealTime](RealTime.md)
+
+- **Source Table:** `RealTime`
+- **Source Field:** `WorksOrder`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
+
+---
+
+#### ProductStockTakeSelection
+
+**Links from:** [ProductStockTake](ProductStockTake.md)
+
+- **Source Table:** `ProductStockTake`
+- **Source Field:** `WO`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
+
+---
+
+#### ScrapSelection
+
+**Links from:** [Scrap](Scrap.md)
+
+- **Source Table:** `Scrap`
+- **Source Field:** `WorksOrder`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
+
+---
+
+#### RTSUMSelection
+
+**Links from:** [RTSUM](RTSUM.md)
+
+- **Source Table:** `RTSUM`
+- **Source Field:** `WorksOrder`
+- **This Table Field:** `Works_Order_No`
+- **State:** Active
 
 ---
 
 #### RealTimeSensorExceptionsSelection
 
+**Links from:** [RealTimeSensorExceptions](RealTimeSensorExceptions.md)
+
+- **Source Table:** `RealTimeSensorExceptions`
 - **Source Field:** `WorksOrder`
 - **This Table Field:** `Works_Order_No`
-
----
-
-#### RealTimeSensorExceptionsSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### RealTimeMachinesSelection
-
-- **Source Field:** `DownReason`
-- **This Table Field:** `ID`
-
----
-
-#### ToolTemperatureTargetSelection
-
-- **Source Field:** `ZoneID`
-- **This Table Field:** `ID`
-
----
-
-#### ToolTemperatureTargetSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### PalletSelection
-
-- **Source Field:** `LocationID`
-- **This Table Field:** `ID`
-
----
-
-#### LocationSelection
-
-- **Source Field:** `ParentLocationID`
-- **This Table Field:** `ID`
-
----
-
-#### OrderPickRequestSelection
-
-- **Source Field:** `CustomerOrderID`
-- **This Table Field:** `Petes_No`
+- **State:** Active
 
 ---
 
 #### WheelCalendarSelection
 
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
+**Links from:** [WheelCalendar](WheelCalendar.md)
 
----
-
-#### ProductMaterialOptionsSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### MaterialStockTakeSelection
-
-- **Source Field:** `RMC`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### MaterialCheckHistorySelection1
-
-- **Source Field:** `RMC1`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### MaterialCheckHistorySelection2
-
-- **Source Field:** `RMC2`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### MaterialCheckHistorySelection3
-
-- **Source Field:** `RMC3`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### PalletSelection
-
-- **Source Field:** `OrderPickRequestID`
-- **This Table Field:** `ID`
-
----
-
-#### BoxLabelsSelection
-
-- **Source Field:** `OrderPickRequestID`
-- **This Table Field:** `ID`
-
----
-
-#### PickRequestSelection
-
-- **Source Field:** `Customer`
-- **This Table Field:** `Customer_Code`
-
----
-
-#### BoxLabelsSelection
-
-- **Source Field:** `CofCID`
-- **This Table Field:** `Cert_Of_Conformance_No`
-
----
-
-#### PalletSelection
-
-- **Source Field:** `CofCID`
-- **This Table Field:** `Cert_Of_Conformance_No`
-
----
-
-#### CofCSelection
-
-- **Source Field:** `Advice_Note_No`
-- **This Table Field:** `Advice_Note_No`
-
----
-
-#### CofCSelection
-
-- **Source Field:** `LocationID_l`
-- **This Table Field:** `StockLocationID_l`
-
----
-
-#### PickRequestSelection
-
-- **Source Field:** `AdviceNoteID`
-- **This Table Field:** `ID`
-
----
-
-#### MaterialStockSelection
-
-- **Source Field:** `RMC`
-- **This Table Field:** `RMCNo_l`
-
----
-
-#### MaterialStockSelection
-
-- **Source Field:** `LocationID`
-- **This Table Field:** `ID`
-
----
-
-#### WheelCalendarSelection
-
+- **Source Table:** `WheelCalendar`
 - **Source Field:** `WorksOrder`
 - **This Table Field:** `Works_Order_No`
-
----
-
-#### PrintJobSelection
-
-- **Source Field:** `PrinterID`
-- **This Table Field:** `ID`
-
----
-
-#### PrintJobSelection
-
-- **Source Field:** `RelatedUUID`
-- **This Table Field:** `UUID`
-
----
-
-#### PrintJobSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### BoxLabelsSelection
-
-- **Source Field:** `Stock_LocationID`
-- **This Table Field:** `StockLocationID_l`
+- **State:** Active
 
 ---
 
 #### ShiftSummaryDetailSelection
 
-- **Source Field:** `ShiftSummaryID`
-- **This Table Field:** `ID`
+**Links from:** [ShiftSummaryDetail](ShiftSummaryDetail.md)
 
----
-
-#### ShiftSummarySelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### ShiftSummaryDetailSelection
-
+- **Source Table:** `ShiftSummaryDetail`
 - **Source Field:** `WorksOrder`
 - **This Table Field:** `Works_Order_No`
-
----
-
-#### ProductSelection
-
-- **Source Field:** `DefMatID`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### StatusUpdatedBoxLabelsSelection
-
-- **Source Field:** `StatusUpdatedStaffID`
-- **This Table Field:** `StaffID`
-
----
-
-#### ErrorDetailSelection
-
-- **Source Field:** `ErrorID`
-- **This Table Field:** `ID`
-
----
-
-#### Customer_OrderSelection
-
-- **Source Field:** `Product_OptionID`
-- **This Table Field:** `ID`
-
----
-
-#### ForecastSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### CustomerSelection
-
-- **Source Field:** `ConsignmentLocationID`
-- **This Table Field:** `StockLocationID_l`
-
----
-
-#### ToolsSelection
-
-- **Source Field:** `HotHalfID`
-- **This Table Field:** `ID`
-
----
-
-#### UsageMat1Selection
-
-- **Source Field:** `UsageMatID`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### UsageMat2Selection
-
-- **Source Field:** `UsageMatID2`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### UsageMat3Selection
-
-- **Source Field:** `UsageMatID3`
-- **This Table Field:** `Unique_ID`
-
----
-
-#### QualitySystemProceduresSelection
-
-- **Source Field:** `ProductID`
-- **This Table Field:** `Product_ID`
-
----
-
-#### ApprovalsSelection
-
-- **Source Field:** `Customer`
-- **This Table Field:** `Customer_Code`
-
----
-
-#### BOMSelection
-
-- **Source Field:** `Customer`
-- **This Table Field:** `Customer_Code`
-
----
-
-#### Product_OptionSelection
-
-- **Source Field:** `Tool ID`
-- **This Table Field:** `Tool_ID`
-
----
-
-#### CustomerContactsSelection
-
-- **Source Field:** `Customer`
-- **This Table Field:** `Customer_Code`
-
----
-
-#### CustomerSelection
-
-- **Source Field:** `TransportInstructionFileID`
-- **This Table Field:** `ID`
-
----
-
-#### ProductPackagingSelection
-
-- **Source Field:** `Customer`
-- **This Table Field:** `Customer_Code`
-
----
-
-#### ToolNoticeSelection
-
-- **Source Field:** `StaffID`
-- **This Table Field:** `StaffID`
+- **State:** Active
 
 ---
 
 #### ToolNoticeWorksOrderSelection
 
-- **Source Field:** `ToolNoticeID`
-- **This Table Field:** `ToolID`
+**Links from:** [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)
 
----
-
-#### ToolNoticeWorksOrderSelection
-
+- **Source Table:** `ToolNoticeWorksOrder`
 - **Source Field:** `WorksOrder`
 - **This Table Field:** `Works_Order_No`
-
----
-
-#### DeactivatedToolNoticeSelection
-
-- **Source Field:** `DeactivatedStaffID`
-- **This Table Field:** `StaffID`
+- **State:** Active
 
 ---
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-12T23:08:46Z*
+*Generated at: 2025-11-13T02:34:17Z*

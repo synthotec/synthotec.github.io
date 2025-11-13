@@ -1,24 +1,24 @@
 ﻿---
 layout : default
-title : FirstOffs
+title : (PatrolInspection)
 parent : Tables
 ---
-# FirstOffs
+# (PatrolInspection)
 
-📊 **Overview:** 23 Fields | 1 Indexes
+📊 **Overview:** 28 Fields | 1 Indexes
 
 ## ℹ️ Table Information
 
-- **Table ID:** 60
-- **UUID:** 34BFB440508D4E468E6B86A28637B6DF
+- **Table ID:** 95
+- **UUID:** D7DE1765133C754DA91A3FF4120C4CC7
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:35:58Z
+- **Generated:** 🕐 2025-11-13T02:36:30Z
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Fields](#-fields) (23)
+- [📋 Fields](#-fields) (28)
 - [🔍 Indexes](#-indexes) (1)
 
 ---
@@ -30,17 +30,17 @@ parent : Tables
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
+| WorksOrder | `Picture` | 🚫 Not Null | - |
 | CompletedBy | `String` (255) | 🚫 Not Null | - |
 | Method | `String` (255) | 🚫 Not Null | - |
-| Cav1 | `Boolean` | 🚫 Not Null | - |
-| Cav2 | `Boolean` | 🚫 Not Null | - |
-| Cav3 | `Boolean` | 🚫 Not Null | - |
-| Cav4 | `Boolean` | 🚫 Not Null | - |
-| Cav5 | `Boolean` | 🚫 Not Null | - |
-| Cav6 | `Boolean` | 🚫 Not Null | - |
-| Cav7 | `Boolean` | 🚫 Not Null | - |
-| Cav8 | `Boolean` | 🚫 Not Null | - |
+| Cav1 | `String` (255) | 🚫 Not Null | - |
+| Cav2 | `String` (255) | 🚫 Not Null | - |
+| Cav3 | `String` (255) | 🚫 Not Null | - |
+| Cav4 | `String` (255) | 🚫 Not Null | - |
+| Cav5 | `String` (255) | 🚫 Not Null | - |
+| Cav6 | `String` (255) | 🚫 Not Null | - |
+| Cav7 | `String` (255) | 🚫 Not Null | - |
+| Cav8 | `String` (255) | 🚫 Not Null | - |
 | MethodCompleted | `Real` | 🚫 Not Null | - |
 | DateCompleted | `Integer` | 🚫 Not Null | - |
 | ProductID | `Date` | 🚫 Not Null | - |
@@ -52,6 +52,11 @@ parent : Tables
 | Cav14 | `String` (255) | 🚫 Not Null | - |
 | Cav15 | `String` (255) | 🚫 Not Null | - |
 | Cav16 | `String` (255) | 🚫 Not Null | - |
+| TimeCompleted | `Long Integer` | 🚫 Not Null | - |
+| Comments | `String` (255) | 🚫 Not Null | - |
+| WriteBy | `String` (255) | 🚫 Not Null | - |
+| DateWriteBy | `Integer` | 🚫 Not Null | - |
+| TimeWriteBy | `Long Integer` | 🚫 Not Null | - |
 
 ### Detailed Information
 
@@ -68,7 +73,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Date
+- **Type:** Picture
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -95,7 +100,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -104,7 +109,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -113,7 +118,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -122,7 +127,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -131,7 +136,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -140,7 +145,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -149,7 +154,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -158,7 +163,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -262,21 +267,66 @@ parent : Tables
 
 ---
 
+#### TimeCompleted
+
+**Properties:**
+
+- **Type:** Long Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### Comments
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### WriteBy
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### DateWriteBy
+
+**Properties:**
+
+- **Type:** Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### TimeWriteBy
+
+**Properties:**
+
+- **Type:** Long Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
 ## 🔍 Indexes
 
 ### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
-| `ID` | Keywords | regular | ✨ Yes |
+| `ID` | B-Tree | regular | ✨ Yes |
 
 ### Detailed Information
 
 - **Field:** `ID` ✨ **(Unique)**
   - **Kind:** regular
-  - **Type:** Keywords
+  - **Type:** B-Tree
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:58Z*
+*Generated at: 2025-11-13T02:36:30Z*

@@ -1,24 +1,24 @@
 ﻿---
 layout : default
-title : FirstOffs
+title : (Conditioning)
 parent : Tables
 ---
-# FirstOffs
+# (Conditioning)
 
-📊 **Overview:** 23 Fields | 1 Indexes
+📊 **Overview:** 30 Fields | 1 Indexes
 
 ## ℹ️ Table Information
 
-- **Table ID:** 60
-- **UUID:** 34BFB440508D4E468E6B86A28637B6DF
+- **Table ID:** 98
+- **UUID:** B616A5CF96100A4097E3ECAA7E6BD71C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:35:58Z
+- **Generated:** 🕐 2025-11-13T02:36:32Z
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Fields](#-fields) (23)
+- [📋 Fields](#-fields) (30)
 - [🔍 Indexes](#-indexes) (1)
 
 ---
@@ -29,18 +29,18 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| WorksOrder | `Picture` | 🚫 Not Null | - |
 | CompletedBy | `String` (255) | 🚫 Not Null | - |
 | Method | `String` (255) | 🚫 Not Null | - |
 | Cav1 | `Boolean` | 🚫 Not Null | - |
 | Cav2 | `Boolean` | 🚫 Not Null | - |
 | Cav3 | `Boolean` | 🚫 Not Null | - |
-| Cav4 | `Boolean` | 🚫 Not Null | - |
-| Cav5 | `Boolean` | 🚫 Not Null | - |
-| Cav6 | `Boolean` | 🚫 Not Null | - |
-| Cav7 | `Boolean` | 🚫 Not Null | - |
-| Cav8 | `Boolean` | 🚫 Not Null | - |
+| Cav4 | `String` (255) | 🚫 Not Null | - |
+| Cav5 | `String` (255) | 🚫 Not Null | - |
+| Cav6 | `String` (255) | 🚫 Not Null | - |
+| Cav7 | `String` (255) | 🚫 Not Null | - |
+| Cav8 | `String` (255) | 🚫 Not Null | - |
 | MethodCompleted | `Real` | 🚫 Not Null | - |
 | DateCompleted | `Integer` | 🚫 Not Null | - |
 | ProductID | `Date` | 🚫 Not Null | - |
@@ -52,6 +52,13 @@ parent : Tables
 | Cav14 | `String` (255) | 🚫 Not Null | - |
 | Cav15 | `String` (255) | 🚫 Not Null | - |
 | Cav16 | `String` (255) | 🚫 Not Null | - |
+| TimeCompleted | `Long Integer` | 🚫 Not Null | - |
+| Comments | `String` (255) | 🚫 Not Null | - |
+| WriteBy | `String` (255) | 🚫 Not Null | - |
+| DateWriteBy | `Integer` | 🚫 Not Null | - |
+| TimeWriteBy | `Long Integer` | 🚫 Not Null | - |
+| GreenCardNo | `String` (255) | 🚫 Not Null | - |
+| Pec | `String` (255) | 🚫 Not Null | - |
 
 ### Detailed Information
 
@@ -60,7 +67,7 @@ parent : Tables
 **Properties:**
 
 - **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
+- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, 🚫 Never Null
 
 ---
 
@@ -68,7 +75,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Date
+- **Type:** Picture
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -122,7 +129,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -131,7 +138,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -140,7 +147,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -149,7 +156,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -158,7 +165,7 @@ parent : Tables
 
 **Properties:**
 
-- **Type:** Boolean
+- **Type:** String (max length: 255)
 - **Constraints:** 🚫 Never Null
 
 ---
@@ -262,21 +269,84 @@ parent : Tables
 
 ---
 
+#### TimeCompleted
+
+**Properties:**
+
+- **Type:** Long Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### Comments
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### WriteBy
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### DateWriteBy
+
+**Properties:**
+
+- **Type:** Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### TimeWriteBy
+
+**Properties:**
+
+- **Type:** Long Integer
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### GreenCardNo
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
+#### Pec
+
+**Properties:**
+
+- **Type:** String (max length: 255)
+- **Constraints:** 🚫 Never Null
+
+---
+
 ## 🔍 Indexes
 
 ### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
-| `ID` | Keywords | regular | ✨ Yes |
+| `ID` | B-Tree | regular | ✨ Yes |
 
 ### Detailed Information
 
 - **Field:** `ID` ✨ **(Unique)**
   - **Kind:** regular
-  - **Type:** Keywords
+  - **Type:** B-Tree
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:58Z*
+*Generated at: 2025-11-13T02:36:32Z*
