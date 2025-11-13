@@ -184,8 +184,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Product](../Classes/Product.md) - DataClass class
-- [ProductEntity](../Classes/ProductEntity.md) - Entity class
+- [Product](../Classes/Product.md) - ORDA DataClass class for Product table
+- [ProductEntity](../Classes/ProductEntity.md) - ORDA Entity class for Product table
 
 ---
 

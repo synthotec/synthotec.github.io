@@ -58,7 +58,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ProductReturnWorksOrderEntity](../Classes/ProductReturnWorksOrderEntity.md) - Entity class
+- [ProductReturnWorksOrderEntity](../Classes/ProductReturnWorksOrderEntity.md) - ORDA Entity class for ProductReturnWorksOrder table
 
 ---
 

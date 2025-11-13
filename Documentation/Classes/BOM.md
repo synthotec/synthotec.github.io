@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:13.929Z*
+🕐 *Last updated: 2025-11-13T21:44:49.761Z*
 
 ---
 
@@ -23,8 +23,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
-- [Forms](#-forms) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -47,11 +47,13 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [BOM](../Tables/BOM.md) - Source table
+- [BOM](../Tables/BOM.md) - Source table for this ORDA class
+- [BOM](../Tables/BOM.md) - Database table storing BOM records
 
-### 📄 Forms
+### � Related Classes
 
-- [BOM](../Forms/BOM.md) - Main form for Bill of Materials management
+- [BOM](BOM.md) - ORDA DataClass class for BOM table
+- [BOMEntity](BOMEntity.md) - ORDA Entity class for BOM table
 
 ---
 

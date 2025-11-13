@@ -55,7 +55,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ShiftSummaryDetailEntity](../Classes/ShiftSummaryDetailEntity.md) - Entity class
+- [ShiftSummaryDetailEntity](../Classes/ShiftSummaryDetailEntity.md) - ORDA Entity class for ShiftSummaryDetail table
 
 ---
 

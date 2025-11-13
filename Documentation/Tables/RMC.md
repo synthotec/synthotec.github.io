@@ -75,7 +75,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [RMCEntity](../Classes/RMCEntity.md) - Entity class
+- [RMCEntity](../Classes/RMCEntity.md) - ORDA Entity class for RMC table
 
 ---
 

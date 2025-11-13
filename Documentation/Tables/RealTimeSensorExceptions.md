@@ -60,8 +60,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [RealTimeSensorExceptionsEntity](../Classes/RealTimeSensorExceptionsEntity.md) - Entity class
-- [RealTimeSensorExceptionsSelection](../Classes/RealTimeSensorExceptionsSelection.md) - EntitySelection class
+- [RealTimeSensorExceptionsEntity](../Classes/RealTimeSensorExceptionsEntity.md) - ORDA Entity class for RealTimeSensorExceptions table
+- [RealTimeSensorExceptionsSelection](../Classes/RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---
 

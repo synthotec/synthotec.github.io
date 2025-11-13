@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.962Z*
+🕐 *Last updated: 2025-11-13T21:44:53.589Z*
 
 ---
 
@@ -36,6 +36,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (3)
 
 ---
 
@@ -153,7 +154,14 @@ Function TypeDisplay -> Text
 
 ### 🗂️ Tables
 
-- [Printer](../Tables/Printer.md) - Source table
+- [Printer](../Tables/Printer.md) - Source table for this ORDA class
+- [Printer](../Tables/Printer.md) - Database table storing Printer records
+
+### � Related Classes
+
+- [Printer](Printer.md) - ORDA DataClass class for Printer table
+- [PrinterEntity](PrinterEntity.md) - ORDA Entity class for Printer table
+- [PrinterSelection](PrinterSelection.md) - ORDA EntitySelection class for Printer table
 
 ---
 

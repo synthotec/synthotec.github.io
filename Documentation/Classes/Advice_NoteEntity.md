@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:13.923Z*
+🕐 *Last updated: 2025-11-13T21:44:49.683Z*
 
 ---
 
@@ -27,6 +27,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -78,7 +79,12 @@ Function cancel -> $Cancelled : Boolean
 
 ### 🗂️ Tables
 
-- [Advice_Note](../Tables/Advice_Note.md) - Source table
+- [Advice_Note](../Tables/Advice_Note.md) - Source table for this ORDA class
+- [Advice_Note](../Tables/Advice_Note.md) - Database table storing Advice_Note records
+
+### � Related Classes
+
+- [Advice_NoteEntity](Advice_NoteEntity.md) - ORDA Entity class for Advice_Note table
 
 ---
 

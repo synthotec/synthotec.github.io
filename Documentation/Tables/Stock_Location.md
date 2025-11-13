@@ -60,8 +60,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Stock_Location](../Classes/Stock_Location.md) - DataClass class
-- [Stock_LocationEntity](../Classes/Stock_LocationEntity.md) - Entity class
+- [Stock_Location](../Classes/Stock_Location.md) - ORDA DataClass class for Stock_Location table
+- [Stock_LocationEntity](../Classes/Stock_LocationEntity.md) - ORDA Entity class for Stock_Location table
 
 ---
 

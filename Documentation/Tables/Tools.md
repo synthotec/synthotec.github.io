@@ -214,8 +214,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Tools](../Classes/Tools.md) - DataClass class
-- [ToolsEntity](../Classes/ToolsEntity.md) - Entity class
+- [Tools](../Classes/Tools.md) - ORDA DataClass class for Tools table
+- [ToolsEntity](../Classes/ToolsEntity.md) - ORDA Entity class for Tools table
 
 ---
 

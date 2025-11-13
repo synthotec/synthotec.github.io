@@ -55,8 +55,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Error](../Classes/Error.md) - DataClass class
-- [ErrorEntity](../Classes/ErrorEntity.md) - Entity class
+- [Error](../Classes/Error.md) - ORDA DataClass class for Error table
+- [ErrorEntity](../Classes/ErrorEntity.md) - ORDA Entity class for Error table
 
 ---
 

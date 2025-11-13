@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.074Z*
+🕐 *Last updated: 2025-11-13T21:44:50.398Z*
 
 ---
 
@@ -29,6 +29,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -85,7 +86,13 @@ Function HasMigrationID -> Boolean
 
 ### 🗂️ Tables
 
-- [Customer](../Tables/Customer.md) - Source table
+- [Customer](../Tables/Customer.md) - Source table for this ORDA class
+- [Customer](../Tables/Customer.md) - Database table storing Customer records
+
+### � Related Classes
+
+- [Customer](Customer.md) - ORDA DataClass class for Customer table
+- [CustomerEntity](CustomerEntity.md) - ORDA Entity class for Customer table
 
 ---
 

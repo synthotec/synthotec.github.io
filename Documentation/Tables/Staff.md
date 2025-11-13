@@ -76,8 +76,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Staff](../Classes/Staff.md) - DataClass class
-- [StaffEntity](../Classes/StaffEntity.md) - Entity class
+- [Staff](../Classes/Staff.md) - ORDA DataClass class for Staff table
+- [StaffEntity](../Classes/StaffEntity.md) - ORDA Entity class for Staff table
 
 ---
 

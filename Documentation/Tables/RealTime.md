@@ -73,9 +73,9 @@ parent : Tables
 
 ### 📦 Classes
 
-- [RealTime](../Classes/RealTime.md) - DataClass class
-- [RealTimeEntity](../Classes/RealTimeEntity.md) - Entity class
-- [RealTimeSelection](../Classes/RealTimeSelection.md) - EntitySelection class
+- [RealTime](../Classes/RealTime.md) - ORDA DataClass class for RealTime table
+- [RealTimeEntity](../Classes/RealTimeEntity.md) - ORDA Entity class for RealTime table
+- [RealTimeSelection](../Classes/RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
 
 ---
 

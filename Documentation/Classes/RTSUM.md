@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:15.267Z*
+🕐 *Last updated: 2025-11-13T21:44:55.140Z*
 
 ---
 
@@ -23,7 +23,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -52,7 +53,13 @@ Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Inte
 
 ### 🗂️ Tables
 
-- [RTSUM](../Tables/RTSUM.md) - Source table
+- [RTSUM](../Tables/RTSUM.md) - Source table for this ORDA class
+- [RTSUM](../Tables/RTSUM.md) - Database table storing RTSUM records
+
+### � Related Classes
+
+- [RTSUM](RTSUM.md) - ORDA DataClass class for RTSUM table
+- [RTSUMSelection](RTSUMSelection.md) - ORDA EntitySelection class for RTSUM table
 
 ---
 

@@ -67,8 +67,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [MaterialStock](../Classes/MaterialStock.md) - DataClass class
-- [MaterialStockEntity](../Classes/MaterialStockEntity.md) - Entity class
+- [MaterialStock](../Classes/MaterialStock.md) - ORDA DataClass class for MaterialStock table
+- [MaterialStockEntity](../Classes/MaterialStockEntity.md) - ORDA Entity class for MaterialStock table
 
 ---
 

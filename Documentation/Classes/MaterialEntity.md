@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.640Z*
+🕐 *Last updated: 2025-11-13T21:44:52.384Z*
 
 ---
 
@@ -30,6 +30,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -99,7 +100,13 @@ Function HasMigrationID -> Boolean
 
 ### 🗂️ Tables
 
-- [Material](../Tables/Material.md) - Source table
+- [Material](../Tables/Material.md) - Source table for this ORDA class
+- [Material](../Tables/Material.md) - Database table storing Material records
+
+### � Related Classes
+
+- [Material](Material.md) - ORDA DataClass class for Material table
+- [MaterialEntity](MaterialEntity.md) - ORDA Entity class for Material table
 
 ---
 

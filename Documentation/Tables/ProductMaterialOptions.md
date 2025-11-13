@@ -56,8 +56,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ProductMaterialOptions](../Classes/ProductMaterialOptions.md) - DataClass class
-- [ProductMaterialOptionsEntity](../Classes/ProductMaterialOptionsEntity.md) - Entity class
+- [ProductMaterialOptions](../Classes/ProductMaterialOptions.md) - ORDA DataClass class for ProductMaterialOptions table
+- [ProductMaterialOptionsEntity](../Classes/ProductMaterialOptionsEntity.md) - ORDA Entity class for ProductMaterialOptions table
 
 ---
 

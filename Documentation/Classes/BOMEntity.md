@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:13.936Z*
+🕐 *Last updated: 2025-11-13T21:44:49.795Z*
 
 ---
 
@@ -25,7 +25,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
-- [Forms](#-forms) (1)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -69,11 +69,13 @@ Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 
 ### 🗂️ Tables
 
-- [BOM](../Tables/BOM.md) - Source table
+- [BOM](../Tables/BOM.md) - Source table for this ORDA class
+- [BOM](../Tables/BOM.md) - Database table storing BOM records
 
-### 📄 Forms
+### � Related Classes
 
-- [BOM](../Forms/BOM.md) - Main form for Bill of Materials management
+- [BOM](BOM.md) - ORDA DataClass class for BOM table
+- [BOMEntity](BOMEntity.md) - ORDA Entity class for BOM table
 
 ---
 

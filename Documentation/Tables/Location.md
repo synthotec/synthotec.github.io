@@ -59,8 +59,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Location](../Classes/Location.md) - DataClass class
-- [LocationEntity](../Classes/LocationEntity.md) - Entity class
+- [Location](../Classes/Location.md) - ORDA DataClass class for Location table
+- [LocationEntity](../Classes/LocationEntity.md) - ORDA Entity class for Location table
 
 ---
 

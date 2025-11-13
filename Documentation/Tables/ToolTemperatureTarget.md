@@ -60,9 +60,9 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ToolTemperatureTarget](../Classes/ToolTemperatureTarget.md) - DataClass class
-- [ToolTemperatureTargetEntity](../Classes/ToolTemperatureTargetEntity.md) - Entity class
-- [ToolTemperatureTargetSelection](../Classes/ToolTemperatureTargetSelection.md) - EntitySelection class
+- [ToolTemperatureTarget](../Classes/ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
+- [ToolTemperatureTargetEntity](../Classes/ToolTemperatureTargetEntity.md) - ORDA Entity class for ToolTemperatureTarget table
+- [ToolTemperatureTargetSelection](../Classes/ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
 
 ---
 

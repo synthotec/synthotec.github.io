@@ -53,7 +53,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ToolDocument](../Classes/ToolDocument.md) - DataClass class
+- [ToolDocument](../Classes/ToolDocument.md) - ORDA DataClass class for ToolDocument table
 
 ---
 

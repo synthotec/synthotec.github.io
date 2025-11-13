@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.063Z*
+🕐 *Last updated: 2025-11-13T21:44:54.107Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -25,7 +26,12 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [ProductReturnWorksOrder](../Tables/ProductReturnWorksOrder.md) - Source table
+- [ProductReturnWorksOrder](../Tables/ProductReturnWorksOrder.md) - Source table for this ORDA class
+- [ProductReturnWorksOrder](../Tables/ProductReturnWorksOrder.md) - Database table storing ProductReturnWorksOrder records
+
+### � Related Classes
+
+- [ProductReturnWorksOrderEntity](ProductReturnWorksOrderEntity.md) - ORDA Entity class for ProductReturnWorksOrder table
 
 ---
 

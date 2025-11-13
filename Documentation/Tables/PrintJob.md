@@ -64,7 +64,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PrintJobEntity](../Classes/PrintJobEntity.md) - Entity class
+- [PrintJobEntity](../Classes/PrintJobEntity.md) - ORDA Entity class for PrintJob table
 
 ---
 

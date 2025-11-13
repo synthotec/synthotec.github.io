@@ -5,17 +5,19 @@ parent : Classes
 ---
 # RelationshipManager
 
-📊 **Overview:** 1 Constructor | 11 Functions
+📊 **Overview:** 3 Properties | 1 Constructor | 11 Functions
 
 ## 📝 Description
 
-🗨️ Manages relationships/links between Forms, Tables, and Classes for documentation
+🗨️ Set up paths
 
-🕐 *Last updated: 2025-11-13T16:58:15.249Z*
+🕐 *Last updated: 2025-11-13T21:44:55.045Z*
 
 ---
 
 ## 📑 Table of Contents
+
+- [📋 Properties (3)](#-properties)
 
 ### ⚙️ Functions
 
@@ -30,14 +32,22 @@ parent : Classes
 - [_discoverFormTableLinks](#_discoverformtablelinks)
 - [_discoverTableClassLinks](#_discovertableclasslinks)
 - [_discoverClassClassLinks](#_discoverclassclasslinks)
-- [addLink](#addlink) (5 params)
+- [addLink](#addlink) (6 params)
 - [removeLink](#removelink) (4 params)
-- [getRelationshipsFor](#getrelationshipsfor) (2 params) → `Object`
-- [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Object`
+- [getRelationshipsFor](#getrelationshipsfor) (2 params) → `Collection`
+- [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Collection`
 - [save](#save)
 - [toJSON](#tojson) → `Text`
 
 ---
+
+## 📋 Properties
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `RelationshipsFile` | `Text` | - | - |
+| `Relationships` | `Collection` | - | - |
+| `Changes` | `Collection` | - | - |
 
 ## ⚙️ Functions
 
@@ -49,8 +59,6 @@ parent : Classes
 ```4d
 Class constructor
 ```
-
-Manages relationships/links between Forms, Tables, and Classes for documentation
 
 ---
 
@@ -117,10 +125,10 @@ Discover Class → Class links (extends relationships)
 
 
 ```4d
-Function addLink($FromName : Text; $FromType : Text; $ToName : Text; $ToType : Text; $Note : Text)
+Function addLink($FromName : Text; $FromType : Text; $ToName : Text; $ToType : Text; $FromDesc : Text; $ToDesc : Text)
 ```
 
-Add a manual link between entities
+Check if relationship already exists
 
 **Parameters:**
 
@@ -130,7 +138,8 @@ Add a manual link between entities
 | `$FromType` | `Text` | - | - |
 | `$ToName` | `Text` | - | - |
 | `$ToType` | `Text` | - | - |
-| `$Note` | `Text` | - | - |
+| `$FromDesc` | `Text` | - | - |
+| `$ToDesc` | `Text` | - | - |
 
 ---
 
@@ -158,10 +167,10 @@ Remove a link between entities
 
 
 ```4d
-Function getRelationshipsFor($EntityName : Text; $EntityType : Text) -> Object
+Function getRelationshipsFor($EntityName : Text; $EntityType : Text) -> Collection
 ```
 
-Get relationships for a specific entity
+Get relationships for a specific entity (where entity is FROM)
 
 **Parameters:**
 
@@ -170,7 +179,7 @@ Get relationships for a specific entity
 | `$EntityName` | `Text` | - | - |
 | `$EntityType` | `Text` | - | - |
 
-**Returns:** `Object`
+**Returns:** `Collection`
 
 ---
 
@@ -178,10 +187,10 @@ Get relationships for a specific entity
 
 
 ```4d
-Function getReverseRelationshipsFor($EntityName : Text; $EntityType : Text) -> Object
+Function getReverseRelationshipsFor($EntityName : Text; $EntityType : Text) -> Collection
 ```
 
-Get reverse relationships (what links TO this entity)
+Get reverse relationships (where entity is TO)
 
 **Parameters:**
 
@@ -190,7 +199,7 @@ Get reverse relationships (what links TO this entity)
 | `$EntityName` | `Text` | - | - |
 | `$EntityType` | `Text` | - | - |
 
-**Returns:** `Object`
+**Returns:** `Collection`
 
 ---
 

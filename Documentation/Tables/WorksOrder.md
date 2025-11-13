@@ -172,8 +172,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [WorksOrder](../Classes/WorksOrder.md) - DataClass class
-- [WorksOrderEntity](../Classes/WorksOrderEntity.md) - Entity class
+- [WorksOrder](../Classes/WorksOrder.md) - ORDA DataClass class for WorksOrder table
+- [WorksOrderEntity](../Classes/WorksOrderEntity.md) - ORDA Entity class for WorksOrder table
 
 ---
 

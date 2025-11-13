@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:58:15.190Z*
+🕐 *Last updated: 2025-11-13T21:44:54.897Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -44,7 +45,13 @@ Function acknowledge
 
 ### 🗂️ Tables
 
-- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table
+- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table for this ORDA class
+- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Database table storing RealTimeSensorExceptions records
+
+### � Related Classes
+
+- [RealTimeSensorExceptionsEntity](RealTimeSensorExceptionsEntity.md) - ORDA Entity class for RealTimeSensorExceptions table
+- [RealTimeSensorExceptionsSelection](RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---
 

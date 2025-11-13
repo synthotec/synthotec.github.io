@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:14.630Z*
+🕐 *Last updated: 2025-11-13T21:44:52.304Z*
 
 ---
 
@@ -24,7 +24,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -61,7 +62,12 @@ Function trim
 
 ### 🗂️ Tables
 
-- [Log](../Tables/Log.md) - Source table
+- [Log](../Tables/Log.md) - Source table for this ORDA class
+- [Log](../Tables/Log.md) - Database table storing Log records
+
+### � Related Classes
+
+- [Log](Log.md) - ORDA DataClass class for Log table
 
 ---
 

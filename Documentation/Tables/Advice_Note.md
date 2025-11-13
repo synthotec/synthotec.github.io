@@ -55,7 +55,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Advice_NoteEntity](../Classes/Advice_NoteEntity.md) - Entity class
+- [Advice_NoteEntity](../Classes/Advice_NoteEntity.md) - ORDA Entity class for Advice_Note table
 
 ---
 

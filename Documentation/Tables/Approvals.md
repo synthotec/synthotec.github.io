@@ -62,8 +62,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Approvals](../Classes/Approvals.md) - DataClass class
-- [ApprovalsEntity](../Classes/ApprovalsEntity.md) - Entity class
+- [Approvals](../Classes/Approvals.md) - ORDA DataClass class for Approvals table
+- [ApprovalsEntity](../Classes/ApprovalsEntity.md) - ORDA Entity class for Approvals table
 
 ---
 

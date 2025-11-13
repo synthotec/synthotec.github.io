@@ -69,8 +69,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PickRequest](../Classes/PickRequest.md) - DataClass class
-- [PickRequestEntity](../Classes/PickRequestEntity.md) - Entity class
+- [PickRequest](../Classes/PickRequest.md) - ORDA DataClass class for PickRequest table
+- [PickRequestEntity](../Classes/PickRequestEntity.md) - ORDA Entity class for PickRequest table
 
 ---
 

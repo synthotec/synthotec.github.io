@@ -51,8 +51,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [CustomerContacts](../Classes/CustomerContacts.md) - DataClass class
-- [CustomerContactsEntity](../Classes/CustomerContactsEntity.md) - Entity class
+- [CustomerContacts](../Classes/CustomerContacts.md) - ORDA DataClass class for CustomerContacts table
+- [CustomerContactsEntity](../Classes/CustomerContactsEntity.md) - ORDA Entity class for CustomerContacts table
 
 ---
 

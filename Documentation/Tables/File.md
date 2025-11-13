@@ -51,8 +51,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [File](../Classes/File.md) - DataClass class
-- [FileEntity](../Classes/FileEntity.md) - Entity class
+- [File](../Classes/File.md) - ORDA DataClass class for File table
+- [FileEntity](../Classes/FileEntity.md) - ORDA Entity class for File table
 
 ---
 

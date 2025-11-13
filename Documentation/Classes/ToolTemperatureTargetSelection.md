@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:58:15.477Z*
+🕐 *Last updated: 2025-11-13T21:44:56.248Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (3)
 
 ---
 
@@ -70,7 +71,14 @@ Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) ->
 
 ### 🗂️ Tables
 
-- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table for this ORDA class
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Database table storing ToolTemperatureTarget records
+
+### � Related Classes
+
+- [ToolTemperatureTarget](ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
+- [ToolTemperatureTargetEntity](ToolTemperatureTargetEntity.md) - ORDA Entity class for ToolTemperatureTarget table
+- [ToolTemperatureTargetSelection](ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
 
 ---
 

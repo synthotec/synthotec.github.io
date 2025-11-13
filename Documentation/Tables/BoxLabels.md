@@ -108,8 +108,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [BoxLabels](../Classes/BoxLabels.md) - DataClass class
-- [BoxLabelsEntity](../Classes/BoxLabelsEntity.md) - Entity class
+- [BoxLabels](../Classes/BoxLabels.md) - ORDA DataClass class for BoxLabels table
+- [BoxLabelsEntity](../Classes/BoxLabelsEntity.md) - ORDA Entity class for BoxLabels table
 
 ---
 

@@ -80,8 +80,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [RealTimeMachines](../Classes/RealTimeMachines.md) - DataClass class
-- [RealTimeMachinesEntity](../Classes/RealTimeMachinesEntity.md) - Entity class
+- [RealTimeMachines](../Classes/RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
+- [RealTimeMachinesEntity](../Classes/RealTimeMachinesEntity.md) - ORDA Entity class for RealTimeMachines table
 
 ---
 

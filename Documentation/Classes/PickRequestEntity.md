@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.930Z*
+🕐 *Last updated: 2025-11-13T21:44:53.401Z*
 
 ---
 
@@ -44,6 +44,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -255,7 +256,13 @@ Function StatusColor -> Integer
 
 ### 🗂️ Tables
 
-- [PickRequest](../Tables/PickRequest.md) - Source table
+- [PickRequest](../Tables/PickRequest.md) - Source table for this ORDA class
+- [PickRequest](../Tables/PickRequest.md) - Database table storing PickRequest records
+
+### � Related Classes
+
+- [PickRequest](PickRequest.md) - ORDA DataClass class for PickRequest table
+- [PickRequestEntity](PickRequestEntity.md) - ORDA Entity class for PickRequest table
 
 ---
 

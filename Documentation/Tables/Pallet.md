@@ -97,9 +97,9 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Pallet](../Classes/Pallet.md) - DataClass class
-- [PalletEntity](../Classes/PalletEntity.md) - Entity class
-- [PalletSelection](../Classes/PalletSelection.md) - EntitySelection class
+- [Pallet](../Classes/Pallet.md) - ORDA DataClass class for Pallet table
+- [PalletEntity](../Classes/PalletEntity.md) - ORDA Entity class for Pallet table
+- [PalletSelection](../Classes/PalletSelection.md) - ORDA EntitySelection class for Pallet table
 
 ---
 

@@ -62,7 +62,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [MaterialStockTake](../Classes/MaterialStockTake.md) - DataClass class
+- [MaterialStockTake](../Classes/MaterialStockTake.md) - ORDA DataClass class for MaterialStockTake table
 
 ---
 

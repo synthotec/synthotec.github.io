@@ -93,8 +93,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Product_Option](../Classes/Product_Option.md) - DataClass class
-- [Product_OptionEntity](../Classes/Product_OptionEntity.md) - Entity class
+- [Product_Option](../Classes/Product_Option.md) - ORDA DataClass class for Product_Option table
+- [Product_OptionEntity](../Classes/Product_OptionEntity.md) - ORDA Entity class for Product_Option table
 
 ---
 

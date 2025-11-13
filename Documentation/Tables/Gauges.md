@@ -56,7 +56,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [GaugesEntity](../Classes/GaugesEntity.md) - Entity class
+- [GaugesEntity](../Classes/GaugesEntity.md) - ORDA Entity class for Gauges table
 
 ---
 

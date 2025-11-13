@@ -50,8 +50,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ToolTemperatureZone](../Classes/ToolTemperatureZone.md) - DataClass class
-- [ToolTemperatureZoneEntity](../Classes/ToolTemperatureZoneEntity.md) - Entity class
+- [ToolTemperatureZone](../Classes/ToolTemperatureZone.md) - ORDA DataClass class for ToolTemperatureZone table
+- [ToolTemperatureZoneEntity](../Classes/ToolTemperatureZoneEntity.md) - ORDA Entity class for ToolTemperatureZone table
 
 ---
 

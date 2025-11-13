@@ -47,7 +47,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Translation](../Classes/Translation.md) - DataClass class
+- [Translation](../Classes/Translation.md) - ORDA DataClass class for Translation table
 
 ---
 

@@ -67,8 +67,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ToolNotice](../Classes/ToolNotice.md) - DataClass class
-- [ToolNoticeEntity](../Classes/ToolNoticeEntity.md) - Entity class
+- [ToolNotice](../Classes/ToolNotice.md) - ORDA DataClass class for ToolNotice table
+- [ToolNoticeEntity](../Classes/ToolNoticeEntity.md) - ORDA Entity class for ToolNotice table
 
 ---
 

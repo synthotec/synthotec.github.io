@@ -63,8 +63,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ProductPackaging](../Classes/ProductPackaging.md) - DataClass class
-- [ProductPackagingEntity](../Classes/ProductPackagingEntity.md) - Entity class
+- [ProductPackaging](../Classes/ProductPackaging.md) - ORDA DataClass class for ProductPackaging table
+- [ProductPackagingEntity](../Classes/ProductPackagingEntity.md) - ORDA Entity class for ProductPackaging table
 
 ---
 

@@ -60,8 +60,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [RTSUM](../Classes/RTSUM.md) - DataClass class
-- [RTSUMSelection](../Classes/RTSUMSelection.md) - EntitySelection class
+- [RTSUM](../Classes/RTSUM.md) - ORDA DataClass class for RTSUM table
+- [RTSUMSelection](../Classes/RTSUMSelection.md) - ORDA EntitySelection class for RTSUM table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.062Z*
+🕐 *Last updated: 2025-11-13T21:44:54.071Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -68,7 +69,13 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
 
 ### 🗂️ Tables
 
-- [ProductPackaging](../Tables/ProductPackaging.md) - Source table
+- [ProductPackaging](../Tables/ProductPackaging.md) - Source table for this ORDA class
+- [ProductPackaging](../Tables/ProductPackaging.md) - Database table storing ProductPackaging records
+
+### � Related Classes
+
+- [ProductPackaging](ProductPackaging.md) - ORDA DataClass class for ProductPackaging table
+- [ProductPackagingEntity](ProductPackagingEntity.md) - ORDA Entity class for ProductPackaging table
 
 ---
 

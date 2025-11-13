@@ -65,7 +65,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [QualitySystemResults](../Classes/QualitySystemResults.md) - DataClass class
+- [QualitySystemResults](../Classes/QualitySystemResults.md) - ORDA DataClass class for QualitySystemResults table
 
 ---
 

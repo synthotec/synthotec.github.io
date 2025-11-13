@@ -46,7 +46,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Log](../Classes/Log.md) - DataClass class
+- [Log](../Classes/Log.md) - ORDA DataClass class for Log table
 
 ---
 

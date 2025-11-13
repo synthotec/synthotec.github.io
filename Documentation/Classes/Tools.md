@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:15.442Z*
+🕐 *Last updated: 2025-11-13T21:44:56.055Z*
 
 ---
 
@@ -24,7 +24,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -58,7 +59,13 @@ Function createForProduct -> cs.ToolsEntity
 
 ### 🗂️ Tables
 
-- [Tools](../Tables/Tools.md) - Source table
+- [Tools](../Tables/Tools.md) - Source table for this ORDA class
+- [Tools](../Tables/Tools.md) - Database table storing Tools records
+
+### � Related Classes
+
+- [Tools](Tools.md) - ORDA DataClass class for Tools table
+- [ToolsEntity](ToolsEntity.md) - ORDA Entity class for Tools table
 
 ---
 

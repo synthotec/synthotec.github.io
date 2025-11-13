@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:58:14.821Z*
+🕐 *Last updated: 2025-11-13T21:44:53.095Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (3)
 
 ---
 
@@ -46,7 +47,14 @@ Function getAvailable -> cs.PalletSelection
 
 ### 🗂️ Tables
 
-- [Pallet](../Tables/Pallet.md) - Source table
+- [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
+- [Pallet](../Tables/Pallet.md) - Database table storing Pallet records
+
+### � Related Classes
+
+- [Pallet](Pallet.md) - ORDA DataClass class for Pallet table
+- [PalletEntity](PalletEntity.md) - ORDA Entity class for Pallet table
+- [PalletSelection](PalletSelection.md) - ORDA EntitySelection class for Pallet table
 
 ---
 

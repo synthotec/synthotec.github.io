@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:14.703Z*
+🕐 *Last updated: 2025-11-13T21:44:52.744Z*
 
 ---
 
@@ -23,7 +23,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -46,7 +47,13 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [PackagingCats](../Tables/PackagingCats.md) - Source table
+- [PackagingCats](../Tables/PackagingCats.md) - Source table for this ORDA class
+- [PackagingCats](../Tables/PackagingCats.md) - Database table storing PackagingCats records
+
+### � Related Classes
+
+- [PackagingCats](PackagingCats.md) - ORDA DataClass class for PackagingCats table
+- [PackagingCatsEntity](PackagingCatsEntity.md) - ORDA Entity class for PackagingCats table
 
 ---
 

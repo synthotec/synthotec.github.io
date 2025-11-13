@@ -62,7 +62,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ShiftSummaryEntity](../Classes/ShiftSummaryEntity.md) - Entity class
+- [ShiftSummaryEntity](../Classes/ShiftSummaryEntity.md) - ORDA Entity class for ShiftSummary table
 
 ---
 

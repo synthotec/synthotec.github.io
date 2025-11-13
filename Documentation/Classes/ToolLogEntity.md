@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.424Z*
+🕐 *Last updated: 2025-11-13T21:44:55.906Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -25,7 +26,12 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [ToolLog](../Tables/ToolLog.md) - Source table
+- [ToolLog](../Tables/ToolLog.md) - Source table for this ORDA class
+- [ToolLog](../Tables/ToolLog.md) - Database table storing ToolLog records
+
+### � Related Classes
+
+- [ToolLogEntity](ToolLogEntity.md) - ORDA Entity class for ToolLog table
 
 ---
 

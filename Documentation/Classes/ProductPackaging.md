@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:15.060Z*
+🕐 *Last updated: 2025-11-13T21:44:54.032Z*
 
 ---
 
@@ -25,7 +25,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -66,7 +67,13 @@ Function generateCustomerPackaging
 
 ### 🗂️ Tables
 
-- [ProductPackaging](../Tables/ProductPackaging.md) - Source table
+- [ProductPackaging](../Tables/ProductPackaging.md) - Source table for this ORDA class
+- [ProductPackaging](../Tables/ProductPackaging.md) - Database table storing ProductPackaging records
+
+### � Related Classes
+
+- [ProductPackaging](ProductPackaging.md) - ORDA DataClass class for ProductPackaging table
+- [ProductPackagingEntity](ProductPackagingEntity.md) - ORDA Entity class for ProductPackaging table
 
 ---
 

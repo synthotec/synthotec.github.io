@@ -54,7 +54,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [LanguageTagEntity](../Classes/LanguageTagEntity.md) - Entity class
+- [LanguageTagEntity](../Classes/LanguageTagEntity.md) - ORDA Entity class for LanguageTag table
 
 ---
 

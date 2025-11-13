@@ -55,8 +55,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Forecast](../Classes/Forecast.md) - DataClass class
-- [ForecastEntity](../Classes/ForecastEntity.md) - Entity class
+- [Forecast](../Classes/Forecast.md) - ORDA DataClass class for Forecast table
+- [ForecastEntity](../Classes/ForecastEntity.md) - ORDA Entity class for Forecast table
 
 ---
 

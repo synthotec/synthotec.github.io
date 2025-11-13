@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.829Z*
+🕐 *Last updated: 2025-11-13T21:44:53.166Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -68,7 +69,13 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 
 ### 🗂️ Tables
 
-- [Permissions](../Tables/Permissions.md) - Source table
+- [Permissions](../Tables/Permissions.md) - Source table for this ORDA class
+- [Permissions](../Tables/Permissions.md) - Database table storing Permissions records
+
+### � Related Classes
+
+- [Permissions](Permissions.md) - ORDA DataClass class for Permissions table
+- [PermissionsEntity](PermissionsEntity.md) - ORDA Entity class for Permissions table
 
 ---
 

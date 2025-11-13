@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:15.517Z*
+🕐 *Last updated: 2025-11-13T21:44:56.488Z*
 
 ---
 
@@ -30,7 +30,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -180,7 +181,12 @@ Function restScanTest($RestPostDataObject : Object) -> Object
 
 ### 🗂️ Tables
 
-- [Warehouse](../Tables/Warehouse.md) - Source table
+- [Warehouse](../Tables/Warehouse.md) - Source table for this ORDA class
+- [Warehouse](../Tables/Warehouse.md) - Database table storing Warehouse records
+
+### � Related Classes
+
+- [Warehouse](Warehouse.md) - ORDA DataClass class for Warehouse table
 
 ---
 

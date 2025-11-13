@@ -145,8 +145,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Customer_Order](../Classes/Customer_Order.md) - DataClass class
-- [Customer_OrderEntity](../Classes/Customer_OrderEntity.md) - Entity class
+- [Customer_Order](../Classes/Customer_Order.md) - ORDA DataClass class for Customer_Order table
+- [Customer_OrderEntity](../Classes/Customer_OrderEntity.md) - ORDA Entity class for Customer_Order table
 
 ---
 

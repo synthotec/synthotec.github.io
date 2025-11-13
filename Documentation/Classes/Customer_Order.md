@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:14.077Z*
+🕐 *Last updated: 2025-11-13T21:44:50.424Z*
 
 ---
 
@@ -24,7 +24,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -70,7 +71,13 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 
 ### 🗂️ Tables
 
-- [Customer_Order](../Tables/Customer_Order.md) - Source table
+- [Customer_Order](../Tables/Customer_Order.md) - Source table for this ORDA class
+- [Customer_Order](../Tables/Customer_Order.md) - Database table storing Customer_Order records
+
+### � Related Classes
+
+- [Customer_Order](Customer_Order.md) - ORDA DataClass class for Customer_Order table
+- [Customer_OrderEntity](Customer_OrderEntity.md) - ORDA Entity class for Customer_Order table
 
 ---
 

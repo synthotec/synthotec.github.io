@@ -60,8 +60,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Grippers](../Classes/Grippers.md) - DataClass class
-- [GrippersEntity](../Classes/GrippersEntity.md) - Entity class
+- [Grippers](../Classes/Grippers.md) - ORDA DataClass class for Grippers table
+- [GrippersEntity](../Classes/GrippersEntity.md) - ORDA Entity class for Grippers table
 
 ---
 

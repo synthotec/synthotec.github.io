@@ -58,8 +58,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [QualitySystemProcedures](../Classes/QualitySystemProcedures.md) - DataClass class
-- [QualitySystemProceduresEntity](../Classes/QualitySystemProceduresEntity.md) - Entity class
+- [QualitySystemProcedures](../Classes/QualitySystemProcedures.md) - ORDA DataClass class for QualitySystemProcedures table
+- [QualitySystemProceduresEntity](../Classes/QualitySystemProceduresEntity.md) - ORDA Entity class for QualitySystemProcedures table
 
 ---
 

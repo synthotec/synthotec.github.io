@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.284Z*
+🕐 *Last updated: 2025-11-13T21:44:55.275Z*
 
 ---
 
@@ -28,6 +28,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -118,7 +119,13 @@ Function reset -> Boolean
 
 ### 🗂️ Tables
 
-- [Settings](../Tables/Settings.md) - Source table
+- [Settings](../Tables/Settings.md) - Source table for this ORDA class
+- [Settings](../Tables/Settings.md) - Database table storing Settings records
+
+### � Related Classes
+
+- [Settings](Settings.md) - ORDA DataClass class for Settings table
+- [SettingsEntity](SettingsEntity.md) - ORDA Entity class for Settings table
 
 ---
 

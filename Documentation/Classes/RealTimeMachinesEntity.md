@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.123Z*
+🕐 *Last updated: 2025-11-13T21:44:54.650Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -129,7 +130,13 @@ Function AssignedTemperatureSensorsPresent -> Boolean
 
 ### 🗂️ Tables
 
-- [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table for this ORDA class
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Database table storing RealTimeMachines records
+
+### � Related Classes
+
+- [RealTimeMachines](RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
+- [RealTimeMachinesEntity](RealTimeMachinesEntity.md) - ORDA Entity class for RealTimeMachines table
 
 ---
 

@@ -76,7 +76,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [SuppliersEntity](../Classes/SuppliersEntity.md) - Entity class
+- [SuppliersEntity](../Classes/SuppliersEntity.md) - ORDA Entity class for Suppliers table
 
 ---
 

@@ -54,7 +54,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [MachineMaintenanceLogEntity](../Classes/MachineMaintenanceLogEntity.md) - Entity class
+- [MachineMaintenanceLogEntity](../Classes/MachineMaintenanceLogEntity.md) - ORDA Entity class for MachineMaintenanceLog table
 
 ---
 

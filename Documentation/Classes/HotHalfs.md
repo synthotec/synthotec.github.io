@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:14.573Z*
+🕐 *Last updated: 2025-11-13T21:44:51.987Z*
 
 ---
 
@@ -23,7 +23,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -46,7 +47,13 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [HotHalfs](../Tables/HotHalfs.md) - Source table
+- [HotHalfs](../Tables/HotHalfs.md) - Source table for this ORDA class
+- [HotHalfs](../Tables/HotHalfs.md) - Database table storing HotHalfs records
+
+### � Related Classes
+
+- [HotHalfs](HotHalfs.md) - ORDA DataClass class for HotHalfs table
+- [HotHalfsEntity](HotHalfsEntity.md) - ORDA Entity class for HotHalfs table
 
 ---
 

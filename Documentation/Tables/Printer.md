@@ -59,9 +59,9 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Printer](../Classes/Printer.md) - DataClass class
-- [PrinterEntity](../Classes/PrinterEntity.md) - Entity class
-- [PrinterSelection](../Classes/PrinterSelection.md) - EntitySelection class
+- [Printer](../Classes/Printer.md) - ORDA DataClass class for Printer table
+- [PrinterEntity](../Classes/PrinterEntity.md) - ORDA Entity class for Printer table
+- [PrinterSelection](../Classes/PrinterSelection.md) - ORDA EntitySelection class for Printer table
 
 ---
 

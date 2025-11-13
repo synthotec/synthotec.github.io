@@ -53,8 +53,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [HotHalfs](../Classes/HotHalfs.md) - DataClass class
-- [HotHalfsEntity](../Classes/HotHalfsEntity.md) - Entity class
+- [HotHalfs](../Classes/HotHalfs.md) - ORDA DataClass class for HotHalfs table
+- [HotHalfsEntity](../Classes/HotHalfsEntity.md) - ORDA Entity class for HotHalfs table
 
 ---
 

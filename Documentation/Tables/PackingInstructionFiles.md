@@ -56,8 +56,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PackingInstructionFiles](../Classes/PackingInstructionFiles.md) - DataClass class
-- [PackingInstructionFilesEntity](../Classes/PackingInstructionFilesEntity.md) - Entity class
+- [PackingInstructionFiles](../Classes/PackingInstructionFiles.md) - ORDA DataClass class for PackingInstructionFiles table
+- [PackingInstructionFilesEntity](../Classes/PackingInstructionFilesEntity.md) - ORDA Entity class for PackingInstructionFiles table
 
 ---
 

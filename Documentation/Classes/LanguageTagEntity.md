@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.597Z*
+🕐 *Last updated: 2025-11-13T21:44:52.151Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -25,7 +26,12 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [LanguageTag](../Tables/LanguageTag.md) - Source table
+- [LanguageTag](../Tables/LanguageTag.md) - Source table for this ORDA class
+- [LanguageTag](../Tables/LanguageTag.md) - Database table storing LanguageTag records
+
+### � Related Classes
+
+- [LanguageTagEntity](LanguageTagEntity.md) - ORDA Entity class for LanguageTag table
 
 ---
 

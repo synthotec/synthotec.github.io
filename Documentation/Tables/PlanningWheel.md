@@ -88,8 +88,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PlanningWheel](../Classes/PlanningWheel.md) - DataClass class
-- [PlanningWheelEntity](../Classes/PlanningWheelEntity.md) - Entity class
+- [PlanningWheel](../Classes/PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
+- [PlanningWheelEntity](../Classes/PlanningWheelEntity.md) - ORDA Entity class for PlanningWheel table
 
 ---
 

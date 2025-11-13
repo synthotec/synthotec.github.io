@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.351Z*
+🕐 *Last updated: 2025-11-13T21:44:55.634Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -25,7 +26,13 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Stock_Location](../Tables/Stock_Location.md) - Source table
+- [Stock_Location](../Tables/Stock_Location.md) - Source table for this ORDA class
+- [Stock_Location](../Tables/Stock_Location.md) - Database table storing Stock_Location records
+
+### � Related Classes
+
+- [Stock_Location](Stock_Location.md) - ORDA DataClass class for Stock_Location table
+- [Stock_LocationEntity](Stock_LocationEntity.md) - ORDA Entity class for Stock_Location table
 
 ---
 

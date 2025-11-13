@@ -100,8 +100,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Material](../Classes/Material.md) - DataClass class
-- [MaterialEntity](../Classes/MaterialEntity.md) - Entity class
+- [Material](../Classes/Material.md) - ORDA DataClass class for Material table
+- [MaterialEntity](../Classes/MaterialEntity.md) - ORDA Entity class for Material table
 
 ---
 

@@ -50,8 +50,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ErrorReport](../Classes/ErrorReport.md) - DataClass class
-- [ErrorReportEntity](../Classes/ErrorReportEntity.md) - Entity class
+- [ErrorReport](../Classes/ErrorReport.md) - ORDA DataClass class for ErrorReport table
+- [ErrorReportEntity](../Classes/ErrorReportEntity.md) - ORDA Entity class for ErrorReport table
 
 ---
 

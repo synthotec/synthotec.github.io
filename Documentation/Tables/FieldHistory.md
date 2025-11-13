@@ -51,7 +51,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [FieldHistory](../Classes/FieldHistory.md) - DataClass class
+- [FieldHistory](../Classes/FieldHistory.md) - ORDA DataClass class for FieldHistory table
 
 ---
 

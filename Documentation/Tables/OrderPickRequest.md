@@ -62,8 +62,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [OrderPickRequestEntity](../Classes/OrderPickRequestEntity.md) - Entity class
-- [OrderPickRequestSelection](../Classes/OrderPickRequestSelection.md) - EntitySelection class
+- [OrderPickRequestEntity](../Classes/OrderPickRequestEntity.md) - ORDA Entity class for OrderPickRequest table
+- [OrderPickRequestSelection](../Classes/OrderPickRequestSelection.md) - ORDA EntitySelection class for OrderPickRequest table
 
 ---
 

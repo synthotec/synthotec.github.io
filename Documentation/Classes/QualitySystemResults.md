@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:15.088Z*
+🕐 *Last updated: 2025-11-13T21:44:54.459Z*
 
 ---
 
@@ -17,7 +17,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -25,7 +26,12 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [QualitySystemResults](../Tables/QualitySystemResults.md) - Source table
+- [QualitySystemResults](../Tables/QualitySystemResults.md) - Source table for this ORDA class
+- [QualitySystemResults](../Tables/QualitySystemResults.md) - Database table storing QualitySystemResults records
+
+### � Related Classes
+
+- [QualitySystemResults](QualitySystemResults.md) - ORDA DataClass class for QualitySystemResults table
 
 ---
 

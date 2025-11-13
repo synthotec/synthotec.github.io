@@ -74,7 +74,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PurchasesEntity](../Classes/PurchasesEntity.md) - Entity class
+- [PurchasesEntity](../Classes/PurchasesEntity.md) - ORDA Entity class for Purchases table
 
 ---
 

@@ -49,8 +49,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Permissions](../Classes/Permissions.md) - DataClass class
-- [PermissionsEntity](../Classes/PermissionsEntity.md) - Entity class
+- [Permissions](../Classes/Permissions.md) - ORDA DataClass class for Permissions table
+- [PermissionsEntity](../Classes/PermissionsEntity.md) - ORDA Entity class for Permissions table
 
 ---
 

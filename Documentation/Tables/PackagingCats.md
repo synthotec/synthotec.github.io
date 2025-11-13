@@ -50,8 +50,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PackagingCats](../Classes/PackagingCats.md) - DataClass class
-- [PackagingCatsEntity](../Classes/PackagingCatsEntity.md) - Entity class
+- [PackagingCats](../Classes/PackagingCats.md) - ORDA DataClass class for PackagingCats table
+- [PackagingCatsEntity](../Classes/PackagingCatsEntity.md) - ORDA Entity class for PackagingCats table
 
 ---
 

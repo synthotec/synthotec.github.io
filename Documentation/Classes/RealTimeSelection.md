@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:58:15.178Z*
+🕐 *Last updated: 2025-11-13T21:44:54.833Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (3)
 
 ---
 
@@ -58,7 +59,14 @@ Function getTemperatureSensorZones -> $TemperatureSensorZones : Collection
 
 ### 🗂️ Tables
 
-- [RealTime](../Tables/RealTime.md) - Source table
+- [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
+- [RealTime](../Tables/RealTime.md) - Database table storing RealTime records
+
+### � Related Classes
+
+- [RealTime](RealTime.md) - ORDA DataClass class for RealTime table
+- [RealTimeEntity](RealTimeEntity.md) - ORDA Entity class for RealTime table
+- [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
 
 ---
 

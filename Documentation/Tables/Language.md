@@ -49,7 +49,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [LanguageEntity](../Classes/LanguageEntity.md) - Entity class
+- [LanguageEntity](../Classes/LanguageEntity.md) - ORDA Entity class for Language table
 
 ---
 

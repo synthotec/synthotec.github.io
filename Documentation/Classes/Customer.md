@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:58:14.058Z*
+🕐 *Last updated: 2025-11-13T21:44:50.302Z*
 
 ---
 
@@ -23,7 +23,8 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#️-tables) (1)
+- [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -46,7 +47,13 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [Customer](../Tables/Customer.md) - Source table
+- [Customer](../Tables/Customer.md) - Source table for this ORDA class
+- [Customer](../Tables/Customer.md) - Database table storing Customer records
+
+### � Related Classes
+
+- [Customer](Customer.md) - ORDA DataClass class for Customer table
+- [CustomerEntity](CustomerEntity.md) - ORDA Entity class for Customer table
 
 ---
 

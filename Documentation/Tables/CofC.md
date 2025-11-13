@@ -95,7 +95,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [CofCEntity](../Classes/CofCEntity.md) - Entity class
+- [CofCEntity](../Classes/CofCEntity.md) - ORDA Entity class for CofC table
 
 ---
 

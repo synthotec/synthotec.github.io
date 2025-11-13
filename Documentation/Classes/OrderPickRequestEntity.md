@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.699Z*
+🕐 *Last updated: 2025-11-13T21:44:52.695Z*
 
 ---
 
@@ -40,6 +40,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -198,7 +199,13 @@ Function Parts($Parts : Integer)
 
 ### 🗂️ Tables
 
-- [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table for this ORDA class
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - Database table storing OrderPickRequest records
+
+### � Related Classes
+
+- [OrderPickRequestEntity](OrderPickRequestEntity.md) - ORDA Entity class for OrderPickRequest table
+- [OrderPickRequestSelection](OrderPickRequestSelection.md) - ORDA EntitySelection class for OrderPickRequest table
 
 ---
 

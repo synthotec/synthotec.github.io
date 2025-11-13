@@ -77,8 +77,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Supplies](../Classes/Supplies.md) - DataClass class
-- [SuppliesEntity](../Classes/SuppliesEntity.md) - Entity class
+- [Supplies](../Classes/Supplies.md) - ORDA DataClass class for Supplies table
+- [SuppliesEntity](../Classes/SuppliesEntity.md) - ORDA Entity class for Supplies table
 
 ---
 

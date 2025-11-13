@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:13.987Z*
+🕐 *Last updated: 2025-11-13T21:44:49.950Z*
 
 ---
 
@@ -55,6 +55,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -408,7 +409,13 @@ Function TestProduct -> cs.ProductEntity
 
 ### 🗂️ Tables
 
-- [BoxLabels](../Tables/BoxLabels.md) - Source table
+- [BoxLabels](../Tables/BoxLabels.md) - Source table for this ORDA class
+- [BoxLabels](../Tables/BoxLabels.md) - Database table storing BoxLabels records
+
+### � Related Classes
+
+- [BoxLabels](BoxLabels.md) - ORDA DataClass class for BoxLabels table
+- [BoxLabelsEntity](BoxLabelsEntity.md) - ORDA Entity class for BoxLabels table
 
 ---
 

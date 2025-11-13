@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.460Z*
+🕐 *Last updated: 2025-11-13T21:44:56.138Z*
 
 ---
 
@@ -29,6 +29,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -89,7 +90,13 @@ Function NextToolChangeText -> Text
 
 ### 🗂️ Tables
 
-- [Tools](../Tables/Tools.md) - Source table
+- [Tools](../Tables/Tools.md) - Source table for this ORDA class
+- [Tools](../Tables/Tools.md) - Database table storing Tools records
+
+### � Related Classes
+
+- [Tools](Tools.md) - ORDA DataClass class for Tools table
+- [ToolsEntity](ToolsEntity.md) - ORDA Entity class for Tools table
 
 ---
 

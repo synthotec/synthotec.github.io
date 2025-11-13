@@ -41,7 +41,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Warehouse](../Classes/Warehouse.md) - DataClass class
+- [Warehouse](../Classes/Warehouse.md) - ORDA DataClass class for Warehouse table
 
 ---
 

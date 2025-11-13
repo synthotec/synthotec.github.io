@@ -47,7 +47,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PrintingEntity](../Classes/PrintingEntity.md) - Entity class
+- [PrintingEntity](../Classes/PrintingEntity.md) - ORDA Entity class for Printing table
 
 ---
 

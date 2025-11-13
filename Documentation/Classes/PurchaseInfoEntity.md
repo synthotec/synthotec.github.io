@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.074Z*
+🕐 *Last updated: 2025-11-13T21:44:54.250Z*
 
 ---
 
@@ -29,6 +29,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -75,7 +76,12 @@ Function value -> Real
 
 ### 🗂️ Tables
 
-- [PurchaseInfo](../Tables/PurchaseInfo.md) - Source table
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Source table for this ORDA class
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Database table storing PurchaseInfo records
+
+### � Related Classes
+
+- [PurchaseInfoEntity](PurchaseInfoEntity.md) - ORDA Entity class for PurchaseInfo table
 
 ---
 

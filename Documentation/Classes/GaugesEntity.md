@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:14.557Z*
+🕐 *Last updated: 2025-11-13T21:44:51.845Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (1)
 
 ---
 
@@ -25,7 +26,12 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Gauges](../Tables/Gauges.md) - Source table
+- [Gauges](../Tables/Gauges.md) - Source table for this ORDA class
+- [Gauges](../Tables/Gauges.md) - Database table storing Gauges records
+
+### � Related Classes
+
+- [GaugesEntity](GaugesEntity.md) - ORDA Entity class for Gauges table
 
 ---
 

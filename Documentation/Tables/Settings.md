@@ -53,8 +53,8 @@ parent : Tables
 
 ### 📦 Classes
 
-- [Settings](../Classes/Settings.md) - DataClass class
-- [SettingsEntity](../Classes/SettingsEntity.md) - Entity class
+- [Settings](../Classes/Settings.md) - ORDA DataClass class for Settings table
+- [SettingsEntity](../Classes/SettingsEntity.md) - ORDA Entity class for Settings table
 
 ---
 

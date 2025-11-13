@@ -88,7 +88,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [PurchaseInfoEntity](../Classes/PurchaseInfoEntity.md) - Entity class
+- [PurchaseInfoEntity](../Classes/PurchaseInfoEntity.md) - ORDA Entity class for PurchaseInfo table
 
 ---
 

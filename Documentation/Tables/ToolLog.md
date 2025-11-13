@@ -53,7 +53,7 @@ parent : Tables
 
 ### 📦 Classes
 
-- [ToolLogEntity](../Classes/ToolLogEntity.md) - Entity class
+- [ToolLogEntity](../Classes/ToolLogEntity.md) - ORDA Entity class for ToolLog table
 
 ---
 

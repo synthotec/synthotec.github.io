@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:58:15.055Z*
+🕐 *Last updated: 2025-11-13T21:44:53.996Z*
 
 ---
 
@@ -29,6 +29,7 @@ parent : Classes
 ### 🔗 Related Items
 
 - [Tables](#️-tables) (2)
+- [Classes](#-related-classes) (2)
 
 ---
 
@@ -85,7 +86,13 @@ Function Default -> Boolean
 
 ### 🗂️ Tables
 
-- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table
+- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table for this ORDA class
+- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Database table storing ProductMaterialOptions records
+
+### � Related Classes
+
+- [ProductMaterialOptions](ProductMaterialOptions.md) - ORDA DataClass class for ProductMaterialOptions table
+- [ProductMaterialOptionsEntity](ProductMaterialOptionsEntity.md) - ORDA Entity class for ProductMaterialOptions table
 
 ---
 
