@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 30
 - **UUID:** 84D5CEC865744441A28B55BDFF4F334A
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:35:21Z
+- **Generated:** 🕐 2025-11-13T02:48:05Z
 
 ---
 
@@ -27,8 +27,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | ReturnID_l | `Date` | 🚫 Not Null | - |
@@ -41,92 +39,7 @@ parent : Tables
 | ReturnClosed_b | `Real` | 🚫 Not Null | - |
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
-### Detailed Information
-
-#### ReturnID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### DateOfReturn_d
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ReturnNotes_txt
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### PQI_No_s
-
-**Properties:**
-
-- **Type:** String (max length: 15)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### CustomerOrderDetails_s
-
-**Properties:**
-
-- **Type:** String (max length: 50)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ProductID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### CustomerCode_s
-
-**Properties:**
-
-- **Type:** String (max length: 3)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ReturnClosed_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -134,60 +47,19 @@ parent : Tables
 | `ProductID_l` | Keywords | regular | - |
 | `ReturnID_l` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** B-Tree
-- **Field:** `ProductID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ReturnID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | Active |
-
-### Detailed Information
-
-#### ProductEntity
-
-**Links to:** [Product](Product.md)
-
-- **Source Field:** `ProductID_l`
-- **Destination Field:** `Product_ID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `ProductEntity` | [Product](Product.md) | `ProductID_l` → `Product_ID` | Active | - |
 
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `ProductReturnWorksOrderSelection` | [ProductReturnWorksOrder](ProductReturnWorksOrder.md) | `ReturnID_l` → `ReturnID_l` | Active |
-
-### Detailed Information
-
-#### ProductReturnWorksOrderSelection
-
-**Links from:** [ProductReturnWorksOrder](ProductReturnWorksOrder.md)
-
-- **Source Table:** `ProductReturnWorksOrder`
-- **Source Field:** `ReturnID_l`
-- **This Table Field:** `ReturnID_l`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `ProductReturnWorksOrderSelection` | [ProductReturnWorksOrder](ProductReturnWorksOrder.md) | `ReturnID_l` → `ReturnID_l` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:21Z*
+*Generated at: 2025-11-13T02:48:05Z*

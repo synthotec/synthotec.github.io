@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.839Z*
+🕐 *Last updated: 2025-11-13T02:47:33.329Z*
 
 ---
 
@@ -37,19 +37,9 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `ChannelID` | `Text` | - |  |
-
-### Detailed Information
-
-#### ChannelID {#channelid}
-
-**Type:** `Text`
-
----
+| `ChannelID` | `Text` | - | - |
 
 ## ⚙️ Functions
 

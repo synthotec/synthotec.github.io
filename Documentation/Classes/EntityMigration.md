@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T02:24:48.019Z*
+🕐 *Last updated: 2025-11-13T02:47:32.561Z*
 
 ---
 
@@ -59,8 +59,6 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `_RemoteDataStore` | `4D.DataStoreImplementation` | `DataStore(2)` | Remote datastore connection for migration target |
@@ -69,60 +67,6 @@ parent : Classes
 | `RemoteDataClass` | `4D.DataClass` | - | Remote dataclass corresponding to local dataclass |
 | `LinkRemoteSelection` | `4D.EntitySelection` | - | Remote entities available for linking |
 | `Loading` | `cs.Loading` | - | Loading indicator for migration progress |
-
-### Detailed Information
-
-#### _RemoteDataStore {#remotedatastore}
-
-**Type:** `4D.DataStoreImplementation`
-
-**Default Value:** `DataStore(2)`
-
-Remote datastore connection for migration target
-
----
-
-#### _DataClass {#dataclass}
-
-**Type:** `4D.DataClass`
-
-Local dataclass being migrated
-
----
-
-#### LinkFunctionCancelled {#linkfunctioncancelled}
-
-**Type:** *Not specified*
-
-**Default Value:** `False`
-
-Flag indicating user cancelled the link dialog
-
----
-
-#### RemoteDataClass {#remotedataclass}
-
-**Type:** `4D.DataClass`
-
-Remote dataclass corresponding to local dataclass
-
----
-
-#### LinkRemoteSelection {#linkremoteselection}
-
-**Type:** `4D.EntitySelection`
-
-Remote entities available for linking
-
----
-
-#### Loading {#loading}
-
-**Type:** `cs.Loading`
-
-Loading indicator for migration progress
-
----
 
 ## ⚙️ Functions
 

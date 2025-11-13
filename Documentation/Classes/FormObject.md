@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T02:24:48.171Z*
+🕐 *Last updated: 2025-11-13T02:47:32.692Z*
 
 ---
 
@@ -94,19 +94,9 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Name` | `Text` | - |  |
-
-### Detailed Information
-
-#### Name {#name}
-
-**Type:** `Text`
-
----
+| `Name` | `Text` | - | - |
 
 ## ⚙️ Functions
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T02:24:48.069Z*
+🕐 *Last updated: 2025-11-13T02:47:32.602Z*
 
 ---
 
@@ -41,32 +41,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `Title` | `Text` | - | The title of the item |
 | `Count` | `Integer` | `0` | Number of items in stock |
-
-### Detailed Information
-
-#### Title {#title}
-
-**Type:** `Text`
-
-The title of the item
-
----
-
-#### Count {#count}
-
-**Type:** `Integer`
-
-**Default Value:** `0`
-
-Number of items in stock
-
----
 
 ## ⚙️ Functions
 

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 101
 - **UUID:** 716403697442E64CB5DD2FD41B577122
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:35Z
+- **Generated:** 🕐 2025-11-13T02:49:23Z
 
 ---
 
@@ -25,62 +25,20 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | ListName | `String` (255) | 🚫 Not Null | - |
-| Object | `Unknown (21)` | 🚫 Not Null | - |
-
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### ListName
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Object
-
-**Properties:**
-
-- **Type:** Unknown (21)
-- **Constraints:** 🚫 Never Null
-
----
+| Object | `Object` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 | `ListName` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ListName`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:35Z*
+*Generated at: 2025-11-13T02:49:23Z*

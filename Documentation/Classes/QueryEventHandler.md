@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T02:24:48.692Z*
+🕐 *Last updated: 2025-11-13T02:47:33.177Z*
 
 ---
 
@@ -41,54 +41,14 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `value` | `Variant` | - |  |
-| `operator` | `Text` | - |  |
-| `eventKind` | `Text` | - |  |
-| `attributeName` | `Text` | - |  |
-| `dataClassName` | `Text` | - |  |
-| `QueryEventObject` | `Object` | - |  |
-
-### Detailed Information
-
-#### value {#value}
-
-**Type:** `Variant`
-
----
-
-#### operator {#operator}
-
-**Type:** `Text`
-
----
-
-#### eventKind {#eventkind}
-
-**Type:** `Text`
-
----
-
-#### attributeName {#attributename}
-
-**Type:** `Text`
-
----
-
-#### dataClassName {#dataclassname}
-
-**Type:** `Text`
-
----
-
-#### QueryEventObject {#queryeventobject}
-
-**Type:** `Object`
-
----
+| `value` | `Variant` | - | - |
+| `operator` | `Text` | - | - |
+| `eventKind` | `Text` | - | - |
+| `attributeName` | `Text` | - | - |
+| `dataClassName` | `Text` | - | - |
+| `QueryEventObject` | `Object` | - | - |
 
 ## ⚙️ Functions
 

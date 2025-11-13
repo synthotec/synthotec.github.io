@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 34
 - **UUID:** 8043B353374B8C40B4E421933BA42318
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:35:24Z
+- **Generated:** 🕐 2025-11-13T02:48:09Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 ---
 
 ## 📋 Fields
-
-### Quick Reference
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
@@ -44,177 +42,21 @@ parent : Tables
 | Archived | `Real` | 🚫 Not Null | - |
 | Serial | `String` (255) | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### EquipmentName
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### UsageFrequency
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Wear
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Environment
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Sensitivity
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### InternallyCalibrated
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### EquipmentLocation
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Contact
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Notes
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Visible_ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Archived
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Serial
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `Archived` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `Archived`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `CalibrationsSelection` | [Calibrations](Calibrations.md) | `EquipmentID` → `ID` | Active |
-| `CalibrationProceduresSelection` | [CalibrationProcedures](CalibrationProcedures.md) | `EquipmentID` → `ID` | Active |
-
-### Detailed Information
-
-#### CalibrationsSelection
-
-**Links from:** [Calibrations](Calibrations.md)
-
-- **Source Table:** `Calibrations`
-- **Source Field:** `EquipmentID`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
-
-#### CalibrationProceduresSelection
-
-**Links from:** [CalibrationProcedures](CalibrationProcedures.md)
-
-- **Source Table:** `CalibrationProcedures`
-- **Source Field:** `EquipmentID`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `CalibrationsSelection` | [Calibrations](Calibrations.md) | `EquipmentID` → `ID` | Active | - |
+| `CalibrationProceduresSelection` | [CalibrationProcedures](CalibrationProcedures.md) | `EquipmentID` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:24Z*
+*Generated at: 2025-11-13T02:48:09Z*

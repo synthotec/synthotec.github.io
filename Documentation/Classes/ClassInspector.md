@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T02:24:47.781Z*
+🕐 *Last updated: 2025-11-13T02:47:32.355Z*
 
 ---
 
@@ -57,99 +57,19 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `ClassName` | `Text` | - | ClassInspector - Analyzes 4D class files and ex... |
-| `SuperClass` | `Text` | - |  |
+| `ClassName` | `Text` | - | ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
+Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File) |
+| `SuperClass` | `Text` | - | - |
 | `ClassAutoComment` | `Text` | - | Comment extracted from top of class file |
 | `ClassManualComment` | `Text` | - | User-entered class documentation |
 | `Properties` | `Collection` | - | Collection of property objects |
 | `Functions` | `Collection` | - | Collection of function objects |
-| `Source` | `Text` | - |  |
+| `Source` | `Text` | - | - |
 | `OutputFolder` | `4D.Folder` | - | Folder for JSON output |
 | `ExistingJSON` | `Object` | - | Previously saved JSON for comment merging |
 | `Changes` | `Collection` | - | List of changes detected |
-
-### Detailed Information
-
-#### ClassName {#classname}
-
-**Type:** `Text`
-
-ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
-Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
-
----
-
-#### SuperClass {#superclass}
-
-**Type:** `Text`
-
----
-
-#### ClassAutoComment {#classautocomment}
-
-**Type:** `Text`
-
-Comment extracted from top of class file
-
----
-
-#### ClassManualComment {#classmanualcomment}
-
-**Type:** `Text`
-
-User-entered class documentation
-
----
-
-#### Properties {#properties}
-
-**Type:** `Collection`
-
-Collection of property objects
-
----
-
-#### Functions {#functions}
-
-**Type:** `Collection`
-
-Collection of function objects
-
----
-
-#### Source {#source}
-
-**Type:** `Text`
-
----
-
-#### OutputFolder {#outputfolder}
-
-**Type:** `4D.Folder`
-
-Folder for JSON output
-
----
-
-#### ExistingJSON {#existingjson}
-
-**Type:** `Object`
-
-Previously saved JSON for comment merging
-
----
-
-#### Changes {#changes}
-
-**Type:** `Collection`
-
-List of changes detected
-
----
 
 ## ⚙️ Functions
 

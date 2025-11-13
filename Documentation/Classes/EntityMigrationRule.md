@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.031Z*
+🕐 *Last updated: 2025-11-13T02:47:32.569Z*
 
 ---
 
@@ -37,30 +37,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `FormulaObjectCollection` | *Not specified* | `[]` |  |
-| `CriteriaCollection` | *Not specified* | `[]` |  |
-
-### Detailed Information
-
-#### FormulaObjectCollection {#formulaobjectcollection}
-
-**Type:** *Not specified*
-
-**Default Value:** `[]`
-
----
-
-#### CriteriaCollection {#criteriacollection}
-
-**Type:** *Not specified*
-
-**Default Value:** `[]`
-
----
+| `FormulaObjectCollection` | *Not specified* | `[]` | - |
+| `CriteriaCollection` | *Not specified* | `[]` | - |
 
 ## ⚙️ Functions
 

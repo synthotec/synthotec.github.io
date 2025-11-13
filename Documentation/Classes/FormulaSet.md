@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.175Z*
+🕐 *Last updated: 2025-11-13T02:47:32.696Z*
 
 ---
 
@@ -34,40 +34,12 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_FormulaCollection` | `Collection` | - |  |
-| `_ThisObject` | `4D.Function` | - |  |
-| `_Parameters` | `Collection` | - |  |
-| `FormulaResults` | `Collection` | - |  |
-
-### Detailed Information
-
-#### _FormulaCollection {#formulacollection}
-
-**Type:** `Collection`
-
----
-
-#### _ThisObject {#thisobject}
-
-**Type:** `4D.Function`
-
----
-
-#### _Parameters {#parameters}
-
-**Type:** `Collection`
-
----
-
-#### FormulaResults {#formularesults}
-
-**Type:** `Collection`
-
----
+| `_FormulaCollection` | `Collection` | - | - |
+| `_ThisObject` | `4D.Function` | - | - |
+| `_Parameters` | `Collection` | - | - |
+| `FormulaResults` | `Collection` | - | - |
 
 ## ⚙️ Functions
 

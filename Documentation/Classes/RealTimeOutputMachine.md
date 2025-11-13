@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T02:24:48.764Z*
+🕐 *Last updated: 2025-11-13T02:47:33.247Z*
 
 ---
 
@@ -68,82 +68,18 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - |  |
-| `WorksOrderEntity` | `cs.WorksOrderEntity` | - |  |
-| `ProductEntity` | `cs.ProductEntity` | - |  |
-| `ToolsEntity` | `cs.ToolsEntity` | - |  |
-| `DownReasonsEntity` | `cs.DownReasonsEntity` | - |  |
-| `AverageCycleTime` | `Real` | - |  |
-| `RunningSlow` | `Boolean` | - |  |
-| `MachineWheelsEntity` | `cs.MachineWheelsEntity` | - |  |
-| `QuantityMade` | `Integer` | - |  |
-| `QuantityScrapped` | `Integer` | - |  |
-
-### Detailed Information
-
-#### RealTimeMachinesEntity {#realtimemachinesentity}
-
-**Type:** `cs.RealTimeMachinesEntity`
-
----
-
-#### WorksOrderEntity {#worksorderentity}
-
-**Type:** `cs.WorksOrderEntity`
-
----
-
-#### ProductEntity {#productentity}
-
-**Type:** `cs.ProductEntity`
-
----
-
-#### ToolsEntity {#toolsentity}
-
-**Type:** `cs.ToolsEntity`
-
----
-
-#### DownReasonsEntity {#downreasonsentity}
-
-**Type:** `cs.DownReasonsEntity`
-
----
-
-#### AverageCycleTime {#averagecycletime}
-
-**Type:** `Real`
-
----
-
-#### RunningSlow {#runningslow}
-
-**Type:** `Boolean`
-
----
-
-#### MachineWheelsEntity {#machinewheelsentity}
-
-**Type:** `cs.MachineWheelsEntity`
-
----
-
-#### QuantityMade {#quantitymade}
-
-**Type:** `Integer`
-
----
-
-#### QuantityScrapped {#quantityscrapped}
-
-**Type:** `Integer`
-
----
+| `RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
+| `WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
+| `ProductEntity` | `cs.ProductEntity` | - | - |
+| `ToolsEntity` | `cs.ToolsEntity` | - | - |
+| `DownReasonsEntity` | `cs.DownReasonsEntity` | - | - |
+| `AverageCycleTime` | `Real` | - | - |
+| `RunningSlow` | `Boolean` | - | - |
+| `MachineWheelsEntity` | `cs.MachineWheelsEntity` | - | - |
+| `QuantityMade` | `Integer` | - | - |
+| `QuantityScrapped` | `Integer` | - | - |
 
 ## ⚙️ Functions
 

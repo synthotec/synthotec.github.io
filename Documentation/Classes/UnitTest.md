@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T02:24:49.013Z*
+🕐 *Last updated: 2025-11-13T02:47:33.506Z*
 
 ---
 
@@ -38,33 +38,11 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Description; Process` | `Text` | - |  |
-| `UnitTestResults` | `Collection` | - |  |
-| `FailedTestCount` | `Integer` | - |  |
-
-### Detailed Information
-
-#### Description; Process {#description; process}
-
-**Type:** `Text`
-
----
-
-#### UnitTestResults {#unittestresults}
-
-**Type:** `Collection`
-
----
-
-#### FailedTestCount {#failedtestcount}
-
-**Type:** `Integer`
-
----
+| `Description; Process` | `Text` | - | - |
+| `UnitTestResults` | `Collection` | - | - |
+| `FailedTestCount` | `Integer` | - | - |
 
 ## ⚙️ Functions
 

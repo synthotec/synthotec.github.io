@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T02:24:48.617Z*
+🕐 *Last updated: 2025-11-13T02:47:33.110Z*
 
 ---
 
@@ -81,140 +81,26 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `ItemNumber` | `Text` | - |  |
-| `OrderNumber` | `Text` | - |  |
-| `Quantity` | `Integer` | - |  |
-| `DueDate` | `Date` | - |  |
-| `ItemDescription` | `Text` | - |  |
-| `Vmi` | `Boolean` | - |  |
-| `Warehouse` | `Text` | - |  |
-| `Product_OptionEntity` | `cs.Product_OptionEntity` | - |  |
-| `Customer_OrderEntity` | `cs.Customer_OrderEntity` | - |  |
-| `ProcurementProgram` | `cs.ProcurementProgram` | - |  |
-| `RemovedFromProgram` | `Boolean` | - |  |
-| `Action_CreateForecast` | `Boolean` | - |  |
-| `Action_CreateOrder` | `Boolean` | - |  |
-| `Action_Ignore` | `Boolean` | - |  |
-| `Action_CloseOrder` | `Boolean` | - |  |
-| `Action_UpdateOrder` | `Boolean` | - |  |
-| `WarehouseWithCustomerCode` | `Text` | - |  |
-| `ds` | *Not specified* | `DataStore(0)` |  |
-
-### Detailed Information
-
-#### ItemNumber {#itemnumber}
-
-**Type:** `Text`
-
----
-
-#### OrderNumber {#ordernumber}
-
-**Type:** `Text`
-
----
-
-#### Quantity {#quantity}
-
-**Type:** `Integer`
-
----
-
-#### DueDate {#duedate}
-
-**Type:** `Date`
-
----
-
-#### ItemDescription {#itemdescription}
-
-**Type:** `Text`
-
----
-
-#### Vmi {#vmi}
-
-**Type:** `Boolean`
-
----
-
-#### Warehouse {#warehouse}
-
-**Type:** `Text`
-
----
-
-#### Product_OptionEntity {#productoptionentity}
-
-**Type:** `cs.Product_OptionEntity`
-
----
-
-#### Customer_OrderEntity {#customerorderentity}
-
-**Type:** `cs.Customer_OrderEntity`
-
----
-
-#### ProcurementProgram {#procurementprogram}
-
-**Type:** `cs.ProcurementProgram`
-
----
-
-#### RemovedFromProgram {#removedfromprogram}
-
-**Type:** `Boolean`
-
----
-
-#### Action_CreateForecast {#actioncreateforecast}
-
-**Type:** `Boolean`
-
----
-
-#### Action_CreateOrder {#actioncreateorder}
-
-**Type:** `Boolean`
-
----
-
-#### Action_Ignore {#actionignore}
-
-**Type:** `Boolean`
-
----
-
-#### Action_CloseOrder {#actioncloseorder}
-
-**Type:** `Boolean`
-
----
-
-#### Action_UpdateOrder {#actionupdateorder}
-
-**Type:** `Boolean`
-
----
-
-#### WarehouseWithCustomerCode {#warehousewithcustomercode}
-
-**Type:** `Text`
-
----
-
-#### ds {#ds}
-
-**Type:** *Not specified*
-
-**Default Value:** `DataStore(0)`
-
----
+| `ItemNumber` | `Text` | - | - |
+| `OrderNumber` | `Text` | - | - |
+| `Quantity` | `Integer` | - | - |
+| `DueDate` | `Date` | - | - |
+| `ItemDescription` | `Text` | - | - |
+| `Vmi` | `Boolean` | - | - |
+| `Warehouse` | `Text` | - | - |
+| `Product_OptionEntity` | `cs.Product_OptionEntity` | - | - |
+| `Customer_OrderEntity` | `cs.Customer_OrderEntity` | - | - |
+| `ProcurementProgram` | `cs.ProcurementProgram` | - | - |
+| `RemovedFromProgram` | `Boolean` | - | - |
+| `Action_CreateForecast` | `Boolean` | - | - |
+| `Action_CreateOrder` | `Boolean` | - | - |
+| `Action_Ignore` | `Boolean` | - | - |
+| `Action_CloseOrder` | `Boolean` | - | - |
+| `Action_UpdateOrder` | `Boolean` | - | - |
+| `WarehouseWithCustomerCode` | `Text` | - | - |
+| `ds` | *Not specified* | `DataStore(0)` | - |
 
 ## ⚙️ Functions
 

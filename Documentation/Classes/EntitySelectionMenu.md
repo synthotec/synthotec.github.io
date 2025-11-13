@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T02:24:48.040Z*
+🕐 *Last updated: 2025-11-13T02:47:32.577Z*
 
 ---
 
@@ -41,26 +41,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `EntitySelection` | `4D.EntitySelection` | - |  |
-| `_selectedEntity` | `4D.Entity` | - |  |
-
-### Detailed Information
-
-#### EntitySelection {#entityselection}
-
-**Type:** `4D.EntitySelection`
-
----
-
-#### _selectedEntity {#selectedentity}
-
-**Type:** `4D.Entity`
-
----
+| `EntitySelection` | `4D.EntitySelection` | - | - |
+| `_selectedEntity` | `4D.Entity` | - | - |
 
 ## ⚙️ Functions
 

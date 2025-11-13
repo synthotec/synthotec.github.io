@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T02:24:48.100Z*
+🕐 *Last updated: 2025-11-13T02:47:32.629Z*
 
 ---
 
@@ -47,73 +47,15 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Styles` | `Collection` | `[]` |  |
-| `Rows` | `Collection` | `[]` |  |
-| `Columns` | `Collection` | `[]` |  |
-| `FileContents` | `Text` | `""` |  |
-| `FreezeRowsAbove` | `Integer` | `0` |  |
-| `FreezeRowsToLeft` | `Integer` | `0` |  |
-| `ConditionalFormatting` | `Object` | - |  |
-
-### Detailed Information
-
-#### Styles {#styles}
-
-**Type:** `Collection`
-
-**Default Value:** `[]`
-
----
-
-#### Rows {#rows}
-
-**Type:** `Collection`
-
-**Default Value:** `[]`
-
----
-
-#### Columns {#columns}
-
-**Type:** `Collection`
-
-**Default Value:** `[]`
-
----
-
-#### FileContents {#filecontents}
-
-**Type:** `Text`
-
-**Default Value:** `""`
-
----
-
-#### FreezeRowsAbove {#freezerowsabove}
-
-**Type:** `Integer`
-
-**Default Value:** `0`
-
----
-
-#### FreezeRowsToLeft {#freezerowstoleft}
-
-**Type:** `Integer`
-
-**Default Value:** `0`
-
----
-
-#### ConditionalFormatting {#conditionalformatting}
-
-**Type:** `Object`
-
----
+| `Styles` | `Collection` | `[]` | - |
+| `Rows` | `Collection` | `[]` | - |
+| `Columns` | `Collection` | `[]` | - |
+| `FileContents` | `Text` | `""` | - |
+| `FreezeRowsAbove` | `Integer` | `0` | - |
+| `FreezeRowsToLeft` | `Integer` | `0` | - |
+| `ConditionalFormatting` | `Object` | - | - |
 
 ## ⚙️ Functions
 

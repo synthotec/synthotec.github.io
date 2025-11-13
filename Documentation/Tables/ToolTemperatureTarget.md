@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 119
 - **UUID:** FE2D9E448CE7164B82091770BB81AD24
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:51Z
+- **Generated:** 🕐 2025-11-13T02:49:43Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -40,84 +38,7 @@ parent : Tables
 | LastUpdated | `String` (255) | - | - |
 | MigrationID | `Undefined` | - | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### ToolID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### ZoneID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Target
-
-**Properties:**
-
-- **Type:** Boolean
-
----
-
-#### Min
-
-**Properties:**
-
-- **Type:** Boolean
-
----
-
-#### Max
-
-**Properties:**
-
-- **Type:** Boolean
-
----
-
-#### StaffID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### LastUpdated
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
-#### MigrationID
-
-**Properties:**
-
-- **Type:** Undefined
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -125,61 +46,15 @@ parent : Tables
 | `ZoneID` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `ToolID`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ZoneID`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active |
-| `ToolTemperatureZoneEntity` | [ToolTemperatureZone](ToolTemperatureZone.md) | `ZoneID` → `ID` | Active |
-| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active |
-
-### Detailed Information
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-- **State:** Active
-
----
-
-#### ToolTemperatureZoneEntity
-
-**Links to:** [ToolTemperatureZone](ToolTemperatureZone.md)
-
-- **Source Field:** `ZoneID`
-- **Destination Field:** `ID`
-- **State:** Active
-
----
-
-#### StaffEntity
-
-**Links to:** [Staff](Staff.md)
-
-- **Source Field:** `StaffID`
-- **Destination Field:** `StaffID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
+| `ToolTemperatureZoneEntity` | [ToolTemperatureZone](ToolTemperatureZone.md) | `ZoneID` → `ID` | Active | - |
+| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:51Z*
+*Generated at: 2025-11-13T02:49:43Z*

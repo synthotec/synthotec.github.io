@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.571Z*
+🕐 *Last updated: 2025-11-13T02:47:33.065Z*
 
 ---
 
@@ -39,47 +39,13 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Name` | `Text` | - |  |
-| `Paper` | `Text` | - |  |
-| `Orientation` | `Integer` | - |  |
-| `Copies` | `Integer` | - |  |
-| `CurrentPrinter` | `Text` | - |  |
-
-### Detailed Information
-
-#### Name {#name}
-
-**Type:** `Text`
-
----
-
-#### Paper {#paper}
-
-**Type:** `Text`
-
----
-
-#### Orientation {#orientation}
-
-**Type:** `Integer`
-
----
-
-#### Copies {#copies}
-
-**Type:** `Integer`
-
----
-
-#### CurrentPrinter {#currentprinter}
-
-**Type:** `Text`
-
----
+| `Name` | `Text` | - | - |
+| `Paper` | `Text` | - | - |
+| `Orientation` | `Integer` | - | - |
+| `Copies` | `Integer` | - | - |
+| `CurrentPrinter` | `Text` | - | - |
 
 ## ⚙️ Functions
 

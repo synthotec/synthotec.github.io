@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T02:24:47.975Z*
+🕐 *Last updated: 2025-11-13T02:47:32.518Z*
 
 ---
 
@@ -44,19 +44,9 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `CompiledClassesObject` | `Object` | - |  |
-
-### Detailed Information
-
-#### CompiledClassesObject {#compiledclassesobject}
-
-**Type:** `Object`
-
----
+| `CompiledClassesObject` | `Object` | - | - |
 
 ## ⚙️ Functions
 

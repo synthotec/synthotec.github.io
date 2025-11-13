@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.807Z*
+🕐 *Last updated: 2025-11-13T02:47:33.296Z*
 
 ---
 
@@ -33,26 +33,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `LockedEntityCollection; FailedLockObjectCollection` | `Collection` | - |  |
-| `Success` | `Boolean` | - |  |
-
-### Detailed Information
-
-#### LockedEntityCollection; FailedLockObjectCollection {#lockedentitycollection; failedlockobjectcollection}
-
-**Type:** `Collection`
-
----
-
-#### Success {#success}
-
-**Type:** `Boolean`
-
----
+| `LockedEntityCollection; FailedLockObjectCollection` | `Collection` | - | - |
+| `Success` | `Boolean` | - | - |
 
 ## ⚙️ Functions
 

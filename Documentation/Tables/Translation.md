@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 93
 - **UUID:** FB3EF960B67EC1469BFEF51C80EEDF92
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:28Z
+- **Generated:** 🕐 2025-11-13T02:49:13Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -35,56 +33,7 @@ parent : Tables
 | TranslatedText | `String` | 🚫 Not Null | - |
 | LastModified | `String` (255) | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### Process
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### OriginalText
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TranslatedText
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LastModified
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -92,19 +41,7 @@ parent : Tables
 | `Process` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `OriginalText`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Process`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:28Z*
+*Generated at: 2025-11-13T02:49:13Z*

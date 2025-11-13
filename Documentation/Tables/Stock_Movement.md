@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 5
 - **UUID:** F1AE2CED84FC204E9E788B8FF9BE9359
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:34:18Z
+- **Generated:** 🕐 2025-11-13T02:47:44Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 ---
 
 ## 📋 Fields
-
-### Quick Reference
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
@@ -55,227 +53,7 @@ parent : Tables
 | MoveListNum | `Date` | 🚫 Not Null | - |
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
-### Detailed Information
-
-#### Movement_Type_From_s
-
-**Properties:**
-
-- **Type:** String (max length: 2)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Date_Of_Movement_d
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Works_Order_No_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Quantity_In_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Advice_Note_No_i
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Quantity_Out_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Stock_Movement_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Cert_Of_Conformance_No_i
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### From_Location_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### UserName_txt
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ProductID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### To_Location_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Reason_For_Movement_txt
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Movement_Type_To_s
-
-**Properties:**
-
-- **Type:** String (max length: 2)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### StockMovementID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### DeliveryMethod_txt
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Order_No_s
-
-**Properties:**
-
-- **Type:** String (max length: 30)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### FullPallet_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### is_consigment_stock_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### NSKFromBox
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### NSKToBox
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TransactionID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### MoveListNum
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -284,53 +62,14 @@ parent : Tables
 | `Works_Order_No_l` | Keywords | regular | - |
 | `Date_Of_Movement_d` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ProductID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Works_Order_No_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Date_Of_Movement_d`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active |
-| `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `To_Location_l` → `StockLocationID_l` | Active |
-
-### Detailed Information
-
-#### WorksOrderEntity
-
-**Links to:** [WorksOrder](WorksOrder.md)
-
-- **Source Field:** `Works_Order_No_l`
-- **Destination Field:** `Works_Order_No`
-- **State:** Active
-
----
-
-#### Stock_LocationEntity
-
-**Links to:** [Stock_Location](Stock_Location.md)
-
-- **Source Field:** `To_Location_l`
-- **Destination Field:** `StockLocationID_l`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active | - |
+| `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `To_Location_l` → `StockLocationID_l` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:34:18Z*
+*Generated at: 2025-11-13T02:47:44Z*

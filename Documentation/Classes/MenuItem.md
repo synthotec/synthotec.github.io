@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T02:24:48.300Z*
+🕐 *Last updated: 2025-11-13T02:47:32.813Z*
 
 ---
 
@@ -47,96 +47,20 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_UUID` | `Text` | - |  |
-| `_IsFormulaItem` | `Boolean` | - |  |
-| `_Formula` | `Variant` | - |  |
-| `_IsVariantItem` | `Boolean` | - |  |
-| `_Variant` | `Variant` | - |  |
-| `MenuText` | `Text` | - |  |
-| `Bold` | `Boolean` | - |  |
-| `Italic` | `Boolean` | - |  |
-| `Underline` | `Boolean` | - |  |
-| `Checked` | `Boolean` | - |  |
-| `Enabled` | `Boolean` | - |  |
-| `_IsSeperator` | `Boolean` | - |  |
-
-### Detailed Information
-
-#### _UUID {#uuid}
-
-**Type:** `Text`
-
----
-
-#### _IsFormulaItem {#isformulaitem}
-
-**Type:** `Boolean`
-
----
-
-#### _Formula {#formula}
-
-**Type:** `Variant`
-
----
-
-#### _IsVariantItem {#isvariantitem}
-
-**Type:** `Boolean`
-
----
-
-#### _Variant {#variant}
-
-**Type:** `Variant`
-
----
-
-#### MenuText {#menutext}
-
-**Type:** `Text`
-
----
-
-#### Bold {#bold}
-
-**Type:** `Boolean`
-
----
-
-#### Italic {#italic}
-
-**Type:** `Boolean`
-
----
-
-#### Underline {#underline}
-
-**Type:** `Boolean`
-
----
-
-#### Checked {#checked}
-
-**Type:** `Boolean`
-
----
-
-#### Enabled {#enabled}
-
-**Type:** `Boolean`
-
----
-
-#### _IsSeperator {#isseperator}
-
-**Type:** `Boolean`
-
----
+| `_UUID` | `Text` | - | - |
+| `_IsFormulaItem` | `Boolean` | - | - |
+| `_Formula` | `Variant` | - | - |
+| `_IsVariantItem` | `Boolean` | - | - |
+| `_Variant` | `Variant` | - | - |
+| `MenuText` | `Text` | - | - |
+| `Bold` | `Boolean` | - | - |
+| `Italic` | `Boolean` | - | - |
+| `Underline` | `Boolean` | - | - |
+| `Checked` | `Boolean` | - | - |
+| `Enabled` | `Boolean` | - | - |
+| `_IsSeperator` | `Boolean` | - | - |
 
 ## ⚙️ Functions
 

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 129
 - **UUID:** 9F8A3252F6D9E74589B429EA78C73E40
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:37:21Z
+- **Generated:** 🕐 2025-11-13T02:49:55Z
 
 ---
 
@@ -27,8 +27,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -38,61 +36,7 @@ parent : Tables
 | Commentary | `String` | - | - |
 | EmailSent | `Real` | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### Date
-
-**Properties:**
-
-- **Type:** Integer
-
----
-
-#### Time
-
-**Properties:**
-
-- **Type:** Long Integer
-
----
-
-#### StaffID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Commentary
-
-**Properties:**
-
-- **Type:** String
-
----
-
-#### EmailSent
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -100,60 +44,19 @@ parent : Tables
 | `ID` | Keywords | regular | ✨ Yes |
 | `Date` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `StaffID`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Date`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active |
-
-### Detailed Information
-
-#### StaffEntity
-
-**Links to:** [Staff](Staff.md)
-
-- **Source Field:** `StaffID`
-- **Destination Field:** `StaffID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
 
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `ShiftSummaryID` → `ID` | Active |
-
-### Detailed Information
-
-#### ShiftSummaryDetailSelection
-
-**Links from:** [ShiftSummaryDetail](ShiftSummaryDetail.md)
-
-- **Source Table:** `ShiftSummaryDetail`
-- **Source Field:** `ShiftSummaryID`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `ShiftSummaryID` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:37:21Z*
+*Generated at: 2025-11-13T02:49:55Z*

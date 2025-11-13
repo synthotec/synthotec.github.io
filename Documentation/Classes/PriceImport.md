@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.539Z*
+🕐 *Last updated: 2025-11-13T02:47:33.034Z*
 
 ---
 
@@ -34,46 +34,12 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `PasteBoardText` | `Text` | - |  |
-| `ColumnNames` | *Not specified* | `[]` |  |
-| `DataLines` | *Not specified* | `[]` |  |
-| `CellCollection` | *Not specified* | `[]` |  |
-
-### Detailed Information
-
-#### PasteBoardText {#pasteboardtext}
-
-**Type:** `Text`
-
----
-
-#### ColumnNames {#columnnames}
-
-**Type:** *Not specified*
-
-**Default Value:** `[]`
-
----
-
-#### DataLines {#datalines}
-
-**Type:** *Not specified*
-
-**Default Value:** `[]`
-
----
-
-#### CellCollection {#cellcollection}
-
-**Type:** *Not specified*
-
-**Default Value:** `[]`
-
----
+| `PasteBoardText` | `Text` | - | - |
+| `ColumnNames` | *Not specified* | `[]` | - |
+| `DataLines` | *Not specified* | `[]` | - |
+| `CellCollection` | *Not specified* | `[]` | - |
 
 ## ⚙️ Functions
 

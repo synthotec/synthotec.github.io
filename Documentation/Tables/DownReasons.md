@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 64
 - **UUID:** 223300B659C4B94286C058AC2F0A57CC
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:01Z
+- **Generated:** 🕐 2025-11-13T02:48:39Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -36,56 +34,7 @@ parent : Tables
 | Exclude | `Real` | 🚫 Not Null | - |
 | Archive | `Real` | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### Category
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Reason
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Exclude
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Archive
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -93,52 +42,14 @@ parent : Tables
 | `Archive` | Keywords | regular | - |
 | `Exclude` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Archive`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Exclude`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `RealTimeSelection` | [RealTime](RealTime.md) | `DownReason` → `ID` | Active |
-| `RealTimeMachinesSelection` | [RealTimeMachines](RealTimeMachines.md) | `DownReason` → `ID` | Active |
-
-### Detailed Information
-
-#### RealTimeSelection
-
-**Links from:** [RealTime](RealTime.md)
-
-- **Source Table:** `RealTime`
-- **Source Field:** `DownReason`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
-
-#### RealTimeMachinesSelection
-
-**Links from:** [RealTimeMachines](RealTimeMachines.md)
-
-- **Source Table:** `RealTimeMachines`
-- **Source Field:** `DownReason`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `RealTimeSelection` | [RealTime](RealTime.md) | `DownReason` → `ID` | Active | - |
+| `RealTimeMachinesSelection` | [RealTimeMachines](RealTimeMachines.md) | `DownReason` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:01Z*
+*Generated at: 2025-11-13T02:48:39Z*

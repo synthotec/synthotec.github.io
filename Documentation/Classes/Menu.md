@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.294Z*
+🕐 *Last updated: 2025-11-13T02:47:32.807Z*
 
 ---
 
@@ -42,54 +42,14 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_MenuItems` | `Collection` | - |  |
-| `_MenuReference` | `Text` | - |  |
-| `_SubMenu` | `Boolean` | - |  |
-| `_SubMenuText` | `Text` | - |  |
-| `_MenuItemCollection` | `Collection` | - |  |
-| `Cancelled` | `Boolean` | - |  |
-
-### Detailed Information
-
-#### _MenuItems {#menuitems}
-
-**Type:** `Collection`
-
----
-
-#### _MenuReference {#menureference}
-
-**Type:** `Text`
-
----
-
-#### _SubMenu {#submenu}
-
-**Type:** `Boolean`
-
----
-
-#### _SubMenuText {#submenutext}
-
-**Type:** `Text`
-
----
-
-#### _MenuItemCollection {#menuitemcollection}
-
-**Type:** `Collection`
-
----
-
-#### Cancelled {#cancelled}
-
-**Type:** `Boolean`
-
----
+| `_MenuItems` | `Collection` | - | - |
+| `_MenuReference` | `Text` | - | - |
+| `_SubMenu` | `Boolean` | - | - |
+| `_SubMenuText` | `Text` | - | - |
+| `_MenuItemCollection` | `Collection` | - | - |
+| `Cancelled` | `Boolean` | - | - |
 
 ## ⚙️ Functions
 

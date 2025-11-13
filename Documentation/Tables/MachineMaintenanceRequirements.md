@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 114
 - **UUID:** 45A9294EBF7DC04CB9F45F557F9377F7
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:46Z
+- **Generated:** 🕐 2025-11-13T02:49:37Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -35,76 +33,19 @@ parent : Tables
 | Machine | `Date` | - | - |
 | Required | `Real` | - | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### MachineMaintenanceActionID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Machine
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Required
-
-**Properties:**
-
-- **Type:** Real
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `MachineMaintenanceActionsEntity` | [MachineMaintenanceActions](MachineMaintenanceActions.md) | `MachineMaintenanceActionID` → `ID` | Active |
-
-### Detailed Information
-
-#### MachineMaintenanceActionsEntity
-
-**Links to:** [MachineMaintenanceActions](MachineMaintenanceActions.md)
-
-- **Source Field:** `MachineMaintenanceActionID`
-- **Destination Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `MachineMaintenanceActionsEntity` | [MachineMaintenanceActions](MachineMaintenanceActions.md) | `MachineMaintenanceActionID` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:46Z*
+*Generated at: 2025-11-13T02:49:37Z*

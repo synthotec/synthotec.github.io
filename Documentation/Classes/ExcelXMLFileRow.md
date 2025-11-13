@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.103Z*
+🕐 *Last updated: 2025-11-13T02:47:32.632Z*
 
 ---
 
@@ -34,48 +34,12 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Cells` | `Collection` | `[]` |  |
-| `CellType_Number` | `Text` | `"Number"` |  |
-| `CellType_String` | `Text` | `"String"` |  |
-| `CellType_ISODateTime` | *Not specified* | `"DateTime"` |  |
-
-### Detailed Information
-
-#### Cells {#cells}
-
-**Type:** `Collection`
-
-**Default Value:** `[]`
-
----
-
-#### CellType_Number {#celltypenumber}
-
-**Type:** `Text`
-
-**Default Value:** `"Number"`
-
----
-
-#### CellType_String {#celltypestring}
-
-**Type:** `Text`
-
-**Default Value:** `"String"`
-
----
-
-#### CellType_ISODateTime {#celltypeisodatetime}
-
-**Type:** *Not specified*
-
-**Default Value:** `"DateTime"`
-
----
+| `Cells` | `Collection` | `[]` | - |
+| `CellType_Number` | `Text` | `"Number"` | - |
+| `CellType_String` | `Text` | `"String"` | - |
+| `CellType_ISODateTime` | *Not specified* | `"DateTime"` | - |
 
 ## ⚙️ Functions
 

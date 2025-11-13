@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 100
 - **UUID:** BBEBD957B57394498D952926A484488F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:34Z
+- **Generated:** 🕐 2025-11-13T02:49:22Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -40,91 +38,7 @@ parent : Tables
 | ProcedureOrder | `Picture` | 🚫 Not Null | - |
 | MigrationID | `Date` | - | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### ProductID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### System
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Procedure
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TargetMin
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TargetMax
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ForEachCavity
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ProcedureOrder
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### MigrationID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -132,39 +46,13 @@ parent : Tables
 | `ProductID` | Keywords | regular | - |
 | `System` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ProductID`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `System`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active |
-
-### Detailed Information
-
-#### ProductEntity
-
-**Links to:** [Product](Product.md)
-
-- **Source Field:** `ProductID`
-- **Destination Field:** `Product_ID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:34Z*
+*Generated at: 2025-11-13T02:49:22Z*

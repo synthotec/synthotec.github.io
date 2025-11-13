@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 12
 - **UUID:** 51AABC1ABE247B49864812D98CE6E30B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:35:00Z
+- **Generated:** 🕐 2025-11-13T02:47:49Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 ---
 
 ## 📋 Fields
-
-### Quick Reference
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
@@ -43,119 +41,7 @@ parent : Tables
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 | Pallet_ID | `Date` | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### FinishedStockID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** ⚠️ Mandatory, 🚫 Never Null
-
----
-
-#### ProductID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** ⚠️ Mandatory, 🚫 Never Null
-
----
-
-#### Reuse_Issue_No
-
-**Properties:**
-
-- **Type:** String (max length: 5)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### MaterialID
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Stock_Quantity
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Reuse_NoOfBoxes
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Reuse_PartBoxQty
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Reuse_WIP
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LocationID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Works_Order_No
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, 🚫 Never Null
-
----
-
-#### Pallet_ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -166,59 +52,14 @@ parent : Tables
 | `FinishedStockID` | Keywords | regular | - |
 | `MaterialID` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `LocationID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ProductID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Works_Order_No`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `FinishedStockID`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `MaterialID`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No` → `Works_Order_No` | Active |
-| `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `LocationID_l` → `StockLocationID_l` | Active |
-
-### Detailed Information
-
-#### WorksOrderEntity
-
-**Links to:** [WorksOrder](WorksOrder.md)
-
-- **Source Field:** `Works_Order_No`
-- **Destination Field:** `Works_Order_No`
-- **State:** Active
-
----
-
-#### Stock_LocationEntity
-
-**Links to:** [Stock_Location](Stock_Location.md)
-
-- **Source Field:** `LocationID_l`
-- **Destination Field:** `StockLocationID_l`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No` → `Works_Order_No` | Active | - |
+| `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `LocationID_l` → `StockLocationID_l` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:00Z*
+*Generated at: 2025-11-13T02:47:49Z*

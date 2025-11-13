@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 21
 - **UUID:** 0816EE7668E03647A01F7EB009589E04
 - **Primary Key:** 🔑 `OrderNo_l`
-- **Generated:** 🕐 2025-11-13T02:35:12Z
+- **Generated:** 🕐 2025-11-13T02:47:57Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 ---
 
 ## 📋 Fields
-
-### Quick Reference
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
@@ -50,173 +48,7 @@ parent : Tables
 | Revision | `Picture` | 🚫 Not Null | - |
 | ApprovedDate | `Integer` | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 OrderNo_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, ⚠️ Mandatory, 🚫 Never Null
-
----
-
-#### DateRaised_d
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Confirmed
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### RaisedBy_s
-
-**Properties:**
-
-- **Type:** String (max length: 30)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### SupplierID_l
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### GoodsReceived_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### InvoiceAuthorised_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### AdditionalInfo_txt
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Archived_b
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### VATRate_r
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Received
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Invoiced
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Approved
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ApprovedBy
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ApprovalRequested
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### OrderPrinted
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Revision
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ApprovedDate
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
@@ -224,60 +56,19 @@ parent : Tables
 | `SupplierID_l` | Keywords | regular | - |
 | `Archived_b` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `OrderNo_l` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `SupplierID_l`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Archived_b`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `SuppliersEntity` | [Suppliers](Suppliers.md) | `SupplierID_l` → `SupplierID_l` | Active |
-
-### Detailed Information
-
-#### SuppliersEntity
-
-**Links to:** [Suppliers](Suppliers.md)
-
-- **Source Field:** `SupplierID_l`
-- **Destination Field:** `SupplierID_l`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `SuppliersEntity` | [Suppliers](Suppliers.md) | `SupplierID_l` → `SupplierID_l` | Active | - |
 
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `OrderNo_l` → `OrderNo_l` | Active |
-
-### Detailed Information
-
-#### PurchaseInfoSelection
-
-**Links from:** [PurchaseInfo](PurchaseInfo.md)
-
-- **Source Table:** `PurchaseInfo`
-- **Source Field:** `OrderNo_l`
-- **This Table Field:** `OrderNo_l`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `OrderNo_l` → `OrderNo_l` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:35:12Z*
+*Generated at: 2025-11-13T02:47:57Z*

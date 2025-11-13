@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.786Z*
+🕐 *Last updated: 2025-11-13T02:47:33.272Z*
 
 ---
 
@@ -36,26 +36,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `RestPostJson; ScannerData; PromptResult` | `Text` | - |  |
-| `StaffID` | `Integer` | - |  |
-
-### Detailed Information
-
-#### RestPostJson; ScannerData; PromptResult {#restpostjson; scannerdata; promptresult}
-
-**Type:** `Text`
-
----
-
-#### StaffID {#staffid}
-
-**Type:** `Integer`
-
----
+| `RestPostJson; ScannerData; PromptResult` | `Text` | - | - |
+| `StaffID` | `Integer` | - | - |
 
 ## ⚙️ Functions
 

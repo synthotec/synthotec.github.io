@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 73
 - **UUID:** C0E7A8FCF0E83E42B41416BAD0691019
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:10Z
+- **Generated:** 🕐 2025-11-13T02:48:50Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -36,77 +34,13 @@ parent : Tables
 | ProductID | `Date` | 🚫 Not Null | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### UsageDate
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### FromDate
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Quantity
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ProductID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Customer
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:10Z*
+*Generated at: 2025-11-13T02:48:50Z*

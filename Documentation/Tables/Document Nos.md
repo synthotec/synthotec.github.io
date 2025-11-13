@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 7
 - **UUID:** 6BC1D99CA275574B8B75504F16B14CB2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:34:20Z
+- **Generated:** 🕐 2025-11-13T02:47:46Z
 
 ---
 
@@ -24,8 +24,6 @@ parent : Tables
 ---
 
 ## 📋 Fields
-
-### Quick Reference
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
@@ -44,149 +42,13 @@ parent : Tables
 | HARtrays1E | `Picture` | 🚫 Not Null | - |
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
-### Detailed Information
-
-#### Cert_Of_Conformance_No
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Advice Note No
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Petes No
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Date spare5
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### C Code Spare
-
-**Properties:**
-
-- **Type:** String (max length: 3)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### no ord spare2
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Balance
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### totalflag
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Ord No spare3
-
-**Properties:**
-
-- **Type:** String (max length: 15)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Cust Name spare
-
-**Properties:**
-
-- **Type:** String (max length: 25)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Works No spare6
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Datepriceupdate
-
-**Properties:**
-
-- **Type:** Integer
-- **Constraints:** 🚫 Never Null
-
----
-
-#### HARtrays1E
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence, 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:34:20Z*
+*Generated at: 2025-11-13T02:47:46Z*

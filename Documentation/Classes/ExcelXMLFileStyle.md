@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T02:24:48.110Z*
+🕐 *Last updated: 2025-11-13T02:47:32.637Z*
 
 ---
 
@@ -42,91 +42,17 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `NumberFormat_ShortDate` | `Text` | `"Short Date"` |  |
-| `NumberFormat_dd_mmm` | `Text` | `"dd\\-mmm"` |  |
-| `NumberFormat_Decimal` | `Text` | `"General;#;;@"` |  |
-| `NumberFormat_Number` | `Text` | `"#,###,###,##0"` |  |
-| `Font` | `Object` | `{}` |  |
-| `Interior` | `Object` | `{}` |  |
-| `Alignment` | `Object` | `{}` |  |
-| `NumberFormat` | `Text` | `"General"` |  |
-| `ID` | `Text` | - |  |
-
-### Detailed Information
-
-#### NumberFormat_ShortDate {#numberformatshortdate}
-
-**Type:** `Text`
-
-**Default Value:** `"Short Date"`
-
----
-
-#### NumberFormat_dd_mmm {#numberformatddmmm}
-
-**Type:** `Text`
-
-**Default Value:** `"dd\\-mmm"`
-
----
-
-#### NumberFormat_Decimal {#numberformatdecimal}
-
-**Type:** `Text`
-
-**Default Value:** `"General;#;;@"`
-
----
-
-#### NumberFormat_Number {#numberformatnumber}
-
-**Type:** `Text`
-
-**Default Value:** `"#,###,###,##0"`
-
----
-
-#### Font {#font}
-
-**Type:** `Object`
-
-**Default Value:** `{}`
-
----
-
-#### Interior {#interior}
-
-**Type:** `Object`
-
-**Default Value:** `{}`
-
----
-
-#### Alignment {#alignment}
-
-**Type:** `Object`
-
-**Default Value:** `{}`
-
----
-
-#### NumberFormat {#numberformat}
-
-**Type:** `Text`
-
-**Default Value:** `"General"`
-
----
-
-#### ID {#id}
-
-**Type:** `Text`
-
----
+| `NumberFormat_ShortDate` | `Text` | `"Short Date"` | - |
+| `NumberFormat_dd_mmm` | `Text` | `"dd\\-mmm"` | - |
+| `NumberFormat_Decimal` | `Text` | `"General;#;;@"` | - |
+| `NumberFormat_Number` | `Text` | `"#,###,###,##0"` | - |
+| `Font` | `Object` | `{}` | - |
+| `Interior` | `Object` | `{}` | - |
+| `Alignment` | `Object` | `{}` | - |
+| `NumberFormat` | `Text` | `"General"` | - |
+| `ID` | `Text` | - | - |
 
 ## ⚙️ Functions
 

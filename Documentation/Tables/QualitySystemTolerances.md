@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 107
 - **UUID:** C3B026087195274EBE4A71B14374D159
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:36:40Z
+- **Generated:** 🕐 2025-11-13T02:49:29Z
 
 ---
 
@@ -25,8 +25,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
@@ -37,86 +35,13 @@ parent : Tables
 | Machine | `Date` | 🚫 Not Null | - |
 | ModifiedBy | `String` (255) | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🔑 Primary Key, ✨ Unique
-
----
-
-#### System
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ToolID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Type
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Tolerance
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Machine
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### ModifiedBy
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:40Z*
+*Generated at: 2025-11-13T02:49:29Z*

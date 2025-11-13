@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T02:24:48.782Z*
+🕐 *Last updated: 2025-11-13T02:47:33.268Z*
 
 ---
 
@@ -36,47 +36,13 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Index` | `Integer` | - |  |
-| `Zone` | `Integer` | - |  |
-| `CelsiusValue` | `Real` | - |  |
-| `_WorksOrderEntity` | `cs.WorksOrderEntity` | - |  |
-| `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - |  |
-
-### Detailed Information
-
-#### Index {#index}
-
-**Type:** `Integer`
-
----
-
-#### Zone {#zone}
-
-**Type:** `Integer`
-
----
-
-#### CelsiusValue {#celsiusvalue}
-
-**Type:** `Real`
-
----
-
-#### _WorksOrderEntity {#worksorderentity}
-
-**Type:** `cs.WorksOrderEntity`
-
----
-
-#### ToolTemperatureTargetEntity {#tooltemperaturetargetentity}
-
-**Type:** `cs.ToolTemperatureTargetEntity`
-
----
+| `Index` | `Integer` | - | - |
+| `Zone` | `Integer` | - | - |
+| `CelsiusValue` | `Real` | - | - |
+| `_WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
+| `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - | - |
 
 ## ⚙️ Functions
 

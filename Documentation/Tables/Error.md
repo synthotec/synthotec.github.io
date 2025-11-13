@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 131
 - **UUID:** AF1DEE5EA76ACE42AEFB98922A785EEB
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:37:22Z
+- **Generated:** 🕐 2025-11-13T02:49:57Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
@@ -35,109 +33,23 @@ parent : Tables
 | Method | `String` (255) | - | - |
 | Line | `Date` | - | - |
 | Formula | `String` (255) | - | - |
-| GithubIssue | `Unknown (21)` | - | - |
+| GithubIssue | `Object` | - | - |
 | Suppress | `Real` | 🚫 Not Null | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** String
-- **Constraints:** 🔑 Primary Key, ✨ Unique
-
----
-
-#### Code
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Method
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
-#### Line
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### Formula
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
-#### GithubIssue
-
-**Properties:**
-
-- **Type:** Unknown (21)
-
----
-
-#### Suppress
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `Suppress` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `Suppress`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `ErrorDetailSelection` | [ErrorDetail](ErrorDetail.md) | `ErrorID` → `ID` | Active |
-
-### Detailed Information
-
-#### ErrorDetailSelection
-
-**Links from:** [ErrorDetail](ErrorDetail.md)
-
-- **Source Table:** `ErrorDetail`
-- **Source Field:** `ErrorID`
-- **This Table Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `ErrorDetailSelection` | [ErrorDetail](ErrorDetail.md) | `ErrorID` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:37:22Z*
+*Generated at: 2025-11-13T02:49:57Z*

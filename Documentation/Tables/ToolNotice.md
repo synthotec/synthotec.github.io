@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 134
 - **UUID:** 6950DFACF3DA9842AF4C96E83B43790D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T02:37:25Z
+- **Generated:** 🕐 2025-11-13T02:50:01Z
 
 ---
 
@@ -27,8 +27,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
@@ -42,171 +40,28 @@ parent : Tables
 | DeactivatedStaffID | `Date` | - | - |
 | DeactivatedTimestamp | `String` (255) | - | - |
 
-### Detailed Information
-
-#### 🔑 ID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, ⚡ Auto-sequence
-
----
-
-#### ToolID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### CreationTimestamp
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
-#### StaffID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### ProductionHold
-
-**Properties:**
-
-- **Type:** Real
-
----
-
-#### Active
-
-**Properties:**
-
-- **Type:** Real
-
----
-
-#### RunsActiveFor
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### NoticeText
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
-#### DeactivatedStaffID
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### DeactivatedTimestamp
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 | `ToolID` | Keywords | regular | - |
 
-### Detailed Information
-
-- **Field:** `ID` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `ToolID`
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active |
-| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active |
-| `DeactivatedStaffEntity` | [Staff](Staff.md) | `DeactivatedStaffID` → `StaffID` | Active |
-
-### Detailed Information
-
-#### ToolsEntity
-
-**Links to:** [Tools](Tools.md)
-
-- **Source Field:** `ToolID`
-- **Destination Field:** `Tool_ID`
-- **State:** Active
-
----
-
-#### StaffEntity
-
-**Links to:** [Staff](Staff.md)
-
-- **Source Field:** `StaffID`
-- **Destination Field:** `StaffID`
-- **State:** Active
-
----
-
-#### DeactivatedStaffEntity
-
-**Links to:** [Staff](Staff.md)
-
-- **Source Field:** `DeactivatedStaffID`
-- **Destination Field:** `StaffID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
+| `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+| `DeactivatedStaffEntity` | [Staff](Staff.md) | `DeactivatedStaffID` → `StaffID` | Active | - |
 
 ## 🔗 One-to-Many Relations
 
-### Quick Reference
-
-| Relation Name | Source Table | Source → Destination | State |
-|:--------------|:-------------|:---------------------|:------|
-| `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `ToolNoticeID` → `ToolID` | Active |
-
-### Detailed Information
-
-#### ToolNoticeWorksOrderSelection
-
-**Links from:** [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md)
-
-- **Source Table:** `ToolNoticeWorksOrder`
-- **Source Field:** `ToolNoticeID`
-- **This Table Field:** `ToolID`
-- **State:** Active
-
----
+| Relation Name | Source Table | Source → Destination | State | Description |
+|:--------------|:-------------|:---------------------|:------|:------------|
+| `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `ToolNoticeID` → `ToolID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:37:25Z*
+*Generated at: 2025-11-13T02:50:01Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 63
 - **UUID:** 475BE219B3D798439D301555A3D28CCC
 - **Primary Key:** 🔑 `Machine`
-- **Generated:** 🕐 2025-11-13T02:36:00Z
+- **Generated:** 🕐 2025-11-13T02:48:38Z
 
 ---
 
@@ -26,8 +26,6 @@ parent : Tables
 
 ## 📋 Fields
 
-### Quick Reference
-
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | RequiresRecalculation | `Real` | 🚫 Not Null | - |
@@ -39,7 +37,7 @@ parent : Tables
 | Battery | `Picture` | 🚫 Not Null | - |
 | UpTime | `String` (255) | 🚫 Not Null | - |
 | LastPulse | `String` (255) | 🚫 Not Null | - |
-| LastCycleSensorData | `Unknown (21)` | - | - |
+| LastCycleSensorData | `Object` | - | - |
 | Availability | `Boolean` | 🚫 Not Null | - |
 | Performance | `Boolean` | 🚫 Not Null | - |
 | Quality | `Boolean` | 🚫 Not Null | - |
@@ -60,334 +58,23 @@ parent : Tables
 | TimeStartedNonRobot | `String` (255) | 🚫 Not Null | - |
 | DownReason | `Date` | - | - |
 | TemperatureSensorException | `Real` | 🚫 Not Null | - |
-| TemperatureSensors | `Unknown (21)` | - | - |
+| TemperatureSensors | `Object` | - | - |
 | LastCycleTime | `Boolean` | - | - |
 
-### Detailed Information
-
-#### RequiresRecalculation
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### 🔑 Machine
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🔑 Primary Key, ✨ Unique, 🚫 Never Null
-
----
-
-#### MouldStatus
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LastActivity
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### AutoStatus
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### SlowStatus
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Battery
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### UpTime
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LastPulse
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LastCycleSensorData
-
-**Properties:**
-
-- **Type:** Unknown (21)
-
----
-
-#### Availability
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Performance
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Quality
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### LastAudit
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### StopReason
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### NextJobID
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### AwaitingSetter
-
-**Properties:**
-
-- **Type:** Picture
-- **Constraints:** 🚫 Never Null
-
----
-
-#### PowerStatus
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### MouldClosed
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### WinVer
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### MadeQty
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TimeLeft
-
-**Properties:**
-
-- **Type:** Undefined
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Cycle
-
-**Properties:**
-
-- **Type:** Boolean
-- **Constraints:** 🚫 Never Null
-
----
-
-#### RealMade
-
-**Properties:**
-
-- **Type:** Date
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Enabled
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### Robot
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### NoWorksOrderEmailSent
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TimeStartedNonRobot
-
-**Properties:**
-
-- **Type:** String (max length: 255)
-- **Constraints:** 🚫 Never Null
-
----
-
-#### DownReason
-
-**Properties:**
-
-- **Type:** Date
-
----
-
-#### TemperatureSensorException
-
-**Properties:**
-
-- **Type:** Real
-- **Constraints:** 🚫 Never Null
-
----
-
-#### TemperatureSensors
-
-**Properties:**
-
-- **Type:** Unknown (21)
-
----
-
-#### LastCycleTime
-
-**Properties:**
-
-- **Type:** Boolean
-
----
-
 ## 🔍 Indexes
-
-### Quick Reference
 
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `Enabled` | Keywords | regular | - |
 | `Machine` | Keywords | regular | ✨ Yes |
 
-### Detailed Information
-
-- **Field:** `Enabled`
-  - **Kind:** regular
-  - **Type:** Keywords
-- **Field:** `Machine` ✨ **(Unique)**
-  - **Kind:** regular
-  - **Type:** Keywords
-
 ## 🔗 Many-to-One Relations
 
-### Quick Reference
-
-| Relation Name | Destination Table | Source → Destination | State |
-|:--------------|:------------------|:---------------------|:------|
-| `DownReasonsEntity` | [DownReasons](DownReasons.md) | `DownReason` → `ID` | Active |
-
-### Detailed Information
-
-#### DownReasonsEntity
-
-**Links to:** [DownReasons](DownReasons.md)
-
-- **Source Field:** `DownReason`
-- **Destination Field:** `ID`
-- **State:** Active
-
----
+| Relation Name | Destination Table | Source → Destination | State | Description |
+|:--------------|:------------------|:---------------------|:------|:------------|
+| `DownReasonsEntity` | [DownReasons](DownReasons.md) | `DownReason` → `ID` | Active | - |
 
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T02:36:00Z*
+*Generated at: 2025-11-13T02:48:38Z*

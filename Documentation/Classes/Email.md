@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T02:24:47.992Z*
+🕐 *Last updated: 2025-11-13T02:47:32.534Z*
 
 ---
 
@@ -47,26 +47,10 @@ parent : Classes
 
 ## 📋 Properties
 
-### Quick Reference
-
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `EmailObject` | `Object` | - |  |
-| `_PermissionFooterCollection` | `Collection` | - |  |
-
-### Detailed Information
-
-#### EmailObject {#emailobject}
-
-**Type:** `Object`
-
----
-
-#### _PermissionFooterCollection {#permissionfootercollection}
-
-**Type:** `Collection`
-
----
+| `EmailObject` | `Object` | - | - |
+| `_PermissionFooterCollection` | `Collection` | - | - |
 
 ## ⚙️ Functions
 
