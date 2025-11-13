@@ -3,7 +3,7 @@ layout : default
 title : BOM
 parent : Forms
 ---
-# BOM
+# BOM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 8 Object Methods
 
@@ -67,33 +67,22 @@ This form handles **17** of **44** possible events:
 
 ## 🧩 Form Objects
 
-**Total Objects:** 10
-
-### Object Type Summary
-
-| Object Type | Count |
-|:------------|------:|
-| 📋 listbox | 2 |
-| 🔘 button | 4 |
-| 🔲 subform | 2 |
-| 📥 dropdown | 2 |
-
 ### Interactive Objects by Page
 
 #### Page 1
 
 | Name | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | 📋 listbox | ✅ | ✅ | ❌ | MasterList | List Box.4dm |
-| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | Button1.4dm |
-| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | List Box1.4dm |
-| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | SearchPicker.4dm |
+| List Box | 📋 listbox | ✅ | ✅ | ❌ | MasterList | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/List%20Box.4dm) |
+| Button1 | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button1.4dm) |
+| List Box1 | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/List%20Box1.4dm) |
+| SearchPicker | 🔲 subform | ✅ | ✅ | ❌ | vSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/SearchPicker.4dm) |
 | Popup Dropdown List | 📥 dropdown | ✅ | ✅ | ❌ | BOM_AddProductCustomers | - |
-| SearchPicker1 | 🔲 subform | ✅ | ✅ | ❌ | BOM_AddProductFilter | SearchPicker1.4dm |
+| SearchPicker1 | 🔲 subform | ✅ | ✅ | ❌ | BOM_AddProductFilter | [SearchPicker1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/SearchPicker1.4dm) |
 | Popup Dropdown List1 | 📥 dropdown | ✅ | ✅ | ❌ | BOM_AddProductArray | - |
-| Button | 🔘 button | ✅ | ✅ | ❌ | - | Button.4dm |
-| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | Button2.4dm |
-| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | Button3.4dm |
+| Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button.4dm) |
+| Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button2.4dm) |
+| Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button3.4dm) |
 
 ---
 
