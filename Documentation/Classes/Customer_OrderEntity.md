@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.598Z*
+🕐 *Last updated: 2025-11-13T13:14:50.711Z*
 
 ---
 
@@ -278,7 +278,7 @@ Function OutstandingToDeliver($OutstandingToDeliver : Integer)
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [Customer_Order](../Tables/Customer_Order.md) - Entity class
 

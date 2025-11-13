@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.783Z*
+🕐 *Last updated: 2025-11-13T13:14:51.911Z*
 
 ---
 
@@ -49,17 +49,6 @@ Function createForProduct -> cs.ToolsEntity
 **Returns:** `cs.ToolsEntity`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Tools](Tools.md) - DataClass class
-- [ToolsEntity](ToolsEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [Tools](../Tables/Tools.md) - DataClass class
 
 ---
 

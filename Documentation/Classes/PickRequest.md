@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.247Z*
+🕐 *Last updated: 2025-11-13T13:14:51.387Z*
 
 ---
 
@@ -197,17 +197,6 @@ Function checkForPickedPickRequests
 ```
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [PickRequest](PickRequest.md) - DataClass class
-- [PickRequestEntity](PickRequestEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [PickRequest](../Tables/PickRequest.md) - DataClass class
 
 ---
 

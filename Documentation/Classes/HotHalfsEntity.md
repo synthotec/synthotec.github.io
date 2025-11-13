@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.979Z*
+🕐 *Last updated: 2025-11-13T13:14:51.101Z*
 
 ---
 
@@ -62,7 +62,7 @@ Function syncMigrationSelections($RemoteEntity : cs.HotHalfsEntity)
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [HotHalfs](../Tables/HotHalfs.md) - Entity class
 

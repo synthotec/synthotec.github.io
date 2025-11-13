@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.591Z*
+🕐 *Last updated: 2025-11-13T13:14:51.741Z*
 
 ---
 
@@ -48,7 +48,7 @@ Function requestCertificate
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [RMC](../Tables/RMC.md) - Entity class
 

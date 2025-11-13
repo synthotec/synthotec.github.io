@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.840Z*
+🕐 *Last updated: 2025-11-13T13:14:50.960Z*
 
 ---
 
@@ -50,7 +50,7 @@ Function sendSlackReport -> Boolean
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [ErrorReport](../Tables/ErrorReport.md) - Entity class
 

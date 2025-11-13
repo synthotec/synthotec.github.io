@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.894Z*
+🕐 *Last updated: 2025-11-13T13:14:52.008Z*
 
 ---
 
@@ -273,7 +273,7 @@ Function ExS1Stock -> Integer
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [WorksOrder](../Tables/WorksOrder.md) - Entity class
 

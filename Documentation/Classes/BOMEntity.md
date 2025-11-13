@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.447Z*
+🕐 *Last updated: 2025-11-13T13:14:50.545Z*
 
 ---
 
@@ -62,9 +62,9 @@ Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 
 ## 🔗 Related Items
 
-### 📄 Forms
+### 🗂️ Tables
 
-- [BOM](../Forms/BOM.md) - Entity class
+- [BOM](../Tables/BOM.md) - Entity class
 
 ---
 

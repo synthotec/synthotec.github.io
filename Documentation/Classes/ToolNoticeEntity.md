@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.777Z*
+🕐 *Last updated: 2025-11-13T13:14:51.906Z*
 
 ---
 
@@ -89,7 +89,7 @@ Function ActiveUntilText -> Text
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [ToolNotice](../Tables/ToolNotice.md) - Entity class
 

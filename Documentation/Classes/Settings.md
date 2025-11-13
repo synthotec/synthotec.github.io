@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.613Z*
+🕐 *Last updated: 2025-11-13T13:14:51.760Z*
 
 ---
 
@@ -62,17 +62,6 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEn
 **Returns:** `cs.SettingsEntity`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Settings](Settings.md) - DataClass class
-- [SettingsEntity](SettingsEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [Settings](../Tables/Settings.md) - DataClass class
 
 ---
 

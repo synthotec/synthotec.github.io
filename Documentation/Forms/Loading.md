@@ -16,7 +16,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T12:58:35.627Z |
+| **Generated** | 🕐 2025-11-13T13:14:52.975Z |
 
 ## 🎯 Form Events
 
@@ -55,12 +55,6 @@ This form handles **16** of **44** possible events:
 |:------------|------:|
 | 🔹 progress | 1 |
 | 📝 input | 1 |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [](../Classes/.md) - Extends this class
 
 ---
 

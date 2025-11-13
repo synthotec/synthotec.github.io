@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T12:58:34.819Z*
+🕐 *Last updated: 2025-11-13T13:14:51.943Z*
 
 ---
 
@@ -64,7 +64,7 @@ Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) ->
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - EntitySelection class
 

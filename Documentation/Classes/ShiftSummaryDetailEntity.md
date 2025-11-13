@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.627Z*
+🕐 *Last updated: 2025-11-13T13:14:51.774Z*
 
 ---
 
@@ -95,7 +95,7 @@ Function StatusColor -> Integer
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [ShiftSummaryDetail](../Tables/ShiftSummaryDetail.md) - Entity class
 

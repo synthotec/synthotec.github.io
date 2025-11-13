@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.993Z*
+🕐 *Last updated: 2025-11-13T13:14:51.117Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [LanguageTag](../Tables/LanguageTag.md) - Entity class
 

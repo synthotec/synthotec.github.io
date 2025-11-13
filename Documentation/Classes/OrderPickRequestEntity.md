@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.087Z*
+🕐 *Last updated: 2025-11-13T13:14:51.224Z*
 
 ---
 
@@ -192,7 +192,7 @@ Function Parts($Parts : Integer)
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [OrderPickRequest](../Tables/OrderPickRequest.md) - Entity class
 

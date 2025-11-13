@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.860Z*
+🕐 *Last updated: 2025-11-13T13:14:51.978Z*
 
 ---
 
@@ -37,17 +37,6 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [WorksOrder](WorksOrder.md) - DataClass class
-- [WorksOrderEntity](WorksOrderEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [WorksOrder](../Tables/WorksOrder.md) - DataClass class
 
 ---
 

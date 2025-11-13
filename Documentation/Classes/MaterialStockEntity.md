@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.055Z*
+🕐 *Last updated: 2025-11-13T13:14:51.187Z*
 
 ---
 
@@ -40,7 +40,7 @@ Function getStockListBoxObject -> Object
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [MaterialStock](../Tables/MaterialStock.md) - Entity class
 

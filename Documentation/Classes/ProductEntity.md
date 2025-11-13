@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.402Z*
+🕐 *Last updated: 2025-11-13T13:14:51.540Z*
 
 ---
 
@@ -276,7 +276,7 @@ Function MainToolRegrind($MainToolRegrind : Boolean)
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [Product](../Tables/Product.md) - Entity class
 

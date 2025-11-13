@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:33.894Z*
+🕐 *Last updated: 2025-11-13T13:14:51.016Z*
 
 ---
 
@@ -37,17 +37,6 @@ Function upload -> cs.FileEntity
 **Returns:** `cs.FileEntity`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [File](File.md) - DataClass class
-- [FileEntity](FileEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [File](../Tables/File.md) - DataClass class
 
 ---
 

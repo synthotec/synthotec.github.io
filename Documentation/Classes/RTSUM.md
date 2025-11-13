@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.601Z*
+🕐 *Last updated: 2025-11-13T13:14:51.749Z*
 
 ---
 
@@ -43,17 +43,6 @@ Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Inte
 | `$SelectedWorksOrder` | `Integer` | - | - |
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [RTSUM](RTSUM.md) - DataClass class
-- [RTSUMSelection](RTSUMSelection.md) - EntitySelection class
-
-### 📄 Forms
-
-- [RTSUM](../Forms/RTSUM.md) - DataClass class
 
 ---
 

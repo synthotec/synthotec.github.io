@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 1 |
-| **Generated** | 🕐 2025-11-13T12:58:35.608Z |
+| **Generated** | 🕐 2025-11-13T13:14:52.942Z |
 
 ## 🎯 Form Events
 
@@ -55,12 +55,6 @@ This form handles **15** of **44** possible events:
 | Object Type | Count |
 |:------------|------:|
 | 📋 listbox | 1 |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [FieldHistory](../Classes/FieldHistory.md) - DataClass class
 
 ---
 

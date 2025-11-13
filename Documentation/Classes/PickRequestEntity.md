@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.287Z*
+🕐 *Last updated: 2025-11-13T13:14:51.425Z*
 
 ---
 
@@ -249,7 +249,7 @@ Function StatusColor -> Integer
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [PickRequest](../Tables/PickRequest.md) - Entity class
 

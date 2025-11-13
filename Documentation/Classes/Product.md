@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.376Z*
+🕐 *Last updated: 2025-11-13T13:14:51.517Z*
 
 ---
 
@@ -47,17 +47,6 @@ Function populateEmojis
 ```
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Product](Product.md) - DataClass class
-- [ProductEntity](ProductEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [Product](../Tables/Product.md) - DataClass class
 
 ---
 

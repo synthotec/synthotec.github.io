@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.823Z*
+🕐 *Last updated: 2025-11-13T13:14:51.946Z*
 
 ---
 
@@ -62,7 +62,7 @@ Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureZoneEntity)
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [ToolTemperatureZone](../Tables/ToolTemperatureZone.md) - Entity class
 

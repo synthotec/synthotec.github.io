@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:33.835Z*
+🕐 *Last updated: 2025-11-13T13:14:50.955Z*
 
 ---
 
@@ -35,17 +35,6 @@ Function processError
 ```
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [ErrorReport](ErrorReport.md) - DataClass class
-- [ErrorReportEntity](ErrorReportEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [ErrorReport](../Tables/ErrorReport.md) - DataClass class
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.180Z*
+🕐 *Last updated: 2025-11-13T13:14:51.321Z*
 
 ---
 
@@ -296,18 +296,6 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Pallet](Pallet.md) - DataClass class
-- [PalletEntity](PalletEntity.md) - Entity class
-- [PalletSelection](PalletSelection.md) - EntitySelection class
-
-### 🗂️ Used By Tables
-
-- [Pallet](../Tables/Pallet.md) - DataClass class
 
 ---
 

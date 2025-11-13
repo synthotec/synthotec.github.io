@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.297Z*
+🕐 *Last updated: 2025-11-13T13:14:51.434Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [PlanningWheel](../Tables/PlanningWheel.md) - Entity class
 

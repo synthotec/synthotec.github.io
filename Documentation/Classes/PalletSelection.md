@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T12:58:34.197Z*
+🕐 *Last updated: 2025-11-13T13:14:51.338Z*
 
 ---
 
@@ -40,7 +40,7 @@ Function getAvailable -> cs.PalletSelection
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - EntitySelection class
 

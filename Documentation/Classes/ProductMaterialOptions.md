@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.404Z*
+🕐 *Last updated: 2025-11-13T13:14:51.541Z*
 
 ---
 
@@ -37,17 +37,6 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [ProductMaterialOptions](ProductMaterialOptions.md) - DataClass class
-- [ProductMaterialOptionsEntity](ProductMaterialOptionsEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - DataClass class
 
 ---
 

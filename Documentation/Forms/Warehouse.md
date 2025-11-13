@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 6 |
-| **Generated** | 🕐 2025-11-13T12:58:35.784Z |
+| **Generated** | 🕐 2025-11-13T13:14:53.177Z |
 
 ## 🎯 Form Events
 
@@ -59,12 +59,6 @@ This form handles **17** of **44** possible events:
 | 🔘 button | 2 |
 | 📄 text | 2 |
 | 📋 listbox | 1 |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Warehouse](../Classes/Warehouse.md) - DataClass class
 
 ---
 

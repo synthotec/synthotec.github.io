@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.803Z*
+🕐 *Last updated: 2025-11-13T13:14:51.930Z*
 
 ---
 
@@ -55,18 +55,6 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [ToolTemperatureTarget](ToolTemperatureTarget.md) - DataClass class
-- [ToolTemperatureTargetEntity](ToolTemperatureTargetEntity.md) - Entity class
-- [ToolTemperatureTargetSelection](ToolTemperatureTargetSelection.md) - EntitySelection class
-
-### 🗂️ Used By Tables
-
-- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - DataClass class
 
 ---
 

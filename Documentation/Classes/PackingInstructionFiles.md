@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.093Z*
+🕐 *Last updated: 2025-11-13T13:14:51.232Z*
 
 ---
 
@@ -55,17 +55,6 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [PackingInstructionFiles](PackingInstructionFiles.md) - DataClass class
-- [PackingInstructionFilesEntity](PackingInstructionFilesEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [PackingInstructionFiles](../Tables/PackingInstructionFiles.md) - DataClass class
 
 ---
 

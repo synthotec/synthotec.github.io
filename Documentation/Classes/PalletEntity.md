@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:34.196Z*
+🕐 *Last updated: 2025-11-13T13:14:51.336Z*
 
 ---
 
@@ -224,7 +224,7 @@ Function HasMigrationID -> Boolean
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - Entity class
 

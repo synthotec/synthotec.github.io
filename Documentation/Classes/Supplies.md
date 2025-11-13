@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.686Z*
+🕐 *Last updated: 2025-11-13T13:14:51.829Z*
 
 ---
 
@@ -37,17 +37,6 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Supplies](Supplies.md) - DataClass class
-- [SuppliesEntity](SuppliesEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [Supplies](../Tables/Supplies.md) - DataClass class
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.200Z*
+🕐 *Last updated: 2025-11-13T13:14:51.341Z*
 
 ---
 
@@ -63,17 +63,6 @@ Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity :
 **Returns:** `Boolean`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Permissions](Permissions.md) - DataClass class
-- [PermissionsEntity](PermissionsEntity.md) - Entity class
-
-### 🗂️ Used By Tables
-
-- [Permissions](../Tables/Permissions.md) - DataClass class
 
 ---
 

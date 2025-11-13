@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.908Z*
+🕐 *Last updated: 2025-11-13T13:14:51.031Z*
 
 ---
 
@@ -40,9 +40,9 @@ Function Consignment -> Boolean
 
 ## 🔗 Related Items
 
-### 📄 Forms
+### 🗂️ Tables
 
-- [Forecast](../Forms/Forecast.md) - Entity class
+- [Forecast](../Tables/Forecast.md) - Entity class
 
 ---
 

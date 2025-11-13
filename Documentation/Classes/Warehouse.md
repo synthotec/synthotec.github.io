@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.859Z*
+🕐 *Last updated: 2025-11-13T13:14:51.977Z*
 
 ---
 
@@ -171,16 +171,6 @@ Function restScanTest($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [Warehouse](Warehouse.md) - DataClass class
-
-### 📄 Forms
-
-- [Warehouse](../Forms/Warehouse.md) - DataClass class
 
 ---
 

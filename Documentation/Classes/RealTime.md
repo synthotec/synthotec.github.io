@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.458Z*
+🕐 *Last updated: 2025-11-13T13:14:51.599Z*
 
 ---
 
@@ -157,18 +157,6 @@ Function SECONDS_IN_DAY -> Real
 **Returns:** `Real`
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [RealTime](RealTime.md) - DataClass class
-- [RealTimeEntity](RealTimeEntity.md) - Entity class
-- [RealTimeSelection](RealTimeSelection.md) - EntitySelection class
-
-### 🗂️ Used By Tables
-
-- [RealTime](../Tables/RealTime.md) - DataClass class
 
 ---
 

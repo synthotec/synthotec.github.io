@@ -9,23 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T12:58:34.436Z*
+🕐 *Last updated: 2025-11-13T13:14:51.576Z*
 
 ---
 
 ## 📑 Table of Contents
 
 ---
-
-## 🔗 Related Items
-
-### 📦 Related Classes
-
-- [QualitySystemResults](QualitySystemResults.md) - DataClass class
-
-### 📄 Forms
-
-- [QualitySystemResults](../Forms/QualitySystemResults.md) - DataClass class
 
 ---
 

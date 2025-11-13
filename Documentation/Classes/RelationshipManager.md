@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Manages relationships/links between Forms, Tables, and Classes for documentation
 
-🕐 *Last updated: 2025-11-13T12:58:34.579Z*
+🕐 *Last updated: 2025-11-13T13:14:51.730Z*
 
 ---
 
@@ -31,8 +31,8 @@ parent : Classes
 - [_discoverTableClassLinks](#_discovertableclasslinks)
 - [_discoverClassClassLinks](#_discoverclassclasslinks)
 - [addLink](#addlink) (5 params)
-- [removeLink](#removelink) (3 params)
-- [getRelationshipsFor](#getrelationshipsfor) (1 param) → `Object`
+- [removeLink](#removelink) (4 params)
+- [getRelationshipsFor](#getrelationshipsfor) (2 params) → `Object`
 - [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Object`
 - [save](#save)
 - [toJSON](#tojson) → `Text`
@@ -120,7 +120,7 @@ Discover Class → Class links (extends relationships)
 Function addLink($FromName : Text; $FromType : Text; $ToName : Text; $ToType : Text; $Note : Text)
 ```
 
-Initialize source entity if needed
+Add a manual link between entities
 
 **Parameters:**
 
@@ -138,7 +138,7 @@ Initialize source entity if needed
 
 
 ```4d
-Function removeLink($FromName : Text; $ToName : Text; $ToType : Text)
+Function removeLink($FromName : Text; $FromType : Text; $ToName : Text; $ToType : Text)
 ```
 
 Remove a link between entities
@@ -148,6 +148,7 @@ Remove a link between entities
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
 | `$FromName` | `Text` | - | - |
+| `$FromType` | `Text` | - | - |
 | `$ToName` | `Text` | - | - |
 | `$ToType` | `Text` | - | - |
 
@@ -157,7 +158,7 @@ Remove a link between entities
 
 
 ```4d
-Function getRelationshipsFor($EntityName : Text) -> Object
+Function getRelationshipsFor($EntityName : Text; $EntityType : Text) -> Object
 ```
 
 Get relationships for a specific entity
@@ -167,6 +168,7 @@ Get relationships for a specific entity
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
 | `$EntityName` | `Text` | - | - |
+| `$EntityType` | `Text` | - | - |
 
 **Returns:** `Object`
 

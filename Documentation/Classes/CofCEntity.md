@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T12:58:33.550Z*
+🕐 *Last updated: 2025-11-13T13:14:50.662Z*
 
 ---
 
@@ -40,7 +40,7 @@ Function cancel -> Boolean
 
 ## 🔗 Related Items
 
-### 🗂️ Used By Tables
+### 🗂️ Tables
 
 - [CofC](../Tables/CofC.md) - Entity class
 
