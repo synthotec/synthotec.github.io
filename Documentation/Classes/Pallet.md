@@ -3,13 +3,13 @@ layout : default
 title : Pallet
 parent : Classes
 ---
-# Pallet
+# Pallet [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
 
 📊 **Overview:** 15 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.600Z*
+🕐 *Last updated: 2025-11-13T23:29:28.125Z*
 
 ---
 

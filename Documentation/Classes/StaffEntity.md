@@ -3,13 +3,13 @@ layout : default
 title : StaffEntity
 parent : Classes
 ---
-# StaffEntity
+# StaffEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/StaffEntity.4dm)
 
 📊 **Overview:** 2 Functions | 1 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:39.097Z*
+🕐 *Last updated: 2025-11-13T23:29:28.656Z*
 
 ---
 

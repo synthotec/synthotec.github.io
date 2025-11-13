@@ -3,13 +3,13 @@ layout : default
 title : PermissionsEntity
 parent : Classes
 ---
-# PermissionsEntity
+# PermissionsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PermissionsEntity.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.626Z*
+🕐 *Last updated: 2025-11-13T23:29:28.156Z*
 
 ---
 

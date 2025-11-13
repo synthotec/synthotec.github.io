@@ -3,11 +3,11 @@ layout : default
 title : ExcelXMLFileStyle
 parent : Classes
 ---
-# ExcelXMLFileStyle
+# ExcelXMLFileStyle [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExcelXMLFileStyle.4dm)
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.268Z*
+🕐 *Last updated: 2025-11-13T23:29:27.757Z*
 
 ---
 

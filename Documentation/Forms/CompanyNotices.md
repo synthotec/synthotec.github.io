@@ -14,9 +14,9 @@ parent : Forms
 | **Destination** | detailScreen |
 | **Window Sizing** | X: fixed, Y: variable |
 | **Pages** | 4 |
-| **Form Method** | ✅ Yes |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CompanyNotices/method.4dm) |
 | **Object Methods** | 16 |
-| **Generated** | 🕐 2025-11-13T23:17:39.965Z |
+| **Generated** | 🕐 2025-11-13T23:29:29.596Z |
 
 ---
 

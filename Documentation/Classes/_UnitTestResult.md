@@ -3,11 +3,11 @@ layout : default
 title : _UnitTestResult
 parent : Classes
 ---
-# _UnitTestResult
+# _UnitTestResult [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/_UnitTestResult.4dm)
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-13T23:17:39.341Z*
+🕐 *Last updated: 2025-11-13T23:29:28.913Z*
 
 ---
 

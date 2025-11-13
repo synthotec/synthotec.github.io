@@ -3,11 +3,11 @@ layout : default
 title : PrintSettings
 parent : Classes
 ---
-# PrintSettings
+# PrintSettings [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintSettings.4dm)
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.757Z*
+🕐 *Last updated: 2025-11-13T23:29:28.305Z*
 
 ---
 

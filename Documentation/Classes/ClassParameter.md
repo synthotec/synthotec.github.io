@@ -3,7 +3,7 @@ layout : default
 title : ClassParameter
 parent : Classes
 ---
-# ClassParameter
+# ClassParameter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassParameter.4dm)
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T23:17:37.878Z*
+🕐 *Last updated: 2025-11-13T23:29:27.348Z*
 
 ---
 

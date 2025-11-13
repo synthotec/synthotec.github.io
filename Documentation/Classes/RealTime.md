@@ -3,13 +3,13 @@ layout : default
 title : RealTime
 parent : Classes
 ---
-# RealTime
+# RealTime [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTime.4dm)
 
 📊 **Overview:** 5 Functions | 2 Getters
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.894Z*
+🕐 *Last updated: 2025-11-13T23:29:28.454Z*
 
 ---
 

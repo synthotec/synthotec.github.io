@@ -3,13 +3,13 @@ layout : default
 title : Stock_Location
 parent : Classes
 ---
-# Stock_Location
+# Stock_Location [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
 
 📊 **Overview:** 1 Functions | 3 Getters
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.128Z*
+🕐 *Last updated: 2025-11-13T23:29:28.689Z*
 
 ---
 

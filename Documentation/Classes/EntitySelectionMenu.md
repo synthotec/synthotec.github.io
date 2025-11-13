@@ -3,11 +3,11 @@ layout : default
 title : EntitySelectionMenu
 parent : Classes
 ---
-# EntitySelectionMenu
+# EntitySelectionMenu [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntitySelectionMenu.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T23:17:38.197Z*
+🕐 *Last updated: 2025-11-13T23:29:27.680Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : BoxLabels
 parent : Classes
 ---
-# BoxLabels
+# BoxLabels [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabels.4dm)
 
 📊 **Overview:** 7 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:37.787Z*
+🕐 *Last updated: 2025-11-13T23:29:27.261Z*
 
 ---
 

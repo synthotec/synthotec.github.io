@@ -3,11 +3,11 @@ layout : default
 title : Slack
 parent : Classes
 ---
-# Slack
+# Slack [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Slack.4dm)
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:39.088Z*
+🕐 *Last updated: 2025-11-13T23:29:28.646Z*
 
 ---
 

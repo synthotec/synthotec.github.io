@@ -3,13 +3,13 @@ layout : default
 title : ToolDocument
 parent : Classes
 ---
-# ToolDocument
+# ToolDocument [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolDocument.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.206Z*
+🕐 *Last updated: 2025-11-13T23:29:28.763Z*
 
 ---
 

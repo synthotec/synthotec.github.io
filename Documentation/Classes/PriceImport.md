@@ -3,11 +3,11 @@ layout : default
 title : PriceImport
 parent : Classes
 ---
-# PriceImport
+# PriceImport [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PriceImport.4dm)
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.725Z*
+🕐 *Last updated: 2025-11-13T23:29:28.269Z*
 
 ---
 

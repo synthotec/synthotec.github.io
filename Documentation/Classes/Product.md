@@ -3,13 +3,13 @@ layout : default
 title : Product
 parent : Classes
 ---
-# Product
+# Product [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.809Z*
+🕐 *Last updated: 2025-11-13T23:29:28.360Z*
 
 ---
 

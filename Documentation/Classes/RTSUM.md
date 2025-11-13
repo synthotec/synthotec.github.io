@@ -3,13 +3,13 @@ layout : default
 title : RTSUM
 parent : Classes
 ---
-# RTSUM
+# RTSUM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUM.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.041Z*
+🕐 *Last updated: 2025-11-13T23:29:28.601Z*
 
 ---
 

@@ -13,9 +13,9 @@ parent : Forms
 |:---------|:------|
 | **Destination** | detailScreen |
 | **Pages** | 2 |
-| **Form Method** | ✅ Yes |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PI_List_Editor/method.4dm) |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T23:17:40.105Z |
+| **Generated** | 🕐 2025-11-13T23:29:29.741Z |
 
 ---
 

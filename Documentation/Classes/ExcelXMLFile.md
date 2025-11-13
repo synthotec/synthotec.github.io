@@ -3,7 +3,7 @@ layout : default
 title : ExcelXMLFile
 parent : Classes
 ---
-# ExcelXMLFile
+# ExcelXMLFile [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExcelXMLFile.4dm)
 
 📊 **Overview:** 7 Properties | 1 Constructor | 7 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T23:17:38.259Z*
+🕐 *Last updated: 2025-11-13T23:29:27.746Z*
 
 ---
 

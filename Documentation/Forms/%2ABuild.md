@@ -15,9 +15,9 @@ parent : Forms
 | **Window Title** | window title |
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 3 |
-| **Form Method** | ✅ Yes |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2ABuild/method.4dm) |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T23:17:39.823Z |
+| **Generated** | 🕐 2025-11-13T23:29:29.460Z |
 
 ---
 

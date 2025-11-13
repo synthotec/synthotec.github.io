@@ -3,11 +3,11 @@ layout : default
 title : Stock
 parent : Classes
 ---
-# Stock
+# Stock [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock.4dm)
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:39.124Z*
+🕐 *Last updated: 2025-11-13T23:29:28.685Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : Approvals
 parent : Classes
 ---
-# Approvals
+# Approvals [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Approvals.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:37.763Z*
+🕐 *Last updated: 2025-11-13T23:29:27.237Z*
 
 ---
 

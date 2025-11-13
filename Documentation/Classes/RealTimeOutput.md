@@ -3,7 +3,7 @@ layout : default
 title : RealTimeOutput
 parent : Classes
 ---
-# RealTimeOutput
+# RealTimeOutput [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeOutput.4dm)
 
 📊 **Overview:** 1 Constructor | 5 Getters
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T23:17:38.918Z*
+🕐 *Last updated: 2025-11-13T23:29:28.483Z*
 
 ---
 

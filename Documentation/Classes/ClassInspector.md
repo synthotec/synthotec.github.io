@@ -3,7 +3,7 @@ layout : default
 title : ClassInspector
 parent : Classes
 ---
-# ClassInspector
+# ClassInspector [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassInspector.4dm)
 
 📊 **Overview:** 10 Properties | 1 Constructor | 14 Functions
 
@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T23:17:37.875Z*
+🕐 *Last updated: 2025-11-13T23:29:27.345Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : Grippers
 parent : Classes
 ---
-# Grippers
+# Grippers [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Grippers.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.379Z*
+🕐 *Last updated: 2025-11-13T23:29:27.872Z*
 
 ---
 

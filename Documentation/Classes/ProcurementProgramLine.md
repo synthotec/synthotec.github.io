@@ -3,7 +3,7 @@ layout : default
 title : ProcurementProgramLine
 parent : Classes
 ---
-# ProcurementProgramLine
+# ProcurementProgramLine [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgramLine.4dm)
 
 📊 **Overview:** 18 Properties | 1 Constructor | 14 Functions | 13 Getters
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T23:17:38.805Z*
+🕐 *Last updated: 2025-11-13T23:29:28.355Z*
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : ClassFunction
 parent : Classes
 ---
-# ClassFunction
+# ClassFunction [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassFunction.4dm)
 
 📊 **Overview:** 1 Constructor | 3 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class function
 
-🕐 *Last updated: 2025-11-13T23:17:37.830Z*
+🕐 *Last updated: 2025-11-13T23:29:27.301Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : SuppliersEntity
 parent : Classes
 ---
-# SuppliersEntity
+# SuppliersEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SuppliersEntity.4dm)
 
 📊 **Overview:** 
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:39.130Z*
+🕐 *Last updated: 2025-11-13T23:29:28.691Z*
 
 ---
 

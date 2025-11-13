@@ -3,13 +3,13 @@ layout : default
 title : PickRequestEntity
 parent : Classes
 ---
-# PickRequestEntity
+# PickRequestEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequestEntity.4dm)
 
 📊 **Overview:** 11 Functions | 7 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.711Z*
+🕐 *Last updated: 2025-11-13T23:29:28.249Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : ErrorReportEntity
 parent : Classes
 ---
-# ErrorReportEntity
+# ErrorReportEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorReportEntity.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.223Z*
+🕐 *Last updated: 2025-11-13T23:29:27.708Z*
 
 ---
 

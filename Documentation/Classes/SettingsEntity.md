@@ -3,13 +3,13 @@ layout : default
 title : SettingsEntity
 parent : Classes
 ---
-# SettingsEntity
+# SettingsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SettingsEntity.4dm)
 
 📊 **Overview:** 5 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:39.060Z*
+🕐 *Last updated: 2025-11-13T23:29:28.620Z*
 
 ---
 

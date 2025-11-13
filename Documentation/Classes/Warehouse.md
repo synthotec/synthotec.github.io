@@ -3,13 +3,13 @@ layout : default
 title : Warehouse
 parent : Classes
 ---
-# Warehouse
+# Warehouse [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Warehouse.4dm)
 
 📊 **Overview:** 8 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.303Z*
+🕐 *Last updated: 2025-11-13T23:29:28.868Z*
 
 ---
 

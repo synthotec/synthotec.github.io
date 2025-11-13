@@ -3,13 +3,13 @@ layout : default
 title : ToolNotice
 parent : Classes
 ---
-# ToolNotice
+# ToolNotice [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.211Z*
+🕐 *Last updated: 2025-11-13T23:29:28.768Z*
 
 ---
 

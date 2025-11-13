@@ -15,9 +15,9 @@ parent : Forms
 | **Window Title** | window title |
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
-| **Form Method** | ✅ Yes |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QualitySystemProcedures/method.4dm) |
 | **Object Methods** | 11 |
-| **Generated** | 🕐 2025-11-13T23:17:40.139Z |
+| **Generated** | 🕐 2025-11-13T23:29:29.776Z |
 
 ---
 

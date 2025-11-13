@@ -3,13 +3,13 @@ layout : default
 title : ToolTemperatureTarget
 parent : Classes
 ---
-# ToolTemperatureTarget
+# ToolTemperatureTarget [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTarget.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.245Z*
+🕐 *Last updated: 2025-11-13T23:29:28.802Z*
 
 ---
 

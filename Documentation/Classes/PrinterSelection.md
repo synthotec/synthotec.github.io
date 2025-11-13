@@ -3,13 +3,13 @@ layout : default
 title : PrinterSelection
 parent : Classes
 ---
-# PrinterSelection
+# PrinterSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:17:38.745Z*
+🕐 *Last updated: 2025-11-13T23:29:28.292Z*
 
 ---
 

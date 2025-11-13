@@ -3,11 +3,11 @@ layout : default
 title : CollectionObject
 parent : Classes
 ---
-# CollectionObject
+# CollectionObject [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CollectionObject.4dm)
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:37.893Z*
+🕐 *Last updated: 2025-11-13T23:29:27.363Z*
 
 ---
 

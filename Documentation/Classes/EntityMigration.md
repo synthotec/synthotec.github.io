@@ -3,7 +3,7 @@ layout : default
 title : EntityMigration
 parent : Classes
 ---
-# EntityMigration
+# EntityMigration [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntityMigration.4dm)
 
 📊 **Overview:** 6 Properties | 1 Constructor | 10 Functions | 7 Getters
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T23:17:38.179Z*
+🕐 *Last updated: 2025-11-13T23:29:27.660Z*
 
 ---
 

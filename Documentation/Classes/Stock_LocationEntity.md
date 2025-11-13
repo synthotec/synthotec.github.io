@@ -3,13 +3,13 @@ layout : default
 title : Stock_LocationEntity
 parent : Classes
 ---
-# Stock_LocationEntity
+# Stock_LocationEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_LocationEntity.4dm)
 
 📊 **Overview:** 
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:39.129Z*
+🕐 *Last updated: 2025-11-13T23:29:28.690Z*
 
 ---
 

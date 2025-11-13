@@ -3,11 +3,11 @@ layout : default
 title : ExcelXMLFileRow
 parent : Classes
 ---
-# ExcelXMLFileRow
+# ExcelXMLFileRow [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExcelXMLFileRow.4dm)
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.262Z*
+🕐 *Last updated: 2025-11-13T23:29:27.750Z*
 
 ---
 

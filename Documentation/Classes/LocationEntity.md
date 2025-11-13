@@ -3,13 +3,13 @@ layout : default
 title : LocationEntity
 parent : Classes
 ---
-# LocationEntity
+# LocationEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
 
 📊 **Overview:** 5 Functions | 5 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.433Z*
+🕐 *Last updated: 2025-11-13T23:29:27.932Z*
 
 ---
 

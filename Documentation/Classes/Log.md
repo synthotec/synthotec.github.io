@@ -3,13 +3,13 @@ layout : default
 title : Log
 parent : Classes
 ---
-# Log
+# Log [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Log.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.436Z*
+🕐 *Last updated: 2025-11-13T23:29:27.935Z*
 
 ---
 

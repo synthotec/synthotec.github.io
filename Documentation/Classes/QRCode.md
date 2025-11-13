@@ -3,11 +3,11 @@ layout : default
 title : QRCode
 parent : Classes
 ---
-# QRCode
+# QRCode [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QRCode.4dm)
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:17:38.866Z*
+🕐 *Last updated: 2025-11-13T23:29:28.424Z*
 
 ---
 

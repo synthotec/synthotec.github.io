@@ -3,11 +3,11 @@ layout : default
 title : RealTimeTemperatureSensor
 parent : Classes
 ---
-# RealTimeTemperatureSensor
+# RealTimeTemperatureSensor [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeTemperatureSensor.4dm)
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:17:38.978Z*
+🕐 *Last updated: 2025-11-13T23:29:28.540Z*
 
 ---
 

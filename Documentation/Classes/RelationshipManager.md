@@ -3,7 +3,7 @@ layout : default
 title : RelationshipManager
 parent : Classes
 ---
-# RelationshipManager
+# RelationshipManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RelationshipManager.4dm)
 
 📊 **Overview:** 3 Properties | 1 Constructor | 11 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Set up paths
 
-🕐 *Last updated: 2025-11-13T23:17:39.021Z*
+🕐 *Last updated: 2025-11-13T23:29:28.582Z*
 
 ---
 

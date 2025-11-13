@@ -3,13 +3,13 @@ layout : default
 title : Material
 parent : Classes
 ---
-# Material
+# Material [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Material.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.439Z*
+🕐 *Last updated: 2025-11-13T23:29:27.939Z*
 
 ---
 

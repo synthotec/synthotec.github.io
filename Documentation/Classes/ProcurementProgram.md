@@ -3,11 +3,11 @@ layout : default
 title : ProcurementProgram
 parent : Classes
 ---
-# ProcurementProgram
+# ProcurementProgram [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgram.4dm)
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:17:38.767Z*
+🕐 *Last updated: 2025-11-13T23:29:28.316Z*
 
 ---
 

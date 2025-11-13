@@ -3,13 +3,13 @@ layout : default
 title : RealTimeSensorExceptionsSelection
 parent : Classes
 ---
-# RealTimeSensorExceptionsSelection
+# RealTimeSensorExceptionsSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsSelection.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:17:38.973Z*
+🕐 *Last updated: 2025-11-13T23:29:28.537Z*
 
 ---
 

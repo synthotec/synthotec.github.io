@@ -3,13 +3,13 @@ layout : default
 title : Translation
 parent : Classes
 ---
-# Translation
+# Translation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Translation.4dm)
 
 📊 **Overview:** 4 Functions | 2 Getters
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.272Z*
+🕐 *Last updated: 2025-11-13T23:29:28.831Z*
 
 ---
 

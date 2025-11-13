@@ -3,13 +3,13 @@ layout : default
 title : PackagingCats
 parent : Classes
 ---
-# PackagingCats
+# PackagingCats [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackagingCats.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.505Z*
+🕐 *Last updated: 2025-11-13T23:29:28.019Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : ProductMaterialOptions
 parent : Classes
 ---
-# ProductMaterialOptions
+# ProductMaterialOptions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptions.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.835Z*
+🕐 *Last updated: 2025-11-13T23:29:28.390Z*
 
 ---
 

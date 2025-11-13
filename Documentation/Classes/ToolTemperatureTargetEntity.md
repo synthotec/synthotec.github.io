@@ -3,13 +3,13 @@ layout : default
 title : ToolTemperatureTargetEntity
 parent : Classes
 ---
-# ToolTemperatureTargetEntity
+# ToolTemperatureTargetEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTargetEntity.4dm)
 
 📊 **Overview:** 3 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:39.257Z*
+🕐 *Last updated: 2025-11-13T23:29:28.811Z*
 
 ---
 

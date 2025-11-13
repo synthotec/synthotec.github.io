@@ -3,7 +3,7 @@ layout : default
 title : Documentation
 parent : Classes
 ---
-# Documentation
+# Documentation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Documentation.4dm)
 
 📊 **Overview:** 1 Properties | 1 Constructor | 15 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T23:17:38.134Z*
+🕐 *Last updated: 2025-11-13T23:29:27.609Z*
 
 ---
 

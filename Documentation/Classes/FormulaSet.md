@@ -3,11 +3,11 @@ layout : default
 title : FormulaSet
 parent : Classes
 ---
-# FormulaSet
+# FormulaSet [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/FormulaSet.4dm)
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.368Z*
+🕐 *Last updated: 2025-11-13T23:29:27.860Z*
 
 ---
 

@@ -14,9 +14,9 @@ parent : Forms
 | **Destination** | detailPrinter |
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 2 |
-| **Form Method** | ✅ Yes |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletIDLabel/method.4dm) |
 | **Object Methods** | 5 |
-| **Generated** | 🕐 2025-11-13T23:17:40.094Z |
+| **Generated** | 🕐 2025-11-13T23:29:29.727Z |
 
 ---
 

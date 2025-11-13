@@ -3,13 +3,13 @@ layout : default
 title : RealTimeSensorExceptionsEntity
 parent : Classes
 ---
-# RealTimeSensorExceptionsEntity
+# RealTimeSensorExceptionsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsEntity.4dm)
 
 📊 **Overview:** 3 Functions | 4 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.969Z*
+🕐 *Last updated: 2025-11-13T23:29:28.532Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : WorksOrder
 parent : Classes
 ---
-# WorksOrder
+# WorksOrder [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrder.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.305Z*
+🕐 *Last updated: 2025-11-13T23:29:28.871Z*
 
 ---
 

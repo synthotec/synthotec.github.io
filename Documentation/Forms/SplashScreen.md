@@ -15,8 +15,8 @@ parent : Forms
 | **Window Title** | window title |
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 3 |
-| **Form Method** | ✅ Yes |
-| **Generated** | 🕐 2025-11-13T23:17:40.170Z |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SplashScreen/method.4dm) |
+| **Generated** | 🕐 2025-11-13T23:29:29.808Z |
 
 ---
 

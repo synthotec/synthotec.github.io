@@ -3,13 +3,13 @@ layout : default
 title : ErrorEntity
 parent : Classes
 ---
-# ErrorEntity
+# ErrorEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorEntity.4dm)
 
 📊 **Overview:** 1 Functions | 6 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.210Z*
+🕐 *Last updated: 2025-11-13T23:29:27.696Z*
 
 ---
 

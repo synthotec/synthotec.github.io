@@ -3,13 +3,13 @@ layout : default
 title : QualitySystemResults
 parent : Classes
 ---
-# QualitySystemResults
+# QualitySystemResults [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QualitySystemResults.4dm)
 
 📊 **Overview:** 
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.871Z*
+🕐 *Last updated: 2025-11-13T23:29:28.430Z*
 
 ---
 

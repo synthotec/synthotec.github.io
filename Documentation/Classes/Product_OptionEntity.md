@@ -3,13 +3,13 @@ layout : default
 title : Product_OptionEntity
 parent : Classes
 ---
-# Product_OptionEntity
+# Product_OptionEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Product_OptionEntity.4dm)
 
 📊 **Overview:** 2 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.854Z*
+🕐 *Last updated: 2025-11-13T23:29:28.410Z*
 
 ---
 

@@ -3,7 +3,7 @@ layout : default
 title : ExampleClass
 parent : Classes
 ---
-# ExampleClass
+# ExampleClass [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExampleClass.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T23:17:38.228Z*
+🕐 *Last updated: 2025-11-13T23:29:27.713Z*
 
 ---
 

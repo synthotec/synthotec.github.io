@@ -3,7 +3,7 @@ layout : default
 title : Email
 parent : Classes
 ---
-# Email
+# Email [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Email.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 12 Functions
 
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T23:17:38.153Z*
+🕐 *Last updated: 2025-11-13T23:29:27.628Z*
 
 ---
 

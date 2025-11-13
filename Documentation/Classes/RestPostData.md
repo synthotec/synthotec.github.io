@@ -3,11 +3,11 @@ layout : default
 title : RestPostData
 parent : Classes
 ---
-# RestPostData
+# RestPostData [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RestPostData.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:39.025Z*
+🕐 *Last updated: 2025-11-13T23:29:28.586Z*
 
 ---
 

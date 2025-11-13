@@ -3,13 +3,13 @@ layout : default
 title : Advice_NoteEntity
 parent : Classes
 ---
-# Advice_NoteEntity
+# Advice_NoteEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
 
 📊 **Overview:** 4 Functions
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:37.762Z*
+🕐 *Last updated: 2025-11-13T23:29:27.235Z*
 
 ---
 

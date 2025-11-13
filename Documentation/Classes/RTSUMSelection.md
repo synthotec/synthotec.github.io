@@ -3,13 +3,13 @@ layout : default
 title : RTSUMSelection
 parent : Classes
 ---
-# RTSUMSelection
+# RTSUMSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUMSelection.4dm)
 
 📊 **Overview:** 1 Functions
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:17:39.045Z*
+🕐 *Last updated: 2025-11-13T23:29:28.604Z*
 
 ---
 

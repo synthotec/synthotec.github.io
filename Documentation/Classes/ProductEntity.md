@@ -3,13 +3,13 @@ layout : default
 title : ProductEntity
 parent : Classes
 ---
-# ProductEntity
+# ProductEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductEntity.4dm)
 
 📊 **Overview:** 12 Functions | 3 Getters | 1 Setters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.833Z*
+🕐 *Last updated: 2025-11-13T23:29:28.387Z*
 
 ---
 

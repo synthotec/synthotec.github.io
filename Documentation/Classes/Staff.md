@@ -3,13 +3,13 @@ layout : default
 title : Staff
 parent : Classes
 ---
-# Staff
+# Staff [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
 
 📊 **Overview:** 4 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:39.093Z*
+🕐 *Last updated: 2025-11-13T23:29:28.651Z*
 
 ---
 

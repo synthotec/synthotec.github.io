@@ -3,13 +3,13 @@ layout : default
 title : MaterialStockTake
 parent : Classes
 ---
-# MaterialStockTake
+# MaterialStockTake [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockTake.4dm)
 
 📊 **Overview:** 5 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.475Z*
+🕐 *Last updated: 2025-11-13T23:29:27.981Z*
 
 ---
 

@@ -3,11 +3,11 @@ layout : default
 title : Menu
 parent : Classes
 ---
-# Menu
+# Menu [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Menu.4dm)
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T23:17:38.486Z*
+🕐 *Last updated: 2025-11-13T23:29:27.995Z*
 
 ---
 

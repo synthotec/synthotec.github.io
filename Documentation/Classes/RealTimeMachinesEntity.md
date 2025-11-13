@@ -3,13 +3,13 @@ layout : default
 title : RealTimeMachinesEntity
 parent : Classes
 ---
-# RealTimeMachinesEntity
+# RealTimeMachinesEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachinesEntity.4dm)
 
 📊 **Overview:** 1 Functions | 6 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:17:38.904Z*
+🕐 *Last updated: 2025-11-13T23:29:28.466Z*
 
 ---
 

@@ -3,13 +3,13 @@ layout : default
 title : Printer
 parent : Classes
 ---
-# Printer
+# Printer [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
 
 📊 **Overview:** 3 Functions
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:17:38.731Z*
+🕐 *Last updated: 2025-11-13T23:29:28.277Z*
 
 ---
 
