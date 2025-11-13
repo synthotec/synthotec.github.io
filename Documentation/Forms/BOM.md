@@ -15,7 +15,7 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 8 |
-| **Generated** | 🕐 2025-11-13T16:07:49.814Z |
+| **Generated** | 🕐 2025-11-13T16:13:52.399Z |
 
 ---
 
@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (10)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#-tables) (1)
 - [📸 Screenshots](#-screenshots) (1)
   - [BOM Management Screen](#bom-management-screen)
 
@@ -75,6 +77,12 @@ This form handles **17** of **44** possible events:
 | Button | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button.4dm) |
 | Button2 | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button2.4dm) |
 | Button3 | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button3.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [BOM](../Tables/BOM.md) - Main form for Bill of Materials management
 
 ## 📸 Screenshots
 

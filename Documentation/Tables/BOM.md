@@ -23,6 +23,7 @@ parent : Tables
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 Related Items](#-related-items)
   - [Classes](#-classes) (2)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -98,6 +99,10 @@ parent : Tables
 
 - [BOM](../Classes/BOM.md) - DataClass class
 - [BOMEntity](../Classes/BOMEntity.md) - Entity class
+
+### 📄 Forms
+
+- [BOM](../Forms/BOM.md) - Main form for Bill of Materials management
 
 ---
 
