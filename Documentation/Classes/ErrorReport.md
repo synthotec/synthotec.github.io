@@ -5,28 +5,28 @@ parent : Classes
 ---
 # ErrorReport
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [processError()](#processerror)
+🕐 *Last updated: 2025-11-13T00:47:52.522Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### processError {#processerror}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function processError
-```
+**⚙️ Functions (1):**
+
+- [processError](#processerror) 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ErrorReport.4dm*
-*Last updated: 2025-11-13T00:30:41.380Z*

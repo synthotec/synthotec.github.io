@@ -5,30 +5,28 @@ parent : Classes
 ---
 # ToolDocument
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [newUsingEntry()](#newusingentry)
+🕐 *Last updated: 2025-11-13T00:47:54.098Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### newUsingEntry {#newusingentry}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> cs.ToolDocumentEntity
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.ToolDocumentEntity`
+- [newUsingEntry](#newusingentry) (1 param) → `cs.ToolDocumentEntity` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolDocument.4dm*
-*Last updated: 2025-11-13T00:30:42.975Z*

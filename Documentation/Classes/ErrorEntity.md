@@ -5,100 +5,39 @@ parent : Classes
 ---
 # ErrorEntity
 
+📊 **Overview:** 1 Functions | 6 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [ListboxMeta->$ListboxMeta() [getter]](#listboxmeta->$listboxmeta)
-- [GitHubIssueText() [getter]](#githubissuetext)
-- [GitHubIssueLabel() [getter]](#githubissuelabel)
-- [GitHubIssueTitle() [getter]](#githubissuetitle)
-- [createGitHubIssue()](#creategithubissue)
-- [FirstOccurrence() [getter]](#firstoccurrence)
-- [LastOccurrence() [getter]](#lastoccurrence)
+🕐 *Last updated: 2025-11-13T00:47:52.515Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
- `[getter]`
+### ⚙️ Functions
 
-```4d
-Function ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.UI.ListBoxMeta`
+- [createGitHubIssue](#creategithubissue)
 
----
+**🔍 Getters (6):**
 
-### GitHubIssueText {#githubissuetext}
- `[getter]`
-
-```4d
-Function GitHubIssueText -> Text
-```
-
-**Returns:** `Text`
+- [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) → `cs.UI.ListBoxMeta`
+- [GitHubIssueText](#githubissuetext) → `Text`
+- [GitHubIssueLabel](#githubissuelabel) → `Text`
+- [GitHubIssueTitle](#githubissuetitle) → `Text`
+- [FirstOccurrence](#firstoccurrence) → `Text`
+- [LastOccurrence](#lastoccurrence) → `Text`
 
 ---
 
-### GitHubIssueLabel {#githubissuelabel}
- `[getter]`
+## ⚙️ Functions
 
-```4d
-Function GitHubIssueLabel -> Text
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Text`
-
----
-
-### GitHubIssueTitle {#githubissuetitle}
- `[getter]`
-
-```4d
-Function GitHubIssueTitle -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### createGitHubIssue {#creategithubissue}
-
-
-```4d
-Function createGitHubIssue
-```
-
----
-
-### FirstOccurrence {#firstoccurrence}
- `[getter]`
-
-```4d
-Function FirstOccurrence -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### LastOccurrence {#lastoccurrence}
- `[getter]`
-
-```4d
-Function LastOccurrence -> Text
-```
-
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ErrorEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.368Z*

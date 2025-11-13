@@ -5,30 +5,28 @@ parent : Classes
 ---
 # File
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [upload()](#upload)
+🕐 *Last updated: 2025-11-13T00:47:52.620Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### upload {#upload}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function upload -> cs.FileEntity
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.FileEntity`
+- [upload](#upload) → `cs.FileEntity` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from File.4dm*
-*Last updated: 2025-11-13T00:30:41.497Z*

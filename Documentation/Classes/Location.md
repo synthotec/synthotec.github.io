@@ -5,66 +5,31 @@ parent : Classes
 ---
 # Location
 
+📊 **Overview:** 4 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getUsingScanner()](#getusingscanner)
-- [newLocation()](#newlocation)
-- [restClearStockLocation()](#restclearstocklocation)
-- [restSetStockLocation()](#restsetstocklocation)
+🕐 *Last updated: 2025-11-13T00:47:52.789Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getUsingScanner {#getusingscanner}
+### ⚙️ Functions
 
+**⚙️ Functions (4):**
 
-```4d
-Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
-```
-
-**Returns:** `cs.LocationEntity`
-
----
-
-### newLocation {#newlocation}
- `[local]`
-
-```4d
-Function newLocation($ParentLocationEntity : cs.LocationEntity) -> cs.LocationEntity
-```
-
-**Returns:** `cs.LocationEntity`
+- [getUsingScanner](#getusingscanner) (1 param) → `cs.LocationEntity`
+- [newLocation](#newlocation) (1 param) → `cs.LocationEntity` 🖥️
+- [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
+- [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
 
 ---
 
-### restClearStockLocation {#restclearstocklocation}
- `[exposed]`
+## ⚙️ Functions
 
-```4d
-Function restClearStockLocation($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restSetStockLocation {#restsetstocklocation}
- `[exposed]`
-
-```4d
-Function restSetStockLocation($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Location.4dm*
-*Last updated: 2025-11-13T00:30:41.700Z*

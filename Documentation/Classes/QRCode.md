@@ -5,104 +5,43 @@ parent : Classes
 ---
 # QRCode
 
-## Table of Contents
+📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [fillBoxLabelsQR()](#fillboxlabelsqr)
-- [fillPalletQR()](#fillpalletqr)
-- [fillPrinterQR()](#fillprinterqr)
-- [getJson()](#getjson)
-- [generate()](#generate)
-- [BarcodeType() [getter]](#barcodetype)
-- [PrimaryKey() [getter]](#primarykey)
+🕐 *Last updated: 2025-11-13T00:47:53.562Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor) (2 params)
 
-### fillBoxLabelsQR {#fillboxlabelsqr}
+**⚙️ Functions (5):**
 
+- [fillBoxLabelsQR](#fillboxlabelsqr) (1 param)
+- [fillPalletQR](#fillpalletqr) (1 param)
+- [fillPrinterQR](#fillprinterqr) (1 param)
+- [getJson](#getjson) → `Text`
+- [generate](#generate) → `Picture`
 
-```4d
-Function fillBoxLabelsQR($BoxLabelID : Integer)
-```
+**🔍 Getters (2):**
 
----
-
-### fillPalletQR {#fillpalletqr}
-
-
-```4d
-Function fillPalletQR($PalletID : Integer)
-```
+- [BarcodeType](#barcodetype) → `Text`
+- [PrimaryKey](#primarykey) → `Integer`
 
 ---
 
-### fillPrinterQR {#fillprinterqr}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function fillPrinterQR($PrinterID : Integer)
-```
+### ⚙️ Regular Functions
 
----
-
-### getJson {#getjson}
-
-
-```4d
-Function getJson -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### generate {#generate}
-
-
-```4d
-Function generate -> Picture
-```
-
-**Returns:** `Picture`
-
----
-
-### BarcodeType {#barcodetype}
- `[getter]`
-
-```4d
-Function BarcodeType -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### PrimaryKey {#primarykey}
- `[getter]`
-
-```4d
-Function PrimaryKey -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from QRCode.4dm*
-*Last updated: 2025-11-13T00:30:42.441Z*

@@ -5,66 +5,36 @@ parent : Classes
 ---
 # Stock_Location
 
+📊 **Overview:** 1 Functions | 3 Getters
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getDefaultDespatchLocation()](#getdefaultdespatchlocation)
-- [DefaultDespatchLocation() [getter]](#defaultdespatchlocation)
-- [DefaultPackingLocation() [getter]](#defaultpackinglocation)
-- [PartBoxStore() [getter]](#partboxstore)
+🕐 *Last updated: 2025-11-13T00:47:53.956Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getDefaultDespatchLocation {#getdefaultdespatchlocation}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.Stock_LocationEntity`
+- [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
 
----
+**🔍 Getters (3):**
 
-### DefaultDespatchLocation {#defaultdespatchlocation}
- `[local]` `[getter]`
-
-```4d
-Function DefaultDespatchLocation -> cs.Stock_LocationEntity
-```
-
-**Returns:** `cs.Stock_LocationEntity`
+- [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
+- [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
+- [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
 
 ---
 
-### DefaultPackingLocation {#defaultpackinglocation}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function DefaultPackingLocation -> cs.Stock_LocationEntity
-```
+### ⚙️ Regular Functions
 
-**Returns:** `cs.Stock_LocationEntity`
-
----
-
-### PartBoxStore {#partboxstore}
- `[local]` `[getter]`
-
-```4d
-Function PartBoxStore -> cs.Stock_LocationEntity
-```
-
-**Returns:** `cs.Stock_LocationEntity`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from Stock_Location.4dm*
-*Last updated: 2025-11-13T00:30:42.859Z*

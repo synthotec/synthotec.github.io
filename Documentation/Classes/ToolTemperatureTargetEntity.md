@@ -5,50 +5,30 @@ parent : Classes
 ---
 # ToolTemperatureTargetEntity
 
+📊 **Overview:** 3 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [SetTargetValues()](#settargetvalues)
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:54.189Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### SetTargetValues {#settargetvalues}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function SetTargetValues($ToolsEntity : cs.ToolsEntity)
-```
+**⚙️ Functions (3):**
 
----
-
-### getMigrationRules {#getmigrationrules}
- `[local]`
-
-```4d
-Function getMigrationRules($RemoteEntity : cs.ToolTemperatureTargetEntity) -> Collection
-```
-
-**Returns:** `Collection`
+- [SetTargetValues](#settargetvalues) (1 param) 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureTargetEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolTemperatureTargetEntity.4dm*
-*Last updated: 2025-11-13T00:30:43.076Z*

@@ -5,30 +5,28 @@ parent : Classes
 ---
 # PrintJobEntity
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [print()](#print)
+🕐 *Last updated: 2025-11-13T00:47:53.351Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### print {#print}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function print -> Boolean
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Boolean`
+- [print](#print) → `Boolean` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PrintJobEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.221Z*

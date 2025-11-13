@@ -5,30 +5,28 @@ parent : Classes
 ---
 # ForecastEntity
 
+📊 **Overview:** 1 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [Consignment() [getter]](#consignment)
+🕐 *Last updated: 2025-11-13T00:47:52.643Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### Consignment {#consignment}
- `[getter]`
+### ⚙️ Functions
 
-```4d
-Function Consignment -> Boolean
-```
+**🔍 Getters (1):**
 
-**Returns:** `Boolean`
+- [Consignment](#consignment) → `Boolean`
 
 ---
+
+## ⚙️ Functions
+
+### 🔍 Getters
 
 ---
 
 *Generated from ForecastEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.534Z*

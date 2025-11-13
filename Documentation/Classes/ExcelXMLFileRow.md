@@ -5,25 +5,47 @@ parent : Classes
 ---
 # ExcelXMLFileRow
 
-## Table of Contents
+📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-### Properties
-
-- [Cells](#cells)
-- [CellType_Number](#celltypenumber)
-- [CellType_String](#celltypestring)
-- [CellType_ISODateTime](#celltypeisodatetime)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [addCell()](#addcell)
+🕐 *Last updated: 2025-11-13T00:47:52.586Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### Cells {#cells}
+### 📋 Properties (4)
+
+- [Cells](#cells) : `Collection`
+- [CellType_Number](#celltypenumber) : `Text`
+- [CellType_String](#celltypestring) : `Text`
+- [CellType_ISODateTime](#celltypeisodatetime)
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**⚙️ Functions (1):**
+
+- [addCell](#addcell) (4 params)
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Cells` | `Collection` | `[]` |  |
+| `CellType_Number` | `Text` | `"Number"` |  |
+| `CellType_String` | `Text` | `"String"` |  |
+| `CellType_ISODateTime` | *Not specified* | `"DateTime"` |  |
+
+### Detailed Information
+
+#### Cells {#cells}
 
 **Type:** `Collection`
 
@@ -31,7 +53,7 @@ parent : Classes
 
 ---
 
-### CellType_Number {#celltypenumber}
+#### CellType_Number {#celltypenumber}
 
 **Type:** `Text`
 
@@ -39,7 +61,7 @@ parent : Classes
 
 ---
 
-### CellType_String {#celltypestring}
+#### CellType_String {#celltypestring}
 
 **Type:** `Text`
 
@@ -47,7 +69,7 @@ parent : Classes
 
 ---
 
-### CellType_ISODateTime {#celltypeisodatetime}
+#### CellType_ISODateTime {#celltypeisodatetime}
 
 **Type:** *Not specified*
 
@@ -55,27 +77,12 @@ parent : Classes
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### addCell {#addcell}
-
-
-```4d
-Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ExcelXMLFileRow.4dm*
-*Last updated: 2025-11-13T00:30:41.461Z*

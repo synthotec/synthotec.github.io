@@ -5,107 +5,99 @@ parent : Classes
 ---
 # QueryEventHandler
 
-## Table of Contents
+📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-### Properties
-
-- [value](#value)
-- [operator](#operator)
-- [eventKind](#eventkind)
-- [attributeName](#attributename)
-- [dataClassName](#dataclassname)
-- [QueryEventObject](#queryeventobject)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [setResult()](#setresult)
-- [valueType() [getter]](#valuetype)
-- [booleanResult() [getter]](#booleanresult)
+🕐 *Last updated: 2025-11-13T00:47:53.586Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### value {#value}
+### 📋 Properties (6)
+
+- [value](#value) : `Variant`
+- [operator](#operator) : `Text`
+- [eventKind](#eventkind) : `Text`
+- [attributeName](#attributename) : `Text`
+- [dataClassName](#dataclassname) : `Text`
+- [QueryEventObject](#queryeventobject) : `Object`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (1):**
+
+- [setResult](#setresult) (2 params)
+
+**🔍 Getters (2):**
+
+- [valueType](#valuetype) → `Integer`
+- [booleanResult](#booleanresult) → `Variant`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `value` | `Variant` | - |  |
+| `operator` | `Text` | - |  |
+| `eventKind` | `Text` | - |  |
+| `attributeName` | `Text` | - |  |
+| `dataClassName` | `Text` | - |  |
+| `QueryEventObject` | `Object` | - |  |
+
+### Detailed Information
+
+#### value {#value}
 
 **Type:** `Variant`
 
 ---
 
-### operator {#operator}
+#### operator {#operator}
 
 **Type:** `Text`
 
 ---
 
-### eventKind {#eventkind}
+#### eventKind {#eventkind}
 
 **Type:** `Text`
 
 ---
 
-### attributeName {#attributename}
+#### attributeName {#attributename}
 
 **Type:** `Text`
 
 ---
 
-### dataClassName {#dataclassname}
+#### dataClassName {#dataclassname}
 
 **Type:** `Text`
 
 ---
 
-### QueryEventObject {#queryeventobject}
+#### QueryEventObject {#queryeventobject}
 
 **Type:** `Object`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($QueryEventObject : Object)
-```
+### ⚙️ Regular Functions
 
----
-
-### setResult {#setresult}
-
-
-```4d
-Function setResult($QueryText : Text; $QueryParameters : Collection)
-```
-
----
-
-### valueType {#valuetype}
- `[getter]`
-
-```4d
-Function valueType -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### booleanResult {#booleanresult}
- `[getter]`
-
-```4d
-Function booleanResult -> Variant
-```
-
-**Returns:** `Variant`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from QueryEventHandler.4dm*
-*Last updated: 2025-11-13T00:30:42.468Z*

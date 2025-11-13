@@ -5,30 +5,28 @@ parent : Classes
 ---
 # OrderPickRequestSelection
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [getUnprocessedQuantity()](#getunprocessedquantity)
+🕐 *Last updated: 2025-11-13T00:47:52.918Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getUnprocessedQuantity {#getunprocessedquantity}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getUnprocessedQuantity -> Integer
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Integer`
+- [getUnprocessedQuantity](#getunprocessedquantity) → `Integer` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from OrderPickRequestSelection.4dm*
-*Last updated: 2025-11-13T00:30:41.867Z*

@@ -5,40 +5,29 @@ parent : Classes
 ---
 # PlanningWheel
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [insertLine()](#insertline)
-- [reducePlannedStand()](#reduceplannedstand)
+🕐 *Last updated: 2025-11-13T00:47:53.299Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### insertLine {#insertline}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function insertLine($Machine : Integer; $RunOrder : Integer) -> cs.PlanningWheelEntity
-```
+**⚙️ Functions (2):**
 
-**Returns:** `cs.PlanningWheelEntity`
+- [insertLine](#insertline) (2 params) → `cs.PlanningWheelEntity` 🖥️
+- [reducePlannedStand](#reduceplannedstand) 🖥️
 
 ---
 
-### reducePlannedStand {#reduceplannedstand}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function reducePlannedStand
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PlanningWheel.4dm*
-*Last updated: 2025-11-13T00:30:42.153Z*

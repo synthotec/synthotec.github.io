@@ -5,84 +5,38 @@ parent : Classes
 ---
 # Translation
 
+📊 **Overview:** 4 Functions | 2 Getters
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [CurrentProcess() [getter]](#currentprocess)
-- [_TranslationProcessCollection() [getter]](#_translationprocesscollection)
-- [pushProcess()](#pushprocess)
-- [popProcess()](#popprocess)
-- [translate()](#translate)
-- [translateFormObjects()](#translateformobjects)
+🕐 *Last updated: 2025-11-13T00:47:54.219Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### CurrentProcess {#currentprocess}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function CurrentProcess -> Text
-```
+**⚙️ Functions (4):**
 
-**Returns:** `Text`
+- [pushProcess](#pushprocess) (1 param) 🖥️
+- [popProcess](#popprocess) 🖥️
+- [translate](#translate) (2 params) → `Text` 🖥️
+- [translateFormObjects](#translateformobjects) (1 param) 🖥️
 
----
+**🔍 Getters (2):**
 
-### _TranslationProcessCollection {#_translationprocesscollection}
- `[local]` `[getter]`
-
-```4d
-Function _TranslationProcessCollection -> Collection
-```
-
-**Returns:** `Collection`
+- [CurrentProcess](#currentprocess) → `Text`
+- [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
 
 ---
 
-### pushProcess {#pushprocess}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function pushProcess($Process : Text)
-```
+### ⚙️ Regular Functions
 
----
-
-### popProcess {#popprocess}
- `[local]`
-
-```4d
-Function popProcess
-```
-
----
-
-### translate {#translate}
- `[local]`
-
-```4d
-Function translate($Text : Text; $TranslationProcess : Text) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### translateFormObjects {#translateformobjects}
- `[local]`
-
-```4d
-Function translateFormObjects($TranslationProcess : Text)
-```
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from Translation.4dm*
-*Last updated: 2025-11-13T00:30:43.119Z*

@@ -5,38 +5,29 @@ parent : Classes
 ---
 # Log
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [record()](#record)
-- [trim()](#trim)
+🕐 *Last updated: 2025-11-13T00:47:52.811Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### record {#record}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function record($Message : Text; $RecordMessage : Boolean)
-```
+**⚙️ Functions (2):**
 
----
-
-### trim {#trim}
-
-
-```4d
-Function trim
-```
+- [record](#record) (2 params) 🖥️
+- [trim](#trim)
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Log.4dm*
-*Last updated: 2025-11-13T00:30:41.727Z*

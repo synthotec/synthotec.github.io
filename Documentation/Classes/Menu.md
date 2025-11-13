@@ -5,151 +5,98 @@ parent : Classes
 ---
 # Menu
 
-## Table of Contents
+📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-### Properties
-
-- [_MenuItems](#menuitems)
-- [_MenuReference](#menureference)
-- [_SubMenu](#submenu)
-- [_SubMenuText](#submenutext)
-- [_MenuItemCollection](#menuitemcollection)
-- [Cancelled](#cancelled)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [addSeperator()](#addseperator)
-- [addVariantItem()](#addvariantitem)
-- [addFormulaItem()](#addformulaitem)
-- [addSubMenu()](#addsubmenu)
-- [show()](#show)
-- [_addMenuItems()](#_addmenuitems)
-- [_release()](#_release)
+🕐 *Last updated: 2025-11-13T00:47:52.891Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### _MenuItems {#menuitems}
+### 📋 Properties (6)
+
+- [_MenuItems](#menuitems) : `Collection`
+- [_MenuReference](#menureference) : `Text`
+- [_SubMenu](#submenu) : `Boolean`
+- [_SubMenuText](#submenutext) : `Text`
+- [_MenuItemCollection](#menuitemcollection) : `Collection`
+- [Cancelled](#cancelled) : `Boolean`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (7):**
+
+- [addSeperator](#addseperator)
+- [addVariantItem](#addvariantitem) (2 params) → `cs.MenuItem`
+- [addFormulaItem](#addformulaitem) (2 params) → `cs.MenuItem`
+- [addSubMenu](#addsubmenu) (1 param) → `cs.Menu`
+- [show](#show) → `Variant`
+- [_addMenuItems](#_addmenuitems) (1 param)
+- [_release](#_release)
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `_MenuItems` | `Collection` | - |  |
+| `_MenuReference` | `Text` | - |  |
+| `_SubMenu` | `Boolean` | - |  |
+| `_SubMenuText` | `Text` | - |  |
+| `_MenuItemCollection` | `Collection` | - |  |
+| `Cancelled` | `Boolean` | - |  |
+
+### Detailed Information
+
+#### _MenuItems {#menuitems}
 
 **Type:** `Collection`
 
 ---
 
-### _MenuReference {#menureference}
+#### _MenuReference {#menureference}
 
 **Type:** `Text`
 
 ---
 
-### _SubMenu {#submenu}
+#### _SubMenu {#submenu}
 
 **Type:** `Boolean`
 
 ---
 
-### _SubMenuText {#submenutext}
+#### _SubMenuText {#submenutext}
 
 **Type:** `Text`
 
 ---
 
-### _MenuItemCollection {#menuitemcollection}
+#### _MenuItemCollection {#menuitemcollection}
 
 **Type:** `Collection`
 
 ---
 
-### Cancelled {#cancelled}
+#### Cancelled {#cancelled}
 
 **Type:** `Boolean`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($BasicMenuItems : Collection)
-```
-
----
-
-### addSeperator {#addseperator}
-
-
-```4d
-Function addSeperator
-```
-
----
-
-### addVariantItem {#addvariantitem}
-
-
-```4d
-Function addVariantItem($MenuText : Text; $Variant : Variant) -> cs.MenuItem
-```
-
-**Returns:** `cs.MenuItem`
-
----
-
-### addFormulaItem {#addformulaitem}
-
-
-```4d
-Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> cs.MenuItem
-```
-
-**Returns:** `cs.MenuItem`
-
----
-
-### addSubMenu {#addsubmenu}
-
-
-```4d
-Function addSubMenu($SubMenuText : Text) -> cs.Menu
-```
-
-**Returns:** `cs.Menu`
-
----
-
-### show {#show}
-
-
-```4d
-Function show -> Variant
-```
-
-**Returns:** `Variant`
-
----
-
-### _addMenuItems {#_addmenuitems}
-
-
-```4d
-Function _addMenuItems($ParentMenuReference : Text)
-```
-
----
-
-### _release {#_release}
-
-
-```4d
-Function _release
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Menu.4dm*
-*Last updated: 2025-11-13T00:30:41.827Z*

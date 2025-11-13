@@ -5,50 +5,30 @@ parent : Classes
 ---
 # Printer
 
+📊 **Overview:** 3 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getDefault()](#getdefault)
-- [populate()](#populate)
-- [getComputerPrinters()](#getcomputerprinters)
+🕐 *Last updated: 2025-11-13T00:47:53.318Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getDefault {#getdefault}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getDefault($PrinterType : Integer)
-```
+**⚙️ Functions (3):**
 
----
-
-### populate {#populate}
- `[local]`
-
-```4d
-Function populate
-```
+- [getDefault](#getdefault) (1 param) 🖥️
+- [populate](#populate) 🖥️
+- [getComputerPrinters](#getcomputerprinters) (1 param) → `cs.PrinterSelection` 🖥️
 
 ---
 
-### getComputerPrinters {#getcomputerprinters}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelection
-```
-
-**Returns:** `cs.PrinterSelection`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Printer.4dm*
-*Last updated: 2025-11-13T00:30:42.182Z*

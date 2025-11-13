@@ -5,42 +5,29 @@ parent : Classes
 ---
 # Tools
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
-- [createForProduct()](#createforproduct)
+🕐 *Last updated: 2025-11-13T00:47:54.136Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Object`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+- [createForProduct](#createforproduct) → `cs.ToolsEntity` 🖥️
 
 ---
 
-### createForProduct {#createforproduct}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function createForProduct -> cs.ToolsEntity
-```
-
-**Returns:** `cs.ToolsEntity`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Tools.4dm*
-*Last updated: 2025-11-13T00:30:43.019Z*

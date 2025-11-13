@@ -5,30 +5,28 @@ parent : Classes
 ---
 # PrinterSelection
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [getLabelPrinters()](#getlabelprinters)
+🕐 *Last updated: 2025-11-13T00:47:53.346Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getLabelPrinters {#getlabelprinters}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getLabelPrinters -> cs.PrinterSelection
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.PrinterSelection`
+- [getLabelPrinters](#getlabelprinters) → `cs.PrinterSelection` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PrinterSelection.4dm*
-*Last updated: 2025-11-13T00:30:42.208Z*

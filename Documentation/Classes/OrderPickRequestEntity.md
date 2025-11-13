@@ -5,148 +5,48 @@ parent : Classes
 ---
 # OrderPickRequestEntity
 
+📊 **Overview:** 2 Functions | 6 Getters | 3 Setters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [QuantityPicked() [getter]](#quantitypicked)
-- [QuantityToPick() [getter]](#quantitytopick)
-- [BoxesPerPallet() [getter]](#boxesperpallet)
-- [Pallets() [getter]](#pallets)
-- [Pallets() [setter]](#pallets)
-- [Boxes() [getter]](#boxes)
-- [Boxes() [setter]](#boxes)
-- [Parts() [getter]](#parts)
-- [Parts() [setter]](#parts)
-- [query Parts()](#query parts)
-- [getPickedStockListboxCollection()](#getpickedstocklistboxcollection)
+🕐 *Last updated: 2025-11-13T00:47:52.915Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### QuantityPicked {#quantitypicked}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function QuantityPicked -> Integer
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Integer`
+- [query Parts](#query parts) (1 param) 🖥️
+- [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
 
----
+**🔍 Getters (6):**
 
-### QuantityToPick {#quantitytopick}
- `[local]` `[getter]`
+- [QuantityPicked](#quantitypicked) → `Integer`
+- [QuantityToPick](#quantitytopick) → `Integer`
+- [BoxesPerPallet](#boxesperpallet) → `Integer`
+- [Pallets](#pallets) → `Real`
+- [Boxes](#boxes) → `Real`
+- [Parts](#parts) → `Integer`
 
-```4d
-Function QuantityToPick -> Integer
-```
+**✏️ Setters (3):**
 
-**Returns:** `Integer`
-
----
-
-### BoxesPerPallet {#boxesperpallet}
- `[local]` `[getter]`
-
-```4d
-Function BoxesPerPallet -> Integer
-```
-
-**Returns:** `Integer`
+- [Pallets](#pallets) (1 param)
+- [Boxes](#boxes) (1 param)
+- [Parts](#parts) (1 param)
 
 ---
 
-### Pallets {#pallets}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function Pallets -> Real
-```
+### ⚙️ Regular Functions
 
-MARK:Pallets
+### 🔍 Getters
 
-**Returns:** `Real`
-
----
-
-### Pallets {#pallets}
- `[local]` `[setter]`
-
-```4d
-Function Pallets($Pallets : Real)
-```
-
----
-
-### Boxes {#boxes}
- `[local]` `[getter]`
-
-```4d
-Function Boxes -> Real
-```
-
-MARK:Boxes
-
-**Returns:** `Real`
-
----
-
-### Boxes {#boxes}
- `[local]` `[setter]`
-
-```4d
-Function Boxes($Boxes : Real)
-```
-
----
-
-### Parts {#parts}
- `[local]` `[getter]`
-
-```4d
-Function Parts -> Integer
-```
-
-MARK: Parts
-
-**Returns:** `Integer`
-
----
-
-### Parts {#parts}
- `[local]` `[setter]`
-
-```4d
-Function Parts($Parts : Integer)
-```
-
----
-
-### query Parts {#query parts}
- `[local]`
-
-```4d
-Function query Parts($QueryEventObject : Object)
-```
-
----
-
-### getPickedStockListboxCollection {#getpickedstocklistboxcollection}
- `[local]`
-
-```4d
-Function getPickedStockListboxCollection -> Collection
-```
-
-**Returns:** `Collection`
-
----
+### ✏️ Setters
 
 ---
 
 *Generated from OrderPickRequestEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.861Z*

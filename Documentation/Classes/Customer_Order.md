@@ -5,42 +5,29 @@ parent : Classes
 ---
 # Customer_Order
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [classicMakeOrderSort()](#classicmakeordersort)
-- [classicOrderOverviewSort()](#classicorderoverviewsort)
+🕐 *Last updated: 2025-11-13T00:47:52.156Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### classicMakeOrderSort {#classicmakeordersort}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function classicMakeOrderSort($ProductEntity : cs.ProductEntity)
-```
+**⚙️ Functions (2):**
 
-ORDER BY([Customer_Order]; [Customer_Order]Forecast; >; *)
+- [classicMakeOrderSort](#classicmakeordersort) (1 param) 🖥️
+- [classicOrderOverviewSort](#classicorderoverviewsort) (1 param) 🖥️
 
 ---
 
-### classicOrderOverviewSort {#classicorderoverviewsort}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function classicOrderOverviewSort($ProductEntity : cs.ProductEntity)
-```
-
-ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecast; <; *)
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Customer_Order.4dm*
-*Last updated: 2025-11-13T00:30:41.077Z*

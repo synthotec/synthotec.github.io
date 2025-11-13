@@ -5,11 +5,17 @@ parent : Classes
 ---
 # ProcurementProgram
 
-## Table of Contents
+📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-### Properties
+🕐 *Last updated: 2025-11-13T00:47:53.392Z*
 
-- [Lines](#lines)
+---
+
+## 📑 Table of Contents
+
+### 📋 Properties (10)
+
+- [Lines](#lines) : `Collection`
 - [ItemNumberIndex](#itemnumberindex)
 - [StatusIndex](#statusindex)
 - [QuantityIndex](#quantityindex)
@@ -17,27 +23,52 @@ parent : Classes
 - [ItemDescriptionIndex](#itemdescriptionindex)
 - [VmiIndex](#vmiindex)
 - [WarehouseIndex](#warehouseindex)
-- [ErrorOccurred](#erroroccurred)
+- [ErrorOccurred](#erroroccurred) : `Boolean`
 - [ds](#ds)
 
-### Functions
+### ⚙️ Functions
 
-- [constructor() [constructor]](#constructor)
-- [AllLinesActioned() [getter]](#alllinesactioned)
-- [UnactionedLines() [getter]](#unactionedlines)
-- [process()](#process)
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (1):**
+
+- [process](#process)
+
+**🔍 Getters (2):**
+
+- [AllLinesActioned](#alllinesactioned) → `Boolean`
+- [UnactionedLines](#unactionedlines) → `Collection`
 
 ---
 
-## Properties
+## 📋 Properties
 
-### Lines {#lines}
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Lines` | `Collection` | - |  |
+| `ItemNumberIndex` | *Not specified* | `-1` |  |
+| `StatusIndex` | *Not specified* | `-1` |  |
+| `QuantityIndex` | *Not specified* | `-1` |  |
+| `DueDateIndex` | *Not specified* | `-1` |  |
+| `ItemDescriptionIndex` | *Not specified* | `-1` |  |
+| `VmiIndex` | *Not specified* | `-1` |  |
+| `WarehouseIndex` | *Not specified* | `-1` |  |
+| `ErrorOccurred` | `Boolean` | - |  |
+| `ds` | *Not specified* | `DataStore(0)` |  |
+
+### Detailed Information
+
+#### Lines {#lines}
 
 **Type:** `Collection`
 
 ---
 
-### ItemNumberIndex {#itemnumberindex}
+#### ItemNumberIndex {#itemnumberindex}
 
 **Type:** *Not specified*
 
@@ -45,7 +76,7 @@ parent : Classes
 
 ---
 
-### StatusIndex {#statusindex}
+#### StatusIndex {#statusindex}
 
 **Type:** *Not specified*
 
@@ -53,7 +84,7 @@ parent : Classes
 
 ---
 
-### QuantityIndex {#quantityindex}
+#### QuantityIndex {#quantityindex}
 
 **Type:** *Not specified*
 
@@ -61,7 +92,7 @@ parent : Classes
 
 ---
 
-### DueDateIndex {#duedateindex}
+#### DueDateIndex {#duedateindex}
 
 **Type:** *Not specified*
 
@@ -69,7 +100,7 @@ parent : Classes
 
 ---
 
-### ItemDescriptionIndex {#itemdescriptionindex}
+#### ItemDescriptionIndex {#itemdescriptionindex}
 
 **Type:** *Not specified*
 
@@ -77,7 +108,7 @@ parent : Classes
 
 ---
 
-### VmiIndex {#vmiindex}
+#### VmiIndex {#vmiindex}
 
 **Type:** *Not specified*
 
@@ -85,7 +116,7 @@ parent : Classes
 
 ---
 
-### WarehouseIndex {#warehouseindex}
+#### WarehouseIndex {#warehouseindex}
 
 **Type:** *Not specified*
 
@@ -93,13 +124,13 @@ parent : Classes
 
 ---
 
-### ErrorOccurred {#erroroccurred}
+#### ErrorOccurred {#erroroccurred}
 
 **Type:** `Boolean`
 
 ---
 
-### ds {#ds}
+#### ds {#ds}
 
 **Type:** *Not specified*
 
@@ -107,49 +138,14 @@ parent : Classes
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($ClipboardText : Text)
-```
+### ⚙️ Regular Functions
 
----
-
-### AllLinesActioned {#alllinesactioned}
- `[getter]`
-
-```4d
-Function AllLinesActioned -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### UnactionedLines {#unactionedlines}
- `[getter]`
-
-```4d
-Function UnactionedLines -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### process {#process}
-
-
-```4d
-Function process
-```
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ProcurementProgram.4dm*
-*Last updated: 2025-11-13T00:30:42.256Z*

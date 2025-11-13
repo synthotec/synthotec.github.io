@@ -5,30 +5,28 @@ parent : Classes
 ---
 # Material
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
+🕐 *Last updated: 2025-11-13T00:47:52.816Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Object`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Material.4dm*
-*Last updated: 2025-11-13T00:30:41.740Z*

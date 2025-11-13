@@ -5,30 +5,28 @@ parent : Classes
 ---
 # ToolNotice
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [create()](#create)
+🕐 *Last updated: 2025-11-13T00:47:54.106Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### create {#create}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function create($ToolsEntity : cs.ToolsEntity) -> cs.ToolNoticeEntity
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.ToolNoticeEntity`
+- [create](#create) (1 param) → `cs.ToolNoticeEntity` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolNotice.4dm*
-*Last updated: 2025-11-13T00:30:42.991Z*

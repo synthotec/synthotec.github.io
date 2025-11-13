@@ -5,42 +5,29 @@ parent : Classes
 ---
 # ToolTemperatureTarget
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getByWorksOrder()](#getbyworksorder)
-- [getMigrationSettings()](#getmigrationsettings)
+🕐 *Last updated: 2025-11-13T00:47:54.172Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getByWorksOrder {#getbyworksorder}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function getByWorksOrder($WorksOrder : Integer) -> cs.ToolTemperatureTargetSelection
-```
-
-**Returns:** `cs.ToolTemperatureTargetSelection`
+- [getByWorksOrder](#getbyworksorder) (1 param) → `cs.ToolTemperatureTargetSelection`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 
 ---
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolTemperatureTarget.4dm*
-*Last updated: 2025-11-13T00:30:43.059Z*

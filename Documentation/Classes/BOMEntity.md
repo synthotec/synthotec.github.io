@@ -5,40 +5,29 @@ parent : Classes
 ---
 # BOMEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:51.933Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.BOMEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Collection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from BOMEntity.4dm*
-*Last updated: 2025-11-13T00:30:40.843Z*

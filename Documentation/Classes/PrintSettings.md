@@ -5,126 +5,88 @@ parent : Classes
 ---
 # PrintSettings
 
-## Table of Contents
+📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-### Properties
-
-- [Name](#name)
-- [Paper](#paper)
-- [Orientation](#orientation)
-- [Copies](#copies)
-- [CurrentPrinter](#currentprinter)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [display()](#display)
-- [load()](#load)
-- [save()](#save)
-- [apply()](#apply)
-- [restore()](#restore)
+🕐 *Last updated: 2025-11-13T00:47:53.374Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### Name {#name}
+### 📋 Properties (5)
+
+- [Name](#name) : `Text`
+- [Paper](#paper) : `Text`
+- [Orientation](#orientation) : `Integer`
+- [Copies](#copies) : `Integer`
+- [CurrentPrinter](#currentprinter) : `Text`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (4 params)
+
+**⚙️ Functions (5):**
+
+- [display](#display) → `Boolean`
+- [load](#load) (2 params) → `cs.PrintSettings`
+- [save](#save) (1 param) → `cs.PrintSettings`
+- [apply](#apply) → `Boolean`
+- [restore](#restore) → `Boolean`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Name` | `Text` | - |  |
+| `Paper` | `Text` | - |  |
+| `Orientation` | `Integer` | - |  |
+| `Copies` | `Integer` | - |  |
+| `CurrentPrinter` | `Text` | - |  |
+
+### Detailed Information
+
+#### Name {#name}
 
 **Type:** `Text`
 
 ---
 
-### Paper {#paper}
+#### Paper {#paper}
 
 **Type:** `Text`
 
 ---
 
-### Orientation {#orientation}
+#### Orientation {#orientation}
 
 **Type:** `Integer`
 
 ---
 
-### Copies {#copies}
+#### Copies {#copies}
 
 **Type:** `Integer`
 
 ---
 
-### CurrentPrinter {#currentprinter}
+#### CurrentPrinter {#currentprinter}
 
 **Type:** `Text`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : Integer; $Orientation : Integer)
-```
-
----
-
-### display {#display}
-
-
-```4d
-Function display -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### load {#load}
-
-
-```4d
-Function load($SettingName : Text; $LoadCopyCount : Boolean) -> cs.PrintSettings
-```
-
-**Returns:** `cs.PrintSettings`
-
----
-
-### save {#save}
-
-
-```4d
-Function save($SettingName : Text) -> cs.PrintSettings
-```
-
-**Returns:** `cs.PrintSettings`
-
----
-
-### apply {#apply}
-
-
-```4d
-Function apply -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### restore {#restore}
-
-
-```4d
-Function restore -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PrintSettings.4dm*
-*Last updated: 2025-11-13T00:30:42.236Z*

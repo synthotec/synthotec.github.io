@@ -5,122 +5,58 @@ parent : Classes
 ---
 # Slack
 
-## Table of Contents
+📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-### Properties
-
-- [ChannelID](#channelid)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [newHttpRequest()](#newhttprequest)
-- [createChannel()](#createchannel)
-- [setChannelID()](#setchannelid)
-- [convertBlocks()](#convertblocks)
-- [createMessage()](#createmessage)
-- [updateMessage()](#updatemessage)
-- [deleteMessage()](#deletemessage)
+🕐 *Last updated: 2025-11-13T00:47:53.878Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### ChannelID {#channelid}
+### 📋 Properties (1)
+
+- [ChannelID](#channelid) : `Text`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (7):**
+
+- [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
+- [createChannel](#createchannel) (1 param) → `Text`
+- [setChannelID](#setchannelid) (1 param) → `Boolean`
+- [convertBlocks](#convertblocks) (2 params) → `Collection`
+- [createMessage](#createmessage) (2 params) → `Text`
+- [updateMessage](#updatemessage) (3 params) → `Boolean`
+- [deleteMessage](#deletemessage) (1 param) → `Boolean`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `ChannelID` | `Text` | - |  |
+
+### Detailed Information
+
+#### ChannelID {#channelid}
 
 **Type:** `Text`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($ChannelName : Text)
-```
-
----
-
-### newHttpRequest {#newhttprequest}
-
-
-```4d
-Function newHttpRequest($Url : Text; $Options : Object) -> 4D.HTTPRequest
-```
-
-**Returns:** `4D.HTTPRequest`
-
----
-
-### createChannel {#createchannel}
-
-
-```4d
-Function createChannel($ChannelName : Text) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### setChannelID {#setchannelid}
-
-
-```4d
-Function setChannelID($ChannelName : Text) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### convertBlocks {#convertblocks}
-
-
-```4d
-Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### createMessage {#createmessage}
-
-
-```4d
-Function createMessage($HeaderText : Text; $Blocks : Collection) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### updateMessage {#updatemessage}
-
-
-```4d
-Function updateMessage($MessageTimeStamp : Text; $text : Text; $Blocks : Collection) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### deleteMessage {#deletemessage}
-
-
-```4d
-Function deleteMessage($MessageTimeStamp : Text) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Slack.4dm*
-*Last updated: 2025-11-13T00:30:42.791Z*

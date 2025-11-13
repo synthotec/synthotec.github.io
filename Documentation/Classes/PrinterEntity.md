@@ -5,132 +5,42 @@ parent : Classes
 ---
 # PrinterEntity
 
+📊 **Overview:** 5 Functions | 5 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [LabelPrinter() [getter]](#labelprinter)
-- [LabelPaperName() [getter]](#labelpapername)
-- [getLabelPaperOptions()](#getlabelpaperoptions)
-- [updateOptions()](#updateoptions)
-- [printJobs()](#printjobs)
-- [setCurrent()](#setcurrent)
-- [setDefault()](#setdefault)
-- [isLabelPrinter() [getter]](#islabelprinter)
-- [isDocumentPrinter() [getter]](#isdocumentprinter)
-- [TypeDisplay() [getter]](#typedisplay)
+🕐 *Last updated: 2025-11-13T00:47:53.344Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### LabelPrinter {#labelprinter}
- `[getter]`
+### ⚙️ Functions
 
-```4d
-Function LabelPrinter -> Boolean
-```
+**⚙️ Functions (5):**
 
-**Returns:** `Boolean`
+- [getLabelPaperOptions](#getlabelpaperoptions) → `Collection`
+- [updateOptions](#updateoptions) 🖥️
+- [printJobs](#printjobs) 🖥️
+- [setCurrent](#setcurrent) → `Boolean` 🖥️
+- [setDefault](#setdefault) 🖥️
 
----
+**🔍 Getters (5):**
 
-### LabelPaperName {#labelpapername}
- `[getter]`
-
-```4d
-Function LabelPaperName -> Text
-```
-
-**Returns:** `Text`
+- [LabelPrinter](#labelprinter) → `Boolean`
+- [LabelPaperName](#labelpapername) → `Text`
+- [isLabelPrinter](#islabelprinter) → `Boolean`
+- [isDocumentPrinter](#isdocumentprinter) → `Boolean`
+- [TypeDisplay](#typedisplay) → `Text`
 
 ---
 
-### getLabelPaperOptions {#getlabelpaperoptions}
+## ⚙️ Functions
 
+### ⚙️ Regular Functions
 
-```4d
-Function getLabelPaperOptions -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### updateOptions {#updateoptions}
- `[local]`
-
-```4d
-Function updateOptions
-```
-
----
-
-### printJobs {#printjobs}
- `[local]`
-
-```4d
-Function printJobs
-```
-
----
-
-### setCurrent {#setcurrent}
- `[local]`
-
-```4d
-Function setCurrent -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### setDefault {#setdefault}
- `[local]`
-
-```4d
-Function setDefault
-```
-
----
-
-### isLabelPrinter {#islabelprinter}
- `[local]` `[getter]`
-
-```4d
-Function isLabelPrinter -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### isDocumentPrinter {#isdocumentprinter}
- `[local]` `[getter]`
-
-```4d
-Function isDocumentPrinter -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### TypeDisplay {#typedisplay}
- `[local]` `[getter]`
-
-```4d
-Function TypeDisplay -> Text
-```
-
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from PrinterEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.202Z*

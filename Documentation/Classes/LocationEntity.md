@@ -5,134 +5,42 @@ parent : Classes
 ---
 # LocationEntity
 
+📊 **Overview:** 5 Functions | 5 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [SortOrder() [getter]](#sortorder)
-- [ListBoxDisplayName() [getter]](#listboxdisplayname)
-- [DisplayName() [getter]](#displayname)
-- [ListboxMetaExpression() [getter]](#listboxmetaexpression)
-- [Level() [getter]](#level)
-- [CheckRelated()](#checkrelated)
-- [printQRSheet()](#printqrsheet)
-- [printLabel()](#printlabel)
-- [generateQR()](#generateqr)
-- [getStockListboxCollection()](#getstocklistboxcollection)
+🕐 *Last updated: 2025-11-13T00:47:52.806Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### SortOrder {#sortorder}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function SortOrder -> Text
-```
+**⚙️ Functions (5):**
 
-**Returns:** `Text`
+- [CheckRelated](#checkrelated) (1 param) → `Boolean` 🖥️
+- [printQRSheet](#printqrsheet) (2 params) 🖥️
+- [printLabel](#printlabel) (1 param) 🖥️
+- [generateQR](#generateqr) → `Picture` 🖥️
+- [getStockListboxCollection](#getstocklistboxcollection) → `Collection` 🖥️
 
----
+**🔍 Getters (5):**
 
-### ListBoxDisplayName {#listboxdisplayname}
- `[local]` `[getter]`
-
-```4d
-Function ListBoxDisplayName -> Text
-```
-
-**Returns:** `Text`
+- [SortOrder](#sortorder) → `Text`
+- [ListBoxDisplayName](#listboxdisplayname) → `Text`
+- [DisplayName](#displayname) → `Text`
+- [ListboxMetaExpression](#listboxmetaexpression) → `Object`
+- [Level](#level) → `Integer`
 
 ---
 
-### DisplayName {#displayname}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function DisplayName -> Text
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Text`
-
----
-
-### ListboxMetaExpression {#listboxmetaexpression}
- `[local]` `[getter]`
-
-```4d
-Function ListboxMetaExpression -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### Level {#level}
- `[local]` `[getter]`
-
-```4d
-Function Level -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### CheckRelated {#checkrelated}
- `[local]`
-
-```4d
-Function CheckRelated($LocationID : Text) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### printQRSheet {#printqrsheet}
- `[local]`
-
-```4d
-Function printQRSheet($PageSize : Text; $ShowPrintSettings : Boolean)
-```
-
----
-
-### printLabel {#printlabel}
- `[local]`
-
-```4d
-Function printLabel($ShowPrintSettings : Boolean)
-```
-
----
-
-### generateQR {#generateqr}
- `[local]`
-
-```4d
-Function generateQR -> Picture
-```
-
-**Returns:** `Picture`
-
----
-
-### getStockListboxCollection {#getstocklistboxcollection}
- `[local]`
-
-```4d
-Function getStockListboxCollection -> Collection
-```
-
-**Returns:** `Collection`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from LocationEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.718Z*

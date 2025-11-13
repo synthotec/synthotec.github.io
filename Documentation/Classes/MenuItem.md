@@ -5,149 +5,147 @@ parent : Classes
 ---
 # MenuItem
 
-## Table of Contents
+📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-### Properties
-
-- [_UUID](#uuid)
-- [_IsFormulaItem](#isformulaitem)
-- [_Formula](#formula)
-- [_IsVariantItem](#isvariantitem)
-- [_Variant](#variant)
-- [MenuText](#menutext)
-- [Bold](#bold)
-- [Italic](#italic)
-- [Underline](#underline)
-- [Checked](#checked)
-- [Enabled](#enabled)
-- [_IsSeperator](#isseperator)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [_Style() [getter]](#_style)
-- [_addMenuItem()](#_addmenuitem)
-- [_process()](#_process)
+🕐 *Last updated: 2025-11-13T00:47:52.901Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### _UUID {#uuid}
+### 📋 Properties (12)
+
+- [_UUID](#uuid) : `Text`
+- [_IsFormulaItem](#isformulaitem) : `Boolean`
+- [_Formula](#formula) : `Variant`
+- [_IsVariantItem](#isvariantitem) : `Boolean`
+- [_Variant](#variant) : `Variant`
+- [MenuText](#menutext) : `Text`
+- [Bold](#bold) : `Boolean`
+- [Italic](#italic) : `Boolean`
+- [Underline](#underline) : `Boolean`
+- [Checked](#checked) : `Boolean`
+- [Enabled](#enabled) : `Boolean`
+- [_IsSeperator](#isseperator) : `Boolean`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (2):**
+
+- [_addMenuItem](#_addmenuitem) (1 param)
+- [_process](#_process) → `Variant`
+
+**🔍 Getters (1):**
+
+- [_Style](#_style) → `Integer`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `_UUID` | `Text` | - |  |
+| `_IsFormulaItem` | `Boolean` | - |  |
+| `_Formula` | `Variant` | - |  |
+| `_IsVariantItem` | `Boolean` | - |  |
+| `_Variant` | `Variant` | - |  |
+| `MenuText` | `Text` | - |  |
+| `Bold` | `Boolean` | - |  |
+| `Italic` | `Boolean` | - |  |
+| `Underline` | `Boolean` | - |  |
+| `Checked` | `Boolean` | - |  |
+| `Enabled` | `Boolean` | - |  |
+| `_IsSeperator` | `Boolean` | - |  |
+
+### Detailed Information
+
+#### _UUID {#uuid}
 
 **Type:** `Text`
 
 ---
 
-### _IsFormulaItem {#isformulaitem}
+#### _IsFormulaItem {#isformulaitem}
 
 **Type:** `Boolean`
 
 ---
 
-### _Formula {#formula}
+#### _Formula {#formula}
 
 **Type:** `Variant`
 
 ---
 
-### _IsVariantItem {#isvariantitem}
+#### _IsVariantItem {#isvariantitem}
 
 **Type:** `Boolean`
 
 ---
 
-### _Variant {#variant}
+#### _Variant {#variant}
 
 **Type:** `Variant`
 
 ---
 
-### MenuText {#menutext}
+#### MenuText {#menutext}
 
 **Type:** `Text`
 
 ---
 
-### Bold {#bold}
+#### Bold {#bold}
 
 **Type:** `Boolean`
 
 ---
 
-### Italic {#italic}
+#### Italic {#italic}
 
 **Type:** `Boolean`
 
 ---
 
-### Underline {#underline}
+#### Underline {#underline}
 
 **Type:** `Boolean`
 
 ---
 
-### Checked {#checked}
+#### Checked {#checked}
 
 **Type:** `Boolean`
 
 ---
 
-### Enabled {#enabled}
+#### Enabled {#enabled}
 
 **Type:** `Boolean`
 
 ---
 
-### _IsSeperator {#isseperator}
+#### _IsSeperator {#isseperator}
 
 **Type:** `Boolean`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($MenuText : Text)
-```
+### ⚙️ Regular Functions
 
----
-
-### _Style {#_style}
- `[getter]`
-
-```4d
-Function _Style -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### _addMenuItem {#_addmenuitem}
-
-
-```4d
-Function _addMenuItem($MenuReference : Text)
-```
-
----
-
-### _process {#_process}
-
-
-```4d
-Function _process -> Variant
-```
-
-**Returns:** `Variant`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from MenuItem.4dm*
-*Last updated: 2025-11-13T00:30:41.843Z*

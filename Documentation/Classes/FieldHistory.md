@@ -5,48 +5,30 @@ parent : Classes
 ---
 # FieldHistory
 
+📊 **Overview:** 3 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [ClassicListboxClickedEvent()](#classiclistboxclickedevent)
-- [display()](#display)
-- [triggerLog()](#triggerlog)
+🕐 *Last updated: 2025-11-13T00:47:52.617Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### ClassicListboxClickedEvent {#classiclistboxclickedevent}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function ClassicListboxClickedEvent
-```
+**⚙️ Functions (3):**
 
----
-
-### display {#display}
- `[local]`
-
-```4d
-Function display($FieldPointer : Pointer; $PrimaryKey : Integer; $ForeignDataClass : 4D.DataClass; $ForeignFormula : 4D.Function)
-```
+- [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
+- [display](#display) (4 params) 🖥️
+- [triggerLog](#triggerlog) (2 params) 🖥️
 
 ---
 
-### triggerLog {#triggerlog}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from FieldHistory.4dm*
-*Last updated: 2025-11-13T00:30:41.490Z*

@@ -5,136 +5,41 @@ parent : Classes
 ---
 # CollectionObject
 
-## Table of Contents
+📊 **Overview:** 1 Constructor | 10 Functions
 
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [CollectionObject()](#collectionobject)
-- [SetIndex()](#setindex)
-- [GetIndex()](#getindex)
-- [SetPlaceholder()](#setplaceholder)
-- [AppendValue()](#appendvalue)
-- [AppendValueWithPrimaryKey()](#appendvaluewithprimarykey)
-- [AppendValueWithEntity()](#appendvaluewithentity)
-- [GetCurrentValue()](#getcurrentvalue)
-- [GetCurrentPrimaryKey()](#getcurrentprimarykey)
-- [GetCurrentEntity()](#getcurrententity)
+🕐 *Last updated: 2025-11-13T00:47:52.126Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($valuesCollection : Collection; $placeHolderText : Text)
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor) (2 params)
 
-### CollectionObject {#collectionobject}
+**⚙️ Functions (10):**
 
-
-```4d
-Function CollectionObject -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### SetIndex {#setindex}
-
-
-```4d
-Function SetIndex($index : Integer)
-```
+- [CollectionObject](#collectionobject) → `Object`
+- [SetIndex](#setindex) (1 param)
+- [GetIndex](#getindex) → `Integer`
+- [SetPlaceholder](#setplaceholder) (1 param)
+- [AppendValue](#appendvalue) (1 param)
+- [AppendValueWithPrimaryKey](#appendvaluewithprimarykey) (2 params)
+- [AppendValueWithEntity](#appendvaluewithentity) (2 params)
+- [GetCurrentValue](#getcurrentvalue) → `Variant`
+- [GetCurrentPrimaryKey](#getcurrentprimarykey) → `Integer`
+- [GetCurrentEntity](#getcurrententity) → `4D.Entity`
 
 ---
 
-### GetIndex {#getindex}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function GetIndex -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### SetPlaceholder {#setplaceholder}
-
-
-```4d
-Function SetPlaceholder($placeHolderText : Text)
-```
-
----
-
-### AppendValue {#appendvalue}
-
-
-```4d
-Function AppendValue($value : Variant)
-```
-
----
-
-### AppendValueWithPrimaryKey {#appendvaluewithprimarykey}
-
-
-```4d
-Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
-```
-
----
-
-### AppendValueWithEntity {#appendvaluewithentity}
-
-
-```4d
-Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
-```
-
----
-
-### GetCurrentValue {#getcurrentvalue}
-
-
-```4d
-Function GetCurrentValue -> Variant
-```
-
-**Returns:** `Variant`
-
----
-
-### GetCurrentPrimaryKey {#getcurrentprimarykey}
-
-
-```4d
-Function GetCurrentPrimaryKey -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### GetCurrentEntity {#getcurrententity}
-
-
-```4d
-Function GetCurrentEntity -> 4D.Entity
-```
-
-**Returns:** `4D.Entity`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from CollectionObject.4dm*
-*Last updated: 2025-11-13T00:30:41.029Z*

@@ -5,40 +5,29 @@ parent : Classes
 ---
 # Forecast
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [generate()](#generate)
-- [generateForecastOrders()](#generateforecastorders)
+🕐 *Last updated: 2025-11-13T00:47:52.641Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### generate {#generate}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function generate -> Boolean
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Boolean`
+- [generate](#generate) → `Boolean` 🖥️
+- [generateForecastOrders](#generateforecastorders) 🖥️
 
 ---
 
-### generateForecastOrders {#generateforecastorders}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function generateForecastOrders
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Forecast.4dm*
-*Last updated: 2025-11-13T00:30:41.524Z*

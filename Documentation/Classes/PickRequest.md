@@ -5,148 +5,38 @@ parent : Classes
 ---
 # PickRequest
 
+📊 **Overview:** 11 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [create()](#create)
-- [newUsingEntry()](#newusingentry)
-- [getOpenRequests()](#getopenrequests)
-- [restInitialPage()](#restinitialpage)
-- [restPickPage()](#restpickpage)
-- [restUnpickStock()](#restunpickstock)
-- [restViewStock()](#restviewstock)
-- [restScanStock()](#restscanstock)
-- [restSelectOrderToPickAgainst()](#restselectordertopickagainst)
-- [restPickAgainstOrder()](#restpickagainstorder)
-- [checkForPickedPickRequests()](#checkforpickedpickrequests)
+🕐 *Last updated: 2025-11-13T00:47:53.208Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### create {#create}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function create -> cs.PickRequestEntity
-```
+**⚙️ Functions (11):**
 
-**Returns:** `cs.PickRequestEntity`
-
----
-
-### newUsingEntry {#newusingentry}
- `[local]`
-
-```4d
-Function newUsingEntry -> cs.PickRequestEntity
-```
-
-**Returns:** `cs.PickRequestEntity`
+- [create](#create) → `cs.PickRequestEntity` 🖥️
+- [newUsingEntry](#newusingentry) → `cs.PickRequestEntity` 🖥️
+- [getOpenRequests](#getopenrequests) → `cs.PickRequestSelection` 🖥️
+- [restInitialPage](#restinitialpage) (1 param) → `Object`
+- [restPickPage](#restpickpage) (1 param) → `Object`
+- [restUnpickStock](#restunpickstock) (1 param) → `Object`
+- [restViewStock](#restviewstock) (1 param) → `Object`
+- [restScanStock](#restscanstock) (1 param) → `Object`
+- [restSelectOrderToPickAgainst](#restselectordertopickagainst) (1 param) → `Object`
+- [restPickAgainstOrder](#restpickagainstorder) (1 param) → `Object`
+- [checkForPickedPickRequests](#checkforpickedpickrequests)
 
 ---
 
-### getOpenRequests {#getopenrequests}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getOpenRequests -> cs.PickRequestSelection
-```
-
-**Returns:** `cs.PickRequestSelection`
-
----
-
-### restInitialPage {#restinitialpage}
- `[exposed]`
-
-```4d
-Function restInitialPage($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restPickPage {#restpickpage}
- `[exposed]`
-
-```4d
-Function restPickPage($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restUnpickStock {#restunpickstock}
- `[exposed]`
-
-```4d
-Function restUnpickStock($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restViewStock {#restviewstock}
- `[exposed]`
-
-```4d
-Function restViewStock($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restScanStock {#restscanstock}
- `[exposed]`
-
-```4d
-Function restScanStock($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restSelectOrderToPickAgainst {#restselectordertopickagainst}
- `[exposed]`
-
-```4d
-Function restSelectOrderToPickAgainst($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restPickAgainstOrder {#restpickagainstorder}
- `[exposed]`
-
-```4d
-Function restPickAgainstOrder($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### checkForPickedPickRequests {#checkforpickedpickrequests}
-
-
-```4d
-Function checkForPickedPickRequests
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PickRequest.4dm*
-*Last updated: 2025-11-13T00:30:42.092Z*

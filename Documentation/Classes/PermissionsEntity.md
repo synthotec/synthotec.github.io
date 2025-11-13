@@ -5,40 +5,29 @@ parent : Classes
 ---
 # PermissionsEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getStaffPermissionsEntity()](#getstaffpermissionsentity)
-- [displayWarning()](#displaywarning)
+🕐 *Last updated: 2025-11-13T00:47:53.129Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getStaffPermissionsEntity {#getstaffpermissionsentity}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> cs.StaffPermissionsEntity
-```
+**⚙️ Functions (2):**
 
-**Returns:** `cs.StaffPermissionsEntity`
+- [getStaffPermissionsEntity](#getstaffpermissionsentity) (1 param) → `cs.StaffPermissionsEntity` 🖥️
+- [displayWarning](#displaywarning) (1 param) 🖥️
 
 ---
 
-### displayWarning {#displaywarning}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function displayWarning($StaffEntity : cs.StaffEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PermissionsEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.042Z*

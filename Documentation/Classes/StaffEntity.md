@@ -5,54 +5,35 @@ parent : Classes
 ---
 # StaffEntity
 
+📊 **Overview:** 2 Functions | 1 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [FullName() [getter]](#fullname)
-- [permissionCheck()](#permissioncheck)
-- [copyPermissionsFrom()](#copypermissionsfrom)
+🕐 *Last updated: 2025-11-13T00:47:53.893Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### FullName {#fullname}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function FullName -> Text
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Text`
+- [permissionCheck](#permissioncheck) (2 params) → `Boolean` 🖥️
+- [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `Boolean` 🖥️
 
----
+**🔍 Getters (1):**
 
-### permissionCheck {#permissioncheck}
- `[local]`
-
-```4d
-Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> Boolean
-```
-
-**Returns:** `Boolean`
+- [FullName](#fullname) → `Text`
 
 ---
 
-### copyPermissionsFrom {#copypermissionsfrom}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> Boolean
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from StaffEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.815Z*

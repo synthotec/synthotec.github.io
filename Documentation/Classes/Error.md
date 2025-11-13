@@ -5,58 +5,31 @@ parent : Classes
 ---
 # Error
 
+📊 **Overview:** 4 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [fillGitHubIssues()](#fillgithubissues)
-- [setDebugInfo()](#setdebuginfo)
-- [notify()](#notify)
-- [record()](#record)
+🕐 *Last updated: 2025-11-13T00:47:52.501Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### fillGitHubIssues {#fillgithubissues}
+### ⚙️ Functions
 
+**⚙️ Functions (4):**
 
-```4d
-Function fillGitHubIssues
-```
-
----
-
-### setDebugInfo {#setdebuginfo}
- `[local]`
-
-```4d
-Function setDebugInfo(...)
-```
+- [fillGitHubIssues](#fillgithubissues)
+- [setDebugInfo](#setdebuginfo) (1 param) 🖥️
+- [notify](#notify)
+- [record](#record) 🖥️
 
 ---
 
-### notify {#notify}
+## ⚙️ Functions
 
-
-```4d
-Function notify
-```
-
----
-
-### record {#record}
- `[local]`
-
-```4d
-Function record
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Error.4dm*
-*Last updated: 2025-11-13T00:30:41.349Z*

@@ -5,42 +5,29 @@ parent : Classes
 ---
 # Settings
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [global()](#global)
-- [userSpecific()](#userspecific)
+🕐 *Last updated: 2025-11-13T00:47:53.821Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### global {#global}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function global($VariableName : Text) -> cs.SettingsEntity
-```
+**⚙️ Functions (2):**
 
-**Returns:** `cs.SettingsEntity`
+- [global](#global) (1 param) → `cs.SettingsEntity` 🖥️
+- [userSpecific](#userspecific) (2 params) → `cs.SettingsEntity` 🖥️
 
 ---
 
-### userSpecific {#userspecific}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEntity
-```
-
-**Returns:** `cs.SettingsEntity`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Settings.4dm*
-*Last updated: 2025-11-13T00:30:42.725Z*

@@ -5,68 +5,36 @@ parent : Classes
 ---
 # RealTimeEntity
 
+📊 **Overview:** 1 Functions | 3 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [MouldOpenTime() [getter]](#mouldopentime)
-- [StartTime() [getter]](#starttime)
-- [getTemperatureSensors()](#gettemperaturesensors)
-- [EndDateTime() [getter]](#enddatetime)
+🕐 *Last updated: 2025-11-13T00:47:53.621Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### MouldOpenTime {#mouldopentime}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function MouldOpenTime -> Real
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Real`
+- [getTemperatureSensors](#gettemperaturesensors) → `Collection` 🖥️
 
----
+**🔍 Getters (3):**
 
-### StartTime {#starttime}
- `[local]` `[getter]`
-
-```4d
-Function StartTime -> Time
-```
-
-**Returns:** `Time`
+- [MouldOpenTime](#mouldopentime) → `Real`
+- [StartTime](#starttime) → `Time`
+- [EndDateTime](#enddatetime) → `cs.System.DateTime`
 
 ---
 
-### getTemperatureSensors {#gettemperaturesensors}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getTemperatureSensors -> Collection
-```
+### ⚙️ Regular Functions
 
-Returns a collection of cs.RealTimeTemperatureSensor
-
-**Returns:** `Collection`
-
----
-
-### EndDateTime {#enddatetime}
- `[local]` `[getter]`
-
-```4d
-Function EndDateTime -> cs.System.DateTime
-```
-
-**Returns:** `cs.System.DateTime`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from RealTimeEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.504Z*

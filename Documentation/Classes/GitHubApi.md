@@ -5,72 +5,35 @@ parent : Classes
 ---
 # GitHubApi
 
-## Table of Contents
+📊 **Overview:** 1 Constructor | 4 Functions
 
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [newHttpRequest()](#newhttprequest)
-- [createIssue()](#createissue)
-- [getIssues()](#getissues)
-- [onError()](#onerror)
+🕐 *Last updated: 2025-11-13T00:47:52.712Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor)
 
-### newHttpRequest {#newhttprequest}
+**⚙️ Functions (4):**
 
-
-```4d
-Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTPRequest
-```
-
-**Returns:** `4D.HTTPRequest`
+- [newHttpRequest](#newhttprequest) (3 params) → `4D.HTTPRequest`
+- [createIssue](#createissue) (3 params) → `Object`
+- [getIssues](#getissues) (1 param) → `Collection`
+- [onError](#onerror) (2 params)
 
 ---
 
-### createIssue {#createissue}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### getIssues {#getissues}
-
-
-```4d
-Function getIssues($Label : Text) -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### onError {#onerror}
-
-
-```4d
-Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from GitHubApi.4dm*
-*Last updated: 2025-11-13T00:30:41.611Z*

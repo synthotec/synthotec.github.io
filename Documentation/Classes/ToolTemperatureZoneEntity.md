@@ -5,40 +5,29 @@ parent : Classes
 ---
 # ToolTemperatureZoneEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:54.209Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.ToolTemperatureZoneEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Collection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureZoneEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolTemperatureZoneEntity.4dm*
-*Last updated: 2025-11-13T00:30:43.107Z*

@@ -5,62 +5,31 @@ parent : Classes
 ---
 # Advice_NoteEntity
 
+📊 **Overview:** 4 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [generateNTNSNR_DESADV()](#generatentnsnr_desadv)
-- [print()](#print)
-- [tryEmailMaterialCertificates()](#tryemailmaterialcertificates)
-- [cancel()](#cancel)
+🕐 *Last updated: 2025-11-13T00:47:51.908Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### generateNTNSNR_DESADV {#generatentnsnr_desadv}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function generateNTNSNR_DESADV
-```
+**⚙️ Functions (4):**
 
-MARK:- First Line
-
----
-
-### print {#print}
- `[local]`
-
-```4d
-Function print
-```
+- [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
+- [print](#print) 🖥️
+- [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
+- [cancel](#cancel) → `Boolean` 🖥️
 
 ---
 
-### tryEmailMaterialCertificates {#tryemailmaterialcertificates}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function tryEmailMaterialCertificates
-```
-
----
-
-### cancel {#cancel}
- `[local]`
-
-```4d
-Function cancel -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Advice_NoteEntity.4dm*
-*Last updated: 2025-11-13T00:30:40.812Z*

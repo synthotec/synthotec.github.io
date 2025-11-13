@@ -5,42 +5,29 @@ parent : Classes
 ---
 # MachineMaintenanceLogEntity
 
+📊 **Overview:** 2 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [TimeStamp() [getter]](#timestamp)
-- [TimeStampWithTab() [getter]](#timestampwithtab)
+🕐 *Last updated: 2025-11-13T00:47:52.814Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### TimeStamp {#timestamp}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function TimeStamp -> Text
-```
+**🔍 Getters (2):**
 
-**Returns:** `Text`
+- [TimeStamp](#timestamp) → `Text`
+- [TimeStampWithTab](#timestampwithtab) → `Text`
 
 ---
 
-### TimeStampWithTab {#timestampwithtab}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function TimeStampWithTab -> Text
-```
-
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from MachineMaintenanceLogEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.733Z*

@@ -5,38 +5,29 @@ parent : Classes
 ---
 # RMCEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [delete()](#delete)
-- [requestCertificate()](#requestcertificate)
+🕐 *Last updated: 2025-11-13T00:47:53.782Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### delete {#delete}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function delete
-```
+**⚙️ Functions (2):**
 
----
-
-### requestCertificate {#requestcertificate}
- `[local]`
-
-```4d
-Function requestCertificate
-```
+- [delete](#delete) 🖥️
+- [requestCertificate](#requestcertificate) 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RMCEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.678Z*

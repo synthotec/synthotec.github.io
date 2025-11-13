@@ -5,28 +5,28 @@ parent : Classes
 ---
 # RTSUM
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [generate()](#generate)
+🕐 *Last updated: 2025-11-13T00:47:53.800Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### generate {#generate}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Integer)
-```
+**⚙️ Functions (1):**
+
+- [generate](#generate) (3 params) 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RTSUM.4dm*
-*Last updated: 2025-11-13T00:30:42.693Z*

@@ -5,42 +5,29 @@ parent : Classes
 ---
 # PackingInstructionFiles
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getLatest()](#getlatest)
-- [getMigrationSettings()](#getmigrationsettings)
+🕐 *Last updated: 2025-11-13T00:47:52.929Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getLatest {#getlatest}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function getLatest($ProductID : Integer) -> cs.PackingInstructionFilesEntity
-```
-
-**Returns:** `cs.PackingInstructionFilesEntity`
+- [getLatest](#getlatest) (1 param) → `cs.PackingInstructionFilesEntity`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 
 ---
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PackingInstructionFiles.4dm*
-*Last updated: 2025-11-13T00:30:41.891Z*

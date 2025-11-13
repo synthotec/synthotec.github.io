@@ -5,71 +5,76 @@ parent : Classes
 ---
 # FormulaSet
 
-## Table of Contents
+📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-### Properties
-
-- [_FormulaCollection](#formulacollection)
-- [_ThisObject](#thisobject)
-- [_Parameters](#parameters)
-- [FormulaResults](#formularesults)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [apply()](#apply)
+🕐 *Last updated: 2025-11-13T00:47:52.699Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### _FormulaCollection {#formulacollection}
+### 📋 Properties (4)
+
+- [_FormulaCollection](#formulacollection) : `Collection`
+- [_ThisObject](#thisobject) : `4D.Function`
+- [_Parameters](#parameters) : `Collection`
+- [FormulaResults](#formularesults) : `Collection`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (3 params)
+
+**⚙️ Functions (1):**
+
+- [apply](#apply) → `Variant`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `_FormulaCollection` | `Collection` | - |  |
+| `_ThisObject` | `4D.Function` | - |  |
+| `_Parameters` | `Collection` | - |  |
+| `FormulaResults` | `Collection` | - |  |
+
+### Detailed Information
+
+#### _FormulaCollection {#formulacollection}
 
 **Type:** `Collection`
 
 ---
 
-### _ThisObject {#thisobject}
+#### _ThisObject {#thisobject}
 
 **Type:** `4D.Function`
 
 ---
 
-### _Parameters {#parameters}
+#### _Parameters {#parameters}
 
 **Type:** `Collection`
 
 ---
 
-### FormulaResults {#formularesults}
+#### FormulaResults {#formularesults}
 
 **Type:** `Collection`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $Parameters : Collection)
-```
-
----
-
-### apply {#apply}
-
-
-```4d
-Function apply -> Variant
-```
-
-**Returns:** `Variant`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from FormulaSet.4dm*
-*Last updated: 2025-11-13T00:30:41.587Z*

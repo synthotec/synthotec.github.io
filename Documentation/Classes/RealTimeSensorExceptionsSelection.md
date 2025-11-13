@@ -5,28 +5,28 @@ parent : Classes
 ---
 # RealTimeSensorExceptionsSelection
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [acknowledge()](#acknowledge)
+🕐 *Last updated: 2025-11-13T00:47:53.752Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### acknowledge {#acknowledge}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function acknowledge
-```
+**⚙️ Functions (1):**
+
+- [acknowledge](#acknowledge) 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RealTimeSensorExceptionsSelection.4dm*
-*Last updated: 2025-11-13T00:30:42.645Z*

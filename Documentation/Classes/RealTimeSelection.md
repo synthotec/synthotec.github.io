@@ -5,42 +5,29 @@ parent : Classes
 ---
 # RealTimeSelection
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [getTemperatureSensors()](#gettemperaturesensors)
-- [getTemperatureSensorZones()](#gettemperaturesensorzones)
+🕐 *Last updated: 2025-11-13T00:47:53.730Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getTemperatureSensors {#gettemperaturesensors}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function getTemperatureSensors -> Collection
-```
-
-**Returns:** `Collection`
+- [getTemperatureSensors](#gettemperaturesensors) → `Collection`
+- [getTemperatureSensorZones](#gettemperaturesensorzones) → `Collection`
 
 ---
 
-### getTemperatureSensorZones {#gettemperaturesensorzones}
+## ⚙️ Functions
 
-
-```4d
-Function getTemperatureSensorZones -> Collection
-```
-
-**Returns:** `Collection`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RealTimeSelection.4dm*
-*Last updated: 2025-11-13T00:30:42.616Z*

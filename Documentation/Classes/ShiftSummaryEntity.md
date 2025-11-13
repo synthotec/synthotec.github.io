@@ -5,54 +5,35 @@ parent : Classes
 ---
 # ShiftSummaryEntity
 
+📊 **Overview:** 1 Functions | 2 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getPreviousShiftSummaryEntity()](#getpreviousshiftsummaryentity)
-- [ShiftSymbol() [getter]](#shiftsymbol)
-- [ShiftColor() [getter]](#shiftcolor)
+🕐 *Last updated: 2025-11-13T00:47:53.855Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getPreviousShiftSummaryEntity {#getpreviousshiftsummaryentity}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.ShiftSummaryEntity`
+- [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
 
----
+**🔍 Getters (2):**
 
-### ShiftSymbol {#shiftsymbol}
- `[local]` `[getter]`
-
-```4d
-Function ShiftSymbol -> Text
-```
-
-**Returns:** `Text`
+- [ShiftSymbol](#shiftsymbol) → `Text`
+- [ShiftColor](#shiftcolor) → `Integer`
 
 ---
 
-### ShiftColor {#shiftcolor}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function ShiftColor -> Integer
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Integer`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ShiftSummaryEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.764Z*

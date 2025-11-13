@@ -5,42 +5,29 @@ parent : Classes
 ---
 # ToolTemperatureTargetSelection
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [CheckInRange()](#checkinrange)
-- [CheckTargetsSet()](#checktargetsset)
+🕐 *Last updated: 2025-11-13T00:47:54.199Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### CheckInRange {#checkinrange}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function CheckInRange($TemperatureSensorCollection : Collection) -> Boolean
-```
-
-**Returns:** `Boolean`
+- [CheckInRange](#checkinrange) (1 param) → `Boolean`
+- [CheckTargetsSet](#checktargetsset) (1 param) → `Boolean`
 
 ---
 
-### CheckTargetsSet {#checktargetsset}
+## ⚙️ Functions
 
-
-```4d
-Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ToolTemperatureTargetSelection.4dm*
-*Last updated: 2025-11-13T00:30:43.090Z*

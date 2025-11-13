@@ -5,54 +5,37 @@ parent : Classes
 ---
 # ClassProperty
 
-## Description
+📊 **Overview:** 1 Constructor | 2 Functions
+
+## 📝 Description
 
 🗨️ Stores metadata about a class property
 
-## Table of Contents
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [setDefault()](#setdefault)
-- [toObject()](#toobject)
+🕐 *Last updated: 2025-11-13T00:47:52.106Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($Name : Text; $Type : Text)
-```
+**🏗️ Constructors (1):**
 
-Stores metadata about a class property
+- [constructor](#constructor) (2 params)
 
----
+**⚙️ Functions (2):**
 
-### setDefault {#setdefault}
-
-
-```4d
-Function setDefault($Value : Text)
-```
+- [setDefault](#setdefault) (1 param)
+- [toObject](#toobject) → `Object`
 
 ---
 
-### toObject {#toobject}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function toObject -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ClassProperty.4dm*
-*Last updated: 2025-11-13T00:30:41.000Z*

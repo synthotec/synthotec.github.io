@@ -5,64 +5,38 @@ parent : Classes
 ---
 # ClassFunction
 
-## Description
+📊 **Overview:** 1 Constructor | 3 Functions
+
+## 📝 Description
 
 🗨️ Stores metadata about a class function
 
-## Table of Contents
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [addModifier()](#addmodifier)
-- [addParameter()](#addparameter)
-- [toObject()](#toobject)
+🕐 *Last updated: 2025-11-13T00:47:52.024Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($Name : Text)
-```
+**🏗️ Constructors (1):**
 
-Stores metadata about a class function
+- [constructor](#constructor) (1 param)
 
----
+**⚙️ Functions (3):**
 
-### addModifier {#addmodifier}
-
-
-```4d
-Function addModifier($Modifier : Text)
-```
+- [addModifier](#addmodifier) (1 param)
+- [addParameter](#addparameter) (1 param)
+- [toObject](#toobject) → `Object`
 
 ---
 
-### addParameter {#addparameter}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function addParameter($Parameter : cs.ClassParameter)
-```
-
----
-
-### toObject {#toobject}
-
-
-```4d
-Function toObject -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ClassFunction.4dm*
-*Last updated: 2025-11-13T00:30:40.921Z*

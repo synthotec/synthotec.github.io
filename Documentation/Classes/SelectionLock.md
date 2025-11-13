@@ -5,65 +5,61 @@ parent : Classes
 ---
 # SelectionLock
 
-## Table of Contents
+📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-### Properties
-
-- [LockedEntityCollection; FailedLockObjectCollection](#lockedentitycollection; failedlockobjectcollection)
-- [Success](#success)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [displayAlert()](#displayalert)
-- [unlock()](#unlock)
+🕐 *Last updated: 2025-11-13T00:47:53.815Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### LockedEntityCollection; FailedLockObjectCollection {#lockedentitycollection; failedlockobjectcollection}
+### 📋 Properties (2)
+
+- [LockedEntityCollection; FailedLockObjectCollection](#lockedentitycollection; failedlockobjectcollection) : `Collection`
+- [Success](#success) : `Boolean`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (2 params)
+
+**⚙️ Functions (2):**
+
+- [displayAlert](#displayalert) (2 params)
+- [unlock](#unlock)
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `LockedEntityCollection; FailedLockObjectCollection` | `Collection` | - |  |
+| `Success` | `Boolean` | - |  |
+
+### Detailed Information
+
+#### LockedEntityCollection; FailedLockObjectCollection {#lockedentitycollection; failedlockobjectcollection}
 
 **Type:** `Collection`
 
 ---
 
-### Success {#success}
+#### Success {#success}
 
 **Type:** `Boolean`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Boolean)
-```
-
----
-
-### displayAlert {#displayalert}
-
-
-```4d
-Function displayAlert($Unlock : Boolean; $DisplayForAllEntities : Boolean)
-```
-
----
-
-### unlock {#unlock}
-
-
-```4d
-Function unlock
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from SelectionLock.4dm*
-*Last updated: 2025-11-13T00:30:42.715Z*

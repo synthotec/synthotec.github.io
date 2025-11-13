@@ -5,40 +5,29 @@ parent : Classes
 ---
 # ErrorReportEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [sendEmailReport()](#sendemailreport)
-- [sendSlackReport()](#sendslackreport)
+🕐 *Last updated: 2025-11-13T00:47:52.530Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### sendEmailReport {#sendemailreport}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function sendEmailReport
-```
-
----
-
-### sendSlackReport {#sendslackreport}
-
-
-```4d
-Function sendSlackReport -> Boolean
-```
-
-**Returns:** `Boolean`
+- [sendEmailReport](#sendemailreport)
+- [sendSlackReport](#sendslackreport) → `Boolean`
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ErrorReportEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.394Z*

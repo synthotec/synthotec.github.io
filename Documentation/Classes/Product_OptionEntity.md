@@ -5,40 +5,29 @@ parent : Classes
 ---
 # Product_OptionEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:53.537Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.Product_OptionEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Collection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.Product_OptionEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Product_OptionEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.404Z*

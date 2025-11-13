@@ -5,208 +5,53 @@ parent : Classes
 ---
 # Customer_OrderEntity
 
+📊 **Overview:** 9 Functions | 6 Getters | 1 Setters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [DespatchDateTime() [getter]](#despatchdatetime)
-- [DeliveryDateTime() [getter]](#deliverydatetime)
-- [DespatchDate() [getter]](#despatchdate)
-- [DeliveryDate() [getter]](#deliverydate)
-- [createCofC()](#createcofc)
-- [getAvailableForPickRequest()](#getavailableforpickrequest)
-- [OutstandingToDeliver() [getter]](#outstandingtodeliver)
-- [OutstandingToDeliver() [setter]](#outstandingtodeliver)
-- [OutstandingToPickRequest() [getter]](#outstandingtopickrequest)
-- [modifyOrderPickRequest()](#modifyorderpickrequest)
-- [getPickRequestedQuantity()](#getpickrequestedquantity)
-- [getPickedQuantity()](#getpickedquantity)
-- [getPickedQuantitiesColor()](#getpickedquantitiescolor)
-- [getPickedQuantitiesText()](#getpickedquantitiestext)
-- [getPickRequestQuantitiesText()](#getpickrequestquantitiestext)
-- [getPickRequestQuantitiesColor()](#getpickrequestquantitiescolor)
+🕐 *Last updated: 2025-11-13T00:47:52.195Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### DespatchDateTime {#despatchdatetime}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function DespatchDateTime -> cs.System.DateTime
-```
+**⚙️ Functions (9):**
 
-**Returns:** `cs.System.DateTime`
+- [createCofC](#createcofc) (3 params) → `cs.CofCEntity` 🖥️
+- [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `Integer` 🖥️
+- [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `cs.OrderPickRequestEntity` 🖥️
+- [getPickRequestedQuantity](#getpickrequestedquantity) (1 param) → `Integer` 🖥️
+- [getPickedQuantity](#getpickedquantity) (1 param) → `Integer` 🖥️
+- [getPickedQuantitiesColor](#getpickedquantitiescolor) → `Integer` 🖥️
+- [getPickedQuantitiesText](#getpickedquantitiestext) (1 param) → `Text` 🖥️
+- [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
+- [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
 
----
+**🔍 Getters (6):**
 
-### DeliveryDateTime {#deliverydatetime}
- `[local]` `[getter]`
+- [DespatchDateTime](#despatchdatetime) → `cs.System.DateTime`
+- [DeliveryDateTime](#deliverydatetime) → `cs.System.DateTime`
+- [DespatchDate](#despatchdate) → `Date`
+- [DeliveryDate](#deliverydate) → `Date`
+- [OutstandingToDeliver](#outstandingtodeliver) → `Integer`
+- [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
 
-```4d
-Function DeliveryDateTime -> cs.System.DateTime
-```
+**✏️ Setters (1):**
 
-**Returns:** `cs.System.DateTime`
-
----
-
-### DespatchDate {#despatchdate}
- `[local]` `[getter]`
-
-```4d
-Function DespatchDate -> Date
-```
-
-**Returns:** `Date`
+- [OutstandingToDeliver](#outstandingtodeliver) (1 param)
 
 ---
 
-### DeliveryDate {#deliverydate}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function DeliveryDate -> Date
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Date`
+### 🔍 Getters
 
----
-
-### createCofC {#createcofc}
- `[local]`
-
-```4d
-Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity : cs.WorksOrderEntity; $Quantity : Integer) -> cs.CofCEntity
-```
-
-**Returns:** `cs.CofCEntity`
-
----
-
-### getAvailableForPickRequest {#getavailableforpickrequest}
- `[local]`
-
-```4d
-Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### OutstandingToDeliver {#outstandingtodeliver}
- `[local]` `[getter]`
-
-```4d
-Function OutstandingToDeliver -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### OutstandingToDeliver {#outstandingtodeliver}
- `[local]` `[setter]`
-
-```4d
-Function OutstandingToDeliver($OutstandingToDeliver : Integer)
-```
-
----
-
-### OutstandingToPickRequest {#outstandingtopickrequest}
- `[local]` `[getter]`
-
-```4d
-Function OutstandingToPickRequest -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### modifyOrderPickRequest {#modifyorderpickrequest}
- `[local]`
-
-```4d
-Function modifyOrderPickRequest($PickRequestEntity : cs.PickRequestEntity) -> cs.OrderPickRequestEntity
-```
-
-**Returns:** `cs.OrderPickRequestEntity`
-
----
-
-### getPickRequestedQuantity {#getpickrequestedquantity}
- `[local]`
-
-```4d
-Function getPickRequestedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### getPickedQuantity {#getpickedquantity}
- `[local]`
-
-```4d
-Function getPickedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### getPickedQuantitiesColor {#getpickedquantitiescolor}
- `[local]`
-
-```4d
-Function getPickedQuantitiesColor -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### getPickedQuantitiesText {#getpickedquantitiestext}
- `[local]`
-
-```4d
-Function getPickedQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### getPickRequestQuantitiesText {#getpickrequestquantitiestext}
- `[local]`
-
-```4d
-Function getPickRequestQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### getPickRequestQuantitiesColor {#getpickrequestquantitiescolor}
- `[local]`
-
-```4d
-Function getPickRequestQuantitiesColor -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### ✏️ Setters
 
 ---
 
 *Generated from Customer_OrderEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.107Z*

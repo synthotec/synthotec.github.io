@@ -5,44 +5,36 @@ parent : Classes
 ---
 # ClassParameter
 
-## Description
+📊 **Overview:** 1 Constructor | 1 Functions
+
+## 📝 Description
 
 🗨️ Stores metadata about a function parameter
 
-## Table of Contents
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [toObject()](#toobject)
+🕐 *Last updated: 2025-11-13T00:47:52.100Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($Name : Text; $Type : Text)
-```
+**🏗️ Constructors (1):**
 
-Stores metadata about a function parameter
+- [constructor](#constructor) (2 params)
 
----
+**⚙️ Functions (1):**
 
-### toObject {#toobject}
-
-
-```4d
-Function toObject -> Object
-```
-
-**Returns:** `Object`
+- [toObject](#toobject) → `Object`
 
 ---
+
+## ⚙️ Functions
+
+### 🏗️ Constructors
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ClassParameter.4dm*
-*Last updated: 2025-11-13T00:30:40.990Z*

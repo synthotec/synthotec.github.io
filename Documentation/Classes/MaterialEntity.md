@@ -5,66 +5,36 @@ parent : Classes
 ---
 # MaterialEntity
 
+📊 **Overview:** 3 Functions | 1 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMaterialsUsingThis()](#getmaterialsusingthis)
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
-- [HasMigrationID() [getter]](#hasmigrationid)
+🕐 *Last updated: 2025-11-13T00:47:52.831Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMaterialsUsingThis {#getmaterialsusingthis}
+### ⚙️ Functions
 
+**⚙️ Functions (3):**
 
-```4d
-Function getMaterialsUsingThis -> cs.MaterialSelection
-```
+- [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
-**Returns:** `cs.MaterialSelection`
+**🔍 Getters (1):**
 
----
-
-### getMigrationRules {#getmigrationrules}
- `[local]`
-
-```4d
-Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> Collection
-```
-
-////////////////////////////////////////////////////////////////////////////////////////
-
-**Returns:** `Collection`
+- [HasMigrationID](#hasmigrationid) → `Boolean`
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
-```
+### ⚙️ Regular Functions
 
----
-
-### HasMigrationID {#hasmigrationid}
- `[local]` `[getter]`
-
-```4d
-Function HasMigrationID -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from MaterialEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.753Z*

@@ -5,30 +5,28 @@ parent : Classes
 ---
 # RealTimeMachines
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getByMachine()](#getbymachine)
+🕐 *Last updated: 2025-11-13T00:47:53.623Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getByMachine {#getbymachine}
+### ⚙️ Functions
 
+**⚙️ Functions (1):**
 
-```4d
-Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
-```
-
-**Returns:** `cs.RealTimeMachinesEntity`
+- [getByMachine](#getbymachine) (1 param) → `cs.RealTimeMachinesEntity`
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RealTimeMachines.4dm*
-*Last updated: 2025-11-13T00:30:42.514Z*

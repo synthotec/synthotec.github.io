@@ -5,116 +5,35 @@ parent : Classes
 ---
 # Warehouse
 
+📊 **Overview:** 8 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [restExecutePromptFormula()](#restexecutepromptformula)
-- [restExecuteFormula()](#restexecuteformula)
-- [restTest()](#resttest)
-- [restStartPage()](#reststartpage)
-- [restInitialScan()](#restinitialscan)
-- [restDisplayPrinterList()](#restdisplayprinterlist)
-- [restSetLabelPrinter()](#restsetlabelprinter)
-- [restScanTest()](#restscantest)
+🕐 *Last updated: 2025-11-13T00:47:54.271Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### restExecutePromptFormula {#restexecutepromptformula}
- `[exposed]`
+### ⚙️ Functions
 
-```4d
-Function restExecutePromptFormula($RestPostDataObject : Object) -> Object
-```
+**⚙️ Functions (8):**
 
-**Returns:** `Object`
-
----
-
-### restExecuteFormula {#restexecuteformula}
- `[exposed]`
-
-```4d
-Function restExecuteFormula($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
+- [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
+- [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
+- [restTest](#resttest) (1 param) → `Object`
+- [restStartPage](#reststartpage) (1 param) → `Object`
+- [restInitialScan](#restinitialscan) (1 param) → `Object`
+- [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
+- [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
+- [restScanTest](#restscantest) (1 param) → `Object`
 
 ---
 
-### restTest {#resttest}
- `[exposed]`
+## ⚙️ Functions
 
-```4d
-Function restTest($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restStartPage {#reststartpage}
- `[exposed]`
-
-```4d
-Function restStartPage($RestPostDataObject : Object) -> Object
-```
-
-var $Name : Text
-
-**Returns:** `Object`
-
----
-
-### restInitialScan {#restinitialscan}
- `[exposed]`
-
-```4d
-Function restInitialScan($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restDisplayPrinterList {#restdisplayprinterlist}
- `[exposed]`
-
-```4d
-Function restDisplayPrinterList($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restSetLabelPrinter {#restsetlabelprinter}
- `[exposed]`
-
-```4d
-Function restSetLabelPrinter($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restScanTest {#restscantest}
- `[exposed]`
-
-```4d
-Function restScanTest($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Warehouse.4dm*
-*Last updated: 2025-11-13T00:30:43.170Z*

@@ -5,33 +5,60 @@ parent : Classes
 ---
 # ExcelXMLFileStyle
 
-## Table of Contents
+📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-### Properties
-
-- [NumberFormat_ShortDate](#numberformatshortdate)
-- [NumberFormat_dd_mmm](#numberformatddmmm)
-- [NumberFormat_Decimal](#numberformatdecimal)
-- [NumberFormat_Number](#numberformatnumber)
-- [Font](#font)
-- [Interior](#interior)
-- [Alignment](#alignment)
-- [NumberFormat](#numberformat)
-- [ID](#id)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [setFontStyle()](#setfontstyle)
-- [setInteriorColor()](#setinteriorcolor)
-- [setNumberFormat()](#setnumberformat)
-- [setAlignment()](#setalignment)
+🕐 *Last updated: 2025-11-13T00:47:52.596Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### NumberFormat_ShortDate {#numberformatshortdate}
+### 📋 Properties (9)
+
+- [NumberFormat_ShortDate](#numberformatshortdate) : `Text`
+- [NumberFormat_dd_mmm](#numberformatddmmm) : `Text`
+- [NumberFormat_Decimal](#numberformatdecimal) : `Text`
+- [NumberFormat_Number](#numberformatnumber) : `Text`
+- [Font](#font) : `Object`
+- [Interior](#interior) : `Object`
+- [Alignment](#alignment) : `Object`
+- [NumberFormat](#numberformat) : `Text`
+- [ID](#id) : `Text`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**⚙️ Functions (4):**
+
+- [setFontStyle](#setfontstyle) (5 params) → `cs.ExcelXMLFileStyle`
+- [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
+- [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
+- [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `NumberFormat_ShortDate` | `Text` | `"Short Date"` |  |
+| `NumberFormat_dd_mmm` | `Text` | `"dd\\-mmm"` |  |
+| `NumberFormat_Decimal` | `Text` | `"General;#;;@"` |  |
+| `NumberFormat_Number` | `Text` | `"#,###,###,##0"` |  |
+| `Font` | `Object` | `{}` |  |
+| `Interior` | `Object` | `{}` |  |
+| `Alignment` | `Object` | `{}` |  |
+| `NumberFormat` | `Text` | `"General"` |  |
+| `ID` | `Text` | - |  |
+
+### Detailed Information
+
+#### NumberFormat_ShortDate {#numberformatshortdate}
 
 **Type:** `Text`
 
@@ -39,7 +66,7 @@ parent : Classes
 
 ---
 
-### NumberFormat_dd_mmm {#numberformatddmmm}
+#### NumberFormat_dd_mmm {#numberformatddmmm}
 
 **Type:** `Text`
 
@@ -47,7 +74,7 @@ parent : Classes
 
 ---
 
-### NumberFormat_Decimal {#numberformatdecimal}
+#### NumberFormat_Decimal {#numberformatdecimal}
 
 **Type:** `Text`
 
@@ -55,7 +82,7 @@ parent : Classes
 
 ---
 
-### NumberFormat_Number {#numberformatnumber}
+#### NumberFormat_Number {#numberformatnumber}
 
 **Type:** `Text`
 
@@ -63,7 +90,7 @@ parent : Classes
 
 ---
 
-### Font {#font}
+#### Font {#font}
 
 **Type:** `Object`
 
@@ -71,7 +98,7 @@ parent : Classes
 
 ---
 
-### Interior {#interior}
+#### Interior {#interior}
 
 **Type:** `Object`
 
@@ -79,7 +106,7 @@ parent : Classes
 
 ---
 
-### Alignment {#alignment}
+#### Alignment {#alignment}
 
 **Type:** `Object`
 
@@ -87,7 +114,7 @@ parent : Classes
 
 ---
 
-### NumberFormat {#numberformat}
+#### NumberFormat {#numberformat}
 
 **Type:** `Text`
 
@@ -95,68 +122,18 @@ parent : Classes
 
 ---
 
-### ID {#id}
+#### ID {#id}
 
 **Type:** `Text`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### setFontStyle {#setfontstyle}
-
-
-```4d
-Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integer; $Bold : Boolean) -> cs.ExcelXMLFileStyle
-```
-
-**Returns:** `cs.ExcelXMLFileStyle`
-
----
-
-### setInteriorColor {#setinteriorcolor}
-
-
-```4d
-Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
-```
-
-**Returns:** `cs.ExcelXMLFileStyle`
-
----
-
-### setNumberFormat {#setnumberformat}
-
-
-```4d
-Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
-```
-
-**Returns:** `cs.ExcelXMLFileStyle`
-
----
-
-### setAlignment {#setalignment}
-
-
-```4d
-Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileStyle
-```
-
-**Returns:** `cs.ExcelXMLFileStyle`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ExcelXMLFileStyle.4dm*
-*Last updated: 2025-11-13T00:30:41.474Z*

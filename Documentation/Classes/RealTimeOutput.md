@@ -5,90 +5,40 @@ parent : Classes
 ---
 # RealTimeOutput
 
-## Description
+📊 **Overview:** 1 Constructor | 5 Getters
+
+## 📝 Description
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-## Table of Contents
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [Machines() [getter]](#machines)
-- [SecondarySummaryText() [getter]](#secondarysummarytext)
-- [SummaryText() [getter]](#summarytext)
-- [Layout() [getter]](#layout)
-- [InfoTextBox() [getter]](#infotextbox)
+🕐 *Last updated: 2025-11-13T00:47:53.658Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor)
 
-### Machines {#machines}
- `[getter]`
+**🔍 Getters (5):**
 
-```4d
-Function Machines -> Collection
-```
-
-**Returns:** `Collection`
+- [Machines](#machines) → `Collection`
+- [SecondarySummaryText](#secondarysummarytext) → `Text`
+- [SummaryText](#summarytext) → `Text`
+- [Layout](#layout) → `Object`
+- [InfoTextBox](#infotextbox) → `Object`
 
 ---
 
-### SecondarySummaryText {#secondarysummarytext}
- `[getter]`
+## ⚙️ Functions
 
-```4d
-Function SecondarySummaryText -> Text
-```
+### 🏗️ Constructors
 
-**Returns:** `Text`
-
----
-
-### SummaryText {#summarytext}
- `[getter]`
-
-```4d
-Function SummaryText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### Layout {#layout}
- `[getter]`
-
-```4d
-Function Layout -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### InfoTextBox {#infotextbox}
- `[getter]`
-
-```4d
-Function InfoTextBox -> Object
-```
-
-**Returns:** `Object`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from RealTimeOutput.4dm*
-*Last updated: 2025-11-13T00:30:42.558Z*

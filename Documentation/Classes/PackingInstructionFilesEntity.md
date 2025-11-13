@@ -5,40 +5,29 @@ parent : Classes
 ---
 # PackingInstructionFilesEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:52.939Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.PackingInstructionFilesEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Collection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.PackingInstructionFilesEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PackingInstructionFilesEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.899Z*

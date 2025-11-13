@@ -5,46 +5,33 @@ parent : Classes
 ---
 # Loading
 
-## Table of Contents
+📊 **Overview:** 1 Constructor | 2 Functions
 
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [stop()](#stop)
-- [update()](#update)
+🕐 *Last updated: 2025-11-13T00:47:52.768Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($LoadingText : Text; $LoadingProgress : Real)
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor) (2 params)
 
-### stop {#stop}
+**⚙️ Functions (2):**
 
-
-```4d
-Function stop
-```
+- [stop](#stop)
+- [update](#update) (2 params)
 
 ---
 
-### update {#update}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function update($LoadingText : Text; $LoadingProgress : Real)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Loading.4dm*
-*Last updated: 2025-11-13T00:30:41.682Z*

@@ -5,42 +5,29 @@ parent : Classes
 ---
 # Permissions
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getByName()](#getbyname)
-- [check()](#check)
+🕐 *Last updated: 2025-11-13T00:47:53.121Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getByName {#getbyname}
+### ⚙️ Functions
 
+**⚙️ Functions (2):**
 
-```4d
-Function getByName($PermissionName : Text) -> cs.PermissionsEntity
-```
-
-**Returns:** `cs.PermissionsEntity`
+- [getByName](#getbyname) (1 param) → `cs.PermissionsEntity`
+- [check](#check) (3 params) → `Boolean` 🖥️
 
 ---
 
-### check {#check}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity : cs.StaffEntity) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Permissions.4dm*
-*Last updated: 2025-11-13T00:30:42.031Z*

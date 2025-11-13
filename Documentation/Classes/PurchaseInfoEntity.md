@@ -5,54 +5,35 @@ parent : Classes
 ---
 # PurchaseInfoEntity
 
+📊 **Overview:** 1 Functions | 2 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [OutstandingQuantity() [getter]](#outstandingquantity)
-- [value() [getter]](#value)
-- [createReceipt()](#createreceipt)
+🕐 *Last updated: 2025-11-13T00:47:53.548Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### OutstandingQuantity {#outstandingquantity}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function OutstandingQuantity -> Real
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Real`
+- [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
 
----
+**🔍 Getters (2):**
 
-### value {#value}
- `[local]` `[getter]`
-
-```4d
-Function value -> Real
-```
-
-**Returns:** `Real`
+- [OutstandingQuantity](#outstandingquantity) → `Real`
+- [value](#value) → `Real`
 
 ---
 
-### createReceipt {#createreceipt}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function createReceipt -> cs.PurchaseReceiptsEntity
-```
+### ⚙️ Regular Functions
 
-**Returns:** `cs.PurchaseReceiptsEntity`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from PurchaseInfoEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.416Z*

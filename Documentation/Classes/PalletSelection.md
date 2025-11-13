@@ -5,30 +5,28 @@ parent : Classes
 ---
 # PalletSelection
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [getAvailable()](#getavailable)
+🕐 *Last updated: 2025-11-13T00:47:53.115Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getAvailable {#getavailable}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getAvailable -> cs.PalletSelection
-```
+**⚙️ Functions (1):**
 
-**Returns:** `cs.PalletSelection`
+- [getAvailable](#getavailable) → `cs.PalletSelection` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PalletSelection.4dm*
-*Last updated: 2025-11-13T00:30:42.020Z*

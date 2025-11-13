@@ -5,102 +5,39 @@ parent : Classes
 ---
 # RealTimeMachinesEntity
 
+📊 **Overview:** 1 Functions | 6 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [TemperatureSensorsInstalled() [getter]](#temperaturesensorsinstalled)
-- [checkTempZoneExists()](#checktempzoneexists)
-- [WorksOrderEntity() [getter]](#worksorderentity)
-- [WorksOrder() [getter]](#worksorder)
-- [Changing() [getter]](#changing)
-- [UniChar() [getter]](#unichar)
-- [AssignedTemperatureSensorsPresent() [getter]](#assignedtemperaturesensorspresent)
+🕐 *Last updated: 2025-11-13T00:47:53.631Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
- `[getter]`
+### ⚙️ Functions
 
-```4d
-Function TemperatureSensorsInstalled -> Boolean
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Boolean`
+- [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
 
----
+**🔍 Getters (6):**
 
-### checkTempZoneExists {#checktempzoneexists}
-
-
-```4d
-Function checkTempZoneExists($Zone : Integer) -> Boolean
-```
-
-**Returns:** `Boolean`
+- [TemperatureSensorsInstalled](#temperaturesensorsinstalled) → `Boolean`
+- [WorksOrderEntity](#worksorderentity) → `cs.WorksOrderEntity`
+- [WorksOrder](#worksorder) → `Integer`
+- [Changing](#changing) → `Boolean`
+- [UniChar](#unichar) → `Text`
+- [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
 
 ---
 
-### WorksOrderEntity {#worksorderentity}
- `[getter]`
+## ⚙️ Functions
 
-```4d
-Function WorksOrderEntity -> cs.WorksOrderEntity
-```
+### ⚙️ Regular Functions
 
-**Returns:** `cs.WorksOrderEntity`
-
----
-
-### WorksOrder {#worksorder}
- `[getter]`
-
-```4d
-Function WorksOrder -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### Changing {#changing}
- `[getter]`
-
-```4d
-Function Changing -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### UniChar {#unichar}
- `[getter]`
-
-```4d
-Function UniChar -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### AssignedTemperatureSensorsPresent {#assignedtemperaturesensorspresent}
- `[getter]`
-
-```4d
-Function AssignedTemperatureSensorsPresent -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from RealTimeMachinesEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.531Z*

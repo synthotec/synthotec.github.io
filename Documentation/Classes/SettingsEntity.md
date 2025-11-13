@@ -5,78 +5,32 @@ parent : Classes
 ---
 # SettingsEntity
 
+📊 **Overview:** 5 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [setValue()](#setvalue)
-- [setObject()](#setobject)
-- [getValue()](#getvalue)
-- [getObject()](#getobject)
-- [reset()](#reset)
+🕐 *Last updated: 2025-11-13T00:47:53.832Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### setValue {#setvalue}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function setValue($Value : Variant) -> Boolean
-```
+**⚙️ Functions (5):**
 
-**Returns:** `Boolean`
-
----
-
-### setObject {#setobject}
- `[local]`
-
-```4d
-Function setObject($Object : Object) -> Boolean
-```
-
-**Returns:** `Boolean`
+- [setValue](#setvalue) (1 param) → `Boolean` 🖥️
+- [setObject](#setobject) (1 param) → `Boolean` 🖥️
+- [getValue](#getvalue) (1 param) → `Variant` 🖥️
+- [getObject](#getobject) (1 param) → `Object` 🖥️
+- [reset](#reset) → `Boolean` 🖥️
 
 ---
 
-### getValue {#getvalue}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getValue($DefaultValue : Variant) -> Variant
-```
-
-**Returns:** `Variant`
-
----
-
-### getObject {#getobject}
- `[local]`
-
-```4d
-Function getObject($DefaultValue : Variant) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### reset {#reset}
- `[local]`
-
-```4d
-Function reset -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from SettingsEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.739Z*

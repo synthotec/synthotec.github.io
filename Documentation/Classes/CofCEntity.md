@@ -5,30 +5,28 @@ parent : Classes
 ---
 # CofCEntity
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [cancel()](#cancel)
+🕐 *Last updated: 2025-11-13T00:47:52.112Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### cancel {#cancel}
+### ⚙️ Functions
 
+**⚙️ Functions (1):**
 
-```4d
-Function cancel -> Boolean
-```
-
-**Returns:** `Boolean`
+- [cancel](#cancel) → `Boolean`
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from CofCEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.013Z*

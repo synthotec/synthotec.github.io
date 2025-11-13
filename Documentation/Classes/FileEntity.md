@@ -5,28 +5,28 @@ parent : Classes
 ---
 # FileEntity
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [open()](#open)
+🕐 *Last updated: 2025-11-13T00:47:52.623Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### open {#open}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function open
-```
+**⚙️ Functions (1):**
+
+- [open](#open) 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from FileEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.505Z*

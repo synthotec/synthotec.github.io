@@ -5,40 +5,29 @@ parent : Classes
 ---
 # ApprovalsEntity
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:51.918Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.ApprovalsEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Collection`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ApprovalsEntity.4dm*
-*Last updated: 2025-11-13T00:30:40.829Z*

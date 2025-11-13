@@ -5,93 +5,77 @@ parent : Classes
 ---
 # ExampleClass
 
-## Description
+📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters
+
+## 📝 Description
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-## Table of Contents
-
-### Properties
-
-- [Title](#title)
-- [Count](#count)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [calculateValue()](#calculatevalue)
-- [processOrder()](#processorder)
-- [ItemCount() [getter]](#itemcount)
+🕐 *Last updated: 2025-11-13T00:47:52.538Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### Title {#title}
+### 📋 Properties (2)
+
+- [Title](#title) : `Text`
+- [Count](#count) : `Integer`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (1 param)
+
+**⚙️ Functions (2):**
+
+- [calculateValue](#calculatevalue) (1 param) → `Real`
+- [processOrder](#processorder) (2 params) → `Boolean`
+
+**🔍 Getters (1):**
+
+- [ItemCount](#itemcount) → `Integer`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Title` | `Text` | - | The title of the item |
+| `Count` | `Integer` | `0` | Number of items in stock |
+
+### Detailed Information
+
+#### Title {#title}
 
 **Type:** `Text`
 
+The title of the item
+
 ---
 
-### Count {#count}
+#### Count {#count}
 
 **Type:** `Integer`
 
 **Default Value:** `0`
 
----
-
-## Functions
-
-### constructor {#constructor}
- `[constructor]`
-
-```4d
-Class constructor($InitialCount : Integer)
-```
-
-$InitialCount: Starting inventory count
+Number of items in stock
 
 ---
 
-### calculateValue {#calculatevalue}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function calculateValue($UnitPrice : Real) -> Real
-```
+### ⚙️ Regular Functions
 
-Returns total inventory value
-
-**Returns:** `Real`
-
----
-
-### processOrder {#processorder}
-
-
-```4d
-Function processOrder($Quantity : Integer; $DiscountPercent : Real) -> Boolean
-```
-
-$Quantity: Number of items to order
-
-**Returns:** `Boolean`
-
----
-
-### ItemCount {#itemcount}
- `[getter]`
-
-```4d
-Function ItemCount -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ExampleClass.4dm*
-*Last updated: 2025-11-13T00:30:41.408Z*

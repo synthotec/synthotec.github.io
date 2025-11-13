@@ -5,212 +5,49 @@ parent : Classes
 ---
 # TableInspector
 
-## Description
+📊 **Overview:** 1 Constructor | 14 Functions
+
+## 📝 Description
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-## Table of Contents
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [_parseCatalog()](#_parsecatalog)
-- [_parseTableAttributes()](#_parsetableattributes)
-- [_parseField()](#_parsefield)
-- [_parseFieldExtra()](#_parsefieldextra)
-- [_parsePrimaryKey()](#_parseprimarykey)
-- [_parseIndex()](#_parseindex)
-- [_parseRelation()](#_parserelation)
-- [_getTypeName()](#_gettypename)
-- [_getIndexTypeName()](#_getindextypename)
-- [_getRelationStateName()](#_getrelationstatename)
-- [_mergeExistingComments()](#_mergeexistingcomments)
-- [toObject()](#toobject)
-- [toJSON()](#tojson)
-- [saveToFile()](#savetofile)
+🕐 *Last updated: 2025-11-13T00:47:54.092Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor($TableName : Text)
-```
+**🏗️ Constructors (1):**
 
-Parse 4D catalog.4DCatalog file and extract table metadata for documentation
+- [constructor](#constructor) (1 param)
 
----
+**⚙️ Functions (14):**
 
-### _parseCatalog {#_parsecatalog}
-
-
-```4d
-Function _parseCatalog
-```
-
-Parse the catalog.4DCatalog XML file to extract table information
-
----
-
-### _parseTableAttributes {#_parsetableattributes}
-
-
-```4d
-Function _parseTableAttributes($Line : Text)
-```
-
-Extract UUID
+- [_parseCatalog](#_parsecatalog)
+- [_parseTableAttributes](#_parsetableattributes) (1 param)
+- [_parseField](#_parsefield) (1 param) → `Object`
+- [_parseFieldExtra](#_parsefieldextra) (2 params)
+- [_parsePrimaryKey](#_parseprimarykey) (1 param)
+- [_parseIndex](#_parseindex) (2 params)
+- [_parseRelation](#_parserelation) (2 params)
+- [_getTypeName](#_gettypename) (1 param) → `Text`
+- [_getIndexTypeName](#_getindextypename) (1 param) → `Text`
+- [_getRelationStateName](#_getrelationstatename) (1 param) → `Text`
+- [_mergeExistingComments](#_mergeexistingcomments)
+- [toObject](#toobject) → `Object`
+- [toJSON](#tojson) → `Text`
+- [saveToFile](#savetofile)
 
 ---
 
-### _parseField {#_parsefield}
+## ⚙️ Functions
 
+### 🏗️ Constructors
 
-```4d
-Function _parseField($Line : Text) -> Object
-```
-
-Parse field from XML line
-
-**Returns:** `Object`
-
----
-
-### _parseFieldExtra {#_parsefieldextra}
-
-
-```4d
-Function _parseFieldExtra($Field : Object; $Line : Text)
-```
-
-Parse field_extra attributes
-
----
-
-### _parsePrimaryKey {#_parseprimarykey}
-
-
-```4d
-Function _parsePrimaryKey($Line : Text)
-```
-
-Parse primary key
-
----
-
-### _parseIndex {#_parseindex}
-
-
-```4d
-Function _parseIndex($Lines : Collection; $Line : Text)
-```
-
-Check if this index references our table
-
----
-
-### _parseRelation {#_parserelation}
-
-
-```4d
-Function _parseRelation($Lines : Collection; $Line : Text)
-```
-
-Parse relation definition
-
----
-
-### _getTypeName {#_gettypename}
-
-
-```4d
-Function _getTypeName($TypeCode : Text) -> Text
-```
-
-Get human-readable type name from type code
-
-**Returns:** `Text`
-
----
-
-### _getIndexTypeName {#_getindextypename}
-
-
-```4d
-Function _getIndexTypeName($TypeCode : Text) -> Text
-```
-
-Get human-readable index type name
-
-**Returns:** `Text`
-
----
-
-### _getRelationStateName {#_getrelationstatename}
-
-
-```4d
-Function _getRelationStateName($StateCode : Text) -> Text
-```
-
-Get human-readable relation state name
-
-**Returns:** `Text`
-
----
-
-### _mergeExistingComments {#_mergeexistingcomments}
-
-
-```4d
-Function _mergeExistingComments
-```
-
-Merge table comment
-
----
-
-### toObject {#toobject}
-
-
-```4d
-Function toObject -> Object
-```
-
-Convert to object for JSON export
-
-**Returns:** `Object`
-
----
-
-### toJSON {#tojson}
-
-
-```4d
-Function toJSON -> Text
-```
-
-Convert to JSON string
-
-**Returns:** `Text`
-
----
-
-### saveToFile {#savetofile}
-
-
-```4d
-Function saveToFile
-```
-
-Save to JSON file
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from TableInspector.4dm*
-*Last updated: 2025-11-13T00:30:42.964Z*

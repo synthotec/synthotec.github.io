@@ -5,28 +5,48 @@ parent : Classes
 ---
 # EntityMigrationRule
 
-## Table of Contents
+📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-### Properties
+🕐 *Last updated: 2025-11-13T00:47:52.477Z*
+
+---
+
+## 📑 Table of Contents
+
+### 📋 Properties (2)
 
 - [FormulaObjectCollection](#formulaobjectcollection)
 - [CriteriaCollection](#criteriacollection)
 
-### Functions
+### ⚙️ Functions
 
-- [constructor() [constructor]](#constructor)
-- [overwrite()](#overwrite)
-- [fillIfBlank()](#fillifblank)
-- [addFormula()](#addformula)
-- [addCriteria()](#addcriteria)
-- [addEntity()](#addentity)
-- [apply()](#apply)
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**⚙️ Functions (6):**
+
+- [overwrite](#overwrite) (1 param) → `cs.EntityMigrationRule`
+- [fillIfBlank](#fillifblank) (1 param) → `cs.EntityMigrationRule`
+- [addFormula](#addformula) (3 params) → `cs.EntityMigrationRule`
+- [addCriteria](#addcriteria) (1 param) → `cs.EntityMigrationRule`
+- [addEntity](#addentity) (4 params) → `cs.EntityMigrationRule`
+- [apply](#apply) (2 params)
 
 ---
 
-## Properties
+## 📋 Properties
 
-### FormulaObjectCollection {#formulaobjectcollection}
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `FormulaObjectCollection` | *Not specified* | `[]` |  |
+| `CriteriaCollection` | *Not specified* | `[]` |  |
+
+### Detailed Information
+
+#### FormulaObjectCollection {#formulaobjectcollection}
 
 **Type:** *Not specified*
 
@@ -34,7 +54,7 @@ parent : Classes
 
 ---
 
-### CriteriaCollection {#criteriacollection}
+#### CriteriaCollection {#criteriacollection}
 
 **Type:** *Not specified*
 
@@ -42,82 +62,12 @@ parent : Classes
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### overwrite {#overwrite}
-
-
-```4d
-Function overwrite($PropertyName : Text) -> cs.EntityMigrationRule
-```
-
-**Returns:** `cs.EntityMigrationRule`
-
----
-
-### fillIfBlank {#fillifblank}
-
-
-```4d
-Function fillIfBlank($PropertyName : Text) -> cs.EntityMigrationRule
-```
-
-**Returns:** `cs.EntityMigrationRule`
-
----
-
-### addFormula {#addformula}
-
-
-```4d
-Function addFormula($Formula : 4D.Function; $SecondParameter : Variant; $CheckProperty : Text) -> cs.EntityMigrationRule
-```
-
-**Returns:** `cs.EntityMigrationRule`
-
----
-
-### addCriteria {#addcriteria}
-
-
-```4d
-Function addCriteria($Formula : 4D.Function) -> cs.EntityMigrationRule
-```
-
-**Returns:** `cs.EntityMigrationRule`
-
----
-
-### addEntity {#addentity}
-
-
-```4d
-Function addEntity($DataClass : 4D.DataClass; $LocalEntity : 4D.Entity; $Formula : 4D.Function; $Sync : Boolean) -> cs.EntityMigrationRule
-```
-
-**Returns:** `cs.EntityMigrationRule`
-
----
-
-### apply {#apply}
-
-
-```4d
-Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from EntityMigrationRule.4dm*
-*Last updated: 2025-11-13T00:30:41.304Z*

@@ -5,74 +5,37 @@ parent : Classes
 ---
 # ShiftSummaryDetailEntity
 
+📊 **Overview:** 2 Functions | 3 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [fillDowntimeSincePrevious()](#filldowntimesinceprevious)
-- [fillRealTimeOutputMachine()](#fillrealtimeoutputmachine)
-- [Status() [getter]](#status)
-- [StatusText() [getter]](#statustext)
-- [StatusColor() [getter]](#statuscolor)
+🕐 *Last updated: 2025-11-13T00:47:53.849Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### fillDowntimeSincePrevious {#filldowntimesinceprevious}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function fillDowntimeSincePrevious
-```
+**⚙️ Functions (2):**
 
----
+- [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
+- [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
 
-### fillRealTimeOutputMachine {#fillrealtimeoutputmachine}
- `[local]`
+**🔍 Getters (3):**
 
-```4d
-Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
-```
+- [Status](#status) → `Integer`
+- [StatusText](#statustext) → `Text`
+- [StatusColor](#statuscolor) → `Integer`
 
 ---
 
-### Status {#status}
- `[local]` `[getter]`
+## ⚙️ Functions
 
-```4d
-Function Status -> Integer
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Integer`
-
----
-
-### StatusText {#statustext}
- `[local]` `[getter]`
-
-```4d
-Function StatusText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### StatusColor {#statuscolor}
- `[local]` `[getter]`
-
-```4d
-Function StatusColor -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ShiftSummaryDetailEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.754Z*

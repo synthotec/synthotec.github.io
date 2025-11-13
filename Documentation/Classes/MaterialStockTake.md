@@ -5,78 +5,32 @@ parent : Classes
 ---
 # MaterialStockTake
 
+📊 **Overview:** 5 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getLastStockTakeDate()](#getlaststocktakedate)
-- [getLastStockTakeAmount()](#getlaststocktakeamount)
-- [getLastStockTakeSelection()](#getlaststocktakeselection)
-- [restViewResults()](#restviewresults)
-- [restRemoveEntry()](#restremoveentry)
+🕐 *Last updated: 2025-11-13T00:47:52.875Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getLastStockTakeDate {#getlaststocktakedate}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getLastStockTakeDate -> Date
-```
+**⚙️ Functions (5):**
 
-**Returns:** `Date`
-
----
-
-### getLastStockTakeAmount {#getlaststocktakeamount}
- `[local]`
-
-```4d
-Function getLastStockTakeAmount($MaterialID : Integer) -> Real
-```
-
-**Returns:** `Real`
+- [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
+- [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
+- [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
+- [restViewResults](#restviewresults) (1 param) → `Object`
+- [restRemoveEntry](#restremoveentry) (1 param) → `Object`
 
 ---
 
-### getLastStockTakeSelection {#getlaststocktakeselection}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getLastStockTakeSelection -> cs.MaterialStockTakeSelection
-```
-
-**Returns:** `cs.MaterialStockTakeSelection`
-
----
-
-### restViewResults {#restviewresults}
- `[exposed]`
-
-```4d
-Function restViewResults($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restRemoveEntry {#restremoveentry}
- `[exposed]`
-
-```4d
-Function restRemoveEntry($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from MaterialStockTake.4dm*
-*Last updated: 2025-11-13T00:30:41.807Z*

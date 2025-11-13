@@ -5,31 +5,53 @@ parent : Classes
 ---
 # PriceImport
 
-## Table of Contents
+📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-### Properties
+🕐 *Last updated: 2025-11-13T00:47:53.308Z*
 
-- [PasteBoardText](#pasteboardtext)
+---
+
+## 📑 Table of Contents
+
+### 📋 Properties (4)
+
+- [PasteBoardText](#pasteboardtext) : `Text`
 - [ColumnNames](#columnnames)
 - [DataLines](#datalines)
 - [CellCollection](#cellcollection)
 
-### Functions
+### ⚙️ Functions
 
-- [constructor() [constructor]](#constructor)
-- [importPrices()](#importprices)
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**⚙️ Functions (1):**
+
+- [importPrices](#importprices) → `Object`
 
 ---
 
-## Properties
+## 📋 Properties
 
-### PasteBoardText {#pasteboardtext}
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `PasteBoardText` | `Text` | - |  |
+| `ColumnNames` | *Not specified* | `[]` |  |
+| `DataLines` | *Not specified* | `[]` |  |
+| `CellCollection` | *Not specified* | `[]` |  |
+
+### Detailed Information
+
+#### PasteBoardText {#pasteboardtext}
 
 **Type:** `Text`
 
 ---
 
-### ColumnNames {#columnnames}
+#### ColumnNames {#columnnames}
 
 **Type:** *Not specified*
 
@@ -37,7 +59,7 @@ parent : Classes
 
 ---
 
-### DataLines {#datalines}
+#### DataLines {#datalines}
 
 **Type:** *Not specified*
 
@@ -45,7 +67,7 @@ parent : Classes
 
 ---
 
-### CellCollection {#cellcollection}
+#### CellCollection {#cellcollection}
 
 **Type:** *Not specified*
 
@@ -53,29 +75,12 @@ parent : Classes
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### importPrices {#importprices}
-
-
-```4d
-Function importPrices -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from PriceImport.4dm*
-*Last updated: 2025-11-13T00:30:42.170Z*

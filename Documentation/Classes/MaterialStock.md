@@ -5,54 +5,30 @@ parent : Classes
 ---
 # MaterialStock
 
+📊 **Overview:** 3 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [restLoadMaterialStock()](#restloadmaterialstock)
-- [restUpdateQuantity()](#restupdatequantity)
-- [restLocateMaterialStock()](#restlocatematerialstock)
+🕐 *Last updated: 2025-11-13T00:47:52.862Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### restLoadMaterialStock {#restloadmaterialstock}
- `[exposed]`
+### ⚙️ Functions
 
-```4d
-Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
-```
+**⚙️ Functions (3):**
 
-**Returns:** `Object`
-
----
-
-### restUpdateQuantity {#restupdatequantity}
- `[exposed]`
-
-```4d
-Function restUpdateQuantity($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
+- [restLoadMaterialStock](#restloadmaterialstock) (1 param) → `Object`
+- [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`
+- [restLocateMaterialStock](#restlocatematerialstock) (1 param) → `Object`
 
 ---
 
-### restLocateMaterialStock {#restlocatematerialstock}
- `[exposed]`
+## ⚙️ Functions
 
-```4d
-Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from MaterialStock.4dm*
-*Last updated: 2025-11-13T00:30:41.785Z*

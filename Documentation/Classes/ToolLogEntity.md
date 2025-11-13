@@ -5,13 +5,18 @@ parent : Classes
 ---
 # ToolLogEntity
 
+📊 **Overview:** 
+
 **Extends:** `Entity`
 
-## Table of Contents
+🕐 *Last updated: 2025-11-13T00:47:54.099Z*
+
+---
+
+## 📑 Table of Contents
 
 ---
 
 ---
 
 *Generated from ToolLogEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.981Z*

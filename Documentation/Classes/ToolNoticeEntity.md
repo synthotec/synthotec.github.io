@@ -5,74 +5,37 @@ parent : Classes
 ---
 # ToolNoticeEntity
 
+📊 **Overview:** 2 Functions | 3 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [IsActive() [getter]](#isactive)
-- [RemainingRuns() [getter]](#remainingruns)
-- [displayWorkOrders()](#displayworkorders)
-- [deactivate()](#deactivate)
-- [ActiveUntilText() [getter]](#activeuntiltext)
+🕐 *Last updated: 2025-11-13T00:47:54.125Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### IsActive {#isactive}
- `[getter]`
+### ⚙️ Functions
 
-```4d
-Function IsActive -> Boolean
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Boolean`
+- [displayWorkOrders](#displayworkorders) 🖥️
+- [deactivate](#deactivate) 🖥️
 
----
+**🔍 Getters (3):**
 
-### RemainingRuns {#remainingruns}
- `[getter]`
-
-```4d
-Function RemainingRuns -> Integer
-```
-
-**Returns:** `Integer`
+- [IsActive](#isactive) → `Boolean`
+- [RemainingRuns](#remainingruns) → `Integer`
+- [ActiveUntilText](#activeuntiltext) → `Text`
 
 ---
 
-### displayWorkOrders {#displayworkorders}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function displayWorkOrders
-```
+### ⚙️ Regular Functions
 
----
-
-### deactivate {#deactivate}
- `[local]`
-
-```4d
-Function deactivate
-```
-
----
-
-### ActiveUntilText {#activeuntiltext}
- `[getter]`
-
-```4d
-Function ActiveUntilText -> Text
-```
-
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ToolNoticeEntity.4dm*
-*Last updated: 2025-11-13T00:30:43.007Z*

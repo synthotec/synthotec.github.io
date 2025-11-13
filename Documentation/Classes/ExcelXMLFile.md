@@ -5,38 +5,63 @@ parent : Classes
 ---
 # ExcelXMLFile
 
-## Description
+📊 **Overview:** 7 Properties | 1 Constructor | 7 Functions
+
+## 📝 Description
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-## Table of Contents
-
-### Properties
-
-- [Styles](#styles)
-- [Rows](#rows)
-- [Columns](#columns)
-- [FileContents](#filecontents)
-- [FreezeRowsAbove](#freezerowsabove)
-- [FreezeRowsToLeft](#freezerowstoleft)
-- [ConditionalFormatting](#conditionalformatting)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [addSelectionBasedListbox()](#addselectionbasedlistbox)
-- [setFreezePanes()](#setfreezepanes)
-- [addColumn()](#addcolumn)
-- [addRow()](#addrow)
-- [addStyle()](#addstyle)
-- [saveToClipboard()](#savetoclipboard)
-- [generate()](#generate)
+🕐 *Last updated: 2025-11-13T00:47:52.582Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### Styles {#styles}
+### 📋 Properties (7)
+
+- [Styles](#styles) : `Collection`
+- [Rows](#rows) : `Collection`
+- [Columns](#columns) : `Collection`
+- [FileContents](#filecontents) : `Text`
+- [FreezeRowsAbove](#freezerowsabove) : `Integer`
+- [FreezeRowsToLeft](#freezerowstoleft) : `Integer`
+- [ConditionalFormatting](#conditionalformatting) : `Object`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**⚙️ Functions (7):**
+
+- [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
+- [setFreezePanes](#setfreezepanes) (2 params)
+- [addColumn](#addcolumn) (2 params)
+- [addRow](#addrow) (1 param)
+- [addStyle](#addstyle) (1 param) → `Text`
+- [saveToClipboard](#savetoclipboard) (2 params)
+- [generate](#generate)
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Styles` | `Collection` | `[]` |  |
+| `Rows` | `Collection` | `[]` |  |
+| `Columns` | `Collection` | `[]` |  |
+| `FileContents` | `Text` | `""` |  |
+| `FreezeRowsAbove` | `Integer` | `0` |  |
+| `FreezeRowsToLeft` | `Integer` | `0` |  |
+| `ConditionalFormatting` | `Object` | - |  |
+
+### Detailed Information
+
+#### Styles {#styles}
 
 **Type:** `Collection`
 
@@ -44,7 +69,7 @@ parent : Classes
 
 ---
 
-### Rows {#rows}
+#### Rows {#rows}
 
 **Type:** `Collection`
 
@@ -52,7 +77,7 @@ parent : Classes
 
 ---
 
-### Columns {#columns}
+#### Columns {#columns}
 
 **Type:** `Collection`
 
@@ -60,7 +85,7 @@ parent : Classes
 
 ---
 
-### FileContents {#filecontents}
+#### FileContents {#filecontents}
 
 **Type:** `Text`
 
@@ -68,7 +93,7 @@ parent : Classes
 
 ---
 
-### FreezeRowsAbove {#freezerowsabove}
+#### FreezeRowsAbove {#freezerowsabove}
 
 **Type:** `Integer`
 
@@ -76,7 +101,7 @@ parent : Classes
 
 ---
 
-### FreezeRowsToLeft {#freezerowstoleft}
+#### FreezeRowsToLeft {#freezerowstoleft}
 
 **Type:** `Integer`
 
@@ -84,89 +109,18 @@ parent : Classes
 
 ---
 
-### ConditionalFormatting {#conditionalformatting}
+#### ConditionalFormatting {#conditionalformatting}
 
 **Type:** `Object`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### addSelectionBasedListbox {#addselectionbasedlistbox}
-
-
-```4d
-Function addSelectionBasedListbox($ListboxName : Text)
-```
-
----
-
-### setFreezePanes {#setfreezepanes}
-
-
-```4d
-Function setFreezePanes($RowsAbove : Integer; $RowsToLeft : Integer)
-```
-
----
-
-### addColumn {#addcolumn}
-
-
-```4d
-Function addColumn($Width : Real; $Span : Integer)
-```
-
----
-
-### addRow {#addrow}
-
-
-```4d
-Function addRow($ExcelXMLFileRow : cs.ExcelXMLFileRow)
-```
-
----
-
-### addStyle {#addstyle}
-
-
-```4d
-Function addStyle($NewExcelXMLFileStyle : cs.ExcelXMLFileStyle) -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### saveToClipboard {#savetoclipboard}
-
-
-```4d
-Function saveToClipboard($FileNameWithoutExtension : Text; $ShowAlert : Boolean)
-```
-
----
-
-### generate {#generate}
-
-
-```4d
-Function generate
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ExcelXMLFile.4dm*
-*Last updated: 2025-11-13T00:30:41.449Z*

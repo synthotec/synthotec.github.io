@@ -5,56 +5,35 @@ parent : Classes
 ---
 # ToolsEntity
 
+📊 **Overview:** 2 Functions | 1 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
-- [NextToolChangeText() [getter]](#nexttoolchangetext)
+🕐 *Last updated: 2025-11-13T00:47:54.167Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationRules($RemoteEntity : cs.ToolsEntity) -> Collection
-```
+**⚙️ Functions (2):**
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
-**Returns:** `Collection`
+**🔍 Getters (1):**
 
----
-
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
-
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.ToolsEntity)
-```
-
-return
+- [NextToolChangeText](#nexttoolchangetext) → `Text`
 
 ---
 
-### NextToolChangeText {#nexttoolchangetext}
- `[getter]`
+## ⚙️ Functions
 
-```4d
-Function NextToolChangeText -> Text
-```
+### ⚙️ Regular Functions
 
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from ToolsEntity.4dm*
-*Last updated: 2025-11-13T00:30:43.045Z*

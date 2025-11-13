@@ -5,50 +5,30 @@ parent : Classes
 ---
 # ProductPackaging
 
+📊 **Overview:** 3 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
-- [queueCustomerPackagingUpdate()](#queuecustomerpackagingupdate)
-- [generateCustomerPackaging()](#generatecustomerpackaging)
+🕐 *Last updated: 2025-11-13T00:47:53.520Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (3):**
 
-**Returns:** `Object`
-
----
-
-### queueCustomerPackagingUpdate {#queuecustomerpackagingupdate}
-
-
-```4d
-Function queueCustomerPackagingUpdate
-```
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+- [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
+- [generateCustomerPackaging](#generatecustomerpackaging)
 
 ---
 
-### generateCustomerPackaging {#generatecustomerpackaging}
+## ⚙️ Functions
 
-
-```4d
-Function generateCustomerPackaging
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from ProductPackaging.4dm*
-*Last updated: 2025-11-13T00:30:42.378Z*

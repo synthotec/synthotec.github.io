@@ -5,172 +5,45 @@ parent : Classes
 ---
 # PalletEntity
 
+📊 **Overview:** 9 Functions | 4 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [NetWeightKg() [getter]](#netweightkg)
-- [GrossWeightKg() [getter]](#grossweightkg)
-- [createPrintJob()](#createprintjob)
-- [getWorksOrderCollection()](#getworksordercollection)
-- [getTotalQuantity()](#gettotalquantity)
-- [getTotalBoxes()](#gettotalboxes)
-- [QRObject() [getter]](#qrobject)
-- [generateQR()](#generateqr)
-- [getStockListBoxObject()](#getstocklistboxobject)
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
-- [HasMigrationID() [getter]](#hasmigrationid)
-- [transfer()](#transfer)
+🕐 *Last updated: 2025-11-13T00:47:53.113Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### NetWeightKg {#netweightkg}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function NetWeightKg -> Real
-```
+**⚙️ Functions (9):**
 
-**Returns:** `Real`
+- [createPrintJob](#createprintjob) (2 params) → `Boolean`
+- [getWorksOrderCollection](#getworksordercollection) → `Collection`
+- [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
+- [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
+- [generateQR](#generateqr) → `Picture` 🖥️
+- [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+- [transfer](#transfer) (1 param) → `Boolean` 🖥️
 
----
+**🔍 Getters (4):**
 
-### GrossWeightKg {#grossweightkg}
- `[local]` `[getter]`
-
-```4d
-Function GrossWeightKg -> Real
-```
-
-**Returns:** `Real`
-
----
-
-### createPrintJob {#createprintjob}
-
-
-```4d
-Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> Boolean
-```
-
-**Returns:** `Boolean`
+- [NetWeightKg](#netweightkg) → `Real`
+- [GrossWeightKg](#grossweightkg) → `Real`
+- [QRObject](#qrobject) → `Object`
+- [HasMigrationID](#hasmigrationid) → `Boolean`
 
 ---
 
-### getWorksOrderCollection {#getworksordercollection}
+## ⚙️ Functions
 
+### ⚙️ Regular Functions
 
-```4d
-Function getWorksOrderCollection -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### getTotalQuantity {#gettotalquantity}
-
-
-```4d
-Function getTotalQuantity($WorksOrderEntity : Integer) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### getTotalBoxes {#gettotalboxes}
-
-
-```4d
-Function getTotalBoxes($WorksOrderEntity : Integer) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### QRObject {#qrobject}
- `[getter]`
-
-```4d
-Function QRObject -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### generateQR {#generateqr}
- `[local]`
-
-```4d
-Function generateQR -> Picture
-```
-
-**Returns:** `Picture`
-
----
-
-### getStockListBoxObject {#getstocklistboxobject}
- `[local]`
-
-```4d
-Function getStockListBoxObject -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### getMigrationRules {#getmigrationrules}
- `[local]`
-
-```4d
-Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
-
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.PalletEntity)
-```
-
----
-
-### HasMigrationID {#hasmigrationid}
- `[local]` `[getter]`
-
-```4d
-Function HasMigrationID -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### transfer {#transfer}
- `[local]`
-
-```4d
-Function transfer($ToLocation : Integer) -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from PalletEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.012Z*

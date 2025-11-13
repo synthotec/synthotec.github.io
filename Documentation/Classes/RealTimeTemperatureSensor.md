@@ -5,90 +5,85 @@ parent : Classes
 ---
 # RealTimeTemperatureSensor
 
-## Table of Contents
+📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-### Properties
-
-- [Index](#index)
-- [Zone](#zone)
-- [CelsiusValue](#celsiusvalue)
-- [_WorksOrderEntity](#worksorderentity)
-- [ToolTemperatureTargetEntity](#tooltemperaturetargetentity)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [ZoneName() [getter]](#zonename)
-- [InRange() [getter]](#inrange)
+🕐 *Last updated: 2025-11-13T00:47:53.761Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### Index {#index}
+### 📋 Properties (5)
+
+- [Index](#index) : `Integer`
+- [Zone](#zone) : `Integer`
+- [CelsiusValue](#celsiusvalue) : `Real`
+- [_WorksOrderEntity](#worksorderentity) : `cs.WorksOrderEntity`
+- [ToolTemperatureTargetEntity](#tooltemperaturetargetentity) : `cs.ToolTemperatureTargetEntity`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (2 params)
+
+**🔍 Getters (2):**
+
+- [ZoneName](#zonename) → `Text`
+- [InRange](#inrange) → `Boolean`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Index` | `Integer` | - |  |
+| `Zone` | `Integer` | - |  |
+| `CelsiusValue` | `Real` | - |  |
+| `_WorksOrderEntity` | `cs.WorksOrderEntity` | - |  |
+| `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - |  |
+
+### Detailed Information
+
+#### Index {#index}
 
 **Type:** `Integer`
 
 ---
 
-### Zone {#zone}
+#### Zone {#zone}
 
 **Type:** `Integer`
 
 ---
 
-### CelsiusValue {#celsiusvalue}
+#### CelsiusValue {#celsiusvalue}
 
 **Type:** `Real`
 
 ---
 
-### _WorksOrderEntity {#worksorderentity}
+#### _WorksOrderEntity {#worksorderentity}
 
 **Type:** `cs.WorksOrderEntity`
 
 ---
 
-### ToolTemperatureTargetEntity {#tooltemperaturetargetentity}
+#### ToolTemperatureTargetEntity {#tooltemperaturetargetentity}
 
 **Type:** `cs.ToolTemperatureTargetEntity`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObject : Object)
-```
-
----
-
-### ZoneName {#zonename}
- `[getter]`
-
-```4d
-Function ZoneName -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### InRange {#inrange}
- `[getter]`
-
-```4d
-Function InRange -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from RealTimeTemperatureSensor.4dm*
-*Last updated: 2025-11-13T00:30:42.654Z*

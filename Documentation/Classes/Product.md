@@ -5,40 +5,29 @@ parent : Classes
 ---
 # Product
 
+📊 **Overview:** 2 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
-- [populateEmojis()](#populateemojis)
+🕐 *Last updated: 2025-11-13T00:47:53.460Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Object`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+- [populateEmojis](#populateemojis) 🖥️
 
 ---
 
-### populateEmojis {#populateemojis}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function populateEmojis
-```
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Product.4dm*
-*Last updated: 2025-11-13T00:30:42.317Z*

@@ -5,30 +5,28 @@ parent : Classes
 ---
 # MaterialStockEntity
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [getStockListBoxObject()](#getstocklistboxobject)
+🕐 *Last updated: 2025-11-13T00:47:52.864Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getStockListBoxObject {#getstocklistboxobject}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getStockListBoxObject -> Object
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Object`
+- [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from MaterialStockEntity.4dm*
-*Last updated: 2025-11-13T00:30:41.793Z*

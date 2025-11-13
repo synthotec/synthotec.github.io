@@ -5,100 +5,34 @@ parent : Classes
 ---
 # BoxLabels
 
+📊 **Overview:** 7 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
-- [getAvailableToPick()](#getavailabletopick)
-- [checkPalletQuantity()](#checkpalletquantity)
-- [getUsingScanner()](#getusingscanner)
-- [getByUUID()](#getbyuuid)
-- [GetBoxQuantity()](#getboxquantity)
-- [restScannedBoxLabel()](#restscannedboxlabel)
+🕐 *Last updated: 2025-11-13T00:47:51.958Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (7):**
 
-**Returns:** `Object`
-
----
-
-### getAvailableToPick {#getavailabletopick}
- `[local]`
-
-```4d
-Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.BoxLabelsSelection
-```
-
-**Returns:** `cs.BoxLabelsSelection`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+- [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
+- [checkPalletQuantity](#checkpalletquantity) (2 params)
+- [getUsingScanner](#getusingscanner) (1 param) → `cs.BoxLabelsEntity`
+- [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
+- [GetBoxQuantity](#getboxquantity) (1 param) → `Integer`
+- [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
 
 ---
 
-### checkPalletQuantity {#checkpalletquantity}
+## ⚙️ Functions
 
-
-```4d
-Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCardNumber : Integer)
-```
-
----
-
-### getUsingScanner {#getusingscanner}
-
-
-```4d
-Function getUsingScanner($ScannerObject : Object) -> cs.BoxLabelsEntity
-```
-
-**Returns:** `cs.BoxLabelsEntity`
-
----
-
-### getByUUID {#getbyuuid}
-
-
-```4d
-Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
-```
-
-**Returns:** `cs.BoxLabelsEntity`
-
----
-
-### GetBoxQuantity {#getboxquantity}
- `[exposed]`
-
-```4d
-Function GetBoxQuantity($BoxLabelID : Integer) -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-### restScannedBoxLabel {#restscannedboxlabel}
- `[exposed]`
-
-```4d
-Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from BoxLabels.4dm*
-*Last updated: 2025-11-13T00:30:40.862Z*

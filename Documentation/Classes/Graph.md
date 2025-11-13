@@ -5,40 +5,32 @@ parent : Classes
 ---
 # Graph
 
-## Table of Contents
+📊 **Overview:** 1 Constructor | 1 Functions
 
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [generate()](#generate)
+🕐 *Last updated: 2025-11-13T00:47:52.715Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### constructor {#constructor}
- `[constructor]`
+### ⚙️ Functions
 
-```4d
-Class constructor
-```
+**🏗️ Constructors (1):**
 
----
+- [constructor](#constructor)
 
-### generate {#generate}
+**⚙️ Functions (1):**
 
-
-```4d
-Function generate -> Picture
-```
-
-GRAPH($Picture; This.Settings;
-
-**Returns:** `Picture`
+- [generate](#generate) → `Picture`
 
 ---
+
+## ⚙️ Functions
+
+### 🏗️ Constructors
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Graph.4dm*
-*Last updated: 2025-11-13T00:30:41.619Z*

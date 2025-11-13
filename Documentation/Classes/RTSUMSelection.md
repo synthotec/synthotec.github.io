@@ -5,30 +5,28 @@ parent : Classes
 ---
 # RTSUMSelection
 
+📊 **Overview:** 1 Functions
+
 **Extends:** `EntitySelection`
 
-## Table of Contents
-
-### Functions
-
-- [getMaterialUsedForProduction()](#getmaterialusedforproduction)
+🕐 *Last updated: 2025-11-13T00:47:53.805Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMaterialUsedForProduction {#getmaterialusedforproduction}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
-```
+**⚙️ Functions (1):**
 
-**Returns:** `Real`
+- [getMaterialUsedForProduction](#getmaterialusedforproduction) (1 param) → `Real` 🖥️
 
 ---
+
+## ⚙️ Functions
+
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from RTSUMSelection.4dm*
-*Last updated: 2025-11-13T00:30:42.701Z*

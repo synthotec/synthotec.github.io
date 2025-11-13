@@ -5,52 +5,35 @@ parent : Classes
 ---
 # ProductMaterialOptionsEntity
 
+📊 **Overview:** 2 Functions | 1 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [Default() [getter]](#default)
-- [getMigrationRules()](#getmigrationrules)
-- [syncMigrationSelections()](#syncmigrationselections)
+🕐 *Last updated: 2025-11-13T00:47:53.514Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### Default {#default}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function Default -> Boolean
-```
+**⚙️ Functions (2):**
 
-**Returns:** `Boolean`
+- [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
+- [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 
----
+**🔍 Getters (1):**
 
-### getMigrationRules {#getmigrationrules}
- `[local]`
-
-```4d
-Function getMigrationRules($RemoteEntity : cs.ProductMaterialOptionsEntity) -> Collection
-```
-
-**Returns:** `Collection`
+- [Default](#default) → `Boolean`
 
 ---
 
-### syncMigrationSelections {#syncmigrationselections}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity)
-```
+### ⚙️ Regular Functions
 
----
+### 🔍 Getters
 
 ---
 
 *Generated from ProductMaterialOptionsEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.366Z*

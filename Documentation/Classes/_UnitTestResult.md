@@ -5,102 +5,86 @@ parent : Classes
 ---
 # _UnitTestResult
 
-## Table of Contents
+📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-### Properties
-
-- [UnitTest](#unittest)
-- [Success; ErrorOccurred](#success; erroroccurred)
-- [StackTrace](#stacktrace)
-- [TestFormula](#testformula)
-- [TestFormulaParameters](#testformulaparameters)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [TestFormulaText() [getter]](#testformulatext)
-- [TestFormulaParametersText->$TestFormulaParametersText() [getter]](#testformulaparameterstext->$testformulaparameterstext)
-- [StatusEmoji() [getter]](#statusemoji)
+🕐 *Last updated: 2025-11-13T00:47:54.332Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### UnitTest {#unittest}
+### 📋 Properties (5)
+
+- [UnitTest](#unittest) : `cs.UnitTest`
+- [Success; ErrorOccurred](#success; erroroccurred) : `Boolean`
+- [StackTrace](#stacktrace) : `Collection`
+- [TestFormula](#testformula) : `4D.Function`
+- [TestFormulaParameters](#testformulaparameters) : `Collection`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor)
+
+**🔍 Getters (3):**
+
+- [TestFormulaText](#testformulatext) → `Text`
+- [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) → `Text`
+- [StatusEmoji](#statusemoji) → `Text`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `UnitTest` | `cs.UnitTest` | - |  |
+| `Success; ErrorOccurred` | `Boolean` | - |  |
+| `StackTrace` | `Collection` | - |  |
+| `TestFormula` | `4D.Function` | - |  |
+| `TestFormulaParameters` | `Collection` | - |  |
+
+### Detailed Information
+
+#### UnitTest {#unittest}
 
 **Type:** `cs.UnitTest`
 
 ---
 
-### Success; ErrorOccurred {#success; erroroccurred}
+#### Success; ErrorOccurred {#success; erroroccurred}
 
 **Type:** `Boolean`
 
 ---
 
-### StackTrace {#stacktrace}
+#### StackTrace {#stacktrace}
 
 **Type:** `Collection`
 
 ---
 
-### TestFormula {#testformula}
+#### TestFormula {#testformula}
 
 **Type:** `4D.Function`
 
 ---
 
-### TestFormulaParameters {#testformulaparameters}
+#### TestFormulaParameters {#testformulaparameters}
 
 **Type:** `Collection`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor
-```
-
----
-
-### TestFormulaText {#testformulatext}
- `[getter]`
-
-```4d
-Function TestFormulaText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### TestFormulaParametersText->$TestFormulaParametersText {#testformulaparameterstext->$testformulaparameterstext}
- `[getter]`
-
-```4d
-Function TestFormulaParametersText->$TestFormulaParametersText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-### StatusEmoji {#statusemoji}
- `[getter]`
-
-```4d
-Function StatusEmoji -> Text
-```
-
-**Returns:** `Text`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from _UnitTestResult.4dm*
-*Last updated: 2025-11-13T00:30:43.230Z*

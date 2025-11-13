@@ -5,66 +5,31 @@ parent : Classes
 ---
 # Staff
 
+📊 **Overview:** 4 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getUsingKeyfob()](#getusingkeyfob)
-- [getCurrentUser()](#getcurrentuser)
-- [getNonArchived()](#getnonarchived)
-- [newUsingEntry()](#newusingentry)
+🕐 *Last updated: 2025-11-13T00:47:53.886Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getUsingKeyfob {#getusingkeyfob}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> cs.StaffEntity
-```
+**⚙️ Functions (4):**
 
-**Returns:** `cs.StaffEntity`
-
----
-
-### getCurrentUser {#getcurrentuser}
- `[local]`
-
-```4d
-Function getCurrentUser -> cs.StaffEntity
-```
-
-**Returns:** `cs.StaffEntity`
+- [getUsingKeyfob](#getusingkeyfob) (2 params) → `cs.StaffEntity` 🖥️
+- [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
+- [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
+- [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
 
 ---
 
-### getNonArchived {#getnonarchived}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getNonArchived -> cs.StaffSelection
-```
-
-**Returns:** `cs.StaffSelection`
-
----
-
-### newUsingEntry {#newusingentry}
- `[local]`
-
-```4d
-Function newUsingEntry -> cs.StaffEntity
-```
-
-**Returns:** `cs.StaffEntity`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Staff.4dm*
-*Last updated: 2025-11-13T00:30:42.804Z*

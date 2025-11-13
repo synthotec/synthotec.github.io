@@ -5,200 +5,42 @@ parent : Classes
 ---
 # Pallet
 
+📊 **Overview:** 15 Functions
+
 **Extends:** `DataClass`
 
-## Table of Contents
-
-### Functions
-
-- [getMigrationSettings()](#getmigrationsettings)
-- [getAvailableToPick()](#getavailabletopick)
-- [getUsingScanner()](#getusingscanner)
-- [Create()](#create)
-- [Verify()](#verify)
-- [Print()](#print)
-- [Delete()](#delete)
-- [restLoadPalletList()](#restloadpalletlist)
-- [restAddToPallet()](#restaddtopallet)
-- [restCompletePallet()](#restcompletepallet)
-- [restVerifyPallet()](#restverifypallet)
-- [restLocatePallet()](#restlocatepallet)
-- [restDeletePallet()](#restdeletepallet)
-- [restReassignLocation()](#restreassignlocation)
-- [restLoadPallet()](#restloadpallet)
+🕐 *Last updated: 2025-11-13T00:47:53.083Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### getMigrationSettings {#getmigrationsettings}
- `[local]`
+### ⚙️ Functions
 
-```4d
-Function getMigrationSettings -> Object
-```
+**⚙️ Functions (15):**
 
-**Returns:** `Object`
-
----
-
-### getAvailableToPick {#getavailabletopick}
- `[local]`
-
-```4d
-Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.PalletSelection
-```
-
-return This.query("Verified=True && Location IN :1 && OrderPickRequestEntity=Null && ProductEntity.ID=:2"; ds.Stock_Location.query("DespatchLocation=True").ID; $ProductEntity.ID)
-
-**Returns:** `cs.PalletSelection`
+- [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+- [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️
+- [getUsingScanner](#getusingscanner) (2 params) → `cs.PalletEntity`
+- [Create](#create) (2 params) → `Object`
+- [Verify](#verify) (3 params) → `Object`
+- [Print](#print) (2 params) → `Object`
+- [Delete](#delete) (1 param) → `Object`
+- [restLoadPalletList](#restloadpalletlist) (1 param) → `Object`
+- [restAddToPallet](#restaddtopallet) (1 param) → `Object`
+- [restCompletePallet](#restcompletepallet) (1 param) → `Object`
+- [restVerifyPallet](#restverifypallet) (1 param) → `Object`
+- [restLocatePallet](#restlocatepallet) (1 param) → `Object`
+- [restDeletePallet](#restdeletepallet) (1 param) → `Object`
+- [restReassignLocation](#restreassignlocation) (1 param) → `Object`
+- [restLoadPallet](#restloadpallet) (1 param) → `Object`
 
 ---
 
-### getUsingScanner {#getusingscanner}
+## ⚙️ Functions
 
-
-```4d
-Function getUsingScanner($ScannerObject : Object; $ScannerText : Text) -> cs.PalletEntity
-```
-
-**Returns:** `cs.PalletEntity`
-
----
-
-### Create {#create}
- `[exposed]`
-
-```4d
-Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### Verify {#verify}
- `[exposed]`
-
-```4d
-Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### Print {#print}
- `[exposed]`
-
-```4d
-Function Print($PalletID : Integer; $Printer : Text) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### Delete {#delete}
- `[exposed]`
-
-```4d
-Function Delete($PalletID : Integer) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restLoadPalletList {#restloadpalletlist}
- `[exposed]`
-
-```4d
-Function restLoadPalletList($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restAddToPallet {#restaddtopallet}
- `[exposed]`
-
-```4d
-Function restAddToPallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restCompletePallet {#restcompletepallet}
- `[exposed]`
-
-```4d
-Function restCompletePallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restVerifyPallet {#restverifypallet}
- `[exposed]`
-
-```4d
-Function restVerifyPallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restLocatePallet {#restlocatepallet}
- `[exposed]`
-
-```4d
-Function restLocatePallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restDeletePallet {#restdeletepallet}
- `[exposed]`
-
-```4d
-Function restDeletePallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restReassignLocation {#restreassignlocation}
- `[exposed]`
-
-```4d
-Function restReassignLocation($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
-
-### restLoadPallet {#restloadpallet}
- `[exposed]`
-
-```4d
-Function restLoadPallet($RestPostDataObject : Object) -> Object
-```
-
-**Returns:** `Object`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Pallet.4dm*
-*Last updated: 2025-11-13T00:30:41.989Z*

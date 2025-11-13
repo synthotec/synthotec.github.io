@@ -5,173 +5,75 @@ parent : Classes
 ---
 # Email
 
-## Description
+📊 **Overview:** 2 Properties | 1 Constructor | 12 Functions
+
+## 📝 Description
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-## Table of Contents
-
-### Properties
-
-- [EmailObject](#emailobject)
-- [_PermissionFooterCollection](#permissionfootercollection)
-
-### Functions
-
-- [constructor() [constructor]](#constructor)
-- [addTo()](#addto)
-- [addCc()](#addcc)
-- [addBcc()](#addbcc)
-- [addPermissionGroup()](#addpermissiongroup)
-- [addCustomerGroup()](#addcustomergroup)
-- [setFromAddress()](#setfromaddress)
-- [setFromCurrentUser()](#setfromcurrentuser)
-- [setMessageID()](#setmessageid)
-- [setHtmlBody()](#sethtmlbody)
-- [setSubject()](#setsubject)
-- [attachFile()](#attachfile)
-- [send()](#send)
+🕐 *Last updated: 2025-11-13T00:47:52.417Z*
 
 ---
 
-## Properties
+## 📑 Table of Contents
 
-### EmailObject {#emailobject}
+### 📋 Properties (2)
+
+- [EmailObject](#emailobject) : `Object`
+- [_PermissionFooterCollection](#permissionfootercollection) : `Collection`
+
+### ⚙️ Functions
+
+**🏗️ Constructors (1):**
+
+- [constructor](#constructor) (2 params)
+
+**⚙️ Functions (12):**
+
+- [addTo](#addto) (1 param)
+- [addCc](#addcc) (1 param)
+- [addBcc](#addbcc) (1 param)
+- [addPermissionGroup](#addpermissiongroup) (3 params)
+- [addCustomerGroup](#addcustomergroup) (1 param)
+- [setFromAddress](#setfromaddress) (2 params)
+- [setFromCurrentUser](#setfromcurrentuser) → `Boolean`
+- [setMessageID](#setmessageid) (1 param)
+- [setHtmlBody](#sethtmlbody) (1 param)
+- [setSubject](#setsubject) (1 param)
+- [attachFile](#attachfile) (2 params)
+- [send](#send) → `Boolean`
+
+---
+
+## 📋 Properties
+
+### Quick Reference
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `EmailObject` | `Object` | - |  |
+| `_PermissionFooterCollection` | `Collection` | - |  |
+
+### Detailed Information
+
+#### EmailObject {#emailobject}
 
 **Type:** `Object`
 
 ---
 
-### _PermissionFooterCollection {#permissionfootercollection}
+#### _PermissionFooterCollection {#permissionfootercollection}
 
 **Type:** `Collection`
 
 ---
 
-## Functions
+## ⚙️ Functions
 
-### constructor {#constructor}
- `[constructor]`
+### 🏗️ Constructors
 
-```4d
-Class constructor($Subject : Text; $HTML_Body : Text)
-```
-
----
-
-### addTo {#addto}
-
-
-```4d
-Function addTo($EmailAddress : Text)
-```
-
----
-
-### addCc {#addcc}
-
-
-```4d
-Function addCc($EmailAddress : Text)
-```
-
----
-
-### addBcc {#addbcc}
-
-
-```4d
-Function addBcc($EmailAddress : Text)
-```
-
----
-
-### addPermissionGroup {#addpermissiongroup}
-
-
-```4d
-Function addPermissionGroup($PermissionName : Text; $RecipientType : Integer; $ShowPermissionFooter : Boolean)
-```
-
----
-
-### addCustomerGroup {#addcustomergroup}
-
-
-```4d
-Function addCustomerGroup($CustomerCode : Text)
-```
-
----
-
-### setFromAddress {#setfromaddress}
-
-
-```4d
-Function setFromAddress($EmailAddress : Text; $EmailName : Text)
-```
-
----
-
-### setFromCurrentUser {#setfromcurrentuser}
-
-
-```4d
-Function setFromCurrentUser -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-### setMessageID {#setmessageid}
-
-
-```4d
-Function setMessageID($MessageID : Text)
-```
-
----
-
-### setHtmlBody {#sethtmlbody}
-
-
-```4d
-Function setHtmlBody($HTML_Body : Text)
-```
-
----
-
-### setSubject {#setsubject}
-
-
-```4d
-Function setSubject($Subject : Text)
-```
-
----
-
-### attachFile {#attachfile}
-
-
-```4d
-Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
-```
-
----
-
-### send {#send}
-
-
-```4d
-Function send -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### ⚙️ Regular Functions
 
 ---
 
 *Generated from Email.4dm*
-*Last updated: 2025-11-13T00:30:41.240Z*

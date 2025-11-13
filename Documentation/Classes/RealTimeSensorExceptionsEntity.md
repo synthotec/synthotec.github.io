@@ -5,102 +5,39 @@ parent : Classes
 ---
 # RealTimeSensorExceptionsEntity
 
+📊 **Overview:** 3 Functions | 4 Getters
+
 **Extends:** `Entity`
 
-## Table of Contents
-
-### Functions
-
-- [PartsMade() [getter]](#partsmade)
-- [Duration() [getter]](#duration)
-- [getRealTimeSelection()](#getrealtimeselection)
-- [getTemperatureSensors()](#gettemperaturesensors)
-- [LowestCelciusTemperature() [getter]](#lowestcelciustemperature)
-- [HighestCelciusTemperature() [getter]](#highestcelciustemperature)
-- [sendEmail()](#sendemail)
+🕐 *Last updated: 2025-11-13T00:47:53.745Z*
 
 ---
 
-## Functions
+## 📑 Table of Contents
 
-### PartsMade {#partsmade}
- `[local]` `[getter]`
+### ⚙️ Functions
 
-```4d
-Function PartsMade -> Integer
-```
+**⚙️ Functions (3):**
 
-**Returns:** `Integer`
+- [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
+- [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
+- [sendEmail](#sendemail) → `Boolean`
 
----
+**🔍 Getters (4):**
 
-### Duration {#duration}
- `[local]` `[getter]`
-
-```4d
-Function Duration -> Time
-```
-
-**Returns:** `Time`
+- [PartsMade](#partsmade) → `Integer`
+- [Duration](#duration) → `Time`
+- [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
+- [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
 
 ---
 
-### getRealTimeSelection {#getrealtimeselection}
- `[local]`
+## ⚙️ Functions
 
-```4d
-Function getRealTimeSelection -> cs.RealTimeSelection
-```
+### ⚙️ Regular Functions
 
-**Returns:** `cs.RealTimeSelection`
-
----
-
-### getTemperatureSensors {#gettemperaturesensors}
- `[local]`
-
-```4d
-Function getTemperatureSensors($Zone : Integer) -> Collection
-```
-
-**Returns:** `Collection`
-
----
-
-### LowestCelciusTemperature {#lowestcelciustemperature}
- `[local]` `[getter]`
-
-```4d
-Function LowestCelciusTemperature -> Real
-```
-
-**Returns:** `Real`
-
----
-
-### HighestCelciusTemperature {#highestcelciustemperature}
- `[local]` `[getter]`
-
-```4d
-Function HighestCelciusTemperature -> Real
-```
-
-**Returns:** `Real`
-
----
-
-### sendEmail {#sendemail}
-
-
-```4d
-Function sendEmail -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
+### 🔍 Getters
 
 ---
 
 *Generated from RealTimeSensorExceptionsEntity.4dm*
-*Last updated: 2025-11-13T00:30:42.634Z*
