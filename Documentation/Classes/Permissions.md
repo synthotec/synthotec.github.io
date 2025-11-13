@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T01:17:23.885Z*
+🕐 *Last updated: 2025-11-13T02:24:48.434Z*
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T01:17:23.001Z*
+🕐 *Last updated: 2025-11-13T02:24:47.992Z*
 
 ---
 

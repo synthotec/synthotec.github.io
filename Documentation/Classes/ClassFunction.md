@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class function
 
-🕐 *Last updated: 2025-11-13T01:17:22.479Z*
+🕐 *Last updated: 2025-11-13T02:24:47.733Z*
 
 ---
 
