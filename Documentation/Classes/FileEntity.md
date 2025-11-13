@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.430Z*
+🕐 *Last updated: 2025-11-13T16:35:14.601Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -44,7 +44,7 @@ Function open
 
 ### 🗂️ Tables
 
-- [File](../Tables/File.md) - Entity class
+- [File](../Tables/File.md) - Source table
 
 ---
 

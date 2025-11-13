@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.596Z*
+🕐 *Last updated: 2025-11-13T16:35:14.756Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [record](#record) (2 params) 🖥️
 - [trim](#trim)
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -52,6 +56,12 @@ Function trim
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Log](../Tables/Log.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.033Z*
+🕐 *Last updated: 2025-11-13T16:35:15.187Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -25,7 +25,7 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Purchases](../Tables/Purchases.md) - Entity class
+- [Purchases](../Tables/Purchases.md) - Source table
 
 ---
 

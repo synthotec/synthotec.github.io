@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.923Z*
+🕐 *Last updated: 2025-11-13T16:35:15.072Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -46,7 +46,7 @@ Function print -> $Success : Boolean
 
 ### 🗂️ Tables
 
-- [PrintJob](../Tables/PrintJob.md) - Entity class
+- [PrintJob](../Tables/PrintJob.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.230Z*
+🕐 *Last updated: 2025-11-13T16:35:15.391Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
 - [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -62,6 +66,12 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEnti
 **Returns:** `cs.SettingsEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Settings](../Tables/Settings.md) - Source table
 
 ---
 

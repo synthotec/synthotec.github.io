@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.428Z*
+🕐 *Last updated: 2025-11-13T16:35:14.598Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [upload](#upload) → `$FileEntity : cs.FileEntity` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -37,6 +41,12 @@ Function upload -> $FileEntity : cs.FileEntity
 **Returns:** `cs.FileEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [File](../Tables/File.md) - Source table
 
 ---
 

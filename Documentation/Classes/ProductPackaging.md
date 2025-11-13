@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.017Z*
+🕐 *Last updated: 2025-11-13T16:35:15.170Z*
 
 ---
 
@@ -22,6 +22,10 @@ parent : Classes
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
 - [generateCustomerPackaging](#generatecustomerpackaging)
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -57,6 +61,12 @@ Function generateCustomerPackaging
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [ProductPackaging](../Tables/ProductPackaging.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.593Z*
+🕐 *Last updated: 2025-11-13T16:35:14.754Z*
 
 ---
 
@@ -35,7 +35,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -174,7 +174,7 @@ Function Level -> $Level : Integer
 
 ### 🗂️ Tables
 
-- [Location](../Tables/Location.md) - Entity class
+- [Location](../Tables/Location.md) - Source table
 
 ---
 

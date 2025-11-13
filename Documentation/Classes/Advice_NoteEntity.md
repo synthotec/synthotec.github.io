@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:49.905Z*
+🕐 *Last updated: 2025-11-13T16:35:14.067Z*
 
 ---
 
@@ -26,7 +26,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -78,7 +78,7 @@ Function cancel -> $Cancelled : Boolean
 
 ### 🗂️ Tables
 
-- [Advice_Note](../Tables/Advice_Note.md) - Entity class
+- [Advice_Note](../Tables/Advice_Note.md) - Source table
 
 ---
 

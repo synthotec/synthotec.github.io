@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.044Z*
+🕐 *Last updated: 2025-11-13T16:35:15.198Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -68,7 +68,7 @@ Function syncMigrationSelections($RemoteEntity : cs.QualitySystemProceduresEntit
 
 ### 🗂️ Tables
 
-- [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Entity class
+- [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Source table
 
 ---
 

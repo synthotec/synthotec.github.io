@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.371Z*
+🕐 *Last updated: 2025-11-13T16:35:15.536Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [newUsingEntry](#newusingentry) (1 param) → `$ToolDocumentEntity : cs.ToolDocumentEntity` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -43,6 +47,12 @@ Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> $ToolDocumentEntity : c
 **Returns:** `cs.ToolDocumentEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [ToolDocument](../Tables/ToolDocument.md) - Source table
 
 ---
 

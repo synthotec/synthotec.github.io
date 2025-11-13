@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.020Z*
+🕐 *Last updated: 2025-11-13T16:35:15.173Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -68,7 +68,7 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
 
 ### 🗂️ Tables
 
-- [ProductPackaging](../Tables/ProductPackaging.md) - Entity class
+- [ProductPackaging](../Tables/ProductPackaging.md) - Source table
 
 ---
 

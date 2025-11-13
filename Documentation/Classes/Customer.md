@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.046Z*
+🕐 *Last updated: 2025-11-13T16:35:14.211Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -37,6 +41,12 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer](../Tables/Customer.md) - Source table
 
 ---
 

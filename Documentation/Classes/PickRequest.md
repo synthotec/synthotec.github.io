@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.843Z*
+🕐 *Last updated: 2025-11-13T16:35:14.993Z*
 
 ---
 
@@ -30,6 +30,10 @@ parent : Classes
 - [restSelectOrderToPickAgainst](#restselectordertopickagainst) (1 param) → `Object`
 - [restPickAgainstOrder](#restpickagainstorder) (1 param) → `Object`
 - [checkForPickedPickRequests](#checkforpickedpickrequests)
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -197,6 +201,12 @@ Function checkForPickedPickRequests
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [PickRequest](../Tables/PickRequest.md) - Source table
 
 ---
 

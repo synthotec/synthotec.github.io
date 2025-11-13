@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.886Z*
+🕐 *Last updated: 2025-11-13T16:35:15.035Z*
 
 ---
 
@@ -43,7 +43,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -255,7 +255,7 @@ Function StatusColor -> Integer
 
 ### 🗂️ Tables
 
-- [PickRequest](../Tables/PickRequest.md) - Entity class
+- [PickRequest](../Tables/PickRequest.md) - Source table
 
 ---
 

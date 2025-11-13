@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:13:51.221Z*
+🕐 *Last updated: 2025-11-13T16:35:15.382Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -52,7 +52,7 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 
 ### 🗂️ Tables
 
-- [RTSUM](../Tables/RTSUM.md) - EntitySelection class
+- [RTSUM](../Tables/RTSUM.md) - Source table
 
 ---
 

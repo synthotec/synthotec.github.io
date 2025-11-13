@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.598Z*
+🕐 *Last updated: 2025-11-13T16:35:14.758Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -58,7 +58,7 @@ Function TimeStampWithTab -> Text
 
 ### 🗂️ Tables
 
-- [MachineMaintenanceLog](../Tables/MachineMaintenanceLog.md) - Entity class
+- [MachineMaintenanceLog](../Tables/MachineMaintenanceLog.md) - Source table
 
 ---
 

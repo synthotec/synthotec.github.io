@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.072Z*
+🕐 *Last updated: 2025-11-13T16:35:15.226Z*
 
 ---
 
@@ -29,7 +29,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -89,7 +89,7 @@ Function EndDateTime -> cs.System.DateTime
 
 ### 🗂️ Tables
 
-- [RealTime](../Tables/RealTime.md) - Entity class
+- [RealTime](../Tables/RealTime.md) - Source table
 
 ---
 

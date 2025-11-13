@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.064Z*
+🕐 *Last updated: 2025-11-13T16:35:14.228Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [classicMakeOrderSort](#classicmakeordersort) (1 param) 🖥️
 - [classicOrderOverviewSort](#classicorderoverviewsort) (1 param) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -61,6 +65,12 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 | `$ProductEntity` | `cs.ProductEntity` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - Source table
 
 ---
 

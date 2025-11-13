@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.456Z*
+🕐 *Last updated: 2025-11-13T16:35:15.621Z*
 
 ---
 
@@ -27,6 +27,10 @@ parent : Classes
 - [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
 - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
 - [restScanTest](#restscantest) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -171,6 +175,12 @@ Function restScanTest($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Warehouse](../Tables/Warehouse.md) - Source table
 
 ---
 

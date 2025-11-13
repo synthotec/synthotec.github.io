@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.266Z*
+🕐 *Last updated: 2025-11-13T16:35:15.425Z*
 
 ---
 
@@ -23,6 +23,10 @@ parent : Classes
 - [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
 - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
 - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -80,6 +84,12 @@ Function newUsingEntry -> cs.StaffEntity
 **Returns:** `cs.StaffEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Staff](../Tables/Staff.md) - Source table
 
 ---
 

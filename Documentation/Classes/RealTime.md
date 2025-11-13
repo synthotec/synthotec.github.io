@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.068Z*
+🕐 *Last updated: 2025-11-13T16:35:15.223Z*
 
 ---
 
@@ -29,6 +29,10 @@ parent : Classes
 
 - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) → `Real`
 - [SECONDS_IN_DAY](#seconds_in_day) → `Real`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -157,6 +161,12 @@ Function SECONDS_IN_DAY -> Real
 **Returns:** `Real`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [RealTime](../Tables/RealTime.md) - Source table
 
 ---
 

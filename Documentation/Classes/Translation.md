@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.429Z*
+🕐 *Last updated: 2025-11-13T16:35:15.594Z*
 
 ---
 
@@ -28,6 +28,10 @@ parent : Classes
 
 - [CurrentProcess](#currentprocess) → `Text`
 - [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -115,6 +119,12 @@ Function _TranslationProcessCollection -> Collection
 **Returns:** `Collection`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Translation](../Tables/Translation.md) - Source table
 
 ---
 

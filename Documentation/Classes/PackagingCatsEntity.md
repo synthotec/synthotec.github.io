@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.672Z*
+🕐 *Last updated: 2025-11-13T16:35:14.828Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -70,7 +70,7 @@ var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.Supplies
 
 ### 🗂️ Tables
 
-- [PackagingCats](../Tables/PackagingCats.md) - Entity class
+- [PackagingCats](../Tables/PackagingCats.md) - Source table
 
 ---
 

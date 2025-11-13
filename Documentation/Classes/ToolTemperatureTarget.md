@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.406Z*
+🕐 *Last updated: 2025-11-13T16:35:15.572Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [getByWorksOrder](#getbyworksorder) (1 param) → `cs.ToolTemperatureTargetSelection`
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -55,6 +59,12 @@ Function getMigrationSettings -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.403Z*
+🕐 *Last updated: 2025-11-13T16:35:15.569Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -89,7 +89,7 @@ Function NextToolChangeText -> Text
 
 ### 🗂️ Tables
 
-- [Tools](../Tables/Tools.md) - Entity class
+- [Tools](../Tables/Tools.md) - Source table
 
 ---
 

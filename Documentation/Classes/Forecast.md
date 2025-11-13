@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.443Z*
+🕐 *Last updated: 2025-11-13T16:35:14.615Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [generate](#generate) → `$Success : Boolean` 🖥️
 - [generateForecastOrders](#generateforecastorders) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -47,6 +51,12 @@ Function generateForecastOrders
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Forecast](../Tables/Forecast.md) - Source table
 
 ---
 

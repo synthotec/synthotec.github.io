@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.906Z*
+🕐 *Last updated: 2025-11-13T16:35:15.054Z*
 
 ---
 
@@ -22,6 +22,10 @@ parent : Classes
 - [getDefault](#getdefault) (1 param) 🖥️
 - [populate](#populate) 🖥️
 - [getComputerPrinters](#getcomputerprinters) (1 param) → `cs.PrinterSelection` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -69,6 +73,12 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 **Returns:** `cs.PrinterSelection`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Printer](../Tables/Printer.md) - Source table
 
 ---
 

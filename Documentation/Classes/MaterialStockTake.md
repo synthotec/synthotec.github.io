@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.637Z*
+🕐 *Last updated: 2025-11-13T16:35:14.796Z*
 
 ---
 
@@ -24,6 +24,10 @@ parent : Classes
 - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
 - [restViewResults](#restviewresults) (1 param) → `Object`
 - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -103,6 +107,12 @@ Function restRemoveEntry($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [MaterialStockTake](../Tables/MaterialStockTake.md) - Source table
 
 ---
 

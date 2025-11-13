@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.300Z*
+🕐 *Last updated: 2025-11-13T16:35:15.462Z*
 
 ---
 
@@ -26,6 +26,10 @@ parent : Classes
 - [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
 - [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
 - [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -78,6 +82,12 @@ Function PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Stock_Location](../Tables/Stock_Location.md) - Source table
 
 ---
 

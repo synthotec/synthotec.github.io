@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T16:13:51.142Z*
+🕐 *Last updated: 2025-11-13T16:35:15.302Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -44,7 +44,7 @@ Function acknowledge
 
 ### 🗂️ Tables
 
-- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - EntitySelection class
+- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table
 
 ---
 

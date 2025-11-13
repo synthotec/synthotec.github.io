@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.444Z*
+🕐 *Last updated: 2025-11-13T16:35:14.616Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -46,7 +46,7 @@ Function Consignment -> Boolean
 
 ### 🗂️ Tables
 
-- [Forecast](../Tables/Forecast.md) - Entity class
+- [Forecast](../Tables/Forecast.md) - Source table
 
 ---
 

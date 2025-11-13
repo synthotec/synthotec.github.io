@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.073Z*
+🕐 *Last updated: 2025-11-13T16:35:15.228Z*
 
 ---
 
@@ -20,6 +20,10 @@ parent : Classes
 **⚙️ Regular Functions (1):**
 
 - [getByMachine](#getbymachine) (1 param) → `cs.RealTimeMachinesEntity`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -43,6 +47,12 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 **Returns:** `cs.RealTimeMachinesEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table
 
 ---
 

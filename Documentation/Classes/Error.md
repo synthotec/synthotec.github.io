@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.345Z*
+🕐 *Last updated: 2025-11-13T16:35:14.513Z*
 
 ---
 
@@ -23,6 +23,10 @@ parent : Classes
 - [setDebugInfo](#setdebuginfo) (1 param) 🖥️
 - [notify](#notify)
 - [record](#record) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -71,6 +75,12 @@ Function record
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Error](../Tables/Error.md) - Source table
 
 ---
 

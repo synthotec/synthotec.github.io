@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.426Z*
+🕐 *Last updated: 2025-11-13T16:35:14.596Z*
 
 ---
 
@@ -22,6 +22,10 @@ parent : Classes
 - [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
 - [display](#display) (4 params) 🖥️
 - [triggerLog](#triggerlog) (2 params) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -71,6 +75,12 @@ Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 | `$ChangedBy` | `Text` | - | - |
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [FieldHistory](../Tables/FieldHistory.md) - Source table
 
 ---
 

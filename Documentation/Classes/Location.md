@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.579Z*
+🕐 *Last updated: 2025-11-13T16:35:14.742Z*
 
 ---
 
@@ -23,6 +23,10 @@ parent : Classes
 - [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
 - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
 - [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -97,6 +101,12 @@ Function restSetStockLocation($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Location](../Tables/Location.md) - Source table
 
 ---
 

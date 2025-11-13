@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.628Z*
+🕐 *Last updated: 2025-11-13T16:35:14.787Z*
 
 ---
 
@@ -22,6 +22,10 @@ parent : Classes
 - [restLoadMaterialStock](#restloadmaterialstock) (1 param) → `Object`
 - [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`
 - [restLocateMaterialStock](#restlocatematerialstock) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -79,6 +83,12 @@ Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [MaterialStock](../Tables/MaterialStock.md) - Source table
 
 ---
 

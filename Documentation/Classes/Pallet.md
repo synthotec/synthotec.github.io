@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.764Z*
+🕐 *Last updated: 2025-11-13T16:35:14.922Z*
 
 ---
 
@@ -34,6 +34,10 @@ parent : Classes
 - [restDeletePallet](#restdeletepallet) (1 param) → `Object`
 - [restReassignLocation](#restreassignlocation) (1 param) → `Object`
 - [restLoadPallet](#restloadpallet) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -296,6 +300,12 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Pallet](../Tables/Pallet.md) - Source table
 
 ---
 

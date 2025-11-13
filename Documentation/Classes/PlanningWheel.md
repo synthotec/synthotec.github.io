@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:50.895Z*
+🕐 *Last updated: 2025-11-13T16:35:15.044Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [insertLine](#insertline) (2 params) → `$PlanningWheelEntity : cs.PlanningWheelEntity` 🖥️
 - [reducePlannedStand](#reduceplannedstand) 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -54,6 +58,12 @@ Function reducePlannedStand
 ```
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [PlanningWheel](../Tables/PlanningWheel.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.352Z*
+🕐 *Last updated: 2025-11-13T16:35:14.521Z*
 
 ---
 
@@ -32,7 +32,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -121,7 +121,7 @@ Function LastOccurrence -> Text
 
 ### 🗂️ Tables
 
-- [Error](../Tables/Error.md) - Entity class
+- [Error](../Tables/Error.md) - Source table
 
 ---
 

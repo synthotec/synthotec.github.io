@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.012Z*
+🕐 *Last updated: 2025-11-13T16:35:15.166Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -85,7 +85,7 @@ Function Default -> Boolean
 
 ### 🗂️ Tables
 
-- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Entity class
+- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table
 
 ---
 

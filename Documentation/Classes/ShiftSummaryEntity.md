@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.248Z*
+🕐 *Last updated: 2025-11-13T16:35:15.407Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -75,7 +75,7 @@ Function ShiftColor -> Integer
 
 ### 🗂️ Tables
 
-- [ShiftSummary](../Tables/ShiftSummary.md) - Entity class
+- [ShiftSummary](../Tables/ShiftSummary.md) - Source table
 
 ---
 

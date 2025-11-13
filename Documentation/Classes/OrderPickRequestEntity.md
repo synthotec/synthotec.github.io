@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:50.666Z*
+🕐 *Last updated: 2025-11-13T16:35:14.823Z*
 
 ---
 
@@ -39,7 +39,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -198,7 +198,7 @@ Function Parts($Parts : Integer)
 
 ### 🗂️ Tables
 
-- [OrderPickRequest](../Tables/OrderPickRequest.md) - Entity class
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table
 
 ---
 

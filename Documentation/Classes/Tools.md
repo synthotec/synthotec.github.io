@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:51.387Z*
+🕐 *Last updated: 2025-11-13T16:35:15.553Z*
 
 ---
 
@@ -21,6 +21,10 @@ parent : Classes
 
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [createForProduct](#createforproduct) → `cs.ToolsEntity` 🖥️
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -49,6 +53,12 @@ Function createForProduct -> cs.ToolsEntity
 **Returns:** `cs.ToolsEntity`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Tools](../Tables/Tools.md) - Source table
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T16:13:49.932Z*
+🕐 *Last updated: 2025-11-13T16:35:14.098Z*
 
 ---
 
@@ -26,6 +26,10 @@ parent : Classes
 - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
 - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
 - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
+
+### 🔗 Related Items
+
+- [Tables](#️-tables) (1)
 
 ---
 
@@ -144,6 +148,12 @@ Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 **Returns:** `Object`
 
 ---
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [BoxLabels](../Tables/BoxLabels.md) - Source table
 
 ---
 

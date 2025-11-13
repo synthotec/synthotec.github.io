@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T16:13:51.078Z*
+🕐 *Last updated: 2025-11-13T16:35:15.232Z*
 
 ---
 
@@ -32,7 +32,7 @@ parent : Classes
 
 ### 🔗 Related Items
 
-- [Tables](#-tables) (1)
+- [Tables](#️-tables) (2)
 
 ---
 
@@ -129,7 +129,7 @@ Function AssignedTemperatureSensorsPresent -> Boolean
 
 ### 🗂️ Tables
 
-- [RealTimeMachines](../Tables/RealTimeMachines.md) - Entity class
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table
 
 ---
 
