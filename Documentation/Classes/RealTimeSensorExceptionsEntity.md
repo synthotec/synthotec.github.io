@@ -1,4 +1,9 @@
-﻿# RealTimeSensorExceptionsEntity
+﻿---
+layout : default
+title : RealTimeSensorExceptionsEntity
+parent : Classes
+---
+# RealTimeSensorExceptionsEntity
 
 **Extends:** `Entity`
 
@@ -98,4 +103,4 @@ Function sendEmail -> Boolean
 ---
 
 *Generated from RealTimeSensorExceptionsEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.308Z*
+*Last updated: 2025-11-13T00:30:42.634Z*

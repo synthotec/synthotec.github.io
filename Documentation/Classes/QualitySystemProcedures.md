@@ -1,4 +1,9 @@
-﻿# QualitySystemProcedures
+﻿---
+layout : default
+title : QualitySystemProcedures
+parent : Classes
+---
+# QualitySystemProcedures
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from QualitySystemProcedures.4dm*
-*Last updated: 2025-11-12T17:17:32.212Z*
+*Last updated: 2025-11-13T00:30:42.443Z*

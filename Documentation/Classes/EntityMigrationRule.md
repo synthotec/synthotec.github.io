@@ -1,4 +1,9 @@
-﻿# EntityMigrationRule
+﻿---
+layout : default
+title : EntityMigrationRule
+parent : Classes
+---
+# EntityMigrationRule
 
 ## Table of Contents
 
@@ -115,4 +120,4 @@ Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
 ---
 
 *Generated from EntityMigrationRule.4dm*
-*Last updated: 2025-11-12T17:17:31.602Z*
+*Last updated: 2025-11-13T00:30:41.304Z*

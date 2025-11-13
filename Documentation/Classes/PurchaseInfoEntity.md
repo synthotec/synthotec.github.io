@@ -1,4 +1,9 @@
-﻿# PurchaseInfoEntity
+﻿---
+layout : default
+title : PurchaseInfoEntity
+parent : Classes
+---
+# PurchaseInfoEntity
 
 **Extends:** `Entity`
 
@@ -50,4 +55,4 @@ Function createReceipt -> cs.PurchaseReceiptsEntity
 ---
 
 *Generated from PurchaseInfoEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.205Z*
+*Last updated: 2025-11-13T00:30:42.416Z*

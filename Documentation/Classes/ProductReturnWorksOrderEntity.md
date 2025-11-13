@@ -1,4 +1,9 @@
-﻿# ProductReturnWorksOrderEntity
+﻿---
+layout : default
+title : ProductReturnWorksOrderEntity
+parent : Classes
+---
+# ProductReturnWorksOrderEntity
 
 **Extends:** `Entity`
 
@@ -9,4 +14,4 @@
 ---
 
 *Generated from ProductReturnWorksOrderEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.195Z*
+*Last updated: 2025-11-13T00:30:42.392Z*

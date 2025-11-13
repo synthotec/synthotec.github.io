@@ -1,4 +1,9 @@
-﻿# ToolLogEntity
+﻿---
+layout : default
+title : ToolLogEntity
+parent : Classes
+---
+# ToolLogEntity
 
 **Extends:** `Entity`
 
@@ -9,4 +14,4 @@
 ---
 
 *Generated from ToolLogEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.420Z*
+*Last updated: 2025-11-13T00:30:42.981Z*

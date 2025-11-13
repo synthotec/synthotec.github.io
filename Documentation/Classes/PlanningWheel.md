@@ -1,4 +1,9 @@
-﻿# PlanningWheel
+﻿---
+layout : default
+title : PlanningWheel
+parent : Classes
+---
+# PlanningWheel
 
 **Extends:** `DataClass`
 
@@ -36,4 +41,4 @@ Function reducePlannedStand
 ---
 
 *Generated from PlanningWheel.4dm*
-*Last updated: 2025-11-12T17:17:32.080Z*
+*Last updated: 2025-11-13T00:30:42.153Z*

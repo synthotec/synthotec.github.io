@@ -1,8 +1,13 @@
-﻿# Documentation
+﻿---
+layout : default
+title : Documentation
+parent : Classes
+---
+# Documentation
 
 ## Description
 
-////////
+🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
 ## Table of Contents
 
@@ -19,6 +24,9 @@
 - [generateAllClassJSON()](#generateallclassjson)
 - [generateMarkdownFromJSON()](#generatemarkdownfromjson)
 - [_generateMarkdownForClass()](#_generatemarkdownforclass)
+- [generateAllTableJSON()](#generatealltablejson)
+- [generateMarkdownFromTableJSON()](#generatemarkdownfromtablejson)
+- [_generateMarkdownForTable()](#_generatemarkdownfortable)
 
 ---
 
@@ -107,7 +115,42 @@ Helper function to generate markdown for a single class
 
 ---
 
+### generateAllTableJSON {#generatealltablejson}
+
+
+```4d
+Function generateAllTableJSON
+```
+
+Get all table names from the catalog
+
+---
+
+### generateMarkdownFromTableJSON {#generatemarkdownfromtablejson}
+
+
+```4d
+Function generateMarkdownFromTableJSON
+```
+
+Generate markdown documentation from table JSON files
+
+---
+
+### _generateMarkdownForTable {#_generatemarkdownfortable}
+
+
+```4d
+Function _generateMarkdownForTable($TableJSON : Object) -> Text
+```
+
+Helper function to generate markdown for a single table
+
+**Returns:** `Text`
+
+---
+
 ---
 
 *Generated from Documentation.4dm*
-*Last updated: 2025-11-12T17:17:31.545Z*
+*Last updated: 2025-11-13T00:30:41.213Z*

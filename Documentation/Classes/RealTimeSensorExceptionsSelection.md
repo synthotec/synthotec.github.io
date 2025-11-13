@@ -1,4 +1,9 @@
-﻿# RealTimeSensorExceptionsSelection
+﻿---
+layout : default
+title : RealTimeSensorExceptionsSelection
+parent : Classes
+---
+# RealTimeSensorExceptionsSelection
 
 **Extends:** `EntitySelection`
 
@@ -24,4 +29,4 @@ Function acknowledge
 ---
 
 *Generated from RealTimeSensorExceptionsSelection.4dm*
-*Last updated: 2025-11-12T17:17:32.312Z*
+*Last updated: 2025-11-13T00:30:42.645Z*

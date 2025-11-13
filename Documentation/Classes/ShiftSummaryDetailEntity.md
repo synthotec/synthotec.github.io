@@ -1,4 +1,9 @@
-﻿# ShiftSummaryDetailEntity
+﻿---
+layout : default
+title : ShiftSummaryDetailEntity
+parent : Classes
+---
+# ShiftSummaryDetailEntity
 
 **Extends:** `Entity`
 
@@ -70,4 +75,4 @@ Function StatusColor -> Integer
 ---
 
 *Generated from ShiftSummaryDetailEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.360Z*
+*Last updated: 2025-11-13T00:30:42.754Z*

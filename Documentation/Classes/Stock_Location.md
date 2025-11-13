@@ -1,4 +1,9 @@
-﻿# Stock_Location
+﻿---
+layout : default
+title : Stock_Location
+parent : Classes
+---
+# Stock_Location
 
 **Extends:** `DataClass`
 
@@ -62,4 +67,4 @@ Function PartBoxStore -> cs.Stock_LocationEntity
 ---
 
 *Generated from Stock_Location.4dm*
-*Last updated: 2025-11-12T17:17:32.409Z*
+*Last updated: 2025-11-13T00:30:42.859Z*

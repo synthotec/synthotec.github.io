@@ -1,4 +1,9 @@
-﻿# PrintSettings
+﻿---
+layout : default
+title : PrintSettings
+parent : Classes
+---
+# PrintSettings
 
 ## Table of Contents
 
@@ -122,4 +127,4 @@ Function restore -> Boolean
 ---
 
 *Generated from PrintSettings.4dm*
-*Last updated: 2025-11-12T17:17:32.116Z*
+*Last updated: 2025-11-13T00:30:42.236Z*

@@ -1,4 +1,9 @@
-﻿# CofCEntity
+﻿---
+layout : default
+title : CofCEntity
+parent : Classes
+---
+# CofCEntity
 
 **Extends:** `Entity`
 
@@ -26,4 +31,4 @@ Function cancel -> Boolean
 ---
 
 *Generated from CofCEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.412Z*
+*Last updated: 2025-11-13T00:30:41.013Z*

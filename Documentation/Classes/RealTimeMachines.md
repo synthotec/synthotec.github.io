@@ -1,4 +1,9 @@
-﻿# RealTimeMachines
+﻿---
+layout : default
+title : RealTimeMachines
+parent : Classes
+---
+# RealTimeMachines
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 ---
 
 *Generated from RealTimeMachines.4dm*
-*Last updated: 2025-11-12T17:17:32.245Z*
+*Last updated: 2025-11-13T00:30:42.514Z*

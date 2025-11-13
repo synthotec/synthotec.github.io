@@ -1,8 +1,13 @@
-﻿# RealTimeOutputMachine
+﻿---
+layout : default
+title : RealTimeOutputMachine
+parent : Classes
+---
+# RealTimeOutputMachine
 
 ## Description
 
-MARK:Primary Colors
+🗨️ MARK:Primary Colors
 
 ## Table of Contents
 
@@ -355,4 +360,4 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 ---
 
 *Generated from RealTimeOutputMachine.4dm*
-*Last updated: 2025-11-12T17:17:32.297Z*
+*Last updated: 2025-11-13T00:30:42.603Z*

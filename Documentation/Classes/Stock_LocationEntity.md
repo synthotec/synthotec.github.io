@@ -1,4 +1,9 @@
-﻿# Stock_LocationEntity
+﻿---
+layout : default
+title : Stock_LocationEntity
+parent : Classes
+---
+# Stock_LocationEntity
 
 **Extends:** `Entity`
 
@@ -9,4 +14,4 @@
 ---
 
 *Generated from Stock_LocationEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.410Z*
+*Last updated: 2025-11-13T00:30:42.866Z*

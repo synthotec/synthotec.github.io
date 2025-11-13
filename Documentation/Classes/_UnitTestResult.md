@@ -1,4 +1,9 @@
-﻿# _UnitTestResult
+﻿---
+layout : default
+title : _UnitTestResult
+parent : Classes
+---
+# _UnitTestResult
 
 ## Table of Contents
 
@@ -98,4 +103,4 @@ Function StatusEmoji -> Text
 ---
 
 *Generated from _UnitTestResult.4dm*
-*Last updated: 2025-11-12T17:17:32.545Z*
+*Last updated: 2025-11-13T00:30:43.230Z*

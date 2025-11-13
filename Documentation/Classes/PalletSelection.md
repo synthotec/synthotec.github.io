@@ -1,4 +1,9 @@
-﻿# PalletSelection
+﻿---
+layout : default
+title : PalletSelection
+parent : Classes
+---
+# PalletSelection
 
 **Extends:** `EntitySelection`
 
@@ -26,4 +31,4 @@ Function getAvailable -> cs.PalletSelection
 ---
 
 *Generated from PalletSelection.4dm*
-*Last updated: 2025-11-12T17:17:31.983Z*
+*Last updated: 2025-11-13T00:30:42.020Z*

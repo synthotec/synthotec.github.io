@@ -1,4 +1,9 @@
-﻿# ProductPackagingEntity
+﻿---
+layout : default
+title : ProductPackagingEntity
+parent : Classes
+---
+# ProductPackagingEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
 ---
 
 *Generated from ProductPackagingEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.194Z*
+*Last updated: 2025-11-13T00:30:42.386Z*

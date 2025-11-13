@@ -1,8 +1,13 @@
-﻿# EntityMigration
+﻿---
+layout : default
+title : EntityMigration
+parent : Classes
+---
+# EntityMigration
 
 ## Description
 
-Initialize migration manager for a specific dataclass with optional remote selection for linking
+🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
 ## Table of Contents
 
@@ -46,15 +51,11 @@ Initialize migration manager for a specific dataclass with optional remote selec
 
 **Default Value:** `DataStore(2)`
 
-Remote datastore connection for migration target
-
 ---
 
 ### _DataClass {#dataclass}
 
 **Type:** `4D.DataClass`
-
-Local dataclass being migrated
 
 ---
 
@@ -64,15 +65,11 @@ Local dataclass being migrated
 
 **Default Value:** `False`
 
-Flag indicating user cancelled the link dialog
-
 ---
 
 ### RemoteDataClass {#remotedataclass}
 
 **Type:** `4D.DataClass`
-
-Remote dataclass corresponding to local dataclass
 
 ---
 
@@ -80,15 +77,11 @@ Remote dataclass corresponding to local dataclass
 
 **Type:** `4D.EntitySelection`
 
-Remote entities available for linking
-
 ---
 
 ### Loading {#loading}
 
 **Type:** `cs.Loading`
-
-Loading indicator for migration progress
 
 ---
 
@@ -319,4 +312,4 @@ Rollback transactions on both local and remote datastores
 ---
 
 *Generated from EntityMigration.4dm*
-*Last updated: 2025-11-12T17:17:31.593Z*
+*Last updated: 2025-11-13T00:30:41.284Z*

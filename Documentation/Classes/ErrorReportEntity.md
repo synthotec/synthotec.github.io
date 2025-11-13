@@ -1,4 +1,9 @@
-﻿# ErrorReportEntity
+﻿---
+layout : default
+title : ErrorReportEntity
+parent : Classes
+---
+# ErrorReportEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function sendSlackReport -> Boolean
 ---
 
 *Generated from ErrorReportEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.631Z*
+*Last updated: 2025-11-13T00:30:41.394Z*

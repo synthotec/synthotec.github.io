@@ -1,4 +1,9 @@
-﻿# HotHalfsEntity
+﻿---
+layout : default
+title : HotHalfsEntity
+parent : Classes
+---
+# HotHalfsEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.HotHalfsEntity)
 ---
 
 *Generated from HotHalfsEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.757Z*
+*Last updated: 2025-11-13T00:30:41.640Z*

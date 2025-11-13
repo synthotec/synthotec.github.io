@@ -1,4 +1,9 @@
-﻿# SelectionLock
+﻿---
+layout : default
+title : SelectionLock
+parent : Classes
+---
+# SelectionLock
 
 ## Table of Contents
 
@@ -61,4 +66,4 @@ Function unlock
 ---
 
 *Generated from SelectionLock.4dm*
-*Last updated: 2025-11-12T17:17:32.344Z*
+*Last updated: 2025-11-13T00:30:42.715Z*

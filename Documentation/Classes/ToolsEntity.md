@@ -1,4 +1,9 @@
-﻿# ToolsEntity
+﻿---
+layout : default
+title : ToolsEntity
+parent : Classes
+---
+# ToolsEntity
 
 **Extends:** `Entity`
 
@@ -52,4 +57,4 @@ Function NextToolChangeText -> Text
 ---
 
 *Generated from ToolsEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.455Z*
+*Last updated: 2025-11-13T00:30:43.045Z*

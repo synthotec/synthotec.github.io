@@ -1,4 +1,9 @@
-﻿# PickRequestEntity
+﻿---
+layout : default
+title : PickRequestEntity
+parent : Classes
+---
+# PickRequestEntity
 
 **Extends:** `Entity`
 
@@ -218,4 +223,4 @@ Function sendPickedNotification
 ---
 
 *Generated from PickRequestEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.072Z*
+*Last updated: 2025-11-13T00:30:42.136Z*

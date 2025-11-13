@@ -1,4 +1,9 @@
-﻿# FormObject
+﻿---
+layout : default
+title : FormObject
+parent : Classes
+---
+# FormObject
 
 ## Table of Contents
 
@@ -670,4 +675,4 @@ Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
 ---
 
 *Generated from FormObject.4dm*
-*Last updated: 2025-11-12T17:17:31.730Z*
+*Last updated: 2025-11-13T00:30:41.574Z*

@@ -1,4 +1,9 @@
-﻿# Graph
+﻿---
+layout : default
+title : Graph
+parent : Classes
+---
+# Graph
 
 ## Table of Contents
 
@@ -36,4 +41,4 @@ GRAPH($Picture; This.Settings;
 ---
 
 *Generated from Graph.4dm*
-*Last updated: 2025-11-12T17:17:31.748Z*
+*Last updated: 2025-11-13T00:30:41.619Z*

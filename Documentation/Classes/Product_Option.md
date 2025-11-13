@@ -1,4 +1,9 @@
-﻿# Product_Option
+﻿---
+layout : default
+title : Product_Option
+parent : Classes
+---
+# Product_Option
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from Product_Option.4dm*
-*Last updated: 2025-11-12T17:17:32.196Z*
+*Last updated: 2025-11-13T00:30:42.394Z*

@@ -1,4 +1,9 @@
-﻿# Customer
+﻿---
+layout : default
+title : Customer
+parent : Classes
+---
+# Customer
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from Customer.4dm*
-*Last updated: 2025-11-12T17:17:31.421Z*
+*Last updated: 2025-11-13T00:30:41.037Z*

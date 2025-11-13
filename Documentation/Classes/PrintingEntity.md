@@ -1,4 +1,9 @@
-﻿# PrintingEntity
+﻿---
+layout : default
+title : PrintingEntity
+parent : Classes
+---
+# PrintingEntity
 
 **Extends:** `Entity`
 
@@ -9,4 +14,4 @@
 ---
 
 *Generated from PrintingEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.102Z*
+*Last updated: 2025-11-13T00:30:42.214Z*

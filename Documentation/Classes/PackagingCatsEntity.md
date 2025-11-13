@@ -1,4 +1,9 @@
-﻿# PackagingCatsEntity
+﻿---
+layout : default
+title : PackagingCatsEntity
+parent : Classes
+---
+# PackagingCatsEntity
 
 **Extends:** `Entity`
 
@@ -38,4 +43,4 @@ var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.Supplies
 ---
 
 *Generated from PackagingCatsEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.874Z*
+*Last updated: 2025-11-13T00:30:41.884Z*

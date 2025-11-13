@@ -1,4 +1,9 @@
-﻿# Product_OptionEntity
+﻿---
+layout : default
+title : Product_OptionEntity
+parent : Classes
+---
+# Product_OptionEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.Product_OptionEntity)
 ---
 
 *Generated from Product_OptionEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.201Z*
+*Last updated: 2025-11-13T00:30:42.404Z*

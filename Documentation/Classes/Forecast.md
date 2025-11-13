@@ -1,4 +1,9 @@
-﻿# Forecast
+﻿---
+layout : default
+title : Forecast
+parent : Classes
+---
+# Forecast
 
 **Extends:** `DataClass`
 
@@ -36,4 +41,4 @@ Function generateForecastOrders
 ---
 
 *Generated from Forecast.4dm*
-*Last updated: 2025-11-12T17:17:31.701Z*
+*Last updated: 2025-11-13T00:30:41.524Z*

@@ -1,8 +1,13 @@
-﻿# Email
+﻿---
+layout : default
+title : Email
+parent : Classes
+---
+# Email
 
 ## Description
 
-if(Match regex(Email Regex;$EmailAddress))
+🗨️ if(Match regex(Email Regex;$EmailAddress))
 
 ## Table of Contents
 
@@ -169,4 +174,4 @@ Function send -> Boolean
 ---
 
 *Generated from Email.4dm*
-*Last updated: 2025-11-12T17:17:31.562Z*
+*Last updated: 2025-11-13T00:30:41.240Z*

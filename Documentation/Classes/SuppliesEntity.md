@@ -1,4 +1,9 @@
-﻿# SuppliesEntity
+﻿---
+layout : default
+title : SuppliesEntity
+parent : Classes
+---
+# SuppliesEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.SuppliesEntity)
 ---
 
 *Generated from SuppliesEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.416Z*
+*Last updated: 2025-11-13T00:30:42.883Z*

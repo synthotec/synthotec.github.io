@@ -1,8 +1,13 @@
-﻿# ClassFunction
+﻿---
+layout : default
+title : ClassFunction
+parent : Classes
+---
+# ClassFunction
 
 ## Description
 
-Stores metadata about a class function
+🗨️ Stores metadata about a class function
 
 ## Table of Contents
 
@@ -60,4 +65,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassFunction.4dm*
-*Last updated: 2025-11-12T17:17:31.358Z*
+*Last updated: 2025-11-13T00:30:40.921Z*

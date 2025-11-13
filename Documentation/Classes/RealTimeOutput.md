@@ -1,8 +1,13 @@
-﻿# RealTimeOutput
+﻿---
+layout : default
+title : RealTimeOutput
+parent : Classes
+---
+# RealTimeOutput
 
 ## Description
 
-$SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
+🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
 ## Table of Contents
 
@@ -86,4 +91,4 @@ Function InfoTextBox -> Object
 ---
 
 *Generated from RealTimeOutput.4dm*
-*Last updated: 2025-11-12T17:17:32.263Z*
+*Last updated: 2025-11-13T00:30:42.558Z*

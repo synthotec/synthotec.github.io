@@ -1,4 +1,9 @@
-﻿# Settings
+﻿---
+layout : default
+title : Settings
+parent : Classes
+---
+# Settings
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEn
 ---
 
 *Generated from Settings.4dm*
-*Last updated: 2025-11-12T17:17:32.347Z*
+*Last updated: 2025-11-13T00:30:42.725Z*

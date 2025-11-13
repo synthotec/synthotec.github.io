@@ -1,4 +1,9 @@
-﻿# SettingsEntity
+﻿---
+layout : default
+title : SettingsEntity
+parent : Classes
+---
+# SettingsEntity
 
 **Extends:** `Entity`
 
@@ -74,4 +79,4 @@ Function reset -> Boolean
 ---
 
 *Generated from SettingsEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.352Z*
+*Last updated: 2025-11-13T00:30:42.739Z*

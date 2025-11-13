@@ -1,4 +1,9 @@
-﻿# MenuItem
+﻿---
+layout : default
+title : MenuItem
+parent : Classes
+---
+# MenuItem
 
 ## Table of Contents
 
@@ -145,4 +150,4 @@ Function _process -> Variant
 ---
 
 *Generated from MenuItem.4dm*
-*Last updated: 2025-11-12T17:17:31.860Z*
+*Last updated: 2025-11-13T00:30:41.843Z*

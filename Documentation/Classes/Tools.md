@@ -1,4 +1,9 @@
-﻿# Tools
+﻿---
+layout : default
+title : Tools
+parent : Classes
+---
+# Tools
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ Function createForProduct -> cs.ToolsEntity
 ---
 
 *Generated from Tools.4dm*
-*Last updated: 2025-11-12T17:17:32.439Z*
+*Last updated: 2025-11-13T00:30:43.019Z*

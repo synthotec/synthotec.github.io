@@ -1,8 +1,13 @@
-﻿# ClassInspector
+﻿---
+layout : default
+title : ClassInspector
+parent : Classes
+---
+# ClassInspector
 
 ## Description
 
-ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
+🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 ## Table of Contents
@@ -45,9 +50,6 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 **Type:** `Text`
 
-ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
-Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
-
 ---
 
 ### SuperClass {#superclass}
@@ -60,15 +62,11 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
 **Type:** `Text`
 
-Comment extracted from top of class file
-
 ---
 
 ### ClassManualComment {#classmanualcomment}
 
 **Type:** `Text`
-
-User-entered class documentation
 
 ---
 
@@ -76,15 +74,11 @@ User-entered class documentation
 
 **Type:** `Collection`
 
-Collection of property objects
-
 ---
 
 ### Functions {#functions}
 
 **Type:** `Collection`
-
-Collection of function objects
 
 ---
 
@@ -98,23 +92,17 @@ Collection of function objects
 
 **Type:** `4D.Folder`
 
-Folder for JSON output
-
 ---
 
 ### ExistingJSON {#existingjson}
 
 **Type:** `Object`
 
-Previously saved JSON for comment merging
-
 ---
 
 ### Changes {#changes}
 
 **Type:** `Collection`
-
-List of changes detected
 
 ---
 
@@ -287,4 +275,4 @@ Save JSON to file in Documentation\json\Classes folder
 ---
 
 *Generated from ClassInspector.4dm*
-*Last updated: 2025-11-12T17:17:31.403Z*
+*Last updated: 2025-11-13T00:30:40.977Z*

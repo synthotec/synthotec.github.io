@@ -1,4 +1,9 @@
-﻿# Advice_NoteEntity
+﻿---
+layout : default
+title : Advice_NoteEntity
+parent : Classes
+---
+# Advice_NoteEntity
 
 **Extends:** `Entity`
 
@@ -58,4 +63,4 @@ Function cancel -> Boolean
 ---
 
 *Generated from Advice_NoteEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.296Z*
+*Last updated: 2025-11-13T00:30:40.812Z*

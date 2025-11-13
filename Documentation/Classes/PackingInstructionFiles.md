@@ -1,4 +1,9 @@
-﻿# PackingInstructionFiles
+﻿---
+layout : default
+title : PackingInstructionFiles
+parent : Classes
+---
+# PackingInstructionFiles
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from PackingInstructionFiles.4dm*
-*Last updated: 2025-11-12T17:17:31.876Z*
+*Last updated: 2025-11-13T00:30:41.891Z*

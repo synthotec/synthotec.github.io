@@ -1,4 +1,9 @@
-﻿# ErrorEntity
+﻿---
+layout : default
+title : ErrorEntity
+parent : Classes
+---
+# ErrorEntity
 
 **Extends:** `Entity`
 
@@ -96,4 +101,4 @@ Function LastOccurrence -> Text
 ---
 
 *Generated from ErrorEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.622Z*
+*Last updated: 2025-11-13T00:30:41.368Z*

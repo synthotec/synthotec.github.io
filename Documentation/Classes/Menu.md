@@ -1,4 +1,9 @@
-﻿# Menu
+﻿---
+layout : default
+title : Menu
+parent : Classes
+---
+# Menu
 
 ## Table of Contents
 
@@ -147,4 +152,4 @@ Function _release
 ---
 
 *Generated from Menu.4dm*
-*Last updated: 2025-11-12T17:17:31.854Z*
+*Last updated: 2025-11-13T00:30:41.827Z*

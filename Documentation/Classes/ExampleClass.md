@@ -1,8 +1,13 @@
-﻿# ExampleClass
+﻿---
+layout : default
+title : ExampleClass
+parent : Classes
+---
+# ExampleClass
 
 ## Description
 
-Example class to demonstrate inline comments and parameter documentation
+🗨️ Example class to demonstrate inline comments and parameter documentation
 
 ## Table of Contents
 
@@ -26,8 +31,6 @@ Example class to demonstrate inline comments and parameter documentation
 
 **Type:** `Text`
 
-The title of the item
-
 ---
 
 ### Count {#count}
@@ -35,8 +38,6 @@ The title of the item
 **Type:** `Integer`
 
 **Default Value:** `0`
-
-Number of items in stock
 
 ---
 
@@ -93,4 +94,4 @@ Function ItemCount -> Integer
 ---
 
 *Generated from ExampleClass.4dm*
-*Last updated: 2025-11-12T17:17:31.635Z*
+*Last updated: 2025-11-13T00:30:41.408Z*

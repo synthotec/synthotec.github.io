@@ -1,4 +1,9 @@
-﻿# ProductEntity
+﻿---
+layout : default
+title : ProductEntity
+parent : Classes
+---
+# ProductEntity
 
 **Extends:** `Entity`
 
@@ -202,4 +207,4 @@ Function HasMigrationID -> Boolean
 ---
 
 *Generated from ProductEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.184Z*
+*Last updated: 2025-11-13T00:30:42.348Z*

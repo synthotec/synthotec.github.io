@@ -1,4 +1,9 @@
-﻿# Translation
+﻿---
+layout : default
+title : Translation
+parent : Classes
+---
+# Translation
 
 **Extends:** `DataClass`
 
@@ -80,4 +85,4 @@ Function translateFormObjects($TranslationProcess : Text)
 ---
 
 *Generated from Translation.4dm*
-*Last updated: 2025-11-12T17:17:32.478Z*
+*Last updated: 2025-11-13T00:30:43.119Z*

@@ -1,4 +1,9 @@
-﻿# FieldHistory
+﻿---
+layout : default
+title : FieldHistory
+parent : Classes
+---
+# FieldHistory
 
 **Extends:** `DataClass`
 
@@ -44,4 +49,4 @@ Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 ---
 
 *Generated from FieldHistory.4dm*
-*Last updated: 2025-11-12T17:17:31.682Z*
+*Last updated: 2025-11-13T00:30:41.490Z*

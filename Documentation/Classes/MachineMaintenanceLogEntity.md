@@ -1,4 +1,9 @@
-﻿# MachineMaintenanceLogEntity
+﻿---
+layout : default
+title : MachineMaintenanceLogEntity
+parent : Classes
+---
+# MachineMaintenanceLogEntity
 
 **Extends:** `Entity`
 
@@ -38,4 +43,4 @@ Function TimeStampWithTab -> Text
 ---
 
 *Generated from MachineMaintenanceLogEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.810Z*
+*Last updated: 2025-11-13T00:30:41.733Z*

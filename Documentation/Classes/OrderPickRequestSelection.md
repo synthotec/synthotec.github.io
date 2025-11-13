@@ -1,4 +1,9 @@
-﻿# OrderPickRequestSelection
+﻿---
+layout : default
+title : OrderPickRequestSelection
+parent : Classes
+---
+# OrderPickRequestSelection
 
 **Extends:** `EntitySelection`
 
@@ -26,4 +31,4 @@ Function getUnprocessedQuantity -> Integer
 ---
 
 *Generated from OrderPickRequestSelection.4dm*
-*Last updated: 2025-11-12T17:17:31.870Z*
+*Last updated: 2025-11-13T00:30:41.867Z*

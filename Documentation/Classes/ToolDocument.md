@@ -1,4 +1,9 @@
-﻿# ToolDocument
+﻿---
+layout : default
+title : ToolDocument
+parent : Classes
+---
+# ToolDocument
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> cs.ToolDocumentEntity
 ---
 
 *Generated from ToolDocument.4dm*
-*Last updated: 2025-11-12T17:17:32.419Z*
+*Last updated: 2025-11-13T00:30:42.975Z*

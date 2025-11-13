@@ -1,4 +1,9 @@
-﻿# Log
+﻿---
+layout : default
+title : Log
+parent : Classes
+---
+# Log
 
 **Extends:** `DataClass`
 
@@ -34,4 +39,4 @@ Function trim
 ---
 
 *Generated from Log.4dm*
-*Last updated: 2025-11-12T17:17:31.808Z*
+*Last updated: 2025-11-13T00:30:41.727Z*

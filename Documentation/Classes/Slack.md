@@ -1,4 +1,9 @@
-﻿# Slack
+﻿---
+layout : default
+title : Slack
+parent : Classes
+---
+# Slack
 
 ## Table of Contents
 
@@ -118,4 +123,4 @@ Function deleteMessage($MessageTimeStamp : Text) -> Boolean
 ---
 
 *Generated from Slack.4dm*
-*Last updated: 2025-11-12T17:17:32.375Z*
+*Last updated: 2025-11-13T00:30:42.791Z*

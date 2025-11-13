@@ -1,4 +1,9 @@
-﻿# BOM
+﻿---
+layout : default
+title : BOM
+parent : Classes
+---
+# BOM
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from BOM.4dm*
-*Last updated: 2025-11-12T17:17:31.302Z*
+*Last updated: 2025-11-13T00:30:40.831Z*

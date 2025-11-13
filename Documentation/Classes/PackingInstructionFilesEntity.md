@@ -1,4 +1,9 @@
-﻿# PackingInstructionFilesEntity
+﻿---
+layout : default
+title : PackingInstructionFilesEntity
+parent : Classes
+---
+# PackingInstructionFilesEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.PackingInstructionFilesEntit
 ---
 
 *Generated from PackingInstructionFilesEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.879Z*
+*Last updated: 2025-11-13T00:30:41.899Z*

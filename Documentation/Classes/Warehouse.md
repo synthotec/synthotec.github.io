@@ -1,4 +1,9 @@
-﻿# Warehouse
+﻿---
+layout : default
+title : Warehouse
+parent : Classes
+---
+# Warehouse
 
 **Extends:** `DataClass`
 
@@ -112,4 +117,4 @@ Function restScanTest($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from Warehouse.4dm*
-*Last updated: 2025-11-12T17:17:32.504Z*
+*Last updated: 2025-11-13T00:30:43.170Z*

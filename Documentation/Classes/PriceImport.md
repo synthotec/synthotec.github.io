@@ -1,4 +1,9 @@
-﻿# PriceImport
+﻿---
+layout : default
+title : PriceImport
+parent : Classes
+---
+# PriceImport
 
 ## Table of Contents
 
@@ -73,4 +78,4 @@ Function importPrices -> Object
 ---
 
 *Generated from PriceImport.4dm*
-*Last updated: 2025-11-12T17:17:32.085Z*
+*Last updated: 2025-11-13T00:30:42.170Z*

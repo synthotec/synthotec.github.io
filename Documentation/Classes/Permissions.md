@@ -1,4 +1,9 @@
-﻿# Permissions
+﻿---
+layout : default
+title : Permissions
+parent : Classes
+---
+# Permissions
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity :
 ---
 
 *Generated from Permissions.4dm*
-*Last updated: 2025-11-12T17:17:31.987Z*
+*Last updated: 2025-11-13T00:30:42.031Z*

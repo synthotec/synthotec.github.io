@@ -1,4 +1,9 @@
-﻿# PrintJobEntity
+﻿---
+layout : default
+title : PrintJobEntity
+parent : Classes
+---
+# PrintJobEntity
 
 **Extends:** `Entity`
 
@@ -26,4 +31,4 @@ Function print -> Boolean
 ---
 
 *Generated from PrintJobEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.104Z*
+*Last updated: 2025-11-13T00:30:42.221Z*

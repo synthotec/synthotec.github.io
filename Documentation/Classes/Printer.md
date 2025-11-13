@@ -1,4 +1,9 @@
-﻿# Printer
+﻿---
+layout : default
+title : Printer
+parent : Classes
+---
+# Printer
 
 **Extends:** `DataClass`
 
@@ -46,4 +51,4 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 ---
 
 *Generated from Printer.4dm*
-*Last updated: 2025-11-12T17:17:32.089Z*
+*Last updated: 2025-11-13T00:30:42.182Z*

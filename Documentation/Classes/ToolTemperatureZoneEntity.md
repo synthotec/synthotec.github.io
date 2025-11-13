@@ -1,4 +1,9 @@
-﻿# ToolTemperatureZoneEntity
+﻿---
+layout : default
+title : ToolTemperatureZoneEntity
+parent : Classes
+---
+# ToolTemperatureZoneEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureZoneEntity)
 ---
 
 *Generated from ToolTemperatureZoneEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.473Z*
+*Last updated: 2025-11-13T00:30:43.107Z*

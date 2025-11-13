@@ -1,4 +1,9 @@
-﻿# MaterialEntity
+﻿---
+layout : default
+title : MaterialEntity
+parent : Classes
+---
+# MaterialEntity
 
 **Extends:** `Entity`
 
@@ -62,4 +67,4 @@ Function HasMigrationID -> Boolean
 ---
 
 *Generated from MaterialEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.816Z*
+*Last updated: 2025-11-13T00:30:41.753Z*

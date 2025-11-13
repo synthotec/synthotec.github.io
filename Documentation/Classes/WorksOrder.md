@@ -1,4 +1,9 @@
-﻿# WorksOrder
+﻿---
+layout : default
+title : WorksOrder
+parent : Classes
+---
+# WorksOrder
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from WorksOrder.4dm*
-*Last updated: 2025-11-12T17:17:32.505Z*
+*Last updated: 2025-11-13T00:30:43.178Z*

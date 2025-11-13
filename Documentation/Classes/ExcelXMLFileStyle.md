@@ -1,4 +1,9 @@
-﻿# ExcelXMLFileStyle
+﻿---
+layout : default
+title : ExcelXMLFileStyle
+parent : Classes
+---
+# ExcelXMLFileStyle
 
 ## Table of Contents
 
@@ -154,4 +159,4 @@ Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileSt
 ---
 
 *Generated from ExcelXMLFileStyle.4dm*
-*Last updated: 2025-11-12T17:17:31.671Z*
+*Last updated: 2025-11-13T00:30:41.474Z*

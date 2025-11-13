@@ -1,4 +1,9 @@
-﻿# PermissionsEntity
+﻿---
+layout : default
+title : PermissionsEntity
+parent : Classes
+---
+# PermissionsEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 ---
 
 *Generated from PermissionsEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.991Z*
+*Last updated: 2025-11-13T00:30:42.042Z*

@@ -1,4 +1,9 @@
-﻿# Product
+﻿---
+layout : default
+title : Product
+parent : Classes
+---
+# Product
 
 **Extends:** `DataClass`
 
@@ -36,4 +41,4 @@ Function populateEmojis
 ---
 
 *Generated from Product.4dm*
-*Last updated: 2025-11-12T17:17:32.162Z*
+*Last updated: 2025-11-13T00:30:42.317Z*

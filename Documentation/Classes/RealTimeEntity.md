@@ -1,4 +1,9 @@
-﻿# RealTimeEntity
+﻿---
+layout : default
+title : RealTimeEntity
+parent : Classes
+---
+# RealTimeEntity
 
 **Extends:** `Entity`
 
@@ -64,4 +69,4 @@ Function EndDateTime -> cs.System.DateTime
 ---
 
 *Generated from RealTimeEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.244Z*
+*Last updated: 2025-11-13T00:30:42.504Z*

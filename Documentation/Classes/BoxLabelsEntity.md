@@ -1,4 +1,9 @@
-﻿# BoxLabelsEntity
+﻿---
+layout : default
+title : BoxLabelsEntity
+parent : Classes
+---
+# BoxLabelsEntity
 
 **Extends:** `Entity`
 
@@ -352,4 +357,4 @@ Function TestProduct -> cs.ProductEntity
 ---
 
 *Generated from BoxLabelsEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.353Z*
+*Last updated: 2025-11-13T00:30:40.905Z*

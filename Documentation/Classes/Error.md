@@ -1,4 +1,9 @@
-﻿# Error
+﻿---
+layout : default
+title : Error
+parent : Classes
+---
+# Error
 
 **Extends:** `DataClass`
 
@@ -54,4 +59,4 @@ Function record
 ---
 
 *Generated from Error.4dm*
-*Last updated: 2025-11-12T17:17:31.616Z*
+*Last updated: 2025-11-13T00:30:41.349Z*

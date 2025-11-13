@@ -1,4 +1,9 @@
-﻿# BoxLabels
+﻿---
+layout : default
+title : BoxLabels
+parent : Classes
+---
+# BoxLabels
 
 **Extends:** `DataClass`
 
@@ -96,4 +101,4 @@ Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from BoxLabels.4dm*
-*Last updated: 2025-11-12T17:17:31.321Z*
+*Last updated: 2025-11-13T00:30:40.862Z*

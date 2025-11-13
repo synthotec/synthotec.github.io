@@ -1,8 +1,13 @@
-﻿# ClassProperty
+﻿---
+layout : default
+title : ClassProperty
+parent : Classes
+---
+# ClassProperty
 
 ## Description
 
-Stores metadata about a class property
+🗨️ Stores metadata about a class property
 
 ## Table of Contents
 
@@ -50,4 +55,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassProperty.4dm*
-*Last updated: 2025-11-12T17:17:31.409Z*
+*Last updated: 2025-11-13T00:30:41.000Z*

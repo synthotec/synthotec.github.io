@@ -1,4 +1,9 @@
-﻿# RTSUM
+﻿---
+layout : default
+title : RTSUM
+parent : Classes
+---
+# RTSUM
 
 **Extends:** `DataClass`
 
@@ -24,4 +29,4 @@ Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Inte
 ---
 
 *Generated from RTSUM.4dm*
-*Last updated: 2025-11-12T17:17:32.337Z*
+*Last updated: 2025-11-13T00:30:42.693Z*

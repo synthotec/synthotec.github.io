@@ -1,4 +1,9 @@
-﻿# GrippersEntity
+﻿---
+layout : default
+title : GrippersEntity
+parent : Classes
+---
+# GrippersEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.GrippersEntity)
 ---
 
 *Generated from GrippersEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.752Z*
+*Last updated: 2025-11-13T00:30:41.630Z*

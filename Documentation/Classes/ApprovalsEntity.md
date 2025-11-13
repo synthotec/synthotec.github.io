@@ -1,4 +1,9 @@
-﻿# ApprovalsEntity
+﻿---
+layout : default
+title : ApprovalsEntity
+parent : Classes
+---
+# ApprovalsEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
 ---
 
 *Generated from ApprovalsEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.300Z*
+*Last updated: 2025-11-13T00:30:40.829Z*

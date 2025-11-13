@@ -1,4 +1,9 @@
-﻿# Approvals
+﻿---
+layout : default
+title : Approvals
+parent : Classes
+---
+# Approvals
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from Approvals.4dm*
-*Last updated: 2025-11-12T17:17:31.297Z*
+*Last updated: 2025-11-13T00:30:40.820Z*

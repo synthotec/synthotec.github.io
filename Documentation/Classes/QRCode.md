@@ -1,4 +1,9 @@
-﻿# QRCode
+﻿---
+layout : default
+title : QRCode
+parent : Classes
+---
+# QRCode
 
 ## Table of Contents
 
@@ -100,4 +105,4 @@ Function PrimaryKey -> Integer
 ---
 
 *Generated from QRCode.4dm*
-*Last updated: 2025-11-12T17:17:32.211Z*
+*Last updated: 2025-11-13T00:30:42.441Z*

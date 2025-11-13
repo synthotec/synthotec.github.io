@@ -1,4 +1,9 @@
-﻿# ToolNoticeEntity
+﻿---
+layout : default
+title : ToolNoticeEntity
+parent : Classes
+---
+# ToolNoticeEntity
 
 **Extends:** `Entity`
 
@@ -70,4 +75,4 @@ Function ActiveUntilText -> Text
 ---
 
 *Generated from ToolNoticeEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.435Z*
+*Last updated: 2025-11-13T00:30:43.007Z*

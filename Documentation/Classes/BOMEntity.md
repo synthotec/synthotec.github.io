@@ -1,4 +1,9 @@
-﻿# BOMEntity
+﻿---
+layout : default
+title : BOMEntity
+parent : Classes
+---
+# BOMEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 ---
 
 *Generated from BOMEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.308Z*
+*Last updated: 2025-11-13T00:30:40.843Z*

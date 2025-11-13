@@ -1,4 +1,9 @@
-﻿# Loading
+﻿---
+layout : default
+title : Loading
+parent : Classes
+---
+# Loading
 
 ## Table of Contents
 
@@ -42,4 +47,4 @@ Function update($LoadingText : Text; $LoadingProgress : Real)
 ---
 
 *Generated from Loading.4dm*
-*Last updated: 2025-11-12T17:17:31.777Z*
+*Last updated: 2025-11-13T00:30:41.682Z*

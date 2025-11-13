@@ -1,4 +1,9 @@
-﻿# File
+﻿---
+layout : default
+title : File
+parent : Classes
+---
+# File
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function upload -> cs.FileEntity
 ---
 
 *Generated from File.4dm*
-*Last updated: 2025-11-12T17:17:31.684Z*
+*Last updated: 2025-11-13T00:30:41.497Z*

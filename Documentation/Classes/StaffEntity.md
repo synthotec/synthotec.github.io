@@ -1,4 +1,9 @@
-﻿# StaffEntity
+﻿---
+layout : default
+title : StaffEntity
+parent : Classes
+---
+# StaffEntity
 
 **Extends:** `Entity`
 
@@ -50,4 +55,4 @@ Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> Boolean
 ---
 
 *Generated from StaffEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.383Z*
+*Last updated: 2025-11-13T00:30:42.815Z*

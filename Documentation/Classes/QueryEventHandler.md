@@ -1,4 +1,9 @@
-﻿# QueryEventHandler
+﻿---
+layout : default
+title : QueryEventHandler
+parent : Classes
+---
+# QueryEventHandler
 
 ## Table of Contents
 
@@ -103,4 +108,4 @@ Function booleanResult -> Variant
 ---
 
 *Generated from QueryEventHandler.4dm*
-*Last updated: 2025-11-12T17:17:32.225Z*
+*Last updated: 2025-11-13T00:30:42.468Z*

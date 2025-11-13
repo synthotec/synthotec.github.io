@@ -1,4 +1,9 @@
-﻿# Staff
+﻿---
+layout : default
+title : Staff
+parent : Classes
+---
+# Staff
 
 **Extends:** `DataClass`
 
@@ -62,4 +67,4 @@ Function newUsingEntry -> cs.StaffEntity
 ---
 
 *Generated from Staff.4dm*
-*Last updated: 2025-11-12T17:17:32.379Z*
+*Last updated: 2025-11-13T00:30:42.804Z*

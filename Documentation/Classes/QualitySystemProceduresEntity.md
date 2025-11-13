@@ -1,4 +1,9 @@
-﻿# QualitySystemProceduresEntity
+﻿---
+layout : default
+title : QualitySystemProceduresEntity
+parent : Classes
+---
+# QualitySystemProceduresEntity
 
 **Extends:** `Entity`
 
@@ -36,4 +41,4 @@ Function syncMigrationSelections($RemoteEntity : cs.QualitySystemProceduresEntit
 ---
 
 *Generated from QualitySystemProceduresEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.215Z*
+*Last updated: 2025-11-13T00:30:42.453Z*

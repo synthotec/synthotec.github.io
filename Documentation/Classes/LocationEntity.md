@@ -1,4 +1,9 @@
-﻿# LocationEntity
+﻿---
+layout : default
+title : LocationEntity
+parent : Classes
+---
+# LocationEntity
 
 **Extends:** `Entity`
 
@@ -130,4 +135,4 @@ Function getStockListboxCollection -> Collection
 ---
 
 *Generated from LocationEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.805Z*
+*Last updated: 2025-11-13T00:30:41.718Z*

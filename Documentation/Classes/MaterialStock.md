@@ -1,4 +1,9 @@
-﻿# MaterialStock
+﻿---
+layout : default
+title : MaterialStock
+parent : Classes
+---
+# MaterialStock
 
 **Extends:** `DataClass`
 
@@ -50,4 +55,4 @@ Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from MaterialStock.4dm*
-*Last updated: 2025-11-12T17:17:31.836Z*
+*Last updated: 2025-11-13T00:30:41.785Z*

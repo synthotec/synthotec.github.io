@@ -1,4 +1,9 @@
-﻿# Customer_Order
+﻿---
+layout : default
+title : Customer_Order
+parent : Classes
+---
+# Customer_Order
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 ---
 
 *Generated from Customer_Order.4dm*
-*Last updated: 2025-11-12T17:17:31.437Z*
+*Last updated: 2025-11-13T00:30:41.077Z*

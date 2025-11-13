@@ -1,4 +1,9 @@
-﻿# Pallet
+﻿---
+layout : default
+title : Pallet
+parent : Classes
+---
+# Pallet
 
 **Extends:** `DataClass`
 
@@ -196,4 +201,4 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 ---
 
 *Generated from Pallet.4dm*
-*Last updated: 2025-11-12T17:17:31.967Z*
+*Last updated: 2025-11-13T00:30:41.989Z*

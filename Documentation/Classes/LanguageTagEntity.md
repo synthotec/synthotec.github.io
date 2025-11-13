@@ -1,4 +1,9 @@
-﻿# LanguageTagEntity
+﻿---
+layout : default
+title : LanguageTagEntity
+parent : Classes
+---
+# LanguageTagEntity
 
 **Extends:** `Entity`
 
@@ -9,4 +14,4 @@
 ---
 
 *Generated from LanguageTagEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.773Z*
+*Last updated: 2025-11-13T00:30:41.670Z*

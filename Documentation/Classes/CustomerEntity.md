@@ -1,4 +1,9 @@
-﻿# CustomerEntity
+﻿---
+layout : default
+title : CustomerEntity
+parent : Classes
+---
+# CustomerEntity
 
 **Extends:** `Entity`
 
@@ -48,4 +53,4 @@ Function HasMigrationID -> Boolean
 ---
 
 *Generated from CustomerEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.434Z*
+*Last updated: 2025-11-13T00:30:41.067Z*

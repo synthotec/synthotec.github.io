@@ -1,4 +1,9 @@
-﻿# RealTime
+﻿---
+layout : default
+title : RealTime
+parent : Classes
+---
+# RealTime
 
 **Extends:** `DataClass`
 
@@ -106,4 +111,4 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 ---
 
 *Generated from RealTime.4dm*
-*Last updated: 2025-11-12T17:17:32.240Z*
+*Last updated: 2025-11-13T00:30:42.492Z*

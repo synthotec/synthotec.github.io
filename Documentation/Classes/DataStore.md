@@ -1,4 +1,9 @@
-﻿# DataStore
+﻿---
+layout : default
+title : DataStore
+parent : Classes
+---
+# DataStore
 
 **Extends:** `DataStoreImplementation`
 
@@ -238,4 +243,4 @@ Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
 ---
 
 *Generated from DataStore.4dm*
-*Last updated: 2025-11-12T17:17:31.494Z*
+*Last updated: 2025-11-13T00:30:41.146Z*

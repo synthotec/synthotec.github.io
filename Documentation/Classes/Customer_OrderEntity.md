@@ -1,4 +1,9 @@
-﻿# Customer_OrderEntity
+﻿---
+layout : default
+title : Customer_OrderEntity
+parent : Classes
+---
+# Customer_OrderEntity
 
 **Extends:** `Entity`
 
@@ -204,4 +209,4 @@ Function getPickRequestQuantitiesColor -> Integer
 ---
 
 *Generated from Customer_OrderEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.459Z*
+*Last updated: 2025-11-13T00:30:41.107Z*

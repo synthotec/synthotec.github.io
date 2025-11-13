@@ -1,4 +1,9 @@
-﻿# RestPostData
+﻿---
+layout : default
+title : RestPostData
+parent : Classes
+---
+# RestPostData
 
 ## Table of Contents
 
@@ -101,4 +106,4 @@ Function toObject -> Object
 ---
 
 *Generated from RestPostData.4dm*
-*Last updated: 2025-11-12T17:17:32.318Z*
+*Last updated: 2025-11-13T00:30:42.664Z*

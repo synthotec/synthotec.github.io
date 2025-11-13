@@ -1,4 +1,9 @@
-﻿# CollectionObject
+﻿---
+layout : default
+title : CollectionObject
+parent : Classes
+---
+# CollectionObject
 
 ## Table of Contents
 
@@ -132,4 +137,4 @@ Function GetCurrentEntity -> 4D.Entity
 ---
 
 *Generated from CollectionObject.4dm*
-*Last updated: 2025-11-12T17:17:31.419Z*
+*Last updated: 2025-11-13T00:30:41.029Z*

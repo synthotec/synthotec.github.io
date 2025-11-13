@@ -1,4 +1,9 @@
-﻿# WorksOrderEntity
+﻿---
+layout : default
+title : WorksOrderEntity
+parent : Classes
+---
+# WorksOrderEntity
 
 **Extends:** `Entity`
 
@@ -198,4 +203,4 @@ Function ExS1Stock -> Integer
 ---
 
 *Generated from WorksOrderEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.541Z*
+*Last updated: 2025-11-13T00:30:43.216Z*

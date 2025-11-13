@@ -1,4 +1,9 @@
-﻿# PrinterEntity
+﻿---
+layout : default
+title : PrinterEntity
+parent : Classes
+---
+# PrinterEntity
 
 **Extends:** `Entity`
 
@@ -128,4 +133,4 @@ Function TypeDisplay -> Text
 ---
 
 *Generated from PrinterEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.100Z*
+*Last updated: 2025-11-13T00:30:42.202Z*

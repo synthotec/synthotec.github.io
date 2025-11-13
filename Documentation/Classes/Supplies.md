@@ -1,4 +1,9 @@
-﻿# Supplies
+﻿---
+layout : default
+title : Supplies
+parent : Classes
+---
+# Supplies
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from Supplies.4dm*
-*Last updated: 2025-11-12T17:17:32.412Z*
+*Last updated: 2025-11-13T00:30:42.873Z*

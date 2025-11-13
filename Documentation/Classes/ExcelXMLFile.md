@@ -1,8 +1,13 @@
-﻿# ExcelXMLFile
+﻿---
+layout : default
+title : ExcelXMLFile
+parent : Classes
+---
+# ExcelXMLFile
 
 ## Description
 
-SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
+🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
 ## Table of Contents
 
@@ -164,4 +169,4 @@ Function generate
 ---
 
 *Generated from ExcelXMLFile.4dm*
-*Last updated: 2025-11-12T17:17:31.663Z*
+*Last updated: 2025-11-13T00:30:41.449Z*

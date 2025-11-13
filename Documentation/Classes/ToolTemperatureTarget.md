@@ -1,4 +1,9 @@
-﻿# ToolTemperatureTarget
+﻿---
+layout : default
+title : ToolTemperatureTarget
+parent : Classes
+---
+# ToolTemperatureTarget
 
 **Extends:** `DataClass`
 
@@ -38,4 +43,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from ToolTemperatureTarget.4dm*
-*Last updated: 2025-11-12T17:17:32.458Z*
+*Last updated: 2025-11-13T00:30:43.059Z*

@@ -1,4 +1,9 @@
-﻿# CustomerContacts
+﻿---
+layout : default
+title : CustomerContacts
+parent : Classes
+---
+# CustomerContacts
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from CustomerContacts.4dm*
-*Last updated: 2025-11-12T17:17:31.423Z*
+*Last updated: 2025-11-13T00:30:41.044Z*

@@ -1,8 +1,13 @@
-﻿# HTML_Table
+﻿---
+layout : default
+title : HTML_Table
+parent : Classes
+---
+# HTML_Table
 
 ## Description
 
-var $RowObject : Object
+🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
 ## Table of Contents
@@ -71,4 +76,4 @@ Function merge($SkipFirstRow : Boolean; $ColumnsToIgnore : Collection)
 ---
 
 *Generated from HTML_Table.4dm*
-*Last updated: 2025-11-12T17:17:31.771Z*
+*Last updated: 2025-11-13T00:30:41.662Z*

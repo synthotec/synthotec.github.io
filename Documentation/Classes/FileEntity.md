@@ -1,4 +1,9 @@
-﻿# FileEntity
+﻿---
+layout : default
+title : FileEntity
+parent : Classes
+---
+# FileEntity
 
 **Extends:** `Entity`
 
@@ -24,4 +29,4 @@ Function open
 ---
 
 *Generated from FileEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.685Z*
+*Last updated: 2025-11-13T00:30:41.505Z*

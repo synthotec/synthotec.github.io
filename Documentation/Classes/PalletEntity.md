@@ -1,4 +1,9 @@
-﻿# PalletEntity
+﻿---
+layout : default
+title : PalletEntity
+parent : Classes
+---
+# PalletEntity
 
 **Extends:** `Entity`
 
@@ -168,4 +173,4 @@ Function transfer($ToLocation : Integer) -> Boolean
 ---
 
 *Generated from PalletEntity.4dm*
-*Last updated: 2025-11-12T17:17:31.982Z*
+*Last updated: 2025-11-13T00:30:42.012Z*

@@ -1,4 +1,9 @@
-﻿# FormulaSet
+﻿---
+layout : default
+title : FormulaSet
+parent : Classes
+---
+# FormulaSet
 
 ## Table of Contents
 
@@ -67,4 +72,4 @@ Function apply -> Variant
 ---
 
 *Generated from FormulaSet.4dm*
-*Last updated: 2025-11-12T17:17:31.737Z*
+*Last updated: 2025-11-13T00:30:41.587Z*

@@ -1,4 +1,9 @@
-﻿# ProductMaterialOptionsEntity
+﻿---
+layout : default
+title : ProductMaterialOptionsEntity
+parent : Classes
+---
+# ProductMaterialOptionsEntity
 
 **Extends:** `Entity`
 
@@ -48,4 +53,4 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity
 ---
 
 *Generated from ProductMaterialOptionsEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.188Z*
+*Last updated: 2025-11-13T00:30:42.366Z*

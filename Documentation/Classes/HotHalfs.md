@@ -1,4 +1,9 @@
-﻿# HotHalfs
+﻿---
+layout : default
+title : HotHalfs
+parent : Classes
+---
+# HotHalfs
 
 **Extends:** `DataClass`
 
@@ -26,4 +31,4 @@ Function getMigrationSettings -> Object
 ---
 
 *Generated from HotHalfs.4dm*
-*Last updated: 2025-11-12T17:17:31.754Z*
+*Last updated: 2025-11-13T00:30:41.632Z*

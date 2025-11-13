@@ -1,4 +1,9 @@
-﻿# RTSUMSelection
+﻿---
+layout : default
+title : RTSUMSelection
+parent : Classes
+---
+# RTSUMSelection
 
 **Extends:** `EntitySelection`
 
@@ -26,4 +31,4 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 ---
 
 *Generated from RTSUMSelection.4dm*
-*Last updated: 2025-11-12T17:17:32.339Z*
+*Last updated: 2025-11-13T00:30:42.701Z*

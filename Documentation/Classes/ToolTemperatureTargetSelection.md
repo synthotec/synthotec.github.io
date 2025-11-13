@@ -1,4 +1,9 @@
-﻿# ToolTemperatureTargetSelection
+﻿---
+layout : default
+title : ToolTemperatureTargetSelection
+parent : Classes
+---
+# ToolTemperatureTargetSelection
 
 **Extends:** `EntitySelection`
 
@@ -38,4 +43,4 @@ Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) ->
 ---
 
 *Generated from ToolTemperatureTargetSelection.4dm*
-*Last updated: 2025-11-12T17:17:32.470Z*
+*Last updated: 2025-11-13T00:30:43.090Z*

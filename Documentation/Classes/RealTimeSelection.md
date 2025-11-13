@@ -1,4 +1,9 @@
-﻿# RealTimeSelection
+﻿---
+layout : default
+title : RealTimeSelection
+parent : Classes
+---
+# RealTimeSelection
 
 **Extends:** `EntitySelection`
 
@@ -38,4 +43,4 @@ Function getTemperatureSensorZones -> Collection
 ---
 
 *Generated from RealTimeSelection.4dm*
-*Last updated: 2025-11-12T17:17:32.300Z*
+*Last updated: 2025-11-13T00:30:42.616Z*

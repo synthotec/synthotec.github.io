@@ -1,4 +1,9 @@
-﻿# ExcelXMLFileRow
+﻿---
+layout : default
+title : ExcelXMLFileRow
+parent : Classes
+---
+# ExcelXMLFileRow
 
 ## Table of Contents
 
@@ -73,4 +78,4 @@ Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
 ---
 
 *Generated from ExcelXMLFileRow.4dm*
-*Last updated: 2025-11-12T17:17:31.666Z*
+*Last updated: 2025-11-13T00:30:41.461Z*

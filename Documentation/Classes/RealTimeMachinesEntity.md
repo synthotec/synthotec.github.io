@@ -1,4 +1,9 @@
-﻿# RealTimeMachinesEntity
+﻿---
+layout : default
+title : RealTimeMachinesEntity
+parent : Classes
+---
+# RealTimeMachinesEntity
 
 **Extends:** `Entity`
 
@@ -98,4 +103,4 @@ Function AssignedTemperatureSensorsPresent -> Boolean
 ---
 
 *Generated from RealTimeMachinesEntity.4dm*
-*Last updated: 2025-11-12T17:17:32.250Z*
+*Last updated: 2025-11-13T00:30:42.531Z*

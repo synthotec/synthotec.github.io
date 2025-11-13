@@ -1,8 +1,13 @@
-﻿# ClassParameter
+﻿---
+layout : default
+title : ClassParameter
+parent : Classes
+---
+# ClassParameter
 
 ## Description
 
-Stores metadata about a function parameter
+🗨️ Stores metadata about a function parameter
 
 ## Table of Contents
 
@@ -40,4 +45,4 @@ Function toObject -> Object
 ---
 
 *Generated from ClassParameter.4dm*
-*Last updated: 2025-11-12T17:17:31.405Z*
+*Last updated: 2025-11-13T00:30:40.990Z*

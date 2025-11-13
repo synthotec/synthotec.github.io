@@ -1,4 +1,9 @@
-﻿# EntitySelectionMenu
+﻿---
+layout : default
+title : EntitySelectionMenu
+parent : Classes
+---
+# EntitySelectionMenu
 
 ## Table of Contents
 
@@ -87,4 +92,4 @@ Function selectedEntity -> 4D.Entity
 ---
 
 *Generated from EntitySelectionMenu.4dm*
-*Last updated: 2025-11-12T17:17:31.610Z*
+*Last updated: 2025-11-13T00:30:41.330Z*
