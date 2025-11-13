@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T00:47:53.724Z*
+🕐 *Last updated: 2025-11-13T01:17:24.551Z*
 
 ---
 
@@ -149,9 +149,292 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### ProcessColors {#processcolors}
+
+
+```4d
+Function ProcessColors
+```
+
+MARK:Primary Colors
+
+---
+
+#### setPrimaryColors {#setprimarycolors}
+
+
+```4d
+Function setPrimaryColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BackgroundColor` | `Integer` | - | - |
+| `$ForegroundColor` | `Integer` | - | - |
+
+---
+
+#### setAlternatingColors {#setalternatingcolors}
+
+
+```4d
+Function setAlternatingColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BackgroundColor` | `Integer` | - | - |
+| `$ForegroundColor` | `Integer` | - | - |
+
+---
+
+#### setDateTimeColors {#setdatetimecolors}
+
+
+```4d
+Function setDateTimeColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BackgroundColor` | `Integer` | - | - |
+| `$ForegroundColor` | `Integer` | - | - |
+
+---
+
+#### setAlertColors {#setalertcolors}
+
+
+```4d
+Function setAlertColors($BackgroundColor : Integer; $ForegroundColor : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BackgroundColor` | `Integer` | - | - |
+| `$ForegroundColor` | `Integer` | - | - |
+
+---
+
+#### setTimeRemainingText {#settimeremainingtext}
+
+
+```4d
+Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeconds : Real)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Text` | `Text` | - | - |
+| `$DateTime` | `Variant` | - | - |
+| `$AdditionalSeconds` | `Real` | - | - |
+
+---
+
 ### 🔍 Getters
+
+#### SecondaryStatusText {#secondarystatustext}
+ `[🔍 getter]`
+
+```4d
+Function SecondaryStatusText -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### TimeRemainingText {#timeremainingtext}
+ `[🔍 getter]`
+
+```4d
+Function TimeRemainingText -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### DeviceMaintenanceActive {#devicemaintenanceactive}
+ `[🔍 getter]`
+
+```4d
+Function DeviceMaintenanceActive -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### MachineDisconnected {#machinedisconnected}
+ `[🔍 getter]`
+
+```4d
+Function MachineDisconnected -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### MachineRunning {#machinerunning}
+ `[🔍 getter]`
+
+```4d
+Function MachineRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### WorksOrderIsOpen {#worksorderisopen}
+ `[🔍 getter]`
+
+```4d
+Function WorksOrderIsOpen -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### UnacknowledgedSensorExceptions {#unacknowledgedsensorexceptions}
+ `[🔍 getter]`
+
+```4d
+Function UnacknowledgedSensorExceptions -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### PrimaryStatusText {#primarystatustext}
+ `[🔍 getter]`
+
+```4d
+Function PrimaryStatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ScrapText {#scraptext}
+ `[🔍 getter]`
+
+```4d
+Function ScrapText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### PartsMadeText {#partsmadetext}
+ `[🔍 getter]`
+
+```4d
+Function PartsMadeText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### AlertsText {#alertstext}
+ `[🔍 getter]`
+
+```4d
+Function AlertsText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### PercentMade {#percentmade}
+ `[🔍 getter]`
+
+```4d
+Function PercentMade -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### MouldStatusText {#mouldstatustext}
+ `[🔍 getter]`
+
+```4d
+Function MouldStatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### MachineNumberText {#machinenumbertext}
+ `[🔍 getter]`
+
+```4d
+Function MachineNumberText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### PartNameText {#partnametext}
+ `[🔍 getter]`
+
+```4d
+Function PartNameText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### UnicodeSymbolsText {#unicodesymbolstext}
+ `[🔍 getter]`
+
+```4d
+Function UnicodeSymbolsText -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

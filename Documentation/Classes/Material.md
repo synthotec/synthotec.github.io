@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.816Z*
+🕐 *Last updated: 2025-11-13T01:17:23.530Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

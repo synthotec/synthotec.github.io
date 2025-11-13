@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.789Z*
+🕐 *Last updated: 2025-11-13T01:17:23.496Z*
 
 ---
 
@@ -29,6 +29,74 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getUsingScanner {#getusingscanner}
+
+
+```4d
+Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ScannerObject` | `Object` | - | - |
+
+**Returns:** `cs.LocationEntity`
+
+---
+
+#### newLocation {#newlocation}
+ `[🖥️ local]`
+
+```4d
+Function newLocation($ParentLocationEntity : cs.LocationEntity) -> cs.LocationEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ParentLocationEntity` | `cs.LocationEntity` | - | - |
+
+**Returns:** `cs.LocationEntity`
+
+---
+
+#### restClearStockLocation {#restclearstocklocation}
+
+
+```4d
+Function restClearStockLocation($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### restSetStockLocation {#restsetstocklocation}
+
+
+```4d
+Function restSetStockLocation($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
 
 ---
 

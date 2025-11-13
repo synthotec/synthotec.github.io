@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T00:47:53.752Z*
+🕐 *Last updated: 2025-11-13T01:17:24.588Z*
 
 ---
 
@@ -26,6 +26,15 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### acknowledge {#acknowledge}
+ `[🖥️ local]`
+
+```4d
+Function acknowledge
+```
+
+---
 
 ---
 

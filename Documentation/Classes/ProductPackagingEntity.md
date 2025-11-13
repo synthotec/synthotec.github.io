@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.524Z*
+🕐 *Last updated: 2025-11-13T01:17:24.332Z*
 
 ---
 
@@ -27,6 +27,38 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationRules {#getmigrationrules}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.ProductPackagingEntity) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.ProductPackagingEntity` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### syncMigrationSelections {#syncmigrationselections}
+ `[🖥️ local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.ProductPackagingEntity` | - | - |
+
+---
 
 ---
 

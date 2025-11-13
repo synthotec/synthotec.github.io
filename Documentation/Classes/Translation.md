@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:54.219Z*
+🕐 *Last updated: 2025-11-13T01:17:25.109Z*
 
 ---
 
@@ -35,7 +35,86 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### pushProcess {#pushprocess}
+ `[🖥️ local]`
+
+```4d
+Function pushProcess($Process : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Process` | `Text` | - | - |
+
+---
+
+#### popProcess {#popprocess}
+ `[🖥️ local]`
+
+```4d
+Function popProcess
+```
+
+---
+
+#### translate {#translate}
+ `[🖥️ local]`
+
+```4d
+Function translate($Text : Text; $TranslationProcess : Text) -> Text
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Text` | `Text` | - | - |
+| `$TranslationProcess` | `Text` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### translateFormObjects {#translateformobjects}
+ `[🖥️ local]`
+
+```4d
+Function translateFormObjects($TranslationProcess : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$TranslationProcess` | `Text` | - | - |
+
+---
+
 ### 🔍 Getters
+
+#### CurrentProcess {#currentprocess}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function CurrentProcess -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### _TranslationProcessCollection {#_translationprocesscollection}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function _TranslationProcessCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
 
 ---
 

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:52.596Z*
+🕐 *Last updated: 2025-11-13T01:17:23.273Z*
 
 ---
 
@@ -132,7 +132,89 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### ⚙️ Regular Functions
+
+#### setFontStyle {#setfontstyle}
+
+
+```4d
+Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integer; $Bold : Boolean) -> cs.ExcelXMLFileStyle
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Name` | `Text` | - | - |
+| `$Family` | `Text` | - | - |
+| `$Size` | `Real` | - | - |
+| `$Color` | `Integer` | - | - |
+| `$Bold` | `Boolean` | - | - |
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+#### setInteriorColor {#setinteriorcolor}
+
+
+```4d
+Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Color` | `Integer` | - | - |
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+#### setNumberFormat {#setnumberformat}
+
+
+```4d
+Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$NumberFormat` | `Text` | - | - |
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
+
+#### setAlignment {#setalignment}
+
+
+```4d
+Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileStyle
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Horizontal` | `Text` | - | - |
+| `$Vertical` | `Text` | - | - |
+
+**Returns:** `cs.ExcelXMLFileStyle`
+
+---
 
 ---
 

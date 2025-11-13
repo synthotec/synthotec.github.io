@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.621Z*
+🕐 *Last updated: 2025-11-13T01:17:24.436Z*
 
 ---
 
@@ -33,7 +33,53 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getTemperatureSensors {#gettemperaturesensors}
+ `[🖥️ local]`
+
+```4d
+Function getTemperatureSensors -> Collection
+```
+
+Returns a collection of cs.RealTimeTemperatureSensor
+
+**Returns:** `Collection`
+
+---
+
 ### 🔍 Getters
+
+#### MouldOpenTime {#mouldopentime}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function MouldOpenTime -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### StartTime {#starttime}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function StartTime -> Time
+```
+
+**Returns:** `Time`
+
+---
+
+#### EndDateTime {#enddatetime}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function EndDateTime -> cs.System.DateTime
+```
+
+**Returns:** `cs.System.DateTime`
+
+---
 
 ---
 

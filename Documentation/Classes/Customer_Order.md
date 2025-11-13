@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.156Z*
+🕐 *Last updated: 2025-11-13T01:17:22.655Z*
 
 ---
 
@@ -27,6 +27,40 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### classicMakeOrderSort {#classicmakeordersort}
+ `[🖥️ local]`
+
+```4d
+Function classicMakeOrderSort($ProductEntity : cs.ProductEntity)
+```
+
+ORDER BY([Customer_Order]; [Customer_Order]Forecast; >; *)
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ProductEntity` | `cs.ProductEntity` | - | - |
+
+---
+
+#### classicOrderOverviewSort {#classicorderoverviewsort}
+ `[🖥️ local]`
+
+```4d
+Function classicOrderOverviewSort($ProductEntity : cs.ProductEntity)
+```
+
+ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecast; <; *)
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ProductEntity` | `cs.ProductEntity` | - | - |
+
+---
 
 ---
 

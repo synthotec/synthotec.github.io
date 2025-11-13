@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.806Z*
+🕐 *Last updated: 2025-11-13T01:17:23.515Z*
 
 ---
 
@@ -39,7 +39,132 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### CheckRelated {#checkrelated}
+ `[🖥️ local]`
+
+```4d
+Function CheckRelated($LocationID : Text) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$LocationID` | `Text` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### printQRSheet {#printqrsheet}
+ `[🖥️ local]`
+
+```4d
+Function printQRSheet($PageSize : Text; $ShowPrintSettings : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PageSize` | `Text` | - | - |
+| `$ShowPrintSettings` | `Boolean` | - | - |
+
+---
+
+#### printLabel {#printlabel}
+ `[🖥️ local]`
+
+```4d
+Function printLabel($ShowPrintSettings : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ShowPrintSettings` | `Boolean` | - | - |
+
+---
+
+#### generateQR {#generateqr}
+ `[🖥️ local]`
+
+```4d
+Function generateQR -> Picture
+```
+
+**Returns:** `Picture`
+
+---
+
+#### getStockListboxCollection {#getstocklistboxcollection}
+ `[🖥️ local]`
+
+```4d
+Function getStockListboxCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
 ### 🔍 Getters
+
+#### SortOrder {#sortorder}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function SortOrder -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ListBoxDisplayName {#listboxdisplayname}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function ListBoxDisplayName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### DisplayName {#displayname}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DisplayName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ListboxMetaExpression {#listboxmetaexpression}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function ListboxMetaExpression -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### Level {#level}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function Level -> Integer
+```
+
+**Returns:** `Integer`
+
+---
 
 ---
 

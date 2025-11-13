@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:54.106Z*
+🕐 *Last updated: 2025-11-13T01:17:24.984Z*
 
 ---
 
@@ -26,6 +26,23 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### create {#create}
+ `[🖥️ local]`
+
+```4d
+Function create($ToolsEntity : cs.ToolsEntity) -> cs.ToolNoticeEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ToolsEntity` | `cs.ToolsEntity` | - | - |
+
+**Returns:** `cs.ToolNoticeEntity`
+
+---
 
 ---
 

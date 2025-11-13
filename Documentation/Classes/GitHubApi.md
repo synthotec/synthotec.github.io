@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:52.712Z*
+🕐 *Last updated: 2025-11-13T01:17:23.408Z*
 
 ---
 
@@ -32,7 +32,87 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### ⚙️ Regular Functions
+
+#### newHttpRequest {#newhttprequest}
+
+
+```4d
+Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTPRequest
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Url` | `Text` | - | - |
+| `$Method` | `Text` | - | - |
+| `$Body` | `Variant` | - | - |
+
+**Returns:** `4D.HTTPRequest`
+
+---
+
+#### createIssue {#createissue}
+
+
+```4d
+Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Title` | `Text` | - | - |
+| `$Body` | `Text` | - | - |
+| `$Labels` | `Collection` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### getIssues {#getissues}
+
+
+```4d
+Function getIssues($Label : Text) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Label` | `Text` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### onError {#onerror}
+
+
+```4d
+Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$HttpRequest` | `4D.HTTPRequest` | - | - |
+| `$Event` | `Object` | - | - |
+
+---
 
 ---
 

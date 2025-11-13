@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.520Z*
+🕐 *Last updated: 2025-11-13T01:17:24.328Z*
 
 ---
 
@@ -28,6 +28,35 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### queueCustomerPackagingUpdate {#queuecustomerpackagingupdate}
+
+
+```4d
+Function queueCustomerPackagingUpdate
+```
+
+---
+
+#### generateCustomerPackaging {#generatecustomerpackaging}
+
+
+```4d
+Function generateCustomerPackaging
+```
+
+---
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.929Z*
+🕐 *Last updated: 2025-11-13T01:17:23.673Z*
 
 ---
 
@@ -27,6 +27,34 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getLatest {#getlatest}
+
+
+```4d
+Function getLatest($ProductID : Integer) -> cs.PackingInstructionFilesEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ProductID` | `Integer` | - | - |
+
+**Returns:** `cs.PackingInstructionFilesEntity`
+
+---
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.530Z*
+🕐 *Last updated: 2025-11-13T01:17:23.164Z*
 
 ---
 
@@ -27,6 +27,26 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### sendEmailReport {#sendemailreport}
+
+
+```4d
+Function sendEmailReport
+```
+
+---
+
+#### sendSlackReport {#sendslackreport}
+
+
+```4d
+Function sendSlackReport -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

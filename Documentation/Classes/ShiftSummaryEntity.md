@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.855Z*
+🕐 *Last updated: 2025-11-13T01:17:24.703Z*
 
 ---
 
@@ -32,7 +32,40 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getPreviousShiftSummaryEntity {#getpreviousshiftsummaryentity}
+ `[🖥️ local]`
+
+```4d
+Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
+```
+
+**Returns:** `cs.ShiftSummaryEntity`
+
+---
+
 ### 🔍 Getters
+
+#### ShiftSymbol {#shiftsymbol}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function ShiftSymbol -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ShiftColor {#shiftcolor}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function ShiftColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
 
 ---
 

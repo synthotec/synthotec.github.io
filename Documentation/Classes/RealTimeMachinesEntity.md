@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.631Z*
+🕐 *Last updated: 2025-11-13T01:17:24.447Z*
 
 ---
 
@@ -36,7 +36,90 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### checkTempZoneExists {#checktempzoneexists}
+
+
+```4d
+Function checkTempZoneExists($Zone : Integer) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Zone` | `Integer` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
 ### 🔍 Getters
+
+#### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
+ `[🔍 getter]`
+
+```4d
+Function TemperatureSensorsInstalled -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### WorksOrderEntity {#worksorderentity}
+ `[🔍 getter]`
+
+```4d
+Function WorksOrderEntity -> cs.WorksOrderEntity
+```
+
+**Returns:** `cs.WorksOrderEntity`
+
+---
+
+#### WorksOrder {#worksorder}
+ `[🔍 getter]`
+
+```4d
+Function WorksOrder -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Changing {#changing}
+ `[🔍 getter]`
+
+```4d
+Function Changing -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### UniChar {#unichar}
+ `[🔍 getter]`
+
+```4d
+Function UniChar -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### AssignedTemperatureSensorsPresent {#assignedtemperaturesensorspresent}
+ `[🔍 getter]`
+
+```4d
+Function AssignedTemperatureSensorsPresent -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

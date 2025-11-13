@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.915Z*
+🕐 *Last updated: 2025-11-13T01:17:23.659Z*
 
 ---
 
@@ -43,9 +43,152 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### query Parts {#query parts}
+ `[🖥️ local]`
+
+```4d
+Function query Parts($QueryEventObject : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$QueryEventObject` | `Object` | - | - |
+
+---
+
+#### getPickedStockListboxCollection {#getpickedstocklistboxcollection}
+ `[🖥️ local]`
+
+```4d
+Function getPickedStockListboxCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
 ### 🔍 Getters
 
+#### QuantityPicked {#quantitypicked}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function QuantityPicked -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### QuantityToPick {#quantitytopick}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function QuantityToPick -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### BoxesPerPallet {#boxesperpallet}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function BoxesPerPallet -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Pallets {#pallets}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function Pallets -> Real
+```
+
+MARK:Pallets
+
+**Returns:** `Real`
+
+---
+
+#### Boxes {#boxes}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function Boxes -> Real
+```
+
+MARK:Boxes
+
+**Returns:** `Real`
+
+---
+
+#### Parts {#parts}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function Parts -> Integer
+```
+
+MARK: Parts
+
+**Returns:** `Integer`
+
+---
+
 ### ✏️ Setters
+
+#### Pallets {#pallets}
+ `[🖥️ local, ✏️ setter]`
+
+```4d
+Function Pallets($Pallets : Real)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Pallets` | `Real` | - | - |
+
+---
+
+#### Boxes {#boxes}
+ `[🖥️ local, ✏️ setter]`
+
+```4d
+Function Boxes($Boxes : Real)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Boxes` | `Real` | - | - |
+
+---
+
+#### Parts {#parts}
+ `[🖥️ local, ✏️ setter]`
+
+```4d
+Function Parts($Parts : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Parts` | `Integer` | - | - |
+
+---
 
 ---
 

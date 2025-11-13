@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:52.768Z*
+🕐 *Last updated: 2025-11-13T01:17:23.465Z*
 
 ---
 
@@ -30,7 +30,48 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($LoadingText : Text; $LoadingProgress : Real)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$LoadingText` | `Text` | - | - |
+| `$LoadingProgress` | `Real` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### stop {#stop}
+
+
+```4d
+Function stop
+```
+
+---
+
+#### update {#update}
+
+
+```4d
+Function update($LoadingText : Text; $LoadingProgress : Real)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$LoadingText` | `Text` | - | - |
+| `$LoadingProgress` | `Real` | - | - |
+
+---
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T00:47:52.582Z*
+🕐 *Last updated: 2025-11-13T01:17:23.249Z*
 
 ---
 
@@ -119,7 +119,120 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### ⚙️ Regular Functions
+
+#### addSelectionBasedListbox {#addselectionbasedlistbox}
+
+
+```4d
+Function addSelectionBasedListbox($ListboxName : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ListboxName` | `Text` | - | - |
+
+---
+
+#### setFreezePanes {#setfreezepanes}
+
+
+```4d
+Function setFreezePanes($RowsAbove : Integer; $RowsToLeft : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RowsAbove` | `Integer` | - | - |
+| `$RowsToLeft` | `Integer` | - | - |
+
+---
+
+#### addColumn {#addcolumn}
+
+
+```4d
+Function addColumn($Width : Real; $Span : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Width` | `Real` | - | - |
+| `$Span` | `Integer` | - | - |
+
+---
+
+#### addRow {#addrow}
+
+
+```4d
+Function addRow($ExcelXMLFileRow : cs.ExcelXMLFileRow)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ExcelXMLFileRow` | `cs.ExcelXMLFileRow` | - | - |
+
+---
+
+#### addStyle {#addstyle}
+
+
+```4d
+Function addStyle($NewExcelXMLFileStyle : cs.ExcelXMLFileStyle) -> Text
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$NewExcelXMLFileStyle` | `cs.ExcelXMLFileStyle` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### saveToClipboard {#savetoclipboard}
+
+
+```4d
+Function saveToClipboard($FileNameWithoutExtension : Text; $ShowAlert : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FileNameWithoutExtension` | `Text` | - | - |
+| `$ShowAlert` | `Boolean` | - | - |
+
+---
+
+#### generate {#generate}
+
+
+```4d
+Function generate
+```
+
+---
 
 ---
 

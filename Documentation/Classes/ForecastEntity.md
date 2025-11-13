@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.643Z*
+🕐 *Last updated: 2025-11-13T01:17:23.330Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### 🔍 Getters
+
+#### Consignment {#consignment}
+ `[🔍 getter]`
+
+```4d
+Function Consignment -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

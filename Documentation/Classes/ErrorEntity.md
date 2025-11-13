@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.515Z*
+🕐 *Last updated: 2025-11-13T01:17:23.137Z*
 
 ---
 
@@ -36,7 +36,82 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### createGitHubIssue {#creategithubissue}
+
+
+```4d
+Function createGitHubIssue
+```
+
+---
+
 ### 🔍 Getters
+
+#### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
+ `[🔍 getter]`
+
+```4d
+Function ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
+```
+
+**Returns:** `cs.UI.ListBoxMeta`
+
+---
+
+#### GitHubIssueText {#githubissuetext}
+ `[🔍 getter]`
+
+```4d
+Function GitHubIssueText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### GitHubIssueLabel {#githubissuelabel}
+ `[🔍 getter]`
+
+```4d
+Function GitHubIssueLabel -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### GitHubIssueTitle {#githubissuetitle}
+ `[🔍 getter]`
+
+```4d
+Function GitHubIssueTitle -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### FirstOccurrence {#firstoccurrence}
+ `[🔍 getter]`
+
+```4d
+Function FirstOccurrence -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### LastOccurrence {#lastoccurrence}
+ `[🔍 getter]`
+
+```4d
+Function LastOccurrence -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

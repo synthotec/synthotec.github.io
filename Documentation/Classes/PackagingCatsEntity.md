@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.926Z*
+🕐 *Last updated: 2025-11-13T01:17:23.669Z*
 
 ---
 
@@ -27,6 +27,40 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationRules {#getmigrationrules}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.PackagingCatsEntity) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.PackagingCatsEntity` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### syncMigrationSelections {#syncmigrationselections}
+ `[🖥️ local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.PackagingCatsEntity)
+```
+
+var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.SuppliesSelection)
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.PackagingCatsEntity` | - | - |
+
+---
 
 ---
 

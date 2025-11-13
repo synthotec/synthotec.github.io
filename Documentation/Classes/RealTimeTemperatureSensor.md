@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T00:47:53.761Z*
+🕐 *Last updated: 2025-11-13T01:17:24.595Z*
 
 ---
 
@@ -82,7 +82,45 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObject : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
+| `$TemperatureSensorObject` | `Object` | - | - |
+
+---
+
 ### 🔍 Getters
+
+#### ZoneName {#zonename}
+ `[🔍 getter]`
+
+```4d
+Function ZoneName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### InRange {#inrange}
+ `[🔍 getter]`
+
+```4d
+Function InRange -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

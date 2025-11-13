@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.548Z*
+🕐 *Last updated: 2025-11-13T01:17:24.355Z*
 
 ---
 
@@ -32,7 +32,40 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### createReceipt {#createreceipt}
+ `[🖥️ local]`
+
+```4d
+Function createReceipt -> cs.PurchaseReceiptsEntity
+```
+
+**Returns:** `cs.PurchaseReceiptsEntity`
+
+---
+
 ### 🔍 Getters
+
+#### OutstandingQuantity {#outstandingquantity}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function OutstandingQuantity -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### value {#value}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function value -> Real
+```
+
+**Returns:** `Real`
+
+---
 
 ---
 

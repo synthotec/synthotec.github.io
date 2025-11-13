@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T00:47:52.095Z*
+🕐 *Last updated: 2025-11-13T01:17:22.581Z*
 
 ---
 
@@ -155,7 +155,221 @@ List of changes detected
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($File : 4D.File)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$File` | `4D.File` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### _parse {#_parse}
+
+
+```4d
+Function _parse
+```
+
+Main parsing function - processes the entire class file
+
+---
+
+#### _extractInlineComment {#_extractinlinecomment}
+
+
+```4d
+Function _extractInlineComment($Line : Text) -> Text
+```
+
+Extract inline comment from a line (everything after //)
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Line` | `Text` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### _removeInlineComment {#_removeinlinecomment}
+
+
+```4d
+Function _removeInlineComment($Line : Text) -> Text
+```
+
+Remove inline comment from a line
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Line` | `Text` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### _extractParameterComments {#_extractparametercomments}
+
+
+```4d
+Function _extractParameterComments($Lines : Collection; $FuncStartIdx : Integer) -> Object
+```
+
+Extract parameter comments from lines following function declaration
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Lines` | `Collection` | - | - |
+| `$FuncStartIdx` | `Integer` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### _loadExistingJSON {#_loadexistingjson}
+
+
+```4d
+Function _loadExistingJSON
+```
+
+Load existing JSON file to preserve comments
+
+---
+
+#### _mergeExistingPropertyComment {#_mergeexistingpropertycomment}
+
+
+```4d
+Function _mergeExistingPropertyComment($Prop : Object)
+```
+
+Merge existing property comment if available
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Prop` | `Object` | - | - |
+
+---
+
+#### _mergeExistingClassComment {#_mergeexistingclasscomment}
+
+
+```4d
+Function _mergeExistingClassComment
+```
+
+Merge existing class comment if available
+
+---
+
+#### _mergeExistingFunctionComment {#_mergeexistingfunctioncomment}
+
+
+```4d
+Function _mergeExistingFunctionComment($Func : Object)
+```
+
+Merge existing function comment if available
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Func` | `Object` | - | - |
+
+---
+
+#### _mergeExistingParameterComment {#_mergeexistingparametercomment}
+
+
+```4d
+Function _mergeExistingParameterComment($Param : Object; $FunctionName : Text)
+```
+
+Merge existing parameter comment if available
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Param` | `Object` | - | - |
+| `$FunctionName` | `Text` | - | - |
+
+---
+
+#### _recordChange {#_recordchange}
+
+
+```4d
+Function _recordChange($ChangeDescription : Text)
+```
+
+Record a change
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ChangeDescription` | `Text` | - | - |
+
+---
+
+#### toObject {#toobject}
+
+
+```4d
+Function toObject -> Object
+```
+
+Export to JSON object
+
+**Returns:** `Object`
+
+---
+
+#### toJSON {#tojson}
+
+
+```4d
+Function toJSON -> Text
+```
+
+Export to JSON string
+
+**Returns:** `Text`
+
+---
+
+#### saveToFile {#savetofile}
+
+
+```4d
+Function saveToFile -> 4D.File
+```
+
+Save JSON to file in Documentation\json\Classes folder
+
+**Returns:** `4D.File`
+
+---
 
 ---
 

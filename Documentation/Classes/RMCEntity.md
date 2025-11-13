@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.782Z*
+🕐 *Last updated: 2025-11-13T01:17:24.624Z*
 
 ---
 
@@ -27,6 +27,24 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### delete {#delete}
+ `[🖥️ local]`
+
+```4d
+Function delete
+```
+
+---
+
+#### requestCertificate {#requestcertificate}
+ `[🖥️ local]`
+
+```4d
+Function requestCertificate
+```
+
+---
 
 ---
 

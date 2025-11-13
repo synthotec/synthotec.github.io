@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:54.167Z*
+🕐 *Last updated: 2025-11-13T01:17:25.051Z*
 
 ---
 
@@ -32,7 +32,54 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getMigrationRules {#getmigrationrules}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.ToolsEntity) -> Collection
+```
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.ToolsEntity` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### syncMigrationSelections {#syncmigrationselections}
+ `[🖥️ local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.ToolsEntity)
+```
+
+return
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.ToolsEntity` | - | - |
+
+---
+
 ### 🔍 Getters
+
+#### NextToolChangeText {#nexttoolchangetext}
+ `[🔍 getter]`
+
+```4d
+Function NextToolChangeText -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

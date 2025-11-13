@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:54.172Z*
+🕐 *Last updated: 2025-11-13T01:17:25.061Z*
 
 ---
 
@@ -27,6 +27,34 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getByWorksOrder {#getbyworksorder}
+
+
+```4d
+Function getByWorksOrder($WorksOrder : Integer) -> cs.ToolTemperatureTargetSelection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$WorksOrder` | `Integer` | - | - |
+
+**Returns:** `cs.ToolTemperatureTargetSelection`
+
+---
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.318Z*
+🕐 *Last updated: 2025-11-13T01:17:24.101Z*
 
 ---
 
@@ -28,6 +28,47 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getDefault {#getdefault}
+ `[🖥️ local]`
+
+```4d
+Function getDefault($PrinterType : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PrinterType` | `Integer` | - | - |
+
+---
+
+#### populate {#populate}
+ `[🖥️ local]`
+
+```4d
+Function populate
+```
+
+---
+
+#### getComputerPrinters {#getcomputerprinters}
+ `[🖥️ local]`
+
+```4d
+Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ActivePrintersOnly` | `Boolean` | - | - |
+
+**Returns:** `cs.PrinterSelection`
+
+---
 
 ---
 

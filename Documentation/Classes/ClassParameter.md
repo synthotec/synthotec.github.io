@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T00:47:52.100Z*
+🕐 *Last updated: 2025-11-13T01:17:22.587Z*
 
 ---
 
@@ -33,7 +33,36 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($Name : Text; $Type : Text)
+```
+
+Stores metadata about a function parameter
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Name` | `Text` | - | - |
+| `$Type` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### toObject {#toobject}
+
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

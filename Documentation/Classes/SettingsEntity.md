@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.832Z*
+🕐 *Last updated: 2025-11-13T01:17:24.675Z*
 
 ---
 
@@ -30,6 +30,85 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### setValue {#setvalue}
+ `[🖥️ local]`
+
+```4d
+Function setValue($Value : Variant) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Value` | `Variant` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### setObject {#setobject}
+ `[🖥️ local]`
+
+```4d
+Function setObject($Object : Object) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Object` | `Object` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### getValue {#getvalue}
+ `[🖥️ local]`
+
+```4d
+Function getValue($DefaultValue : Variant) -> Variant
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$DefaultValue` | `Variant` | - | - |
+
+**Returns:** `Variant`
+
+---
+
+#### getObject {#getobject}
+ `[🖥️ local]`
+
+```4d
+Function getObject($DefaultValue : Variant) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$DefaultValue` | `Variant` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### reset {#reset}
+ `[🖥️ local]`
+
+```4d
+Function reset -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

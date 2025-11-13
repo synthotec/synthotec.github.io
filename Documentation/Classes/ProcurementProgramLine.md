@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T00:47:53.452Z*
+🕐 *Last updated: 2025-11-13T01:17:24.249Z*
 
 ---
 
@@ -220,9 +220,322 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram : cs.ProcurementProgram)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$TextLineOrCustomer_OrderEntity` | `Variant` | - | - |
+| `$ProcurementProgram` | `cs.ProcurementProgram` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### setDefaultActions {#setdefaultactions}
+
+
+```4d
+Function setDefaultActions
+```
+
+---
+
+#### newFromText {#newfromtext}
+
+
+```4d
+Function newFromText($Line : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Line` | `Text` | - | - |
+
+---
+
+#### newFromCustomerOrder {#newfromcustomerorder}
+
+
+```4d
+Function newFromCustomerOrder($Customer_OrderEntity : cs.Customer_OrderEntity)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Customer_OrderEntity` | `cs.Customer_OrderEntity` | - | - |
+
+---
+
+#### getWarehouseWithCustomerCode {#getwarehousewithcustomercode}
+
+
+```4d
+Function getWarehouseWithCustomerCode -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### setAction {#setaction}
+
+
+```4d
+Function setAction
+```
+
+---
+
+#### _setActions {#_setactions}
+
+
+```4d
+Function _setActions($ActiveActionProperty : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ActiveActionProperty` | `Text` | - | - |
+
+---
+
+#### _copyItemNumber {#_copyitemnumber}
+
+
+```4d
+Function _copyItemNumber
+```
+
+---
+
+#### _setActionIgnore {#_setactionignore}
+
+
+```4d
+Function _setActionIgnore($IgnoreForAllOrders : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$IgnoreForAllOrders` | `Boolean` | - | - |
+
+---
+
+#### process {#process}
+
+
+```4d
+Function process
+```
+
+---
+
+#### _setNewCustomer_OrderEntity {#_setnewcustomer_orderentity}
+
+
+```4d
+Function _setNewCustomer_OrderEntity -> cs.Customer_OrderEntity
+```
+
+**Returns:** `cs.Customer_OrderEntity`
+
+---
+
+#### process_CreateForecast {#process_createforecast}
+
+
+```4d
+Function process_CreateForecast
+```
+
+---
+
+#### process_CreateOrder {#process_createorder}
+
+
+```4d
+Function process_CreateOrder
+```
+
+---
+
+#### process_UpdateOrder {#process_updateorder}
+
+
+```4d
+Function process_UpdateOrder
+```
+
+---
+
+#### process_CloseOrder {#process_closeorder}
+
+
+```4d
+Function process_CloseOrder
+```
+
+---
+
 ### 🔍 Getters
+
+#### IsActionSet {#isactionset}
+ `[🔍 getter]`
+
+```4d
+Function IsActionSet -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsBacklog {#isbacklog}
+ `[🔍 getter]`
+
+```4d
+Function IsBacklog -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsForecast {#isforecast}
+ `[🔍 getter]`
+
+```4d
+Function IsForecast -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsItemMissing {#isitemmissing}
+ `[🔍 getter]`
+
+```4d
+Function IsItemMissing -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsNewOrder {#isneworder}
+ `[🔍 getter]`
+
+```4d
+Function IsNewOrder -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsExistingOrder {#isexistingorder}
+ `[🔍 getter]`
+
+```4d
+Function IsExistingOrder -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsExistingOrderModified {#isexistingordermodified}
+ `[🔍 getter]`
+
+```4d
+Function IsExistingOrderModified -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### WeekNumberText {#weeknumbertext}
+ `[🔍 getter]`
+
+```4d
+Function WeekNumberText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### OrderBatchNumber {#orderbatchnumber}
+ `[🔍 getter]`
+
+```4d
+Function OrderBatchNumber -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### OurPartName {#ourpartname}
+ `[🔍 getter]`
+
+```4d
+Function OurPartName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### Meta->$Meta {#meta->$meta}
+ `[🔍 getter]`
+
+```4d
+Function Meta->$Meta -> cs.UI.ListBoxMeta
+```
+
+**Returns:** `cs.UI.ListBoxMeta`
+
+---
+
+#### StatusText->$StatusText {#statustext->$statustext}
+ `[🔍 getter]`
+
+```4d
+Function StatusText->$StatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ActionText->$ActionText {#actiontext->$actiontext}
+ `[🔍 getter]`
+
+```4d
+Function ActionText->$ActionText -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

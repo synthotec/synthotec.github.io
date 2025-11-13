@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.460Z*
+🕐 *Last updated: 2025-11-13T01:17:24.257Z*
 
 ---
 
@@ -27,6 +27,26 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### populateEmojis {#populateemojis}
+ `[🖥️ local]`
+
+```4d
+Function populateEmojis
+```
+
+---
 
 ---
 

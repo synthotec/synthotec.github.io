@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-13T00:47:54.332Z*
+🕐 *Last updated: 2025-11-13T01:17:25.283Z*
 
 ---
 
@@ -83,7 +83,49 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### 🔍 Getters
+
+#### TestFormulaText {#testformulatext}
+ `[🔍 getter]`
+
+```4d
+Function TestFormulaText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### TestFormulaParametersText->$TestFormulaParametersText {#testformulaparameterstext->$testformulaparameterstext}
+ `[🔍 getter]`
+
+```4d
+Function TestFormulaParametersText->$TestFormulaParametersText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### StatusEmoji {#statusemoji}
+ `[🔍 getter]`
+
+```4d
+Function StatusEmoji -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

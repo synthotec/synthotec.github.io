@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:53.815Z*
+🕐 *Last updated: 2025-11-13T01:17:24.656Z*
 
 ---
 
@@ -58,7 +58,48 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$EntitySelectionCollection` | `Collection` | - | - |
+| `$UnlockOnError` | `Boolean` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### displayAlert {#displayalert}
+
+
+```4d
+Function displayAlert($Unlock : Boolean; $DisplayForAllEntities : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Unlock` | `Boolean` | - | - |
+| `$DisplayForAllEntities` | `Boolean` | - | - |
+
+---
+
+#### unlock {#unlock}
+
+
+```4d
+Function unlock
+```
+
+---
 
 ---
 

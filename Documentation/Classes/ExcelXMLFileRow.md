@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:52.586Z*
+🕐 *Last updated: 2025-11-13T01:17:23.255Z*
 
 ---
 
@@ -81,7 +81,34 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### ⚙️ Regular Functions
+
+#### addCell {#addcell}
+
+
+```4d
+Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Value` | `Text` | - | - |
+| `$Type` | `Text` | - | - |
+| `$StyleID` | `Text` | - | - |
+| `$Formula` | `Text` | - | - |
+
+---
 
 ---
 

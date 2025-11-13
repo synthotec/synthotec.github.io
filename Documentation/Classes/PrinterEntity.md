@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.344Z*
+🕐 *Last updated: 2025-11-13T01:17:24.125Z*
 
 ---
 
@@ -39,7 +39,111 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getLabelPaperOptions {#getlabelpaperoptions}
+
+
+```4d
+Function getLabelPaperOptions -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+#### updateOptions {#updateoptions}
+ `[🖥️ local]`
+
+```4d
+Function updateOptions
+```
+
+---
+
+#### printJobs {#printjobs}
+ `[🖥️ local]`
+
+```4d
+Function printJobs
+```
+
+---
+
+#### setCurrent {#setcurrent}
+ `[🖥️ local]`
+
+```4d
+Function setCurrent -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### setDefault {#setdefault}
+ `[🖥️ local]`
+
+```4d
+Function setDefault
+```
+
+---
+
 ### 🔍 Getters
+
+#### LabelPrinter {#labelprinter}
+ `[🔍 getter]`
+
+```4d
+Function LabelPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### LabelPaperName {#labelpapername}
+ `[🔍 getter]`
+
+```4d
+Function LabelPaperName -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### isLabelPrinter {#islabelprinter}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function isLabelPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### isDocumentPrinter {#isdocumentprinter}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function isDocumentPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### TypeDisplay {#typedisplay}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function TypeDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

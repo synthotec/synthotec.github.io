@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:52.126Z*
+🕐 *Last updated: 2025-11-13T01:17:22.616Z*
 
 ---
 
@@ -38,7 +38,155 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($valuesCollection : Collection; $placeHolderText : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$valuesCollection` | `Collection` | - | - |
+| `$placeHolderText` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### CollectionObject {#collectionobject}
+
+
+```4d
+Function CollectionObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### SetIndex {#setindex}
+
+
+```4d
+Function SetIndex($index : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$index` | `Integer` | - | - |
+
+---
+
+#### GetIndex {#getindex}
+
+
+```4d
+Function GetIndex -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### SetPlaceholder {#setplaceholder}
+
+
+```4d
+Function SetPlaceholder($placeHolderText : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$placeHolderText` | `Text` | - | - |
+
+---
+
+#### AppendValue {#appendvalue}
+
+
+```4d
+Function AppendValue($value : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$value` | `Variant` | - | - |
+
+---
+
+#### AppendValueWithPrimaryKey {#appendvaluewithprimarykey}
+
+
+```4d
+Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$value` | `Variant` | - | - |
+| `$primaryKey` | `Integer` | - | - |
+
+---
+
+#### AppendValueWithEntity {#appendvaluewithentity}
+
+
+```4d
+Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$value` | `Variant` | - | - |
+| `$entity` | `4D.Entity` | - | - |
+
+---
+
+#### GetCurrentValue {#getcurrentvalue}
+
+
+```4d
+Function GetCurrentValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+#### GetCurrentPrimaryKey {#getcurrentprimarykey}
+
+
+```4d
+Function GetCurrentPrimaryKey -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### GetCurrentEntity {#getcurrententity}
+
+
+```4d
+Function GetCurrentEntity -> 4D.Entity
+```
+
+**Returns:** `4D.Entity`
+
+---
 
 ---
 

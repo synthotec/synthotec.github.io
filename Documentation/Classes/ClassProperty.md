@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class property
 
-🕐 *Last updated: 2025-11-13T00:47:52.106Z*
+🕐 *Last updated: 2025-11-13T01:17:22.595Z*
 
 ---
 
@@ -34,7 +34,51 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($Name : Text; $Type : Text)
+```
+
+Stores metadata about a class property
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Name` | `Text` | - | - |
+| `$Type` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### setDefault {#setdefault}
+
+
+```4d
+Function setDefault($Value : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Value` | `Text` | - | - |
+
+---
+
+#### toObject {#toobject}
+
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

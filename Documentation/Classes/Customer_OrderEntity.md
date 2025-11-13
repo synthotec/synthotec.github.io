@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.195Z*
+🕐 *Last updated: 2025-11-13T01:17:22.701Z*
 
 ---
 
@@ -48,9 +48,233 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### createCofC {#createcofc}
+ `[🖥️ local]`
+
+```4d
+Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity : cs.WorksOrderEntity; $Quantity : Integer) -> cs.CofCEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Advice_NoteEntity` | `cs.Advice_NoteEntity` | - | - |
+| `$WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
+| `$Quantity` | `Integer` | - | - |
+
+**Returns:** `cs.CofCEntity`
+
+---
+
+#### getAvailableForPickRequest {#getavailableforpickrequest}
+ `[🖥️ local]`
+
+```4d
+Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### modifyOrderPickRequest {#modifyorderpickrequest}
+ `[🖥️ local]`
+
+```4d
+Function modifyOrderPickRequest($PickRequestEntity : cs.PickRequestEntity) -> cs.OrderPickRequestEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `cs.OrderPickRequestEntity`
+
+---
+
+#### getPickRequestedQuantity {#getpickrequestedquantity}
+ `[🖥️ local]`
+
+```4d
+Function getPickRequestedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### getPickedQuantity {#getpickedquantity}
+ `[🖥️ local]`
+
+```4d
+Function getPickedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### getPickedQuantitiesColor {#getpickedquantitiescolor}
+ `[🖥️ local]`
+
+```4d
+Function getPickedQuantitiesColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### getPickedQuantitiesText {#getpickedquantitiestext}
+ `[🖥️ local]`
+
+```4d
+Function getPickedQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### getPickRequestQuantitiesText {#getpickrequestquantitiestext}
+ `[🖥️ local]`
+
+```4d
+Function getPickRequestQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PickRequestEntity` | `cs.PickRequestEntity` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### getPickRequestQuantitiesColor {#getpickrequestquantitiescolor}
+ `[🖥️ local]`
+
+```4d
+Function getPickRequestQuantitiesColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
 ### 🔍 Getters
 
+#### DespatchDateTime {#despatchdatetime}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DespatchDateTime -> cs.System.DateTime
+```
+
+**Returns:** `cs.System.DateTime`
+
+---
+
+#### DeliveryDateTime {#deliverydatetime}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DeliveryDateTime -> cs.System.DateTime
+```
+
+**Returns:** `cs.System.DateTime`
+
+---
+
+#### DespatchDate {#despatchdate}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DespatchDate -> Date
+```
+
+**Returns:** `Date`
+
+---
+
+#### DeliveryDate {#deliverydate}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DeliveryDate -> Date
+```
+
+**Returns:** `Date`
+
+---
+
+#### OutstandingToDeliver {#outstandingtodeliver}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function OutstandingToDeliver -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### OutstandingToPickRequest {#outstandingtopickrequest}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function OutstandingToPickRequest -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
 ### ✏️ Setters
+
+#### OutstandingToDeliver {#outstandingtodeliver}
+ `[🖥️ local, ✏️ setter]`
+
+```4d
+Function OutstandingToDeliver($OutstandingToDeliver : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$OutstandingToDeliver` | `Integer` | - | - |
+
+---
 
 ---
 

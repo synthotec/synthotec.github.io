@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T00:47:53.346Z*
+🕐 *Last updated: 2025-11-13T01:17:24.128Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getLabelPrinters {#getlabelprinters}
+ `[🖥️ local]`
+
+```4d
+Function getLabelPrinters -> cs.PrinterSelection
+```
+
+**Returns:** `cs.PrinterSelection`
+
+---
 
 ---
 

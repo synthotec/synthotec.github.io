@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.864Z*
+🕐 *Last updated: 2025-11-13T01:17:23.588Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getStockListBoxObject {#getstocklistboxobject}
+ `[🖥️ local]`
+
+```4d
+Function getStockListBoxObject -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

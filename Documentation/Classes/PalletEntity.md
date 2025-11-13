@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.113Z*
+🕐 *Last updated: 2025-11-13T01:17:23.877Z*
 
 ---
 
@@ -42,7 +42,185 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### createPrintJob {#createprintjob}
+
+
+```4d
+Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$StaffID` | `Integer` | - | - |
+| `$PrinterID` | `Integer` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### getWorksOrderCollection {#getworksordercollection}
+
+
+```4d
+Function getWorksOrderCollection -> Collection
+```
+
+**Returns:** `Collection`
+
+---
+
+#### getTotalQuantity {#gettotalquantity}
+
+
+```4d
+Function getTotalQuantity($WorksOrderEntity : Integer) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$WorksOrderEntity` | `Integer` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### getTotalBoxes {#gettotalboxes}
+
+
+```4d
+Function getTotalBoxes($WorksOrderEntity : Integer) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$WorksOrderEntity` | `Integer` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### generateQR {#generateqr}
+ `[🖥️ local]`
+
+```4d
+Function generateQR -> Picture
+```
+
+**Returns:** `Picture`
+
+---
+
+#### getStockListBoxObject {#getstocklistboxobject}
+ `[🖥️ local]`
+
+```4d
+Function getStockListBoxObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### getMigrationRules {#getmigrationrules}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.PalletEntity` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### syncMigrationSelections {#syncmigrationselections}
+ `[🖥️ local]`
+
+```4d
+Function syncMigrationSelections($RemoteEntity : cs.PalletEntity)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RemoteEntity` | `cs.PalletEntity` | - | - |
+
+---
+
+#### transfer {#transfer}
+ `[🖥️ local]`
+
+```4d
+Function transfer($ToLocation : Integer) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ToLocation` | `Integer` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
 ### 🔍 Getters
+
+#### NetWeightKg {#netweightkg}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function NetWeightKg -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### GrossWeightKg {#grossweightkg}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function GrossWeightKg -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### QRObject {#qrobject}
+ `[🔍 getter]`
+
+```4d
+Function QRObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### HasMigrationID {#hasmigrationid}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function HasMigrationID -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

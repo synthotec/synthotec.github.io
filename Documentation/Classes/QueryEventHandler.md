@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T00:47:53.586Z*
+🕐 *Last updated: 2025-11-13T01:17:24.397Z*
 
 ---
 
@@ -94,9 +94,62 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($QueryEventObject : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$QueryEventObject` | `Object` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### setResult {#setresult}
+
+
+```4d
+Function setResult($QueryText : Text; $QueryParameters : Collection)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$QueryText` | `Text` | - | - |
+| `$QueryParameters` | `Collection` | - | - |
+
+---
+
 ### 🔍 Getters
+
+#### valueType {#valuetype}
+ `[🔍 getter]`
+
+```4d
+Function valueType -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### booleanResult {#booleanresult}
+ `[🔍 getter]`
+
+```4d
+Function booleanResult -> Variant
+```
+
+**Returns:** `Variant`
+
+---
 
 ---
 

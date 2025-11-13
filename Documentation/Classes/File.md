@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.620Z*
+🕐 *Last updated: 2025-11-13T01:17:23.299Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### upload {#upload}
+ `[🖥️ local]`
+
+```4d
+Function upload -> cs.FileEntity
+```
+
+**Returns:** `cs.FileEntity`
+
+---
 
 ---
 

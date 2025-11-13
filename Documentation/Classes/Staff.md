@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.886Z*
+🕐 *Last updated: 2025-11-13T01:17:24.742Z*
 
 ---
 
@@ -29,6 +29,57 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getUsingKeyfob {#getusingkeyfob}
+ `[🖥️ local]`
+
+```4d
+Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> cs.StaffEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ShowWarning` | `Boolean` | - | - |
+| `$KeyFob` | `Text` | - | - |
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+#### getCurrentUser {#getcurrentuser}
+ `[🖥️ local]`
+
+```4d
+Function getCurrentUser -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+#### getNonArchived {#getnonarchived}
+ `[🖥️ local]`
+
+```4d
+Function getNonArchived -> cs.StaffSelection
+```
+
+**Returns:** `cs.StaffSelection`
+
+---
+
+#### newUsingEntry {#newusingentry}
+ `[🖥️ local]`
+
+```4d
+Function newUsingEntry -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
 
 ---
 

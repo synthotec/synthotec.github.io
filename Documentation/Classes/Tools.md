@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:54.136Z*
+🕐 *Last updated: 2025-11-13T01:17:25.010Z*
 
 ---
 
@@ -27,6 +27,28 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### createForProduct {#createforproduct}
+ `[🖥️ local]`
+
+```4d
+Function createForProduct -> cs.ToolsEntity
+```
+
+**Returns:** `cs.ToolsEntity`
+
+---
 
 ---
 

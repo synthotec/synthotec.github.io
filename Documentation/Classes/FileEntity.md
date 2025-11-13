@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.623Z*
+🕐 *Last updated: 2025-11-13T01:17:23.303Z*
 
 ---
 
@@ -26,6 +26,15 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### open {#open}
+ `[🖥️ local]`
+
+```4d
+Function open
+```
+
+---
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.862Z*
+🕐 *Last updated: 2025-11-13T01:17:23.584Z*
 
 ---
 
@@ -28,6 +28,57 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### restLoadMaterialStock {#restloadmaterialstock}
+
+
+```4d
+Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### restUpdateQuantity {#restupdatequantity}
+
+
+```4d
+Function restUpdateQuantity($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### restLocateMaterialStock {#restlocatematerialstock}
+
+
+```4d
+Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
 
 ---
 

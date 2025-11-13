@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.299Z*
+🕐 *Last updated: 2025-11-13T01:17:24.076Z*
 
 ---
 
@@ -27,6 +27,33 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### insertLine {#insertline}
+ `[🖥️ local]`
+
+```4d
+Function insertLine($Machine : Integer; $RunOrder : Integer) -> cs.PlanningWheelEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Machine` | `Integer` | - | - |
+| `$RunOrder` | `Integer` | - | - |
+
+**Returns:** `cs.PlanningWheelEntity`
+
+---
+
+#### reducePlannedStand {#reduceplannedstand}
+ `[🖥️ local]`
+
+```4d
+Function reducePlannedStand
+```
+
+---
 
 ---
 

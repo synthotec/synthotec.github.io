@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.875Z*
+🕐 *Last updated: 2025-11-13T01:17:23.606Z*
 
 ---
 
@@ -30,6 +30,79 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getLastStockTakeDate {#getlaststocktakedate}
+ `[🖥️ local]`
+
+```4d
+Function getLastStockTakeDate -> Date
+```
+
+**Returns:** `Date`
+
+---
+
+#### getLastStockTakeAmount {#getlaststocktakeamount}
+ `[🖥️ local]`
+
+```4d
+Function getLastStockTakeAmount($MaterialID : Integer) -> Real
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MaterialID` | `Integer` | - | - |
+
+**Returns:** `Real`
+
+---
+
+#### getLastStockTakeSelection {#getlaststocktakeselection}
+ `[🖥️ local]`
+
+```4d
+Function getLastStockTakeSelection -> cs.MaterialStockTakeSelection
+```
+
+**Returns:** `cs.MaterialStockTakeSelection`
+
+---
+
+#### restViewResults {#restviewresults}
+
+
+```4d
+Function restViewResults($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### restRemoveEntry {#restremoveentry}
+
+
+```4d
+Function restRemoveEntry($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
 
 ---
 

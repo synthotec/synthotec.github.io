@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.811Z*
+🕐 *Last updated: 2025-11-13T01:17:23.522Z*
 
 ---
 
@@ -27,6 +27,31 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### record {#record}
+ `[🖥️ local]`
+
+```4d
+Function record($Message : Text; $RecordMessage : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Message` | `Text` | - | - |
+| `$RecordMessage` | `Boolean` | - | - |
+
+---
+
+#### trim {#trim}
+
+
+```4d
+Function trim
+```
+
+---
 
 ---
 

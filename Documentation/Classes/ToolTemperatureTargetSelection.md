@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T00:47:54.199Z*
+🕐 *Last updated: 2025-11-13T01:17:25.089Z*
 
 ---
 
@@ -27,6 +27,40 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### CheckInRange {#checkinrange}
+
+
+```4d
+Function CheckInRange($TemperatureSensorCollection : Collection) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$TemperatureSensorCollection` | `Collection` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### CheckTargetsSet {#checktargetsset}
+
+
+```4d
+Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

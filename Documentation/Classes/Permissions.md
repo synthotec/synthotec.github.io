@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.121Z*
+🕐 *Last updated: 2025-11-13T01:17:23.885Z*
 
 ---
 
@@ -27,6 +27,42 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getByName {#getbyname}
+
+
+```4d
+Function getByName($PermissionName : Text) -> cs.PermissionsEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PermissionName` | `Text` | - | - |
+
+**Returns:** `cs.PermissionsEntity`
+
+---
+
+#### check {#check}
+ `[🖥️ local]`
+
+```4d
+Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity : cs.StaffEntity) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PermissionName` | `Text` | - | - |
+| `$DisplayWarning` | `Boolean` | - | - |
+| `$StaffEntity` | `cs.StaffEntity` | - | - |
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

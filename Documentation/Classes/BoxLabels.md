@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:51.958Z*
+🕐 *Last updated: 2025-11-13T01:17:22.384Z*
 
 ---
 
@@ -32,6 +32,118 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getMigrationSettings {#getmigrationsettings}
+ `[🖥️ local]`
+
+```4d
+Function getMigrationSettings -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### getAvailableToPick {#getavailabletopick}
+ `[🖥️ local]`
+
+```4d
+Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.BoxLabelsSelection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ProductEntity` | `cs.ProductEntity` | - | - |
+
+**Returns:** `cs.BoxLabelsSelection`
+
+---
+
+#### checkPalletQuantity {#checkpalletquantity}
+
+
+```4d
+Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCardNumber : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
+| `$RouteCardNumber` | `Integer` | - | - |
+
+---
+
+#### getUsingScanner {#getusingscanner}
+
+
+```4d
+Function getUsingScanner($ScannerObject : Object) -> cs.BoxLabelsEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ScannerObject` | `Object` | - | - |
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
+
+#### getByUUID {#getbyuuid}
+
+
+```4d
+Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$UUID` | `Text` | - | - |
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
+
+#### GetBoxQuantity {#getboxquantity}
+
+
+```4d
+Function GetBoxQuantity($BoxLabelID : Integer) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BoxLabelID` | `Integer` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### restScannedBoxLabel {#restscannedboxlabel}
+
+
+```4d
+Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
 
 ---
 

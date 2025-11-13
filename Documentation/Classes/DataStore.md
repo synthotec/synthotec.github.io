@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-13T00:47:52.242Z*
+🕐 *Last updated: 2025-11-13T01:17:22.772Z*
 
 ---
 
@@ -44,6 +44,291 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getDuplicateValueEntities {#getduplicatevalueentities}
+ `[🖥️ local]`
+
+```4d
+Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribute : Object) -> 4D.EntitySelection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$DataClass` | `4D.DataClass` | - | - |
+| `$DataClassAttribute` | `Object` | - | - |
+
+**Returns:** `4D.EntitySelection`
+
+---
+
+#### applyFormulasToSelection {#applyformulastoselection}
+ `[🖥️ local]`
+
+```4d
+Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $FormulaOrFormulaCollection : Variant; $FormulaParamsCollection : Collection) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$EntitySelection` | `4D.EntitySelection` | - | - |
+| `$FormulaOrFormulaCollection` | `Variant` | - | - |
+| `$FormulaParamsCollection` | `Collection` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### lockEntitySelection {#lockentityselection}
+ `[🖥️ local]`
+
+```4d
+Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfErrorOccurs : Boolean) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$EntitySelection` | `4D.EntitySelection` | - | - |
+| `$LockIfErrorOccurs` | `Boolean` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### unlockEntitySelection {#unlockentityselection}
+ `[🖥️ local]`
+
+```4d
+Function unlockEntitySelection($LockedSelectionObject : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$LockedSelectionObject` | `Object` | - | - |
+
+---
+
+#### lockEntity {#lockentity}
+ `[🖥️ local]`
+
+```4d
+Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Entity` | `4D.Entity` | - | - |
+| `$DisplayWarning` | `Boolean` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### getTablePrimaryKeyField {#gettableprimarykeyfield}
+ `[🖥️ local]`
+
+```4d
+Function getTablePrimaryKeyField($TablePointerOrNumber : Variant) -> Pointer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$TablePointerOrNumber` | `Variant` | - | - |
+
+**Returns:** `Pointer`
+
+---
+
+#### getRelation {#getrelation}
+ `[🖥️ local]`
+
+```4d
+Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.DataClass) -> Variant
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$entityOrEntitySelection` | `Variant` | - | - |
+| `$destinationTable` | `4D.DataClass` | - | - |
+
+**Returns:** `Variant`
+
+---
+
+#### getRelationName {#getrelationname}
+
+
+```4d
+Function getRelationName($sourceTableClass : 4D.Class; $destinationTableClass : 4D.Class; $supressNoRelationWarning : Boolean) -> Text
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$sourceTableClass` | `4D.Class` | - | - |
+| `$destinationTableClass` | `4D.Class` | - | - |
+| `$supressNoRelationWarning` | `Boolean` | - | - |
+
+**Returns:** `Text`
+
+---
+
+#### updateClientFiles {#updateclientfiles}
+
+
+```4d
+Function updateClientFiles -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### stringTest {#stringtest}
+
+
+```4d
+Function stringTest($Text : Text) -> Boolean
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Text` | `Text` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### echoTest {#echotest}
+
+
+```4d
+Function echoTest($Variant : Variant) -> Variant
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Variant` | `Variant` | - | - |
+
+**Returns:** `Variant`
+
+---
+
+#### blobTest {#blobtest}
+
+
+```4d
+Function blobTest($Blob : Blob) -> Integer
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Blob` | `Blob` | - | - |
+
+**Returns:** `Integer`
+
+---
+
+#### _getUpdateFolder {#_getupdatefolder}
+
+
+```4d
+Function _getUpdateFolder -> 4D.Folder
+```
+
+**Returns:** `4D.Folder`
+
+---
+
+#### updateServer {#updateserver}
+
+
+```4d
+Function updateServer($RestartServer : Boolean) -> Object
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestartServer` | `Boolean` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### testA {#testa}
+
+
+```4d
+Function testA -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### testB {#testb}
+
+
+```4d
+Function testB -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### unpackServerUpdate {#unpackserverupdate}
+
+
+```4d
+Function unpackServerUpdate -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### _updateServer {#_updateserver}
+ `[🖥️ local]`
+
+```4d
+Function _updateServer
+```
+
+---
+
+#### _unpackServerUpdate->$UpdateFolder {#_unpackserverupdate->$updatefolder}
+ `[🖥️ local]`
+
+```4d
+Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
+```
+
+**Returns:** `4D.Folder`
+
+---
 
 ---
 

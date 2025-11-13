@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:53.308Z*
+🕐 *Last updated: 2025-11-13T01:17:24.088Z*
 
 ---
 
@@ -79,7 +79,27 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor
+```
+
+---
+
 ### ⚙️ Regular Functions
+
+#### importPrices {#importprices}
+
+
+```4d
+Function importPrices -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 

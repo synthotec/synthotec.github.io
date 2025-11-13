@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.800Z*
+🕐 *Last updated: 2025-11-13T01:17:24.640Z*
 
 ---
 
@@ -26,6 +26,23 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### generate {#generate}
+ `[🖥️ local]`
+
+```4d
+Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$StartDate` | `Date` | - | - |
+| `$EndDate` | `Date` | - | - |
+| `$SelectedWorksOrder` | `Integer` | - | - |
+
+---
 
 ---
 

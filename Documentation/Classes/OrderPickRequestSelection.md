@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T00:47:52.918Z*
+🕐 *Last updated: 2025-11-13T01:17:23.661Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getUnprocessedQuantity {#getunprocessedquantity}
+ `[🖥️ local]`
+
+```4d
+Function getUnprocessedQuantity -> Integer
+```
+
+**Returns:** `Integer`
+
+---
 
 ---
 

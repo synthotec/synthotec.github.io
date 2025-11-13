@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.501Z*
+🕐 *Last updated: 2025-11-13T01:17:23.118Z*
 
 ---
 
@@ -29,6 +29,48 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### fillGitHubIssues {#fillgithubissues}
+
+
+```4d
+Function fillGitHubIssues
+```
+
+---
+
+#### setDebugInfo {#setdebuginfo}
+ `[🖥️ local]`
+
+```4d
+Function setDebugInfo(...)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `...` | *Not specified* | - | - |
+
+---
+
+#### notify {#notify}
+
+
+```4d
+Function notify
+```
+
+---
+
+#### record {#record}
+ `[🖥️ local]`
+
+```4d
+Function record
+```
+
+---
 
 ---
 

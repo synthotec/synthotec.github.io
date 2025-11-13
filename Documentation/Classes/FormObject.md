@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T00:47:52.693Z*
+🕐 *Last updated: 2025-11-13T01:17:23.386Z*
 
 ---
 
@@ -112,11 +112,780 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($FormObjectName : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FormObjectName` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### setMaxFontSize {#setmaxfontsize}
+
+
+```4d
+Function setMaxFontSize($MultiLine : Boolean; $UpperFontSizeLimit : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MultiLine` | `Boolean` | - | - |
+| `$UpperFontSizeLimit` | `Integer` | - | - |
+
+---
+
+#### setBestObjectSize {#setbestobjectsize}
+
+
+```4d
+Function setBestObjectSize($HeightOnly : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$HeightOnly` | `Boolean` | - | - |
+
+---
+
+#### Focus {#focus}
+
+
+```4d
+Function Focus
+```
+
+---
+
+#### HighlightText {#highlighttext}
+
+
+```4d
+Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$StartPosition` | `Integer` | - | - |
+| `$EndPosition` | `Integer` | - | - |
+
+---
 
 ### 🔍 Getters
 
+#### Title {#title}
+ `[🔍 getter]`
+
+```4d
+Function Title -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### MinimumValue {#minimumvalue}
+ `[🔍 getter]`
+
+```4d
+Function MinimumValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+#### MaximumValue {#maximumvalue}
+ `[🔍 getter]`
+
+```4d
+Function MaximumValue -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
+#### Visible {#visible}
+ `[🔍 getter]`
+
+```4d
+Function Visible -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### Enterable {#enterable}
+ `[🔍 getter]`
+
+```4d
+Function Enterable -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### Enabled {#enabled}
+ `[🔍 getter]`
+
+```4d
+Function Enabled -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### ForegroundColor {#foregroundcolor}
+ `[🔍 getter]`
+
+```4d
+Function ForegroundColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### BackgroundColor {#backgroundcolor}
+ `[🔍 getter]`
+
+```4d
+Function BackgroundColor -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Left {#left}
+ `[🔍 getter]`
+
+```4d
+Function Left -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Top {#top}
+ `[🔍 getter]`
+
+```4d
+Function Top -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Right {#right}
+ `[🔍 getter]`
+
+```4d
+Function Right -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Bottom {#bottom}
+ `[🔍 getter]`
+
+```4d
+Function Bottom -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Width {#width}
+ `[🔍 getter]`
+
+```4d
+Function Width -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Height {#height}
+ `[🔍 getter]`
+
+```4d
+Function Height -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Font {#font}
+ `[🔍 getter]`
+
+```4d
+Function Font -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### FontSize {#fontsize}
+ `[🔍 getter]`
+
+```4d
+Function FontSize -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Bold {#bold}
+ `[🔍 getter]`
+
+```4d
+Function Bold -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### Italic {#italic}
+ `[🔍 getter]`
+
+```4d
+Function Italic -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### Underline {#underline}
+ `[🔍 getter]`
+
+```4d
+Function Underline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### DisplayFormat {#displayformat}
+ `[🔍 getter]`
+
+```4d
+Function DisplayFormat -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### Multiline {#multiline}
+ `[🔍 getter]`
+
+```4d
+Function Multiline -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### PlaceholderText {#placeholdertext}
+ `[🔍 getter]`
+
+```4d
+Function PlaceholderText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### VerticalScrollPosition {#verticalscrollposition}
+ `[🔍 getter]`
+
+```4d
+Function VerticalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### HorizontalScrollPosition {#horizontalscrollposition}
+ `[🔍 getter]`
+
+```4d
+Function HorizontalScrollPosition -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### CornerRadius {#cornerradius}
+ `[🔍 getter]`
+
+```4d
+Function CornerRadius -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### HelpTip {#helptip}
+ `[🔍 getter]`
+
+```4d
+Function HelpTip -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### Pointer {#pointer}
+ `[🔍 getter]`
+
+```4d
+Function Pointer -> Pointer
+```
+
+**Returns:** `Pointer`
+
+---
+
+#### HasFocus {#hasfocus}
+ `[🔍 getter]`
+
+```4d
+Function HasFocus -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
 ### ✏️ Setters
+
+#### Title {#title}
+ `[✏️ setter]`
+
+```4d
+Function Title($Title : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Title` | `Text` | - | - |
+
+---
+
+#### MinimumValue {#minimumvalue}
+ `[✏️ setter]`
+
+```4d
+Function MinimumValue($MinimumValue : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MinimumValue` | `Variant` | - | - |
+
+---
+
+#### MaximumValue {#maximumvalue}
+ `[✏️ setter]`
+
+```4d
+Function MaximumValue($MaximumValue : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MaximumValue` | `Variant` | - | - |
+
+---
+
+#### Visible {#visible}
+ `[✏️ setter]`
+
+```4d
+Function Visible($Visible : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Visible` | `Boolean` | - | - |
+
+---
+
+#### Enterable {#enterable}
+ `[✏️ setter]`
+
+```4d
+Function Enterable($Enterable : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Enterable` | `Boolean` | - | - |
+
+---
+
+#### Enabled {#enabled}
+ `[✏️ setter]`
+
+```4d
+Function Enabled($Enabled : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Enabled` | `Boolean` | - | - |
+
+---
+
+#### ForegroundColor {#foregroundcolor}
+ `[✏️ setter]`
+
+```4d
+Function ForegroundColor($ForegroundColor : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ForegroundColor` | `Variant` | - | - |
+
+---
+
+#### BackgroundColor {#backgroundcolor}
+ `[✏️ setter]`
+
+```4d
+Function BackgroundColor($BackgroundColor : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$BackgroundColor` | `Variant` | - | - |
+
+---
+
+#### Left {#left}
+ `[✏️ setter]`
+
+```4d
+Function Left($Left : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Left` | `Integer` | - | - |
+
+---
+
+#### Top {#top}
+ `[✏️ setter]`
+
+```4d
+Function Top($Top : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Top` | `Integer` | - | - |
+
+---
+
+#### Right {#right}
+ `[✏️ setter]`
+
+```4d
+Function Right($Right : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Right` | `Integer` | - | - |
+
+---
+
+#### Bottom {#bottom}
+ `[✏️ setter]`
+
+```4d
+Function Bottom($Bottom : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Bottom` | `Integer` | - | - |
+
+---
+
+#### Width {#width}
+ `[✏️ setter]`
+
+```4d
+Function Width($Width : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Width` | `Integer` | - | - |
+
+---
+
+#### Height {#height}
+ `[✏️ setter]`
+
+```4d
+Function Height($Height : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Height` | `Integer` | - | - |
+
+---
+
+#### Font {#font}
+ `[✏️ setter]`
+
+```4d
+Function Font($Font : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Font` | `Text` | - | - |
+
+---
+
+#### FontSize {#fontsize}
+ `[✏️ setter]`
+
+```4d
+Function FontSize($FontSize : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FontSize` | `Integer` | - | - |
+
+---
+
+#### Bold {#bold}
+ `[✏️ setter]`
+
+```4d
+Function Bold($Bold : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Bold` | `Boolean` | - | - |
+
+---
+
+#### Italic {#italic}
+ `[✏️ setter]`
+
+```4d
+Function Italic($Italic : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Italic` | `Boolean` | - | - |
+
+---
+
+#### Underline {#underline}
+ `[✏️ setter]`
+
+```4d
+Function Underline($Underline : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Underline` | `Boolean` | - | - |
+
+---
+
+#### DisplayFormat {#displayformat}
+ `[✏️ setter]`
+
+```4d
+Function DisplayFormat($DisplayFormat : Variant)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$DisplayFormat` | `Variant` | - | - |
+
+---
+
+#### Multiline {#multiline}
+ `[✏️ setter]`
+
+```4d
+Function Multiline($Multiline : Boolean)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Multiline` | `Boolean` | - | - |
+
+---
+
+#### PlaceholderText {#placeholdertext}
+ `[✏️ setter]`
+
+```4d
+Function PlaceholderText($PlaceholderText : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$PlaceholderText` | `Text` | - | - |
+
+---
+
+#### VerticalScrollPosition {#verticalscrollposition}
+ `[✏️ setter]`
+
+```4d
+Function VerticalScrollPosition($VerticalScrollPosition : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$VerticalScrollPosition` | `Integer` | - | - |
+
+---
+
+#### HorizontalScrollPosition {#horizontalscrollposition}
+ `[✏️ setter]`
+
+```4d
+Function HorizontalScrollPosition($HorizontalScrollPosition : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$HorizontalScrollPosition` | `Integer` | - | - |
+
+---
+
+#### CornerRadius {#cornerradius}
+ `[✏️ setter]`
+
+```4d
+Function CornerRadius($CornerRadius : Integer)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$CornerRadius` | `Integer` | - | - |
+
+---
+
+#### HelpTip {#helptip}
+ `[✏️ setter]`
+
+```4d
+Function HelpTip($HelpTip : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$HelpTip` | `Text` | - | - |
+
+---
 
 ---
 

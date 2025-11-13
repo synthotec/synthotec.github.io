@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T00:47:52.538Z*
+🕐 *Last updated: 2025-11-13T01:17:23.176Z*
 
 ---
 
@@ -72,9 +72,76 @@ Number of items in stock
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($InitialCount : Integer)
+```
+
+$InitialCount: Starting inventory count
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$InitialCount` | `Integer` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### calculateValue {#calculatevalue}
+
+
+```4d
+Function calculateValue($UnitPrice : Real) -> Real
+```
+
+Returns total inventory value
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$UnitPrice` | `Real` | - | - |
+
+**Returns:** `Real`
+
+---
+
+#### processOrder {#processorder}
+
+
+```4d
+Function processOrder($Quantity : Integer; $DiscountPercent : Real) -> Boolean
+```
+
+$Quantity: Number of items to order
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Quantity` | `Integer` | - | - |
+| `$DiscountPercent` | `Real` | - | - |
+
+**Returns:** `Boolean`
+
+---
+
 ### 🔍 Getters
+
+#### ItemCount {#itemcount}
+ `[🔍 getter]`
+
+```4d
+Function ItemCount -> Integer
+```
+
+**Returns:** `Integer`
+
+---
 
 ---
 

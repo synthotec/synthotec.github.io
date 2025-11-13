@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:53.745Z*
+🕐 *Last updated: 2025-11-13T01:17:24.575Z*
 
 ---
 
@@ -36,7 +36,90 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getRealTimeSelection {#getrealtimeselection}
+ `[🖥️ local]`
+
+```4d
+Function getRealTimeSelection -> cs.RealTimeSelection
+```
+
+**Returns:** `cs.RealTimeSelection`
+
+---
+
+#### getTemperatureSensors {#gettemperaturesensors}
+ `[🖥️ local]`
+
+```4d
+Function getTemperatureSensors($Zone : Integer) -> Collection
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Zone` | `Integer` | - | - |
+
+**Returns:** `Collection`
+
+---
+
+#### sendEmail {#sendemail}
+
+
+```4d
+Function sendEmail -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
 ### 🔍 Getters
+
+#### PartsMade {#partsmade}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function PartsMade -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Duration {#duration}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function Duration -> Time
+```
+
+**Returns:** `Time`
+
+---
+
+#### LowestCelciusTemperature {#lowestcelciustemperature}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function LowestCelciusTemperature -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### HighestCelciusTemperature {#highestcelciustemperature}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function HighestCelciusTemperature -> Real
+```
+
+**Returns:** `Real`
+
+---
 
 ---
 

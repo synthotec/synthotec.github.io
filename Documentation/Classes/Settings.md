@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.821Z*
+🕐 *Last updated: 2025-11-13T01:17:24.663Z*
 
 ---
 
@@ -27,6 +27,41 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### global {#global}
+ `[🖥️ local]`
+
+```4d
+Function global($VariableName : Text) -> cs.SettingsEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$VariableName` | `Text` | - | - |
+
+**Returns:** `cs.SettingsEntity`
+
+---
+
+#### userSpecific {#userspecific}
+ `[🖥️ local]`
+
+```4d
+Function userSpecific($VariableName : Text; $StaffID : Integer) -> cs.SettingsEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$VariableName` | `Text` | - | - |
+| `$StaffID` | `Integer` | - | - |
+
+**Returns:** `cs.SettingsEntity`
+
+---
 
 ---
 

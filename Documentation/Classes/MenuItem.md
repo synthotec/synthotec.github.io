@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T00:47:52.901Z*
+🕐 *Last updated: 2025-11-13T01:17:23.642Z*
 
 ---
 
@@ -142,9 +142,61 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($MenuText : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MenuText` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### _addMenuItem {#_addmenuitem}
+
+
+```4d
+Function _addMenuItem($MenuReference : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$MenuReference` | `Text` | - | - |
+
+---
+
+#### _process {#_process}
+
+
+```4d
+Function _process -> Variant
+```
+
+**Returns:** `Variant`
+
+---
+
 ### 🔍 Getters
+
+#### _Style {#_style}
+ `[🔍 getter]`
+
+```4d
+Function _Style -> Integer
+```
+
+**Returns:** `Integer`
+
+---
 
 ---
 

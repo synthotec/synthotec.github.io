@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T00:47:54.231Z*
+🕐 *Last updated: 2025-11-13T01:17:25.122Z*
 
 ---
 
@@ -70,9 +70,62 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($Description : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$Description` | `Text` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
 
+#### evaluate {#evaluate}
+
+
+```4d
+Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> cs._UnitTestResult
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$TestFormula` | `4D.Function` | - | - |
+| `$TestFormulaParameters` | `Collection` | - | - |
+
+**Returns:** `cs._UnitTestResult`
+
+---
+
+#### displayResultsAlert {#displayresultsalert}
+
+
+```4d
+Function displayResultsAlert
+```
+
+---
+
 ### 🔍 Getters
+
+#### Success {#success}
+ `[🔍 getter]`
+
+```4d
+Function Success -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
 
 ---
 

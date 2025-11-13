@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T00:47:53.115Z*
+🕐 *Last updated: 2025-11-13T01:17:23.879Z*
 
 ---
 
@@ -26,6 +26,17 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### getAvailable {#getavailable}
+ `[🖥️ local]`
+
+```4d
+Function getAvailable -> cs.PalletSelection
+```
+
+**Returns:** `cs.PalletSelection`
+
+---
 
 ---
 

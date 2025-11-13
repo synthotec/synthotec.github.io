@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:54.098Z*
+🕐 *Last updated: 2025-11-13T01:17:24.968Z*
 
 ---
 
@@ -26,6 +26,23 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### newUsingEntry {#newusingentry}
+ `[🖥️ local]`
+
+```4d
+Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> cs.ToolDocumentEntity
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$ToolsEntity` | `cs.ToolsEntity` | - | - |
+
+**Returns:** `cs.ToolDocumentEntity`
+
+---
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.617Z*
+🕐 *Last updated: 2025-11-13T01:17:23.295Z*
 
 ---
 
@@ -28,6 +28,49 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### ClassicListboxClickedEvent {#classiclistboxclickedevent}
+ `[🖥️ local]`
+
+```4d
+Function ClassicListboxClickedEvent
+```
+
+---
+
+#### display {#display}
+ `[🖥️ local]`
+
+```4d
+Function display($FieldPointer : Pointer; $PrimaryKey : Integer; $ForeignDataClass : 4D.DataClass; $ForeignFormula : 4D.Function)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FieldPointer` | `Pointer` | - | - |
+| `$PrimaryKey` | `Integer` | - | - |
+| `$ForeignDataClass` | `4D.DataClass` | - | - |
+| `$ForeignFormula` | `4D.Function` | - | - |
+
+---
+
+#### triggerLog {#triggerlog}
+ `[🖥️ local]`
+
+```4d
+Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$FieldPointerCollection` | `Collection` | - | - |
+| `$ChangedBy` | `Text` | - | - |
+
+---
 
 ---
 

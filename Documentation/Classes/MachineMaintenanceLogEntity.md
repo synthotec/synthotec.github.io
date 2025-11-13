@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T00:47:52.814Z*
+🕐 *Last updated: 2025-11-13T01:17:23.528Z*
 
 ---
 
@@ -27,6 +27,28 @@ parent : Classes
 ## ⚙️ Functions
 
 ### 🔍 Getters
+
+#### TimeStamp {#timestamp}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function TimeStamp -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### TimeStampWithTab {#timestampwithtab}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function TimeStampWithTab -> Text
+```
+
+**Returns:** `Text`
+
+---
 
 ---
 

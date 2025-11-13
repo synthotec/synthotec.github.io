@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:52.641Z*
+🕐 *Last updated: 2025-11-13T01:17:23.327Z*
 
 ---
 
@@ -27,6 +27,26 @@ parent : Classes
 ## ⚙️ Functions
 
 ### ⚙️ Regular Functions
+
+#### generate {#generate}
+ `[🖥️ local]`
+
+```4d
+Function generate -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### generateForecastOrders {#generateforecastorders}
+ `[🖥️ local]`
+
+```4d
+Function generateForecastOrders
+```
+
+---
 
 ---
 

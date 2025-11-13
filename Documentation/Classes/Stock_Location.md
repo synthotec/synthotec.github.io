@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T00:47:53.956Z*
+🕐 *Last updated: 2025-11-13T01:17:24.817Z*
 
 ---
 
@@ -33,7 +33,51 @@ parent : Classes
 
 ### ⚙️ Regular Functions
 
+#### getDefaultDespatchLocation {#getdefaultdespatchlocation}
+ `[🖥️ local]`
+
+```4d
+Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
 ### 🔍 Getters
+
+#### DefaultDespatchLocation {#defaultdespatchlocation}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DefaultDespatchLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+#### DefaultPackingLocation {#defaultpackinglocation}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function DefaultPackingLocation -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
+
+#### PartBoxStore {#partboxstore}
+ `[🖥️ local, 🔍 getter]`
+
+```4d
+Function PartBoxStore -> cs.Stock_LocationEntity
+```
+
+**Returns:** `cs.Stock_LocationEntity`
+
+---
 
 ---
 

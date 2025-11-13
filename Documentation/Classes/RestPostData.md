@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T00:47:53.770Z*
+🕐 *Last updated: 2025-11-13T01:17:24.607Z*
 
 ---
 
@@ -61,7 +61,77 @@ parent : Classes
 
 ### 🏗️ Constructors
 
+#### constructor {#constructor}
+ `[🏗️ constructor]`
+
+```4d
+Class constructor($RestPostDataObject : Object)
+```
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+---
+
 ### ⚙️ Regular Functions
+
+#### getStaffEntity {#getstaffentity}
+
+
+```4d
+Function getStaffEntity -> cs.StaffEntity
+```
+
+**Returns:** `cs.StaffEntity`
+
+---
+
+#### getScannerObject {#getscannerobject}
+
+
+```4d
+Function getScannerObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### getScannerText {#getscannertext}
+
+
+```4d
+Function getScannerText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### getRestPostObject {#getrestpostobject}
+
+
+```4d
+Function getRestPostObject -> Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### toObject {#toobject}
+
+
+```4d
+Function toObject -> Object
+```
+
+**Returns:** `Object`
+
+---
 
 ---
 
