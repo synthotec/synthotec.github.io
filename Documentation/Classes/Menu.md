@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.908Z*
+🕐 *Last updated: 2025-11-13T13:33:26.907Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (7):**
+**⚙️ Regular Functions (7):**
 
 - [addSeperator](#addseperator)
 - [addVariantItem](#addvariantitem) (2 params) → `cs.MenuItem`

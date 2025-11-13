@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.676Z*
+🕐 *Last updated: 2025-11-13T13:33:27.647Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (3):**
+**⚙️ Regular Functions (3):**
 
 - [SetTargetValues](#settargetvalues) (1 param) 🖥️
 - [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️

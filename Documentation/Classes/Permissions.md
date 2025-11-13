@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.038Z*
+🕐 *Last updated: 2025-11-13T13:33:27.044Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [getByName](#getbyname) (1 param) → `cs.PermissionsEntity`
 - [check](#check) (3 params) → `Boolean` 🖥️

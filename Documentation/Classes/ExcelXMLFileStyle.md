@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.722Z*
+🕐 *Last updated: 2025-11-13T13:33:26.714Z*
 
 ---
 
@@ -31,7 +31,7 @@ parent : Classes
 
 - [constructor](#constructor)
 
-**⚙️ Functions (4):**
+**⚙️ Regular Functions (4):**
 
 - [setFontStyle](#setfontstyle) (5 params) → `cs.ExcelXMLFileStyle`
 - [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`

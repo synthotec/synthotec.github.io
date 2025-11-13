@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T13:29:02.714Z*
+🕐 *Last updated: 2025-11-13T13:33:26.705Z*
 
 ---
 
@@ -33,7 +33,7 @@ parent : Classes
 
 - [constructor](#constructor)
 
-**⚙️ Functions (7):**
+**⚙️ Regular Functions (7):**
 
 - [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
 - [setFreezePanes](#setfreezepanes) (2 params)

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Manages relationships/links between Forms, Tables, and Classes for documentation
 
-🕐 *Last updated: 2025-11-13T13:29:03.452Z*
+🕐 *Last updated: 2025-11-13T13:33:27.424Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 - [constructor](#constructor)
 
-**⚙️ Functions (11):**
+**⚙️ Regular Functions (11):**
 
 - [_loadRelationships](#_loadrelationships)
 - [discoverRelationships](#discoverrelationships) → `Integer`

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.524Z*
+🕐 *Last updated: 2025-11-13T13:33:27.493Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [permissionCheck](#permissioncheck) (2 params) → `Boolean` 🖥️
 - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `Boolean` 🖥️

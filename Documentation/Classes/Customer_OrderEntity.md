@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.452Z*
+🕐 *Last updated: 2025-11-13T13:33:26.416Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (9):**
+**⚙️ Regular Functions (9):**
 
 - [createCofC](#createcofc) (3 params) → `cs.CofCEntity` 🖥️
 - [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `Integer` 🖥️

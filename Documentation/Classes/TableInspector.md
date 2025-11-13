@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-🕐 *Last updated: 2025-11-13T13:29:03.624Z*
+🕐 *Last updated: 2025-11-13T13:33:27.596Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (14):**
+**⚙️ Regular Functions (14):**
 
 - [_parseCatalog](#_parsecatalog)
 - [_parseTableAttributes](#_parsetableattributes) (1 param)

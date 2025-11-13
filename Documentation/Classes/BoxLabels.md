@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:02.308Z*
+🕐 *Last updated: 2025-11-13T13:33:26.270Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (7):**
+**⚙️ Regular Functions (7):**
 
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️

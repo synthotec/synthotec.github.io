@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:02.891Z*
+🕐 *Last updated: 2025-11-13T13:33:26.886Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (3):**
+**⚙️ Regular Functions (3):**
 
 - [restLoadMaterialStock](#restloadmaterialstock) (1 param) → `Object`
 - [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`

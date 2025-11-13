@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.326Z*
+🕐 *Last updated: 2025-11-13T13:33:27.307Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (1):**
+**⚙️ Regular Functions (1):**
 
 - [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.086Z*
+🕐 *Last updated: 2025-11-13T13:33:27.092Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (11):**
+**⚙️ Regular Functions (11):**
 
 - [create](#create) → `cs.PickRequestEntity` 🖥️
 - [newUsingEntry](#newusingentry) → `cs.PickRequestEntity` 🖥️

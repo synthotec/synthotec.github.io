@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:03.480Z*
+🕐 *Last updated: 2025-11-13T13:33:27.452Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [displayAlert](#displayalert) (2 params)
 - [unlock](#unlock)

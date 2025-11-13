@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.254Z*
+🕐 *Last updated: 2025-11-13T13:33:27.246Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (12):**
+**⚙️ Regular Functions (12):**
 
 - [query OurPartName](#query ourpartname) (1 param) 🖥️
 - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️

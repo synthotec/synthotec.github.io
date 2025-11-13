@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:29:03.287Z*
+🕐 *Last updated: 2025-11-13T13:33:27.274Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (5):**
+**⚙️ Regular Functions (5):**
 
 - [fillBoxLabelsQR](#fillboxlabelsqr) (1 param)
 - [fillPalletQR](#fillpalletqr) (1 param)

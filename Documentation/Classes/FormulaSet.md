@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.802Z*
+🕐 *Last updated: 2025-11-13T13:33:26.792Z*
 
 ---
 
@@ -26,7 +26,7 @@ parent : Classes
 
 - [constructor](#constructor) (3 params)
 
-**⚙️ Functions (1):**
+**⚙️ Regular Functions (1):**
 
 - [apply](#apply) → `Variant`
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T13:29:02.619Z*
+🕐 *Last updated: 2025-11-13T13:33:26.595Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (12):**
+**⚙️ Regular Functions (12):**
 
 - [addTo](#addto) (1 param)
 - [addCc](#addcc) (1 param)

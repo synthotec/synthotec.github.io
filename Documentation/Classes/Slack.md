@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:03.515Z*
+🕐 *Last updated: 2025-11-13T13:33:27.485Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (7):**
+**⚙️ Regular Functions (7):**
 
 - [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
 - [createChannel](#createchannel) (1 param) → `Text`

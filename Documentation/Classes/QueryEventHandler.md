@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T13:29:03.297Z*
+🕐 *Last updated: 2025-11-13T13:33:27.283Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (1):**
+**⚙️ Regular Functions (1):**
 
 - [setResult](#setresult) (2 params)
 

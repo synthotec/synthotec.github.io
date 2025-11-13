@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:02.746Z*
+🕐 *Last updated: 2025-11-13T13:33:26.740Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [generate](#generate) → `Boolean` 🖥️
 - [generateForecastOrders](#generateforecastorders) 🖥️

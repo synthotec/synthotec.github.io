@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T13:29:02.798Z*
+🕐 *Last updated: 2025-11-13T13:33:26.788Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (4):**
+**⚙️ Regular Functions (4):**
 
 - [setMaxFontSize](#setmaxfontsize) (2 params)
 - [setBestObjectSize](#setbestobjectsize) (1 param)

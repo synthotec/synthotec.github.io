@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.871Z*
+🕐 *Last updated: 2025-11-13T13:33:26.865Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (3):**
+**⚙️ Regular Functions (3):**
 
 - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
 - [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️

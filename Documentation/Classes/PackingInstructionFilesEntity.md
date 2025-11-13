@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.932Z*
+🕐 *Last updated: 2025-11-13T13:33:26.933Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [getMigrationRules](#getmigrationrules) (1 param) → `Collection` 🖥️
 - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️

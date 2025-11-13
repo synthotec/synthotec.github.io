@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.923Z*
+🕐 *Last updated: 2025-11-13T13:33:26.921Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [query Parts](#query parts) (1 param) 🖥️
 - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️

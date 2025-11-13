@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T13:29:02.603Z*
+🕐 *Last updated: 2025-11-13T13:33:26.578Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (14):**
+**⚙️ Regular Functions (14):**
 
 - [generateClassDocumentation](#generateclassdocumentation)
 - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`

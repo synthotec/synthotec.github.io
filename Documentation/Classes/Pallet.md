@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.018Z*
+🕐 *Last updated: 2025-11-13T13:33:27.021Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (15):**
+**⚙️ Regular Functions (15):**
 
 - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T13:29:02.395Z*
+🕐 *Last updated: 2025-11-13T13:33:26.359Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (1):**
+**⚙️ Regular Functions (1):**
 
 - [toObject](#toobject) → `Object`
 

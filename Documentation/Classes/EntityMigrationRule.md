@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.652Z*
+🕐 *Last updated: 2025-11-13T13:33:26.632Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 - [constructor](#constructor)
 
-**⚙️ Functions (6):**
+**⚙️ Regular Functions (6):**
 
 - [overwrite](#overwrite) (1 param) → `cs.EntityMigrationRule`
 - [fillIfBlank](#fillifblank) (1 param) → `cs.EntityMigrationRule`

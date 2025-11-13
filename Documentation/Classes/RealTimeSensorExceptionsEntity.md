@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.390Z*
+🕐 *Last updated: 2025-11-13T13:33:27.366Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (3):**
+**⚙️ Regular Functions (3):**
 
 - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
 - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T13:29:03.224Z*
+🕐 *Last updated: 2025-11-13T13:33:27.218Z*
 
 ---
 
@@ -44,7 +44,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (14):**
+**⚙️ Regular Functions (14):**
 
 - [setDefaultActions](#setdefaultactions)
 - [newFromText](#newfromtext) (1 param)

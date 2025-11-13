@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-13T13:29:02.480Z*
+🕐 *Last updated: 2025-11-13T13:33:26.446Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (19):**
+**⚙️ Regular Functions (19):**
 
 - [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `4D.EntitySelection` 🖥️
 - [applyFormulasToSelection](#applyformulastoselection) (3 params) → `Collection` 🖥️

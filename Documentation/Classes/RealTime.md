@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.316Z*
+🕐 *Last updated: 2025-11-13T13:33:27.299Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (5):**
+**⚙️ Regular Functions (5):**
 
 - [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
 - [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️

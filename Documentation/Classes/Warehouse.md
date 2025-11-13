@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.717Z*
+🕐 *Last updated: 2025-11-13T13:33:27.689Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (8):**
+**⚙️ Regular Functions (8):**
 
 - [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
 - [restExecuteFormula](#restexecuteformula) (1 param) → `Object`

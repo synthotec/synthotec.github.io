@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:03.549Z*
+🕐 *Last updated: 2025-11-13T13:33:27.519Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (17):**
+**⚙️ Regular Functions (17):**
 
 - [adjust](#adjust) (5 params) → `Object`
 - [move](#move) (5 params) → `Object`

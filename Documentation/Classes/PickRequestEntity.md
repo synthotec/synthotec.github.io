@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.126Z*
+🕐 *Last updated: 2025-11-13T13:33:27.133Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (11):**
+**⚙️ Regular Functions (11):**
 
 - [modify](#modify) → `Boolean` 🖥️
 - [cancel](#cancel)

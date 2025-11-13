@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:03.456Z*
+🕐 *Last updated: 2025-11-13T13:33:27.430Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (5):**
+**⚙️ Regular Functions (5):**
 
 - [getStaffEntity](#getstaffentity) → `cs.StaffEntity`
 - [getScannerObject](#getscannerobject) → `Object`

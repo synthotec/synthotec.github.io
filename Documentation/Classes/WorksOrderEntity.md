@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.747Z*
+🕐 *Last updated: 2025-11-13T13:33:27.719Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (10):**
+**⚙️ Regular Functions (10):**
 
 - [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
 - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️

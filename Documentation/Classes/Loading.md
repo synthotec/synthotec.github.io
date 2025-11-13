@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.835Z*
+🕐 *Last updated: 2025-11-13T13:33:26.827Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [stop](#stop)
 - [update](#update) (2 params)

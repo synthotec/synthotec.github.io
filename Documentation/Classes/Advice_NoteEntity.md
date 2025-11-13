@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.283Z*
+🕐 *Last updated: 2025-11-13T13:33:26.245Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (4):**
+**⚙️ Regular Functions (4):**
 
 - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
 - [print](#print) 🖥️

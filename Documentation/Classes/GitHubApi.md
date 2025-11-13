@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.808Z*
+🕐 *Last updated: 2025-11-13T13:33:26.800Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [constructor](#constructor)
 
-**⚙️ Functions (4):**
+**⚙️ Regular Functions (4):**
 
 - [newHttpRequest](#newhttprequest) (3 params) → `4D.HTTPRequest`
 - [createIssue](#createissue) (3 params) → `Object`

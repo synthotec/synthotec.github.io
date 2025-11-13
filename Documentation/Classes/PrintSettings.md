@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:03.179Z*
+🕐 *Last updated: 2025-11-13T13:33:27.176Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
 
 - [constructor](#constructor) (4 params)
 
-**⚙️ Functions (5):**
+**⚙️ Regular Functions (5):**
 
 - [display](#display) → `Boolean`
 - [load](#load) (2 params) → `cs.PrintSettings`

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:02.341Z*
+🕐 *Last updated: 2025-11-13T13:33:26.307Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (10):**
+**⚙️ Regular Functions (10):**
 
 - [getStatesCollection](#getstatescollection) → `Collection`
 - [ModifyStatus](#modifystatus) 🖥️

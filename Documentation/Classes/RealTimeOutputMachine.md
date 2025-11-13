@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T13:29:03.375Z*
+🕐 *Last updated: 2025-11-13T13:33:27.354Z*
 
 ---
 
@@ -36,7 +36,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (6):**
+**⚙️ Regular Functions (6):**
 
 - [ProcessColors](#processcolors)
 - [setPrimaryColors](#setprimarycolors) (2 params)

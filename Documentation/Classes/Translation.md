@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:03.689Z*
+🕐 *Last updated: 2025-11-13T13:33:27.660Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (4):**
+**⚙️ Regular Functions (4):**
 
 - [pushProcess](#pushprocess) (1 param) 🖥️
 - [popProcess](#popprocess) 🖥️

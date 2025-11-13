@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:29:02.913Z*
+🕐 *Last updated: 2025-11-13T13:33:26.913Z*
 
 ---
 
@@ -34,7 +34,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [_addMenuItem](#_addmenuitem) (1 param)
 - [_process](#_process) → `Variant`

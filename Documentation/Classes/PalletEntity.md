@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T13:29:03.034Z*
+🕐 *Last updated: 2025-11-13T13:33:27.039Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (9):**
+**⚙️ Regular Functions (9):**
 
 - [createPrintJob](#createprintjob) (2 params) → `Boolean`
 - [getWorksOrderCollection](#getworksordercollection) → `Collection`

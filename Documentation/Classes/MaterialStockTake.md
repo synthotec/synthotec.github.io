@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T13:29:02.899Z*
+🕐 *Last updated: 2025-11-13T13:33:26.896Z*
 
 ---
 
@@ -17,7 +17,7 @@ parent : Classes
 
 ### ⚙️ Functions
 
-**⚙️ Functions (5):**
+**⚙️ Regular Functions (5):**
 
 - [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
 - [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️

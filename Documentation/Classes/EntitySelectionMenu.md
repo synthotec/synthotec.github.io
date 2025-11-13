@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T13:29:02.662Z*
+🕐 *Last updated: 2025-11-13T13:33:26.641Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [display](#display) (1 param) → `4D.Entity`
 - [displayWithParents](#displaywithparents) (2 params) → `4D.Entity`

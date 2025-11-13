@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T13:29:02.687Z*
+🕐 *Last updated: 2025-11-13T13:33:26.672Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [calculateValue](#calculatevalue) (1 param) → `Real`
 - [processOrder](#processorder) (2 params) → `Boolean`

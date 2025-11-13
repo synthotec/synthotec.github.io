@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T13:29:02.409Z*
+🕐 *Last updated: 2025-11-13T13:33:26.374Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (10):**
+**⚙️ Regular Functions (10):**
 
 - [CollectionObject](#collectionobject) → `Object`
 - [SetIndex](#setindex) (1 param)

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-13T13:29:02.644Z*
+🕐 *Last updated: 2025-11-13T13:33:26.622Z*
 
 ---
 
@@ -32,7 +32,7 @@ parent : Classes
 
 - [constructor](#constructor) (2 params)
 
-**⚙️ Functions (10):**
+**⚙️ Regular Functions (10):**
 
 - [sync](#sync) (2 params) → `4D.Entity`
 - [_functionsExistChecks](#_functionsexistchecks)

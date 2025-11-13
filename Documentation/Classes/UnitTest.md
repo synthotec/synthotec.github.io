@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T13:29:03.696Z*
+🕐 *Last updated: 2025-11-13T13:33:27.665Z*
 
 ---
 
@@ -25,7 +25,7 @@ parent : Classes
 
 - [constructor](#constructor) (1 param)
 
-**⚙️ Functions (2):**
+**⚙️ Regular Functions (2):**
 
 - [evaluate](#evaluate) (2 params) → `cs._UnitTestResult`
 - [displayResultsAlert](#displayresultsalert)
