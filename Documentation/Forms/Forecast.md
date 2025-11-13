@@ -15,24 +15,36 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 25 |
-| **Generated** | 🕐 2025-11-13T10:41:15.437Z |
+| **Generated** | 🕐 2025-11-13T10:46:36.447Z |
 
 ## 🎯 Form Events
 
-This form handles **17** events:
+This form handles **17** of **44** possible events:
 
-| Column 1 | Column 2 |
-|:---------|:---------|
-| `onLoad` | `onCloseBox` |
-| `onValidate` | `onTimer` |
-| `onClick` | `onAfterKeystroke` |
-| `onOutsideCall` | `onAfterEdit` |
-| `onDoubleClick` | `onBeginDragOver` |
-| `onDrop` | `onBoundVariableChange` |
-| `onMenuSelect` | `onPageChange` |
-| `onPluginArea` |  |
-| `onDataChange` |  |
-| `onDragOver` |  |
+| Event | Status | Event | Status |
+|:------|:------:|:------|:------:|
+| `onLoad` | ✅ | `onUnload` | ❌ |
+| `onValidate` | ✅ | `onClick` | ✅ |
+| `onDoubleClick` | ✅ | `onHeader` | ❌ |
+| `onPrintingBreak` | ❌ | `onPrintingFooter` | ❌ |
+| `onDisplayDetail` | ❌ | `onOutsideCall` | ✅ |
+| `onBeginDragOver` | ✅ | `onDragOver` | ✅ |
+| `onDrop` | ✅ | `onAfterKeystroke` | ✅ |
+| `onMenuSelect` | ✅ | `onPluginArea` | ✅ |
+| `onAfterEdit` | ✅ | `onTimer` | ✅ |
+| `onBoundVariableChange` | ✅ | `onPageChange` | ✅ |
+| `onBeforeDataEntry` | ❌ | `onLoadRecord` | ❌ |
+| `onAfterSort` | ❌ | `onSelectionChange` | ❌ |
+| `onDataChange` | ✅ | `onExpand` | ❌ |
+| `onCollapse` | ❌ | `onBeforeKeystroke` | ❌ |
+| `onOpenDetail` | ❌ | `onCloseDetail` | ❌ |
+| `onResize` | ❌ | `onActivate` | ❌ |
+| `onDeactivate` | ❌ | `onOpenExternalLink` | ❌ |
+| `onWindowOpeningDenied` | ❌ | `onScroll` | ❌ |
+| `onCloseBox` | ✅ | `onDeleteAction` | ❌ |
+| `onRowResize` | ❌ | `onAlternativeClick` | ❌ |
+| `onLongClick` | ❌ | `onMouseEnter` | ❌ |
+| `onMouseLeave` | ❌ | `onMouseMove` | ❌ |
 
 ## 🧩 Form Objects
 

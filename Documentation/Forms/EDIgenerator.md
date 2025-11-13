@@ -16,13 +16,36 @@ parent : Forms
 | **Pages** | 2 |
 | **Form Method** | ✅ Yes |
 | **Object Methods** | 4 |
-| **Generated** | 🕐 2025-11-13T10:41:15.425Z |
+| **Generated** | 🕐 2025-11-13T10:46:36.437Z |
 
 ## 🎯 Form Events
 
-This form handles **1** events:
+This form handles **1** of **44** possible events:
 
-- `onLoad`
+| Event | Status | Event | Status |
+|:------|:------:|:------|:------:|
+| `onLoad` | ✅ | `onUnload` | ❌ |
+| `onValidate` | ❌ | `onClick` | ❌ |
+| `onDoubleClick` | ❌ | `onHeader` | ❌ |
+| `onPrintingBreak` | ❌ | `onPrintingFooter` | ❌ |
+| `onDisplayDetail` | ❌ | `onOutsideCall` | ❌ |
+| `onBeginDragOver` | ❌ | `onDragOver` | ❌ |
+| `onDrop` | ❌ | `onAfterKeystroke` | ❌ |
+| `onMenuSelect` | ❌ | `onPluginArea` | ❌ |
+| `onAfterEdit` | ❌ | `onTimer` | ❌ |
+| `onBoundVariableChange` | ❌ | `onPageChange` | ❌ |
+| `onBeforeDataEntry` | ❌ | `onLoadRecord` | ❌ |
+| `onAfterSort` | ❌ | `onSelectionChange` | ❌ |
+| `onDataChange` | ❌ | `onExpand` | ❌ |
+| `onCollapse` | ❌ | `onBeforeKeystroke` | ❌ |
+| `onOpenDetail` | ❌ | `onCloseDetail` | ❌ |
+| `onResize` | ❌ | `onActivate` | ❌ |
+| `onDeactivate` | ❌ | `onOpenExternalLink` | ❌ |
+| `onWindowOpeningDenied` | ❌ | `onScroll` | ❌ |
+| `onCloseBox` | ❌ | `onDeleteAction` | ❌ |
+| `onRowResize` | ❌ | `onAlternativeClick` | ❌ |
+| `onLongClick` | ❌ | `onMouseEnter` | ❌ |
+| `onMouseLeave` | ❌ | `onMouseMove` | ❌ |
 
 ## 🧩 Form Objects
 
