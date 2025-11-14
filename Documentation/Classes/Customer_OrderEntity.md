@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:21.849Z*
+🕐 *Last updated: 2025-11-14T00:07:27.678Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [createCofC](#createcofc) (3 params) → `$CofCEntity : cs.CofCEntity` 🖥️
   - [getAvailableForPickRequest](#getavailableforpickrequest) (1 param) → `$AvailableForPickRequest : Integer` 🖥️
   - [modifyOrderPickRequest](#modifyorderpickrequest) (1 param) → `$OrderPickRequestEntity : cs.OrderPickRequestEntity` 🖥️
@@ -35,7 +35,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

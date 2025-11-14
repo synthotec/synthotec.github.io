@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.434Z*
+🕐 *Last updated: 2025-11-14T00:07:28.258Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
   - [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
   - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
@@ -24,7 +24,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:23.078Z*
+🕐 *Last updated: 2025-11-14T00:07:28.943Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
   - [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
   - [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
@@ -23,7 +23,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

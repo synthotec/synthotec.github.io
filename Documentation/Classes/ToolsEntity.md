@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.189Z*
+🕐 *Last updated: 2025-11-14T00:07:29.054Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [NextToolChangeText](#nexttoolchangetext) → `Text`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

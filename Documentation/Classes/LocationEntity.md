@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.392Z*
+🕐 *Last updated: 2025-11-14T00:07:28.212Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [CheckRelated](#checkrelated) (1 param) → `Boolean` 🖥️
   - [printQRSheet](#printqrsheet) (2 params) 🖥️
   - [printLabel](#printlabel) (1 param) 🖥️
@@ -29,7 +29,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -11,28 +11,28 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-14T00:02:22.173Z*
+🕐 *Last updated: 2025-11-14T00:07:27.994Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (2)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [calculateValue](#calculatevalue) (1 param) → `Real`
   - [processOrder](#processorder) (2 params) → `Boolean`
   - [ItemCount](#itemcount) → `Integer`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `Title` | `Text` | - | The title of the item |
 | `Count` | `Integer` | `0` | Number of items in stock |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -51,7 +51,7 @@ $InitialCount: Starting inventory count
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

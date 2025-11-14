@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.233Z*
+🕐 *Last updated: 2025-11-14T00:07:28.046Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
   - [display](#display) (4 params) 🖥️
   - [triggerLog](#triggerlog) (2 params) 🖥️
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

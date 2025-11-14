@@ -9,19 +9,19 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.765Z*
+🕐 *Last updated: 2025-11-14T00:07:28.614Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
   - [populateEmojis](#populateemojis) 🖥️
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

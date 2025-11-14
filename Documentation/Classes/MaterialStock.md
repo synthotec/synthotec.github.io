@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.426Z*
+🕐 *Last updated: 2025-11-14T00:07:28.247Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [restLoadMaterialStock](#restloadmaterialstock) (1 param) → `Object`
   - [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`
   - [restLocateMaterialStock](#restlocatematerialstock) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

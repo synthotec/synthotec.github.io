@@ -7,20 +7,20 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:02:22.933Z*
+🕐 *Last updated: 2025-11-14T00:07:28.793Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (5)](#-properties)
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (5)](#properties)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [ZoneName](#zonename) → `Text`
   - [InRange](#inrange) → `Boolean`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -30,7 +30,7 @@ parent : Classes
 | `_WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
 | `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -48,7 +48,7 @@ Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObj
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Getters
 

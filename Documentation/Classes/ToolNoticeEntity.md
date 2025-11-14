@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.165Z*
+🕐 *Last updated: 2025-11-14T00:07:29.031Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [displayWorkOrders](#displayworkorders) 🖥️
   - [deactivate](#deactivate) 🖥️
   - [IsActive](#isactive) → `Boolean`
@@ -24,7 +24,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

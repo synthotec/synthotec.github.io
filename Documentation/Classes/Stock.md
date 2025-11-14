@@ -7,14 +7,14 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:23.074Z*
+🕐 *Last updated: 2025-11-14T00:07:28.939Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [adjust](#adjust) (5 params) → `$lockObject : Object`
   - [move](#move) (5 params) → `$lockObject : Object`
   - [SetNewStockQuarantineStatus](#setnewstockquarantinestatus) (1 param) → `$lockObject : Object`
@@ -34,7 +34,7 @@ parent : Classes
   - [GetQuarantineReason](#getquarantinereason) → `$QuarantineReason : Text`
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -52,7 +52,7 @@ Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

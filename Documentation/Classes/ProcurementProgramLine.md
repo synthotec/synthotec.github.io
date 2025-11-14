@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-14T00:02:22.761Z*
+🕐 *Last updated: 2025-11-14T00:07:28.609Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (18)](#-properties)
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (18)](#properties)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [setDefaultActions](#setdefaultactions)
   - [newFromText](#newfromtext) (1 param)
   - [newFromCustomerOrder](#newfromcustomerorder) (1 param)
@@ -49,7 +49,7 @@ parent : Classes
   - [ActionText->$ActionText](#actiontext->$actiontext) → `Text`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -72,7 +72,7 @@ parent : Classes
 | `WarehouseWithCustomerCode` | `Text` | - | - |
 | `ds` | *Not specified* | `DataStore(0)` | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -90,7 +90,7 @@ Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

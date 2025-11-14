@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.291Z*
+🕐 *Last updated: 2025-11-14T00:07:29.146Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
   - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
   - [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
@@ -35,7 +35,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

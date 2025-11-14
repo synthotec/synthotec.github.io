@@ -7,22 +7,22 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.219Z*
+🕐 *Last updated: 2025-11-14T00:07:28.036Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (9)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (9)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [setFontStyle](#setfontstyle) (5 params) → `cs.ExcelXMLFileStyle`
   - [setInteriorColor](#setinteriorcolor) (1 param) → `cs.ExcelXMLFileStyle`
   - [setNumberFormat](#setnumberformat) (1 param) → `cs.ExcelXMLFileStyle`
   - [setAlignment](#setalignment) (2 params) → `cs.ExcelXMLFileStyle`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -36,7 +36,7 @@ parent : Classes
 | `NumberFormat` | `Text` | `"General"` | - |
 | `ID` | `Text` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -47,7 +47,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

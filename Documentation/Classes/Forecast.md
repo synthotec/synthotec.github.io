@@ -9,19 +9,19 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.250Z*
+🕐 *Last updated: 2025-11-14T00:07:28.065Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [generate](#generate) → `$Success : Boolean` 🖥️
   - [generateForecastOrders](#generateforecastorders) 🖥️
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -7,19 +7,19 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.368Z*
+🕐 *Last updated: 2025-11-14T00:07:28.186Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [stop](#stop)
   - [update](#update) (2 params)
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -37,7 +37,7 @@ Class constructor($LoadingText : Text; $LoadingProgress : Real)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.690Z*
+🕐 *Last updated: 2025-11-14T00:07:28.531Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getDefault](#getdefault) (1 param) 🖥️
   - [populate](#populate) 🖥️
   - [getComputerPrinters](#getcomputerprinters) (1 param) → `cs.PrinterSelection` 🖥️
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

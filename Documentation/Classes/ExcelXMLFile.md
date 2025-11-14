@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-14T00:02:22.208Z*
+🕐 *Last updated: 2025-11-14T00:07:28.026Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (7)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (7)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
   - [setFreezePanes](#setfreezepanes) (2 params)
   - [addColumn](#addcolumn) (2 params)
@@ -29,7 +29,7 @@ parent : Classes
   - [generate](#generate)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -41,7 +41,7 @@ parent : Classes
 | `FreezeRowsToLeft` | `Integer` | `0` | - |
 | `ConditionalFormatting` | `Object` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -52,7 +52,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

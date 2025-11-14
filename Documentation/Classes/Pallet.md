@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.558Z*
+🕐 *Last updated: 2025-11-14T00:07:28.392Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
   - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.PalletSelection` 🖥️
   - [getUsingScanner](#getusingscanner) (2 params) → `cs.PalletEntity`
@@ -34,7 +34,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

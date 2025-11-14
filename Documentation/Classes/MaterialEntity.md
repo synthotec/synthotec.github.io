@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.405Z*
+🕐 *Last updated: 2025-11-14T00:07:28.226Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
@@ -23,7 +23,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

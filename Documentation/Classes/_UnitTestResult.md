@@ -7,21 +7,21 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-14T00:02:23.295Z*
+🕐 *Last updated: 2025-11-14T00:07:29.150Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (5)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (5)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [TestFormulaText](#testformulatext) → `Text`
   - [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) → `Text`
   - [StatusEmoji](#statusemoji) → `Text`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -31,7 +31,7 @@ parent : Classes
 | `TestFormula` | `4D.Function` | - | - |
 | `TestFormulaParameters` | `Collection` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -42,7 +42,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Getters
 

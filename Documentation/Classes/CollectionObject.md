@@ -7,14 +7,14 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:21.803Z*
+🕐 *Last updated: 2025-11-14T00:07:27.625Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [CollectionObject](#collectionobject) → `$CollectionObject : Object`
   - [SetIndex](#setindex) (1 param)
   - [GetIndex](#getindex) → `$index : Integer`
@@ -27,7 +27,7 @@ parent : Classes
   - [GetCurrentEntity](#getcurrententity) → `$currentEntity : 4D.Entity`
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -45,7 +45,7 @@ Class constructor($valuesCollection : Collection; $placeHolderText : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

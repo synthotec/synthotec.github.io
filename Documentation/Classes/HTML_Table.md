@@ -12,21 +12,21 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-14T00:02:22.360Z*
+🕐 *Last updated: 2025-11-14T00:07:28.179Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (4 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (4 params)
+- [⚙️ Functions](#functions)
   - [AddRow](#addrow) (5 params)
   - [Output](#output) → `$Output_table : Text`
   - [HTML_Cell](#html_cell) (7 params) → `Object`
   - [merge](#merge) (2 params)
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -46,7 +46,7 @@ Class constructor($BorderWidth : Integer; $CellPadding : Integer; $UpperCase : B
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

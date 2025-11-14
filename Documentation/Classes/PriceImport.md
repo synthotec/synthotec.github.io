@@ -7,19 +7,19 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.684Z*
+🕐 *Last updated: 2025-11-14T00:07:28.525Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (4)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (4)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [importPrices](#importprices) → `$Result : Object`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -28,7 +28,7 @@ parent : Classes
 | `DataLines` | *Not specified* | `[]` | - |
 | `CellCollection` | *Not specified* | `[]` | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -39,7 +39,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

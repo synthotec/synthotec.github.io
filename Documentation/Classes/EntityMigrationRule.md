@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.124Z*
+🕐 *Last updated: 2025-11-14T00:07:27.954Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (2)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [overwrite](#overwrite) (1 param) → `cs.EntityMigrationRule`
   - [fillIfBlank](#fillifblank) (1 param) → `cs.EntityMigrationRule`
   - [addFormula](#addformula) (3 params) → `cs.EntityMigrationRule`
@@ -24,14 +24,14 @@ parent : Classes
   - [apply](#apply) (2 params)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `FormulaObjectCollection` | *Not specified* | `[]` | - |
 | `CriteriaCollection` | *Not specified* | `[]` | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -42,7 +42,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

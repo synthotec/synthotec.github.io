@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.791Z*
+🕐 *Last updated: 2025-11-14T00:07:28.640Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [query OurPartName](#query ourpartname) (1 param) 🖥️
   - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
   - [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
@@ -35,7 +35,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

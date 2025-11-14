@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.156Z*
+🕐 *Last updated: 2025-11-14T00:07:27.978Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [createGitHubIssue](#creategithubissue)
   - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) → `cs.UI.ListBoxMeta`
   - [GitHubIssueText](#githubissuetext) → `Text`
@@ -26,7 +26,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

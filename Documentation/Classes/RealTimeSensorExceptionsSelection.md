@@ -9,18 +9,18 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T00:02:22.930Z*
+🕐 *Last updated: 2025-11-14T00:07:28.789Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [acknowledge](#acknowledge) 🖥️
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

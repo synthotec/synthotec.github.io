@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.147Z*
+🕐 *Last updated: 2025-11-14T00:07:27.971Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [fillGitHubIssues](#fillgithubissues)
   - [setDebugInfo](#setdebuginfo) (1 param) 🖥️
   - [notify](#notify)
@@ -23,7 +23,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

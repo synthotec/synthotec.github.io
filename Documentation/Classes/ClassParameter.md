@@ -11,18 +11,18 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-14T00:02:21.787Z*
+🕐 *Last updated: 2025-11-14T00:07:27.606Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [toObject](#toobject) → `Object`
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -42,7 +42,7 @@ Stores metadata about a function parameter
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

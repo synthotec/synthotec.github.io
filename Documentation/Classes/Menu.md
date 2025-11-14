@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.445Z*
+🕐 *Last updated: 2025-11-14T00:07:28.268Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (6)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (6)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [addSeperator](#addseperator)
   - [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
   - [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
@@ -25,7 +25,7 @@ parent : Classes
   - [_release](#_release)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -36,7 +36,7 @@ parent : Classes
 | `_MenuItemCollection` | `Collection` | - | - |
 | `Cancelled` | `Boolean` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -53,7 +53,7 @@ Class constructor($BasicMenuItems : Collection)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

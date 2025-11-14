@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.716Z*
+🕐 *Last updated: 2025-11-14T00:07:28.559Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (5)](#-properties)
-- [🏗️ Constructor](#-constructor) (4 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (5)](#properties)
+- [🏗️ Constructor](#constructor) (4 params)
+- [⚙️ Functions](#functions)
   - [display](#display) → `$Accepted : Boolean`
   - [load](#load) (2 params) → `cs.PrintSettings`
   - [save](#save) (1 param) → `cs.PrintSettings`
@@ -23,7 +23,7 @@ parent : Classes
   - [restore](#restore) → `$Success : Boolean`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -33,7 +33,7 @@ parent : Classes
 | `Copies` | `Integer` | - | - |
 | `CurrentPrinter` | `Text` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -53,7 +53,7 @@ Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : I
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

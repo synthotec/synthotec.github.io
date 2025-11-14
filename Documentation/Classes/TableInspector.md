@@ -11,14 +11,14 @@ parent : Classes
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-🕐 *Last updated: 2025-11-14T00:02:23.149Z*
+🕐 *Last updated: 2025-11-14T00:07:29.016Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [_parseCatalog](#_parsecatalog)
   - [_parseTableAttributes](#_parsetableattributes) (1 param)
   - [_parseField](#_parsefield) (1 param) → `Object`
@@ -35,7 +35,7 @@ parent : Classes
   - [saveToFile](#savetofile)
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -54,7 +54,7 @@ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

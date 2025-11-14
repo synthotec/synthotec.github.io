@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-14T00:02:21.883Z*
+🕐 *Last updated: 2025-11-14T00:07:27.715Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `$DuplicateEntitySelection : 4D.EntitySelection` 🖥️
   - [applyFormulasToSelection](#applyformulastoselection) (3 params) → `$LockedEntityCollection : Collection` 🖥️
   - [lockEntitySelection](#lockentityselection) (2 params) → `$LockedSelectionObject : Object` 🖥️
@@ -38,7 +38,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

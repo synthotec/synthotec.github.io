@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:23.039Z*
+🕐 *Last updated: 2025-11-14T00:07:28.904Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (1)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (1)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
   - [createChannel](#createchannel) (1 param) → `Text`
   - [setChannelID](#setchannelid) (1 param) → `Boolean`
@@ -25,13 +25,13 @@ parent : Classes
   - [deleteMessage](#deletemessage) (1 param) → `Boolean`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `ChannelID` | `Text` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -48,7 +48,7 @@ Class constructor($ChannelName : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

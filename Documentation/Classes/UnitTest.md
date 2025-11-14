@@ -7,21 +7,21 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T00:02:23.230Z*
+🕐 *Last updated: 2025-11-14T00:07:29.088Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (3)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (3)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
   - [displayResultsAlert](#displayresultsalert)
   - [Success](#success) → `Boolean`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -29,7 +29,7 @@ parent : Classes
 | `UnitTestResults` | `Collection` | - | - |
 | `FailedTestCount` | `Integer` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -46,7 +46,7 @@ Class constructor($Description : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

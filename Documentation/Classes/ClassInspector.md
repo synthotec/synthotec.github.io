@@ -12,15 +12,15 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-14T00:02:21.784Z*
+🕐 *Last updated: 2025-11-14T00:07:27.602Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (10)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (10)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [_parse](#_parse)
   - [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
   - [_removeInlineComment](#_removeinlinecomment) (1 param) → `Text`
@@ -37,7 +37,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
   - [saveToFile](#savetofile) → `4D.File`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -53,7 +53,7 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File) |
 | `ExistingJSON` | `Object` | - | Previously saved JSON for comment merging |
 | `Changes` | `Collection` | - | List of changes detected |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -70,7 +70,7 @@ Class constructor($File : 4D.File)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

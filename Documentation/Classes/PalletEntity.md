@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.576Z*
+🕐 *Last updated: 2025-11-14T00:07:28.410Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
   - [getWorksOrderCollection](#getworksordercollection) → `Collection`
   - [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
@@ -32,7 +32,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

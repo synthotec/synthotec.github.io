@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ Set up paths
 
-🕐 *Last updated: 2025-11-14T00:02:22.973Z*
+🕐 *Last updated: 2025-11-14T00:07:28.836Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (3)](#-properties)
-- [🏗️ Constructor](#-constructor)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (3)](#properties)
+- [🏗️ Constructor](#constructor)
+- [⚙️ Functions](#functions)
   - [_loadRelationships](#_loadrelationships)
   - [discoverRelationships](#discoverrelationships) → `Integer`
   - [_discoverFormTableLinks](#_discoverformtablelinks)
@@ -33,7 +33,7 @@ parent : Classes
   - [toJSON](#tojson) → `Text`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -41,7 +41,7 @@ parent : Classes
 | `Relationships` | `Collection` | - | - |
 | `Changes` | `Collection` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -52,7 +52,7 @@ Class constructor
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-14T00:02:22.064Z*
+🕐 *Last updated: 2025-11-14T00:07:27.895Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (1)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (1)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [generateClassDocumentation](#generateclassdocumentation)
   - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
   - [generateTableDocumentation](#generatetabledocumentation) (1 param)
@@ -37,13 +37,13 @@ parent : Classes
   - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `CompiledClassesObject` | `Object` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -62,7 +62,7 @@ This.generateClassDocumentation()
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

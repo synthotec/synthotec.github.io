@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-14T00:02:22.114Z*
+🕐 *Last updated: 2025-11-14T00:07:27.943Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (6)](#-properties)
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (6)](#properties)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
   - [_functionsExistChecks](#_functionsexistchecks)
   - [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
@@ -39,7 +39,7 @@ parent : Classes
   - [MigrationPropertyExists](#migrationpropertyexists) → `Boolean`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -50,7 +50,7 @@ parent : Classes
 | `LinkRemoteSelection` | `4D.EntitySelection` | - | Remote entities available for linking |
 | `Loading` | `cs.Loading` | - | Loading indicator for migration progress |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -70,7 +70,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

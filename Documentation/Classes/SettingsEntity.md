@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.013Z*
+🕐 *Last updated: 2025-11-14T00:07:28.875Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [setValue](#setvalue) (1 param) → `Boolean` 🖥️
   - [setObject](#setobject) (1 param) → `Boolean` 🖥️
   - [getValue](#getvalue) (1 param) → `Variant` 🖥️
@@ -24,7 +24,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

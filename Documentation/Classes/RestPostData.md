@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-14T00:02:22.979Z*
+🕐 *Last updated: 2025-11-14T00:07:28.841Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (2)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [getStaffEntity](#getstaffentity) → `cs.StaffEntity`
   - [getScannerObject](#getscannerobject) → `Object`
   - [getScannerText](#getscannertext) → `Text`
@@ -23,14 +23,14 @@ parent : Classes
   - [toObject](#toobject) → `Object`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `RestPostJson; ScannerData; PromptResult` | `Text` | - | - |
 | `StaffID` | `Integer` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -47,7 +47,7 @@ Class constructor($RestPostDataObject : Object)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

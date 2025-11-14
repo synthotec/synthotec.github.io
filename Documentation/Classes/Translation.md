@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:23.224Z*
+🕐 *Last updated: 2025-11-14T00:07:29.083Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [pushProcess](#pushprocess) (1 param) 🖥️
   - [popProcess](#popprocess) 🖥️
   - [translate](#translate) (2 params) → `Text` 🖥️
@@ -25,7 +25,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

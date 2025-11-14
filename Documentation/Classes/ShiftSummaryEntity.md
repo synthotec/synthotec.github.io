@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.026Z*
+🕐 *Last updated: 2025-11-14T00:07:28.889Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
   - [ShiftSymbol](#shiftsymbol) → `Text`
   - [ShiftColor](#shiftcolor) → `Integer`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

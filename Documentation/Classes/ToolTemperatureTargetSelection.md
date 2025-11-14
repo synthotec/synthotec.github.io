@@ -9,19 +9,19 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T00:02:23.209Z*
+🕐 *Last updated: 2025-11-14T00:07:29.074Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [CheckInRange](#checkinrange) (1 param) → `Boolean`
   - [CheckTargetsSet](#checktargetsset) (1 param) → `Boolean`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

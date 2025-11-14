@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.380Z*
+🕐 *Last updated: 2025-11-14T00:07:28.200Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getUsingScanner](#getusingscanner) (1 param) → `cs.LocationEntity`
   - [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
   - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
@@ -23,7 +23,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

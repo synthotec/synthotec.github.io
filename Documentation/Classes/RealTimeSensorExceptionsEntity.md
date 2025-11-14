@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.925Z*
+🕐 *Last updated: 2025-11-14T00:07:28.785Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
   - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
   - [sendEmail](#sendemail) → `Boolean`
@@ -26,7 +26,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-14T00:02:22.913Z*
+🕐 *Last updated: 2025-11-14T00:07:28.770Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (10)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (10)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [ProcessColors](#processcolors)
   - [setPrimaryColors](#setprimarycolors) (2 params)
   - [setAlternatingColors](#setalternatingcolors) (2 params)
@@ -44,7 +44,7 @@ parent : Classes
   - [UnicodeSymbolsText](#unicodesymbolstext) → `Text`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -59,7 +59,7 @@ parent : Classes
 | `QuantityMade` | `Integer` | - | - |
 | `QuantityScrapped` | `Integer` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -76,7 +76,7 @@ Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

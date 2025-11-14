@@ -7,29 +7,29 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-14T00:02:22.135Z*
+🕐 *Last updated: 2025-11-14T00:07:27.963Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#-properties)
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (2)](#properties)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [display](#display) (1 param) → `4D.Entity`
   - [displayWithParents](#displaywithparents) (2 params) → `4D.Entity`
   - [selectedEntity](#selectedentity) → `4D.Entity`
   - [selectedEntity](#selectedentity) (1 param)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `EntitySelection` | `4D.EntitySelection` | - | - |
 | `_selectedEntity` | `4D.Entity` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -47,7 +47,7 @@ Class constructor($EntitySelection : 4D.EntitySelection; $ParentPath : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

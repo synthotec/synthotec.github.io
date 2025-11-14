@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:21.729Z*
+🕐 *Last updated: 2025-11-14T00:07:27.543Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getStatesCollection](#getstatescollection) → `Collection`
   - [ModifyStatus](#modifystatus) 🖥️
   - [AddComment](#addcomment) (2 params) 🖥️
@@ -48,7 +48,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.815Z*
+🕐 *Last updated: 2025-11-14T00:07:28.666Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
   - [OutstandingQuantity](#outstandingquantity) → `Real`
   - [value](#value) → `Real`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

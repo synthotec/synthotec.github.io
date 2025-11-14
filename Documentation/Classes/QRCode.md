@@ -7,14 +7,14 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:02:22.823Z*
+🕐 *Last updated: 2025-11-14T00:07:28.675Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [fillBoxLabelsQR](#fillboxlabelsqr) (1 param)
   - [fillPalletQR](#fillpalletqr) (1 param)
   - [fillPrinterQR](#fillprinterqr) (1 param)
@@ -24,7 +24,7 @@ parent : Classes
   - [PrimaryKey](#primarykey) → `Integer`
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -42,7 +42,7 @@ Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

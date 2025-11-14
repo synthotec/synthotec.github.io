@@ -11,15 +11,15 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-14T00:02:22.084Z*
+🕐 *Last updated: 2025-11-14T00:07:27.914Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#-properties)
-- [🏗️ Constructor](#-constructor) (2 params)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (2)](#properties)
+- [🏗️ Constructor](#constructor) (2 params)
+- [⚙️ Functions](#functions)
   - [addTo](#addto) (1 param)
   - [addCc](#addcc) (1 param)
   - [addBcc](#addbcc) (1 param)
@@ -36,14 +36,14 @@ parent : Classes
   - [Sending notification email](#sending-notification-email)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `EmailObject` | `Object` | - | - |
 | `_PermissionFooterCollection` | `Collection` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -61,7 +61,7 @@ Class constructor($Subject : Text; $HTML_Body : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

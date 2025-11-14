@@ -7,15 +7,15 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-14T00:02:22.322Z*
+🕐 *Last updated: 2025-11-14T00:07:28.138Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (1)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (1)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [setMaxFontSize](#setmaxfontsize) (2 params)
   - [setBestObjectSize](#setbestobjectsize) (1 param)
   - [Focus](#focus)
@@ -76,13 +76,13 @@ parent : Classes
   - [HelpTip](#helptip) (1 param)
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `Name` | `Text` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -99,7 +99,7 @@ Class constructor($FormObjectName : Text)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

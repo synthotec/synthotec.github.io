@@ -9,20 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:23.048Z*
+🕐 *Last updated: 2025-11-14T00:07:28.913Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
   - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
   - [FullName](#fullname) → `Text`
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

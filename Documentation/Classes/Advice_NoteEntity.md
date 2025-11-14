@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:21.661Z*
+🕐 *Last updated: 2025-11-14T00:07:27.471Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
   - [print](#print) 🖥️
   - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
@@ -23,7 +23,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

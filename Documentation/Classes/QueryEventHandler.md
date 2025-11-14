@@ -7,21 +7,21 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:02:22.833Z*
+🕐 *Last updated: 2025-11-14T00:07:28.687Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (6)](#-properties)
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [📋 Properties (6)](#properties)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [setResult](#setresult) (2 params)
   - [valueType](#valuetype) → `Integer`
   - [booleanResult](#booleanresult) → `Variant`
 ---
 
-## 📋 Properties
+## Properties {#properties}
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
@@ -32,7 +32,7 @@ parent : Classes
 | `dataClassName` | `Text` | - | - |
 | `QueryEventObject` | `Object` | - | - |
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -49,7 +49,7 @@ Class constructor($QueryEventObject : Object)
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

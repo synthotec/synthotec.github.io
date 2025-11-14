@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:23.256Z*
+🕐 *Last updated: 2025-11-14T00:07:29.114Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
   - [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
   - [restTest](#resttest) (1 param) → `Object`
@@ -27,7 +27,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

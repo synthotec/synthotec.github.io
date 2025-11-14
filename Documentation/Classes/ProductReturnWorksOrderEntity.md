@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.804Z*
+🕐 *Last updated: 2025-11-14T00:07:28.654Z*
 
 ---
 

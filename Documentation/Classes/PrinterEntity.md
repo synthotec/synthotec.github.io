@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:02:22.701Z*
+🕐 *Last updated: 2025-11-14T00:07:28.544Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [getLabelPaperOptions](#getlabelpaperoptions) → `Collection`
   - [updateOptions](#updateoptions) 🖥️
   - [printJobs](#printjobs) 🖥️
@@ -29,7 +29,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

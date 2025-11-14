@@ -9,13 +9,13 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:02:22.849Z*
+🕐 *Last updated: 2025-11-14T00:07:28.706Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [⚙️ Functions](#️-functions)
+- [⚙️ Functions](#functions)
   - [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
   - [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️
   - [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
@@ -26,7 +26,7 @@ parent : Classes
 - [🔗 Related Items](#related-items)
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 

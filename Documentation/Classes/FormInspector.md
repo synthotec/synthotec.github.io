@@ -11,14 +11,14 @@ parent : Classes
 
 🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
 
-🕐 *Last updated: 2025-11-14T00:02:22.284Z*
+🕐 *Last updated: 2025-11-14T00:07:28.099Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [🏗️ Constructor](#-constructor) (1 param)
-- [⚙️ Functions](#️-functions)
+- [🏗️ Constructor](#constructor) (1 param)
+- [⚙️ Functions](#functions)
   - [_parseForm](#_parseform)
   - [_countObjects](#_countobjects) (1 param)
   - [_getTableName](#_gettablename) (1 param) → `Text`
@@ -28,7 +28,7 @@ parent : Classes
   - [saveToFile](#savetofile)
 ---
 
-## 🏗️ Constructor
+## Constructor {#constructor}
 
 #### constructor {#constructor}
  `[🏗️ constructor]`
@@ -47,7 +47,7 @@ Parse 4D form.4DForm file and extract form metadata for documentation
 
 ---
 
-## ⚙️ Functions
+## Functions {#functions}
 
 ### Regular Functions
 
