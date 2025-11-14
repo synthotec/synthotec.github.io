@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.712Z*
+🕐 *Last updated: 2025-11-14T00:18:21.121Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [getByMachine](#getbymachine) (1 param) → `cs.RealTimeMachinesEntity`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

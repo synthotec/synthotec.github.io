@@ -9,13 +9,14 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.521Z*
+🕐 *Last updated: 2025-11-14T00:18:20.925Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Related Items {#related-items}

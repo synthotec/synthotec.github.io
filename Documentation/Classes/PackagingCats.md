@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.290Z*
+🕐 *Last updated: 2025-11-14T00:18:20.696Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

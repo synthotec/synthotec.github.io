@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:27.989Z*
+🕐 *Last updated: 2025-11-14T00:18:20.354Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - [sendEmailReport](#sendemailreport)
   - [sendSlackReport](#sendslackreport) → `$Success : Boolean`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

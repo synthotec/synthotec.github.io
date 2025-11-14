@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:29.031Z*
+🕐 *Last updated: 2025-11-14T00:18:21.424Z*
 
 ---
 
@@ -22,6 +22,7 @@ parent : Classes
   - [RemainingRuns](#remainingruns) → `Integer`
   - [ActiveUntilText](#activeuntiltext) → `Text`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

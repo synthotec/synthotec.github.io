@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.200Z*
+🕐 *Last updated: 2025-11-14T00:18:20.581Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
   - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
   - [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

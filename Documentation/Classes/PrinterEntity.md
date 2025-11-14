@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.544Z*
+🕐 *Last updated: 2025-11-14T00:18:20.955Z*
 
 ---
 
@@ -27,6 +27,7 @@ parent : Classes
   - [isDocumentPrinter](#isdocumentprinter) → `Boolean`
   - [TypeDisplay](#typedisplay) → `Text`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

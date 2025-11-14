@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:29.054Z*
+🕐 *Last updated: 2025-11-14T00:18:21.446Z*
 
 ---
 
@@ -20,6 +20,7 @@ parent : Classes
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [NextToolChangeText](#nexttoolchangetext) → `Text`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

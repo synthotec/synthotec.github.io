@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.869Z*
+🕐 *Last updated: 2025-11-14T00:18:21.269Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
   - [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.717Z*
+🕐 *Last updated: 2025-11-14T00:18:21.126Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
   - [UniChar](#unichar) → `Text`
   - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

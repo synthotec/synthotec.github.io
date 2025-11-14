@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.640Z*
+🕐 *Last updated: 2025-11-14T00:18:21.049Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
   - [HasMigrationID](#hasmigrationid) → `Boolean`
   - [MainToolRegrind](#maintoolregrind) (1 param)
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.066Z*
+🕐 *Last updated: 2025-11-14T00:18:20.434Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [Consignment](#consignment) → `Boolean`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

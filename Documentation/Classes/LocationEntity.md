@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.212Z*
+🕐 *Last updated: 2025-11-14T00:18:20.597Z*
 
 ---
 
@@ -27,6 +27,7 @@ parent : Classes
   - [ListboxMetaExpression](#listboxmetaexpression) → `Object`
   - [Level](#level) → `Integer`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

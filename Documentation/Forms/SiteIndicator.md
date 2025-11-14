@@ -16,7 +16,7 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SiteIndicator/method.4dm) |
-| **Generated** | 🕐 2025-11-14T00:07:30.297Z |
+| **Generated** | 🕐 2025-11-14T00:18:22.356Z |
 
 ---
 

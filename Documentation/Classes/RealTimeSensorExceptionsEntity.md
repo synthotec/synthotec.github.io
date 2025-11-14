@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.785Z*
+🕐 *Last updated: 2025-11-14T00:18:21.189Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
   - [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
   - [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

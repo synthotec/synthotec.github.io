@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T00:07:28.789Z*
+🕐 *Last updated: 2025-11-14T00:18:21.193Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [acknowledge](#acknowledge) 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

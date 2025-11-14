@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.549Z*
+🕐 *Last updated: 2025-11-14T00:18:20.960Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [print](#print) → `$Success : Boolean` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

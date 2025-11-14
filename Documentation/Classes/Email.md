@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-14T00:07:27.914Z*
+🕐 *Last updated: 2025-11-14T00:18:20.278Z*
 
 ---
 
@@ -34,7 +34,6 @@ parent : Classes
   - [send](#send) → `$EmailSent : Boolean`
 - [📚 Examples (1)](#examples)
   - [Sending notification email](#sending-notification-email)
-  
 ---
 
 ## Properties {#properties}

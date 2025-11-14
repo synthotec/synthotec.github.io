@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:29.114Z*
+🕐 *Last updated: 2025-11-14T00:18:21.505Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
   - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
   - [restScanTest](#restscantest) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

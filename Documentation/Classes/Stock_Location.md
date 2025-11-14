@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.943Z*
+🕐 *Last updated: 2025-11-14T00:18:21.338Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
   - [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
   - [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

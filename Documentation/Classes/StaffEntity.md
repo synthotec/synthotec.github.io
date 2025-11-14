@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.913Z*
+🕐 *Last updated: 2025-11-14T00:18:21.308Z*
 
 ---
 
@@ -20,6 +20,7 @@ parent : Classes
   - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
   - [FullName](#fullname) → `Text`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

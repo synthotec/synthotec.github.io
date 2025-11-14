@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-14T00:07:27.715Z*
+🕐 *Last updated: 2025-11-14T00:18:20.074Z*
 
 ---
 
@@ -36,6 +36,7 @@ parent : Classes
   - [_updateServer](#_updateserver) 🖥️
   - [_unpackServerUpdate->$UpdateFolder](#_unpackserverupdate->$updatefolder) → `4D.Folder` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

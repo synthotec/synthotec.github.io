@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:27.978Z*
+🕐 *Last updated: 2025-11-14T00:18:20.342Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
   - [FirstOccurrence](#firstoccurrence) → `Text`
   - [LastOccurrence](#lastoccurrence) → `Text`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

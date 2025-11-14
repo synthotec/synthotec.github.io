@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.875Z*
+🕐 *Last updated: 2025-11-14T00:18:21.274Z*
 
 ---
 
@@ -22,6 +22,7 @@ parent : Classes
   - [getObject](#getobject) (1 param) → `Object` 🖥️
   - [reset](#reset) → `Boolean` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

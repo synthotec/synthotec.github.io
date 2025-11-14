@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.909Z*
+🕐 *Last updated: 2025-11-14T00:18:21.304Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
   - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
   - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

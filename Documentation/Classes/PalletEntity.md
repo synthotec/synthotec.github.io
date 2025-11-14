@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:28.410Z*
+🕐 *Last updated: 2025-11-14T00:18:20.818Z*
 
 ---
 
@@ -30,6 +30,7 @@ parent : Classes
   - [QRObject](#qrobject) → `Object`
   - [HasMigrationID](#hasmigrationid) → `Boolean`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

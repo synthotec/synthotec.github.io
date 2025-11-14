@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:27.678Z*
+🕐 *Last updated: 2025-11-14T00:18:20.036Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
   - [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
   - [OutstandingToDeliver](#outstandingtodeliver) (1 param)
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

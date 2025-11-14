@@ -9,13 +9,14 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:28.681Z*
+🕐 *Last updated: 2025-11-14T00:18:21.094Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Related Items {#related-items}

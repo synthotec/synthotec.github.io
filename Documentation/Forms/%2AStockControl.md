@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/%2AStockControl/method.4dm) |
 | **Object Methods** | 29 |
-| **Generated** | 🕐 2025-11-14T00:07:29.964Z |
+| **Generated** | 🕐 2025-11-14T00:18:22.060Z |
 
 ---
 

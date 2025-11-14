@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:29.083Z*
+🕐 *Last updated: 2025-11-14T00:18:21.476Z*
 
 ---
 
@@ -23,6 +23,7 @@ parent : Classes
   - [CurrentProcess](#currentprocess) → `Text`
   - [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

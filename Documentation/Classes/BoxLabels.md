@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:07:27.501Z*
+🕐 *Last updated: 2025-11-14T00:18:19.873Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
   - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
   - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

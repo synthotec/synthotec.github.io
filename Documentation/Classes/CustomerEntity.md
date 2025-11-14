@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:07:27.644Z*
+🕐 *Last updated: 2025-11-14T00:18:20.006Z*
 
 ---
 
@@ -20,6 +20,7 @@ parent : Classes
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [HasMigrationID](#hasmigrationid) → `Boolean`
 - [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}

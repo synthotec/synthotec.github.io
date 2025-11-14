@@ -15,7 +15,7 @@ parent : Forms
 | **Window Sizing** | X: fixed, Y: fixed |
 | **Pages** | 2 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_CustomerTransport/method.4dm) |
-| **Generated** | 🕐 2025-11-14T00:07:30.023Z |
+| **Generated** | 🕐 2025-11-14T00:18:22.116Z |
 
 ---
 

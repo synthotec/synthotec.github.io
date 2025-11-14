@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-14T00:07:28.609Z*
+🕐 *Last updated: 2025-11-14T00:18:21.019Z*
 
 ---
 
