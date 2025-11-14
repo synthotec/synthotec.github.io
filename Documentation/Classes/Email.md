@@ -34,6 +34,7 @@ parent : Classes
   - [send](#send) → `$EmailSent : Boolean`
 - [📚 Examples (1)](#examples)
   - [Sending notification email](#sending-notification-email)
+  
 ---
 
 ## Properties {#properties}
