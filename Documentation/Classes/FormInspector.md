@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
 
-🕐 *Last updated: 2025-11-14T16:45:50.242Z*
+🕐 *Last updated: 2025-11-14T16:53:00.640Z*
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.868Z*
+🕐 *Last updated: 2025-11-14T16:53:01.218Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [EndDateTime](#enddatetime) 🔍 → `cs.System.DateTime`
     - [MouldOpenTime](#mouldopentime) 🔍 → `Real`
     - [StartTime](#starttime) 🔍 → `Time`
@@ -43,7 +43,7 @@ Returns a collection of cs.RealTimeTemperatureSensor
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### EndDateTime {#enddatetime}
  `[🔍 get only, 🖥️ local]`

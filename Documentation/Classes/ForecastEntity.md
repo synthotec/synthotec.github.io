@@ -9,14 +9,14 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.212Z*
+🕐 *Last updated: 2025-11-14T16:53:00.611Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Consignment](#consignment) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
@@ -24,7 +24,7 @@ parent : Classes
 
 ## Functions {#functions}
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Consignment {#consignment}
  `[🔍 get only]`

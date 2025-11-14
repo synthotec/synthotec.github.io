@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-14T16:45:50.137Z*
+🕐 *Last updated: 2025-11-14T16:53:00.534Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
   - **Regular Functions**
     - [calculateValue](#calculatevalue) (1 param) → `Real`
     - [processOrder](#processorder) (2 params) → `Boolean`
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [ItemCount](#itemcount) 🔍 → `Integer`
 ---
 
@@ -96,7 +96,7 @@ $Quantity: Number of items to order
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### ItemCount {#itemcount}
  `[🔍 get only]`

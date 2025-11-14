@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.354Z*
+🕐 *Last updated: 2025-11-14T16:53:00.755Z*
 
 ---
 
@@ -22,7 +22,7 @@ parent : Classes
     - [printLabel](#printlabel) (1 param) 🖥️
     - [generateQR](#generateqr) → `Picture` 🖥️
     - [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [DisplayName](#displayname) 🔍 → `Text`
     - [Level](#level) 🔍 → `Integer`
     - [ListBoxDisplayName](#listboxdisplayname) 🔍 → `Text`
@@ -106,7 +106,7 @@ Function getStockListboxCollection -> $StockListboxCollection : Collection
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### DisplayName {#displayname}
  `[🔍 get only, 🖥️ local]`

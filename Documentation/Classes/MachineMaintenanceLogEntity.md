@@ -9,14 +9,14 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.359Z*
+🕐 *Last updated: 2025-11-14T16:53:00.760Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [TimeStamp](#timestamp) 🔍 → `Text`
     - [TimeStampWithTab](#timestampwithtab) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
@@ -25,7 +25,7 @@ parent : Classes
 
 ## Functions {#functions}
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### TimeStamp {#timestamp}
  `[🔍 get only, 🖥️ local]`

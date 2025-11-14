@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.829Z*
+🕐 *Last updated: 2025-11-14T16:53:01.179Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [OutstandingQuantity](#outstandingquantity) 🔍 → `Real`
     - [value](#value) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
@@ -40,7 +40,7 @@ Function createReceipt -> cs.PurchaseReceiptsEntity
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### OutstandingQuantity {#outstandingquantity}
  `[🔍 get only, 🖥️ local]`

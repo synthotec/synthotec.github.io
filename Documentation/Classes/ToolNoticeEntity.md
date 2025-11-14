@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:51.179Z*
+🕐 *Last updated: 2025-11-14T16:53:01.534Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [displayWorkOrders](#displayworkorders) 🖥️
     - [deactivate](#deactivate) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [ActiveUntilText](#activeuntiltext) 🔍 → `Text`
     - [IsActive](#isactive) 🔍 → `Boolean`
     - [RemainingRuns](#remainingruns) 🔍 → `Integer`
@@ -49,7 +49,7 @@ Function deactivate
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### ActiveUntilText {#activeuntiltext}
  `[🔍 get only]`

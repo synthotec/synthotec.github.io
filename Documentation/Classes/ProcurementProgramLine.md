@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-14T16:45:50.772Z*
+🕐 *Last updated: 2025-11-14T16:53:01.124Z*
 
 ---
 
@@ -35,7 +35,7 @@ parent : Classes
     - [process_CreateOrder](#process_createorder)
     - [process_UpdateOrder](#process_updateorder)
     - [process_CloseOrder](#process_closeorder)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [ActionText->$ActionText](#actiontext->$actiontext) 🔍 → `Text`
     - [IsActionSet](#isactionset) 🔍 → `Boolean`
     - [IsBacklog](#isbacklog) 🔍 → `Boolean`
@@ -250,7 +250,7 @@ Function process_CloseOrder
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### ActionText->$ActionText {#actiontext->$actiontext}
  `[🔍 get only]`

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.712Z*
+🕐 *Last updated: 2025-11-14T16:53:01.062Z*
 
 ---
 
@@ -22,7 +22,7 @@ parent : Classes
     - [printJobs](#printjobs) 🖥️
     - [setCurrent](#setcurrent) → `$Success : Boolean` 🖥️
     - [setDefault](#setdefault) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [isDocumentPrinter](#isdocumentprinter) 🔍 → `Boolean`
     - [isLabelPrinter](#islabelprinter) 🔍 → `Boolean`
     - [LabelPaperName](#labelpapername) 🔍 → `Text`
@@ -85,7 +85,7 @@ Function setDefault
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### isDocumentPrinter {#isdocumentprinter}
  `[🔍 get only, 🖥️ local]`

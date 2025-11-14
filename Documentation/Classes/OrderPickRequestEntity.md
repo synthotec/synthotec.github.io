@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.432Z*
+🕐 *Last updated: 2025-11-14T16:53:00.826Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Boxes](#boxes) 🔍 ✏️ → `Real`
     - [BoxesPerPallet](#boxesperpallet) 🔍 → `Integer`
     - [Pallets](#pallets) 🔍 ✏️ → `Real`
@@ -44,7 +44,7 @@ Function getPickedStockListboxCollection -> Collection
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Boxes {#boxes}
  `[🔍 get, ✏️ set, 🖥️ local]`

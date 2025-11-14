@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-14T16:45:50.281Z*
+🕐 *Last updated: 2025-11-14T16:53:00.678Z*
 
 ---
 
@@ -21,7 +21,7 @@ parent : Classes
     - [setBestObjectSize](#setbestobjectsize) (1 param)
     - [Focus](#focus)
     - [HighlightText](#highlighttext) (2 params)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [BackgroundColor](#backgroundcolor) 🔍 ✏️ → `Integer`
     - [Bold](#bold) 🔍 ✏️ → `Boolean`
     - [Bottom](#bottom) 🔍 ✏️ → `Integer`
@@ -135,7 +135,7 @@ Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### BackgroundColor {#backgroundcolor}
  `[🔍 get, ✏️ set]`

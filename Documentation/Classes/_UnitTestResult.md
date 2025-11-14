@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:51.294Z*
+🕐 *Last updated: 2025-11-14T16:53:01.647Z*
 
 ---
 
@@ -16,7 +16,7 @@ parent : Classes
 - [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [StatusEmoji](#statusemoji) 🔍 → `Text`
     - [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) 🔍 → `Text`
     - [TestFormulaText](#testformulatext) 🔍 → `Text`
@@ -45,7 +45,7 @@ Class constructor
 
 ## Functions {#functions}
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### StatusEmoji {#statusemoji}
  `[🔍 get only]`

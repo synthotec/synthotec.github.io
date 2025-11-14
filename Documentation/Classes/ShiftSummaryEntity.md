@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:51.040Z*
+🕐 *Last updated: 2025-11-14T16:53:01.390Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [ShiftColor](#shiftcolor) 🔍 → `Integer`
     - [ShiftSymbol](#shiftsymbol) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
@@ -40,7 +40,7 @@ Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### ShiftColor {#shiftcolor}
  `[🔍 get only, 🖥️ local]`

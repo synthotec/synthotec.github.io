@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:49.770Z*
+🕐 *Last updated: 2025-11-14T16:53:00.166Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
@@ -61,7 +61,7 @@ Function syncMigrationSelections($RemoteEntity : cs.CustomerContactsEntity)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### HasMigrationID {#hasmigrationid}
  `[🔍 get only, 🖥️ local]`

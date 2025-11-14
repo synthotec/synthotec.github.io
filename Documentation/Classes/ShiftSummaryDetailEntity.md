@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:51.037Z*
+🕐 *Last updated: 2025-11-14T16:53:01.387Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
     - [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Status](#status) 🔍 → `Integer`
     - [StatusColor](#statuscolor) 🔍 → `Integer`
     - [StatusText](#statustext) 🔍 → `Text`
@@ -55,7 +55,7 @@ Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachines
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Status {#status}
  `[🔍 get only, 🖥️ local]`

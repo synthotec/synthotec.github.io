@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.804Z*
+🕐 *Last updated: 2025-11-14T16:53:01.154Z*
 
 ---
 
@@ -28,7 +28,7 @@ parent : Classes
     - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Emoji](#emoji) 🔍 → `Text`
     - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
     - [MainToolRegrind](#maintoolregrind) 🔍 ✏️ → `Boolean`
@@ -200,7 +200,7 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Emoji {#emoji}
  `[🔍 get only, 🖥️ local]`

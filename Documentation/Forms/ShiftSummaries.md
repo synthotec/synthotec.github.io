@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 3 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ShiftSummaries/method.4dm) |
 | **Object Methods** | 7 |
-| **Generated** | 🕐 2025-11-14T16:45:52.203Z |
+| **Generated** | 🕐 2025-11-14T16:53:02.575Z |
 
 ---
 

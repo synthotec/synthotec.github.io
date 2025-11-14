@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-14T16:45:50.100Z*
+🕐 *Last updated: 2025-11-14T16:53:00.506Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [display](#display) (1 param) → `4D.Entity`
     - [displayWithParents](#displaywithparents) (2 params) → `4D.Entity`
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [selectedEntity](#selectedentity) 🔍 ✏️ → `4D.Entity`
 ---
 
@@ -87,7 +87,7 @@ Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Obj
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### selectedEntity {#selectedentity}
  `[🔍 get, ✏️ set]`

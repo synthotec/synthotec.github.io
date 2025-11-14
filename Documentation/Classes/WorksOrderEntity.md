@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:51.290Z*
+🕐 *Last updated: 2025-11-14T16:53:01.643Z*
 
 ---
 
@@ -24,7 +24,7 @@ parent : Classes
     - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AvailableStock](#availablestock) 🔍 → `Integer`
     - [ExS1Stock](#exs1stock) 🔍 → `Integer`
     - [HasMigrationID](#hasmigrationid) 🔍 🔎 → `Boolean`
@@ -150,7 +150,7 @@ Function syncMigrationSelections($RemoteEntity : cs.WorksOrderEntity)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### AvailableStock {#availablestock}
  `[🔍 get only, 🖥️ local]`

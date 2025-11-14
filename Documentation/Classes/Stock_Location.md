@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:45:51.093Z*
+🕐 *Last updated: 2025-11-14T16:53:01.446Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [DefaultDespatchLocation](#defaultdespatchlocation) 🔍 → `cs.Stock_LocationEntity`
     - [DefaultPackingLocation](#defaultpackinglocation) 🔍 → `cs.Stock_LocationEntity`
     - [PartBoxStore](#partboxstore) 🔍 → `cs.Stock_LocationEntity`
@@ -41,7 +41,7 @@ Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### DefaultDespatchLocation {#defaultdespatchlocation}
  `[🔍 get only, 🖥️ local]`

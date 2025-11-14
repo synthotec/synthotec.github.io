@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:51.235Z*
+🕐 *Last updated: 2025-11-14T16:53:01.588Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
     - [displayResultsAlert](#displayresultsalert)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Success](#success) 🔍 → `Boolean`
 ---
 
@@ -79,7 +79,7 @@ Function displayResultsAlert
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Success {#success}
  `[🔍 get only]`

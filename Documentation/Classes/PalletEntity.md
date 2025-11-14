@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.553Z*
+🕐 *Last updated: 2025-11-14T16:53:00.938Z*
 
 ---
 
@@ -26,7 +26,7 @@ parent : Classes
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
     - [transfer](#transfer) (1 param) → `Boolean` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
     - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
     - [NetWeightKg](#netweightkg) 🔍 → `Real`
@@ -173,7 +173,7 @@ Function transfer($ToLocation : Integer) -> Boolean
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### GrossWeightKg {#grossweightkg}
  `[🔍 get only, 🖥️ local]`

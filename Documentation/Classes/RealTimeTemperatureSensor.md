@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:50.946Z*
+🕐 *Last updated: 2025-11-14T16:53:01.295Z*
 
 ---
 
@@ -16,7 +16,7 @@ parent : Classes
 - [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [InRange](#inrange) 🔍 → `Boolean`
     - [ZoneName](#zonename) 🔍 → `Text`
 ---
@@ -51,7 +51,7 @@ Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObj
 
 ## Functions {#functions}
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### InRange {#inrange}
  `[🔍 get only]`

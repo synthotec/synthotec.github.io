@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:45:51.229Z*
+🕐 *Last updated: 2025-11-14T16:53:01.583Z*
 
 ---
 
@@ -21,7 +21,7 @@ parent : Classes
     - [popProcess](#popprocess) 🖥️
     - [translate](#translate) (2 params) → `Text` 🖥️
     - [translateFormObjects](#translateformobjects) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [_TranslationProcessCollection](#_translationprocesscollection) 🔍 → `Collection`
     - [CurrentProcess](#currentprocess) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
@@ -89,7 +89,7 @@ Function translateFormObjects($TranslationProcess : Text)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### _TranslationProcessCollection {#_translationprocesscollection}
  `[🔍 get only, 🖥️ local]`

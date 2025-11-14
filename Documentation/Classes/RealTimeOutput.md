@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-14T16:45:50.889Z*
+🕐 *Last updated: 2025-11-14T16:53:01.239Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
 
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [InfoTextBox](#infotextbox) 🔍 → `Object`
     - [Layout](#layout) 🔍 → `Object`
     - [Machines](#machines) 🔍 → `Collection`
@@ -40,7 +40,7 @@ Class constructor
 
 ## Functions {#functions}
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### InfoTextBox {#infotextbox}
  `[🔍 get only]`

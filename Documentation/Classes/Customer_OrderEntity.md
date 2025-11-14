@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:49.806Z*
+🕐 *Last updated: 2025-11-14T16:53:00.205Z*
 
 ---
 
@@ -26,7 +26,7 @@ parent : Classes
     - [getPickedQuantitiesText](#getpickedquantitiestext) (1 param) → `Text` 🖥️
     - [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
     - [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [DeliveryDate](#deliverydate) 🔍 → `Date`
     - [DeliveryDateTime](#deliverydatetime) 🔍 → `cs.System.DateTime`
     - [DespatchDate](#despatchdate) 🔍 → `Date`
@@ -184,7 +184,7 @@ Function getPickRequestQuantitiesColor -> Integer
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### DeliveryDate {#deliverydate}
  `[🔍 get only, 🖥️ local]`

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-14T16:45:50.924Z*
+🕐 *Last updated: 2025-11-14T16:53:01.274Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
     - [setDateTimeColors](#setdatetimecolors) (2 params)
     - [setAlertColors](#setalertcolors) (2 params)
     - [setTimeRemainingText](#settimeremainingtext) (3 params)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AlertsText](#alertstext) 🔍 → `Text`
     - [DeviceMaintenanceActive](#devicemaintenanceactive) 🔍 → `Boolean`
     - [MachineDisconnected](#machinedisconnected) 🔍 → `Boolean`
@@ -174,7 +174,7 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### AlertsText {#alertstext}
  `[🔍 get only]`

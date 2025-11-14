@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:51.063Z*
+🕐 *Last updated: 2025-11-14T16:53:01.414Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
     - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [FullName](#fullname) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
@@ -64,7 +64,7 @@ Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> $Success : Boolea
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### FullName {#fullname}
  `[🔍 get only, 🖥️ local]`

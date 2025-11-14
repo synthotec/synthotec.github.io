@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.674Z*
+🕐 *Last updated: 2025-11-14T16:53:01.031Z*
 
 ---
 
@@ -27,7 +27,7 @@ parent : Classes
     - [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
     - [sendNotification](#sendnotification)
     - [sendPickedNotification](#sendpickednotification)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [MovementPickRequest](#movementpickrequest) 🔍 → `Boolean`
     - [OrderPickRequest](#orderpickrequest) 🔍 → `Boolean`
     - [PartsRequested](#partsrequested) 🔍 → `Boolean`
@@ -147,7 +147,7 @@ Function sendPickedNotification
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### MovementPickRequest {#movementpickrequest}
  `[🔍 get only]`

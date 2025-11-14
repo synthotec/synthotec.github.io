@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:50.847Z*
+🕐 *Last updated: 2025-11-14T16:53:01.197Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [setResult](#setresult) (2 params)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [booleanResult](#booleanresult) 🔍 → `Variant`
     - [valueType](#valuetype) 🔍 → `Integer`
 ---
@@ -71,7 +71,7 @@ Function setResult($QueryText : Text; $QueryParameters : Collection)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### booleanResult {#booleanresult}
  `[🔍 get only]`

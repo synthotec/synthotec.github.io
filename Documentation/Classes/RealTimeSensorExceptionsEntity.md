@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.939Z*
+🕐 *Last updated: 2025-11-14T16:53:01.287Z*
 
 ---
 
@@ -20,7 +20,7 @@ parent : Classes
     - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
     - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
     - [sendEmail](#sendemail) → `Boolean`
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Duration](#duration) 🔍 → `Time`
     - [HighestCelciusTemperature](#highestcelciustemperature) 🔍 → `Real`
     - [LowestCelciusTemperature](#lowestcelciustemperature) 🔍 → `Real`
@@ -72,7 +72,7 @@ Function sendEmail -> Boolean
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### Duration {#duration}
  `[🔍 get only, 🖥️ local]`

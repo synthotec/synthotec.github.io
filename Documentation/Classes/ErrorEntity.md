@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:50.115Z*
+🕐 *Last updated: 2025-11-14T16:53:00.518Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [createGitHubIssue](#creategithubissue)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [FirstOccurrence](#firstoccurrence) 🔍 → `Text`
     - [GitHubIssueLabel](#githubissuelabel) 🔍 → `Text`
     - [GitHubIssueText](#githubissuetext) 🔍 → `Text`
@@ -42,7 +42,7 @@ Function createGitHubIssue
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### FirstOccurrence {#firstoccurrence}
  `[🔍 get only]`

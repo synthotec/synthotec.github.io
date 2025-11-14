@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:45:49.690Z*
+🕐 *Last updated: 2025-11-14T16:53:00.084Z*
 
 ---
 
@@ -25,7 +25,7 @@ parent : Classes
     - [generateQR](#generateqr) → `Picture` 🖥️
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AdviceNote](#advicenote) 🔍 → `Integer`
     - [BoxNumberColor](#boxnumbercolor) 🔍 → `Integer`
     - [BoxNumberDisplay](#boxnumberdisplay) 🔍 → `Text`
@@ -154,7 +154,7 @@ Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### AdviceNote {#advicenote}
  `[🔍 get only]`

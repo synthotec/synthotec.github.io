@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-14T16:45:50.080Z*
+🕐 *Last updated: 2025-11-14T16:53:00.488Z*
 
 ---
 
@@ -31,7 +31,7 @@ parent : Classes
     - [startTransactions](#starttransactions)
     - [validateTransactions](#validatetransactions)
     - [cancelTransactions](#canceltransactions)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [_MigrationSettings](#_migrationsettings) 🔍 → `Object`
     - [DataClassName](#dataclassname) 🔍 → `Text`
     - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) 🔍 → `Text`
@@ -238,7 +238,7 @@ Rollback transactions on both local and remote datastores
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### _MigrationSettings {#_migrationsettings}
  `[🔍 get only]`

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:50.421Z*
+🕐 *Last updated: 2025-11-14T16:53:00.816Z*
 
 ---
 
@@ -19,7 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [_addMenuItem](#_addmenuitem) (1 param)
     - [_process](#_process) → `Variant`
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [_Style](#_style) 🔍 → `Integer`
 ---
 
@@ -87,7 +87,7 @@ Function _process -> Variant
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### _Style {#_style}
  `[🔍 get only]`

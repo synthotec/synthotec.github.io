@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:45:50.736Z*
+🕐 *Last updated: 2025-11-14T16:53:01.087Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [process](#process)
-  - **Properties (Getters/Setters/Query/OrderBy)**
+  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AllLinesActioned](#alllinesactioned) 🔍 → `Boolean`
     - [UnactionedLines](#unactionedlines) 🔍 → `Collection`
 ---
@@ -68,7 +68,7 @@ Function process
 
 ---
 
-### Properties (Getters/Setters/Query/OrderBy)
+### Computed Attributes (Getters/Setters/Query/OrderBy)
 
 #### AllLinesActioned {#alllinesactioned}
  `[🔍 get only]`
