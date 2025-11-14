@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-14T00:18:21.019Z*
+🕐 *Last updated: 2025-11-14T16:35:59.118Z*
 
 ---
 
@@ -34,19 +34,19 @@ parent : Classes
   - [process_CreateOrder](#process_createorder)
   - [process_UpdateOrder](#process_updateorder)
   - [process_CloseOrder](#process_closeorder)
-  - [IsActionSet](#isactionset) → `Boolean`
-  - [IsBacklog](#isbacklog) → `Boolean`
-  - [IsForecast](#isforecast) → `Boolean`
-  - [IsItemMissing](#isitemmissing) → `Boolean`
-  - [IsNewOrder](#isneworder) → `Boolean`
-  - [IsExistingOrder](#isexistingorder) → `Boolean`
-  - [IsExistingOrderModified](#isexistingordermodified) → `Boolean`
-  - [WeekNumberText](#weeknumbertext) → `Text`
-  - [OrderBatchNumber](#orderbatchnumber) → `Text`
-  - [OurPartName](#ourpartname) → `Text`
-  - [Meta->$Meta](#meta->$meta) → `cs.UI.ListBoxMeta`
-  - [StatusText->$StatusText](#statustext->$statustext) → `Text`
-  - [ActionText->$ActionText](#actiontext->$actiontext) → `Text`
+  - [ActionText->$ActionText](#actiontext->$actiontext) 🔍 → `Text`
+  - [IsActionSet](#isactionset) 🔍 → `Boolean`
+  - [IsBacklog](#isbacklog) 🔍 → `Boolean`
+  - [IsExistingOrder](#isexistingorder) 🔍 → `Boolean`
+  - [IsExistingOrderModified](#isexistingordermodified) 🔍 → `Boolean`
+  - [IsForecast](#isforecast) 🔍 → `Boolean`
+  - [IsItemMissing](#isitemmissing) 🔍 → `Boolean`
+  - [IsNewOrder](#isneworder) 🔍 → `Boolean`
+  - [Meta->$Meta](#meta->$meta) 🔍 → `cs.UI.ListBoxMeta`
+  - [OrderBatchNumber](#orderbatchnumber) 🔍 → `Text`
+  - [OurPartName](#ourpartname) 🔍 → `Text`
+  - [StatusText->$StatusText](#statustext->$statustext) 🔍 → `Text`
+  - [WeekNumberText](#weeknumbertext) 🔍 → `Text`
 ---
 
 ## Properties {#properties}
@@ -248,13 +248,24 @@ Function process_CloseOrder
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### IsActionSet {#isactionset}
- `[🔍 getter]`
+#### ActionText->$ActionText {#actiontext->$actiontext}
+ `[🔍 get only]`
 
 ```4d
-Function IsActionSet -> Boolean
+Function get ActionText->$ActionText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### IsActionSet {#isactionset}
+ `[🔍 get only]`
+
+```4d
+Function get IsActionSet -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -262,43 +273,10 @@ Function IsActionSet -> Boolean
 ---
 
 #### IsBacklog {#isbacklog}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function IsBacklog -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### IsForecast {#isforecast}
- `[🔍 getter]`
-
-```4d
-Function IsForecast -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### IsItemMissing {#isitemmissing}
- `[🔍 getter]`
-
-```4d
-Function IsItemMissing -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### IsNewOrder {#isneworder}
- `[🔍 getter]`
-
-```4d
-Function IsNewOrder -> Boolean
+Function get IsBacklog -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -306,10 +284,10 @@ Function IsNewOrder -> Boolean
 ---
 
 #### IsExistingOrder {#isexistingorder}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function IsExistingOrder -> Boolean
+Function get IsExistingOrder -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -317,32 +295,65 @@ Function IsExistingOrder -> Boolean
 ---
 
 #### IsExistingOrderModified {#isexistingordermodified}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function IsExistingOrderModified -> Boolean
+Function get IsExistingOrderModified -> Boolean
 ```
 
 **Returns:** `Boolean`
 
 ---
 
-#### WeekNumberText {#weeknumbertext}
- `[🔍 getter]`
+#### IsForecast {#isforecast}
+ `[🔍 get only]`
 
 ```4d
-Function WeekNumberText -> Text
+Function get IsForecast -> Boolean
 ```
 
-**Returns:** `Text`
+**Returns:** `Boolean`
+
+---
+
+#### IsItemMissing {#isitemmissing}
+ `[🔍 get only]`
+
+```4d
+Function get IsItemMissing -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### IsNewOrder {#isneworder}
+ `[🔍 get only]`
+
+```4d
+Function get IsNewOrder -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### Meta->$Meta {#meta->$meta}
+ `[🔍 get only]`
+
+```4d
+Function get Meta->$Meta -> cs.UI.ListBoxMeta
+```
+
+**Returns:** `cs.UI.ListBoxMeta`
 
 ---
 
 #### OrderBatchNumber {#orderbatchnumber}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function OrderBatchNumber -> Text
+Function get OrderBatchNumber -> Text
 ```
 
 **Returns:** `Text`
@@ -350,43 +361,32 @@ Function OrderBatchNumber -> Text
 ---
 
 #### OurPartName {#ourpartname}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function OurPartName -> Text
+Function get OurPartName -> Text
 ```
 
 **Returns:** `Text`
-
----
-
-#### Meta->$Meta {#meta->$meta}
- `[🔍 getter]`
-
-```4d
-Function Meta->$Meta -> cs.UI.ListBoxMeta
-```
-
-**Returns:** `cs.UI.ListBoxMeta`
 
 ---
 
 #### StatusText->$StatusText {#statustext->$statustext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function StatusText->$StatusText -> Text
+Function get StatusText->$StatusText -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### ActionText->$ActionText {#actiontext->$actiontext}
- `[🔍 getter]`
+#### WeekNumberText {#weeknumbertext}
+ `[🔍 get only]`
 
 ```4d
-Function ActionText->$ActionText -> Text
+Function get WeekNumberText -> Text
 ```
 
 **Returns:** `Text`

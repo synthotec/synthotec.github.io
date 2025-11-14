@@ -5,19 +5,19 @@ parent : Classes
 ---
 # Documentation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Documentation.4dm)
 
-📊 **Overview:** 1 Properties | 1 Constructor | 15 Functions
+📊 **Overview:** 2 Properties | 1 Constructor | 17 Functions
 
 ## 📝 Description
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-14T00:18:20.260Z*
+🕐 *Last updated: 2025-11-14T16:35:58.403Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (1)](#properties)
+- [📋 Properties (2)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - [generateClassDocumentation](#generateclassdocumentation)
@@ -27,6 +27,7 @@ parent : Classes
   - [generateMarkdownFromJSON](#generatemarkdownfromjson)
   - [_generateMarkdownForClass](#_generatemarkdownforclass) (1 param) → `Text`
   - [_generateFunctionMarkdown](#_generatefunctionmarkdown) (1 param) → `Text`
+  - [_generateGetterSetterQueryOrderByMarkdown](#_generategettersetterqueryorderbymarkdown) (4 params) → `Text`
   - [generateAllTableJSON](#generatealltablejson)
   - [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
   - [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
@@ -35,6 +36,7 @@ parent : Classes
   - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
   - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
   - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
+  - [getClassJsonCollection](#getclassjsoncollection) → `$ClassJsonCollection : Collection`
 ---
 
 ## Properties {#properties}
@@ -42,6 +44,7 @@ parent : Classes
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `CompiledClassesObject` | `Object` | - | - |
+| `ClassesJsonFolder` | *Not specified* | `Folder("/PACKAGE/Documentation/Classes/")` | - |
 
 ## Constructor {#constructor}
 
@@ -167,6 +170,28 @@ Helper function to generate markdown for a single function
 
 ---
 
+#### _generateGetterSetterQueryOrderByMarkdown {#_generategettersetterqueryorderbymarkdown}
+
+
+```4d
+Function _generateGetterSetterQueryOrderByMarkdown($GetterFunc : Object; $SetterFunc : Object; $QueryFunc : Object; $OrderByFunc : Object) -> Text
+```
+
+Generate combined getter/setter/query/orderBy markdown
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$GetterFunc` | `Object` | - | - |
+| `$SetterFunc` | `Object` | - | - |
+| `$QueryFunc` | `Object` | - | - |
+| `$OrderByFunc` | `Object` | - | - |
+
+**Returns:** `Text`
+
+---
+
 #### generateAllTableJSON {#generatealltablejson}
 
 
@@ -278,6 +303,17 @@ Get emoji for object type
 | `$ObjectType` | `Text` | - | - |
 
 **Returns:** `Text`
+
+---
+
+#### getClassJsonCollection {#getclassjsoncollection}
+
+
+```4d
+Function getClassJsonCollection -> $ClassJsonCollection : Collection
+```
+
+**Returns:** `Collection`
 
 ---
 

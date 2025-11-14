@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-14T00:18:21.140Z*
+🕐 *Last updated: 2025-11-14T16:35:59.239Z*
 
 ---
 
@@ -19,11 +19,11 @@ parent : Classes
 
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [Machines](#machines) → `Collection`
-  - [SecondarySummaryText](#secondarysummarytext) → `Text`
-  - [SummaryText](#summarytext) → `Text`
-  - [Layout](#layout) → `Object`
-  - [InfoTextBox](#infotextbox) → `Object`
+  - [InfoTextBox](#infotextbox) 🔍 → `Object`
+  - [Layout](#layout) 🔍 → `Object`
+  - [Machines](#machines) 🔍 → `Collection`
+  - [SecondarySummaryText](#secondarysummarytext) 🔍 → `Text`
+  - [SummaryText](#summarytext) 🔍 → `Text`
 ---
 
 ## Constructor {#constructor}
@@ -39,13 +39,35 @@ Class constructor
 
 ## Functions {#functions}
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### Machines {#machines}
- `[🔍 getter]`
+#### InfoTextBox {#infotextbox}
+ `[🔍 get only]`
 
 ```4d
-Function Machines -> $Collection : Collection
+Function get InfoTextBox -> $InfoTextBox : Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### Layout {#layout}
+ `[🔍 get only]`
+
+```4d
+Function get Layout -> $Layout : Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### Machines {#machines}
+ `[🔍 get only]`
+
+```4d
+Function get Machines -> $Collection : Collection
 ```
 
 **Returns:** `Collection`
@@ -53,10 +75,10 @@ Function Machines -> $Collection : Collection
 ---
 
 #### SecondarySummaryText {#secondarysummarytext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function SecondarySummaryText -> $SecondarySummaryText : Text
+Function get SecondarySummaryText -> $SecondarySummaryText : Text
 ```
 
 **Returns:** `Text`
@@ -64,35 +86,13 @@ Function SecondarySummaryText -> $SecondarySummaryText : Text
 ---
 
 #### SummaryText {#summarytext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function SummaryText -> $SummaryText : Text
+Function get SummaryText -> $SummaryText : Text
 ```
 
 **Returns:** `Text`
-
----
-
-#### Layout {#layout}
- `[🔍 getter]`
-
-```4d
-Function Layout -> $Layout : Object
-```
-
-**Returns:** `Object`
-
----
-
-#### InfoTextBox {#infotextbox}
- `[🔍 getter]`
-
-```4d
-Function InfoTextBox -> $InfoTextBox : Object
-```
-
-**Returns:** `Object`
 
 ---
 

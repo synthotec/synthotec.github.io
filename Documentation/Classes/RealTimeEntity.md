@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.120Z*
+🕐 *Last updated: 2025-11-14T16:35:59.218Z*
 
 ---
 
@@ -17,9 +17,9 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection` 🖥️
-  - [MouldOpenTime](#mouldopentime) → `Real`
-  - [StartTime](#starttime) → `Time`
-  - [EndDateTime](#enddatetime) → `cs.System.DateTime`
+  - [EndDateTime](#enddatetime) 🔍 → `cs.System.DateTime`
+  - [MouldOpenTime](#mouldopentime) 🔍 → `Real`
+  - [StartTime](#starttime) 🔍 → `Time`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -41,13 +41,24 @@ Returns a collection of cs.RealTimeTemperatureSensor
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### MouldOpenTime {#mouldopentime}
- `[🖥️ local, 🔍 getter]`
+#### EndDateTime {#enddatetime}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function MouldOpenTime -> Real
+Function get EndDateTime -> cs.System.DateTime
+```
+
+**Returns:** `cs.System.DateTime`
+
+---
+
+#### MouldOpenTime {#mouldopentime}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get MouldOpenTime -> Real
 ```
 
 **Returns:** `Real`
@@ -55,24 +66,13 @@ Function MouldOpenTime -> Real
 ---
 
 #### StartTime {#starttime}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function StartTime -> Time
+Function get StartTime -> Time
 ```
 
 **Returns:** `Time`
-
----
-
-#### EndDateTime {#enddatetime}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function EndDateTime -> cs.System.DateTime
-```
-
-**Returns:** `cs.System.DateTime`
 
 ---
 

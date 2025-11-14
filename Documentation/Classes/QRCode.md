@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:21.088Z*
+🕐 *Last updated: 2025-11-14T16:35:59.184Z*
 
 ---
 
@@ -20,8 +20,8 @@ parent : Classes
   - [fillPrinterQR](#fillprinterqr) (1 param)
   - [getJson](#getjson) → `Text`
   - [generate](#generate) → `Picture`
-  - [BarcodeType](#barcodetype) → `Text`
-  - [PrimaryKey](#primarykey) → `Integer`
+  - [BarcodeType](#barcodetype) 🔍 → `Text`
+  - [PrimaryKey](#primarykey) 🔍 → `Integer`
 ---
 
 ## Constructor {#constructor}
@@ -113,13 +113,13 @@ Function generate -> Picture
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### BarcodeType {#barcodetype}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function BarcodeType -> Text
+Function get BarcodeType -> Text
 ```
 
 **Returns:** `Text`
@@ -127,10 +127,10 @@ Function BarcodeType -> Text
 ---
 
 #### PrimaryKey {#primarykey}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function PrimaryKey -> Integer
+Function get PrimaryKey -> Integer
 ```
 
 **Returns:** `Integer`

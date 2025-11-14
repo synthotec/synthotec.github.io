@@ -5,28 +5,25 @@ parent : Classes
 ---
 # OrderPickRequestEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
 
-📊 **Overview:** 2 Functions | 6 Getters | 3 Setters
+📊 **Overview:** 1 Functions | 6 Getters | 3 Setters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.693Z*
+🕐 *Last updated: 2025-11-14T16:35:58.789Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [query Parts](#query parts) (1 param) 🖥️
+  - [Parts](#parts) (1 param) 🖥️
   - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
-  - [QuantityPicked](#quantitypicked) → `Integer`
-  - [QuantityToPick](#quantitytopick) → `Integer`
-  - [BoxesPerPallet](#boxesperpallet) → `Integer`
-  - [Pallets](#pallets) → `Real`
-  - [Boxes](#boxes) → `Real`
-  - [Parts](#parts) → `Integer`
-  - [Pallets](#pallets) (1 param)
-  - [Boxes](#boxes) (1 param)
-  - [Parts](#parts) (1 param)
+  - [Boxes](#boxes) 🔍 ✏️ → `Real`
+  - [BoxesPerPallet](#boxesperpallet) 🔍 → `Integer`
+  - [Pallets](#pallets) 🔍 ✏️ → `Real`
+  - [Parts](#parts) 🔍 ✏️ 🔎 → `Integer`
+  - [QuantityPicked](#quantitypicked) 🔍 → `Integer`
+  - [QuantityToPick](#quantitytopick) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -34,21 +31,6 @@ parent : Classes
 ## Functions {#functions}
 
 ### Regular Functions
-
-#### query Parts {#query parts}
- `[🖥️ local]`
-
-```4d
-Function query Parts($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
----
 
 #### getPickedStockListboxCollection {#getpickedstocklistboxcollection}
  `[🖥️ local]`
@@ -61,13 +43,93 @@ Function getPickedStockListboxCollection -> Collection
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### QuantityPicked {#quantitypicked}
- `[🖥️ local, 🔍 getter]`
+#### Boxes {#boxes}
+ `[🔍 get, ✏️ set, 🖥️ local]`
 
 ```4d
-Function QuantityPicked -> Integer
+Function get Boxes -> Real
+Function set Boxes($Boxes : Real)
+```
+
+MARK:Boxes
+
+**Setter Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$Boxes` | `Real` | - |
+
+**Returns:** `Real`
+
+---
+
+#### BoxesPerPallet {#boxesperpallet}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get BoxesPerPallet -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### Pallets {#pallets}
+ `[🔍 get, ✏️ set, 🖥️ local]`
+
+```4d
+Function get Pallets -> Real
+Function set Pallets($Pallets : Real)
+```
+
+MARK:Pallets
+
+**Setter Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$Pallets` | `Real` | - |
+
+**Returns:** `Real`
+
+---
+
+#### Parts {#parts}
+ `[🔍 get, ✏️ set, 🔎 query, 🖥️ local]`
+
+```4d
+Function get Parts -> Integer
+Function set Parts($Parts : Integer)
+Function query Parts($QueryEventObject : Object)
+```
+
+MARK: Parts
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Setter Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$Parts` | `Integer` | - |
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
+
+**Returns:** `Integer`
+
+---
+
+#### QuantityPicked {#quantitypicked}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get QuantityPicked -> Integer
 ```
 
 **Returns:** `Integer`
@@ -75,110 +137,13 @@ Function QuantityPicked -> Integer
 ---
 
 #### QuantityToPick {#quantitytopick}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function QuantityToPick -> Integer
+Function get QuantityToPick -> Integer
 ```
 
 **Returns:** `Integer`
-
----
-
-#### BoxesPerPallet {#boxesperpallet}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function BoxesPerPallet -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-#### Pallets {#pallets}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function Pallets -> Real
-```
-
-MARK:Pallets
-
-**Returns:** `Real`
-
----
-
-#### Boxes {#boxes}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function Boxes -> Real
-```
-
-MARK:Boxes
-
-**Returns:** `Real`
-
----
-
-#### Parts {#parts}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function Parts -> Integer
-```
-
-MARK: Parts
-
-**Returns:** `Integer`
-
----
-
-### Setters
-
-#### Pallets {#pallets}
- `[🖥️ local, ✏️ setter]`
-
-```4d
-Function Pallets($Pallets : Real)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$Pallets` | `Real` | - | - |
-
----
-
-#### Boxes {#boxes}
- `[🖥️ local, ✏️ setter]`
-
-```4d
-Function Boxes($Boxes : Real)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$Boxes` | `Real` | - | - |
-
----
-
-#### Parts {#parts}
- `[🖥️ local, ✏️ setter]`
-
-```4d
-Function Parts($Parts : Integer)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$Parts` | `Integer` | - | - |
 
 ---
 

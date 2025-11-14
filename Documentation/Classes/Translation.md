@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:18:21.476Z*
+🕐 *Last updated: 2025-11-14T16:35:59.591Z*
 
 ---
 
@@ -20,8 +20,8 @@ parent : Classes
   - [popProcess](#popprocess) 🖥️
   - [translate](#translate) (2 params) → `Text` 🖥️
   - [translateFormObjects](#translateformobjects) (1 param) 🖥️
-  - [CurrentProcess](#currentprocess) → `Text`
-  - [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
+  - [_TranslationProcessCollection](#_translationprocesscollection) 🔍 → `Collection`
+  - [CurrentProcess](#currentprocess) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -87,27 +87,27 @@ Function translateFormObjects($TranslationProcess : Text)
 
 ---
 
-### Getters
-
-#### CurrentProcess {#currentprocess}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function CurrentProcess -> Text
-```
-
-**Returns:** `Text`
-
----
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### _TranslationProcessCollection {#_translationprocesscollection}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function _TranslationProcessCollection -> Collection
+Function get _TranslationProcessCollection -> Collection
 ```
 
 **Returns:** `Collection`
+
+---
+
+#### CurrentProcess {#currentprocess}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get CurrentProcess -> Text
+```
+
+**Returns:** `Text`
 
 ---
 

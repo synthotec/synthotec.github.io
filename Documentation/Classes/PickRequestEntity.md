@@ -5,11 +5,11 @@ parent : Classes
 ---
 # PickRequestEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequestEntity.4dm)
 
-📊 **Overview:** 11 Functions | 7 Getters
+📊 **Overview:** 10 Functions | 7 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.915Z*
+🕐 *Last updated: 2025-11-14T16:35:59.015Z*
 
 ---
 
@@ -21,19 +21,19 @@ parent : Classes
   - [despatch](#despatch) 🖥️
   - [despatchOrder](#despatchorder) (1 param) 🖥️
   - [despatchConsignment](#despatchconsignment) 🖥️
-  - [query Picked](#query picked) (1 param) → `Text` 🖥️
+  - [Picked](#picked) (1 param) → `Text` 🖥️
   - [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
   - [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
   - [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
   - [sendNotification](#sendnotification)
   - [sendPickedNotification](#sendpickednotification)
-  - [OrderPickRequest](#orderpickrequest) → `Boolean`
-  - [MovementPickRequest](#movementpickrequest) → `Boolean`
-  - [PartsRequested](#partsrequested) → `Boolean`
-  - [Picked](#picked) → `Boolean`
-  - [PickingStarted](#pickingstarted) → `Boolean`
-  - [Status](#status) → `Text`
-  - [StatusColor](#statuscolor) → `Integer`
+  - [MovementPickRequest](#movementpickrequest) 🔍 → `Boolean`
+  - [OrderPickRequest](#orderpickrequest) 🔍 → `Boolean`
+  - [PartsRequested](#partsrequested) 🔍 → `Boolean`
+  - [Picked](#picked) 🔍 🔎 → `Boolean`
+  - [PickingStarted](#pickingstarted) 🔍 → `Boolean`
+  - [Status](#status) 🔍 → `Text`
+  - [StatusColor](#statuscolor) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -95,23 +95,6 @@ Function despatchConsignment
 
 ---
 
-#### query Picked {#query picked}
- `[🖥️ local]`
-
-```4d
-Function query Picked($QueryEventObject : Object) -> Text
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
-**Returns:** `Text`
-
----
-
 #### getNotInStockWorksOrders {#getnotinstockworksorders}
  `[🖥️ local]`
 
@@ -163,24 +146,24 @@ Function sendPickedNotification
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### OrderPickRequest {#orderpickrequest}
- `[🔍 getter]`
+#### MovementPickRequest {#movementpickrequest}
+ `[🔍 get only]`
 
 ```4d
-Function OrderPickRequest -> Boolean
+Function get MovementPickRequest -> Boolean
 ```
 
 **Returns:** `Boolean`
 
 ---
 
-#### MovementPickRequest {#movementpickrequest}
- `[🔍 getter]`
+#### OrderPickRequest {#orderpickrequest}
+ `[🔍 get only]`
 
 ```4d
-Function MovementPickRequest -> Boolean
+Function get OrderPickRequest -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -188,10 +171,10 @@ Function MovementPickRequest -> Boolean
 ---
 
 #### PartsRequested {#partsrequested}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function PartsRequested -> Boolean
+Function get PartsRequested -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -199,21 +182,30 @@ Function PartsRequested -> Boolean
 ---
 
 #### Picked {#picked}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get, 🔎 query, 🖥️ local]`
 
 ```4d
-Function Picked -> Boolean
+Function get Picked -> Boolean
+Function query Picked($QueryEventObject : Object)
 ```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 **Returns:** `Boolean`
 
 ---
 
 #### PickingStarted {#pickingstarted}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function PickingStarted -> Boolean
+Function get PickingStarted -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -221,10 +213,10 @@ Function PickingStarted -> Boolean
 ---
 
 #### Status {#status}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Status -> Text
+Function get Status -> Text
 ```
 
 **Returns:** `Text`
@@ -232,10 +224,10 @@ Function Status -> Text
 ---
 
 #### StatusColor {#statuscolor}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function StatusColor -> Integer
+Function get StatusColor -> Integer
 ```
 
 **Returns:** `Integer`

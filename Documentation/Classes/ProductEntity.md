@@ -5,18 +5,18 @@ parent : Classes
 ---
 # ProductEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductEntity.4dm)
 
-📊 **Overview:** 12 Functions | 3 Getters | 1 Setters
+📊 **Overview:** 11 Functions | 3 Getters | 1 Setters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.049Z*
+🕐 *Last updated: 2025-11-14T16:35:59.150Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [query OurPartName](#query ourpartname) (1 param) 🖥️
+  - [OurPartName](#ourpartname) (1 param) 🖥️
   - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
   - [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
   - [getPreviousPickRequestQuantity](#getpreviouspickrequestquantity) (2 params) → `Integer` 🖥️
@@ -28,10 +28,10 @@ parent : Classes
   - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [Emoji](#emoji) → `Text`
-  - [MainToolRegrind](#maintoolregrind) → `Boolean`
-  - [HasMigrationID](#hasmigrationid) → `Boolean`
-  - [MainToolRegrind](#maintoolregrind) (1 param)
+  - [Emoji](#emoji) 🔍 → `Text`
+  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+  - [MainToolRegrind](#maintoolregrind) 🔍 ✏️ → `Boolean`
+  - [OurPartName](#ourpartname) 🔎
 - [🔗 Related Items](#related-items)
 
 ---
@@ -39,21 +39,6 @@ parent : Classes
 ## Functions {#functions}
 
 ### Regular Functions
-
-#### query OurPartName {#query ourpartname}
- `[🖥️ local]`
-
-```4d
-Function query OurPartName($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
----
 
 #### getRobotHeadList {#getrobotheadlist}
  `[🖥️ local]`
@@ -214,55 +199,62 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Emoji {#emoji}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Emoji -> Text
+Function get Emoji -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### MainToolRegrind {#maintoolregrind}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function MainToolRegrind -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
 #### HasMigrationID {#hasmigrationid}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function HasMigrationID -> Boolean
+Function get HasMigrationID -> Boolean
 ```
 
 **Returns:** `Boolean`
 
 ---
 
-### Setters
-
 #### MainToolRegrind {#maintoolregrind}
- `[🖥️ local, ✏️ setter]`
+ `[🔍 get, ✏️ set, 🖥️ local]`
 
 ```4d
-Function MainToolRegrind($MainToolRegrind : Boolean)
+Function get MainToolRegrind -> Boolean
+Function set MainToolRegrind($MainToolRegrind : Boolean)
 ```
 
-**Parameters:**
+**Setter Parameter:**
 
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$MainToolRegrind` | `Boolean` | - | - |
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$MainToolRegrind` | `Boolean` | - |
+
+**Returns:** `Boolean`
+
+---
+
+#### OurPartName {#ourpartname}
+ `[🔎 query only, 🖥️ local]`
+
+```4d
+Function query OurPartName($QueryEventObject : Object)
+```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 ---
 

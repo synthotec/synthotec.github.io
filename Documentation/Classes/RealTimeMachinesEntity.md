@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.126Z*
+🕐 *Last updated: 2025-11-14T16:35:59.225Z*
 
 ---
 
@@ -17,12 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
-  - [TemperatureSensorsInstalled](#temperaturesensorsinstalled) → `Boolean`
-  - [WorksOrderEntity](#worksorderentity) → `cs.WorksOrderEntity`
-  - [WorksOrder](#worksorder) → `Integer`
-  - [Changing](#changing) → `Boolean`
-  - [UniChar](#unichar) → `Text`
-  - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
+  - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) 🔍 → `Boolean`
+  - [Changing](#changing) 🔍 → `Boolean`
+  - [TemperatureSensorsInstalled](#temperaturesensorsinstalled) 🔍 → `Boolean`
+  - [UniChar](#unichar) 🔍 → `Text`
+  - [WorksOrder](#worksorder) 🔍 → `Integer`
+  - [WorksOrderEntity](#worksorderentity) 🔍 → `cs.WorksOrderEntity`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -48,46 +48,35 @@ Function checkTempZoneExists($Zone : Integer) -> Boolean
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
- `[🔍 getter]`
+#### AssignedTemperatureSensorsPresent {#assignedtemperaturesensorspresent}
+ `[🔍 get only]`
 
 ```4d
-Function TemperatureSensorsInstalled -> Boolean
+Function get AssignedTemperatureSensorsPresent -> Boolean
 ```
 
 **Returns:** `Boolean`
 
 ---
 
-#### WorksOrderEntity {#worksorderentity}
- `[🔍 getter]`
-
-```4d
-Function WorksOrderEntity -> cs.WorksOrderEntity
-```
-
-**Returns:** `cs.WorksOrderEntity`
-
----
-
-#### WorksOrder {#worksorder}
- `[🔍 getter]`
-
-```4d
-Function WorksOrder -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
 #### Changing {#changing}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function Changing -> Boolean
+Function get Changing -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
+ `[🔍 get only]`
+
+```4d
+Function get TemperatureSensorsInstalled -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -95,24 +84,35 @@ Function Changing -> Boolean
 ---
 
 #### UniChar {#unichar}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function UniChar -> Text
+Function get UniChar -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### AssignedTemperatureSensorsPresent {#assignedtemperaturesensorspresent}
- `[🔍 getter]`
+#### WorksOrder {#worksorder}
+ `[🔍 get only]`
 
 ```4d
-Function AssignedTemperatureSensorsPresent -> Boolean
+Function get WorksOrder -> Integer
 ```
 
-**Returns:** `Boolean`
+**Returns:** `Integer`
+
+---
+
+#### WorksOrderEntity {#worksorderentity}
+ `[🔍 get only]`
+
+```4d
+Function get WorksOrderEntity -> cs.WorksOrderEntity
+```
+
+**Returns:** `cs.WorksOrderEntity`
 
 ---
 

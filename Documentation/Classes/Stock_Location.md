@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:18:21.338Z*
+🕐 *Last updated: 2025-11-14T16:35:59.452Z*
 
 ---
 
@@ -17,9 +17,9 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [getDefaultDespatchLocation](#getdefaultdespatchlocation) → `cs.Stock_LocationEntity` 🖥️
-  - [DefaultDespatchLocation](#defaultdespatchlocation) → `cs.Stock_LocationEntity`
-  - [DefaultPackingLocation](#defaultpackinglocation) → `cs.Stock_LocationEntity`
-  - [PartBoxStore](#partboxstore) → `cs.Stock_LocationEntity`
+  - [DefaultDespatchLocation](#defaultdespatchlocation) 🔍 → `cs.Stock_LocationEntity`
+  - [DefaultPackingLocation](#defaultpackinglocation) 🔍 → `cs.Stock_LocationEntity`
+  - [PartBoxStore](#partboxstore) 🔍 → `cs.Stock_LocationEntity`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -39,13 +39,13 @@ Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### DefaultDespatchLocation {#defaultdespatchlocation}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DefaultDespatchLocation -> cs.Stock_LocationEntity
+Function get DefaultDespatchLocation -> cs.Stock_LocationEntity
 ```
 
 **Returns:** `cs.Stock_LocationEntity`
@@ -53,10 +53,10 @@ Function DefaultDespatchLocation -> cs.Stock_LocationEntity
 ---
 
 #### DefaultPackingLocation {#defaultpackinglocation}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DefaultPackingLocation -> cs.Stock_LocationEntity
+Function get DefaultPackingLocation -> cs.Stock_LocationEntity
 ```
 
 **Returns:** `cs.Stock_LocationEntity`
@@ -64,10 +64,10 @@ Function DefaultPackingLocation -> cs.Stock_LocationEntity
 ---
 
 #### PartBoxStore {#partboxstore}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
+Function get PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 ```
 
 **Returns:** `cs.Stock_LocationEntity`

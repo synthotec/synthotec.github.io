@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:21.482Z*
+🕐 *Last updated: 2025-11-14T16:35:59.596Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [evaluate](#evaluate) (2 params) → `$UnitTestResult : cs._UnitTestResult`
   - [displayResultsAlert](#displayresultsalert)
-  - [Success](#success) → `Boolean`
+  - [Success](#success) 🔍 → `Boolean`
 ---
 
 ## Properties {#properties}
@@ -77,13 +77,13 @@ Function displayResultsAlert
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Success {#success}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function Success -> Boolean
+Function get Success -> Boolean
 ```
 
 **Returns:** `Boolean`

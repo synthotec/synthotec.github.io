@@ -5,11 +5,11 @@ parent : Classes
 ---
 # WorksOrderEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
 
-📊 **Overview:** 10 Functions | 6 Getters
+📊 **Overview:** 7 Functions | 6 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.538Z*
+🕐 *Last updated: 2025-11-14T16:35:59.651Z*
 
 ---
 
@@ -20,18 +20,18 @@ parent : Classes
   - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
   - [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
   - [getQuantityScrapped](#getquantityscrapped) → `Integer` 🖥️
-  - [query IsRunning](#query isrunning) (1 param) 🖥️
-  - [query IsOpen](#query isopen) (1 param) 🖥️
+  - [IsRunning](#isrunning) (1 param) 🖥️
+  - [IsOpen](#isopen) (1 param) 🖥️
   - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [query HasMigrationID](#query hasmigrationid) (1 param) → `Text` 🖥️
-  - [AvailableStock](#availablestock) → `Integer`
-  - [WIP](#wip) → `Integer`
-  - [IsRunning](#isrunning) → `Boolean`
-  - [IsOpen](#isopen) → `Boolean`
-  - [HasMigrationID](#hasmigrationid) → `Boolean`
-  - [ExS1Stock](#exs1stock) → `Integer`
+  - [HasMigrationID](#hasmigrationid) (1 param) → `Text` 🖥️
+  - [AvailableStock](#availablestock) 🔍 → `Integer`
+  - [ExS1Stock](#exs1stock) 🔍 → `Integer`
+  - [HasMigrationID](#hasmigrationid) 🔍 🔎 → `Boolean`
+  - [IsOpen](#isopen) 🔍 🔎 → `Boolean`
+  - [IsRunning](#isrunning) 🔍 🔎 → `Boolean`
+  - [WIP](#wip) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -103,36 +103,6 @@ Function getQuantityScrapped -> Integer
 
 ---
 
-#### query IsRunning {#query isrunning}
- `[🖥️ local]`
-
-```4d
-Function query IsRunning($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
----
-
-#### query IsOpen {#query isopen}
- `[🖥️ local]`
-
-```4d
-Function query IsOpen($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
----
-
 #### calculateProcessScrap {#calculateprocessscrap}
  `[🖥️ local]`
 
@@ -181,85 +151,95 @@ Function syncMigrationSelections($RemoteEntity : cs.WorksOrderEntity)
 
 ---
 
-#### query HasMigrationID {#query hasmigrationid}
- `[🖥️ local]`
-
-```4d
-Function query HasMigrationID($QueryEventObject : Object) -> Text
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
-**Returns:** `Text`
-
----
-
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### AvailableStock {#availablestock}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function AvailableStock -> Integer
+Function get AvailableStock -> Integer
 ```
 
 **Returns:** `Integer`
 
 ---
 
-#### WIP {#wip}
- `[🖥️ local, 🔍 getter]`
+#### ExS1Stock {#exs1stock}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function WIP -> Integer
+Function get ExS1Stock -> Integer
 ```
 
 **Returns:** `Integer`
 
 ---
 
-#### IsRunning {#isrunning}
- `[🖥️ local, 🔍 getter]`
+#### HasMigrationID {#hasmigrationid}
+ `[🔍 get, 🔎 query, 🖥️ local]`
 
 ```4d
-Function IsRunning -> Boolean
+Function get HasMigrationID -> Boolean
+Function query HasMigrationID($QueryEventObject : Object)
 ```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 **Returns:** `Boolean`
 
 ---
 
 #### IsOpen {#isopen}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get, 🔎 query, 🖥️ local]`
 
 ```4d
-Function IsOpen -> Boolean
+Function get IsOpen -> Boolean
+Function query IsOpen($QueryEventObject : Object)
 ```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 **Returns:** `Boolean`
 
 ---
 
-#### HasMigrationID {#hasmigrationid}
- `[🖥️ local, 🔍 getter]`
+#### IsRunning {#isrunning}
+ `[🔍 get, 🔎 query, 🖥️ local]`
 
 ```4d
-Function HasMigrationID -> Boolean
+Function get IsRunning -> Boolean
+Function query IsRunning($QueryEventObject : Object)
 ```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 **Returns:** `Boolean`
 
 ---
 
-#### ExS1Stock {#exs1stock}
- `[🖥️ local, 🔍 getter]`
+#### WIP {#wip}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function ExS1Stock -> Integer
+Function get WIP -> Integer
 ```
 
 **Returns:** `Integer`

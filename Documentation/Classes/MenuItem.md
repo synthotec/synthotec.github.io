@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:20.679Z*
+🕐 *Last updated: 2025-11-14T16:35:58.779Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [_addMenuItem](#_addmenuitem) (1 param)
   - [_process](#_process) → `Variant`
-  - [_Style](#_style) → `Integer`
+  - [_Style](#_style) 🔍 → `Integer`
 ---
 
 ## Properties {#properties}
@@ -85,13 +85,13 @@ Function _process -> Variant
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### _Style {#_style}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function _Style -> Integer
+Function get _Style -> Integer
 ```
 
 **Returns:** `Integer`

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-14T00:18:21.177Z*
+🕐 *Last updated: 2025-11-14T16:35:59.277Z*
 
 ---
 
@@ -26,22 +26,22 @@ parent : Classes
   - [setDateTimeColors](#setdatetimecolors) (2 params)
   - [setAlertColors](#setalertcolors) (2 params)
   - [setTimeRemainingText](#settimeremainingtext) (3 params)
-  - [SecondaryStatusText](#secondarystatustext) → `Object`
-  - [TimeRemainingText](#timeremainingtext) → `Object`
-  - [DeviceMaintenanceActive](#devicemaintenanceactive) → `Boolean`
-  - [MachineDisconnected](#machinedisconnected) → `Boolean`
-  - [MachineRunning](#machinerunning) → `Boolean`
-  - [WorksOrderIsOpen](#worksorderisopen) → `Boolean`
-  - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) → `Boolean`
-  - [PrimaryStatusText](#primarystatustext) → `Text`
-  - [ScrapText](#scraptext) → `Text`
-  - [PartsMadeText](#partsmadetext) → `Text`
-  - [AlertsText](#alertstext) → `Text`
-  - [PercentMade](#percentmade) → `Real`
-  - [MouldStatusText](#mouldstatustext) → `Text`
-  - [MachineNumberText](#machinenumbertext) → `Text`
-  - [PartNameText](#partnametext) → `Text`
-  - [UnicodeSymbolsText](#unicodesymbolstext) → `Text`
+  - [AlertsText](#alertstext) 🔍 → `Text`
+  - [DeviceMaintenanceActive](#devicemaintenanceactive) 🔍 → `Boolean`
+  - [MachineDisconnected](#machinedisconnected) 🔍 → `Boolean`
+  - [MachineNumberText](#machinenumbertext) 🔍 → `Text`
+  - [MachineRunning](#machinerunning) 🔍 → `Boolean`
+  - [MouldStatusText](#mouldstatustext) 🔍 → `Text`
+  - [PartNameText](#partnametext) 🔍 → `Text`
+  - [PartsMadeText](#partsmadetext) 🔍 → `Text`
+  - [PercentMade](#percentmade) 🔍 → `Real`
+  - [PrimaryStatusText](#primarystatustext) 🔍 → `Text`
+  - [ScrapText](#scraptext) 🔍 → `Text`
+  - [SecondaryStatusText](#secondarystatustext) 🔍 → `Object`
+  - [TimeRemainingText](#timeremainingtext) 🔍 → `Object`
+  - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) 🔍 → `Boolean`
+  - [UnicodeSymbolsText](#unicodesymbolstext) 🔍 → `Text`
+  - [WorksOrderIsOpen](#worksorderisopen) 🔍 → `Boolean`
 ---
 
 ## Properties {#properties}
@@ -172,35 +172,24 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### SecondaryStatusText {#secondarystatustext}
- `[🔍 getter]`
-
-```4d
-Function SecondaryStatusText -> $DateTimeObject : Object
-```
-
-**Returns:** `Object`
-
----
-
-#### TimeRemainingText {#timeremainingtext}
- `[🔍 getter]`
+#### AlertsText {#alertstext}
+ `[🔍 get only]`
 
 ```4d
-Function TimeRemainingText -> $DateTimeObject : Object
+Function get AlertsText -> Text
 ```
 
-**Returns:** `Object`
+**Returns:** `Text`
 
 ---
 
 #### DeviceMaintenanceActive {#devicemaintenanceactive}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function DeviceMaintenanceActive -> Boolean
+Function get DeviceMaintenanceActive -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -208,120 +197,43 @@ Function DeviceMaintenanceActive -> Boolean
 ---
 
 #### MachineDisconnected {#machinedisconnected}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function MachineDisconnected -> Boolean
+Function get MachineDisconnected -> Boolean
 ```
 
 **Returns:** `Boolean`
-
----
-
-#### MachineRunning {#machinerunning}
- `[🔍 getter]`
-
-```4d
-Function MachineRunning -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### WorksOrderIsOpen {#worksorderisopen}
- `[🔍 getter]`
-
-```4d
-Function WorksOrderIsOpen -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### UnacknowledgedSensorExceptions {#unacknowledgedsensorexceptions}
- `[🔍 getter]`
-
-```4d
-Function UnacknowledgedSensorExceptions -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### PrimaryStatusText {#primarystatustext}
- `[🔍 getter]`
-
-```4d
-Function PrimaryStatusText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### ScrapText {#scraptext}
- `[🔍 getter]`
-
-```4d
-Function ScrapText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### PartsMadeText {#partsmadetext}
- `[🔍 getter]`
-
-```4d
-Function PartsMadeText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### AlertsText {#alertstext}
- `[🔍 getter]`
-
-```4d
-Function AlertsText -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### PercentMade {#percentmade}
- `[🔍 getter]`
-
-```4d
-Function PercentMade -> Real
-```
-
-**Returns:** `Real`
-
----
-
-#### MouldStatusText {#mouldstatustext}
- `[🔍 getter]`
-
-```4d
-Function MouldStatusText -> Text
-```
-
-**Returns:** `Text`
 
 ---
 
 #### MachineNumberText {#machinenumbertext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function MachineNumberText -> Text
+Function get MachineNumberText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### MachineRunning {#machinerunning}
+ `[🔍 get only]`
+
+```4d
+Function get MachineRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### MouldStatusText {#mouldstatustext}
+ `[🔍 get only]`
+
+```4d
+Function get MouldStatusText -> Text
 ```
 
 **Returns:** `Text`
@@ -329,24 +241,112 @@ Function MachineNumberText -> Text
 ---
 
 #### PartNameText {#partnametext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function PartNameText -> Text
+Function get PartNameText -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### UnicodeSymbolsText {#unicodesymbolstext}
- `[🔍 getter]`
+#### PartsMadeText {#partsmadetext}
+ `[🔍 get only]`
 
 ```4d
-Function UnicodeSymbolsText -> Text
+Function get PartsMadeText -> Text
 ```
 
 **Returns:** `Text`
+
+---
+
+#### PercentMade {#percentmade}
+ `[🔍 get only]`
+
+```4d
+Function get PercentMade -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### PrimaryStatusText {#primarystatustext}
+ `[🔍 get only]`
+
+```4d
+Function get PrimaryStatusText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### ScrapText {#scraptext}
+ `[🔍 get only]`
+
+```4d
+Function get ScrapText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### SecondaryStatusText {#secondarystatustext}
+ `[🔍 get only]`
+
+```4d
+Function get SecondaryStatusText -> $DateTimeObject : Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### TimeRemainingText {#timeremainingtext}
+ `[🔍 get only]`
+
+```4d
+Function get TimeRemainingText -> $DateTimeObject : Object
+```
+
+**Returns:** `Object`
+
+---
+
+#### UnacknowledgedSensorExceptions {#unacknowledgedsensorexceptions}
+ `[🔍 get only]`
+
+```4d
+Function get UnacknowledgedSensorExceptions -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### UnicodeSymbolsText {#unicodesymbolstext}
+ `[🔍 get only]`
+
+```4d
+Function get UnicodeSymbolsText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### WorksOrderIsOpen {#worksorderisopen}
+ `[🔍 get only]`
+
+```4d
+Function get WorksOrderIsOpen -> Boolean
+```
+
+**Returns:** `Boolean`
 
 ---
 

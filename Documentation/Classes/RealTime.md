@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T00:18:21.116Z*
+🕐 *Last updated: 2025-11-14T16:35:59.215Z*
 
 ---
 
@@ -21,8 +21,8 @@ parent : Classes
   - [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
   - [_createFragmentedCycles](#_createfragmentedcycles) (2 params) → `cs.RealTimeEntity` 🖥️
   - [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
-  - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) → `Real`
-  - [SECONDS_IN_DAY](#seconds_in_day) → `Real`
+  - [SECONDS_IN_DAY](#seconds_in_day) 🔍 → `Real`
+  - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -129,24 +129,24 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### TWO_HOURS_IN_SECONDS {#two_hours_in_seconds}
- `[🔍 getter]`
+#### SECONDS_IN_DAY {#seconds_in_day}
+ `[🔍 get only]`
 
 ```4d
-Function TWO_HOURS_IN_SECONDS -> Real
+Function get SECONDS_IN_DAY -> Real
 ```
 
 **Returns:** `Real`
 
 ---
 
-#### SECONDS_IN_DAY {#seconds_in_day}
- `[🔍 getter]`
+#### TWO_HOURS_IN_SECONDS {#two_hours_in_seconds}
+ `[🔍 get only]`
 
 ```4d
-Function SECONDS_IN_DAY -> Real
+Function get TWO_HOURS_IN_SECONDS -> Real
 ```
 
 **Returns:** `Real`

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.818Z*
+🕐 *Last updated: 2025-11-14T16:35:58.914Z*
 
 ---
 
@@ -25,10 +25,10 @@ parent : Classes
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [transfer](#transfer) (1 param) → `Boolean` 🖥️
-  - [NetWeightKg](#netweightkg) → `Real`
-  - [GrossWeightKg](#grossweightkg) → `Real`
-  - [QRObject](#qrobject) → `Object`
-  - [HasMigrationID](#hasmigrationid) → `Boolean`
+  - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
+  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+  - [NetWeightKg](#netweightkg) 🔍 → `Real`
+  - [QRObject](#qrobject) 🔍 → `Object`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -171,24 +171,35 @@ Function transfer($ToLocation : Integer) -> Boolean
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### NetWeightKg {#netweightkg}
- `[🖥️ local, 🔍 getter]`
+#### GrossWeightKg {#grossweightkg}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function NetWeightKg -> Real
+Function get GrossWeightKg -> Real
 ```
 
 **Returns:** `Real`
 
 ---
 
-#### GrossWeightKg {#grossweightkg}
- `[🖥️ local, 🔍 getter]`
+#### HasMigrationID {#hasmigrationid}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function GrossWeightKg -> Real
+Function get HasMigrationID -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### NetWeightKg {#netweightkg}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get NetWeightKg -> Real
 ```
 
 **Returns:** `Real`
@@ -196,24 +207,13 @@ Function GrossWeightKg -> Real
 ---
 
 #### QRObject {#qrobject}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function QRObject -> Object
+Function get QRObject -> Object
 ```
 
 **Returns:** `Object`
-
----
-
-#### HasMigrationID {#hasmigrationid}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function HasMigrationID -> Boolean
-```
-
-**Returns:** `Boolean`
 
 ---
 

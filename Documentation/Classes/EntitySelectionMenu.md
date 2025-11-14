@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-14T00:18:20.328Z*
+🕐 *Last updated: 2025-11-14T16:35:58.473Z*
 
 ---
 
@@ -18,8 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [display](#display) (1 param) → `4D.Entity`
   - [displayWithParents](#displaywithparents) (2 params) → `4D.Entity`
-  - [selectedEntity](#selectedentity) → `4D.Entity`
-  - [selectedEntity](#selectedentity) (1 param)
+  - [selectedEntity](#selectedentity) 🔍 ✏️ → `4D.Entity`
 ---
 
 ## Properties {#properties}
@@ -86,33 +85,23 @@ Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Obj
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### selectedEntity {#selectedentity}
- `[🔍 getter]`
+ `[🔍 get, ✏️ set]`
 
 ```4d
-Function selectedEntity -> 4D.Entity
+Function get selectedEntity -> 4D.Entity
+Function set selectedEntity($SelectedEntity : 4D.Entity)
 ```
+
+**Setter Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$SelectedEntity` | `4D.Entity` | - |
 
 **Returns:** `4D.Entity`
-
----
-
-### Setters
-
-#### selectedEntity {#selectedentity}
- `[✏️ setter]`
-
-```4d
-Function selectedEntity($SelectedEntity : 4D.Entity)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$SelectedEntity` | `4D.Entity` | - | - |
 
 ---
 

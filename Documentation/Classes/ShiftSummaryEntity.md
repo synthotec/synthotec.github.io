@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.286Z*
+🕐 *Last updated: 2025-11-14T16:35:59.394Z*
 
 ---
 
@@ -17,8 +17,8 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
-  - [ShiftSymbol](#shiftsymbol) → `Text`
-  - [ShiftColor](#shiftcolor) → `Integer`
+  - [ShiftColor](#shiftcolor) 🔍 → `Integer`
+  - [ShiftSymbol](#shiftsymbol) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -38,27 +38,27 @@ Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
 
 ---
 
-### Getters
-
-#### ShiftSymbol {#shiftsymbol}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function ShiftSymbol -> Text
-```
-
-**Returns:** `Text`
-
----
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### ShiftColor {#shiftcolor}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function ShiftColor -> Integer
+Function get ShiftColor -> Integer
 ```
 
 **Returns:** `Integer`
+
+---
+
+#### ShiftSymbol {#shiftsymbol}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get ShiftSymbol -> Text
+```
+
+**Returns:** `Text`
 
 ---
 

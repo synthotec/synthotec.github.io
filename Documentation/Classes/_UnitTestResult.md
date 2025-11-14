@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:21.543Z*
+🕐 *Last updated: 2025-11-14T16:35:59.657Z*
 
 ---
 
@@ -16,9 +16,9 @@ parent : Classes
 - [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [TestFormulaText](#testformulatext) → `Text`
-  - [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) → `Text`
-  - [StatusEmoji](#statusemoji) → `Text`
+  - [StatusEmoji](#statusemoji) 🔍 → `Text`
+  - [TestFormulaParametersText->$TestFormulaParametersText](#testformulaparameterstext->$testformulaparameterstext) 🔍 → `Text`
+  - [TestFormulaText](#testformulatext) 🔍 → `Text`
 ---
 
 ## Properties {#properties}
@@ -44,13 +44,13 @@ Class constructor
 
 ## Functions {#functions}
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### TestFormulaText {#testformulatext}
- `[🔍 getter]`
+#### StatusEmoji {#statusemoji}
+ `[🔍 get only]`
 
 ```4d
-Function TestFormulaText -> Text
+Function get StatusEmoji -> Text
 ```
 
 **Returns:** `Text`
@@ -58,21 +58,21 @@ Function TestFormulaText -> Text
 ---
 
 #### TestFormulaParametersText->$TestFormulaParametersText {#testformulaparameterstext->$testformulaparameterstext}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function TestFormulaParametersText->$TestFormulaParametersText -> Text
+Function get TestFormulaParametersText->$TestFormulaParametersText -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### StatusEmoji {#statusemoji}
- `[🔍 getter]`
+#### TestFormulaText {#testformulatext}
+ `[🔍 get only]`
 
 ```4d
-Function StatusEmoji -> Text
+Function get TestFormulaText -> Text
 ```
 
 **Returns:** `Text`

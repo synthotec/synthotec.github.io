@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:20.980Z*
+🕐 *Last updated: 2025-11-14T16:35:59.078Z*
 
 ---
 
@@ -17,8 +17,8 @@ parent : Classes
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - [process](#process)
-  - [AllLinesActioned](#alllinesactioned) → `Boolean`
-  - [UnactionedLines](#unactionedlines) → `Collection`
+  - [AllLinesActioned](#alllinesactioned) 🔍 → `Boolean`
+  - [UnactionedLines](#unactionedlines) 🔍 → `Collection`
 ---
 
 ## Properties {#properties}
@@ -66,13 +66,13 @@ Function process
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### AllLinesActioned {#alllinesactioned}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function AllLinesActioned -> Boolean
+Function get AllLinesActioned -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -80,10 +80,10 @@ Function AllLinesActioned -> Boolean
 ---
 
 #### UnactionedLines {#unactionedlines}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function UnactionedLines -> Collection
+Function get UnactionedLines -> Collection
 ```
 
 **Returns:** `Collection`

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-14T00:18:20.359Z*
+🕐 *Last updated: 2025-11-14T16:35:58.503Z*
 
 ---
 
@@ -22,7 +22,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [calculateValue](#calculatevalue) (1 param) → `Real`
   - [processOrder](#processorder) (2 params) → `Boolean`
-  - [ItemCount](#itemcount) → `Integer`
+  - [ItemCount](#itemcount) 🔍 → `Integer`
 ---
 
 ## Properties {#properties}
@@ -94,13 +94,13 @@ $Quantity: Number of items to order
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### ItemCount {#itemcount}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function ItemCount -> Integer
+Function get ItemCount -> Integer
 ```
 
 **Returns:** `Integer`

@@ -9,27 +9,27 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.434Z*
+🕐 *Last updated: 2025-11-14T16:35:58.578Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [Consignment](#consignment) → `Boolean`
+  - [Consignment](#consignment) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
 ---
 
 ## Functions {#functions}
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Consignment {#consignment}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function Consignment -> Boolean
+Function get Consignment -> Boolean
 ```
 
 **Returns:** `Boolean`

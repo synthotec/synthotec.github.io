@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T00:18:21.100Z*
+🕐 *Last updated: 2025-11-14T16:35:59.197Z*
 
 ---
 
@@ -17,8 +17,8 @@ parent : Classes
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - [setResult](#setresult) (2 params)
-  - [valueType](#valuetype) → `Integer`
-  - [booleanResult](#booleanresult) → `Variant`
+  - [booleanResult](#booleanresult) 🔍 → `Variant`
+  - [valueType](#valuetype) 🔍 → `Integer`
 ---
 
 ## Properties {#properties}
@@ -69,27 +69,27 @@ Function setResult($QueryText : Text; $QueryParameters : Collection)
 
 ---
 
-### Getters
-
-#### valueType {#valuetype}
- `[🔍 getter]`
-
-```4d
-Function valueType -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### booleanResult {#booleanresult}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function booleanResult -> Variant
+Function get booleanResult -> Variant
 ```
 
 **Returns:** `Variant`
+
+---
+
+#### valueType {#valuetype}
+ `[🔍 get only]`
+
+```4d
+Function get valueType -> Integer
+```
+
+**Returns:** `Integer`
 
 ---
 

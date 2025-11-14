@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.955Z*
+🕐 *Last updated: 2025-11-14T16:35:59.052Z*
 
 ---
 
@@ -21,11 +21,11 @@ parent : Classes
   - [printJobs](#printjobs) 🖥️
   - [setCurrent](#setcurrent) → `$Success : Boolean` 🖥️
   - [setDefault](#setdefault) 🖥️
-  - [LabelPrinter](#labelprinter) → `Boolean`
-  - [LabelPaperName](#labelpapername) → `Text`
-  - [isLabelPrinter](#islabelprinter) → `Boolean`
-  - [isDocumentPrinter](#isdocumentprinter) → `Boolean`
-  - [TypeDisplay](#typedisplay) → `Text`
+  - [isDocumentPrinter](#isdocumentprinter) 🔍 → `Boolean`
+  - [isLabelPrinter](#islabelprinter) 🔍 → `Boolean`
+  - [LabelPaperName](#labelpapername) 🔍 → `Text`
+  - [LabelPrinter](#labelprinter) 🔍 → `Boolean`
+  - [TypeDisplay](#typedisplay) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -83,13 +83,24 @@ Function setDefault
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### LabelPrinter {#labelprinter}
- `[🔍 getter]`
+#### isDocumentPrinter {#isdocumentprinter}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function LabelPrinter -> Boolean
+Function get isDocumentPrinter -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### isLabelPrinter {#islabelprinter}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get isLabelPrinter -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -97,32 +108,21 @@ Function LabelPrinter -> Boolean
 ---
 
 #### LabelPaperName {#labelpapername}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function LabelPaperName -> Text
+Function get LabelPaperName -> Text
 ```
 
 **Returns:** `Text`
 
 ---
 
-#### isLabelPrinter {#islabelprinter}
- `[🖥️ local, 🔍 getter]`
+#### LabelPrinter {#labelprinter}
+ `[🔍 get only]`
 
 ```4d
-Function isLabelPrinter -> Boolean
-```
-
-**Returns:** `Boolean`
-
----
-
-#### isDocumentPrinter {#isdocumentprinter}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function isDocumentPrinter -> Boolean
+Function get LabelPrinter -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -130,10 +130,10 @@ Function isDocumentPrinter -> Boolean
 ---
 
 #### TypeDisplay {#typedisplay}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function TypeDisplay -> Text
+Function get TypeDisplay -> Text
 ```
 
 **Returns:** `Text`

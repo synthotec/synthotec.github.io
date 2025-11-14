@@ -5,11 +5,11 @@ parent : Classes
 ---
 # BoxLabelsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
 
-📊 **Overview:** 10 Functions | 19 Getters
+📊 **Overview:** 8 Functions | 19 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:19.913Z*
+🕐 *Last updated: 2025-11-14T16:35:58.040Z*
 
 ---
 
@@ -19,32 +19,32 @@ parent : Classes
   - [getStatesCollection](#getstatescollection) → `Collection`
   - [ModifyStatus](#modifystatus) 🖥️
   - [AddComment](#addcomment) (2 params) 🖥️
-  - [query PartBox](#query partbox) (1 param)
-  - [query Despatched](#query despatched) (1 param)
+  - [PartBox](#partbox) (1 param)
+  - [Despatched](#despatched) (1 param)
   - [removeFromPallet](#removefrompallet) → `$Success : Boolean`
   - [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
   - [generateQR](#generateqr) → `Picture` 🖥️
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [NetWeightKg](#netweightkg) → `Real`
-  - [GrossWeightKg](#grossweightkg) → `Real`
-  - [CurrentStatus](#currentstatus) → `Object`
-  - [StatusText](#statustext) → `Text`
-  - [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) → `Text`
-  - [BoxNumberColor](#boxnumbercolor) → `Integer`
-  - [AdviceNote](#advicenote) → `Integer`
-  - [BoxQuantityDisplay](#boxquantitydisplay) → `Text`
-  - [PackedByDisplay](#packedbydisplay) → `Text`
-  - [BoxNumberDisplay](#boxnumberdisplay) → `Text`
-  - [RouteCardColor](#routecardcolor) → `Integer`
-  - [PartBox](#partbox) → `Boolean`
-  - [Despatched](#despatched) → `Boolean`
-  - [linkedBoxesQuantity](#linkedboxesquantity) → `Integer`
-  - [totalBoxQuantity](#totalboxquantity) → `Integer`
-  - [partBoxSkipped](#partboxskipped) → `Boolean`
-  - [toolIsRunning](#toolisrunning) → `Boolean`
-  - [HasMigrationID](#hasmigrationid) → `Boolean`
-  - [TestProduct](#testproduct) → `cs.ProductEntity`
+  - [AdviceNote](#advicenote) 🔍 → `Integer`
+  - [BoxNumberColor](#boxnumbercolor) 🔍 → `Integer`
+  - [BoxNumberDisplay](#boxnumberdisplay) 🔍 → `Text`
+  - [BoxQuantityDisplay](#boxquantitydisplay) 🔍 → `Text`
+  - [CurrentStatus](#currentstatus) 🔍 → `Object`
+  - [Despatched](#despatched) 🔍 🔎 → `Boolean`
+  - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
+  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+  - [linkedBoxesQuantity](#linkedboxesquantity) 🔍 → `Integer`
+  - [NetWeightKg](#netweightkg) 🔍 → `Real`
+  - [PackedByDisplay](#packedbydisplay) 🔍 → `Text`
+  - [PartBox](#partbox) 🔍 🔎 → `Boolean`
+  - [partBoxSkipped](#partboxskipped) 🔍 → `Boolean`
+  - [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) 🔍 → `Text`
+  - [RouteCardColor](#routecardcolor) 🔍 → `Integer`
+  - [StatusText](#statustext) 🔍 → `Text`
+  - [TestProduct](#testproduct) 🔍 → `cs.ProductEntity`
+  - [toolIsRunning](#toolisrunning) 🔍 → `Boolean`
+  - [totalBoxQuantity](#totalboxquantity) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -86,36 +86,6 @@ Function AddComment($Comment : Text; $StaffEntity : cs.StaffEntity)
 |:-----|:-----|:---------|:------------|
 | `$Comment` | `Text` | - | - |
 | `$StaffEntity` | `cs.StaffEntity` | - | - |
-
----
-
-#### query PartBox {#query partbox}
-
-
-```4d
-Function query PartBox($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
-
----
-
-#### query Despatched {#query despatched}
-
-
-```4d
-Function query Despatched($QueryEventObject : Object)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$QueryEventObject` | `Object` | - | - |
 
 ---
 
@@ -184,145 +154,99 @@ Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### NetWeightKg {#netweightkg}
- `[🖥️ local, 🔍 getter]`
+#### AdviceNote {#advicenote}
+ `[🔍 get only]`
 
 ```4d
-Function NetWeightKg -> Real
+Function get AdviceNote -> Integer
 ```
 
-**Returns:** `Real`
+**Returns:** `Integer`
 
 ---
 
-#### GrossWeightKg {#grossweightkg}
- `[🖥️ local, 🔍 getter]`
+#### BoxNumberColor {#boxnumbercolor}
+ `[🔍 get only]`
 
 ```4d
-Function GrossWeightKg -> Real
+Function get BoxNumberColor -> Integer
 ```
 
-**Returns:** `Real`
+**Returns:** `Integer`
+
+---
+
+#### BoxNumberDisplay {#boxnumberdisplay}
+ `[🔍 get only]`
+
+```4d
+Function get BoxNumberDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### BoxQuantityDisplay {#boxquantitydisplay}
+ `[🔍 get only]`
+
+```4d
+Function get BoxQuantityDisplay -> Text
+```
+
+**Returns:** `Text`
 
 ---
 
 #### CurrentStatus {#currentstatus}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function CurrentStatus -> Object
+Function get CurrentStatus -> Object
 ```
 
 **Returns:** `Object`
 
 ---
 
-#### StatusText {#statustext}
- `[🔍 getter]`
+#### Despatched {#despatched}
+ `[🔍 get, 🔎 query]`
 
 ```4d
-Function StatusText -> Text
+Function get Despatched -> Boolean
+Function query Despatched($QueryEventObject : Object)
 ```
 
-**Returns:** `Text`
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
----
+**Query Parameter:**
 
-#### PartsFromOtherWorksOrders->$Text {#partsfromotherworksorders->$text}
- `[🔍 getter]`
-
-```4d
-Function PartsFromOtherWorksOrders->$Text -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### BoxNumberColor {#boxnumbercolor}
- `[🔍 getter]`
-
-```4d
-Function BoxNumberColor -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-#### AdviceNote {#advicenote}
- `[🔍 getter]`
-
-```4d
-Function AdviceNote -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-#### BoxQuantityDisplay {#boxquantitydisplay}
- `[🔍 getter]`
-
-```4d
-Function BoxQuantityDisplay -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### PackedByDisplay {#packedbydisplay}
- `[🔍 getter]`
-
-```4d
-Function PackedByDisplay -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### BoxNumberDisplay {#boxnumberdisplay}
- `[🔍 getter]`
-
-```4d
-Function BoxNumberDisplay -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### RouteCardColor {#routecardcolor}
- `[🔍 getter]`
-
-```4d
-Function RouteCardColor -> Integer
-```
-
-**Returns:** `Integer`
-
----
-
-#### PartBox {#partbox}
- `[🔍 getter]`
-
-```4d
-Function PartBox -> Boolean
-```
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
 
 **Returns:** `Boolean`
 
 ---
 
-#### Despatched {#despatched}
- `[🔍 getter]`
+#### GrossWeightKg {#grossweightkg}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Despatched -> Boolean
+Function get GrossWeightKg -> Real
+```
+
+**Returns:** `Real`
+
+---
+
+#### HasMigrationID {#hasmigrationid}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get HasMigrationID -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -330,68 +254,132 @@ Function Despatched -> Boolean
 ---
 
 #### linkedBoxesQuantity {#linkedboxesquantity}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function linkedBoxesQuantity -> Integer
+Function get linkedBoxesQuantity -> Integer
 ```
 
 **Returns:** `Integer`
 
 ---
 
-#### totalBoxQuantity {#totalboxquantity}
- `[🖥️ local, 🔍 getter]`
+#### NetWeightKg {#netweightkg}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function totalBoxQuantity -> Integer
+Function get NetWeightKg -> Real
 ```
 
-**Returns:** `Integer`
+**Returns:** `Real`
+
+---
+
+#### PackedByDisplay {#packedbydisplay}
+ `[🔍 get only]`
+
+```4d
+Function get PackedByDisplay -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### PartBox {#partbox}
+ `[🔍 get, 🔎 query]`
+
+```4d
+Function get PartBox -> Boolean
+Function query PartBox($QueryEventObject : Object)
+```
+
+**Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
+
+**Query Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$QueryEventObject` | `Object` | - |
+
+**Returns:** `Boolean`
 
 ---
 
 #### partBoxSkipped {#partboxskipped}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function partBoxSkipped -> Boolean
+Function get partBoxSkipped -> Boolean
 ```
 
 **Returns:** `Boolean`
 
 ---
 
-#### toolIsRunning {#toolisrunning}
- `[🖥️ local, 🔍 getter]`
+#### PartsFromOtherWorksOrders->$Text {#partsfromotherworksorders->$text}
+ `[🔍 get only]`
 
 ```4d
-Function toolIsRunning -> Boolean
+Function get PartsFromOtherWorksOrders->$Text -> Text
 ```
 
-**Returns:** `Boolean`
+**Returns:** `Text`
 
 ---
 
-#### HasMigrationID {#hasmigrationid}
- `[🖥️ local, 🔍 getter]`
+#### RouteCardColor {#routecardcolor}
+ `[🔍 get only]`
 
 ```4d
-Function HasMigrationID -> Boolean
+Function get RouteCardColor -> Integer
 ```
 
-**Returns:** `Boolean`
+**Returns:** `Integer`
+
+---
+
+#### StatusText {#statustext}
+ `[🔍 get only]`
+
+```4d
+Function get StatusText -> Text
+```
+
+**Returns:** `Text`
 
 ---
 
 #### TestProduct {#testproduct}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function TestProduct -> cs.ProductEntity
+Function get TestProduct -> cs.ProductEntity
 ```
 
 **Returns:** `cs.ProductEntity`
+
+---
+
+#### toolIsRunning {#toolisrunning}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get toolIsRunning -> Boolean
+```
+
+**Returns:** `Boolean`
+
+---
+
+#### totalBoxQuantity {#totalboxquantity}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get totalBoxQuantity -> Integer
+```
+
+**Returns:** `Integer`
 
 ---
 

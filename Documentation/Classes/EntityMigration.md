@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-14T00:18:20.308Z*
+🕐 *Last updated: 2025-11-14T16:35:58.454Z*
 
 ---
 
@@ -30,13 +30,13 @@ parent : Classes
   - [startTransactions](#starttransactions)
   - [validateTransactions](#validatetransactions)
   - [cancelTransactions](#canceltransactions)
-  - [NewEntityPropertyFormulas](#newentitypropertyformulas) → `Collection`
-  - [LinkDisplayProperty](#linkdisplayproperty) → `Text`
-  - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) → `Text`
-  - [LinkingEnabled](#linkingenabled) → `Boolean`
-  - [_MigrationSettings](#_migrationsettings) → `Object`
-  - [DataClassName](#dataclassname) → `Text`
-  - [MigrationPropertyExists](#migrationpropertyexists) → `Boolean`
+  - [_MigrationSettings](#_migrationsettings) 🔍 → `Object`
+  - [DataClassName](#dataclassname) 🔍 → `Text`
+  - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) 🔍 → `Text`
+  - [LinkDisplayProperty](#linkdisplayproperty) 🔍 → `Text`
+  - [LinkingEnabled](#linkingenabled) 🔍 → `Boolean`
+  - [MigrationPropertyExists](#migrationpropertyexists) 🔍 → `Boolean`
+  - [NewEntityPropertyFormulas](#newentitypropertyformulas) 🔍 → `Collection`
 ---
 
 ## Properties {#properties}
@@ -236,65 +236,13 @@ Rollback transactions on both local and remote datastores
 
 ---
 
-### Getters
-
-#### NewEntityPropertyFormulas {#newentitypropertyformulas}
- `[🔍 getter]`
-
-```4d
-Function NewEntityPropertyFormulas -> Collection
-```
-
-Collection of formulas to apply when creating new remote entities
-
-**Returns:** `Collection`
-
----
-
-#### LinkDisplayProperty {#linkdisplayproperty}
- `[🔍 getter]`
-
-```4d
-Function LinkDisplayProperty -> Text
-```
-
-Property name to display when linking entities
-
-**Returns:** `Text`
-
----
-
-#### LinkAdditionalInfoProperty {#linkadditionalinfoproperty}
- `[🔍 getter]`
-
-```4d
-Function LinkAdditionalInfoProperty -> Text
-```
-
-Additional property to show during linking for context
-
-**Returns:** `Text`
-
----
-
-#### LinkingEnabled {#linkingenabled}
- `[🔍 getter]`
-
-```4d
-Function LinkingEnabled -> Boolean
-```
-
-Whether interactive linking is enabled for this migration
-
-**Returns:** `Boolean`
-
----
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### _MigrationSettings {#_migrationsettings}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function _MigrationSettings -> Object
+Function get _MigrationSettings -> Object
 ```
 
 Migration settings from the dataclass's getMigrationSettings function
@@ -304,10 +252,10 @@ Migration settings from the dataclass's getMigrationSettings function
 ---
 
 #### DataClassName {#dataclassname}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function DataClassName -> Text
+Function get DataClassName -> Text
 ```
 
 Name of the local dataclass being migrated
@@ -316,16 +264,68 @@ Name of the local dataclass being migrated
 
 ---
 
-#### MigrationPropertyExists {#migrationpropertyexists}
- `[🔍 getter]`
+#### LinkAdditionalInfoProperty {#linkadditionalinfoproperty}
+ `[🔍 get only]`
 
 ```4d
-Function MigrationPropertyExists -> Boolean
+Function get LinkAdditionalInfoProperty -> Text
+```
+
+Additional property to show during linking for context
+
+**Returns:** `Text`
+
+---
+
+#### LinkDisplayProperty {#linkdisplayproperty}
+ `[🔍 get only]`
+
+```4d
+Function get LinkDisplayProperty -> Text
+```
+
+Property name to display when linking entities
+
+**Returns:** `Text`
+
+---
+
+#### LinkingEnabled {#linkingenabled}
+ `[🔍 get only]`
+
+```4d
+Function get LinkingEnabled -> Boolean
+```
+
+Whether interactive linking is enabled for this migration
+
+**Returns:** `Boolean`
+
+---
+
+#### MigrationPropertyExists {#migrationpropertyexists}
+ `[🔍 get only]`
+
+```4d
+Function get MigrationPropertyExists -> Boolean
 ```
 
 Check if the dataclass has a MigrationID property
 
 **Returns:** `Boolean`
+
+---
+
+#### NewEntityPropertyFormulas {#newentitypropertyformulas}
+ `[🔍 get only]`
+
+```4d
+Function get NewEntityPropertyFormulas -> Collection
+```
+
+Collection of formulas to apply when creating new remote entities
+
+**Returns:** `Collection`
 
 ---
 

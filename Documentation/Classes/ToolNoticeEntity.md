@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.424Z*
+🕐 *Last updated: 2025-11-14T16:35:59.537Z*
 
 ---
 
@@ -18,9 +18,9 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [displayWorkOrders](#displayworkorders) 🖥️
   - [deactivate](#deactivate) 🖥️
-  - [IsActive](#isactive) → `Boolean`
-  - [RemainingRuns](#remainingruns) → `Integer`
-  - [ActiveUntilText](#activeuntiltext) → `Text`
+  - [ActiveUntilText](#activeuntiltext) 🔍 → `Text`
+  - [IsActive](#isactive) 🔍 → `Boolean`
+  - [RemainingRuns](#remainingruns) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -47,13 +47,24 @@ Function deactivate
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### IsActive {#isactive}
- `[🔍 getter]`
+#### ActiveUntilText {#activeuntiltext}
+ `[🔍 get only]`
 
 ```4d
-Function IsActive -> Boolean
+Function get ActiveUntilText -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### IsActive {#isactive}
+ `[🔍 get only]`
+
+```4d
+Function get IsActive -> Boolean
 ```
 
 **Returns:** `Boolean`
@@ -61,24 +72,13 @@ Function IsActive -> Boolean
 ---
 
 #### RemainingRuns {#remainingruns}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function RemainingRuns -> Integer
+Function get RemainingRuns -> Integer
 ```
 
 **Returns:** `Integer`
-
----
-
-#### ActiveUntilText {#activeuntiltext}
- `[🔍 getter]`
-
-```4d
-Function ActiveUntilText -> Text
-```
-
-**Returns:** `Text`
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.059Z*
+🕐 *Last updated: 2025-11-14T16:35:59.155Z*
 
 ---
 
@@ -18,7 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [Default](#default) → `Boolean`
+  - [Default](#default) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -59,13 +59,13 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Default {#default}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Default -> Boolean
+Function get Default -> Boolean
 ```
 
 **Returns:** `Boolean`

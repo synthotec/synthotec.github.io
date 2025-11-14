@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.597Z*
+🕐 *Last updated: 2025-11-14T16:35:58.714Z*
 
 ---
 
@@ -21,11 +21,11 @@ parent : Classes
   - [printLabel](#printlabel) (1 param) 🖥️
   - [generateQR](#generateqr) → `Picture` 🖥️
   - [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
-  - [SortOrder](#sortorder) → `Text`
-  - [ListBoxDisplayName](#listboxdisplayname) → `Text`
-  - [DisplayName](#displayname) → `Text`
-  - [ListboxMetaExpression](#listboxmetaexpression) → `Object`
-  - [Level](#level) → `Integer`
+  - [DisplayName](#displayname) 🔍 → `Text`
+  - [Level](#level) 🔍 → `Integer`
+  - [ListBoxDisplayName](#listboxdisplayname) 🔍 → `Text`
+  - [ListboxMetaExpression](#listboxmetaexpression) 🔍 → `Object`
+  - [SortOrder](#sortorder) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -104,35 +104,35 @@ Function getStockListboxCollection -> $StockListboxCollection : Collection
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### SortOrder {#sortorder}
- `[🖥️ local, 🔍 getter]`
+#### DisplayName {#displayname}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function SortOrder -> $SortOrder : Text
+Function get DisplayName -> $DisplayName : Text
 ```
 
 **Returns:** `Text`
+
+---
+
+#### Level {#level}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get Level -> $Level : Integer
+```
+
+**Returns:** `Integer`
 
 ---
 
 #### ListBoxDisplayName {#listboxdisplayname}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function ListBoxDisplayName -> $ListBoxDisplayName : Text
-```
-
-**Returns:** `Text`
-
----
-
-#### DisplayName {#displayname}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function DisplayName -> $DisplayName : Text
+Function get ListBoxDisplayName -> $ListBoxDisplayName : Text
 ```
 
 **Returns:** `Text`
@@ -140,24 +140,24 @@ Function DisplayName -> $DisplayName : Text
 ---
 
 #### ListboxMetaExpression {#listboxmetaexpression}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function ListboxMetaExpression -> $ListboxMetaExpression : Object
+Function get ListboxMetaExpression -> $ListboxMetaExpression : Object
 ```
 
 **Returns:** `Object`
 
 ---
 
-#### Level {#level}
- `[🖥️ local, 🔍 getter]`
+#### SortOrder {#sortorder}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Level -> $Level : Integer
+Function get SortOrder -> $SortOrder : Text
 ```
 
-**Returns:** `Integer`
+**Returns:** `Text`
 
 ---
 

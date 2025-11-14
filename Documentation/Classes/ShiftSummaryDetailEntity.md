@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.283Z*
+🕐 *Last updated: 2025-11-14T16:35:59.391Z*
 
 ---
 
@@ -18,9 +18,9 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
   - [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
-  - [Status](#status) → `Integer`
-  - [StatusText](#statustext) → `Text`
-  - [StatusColor](#statuscolor) → `Integer`
+  - [Status](#status) 🔍 → `Integer`
+  - [StatusColor](#statuscolor) 🔍 → `Integer`
+  - [StatusText](#statustext) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -53,13 +53,24 @@ Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachines
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Status {#status}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Status -> Integer
+Function get Status -> Integer
+```
+
+**Returns:** `Integer`
+
+---
+
+#### StatusColor {#statuscolor}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get StatusColor -> Integer
 ```
 
 **Returns:** `Integer`
@@ -67,24 +78,13 @@ Function Status -> Integer
 ---
 
 #### StatusText {#statustext}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function StatusText -> Text
+Function get StatusText -> Text
 ```
 
 **Returns:** `Text`
-
----
-
-#### StatusColor {#statuscolor}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function StatusColor -> Integer
-```
-
-**Returns:** `Integer`
 
 ---
 

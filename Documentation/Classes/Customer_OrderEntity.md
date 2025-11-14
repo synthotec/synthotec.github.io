@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.036Z*
+🕐 *Last updated: 2025-11-14T16:35:58.158Z*
 
 ---
 
@@ -25,13 +25,12 @@ parent : Classes
   - [getPickedQuantitiesText](#getpickedquantitiestext) (1 param) → `Text` 🖥️
   - [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
   - [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
-  - [DespatchDateTime](#despatchdatetime) → `cs.System.DateTime`
-  - [DeliveryDateTime](#deliverydatetime) → `cs.System.DateTime`
-  - [DespatchDate](#despatchdate) → `Date`
-  - [DeliveryDate](#deliverydate) → `Date`
-  - [OutstandingToDeliver](#outstandingtodeliver) → `Integer`
-  - [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
-  - [OutstandingToDeliver](#outstandingtodeliver) (1 param)
+  - [DeliveryDate](#deliverydate) 🔍 → `Date`
+  - [DeliveryDateTime](#deliverydatetime) 🔍 → `cs.System.DateTime`
+  - [DespatchDate](#despatchdate) 🔍 → `Date`
+  - [DespatchDateTime](#despatchdatetime) 🔍 → `cs.System.DateTime`
+  - [OutstandingToDeliver](#outstandingtodeliver) 🔍 ✏️ → `Integer`
+  - [OutstandingToPickRequest](#outstandingtopickrequest) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -183,24 +182,24 @@ Function getPickRequestQuantitiesColor -> Integer
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### DespatchDateTime {#despatchdatetime}
- `[🖥️ local, 🔍 getter]`
+#### DeliveryDate {#deliverydate}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DespatchDateTime -> cs.System.DateTime
+Function get DeliveryDate -> Date
 ```
 
-**Returns:** `cs.System.DateTime`
+**Returns:** `Date`
 
 ---
 
 #### DeliveryDateTime {#deliverydatetime}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DeliveryDateTime -> cs.System.DateTime
+Function get DeliveryDateTime -> cs.System.DateTime
 ```
 
 **Returns:** `cs.System.DateTime`
@@ -208,63 +207,53 @@ Function DeliveryDateTime -> cs.System.DateTime
 ---
 
 #### DespatchDate {#despatchdate}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DespatchDate -> Date
+Function get DespatchDate -> Date
 ```
 
 **Returns:** `Date`
 
 ---
 
-#### DeliveryDate {#deliverydate}
- `[🖥️ local, 🔍 getter]`
+#### DespatchDateTime {#despatchdatetime}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function DeliveryDate -> Date
+Function get DespatchDateTime -> cs.System.DateTime
 ```
 
-**Returns:** `Date`
+**Returns:** `cs.System.DateTime`
 
 ---
 
 #### OutstandingToDeliver {#outstandingtodeliver}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get, ✏️ set, 🖥️ local]`
 
 ```4d
-Function OutstandingToDeliver -> Integer
+Function get OutstandingToDeliver -> Integer
+Function set OutstandingToDeliver($OutstandingToDeliver : Integer)
 ```
+
+**Setter Parameter:**
+
+| Name | Type | Description |
+|:-----|:-----|:------------|
+| `$OutstandingToDeliver` | `Integer` | - |
 
 **Returns:** `Integer`
 
 ---
 
 #### OutstandingToPickRequest {#outstandingtopickrequest}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function OutstandingToPickRequest -> Integer
+Function get OutstandingToPickRequest -> Integer
 ```
 
 **Returns:** `Integer`
-
----
-
-### Setters
-
-#### OutstandingToDeliver {#outstandingtodeliver}
- `[🖥️ local, ✏️ setter]`
-
-```4d
-Function OutstandingToDeliver($OutstandingToDeliver : Integer)
-```
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$OutstandingToDeliver` | `Integer` | - | - |
 
 ---
 

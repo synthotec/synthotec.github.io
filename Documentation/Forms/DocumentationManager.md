@@ -1,11 +1,11 @@
 ﻿---
 layout : default
-title : Errors
+title : DocumentationManager
 parent : Forms
 ---
-# Errors [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Errors)
+# DocumentationManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DocumentationManager)
 
-📊 **Overview:** 6 Objects | 2 Types | 2 Pages | 15 Events | 2 Object Methods
+📊 **Overview:** 4 Objects | 3 Types | 4 Pages | 15 Events | 2 Object Methods
 
 ## ℹ️ Form Information
 
@@ -14,17 +14,17 @@ parent : Forms
 | **Destination** | detailScreen |
 | **Window Title** | window title |
 | **Window Sizing** | X: variable, Y: variable |
-| **Pages** | 2 |
-| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Errors/method.4dm) |
+| **Pages** | 4 |
+| **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DocumentationManager/method.4dm) |
 | **Object Methods** | 2 |
-| **Generated** | 🕐 2025-11-14T16:36:00.529Z |
+| **Generated** | 🕐 2025-11-14T16:36:00.512Z |
 
 ---
 
 ## 📑 Table of Contents
 
 - [🎯 Form Events](#-form-events) (15)
-- [🧩 Form Objects](#-form-objects) (6)
+- [🧩 Form Objects](#-form-objects) (4)
 
 ---
 
@@ -61,16 +61,19 @@ This form handles **15** of **44** possible events:
 
 ### Interactive Objects by Page
 
+#### Page 0 (Visible on All Pages)
+
+| Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
+|:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
+| Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.DocumentationType | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DocumentationManager/ObjectMethods/Popup%20Dropdown%20List.4dm) |
+
 #### Page 1
 
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Errors/ObjectMethods/List%20Box.4dm) |
-| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailSelection | - |
-| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.Stack | - |
-| List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.CallChain | - |
-| Input | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.CurrentStackTrace; *) | - |
-| Input1 | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.ErrorDetailEntity.ErrorObject.DebugInfo || ""; *) | - |
+| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ClassJsonCollection | - |
+| RegenerateClassJsonButton | 🔃Regenerate Class Json | 🔘 button | ✅ | ✅ | ❌ | - | [RegenerateClassJsonButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DocumentationManager/ObjectMethods/RegenerateClassJsonButton.4dm) |
+| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.SelectedClassJson.functions | - |
 
 ---
 

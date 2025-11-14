@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.189Z*
+🕐 *Last updated: 2025-11-14T16:35:59.290Z*
 
 ---
 
@@ -19,10 +19,10 @@ parent : Classes
   - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
   - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
   - [sendEmail](#sendemail) → `Boolean`
-  - [PartsMade](#partsmade) → `Integer`
-  - [Duration](#duration) → `Time`
-  - [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
-  - [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
+  - [Duration](#duration) 🔍 → `Time`
+  - [HighestCelciusTemperature](#highestcelciustemperature) 🔍 → `Real`
+  - [LowestCelciusTemperature](#lowestcelciustemperature) 🔍 → `Real`
+  - [PartsMade](#partsmade) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -70,49 +70,49 @@ Function sendEmail -> Boolean
 
 ---
 
-### Getters
-
-#### PartsMade {#partsmade}
- `[🖥️ local, 🔍 getter]`
-
-```4d
-Function PartsMade -> Integer
-```
-
-**Returns:** `Integer`
-
----
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### Duration {#duration}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function Duration -> Time
+Function get Duration -> Time
 ```
 
 **Returns:** `Time`
 
 ---
 
-#### LowestCelciusTemperature {#lowestcelciustemperature}
- `[🖥️ local, 🔍 getter]`
+#### HighestCelciusTemperature {#highestcelciustemperature}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function LowestCelciusTemperature -> Real
+Function get HighestCelciusTemperature -> Real
 ```
 
 **Returns:** `Real`
 
 ---
 
-#### HighestCelciusTemperature {#highestcelciustemperature}
- `[🖥️ local, 🔍 getter]`
+#### LowestCelciusTemperature {#lowestcelciustemperature}
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function HighestCelciusTemperature -> Real
+Function get LowestCelciusTemperature -> Real
 ```
 
 **Returns:** `Real`
+
+---
+
+#### PartsMade {#partsmade}
+ `[🔍 get only, 🖥️ local]`
+
+```4d
+Function get PartsMade -> Integer
+```
+
+**Returns:** `Integer`
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.342Z*
+🕐 *Last updated: 2025-11-14T16:35:58.488Z*
 
 ---
 
@@ -17,12 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [createGitHubIssue](#creategithubissue)
-  - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) → `cs.UI.ListBoxMeta`
-  - [GitHubIssueText](#githubissuetext) → `Text`
-  - [GitHubIssueLabel](#githubissuelabel) → `Text`
-  - [GitHubIssueTitle](#githubissuetitle) → `Text`
-  - [FirstOccurrence](#firstoccurrence) → `Text`
-  - [LastOccurrence](#lastoccurrence) → `Text`
+  - [FirstOccurrence](#firstoccurrence) 🔍 → `Text`
+  - [GitHubIssueLabel](#githubissuelabel) 🔍 → `Text`
+  - [GitHubIssueText](#githubissuetext) 🔍 → `Text`
+  - [GitHubIssueTitle](#githubissuetitle) 🔍 → `Text`
+  - [LastOccurrence](#lastoccurrence) 🔍 → `Text`
+  - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) 🔍 → `cs.UI.ListBoxMeta`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -40,24 +40,13 @@ Function createGitHubIssue
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
-#### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
- `[🔍 getter]`
-
-```4d
-Function ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
-```
-
-**Returns:** `cs.UI.ListBoxMeta`
-
----
-
-#### GitHubIssueText {#githubissuetext}
- `[🔍 getter]`
+#### FirstOccurrence {#firstoccurrence}
+ `[🔍 get only]`
 
 ```4d
-Function GitHubIssueText -> Text
+Function get FirstOccurrence -> Text
 ```
 
 **Returns:** `Text`
@@ -65,10 +54,21 @@ Function GitHubIssueText -> Text
 ---
 
 #### GitHubIssueLabel {#githubissuelabel}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function GitHubIssueLabel -> Text
+Function get GitHubIssueLabel -> Text
+```
+
+**Returns:** `Text`
+
+---
+
+#### GitHubIssueText {#githubissuetext}
+ `[🔍 get only]`
+
+```4d
+Function get GitHubIssueText -> Text
 ```
 
 **Returns:** `Text`
@@ -76,21 +76,10 @@ Function GitHubIssueLabel -> Text
 ---
 
 #### GitHubIssueTitle {#githubissuetitle}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function GitHubIssueTitle -> Text
-```
-
-**Returns:** `Text`
-
----
-
-#### FirstOccurrence {#firstoccurrence}
- `[🔍 getter]`
-
-```4d
-Function FirstOccurrence -> Text
+Function get GitHubIssueTitle -> Text
 ```
 
 **Returns:** `Text`
@@ -98,13 +87,24 @@ Function FirstOccurrence -> Text
 ---
 
 #### LastOccurrence {#lastoccurrence}
- `[🔍 getter]`
+ `[🔍 get only]`
 
 ```4d
-Function LastOccurrence -> Text
+Function get LastOccurrence -> Text
 ```
 
 **Returns:** `Text`
+
+---
+
+#### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
+ `[🔍 get only]`
+
+```4d
+Function get ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
+```
+
+**Returns:** `cs.UI.ListBoxMeta`
 
 ---
 

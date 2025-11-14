@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:21.080Z*
+🕐 *Last updated: 2025-11-14T16:35:59.176Z*
 
 ---
 
@@ -17,8 +17,8 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
-  - [OutstandingQuantity](#outstandingquantity) → `Real`
-  - [value](#value) → `Real`
+  - [OutstandingQuantity](#outstandingquantity) 🔍 → `Real`
+  - [value](#value) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
 
 ---
@@ -38,13 +38,13 @@ Function createReceipt -> cs.PurchaseReceiptsEntity
 
 ---
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### OutstandingQuantity {#outstandingquantity}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function OutstandingQuantity -> Real
+Function get OutstandingQuantity -> Real
 ```
 
 **Returns:** `Real`
@@ -52,10 +52,10 @@ Function OutstandingQuantity -> Real
 ---
 
 #### value {#value}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function value -> Real
+Function get value -> Real
 ```
 
 **Returns:** `Real`

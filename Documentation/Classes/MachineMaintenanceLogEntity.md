@@ -9,28 +9,28 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T00:18:20.605Z*
+🕐 *Last updated: 2025-11-14T16:35:58.721Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [TimeStamp](#timestamp) → `Text`
-  - [TimeStampWithTab](#timestampwithtab) → `Text`
+  - [TimeStamp](#timestamp) 🔍 → `Text`
+  - [TimeStampWithTab](#timestampwithtab) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---
 
 ## Functions {#functions}
 
-### Getters
+### Properties (Getters/Setters/Query/OrderBy)
 
 #### TimeStamp {#timestamp}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function TimeStamp -> Text
+Function get TimeStamp -> Text
 ```
 
 **Returns:** `Text`
@@ -38,10 +38,10 @@ Function TimeStamp -> Text
 ---
 
 #### TimeStampWithTab {#timestampwithtab}
- `[🖥️ local, 🔍 getter]`
+ `[🔍 get only, 🖥️ local]`
 
 ```4d
-Function TimeStampWithTab -> Text
+Function get TimeStampWithTab -> Text
 ```
 
 **Returns:** `Text`
