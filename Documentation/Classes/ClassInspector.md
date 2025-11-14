@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-14T16:35:58.096Z*
+🕐 *Last updated: 2025-11-14T16:45:49.745Z*
 
 ---
 
@@ -21,20 +21,21 @@ Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 - [📋 Properties (10)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [_parse](#_parse)
-  - [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
-  - [_removeInlineComment](#_removeinlinecomment) (1 param) → `Text`
-  - [_extractParameterComments](#_extractparametercomments) (2 params) → `Object`
-  - [_loadExistingJSON](#_loadexistingjson)
-  - [_mergeExistingPropertyComment](#_mergeexistingpropertycomment) (1 param)
-  - [_mergeExistingClassComment](#_mergeexistingclasscomment)
-  - [_preserveExistingExamples](#_preserveexistingexamples)
-  - [_mergeExistingFunctionComment](#_mergeexistingfunctioncomment) (1 param)
-  - [_mergeExistingParameterComment](#_mergeexistingparametercomment) (2 params)
-  - [_recordChange](#_recordchange) (1 param)
-  - [toObject](#toobject) → `Object`
-  - [toJSON](#tojson) → `Text`
-  - [saveToFile](#savetofile) → `4D.File`
+  - **Regular Functions**
+    - [_parse](#_parse)
+    - [_extractInlineComment](#_extractinlinecomment) (1 param) → `Text`
+    - [_removeInlineComment](#_removeinlinecomment) (1 param) → `Text`
+    - [_extractParameterComments](#_extractparametercomments) (2 params) → `Object`
+    - [_loadExistingJSON](#_loadexistingjson)
+    - [_mergeExistingPropertyComment](#_mergeexistingpropertycomment) (1 param)
+    - [_mergeExistingClassComment](#_mergeexistingclasscomment)
+    - [_preserveExistingExamples](#_preserveexistingexamples)
+    - [_mergeExistingFunctionComment](#_mergeexistingfunctioncomment) (1 param)
+    - [_mergeExistingParameterComment](#_mergeexistingparametercomment) (2 params)
+    - [_recordChange](#_recordchange) (1 param)
+    - [toObject](#toobject) → `Object`
+    - [toJSON](#tojson) → `Text`
+    - [saveToFile](#savetofile) → `4D.File`
 ---
 
 ## Properties {#properties}

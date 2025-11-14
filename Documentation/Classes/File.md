@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.563Z*
+🕐 *Last updated: 2025-11-14T16:45:50.195Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [upload](#upload) → `$FileEntity : cs.FileEntity` 🖥️
+  - **Regular Functions**
+    - [upload](#upload) → `$FileEntity : cs.FileEntity` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

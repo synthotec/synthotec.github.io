@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:35:59.365Z*
+🕐 *Last updated: 2025-11-14T16:45:51.012Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getMaterialUsedForProduction](#getmaterialusedforproduction) (1 param) → `Real` 🖥️
+  - **Regular Functions**
+    - [getMaterialUsedForProduction](#getmaterialusedforproduction) (1 param) → `Real` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

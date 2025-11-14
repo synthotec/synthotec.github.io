@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:58.115Z*
+🕐 *Last updated: 2025-11-14T16:45:49.764Z*
 
 ---
 
@@ -15,16 +15,17 @@ parent : Classes
 
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
-  - [CollectionObject](#collectionobject) → `$CollectionObject : Object`
-  - [SetIndex](#setindex) (1 param)
-  - [GetIndex](#getindex) → `$index : Integer`
-  - [SetPlaceholder](#setplaceholder) (1 param)
-  - [AppendValue](#appendvalue) (1 param)
-  - [AppendValueWithPrimaryKey](#appendvaluewithprimarykey) (2 params)
-  - [AppendValueWithEntity](#appendvaluewithentity) (2 params)
-  - [GetCurrentValue](#getcurrentvalue) → `$currentValue : Variant`
-  - [GetCurrentPrimaryKey](#getcurrentprimarykey) → `$currentPrimaryKey : Integer`
-  - [GetCurrentEntity](#getcurrententity) → `$currentEntity : 4D.Entity`
+  - **Regular Functions**
+    - [CollectionObject](#collectionobject) → `$CollectionObject : Object`
+    - [SetIndex](#setindex) (1 param)
+    - [GetIndex](#getindex) → `$index : Integer`
+    - [SetPlaceholder](#setplaceholder) (1 param)
+    - [AppendValue](#appendvalue) (1 param)
+    - [AppendValueWithPrimaryKey](#appendvaluewithprimarykey) (2 params)
+    - [AppendValueWithEntity](#appendvaluewithentity) (2 params)
+    - [GetCurrentValue](#getcurrentvalue) → `$currentValue : Variant`
+    - [GetCurrentPrimaryKey](#getcurrentprimarykey) → `$currentPrimaryKey : Integer`
+    - [GetCurrentEntity](#getcurrententity) → `$currentEntity : 4D.Entity`
 ---
 
 ## Constructor {#constructor}

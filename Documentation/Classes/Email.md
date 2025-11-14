@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-14T16:35:58.423Z*
+🕐 *Last updated: 2025-11-14T16:45:50.052Z*
 
 ---
 
@@ -20,18 +20,19 @@ parent : Classes
 - [📋 Properties (2)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
-  - [addTo](#addto) (1 param)
-  - [addCc](#addcc) (1 param)
-  - [addBcc](#addbcc) (1 param)
-  - [addPermissionGroup](#addpermissiongroup) (3 params)
-  - [addCustomerGroup](#addcustomergroup) (1 param)
-  - [setFromAddress](#setfromaddress) (2 params)
-  - [setFromCurrentUser](#setfromcurrentuser) → `$Success : Boolean`
-  - [setMessageID](#setmessageid) (1 param)
-  - [setHtmlBody](#sethtmlbody) (1 param)
-  - [setSubject](#setsubject) (1 param)
-  - [attachFile](#attachfile) (2 params)
-  - [send](#send) → `$EmailSent : Boolean`
+  - **Regular Functions**
+    - [addTo](#addto) (1 param)
+    - [addCc](#addcc) (1 param)
+    - [addBcc](#addbcc) (1 param)
+    - [addPermissionGroup](#addpermissiongroup) (3 params)
+    - [addCustomerGroup](#addcustomergroup) (1 param)
+    - [setFromAddress](#setfromaddress) (2 params)
+    - [setFromCurrentUser](#setfromcurrentuser) → `$Success : Boolean`
+    - [setMessageID](#setmessageid) (1 param)
+    - [setHtmlBody](#sethtmlbody) (1 param)
+    - [setSubject](#setsubject) (1 param)
+    - [attachFile](#attachfile) (2 params)
+    - [send](#send) → `$EmailSent : Boolean`
 - [📚 Examples (1)](#examples)
   - [Sending notification email](#sending-notification-email)
 ---

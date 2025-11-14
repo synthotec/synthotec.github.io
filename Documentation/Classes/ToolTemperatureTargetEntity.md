@@ -9,16 +9,17 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.575Z*
+🕐 *Last updated: 2025-11-14T16:45:51.215Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [SetTargetValues](#settargetvalues) (1 param) 🖥️
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Regular Functions**
+    - [SetTargetValues](#settargetvalues) (1 param) 🖥️
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

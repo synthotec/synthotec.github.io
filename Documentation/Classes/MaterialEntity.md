@@ -9,17 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.730Z*
+🕐 *Last updated: 2025-11-14T16:45:50.367Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+  - **Regular Functions**
+    - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.566Z*
+🕐 *Last updated: 2025-11-14T16:45:51.205Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getByWorksOrder](#getbyworksorder) (1 param) → `cs.ToolTemperatureTargetSelection`
-  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+  - **Regular Functions**
+    - [getByWorksOrder](#getbyworksorder) (1 param) → `cs.ToolTemperatureTargetSelection`
+    - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,17 +9,19 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.218Z*
+🕐 *Last updated: 2025-11-14T16:45:50.868Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection` 🖥️
-  - [EndDateTime](#enddatetime) 🔍 → `cs.System.DateTime`
-  - [MouldOpenTime](#mouldopentime) 🔍 → `Real`
-  - [StartTime](#starttime) 🔍 → `Time`
+  - **Regular Functions**
+    - [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [EndDateTime](#enddatetime) 🔍 → `cs.System.DateTime`
+    - [MouldOpenTime](#mouldopentime) 🔍 → `Real`
+    - [StartTime](#starttime) 🔍 → `Time`
 - [🔗 Related Items](#related-items)
 
 ---

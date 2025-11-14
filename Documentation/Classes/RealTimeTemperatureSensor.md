@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:35:59.298Z*
+🕐 *Last updated: 2025-11-14T16:45:50.946Z*
 
 ---
 
@@ -16,8 +16,9 @@ parent : Classes
 - [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
-  - [InRange](#inrange) 🔍 → `Boolean`
-  - [ZoneName](#zonename) 🔍 → `Text`
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [InRange](#inrange) 🔍 → `Boolean`
+    - [ZoneName](#zonename) 🔍 → `Text`
 ---
 
 ## Properties {#properties}

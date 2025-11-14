@@ -9,21 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.789Z*
+🕐 *Last updated: 2025-11-14T16:45:50.432Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [Parts](#parts) (1 param) 🖥️
-  - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
-  - [Boxes](#boxes) 🔍 ✏️ → `Real`
-  - [BoxesPerPallet](#boxesperpallet) 🔍 → `Integer`
-  - [Pallets](#pallets) 🔍 ✏️ → `Real`
-  - [Parts](#parts) 🔍 ✏️ 🔎 → `Integer`
-  - [QuantityPicked](#quantitypicked) 🔍 → `Integer`
-  - [QuantityToPick](#quantitytopick) 🔍 → `Integer`
+  - **Regular Functions**
+    - [getPickedStockListboxCollection](#getpickedstocklistboxcollection) → `Collection` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [Boxes](#boxes) 🔍 ✏️ → `Real`
+    - [BoxesPerPallet](#boxesperpallet) 🔍 → `Integer`
+    - [Pallets](#pallets) 🔍 ✏️ → `Real`
+    - [Parts](#parts) 🔍 ✏️ 🔎 → `Integer`
+    - [QuantityPicked](#quantitypicked) 🔍 → `Integer`
+    - [QuantityToPick](#quantitytopick) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:35:58.791Z*
+🕐 *Last updated: 2025-11-14T16:45:50.434Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getUnprocessedQuantity](#getunprocessedquantity) → `Integer` 🖥️
+  - **Regular Functions**
+    - [getUnprocessedQuantity](#getunprocessedquantity) → `Integer` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

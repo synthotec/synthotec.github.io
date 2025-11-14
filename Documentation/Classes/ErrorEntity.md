@@ -9,20 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.488Z*
+🕐 *Last updated: 2025-11-14T16:45:50.115Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [createGitHubIssue](#creategithubissue)
-  - [FirstOccurrence](#firstoccurrence) 🔍 → `Text`
-  - [GitHubIssueLabel](#githubissuelabel) 🔍 → `Text`
-  - [GitHubIssueText](#githubissuetext) 🔍 → `Text`
-  - [GitHubIssueTitle](#githubissuetitle) 🔍 → `Text`
-  - [LastOccurrence](#lastoccurrence) 🔍 → `Text`
-  - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) 🔍 → `cs.UI.ListBoxMeta`
+  - **Regular Functions**
+    - [createGitHubIssue](#creategithubissue)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [FirstOccurrence](#firstoccurrence) 🔍 → `Text`
+    - [GitHubIssueLabel](#githubissuelabel) 🔍 → `Text`
+    - [GitHubIssueText](#githubissuetext) 🔍 → `Text`
+    - [GitHubIssueTitle](#githubissuetitle) 🔍 → `Text`
+    - [LastOccurrence](#lastoccurrence) 🔍 → `Text`
+    - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) 🔍 → `cs.UI.ListBoxMeta`
 - [🔗 Related Items](#related-items)
 
 ---

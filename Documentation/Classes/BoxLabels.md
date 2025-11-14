@@ -9,20 +9,21 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.003Z*
+🕐 *Last updated: 2025-11-14T16:45:49.654Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
-  - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
-  - [checkPalletQuantity](#checkpalletquantity) (2 params)
-  - [getUsingScanner](#getusingscanner) (1 param) → `$BoxLabelsEntity : cs.BoxLabelsEntity`
-  - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
-  - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
-  - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
+  - **Regular Functions**
+    - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+    - [getAvailableToPick](#getavailabletopick) (1 param) → `cs.BoxLabelsSelection` 🖥️
+    - [checkPalletQuantity](#checkpalletquantity) (2 params)
+    - [getUsingScanner](#getusingscanner) (1 param) → `$BoxLabelsEntity : cs.BoxLabelsEntity`
+    - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
+    - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
+    - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,26 +9,28 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.914Z*
+🕐 *Last updated: 2025-11-14T16:45:50.553Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
-  - [getWorksOrderCollection](#getworksordercollection) → `Collection`
-  - [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
-  - [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
-  - [generateQR](#generateqr) → `Picture` 🖥️
-  - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [transfer](#transfer) (1 param) → `Boolean` 🖥️
-  - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
-  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
-  - [NetWeightKg](#netweightkg) 🔍 → `Real`
-  - [QRObject](#qrobject) 🔍 → `Object`
+  - **Regular Functions**
+    - [createPrintJob](#createprintjob) (2 params) → `$Success : Boolean`
+    - [getWorksOrderCollection](#getworksordercollection) → `Collection`
+    - [getTotalQuantity](#gettotalquantity) (1 param) → `Integer`
+    - [getTotalBoxes](#gettotalboxes) (1 param) → `Integer`
+    - [generateQR](#generateqr) → `Picture` 🖥️
+    - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+    - [transfer](#transfer) (1 param) → `Boolean` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
+    - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+    - [NetWeightKg](#netweightkg) 🔍 → `Real`
+    - [QRObject](#qrobject) 🔍 → `Object`
 - [🔗 Related Items](#related-items)
 
 ---

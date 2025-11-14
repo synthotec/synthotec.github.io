@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:58.542Z*
+🕐 *Last updated: 2025-11-14T16:45:50.176Z*
 
 ---
 
@@ -16,7 +16,8 @@ parent : Classes
 - [📋 Properties (4)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [addCell](#addcell) (4 params)
+  - **Regular Functions**
+    - [addCell](#addcell) (4 params)
 ---
 
 ## Properties {#properties}

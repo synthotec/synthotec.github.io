@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.717Z*
+🕐 *Last updated: 2025-11-14T16:45:50.357Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [record](#record) (2 params) 🖥️
-  - [trim](#trim)
+  - **Regular Functions**
+    - [record](#record) (2 params) 🖥️
+    - [trim](#trim)
 - [🔗 Related Items](#related-items)
 
 ---

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-14T16:35:58.539Z*
+🕐 *Last updated: 2025-11-14T16:45:50.172Z*
 
 ---
 
@@ -20,13 +20,14 @@ parent : Classes
 - [📋 Properties (7)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
-  - [setFreezePanes](#setfreezepanes) (2 params)
-  - [addColumn](#addcolumn) (2 params)
-  - [addRow](#addrow) (1 param)
-  - [addStyle](#addstyle) (1 param) → `Text`
-  - [saveToClipboard](#savetoclipboard) (2 params)
-  - [generate](#generate)
+  - **Regular Functions**
+    - [addSelectionBasedListbox](#addselectionbasedlistbox) (1 param)
+    - [setFreezePanes](#setfreezepanes) (2 params)
+    - [addColumn](#addcolumn) (2 params)
+    - [addRow](#addrow) (1 param)
+    - [addStyle](#addstyle) (1 param) → `Text`
+    - [saveToClipboard](#savetoclipboard) (2 params)
+    - [generate](#generate)
 ---
 
 ## Properties {#properties}

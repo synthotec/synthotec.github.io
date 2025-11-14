@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-14T16:35:59.277Z*
+🕐 *Last updated: 2025-11-14T16:45:50.924Z*
 
 ---
 
@@ -20,28 +20,30 @@ parent : Classes
 - [📋 Properties (10)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [ProcessColors](#processcolors)
-  - [setPrimaryColors](#setprimarycolors) (2 params)
-  - [setAlternatingColors](#setalternatingcolors) (2 params)
-  - [setDateTimeColors](#setdatetimecolors) (2 params)
-  - [setAlertColors](#setalertcolors) (2 params)
-  - [setTimeRemainingText](#settimeremainingtext) (3 params)
-  - [AlertsText](#alertstext) 🔍 → `Text`
-  - [DeviceMaintenanceActive](#devicemaintenanceactive) 🔍 → `Boolean`
-  - [MachineDisconnected](#machinedisconnected) 🔍 → `Boolean`
-  - [MachineNumberText](#machinenumbertext) 🔍 → `Text`
-  - [MachineRunning](#machinerunning) 🔍 → `Boolean`
-  - [MouldStatusText](#mouldstatustext) 🔍 → `Text`
-  - [PartNameText](#partnametext) 🔍 → `Text`
-  - [PartsMadeText](#partsmadetext) 🔍 → `Text`
-  - [PercentMade](#percentmade) 🔍 → `Real`
-  - [PrimaryStatusText](#primarystatustext) 🔍 → `Text`
-  - [ScrapText](#scraptext) 🔍 → `Text`
-  - [SecondaryStatusText](#secondarystatustext) 🔍 → `Object`
-  - [TimeRemainingText](#timeremainingtext) 🔍 → `Object`
-  - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) 🔍 → `Boolean`
-  - [UnicodeSymbolsText](#unicodesymbolstext) 🔍 → `Text`
-  - [WorksOrderIsOpen](#worksorderisopen) 🔍 → `Boolean`
+  - **Regular Functions**
+    - [ProcessColors](#processcolors)
+    - [setPrimaryColors](#setprimarycolors) (2 params)
+    - [setAlternatingColors](#setalternatingcolors) (2 params)
+    - [setDateTimeColors](#setdatetimecolors) (2 params)
+    - [setAlertColors](#setalertcolors) (2 params)
+    - [setTimeRemainingText](#settimeremainingtext) (3 params)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [AlertsText](#alertstext) 🔍 → `Text`
+    - [DeviceMaintenanceActive](#devicemaintenanceactive) 🔍 → `Boolean`
+    - [MachineDisconnected](#machinedisconnected) 🔍 → `Boolean`
+    - [MachineNumberText](#machinenumbertext) 🔍 → `Text`
+    - [MachineRunning](#machinerunning) 🔍 → `Boolean`
+    - [MouldStatusText](#mouldstatustext) 🔍 → `Text`
+    - [PartNameText](#partnametext) 🔍 → `Text`
+    - [PartsMadeText](#partsmadetext) 🔍 → `Text`
+    - [PercentMade](#percentmade) 🔍 → `Real`
+    - [PrimaryStatusText](#primarystatustext) 🔍 → `Text`
+    - [ScrapText](#scraptext) 🔍 → `Text`
+    - [SecondaryStatusText](#secondarystatustext) 🔍 → `Object`
+    - [TimeRemainingText](#timeremainingtext) 🔍 → `Object`
+    - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) 🔍 → `Boolean`
+    - [UnicodeSymbolsText](#unicodesymbolstext) 🔍 → `Text`
+    - [WorksOrderIsOpen](#worksorderisopen) 🔍 → `Boolean`
 ---
 
 ## Properties {#properties}

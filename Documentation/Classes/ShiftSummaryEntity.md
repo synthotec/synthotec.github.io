@@ -9,16 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.394Z*
+🕐 *Last updated: 2025-11-14T16:45:51.040Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
-  - [ShiftColor](#shiftcolor) 🔍 → `Integer`
-  - [ShiftSymbol](#shiftsymbol) 🔍 → `Text`
+  - **Regular Functions**
+    - [getPreviousShiftSummaryEntity](#getpreviousshiftsummaryentity) → `cs.ShiftSummaryEntity` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [ShiftColor](#shiftcolor) 🔍 → `Integer`
+    - [ShiftSymbol](#shiftsymbol) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.362Z*
+🕐 *Last updated: 2025-11-14T16:45:51.010Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [generate](#generate) (3 params) 🖥️
+  - **Regular Functions**
+    - [generate](#generate) (3 params) 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,23 +9,25 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.714Z*
+🕐 *Last updated: 2025-11-14T16:45:50.354Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [CheckRelated](#checkrelated) (1 param) → `Boolean` 🖥️
-  - [printQRSheet](#printqrsheet) (2 params) 🖥️
-  - [printLabel](#printlabel) (1 param) 🖥️
-  - [generateQR](#generateqr) → `Picture` 🖥️
-  - [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
-  - [DisplayName](#displayname) 🔍 → `Text`
-  - [Level](#level) 🔍 → `Integer`
-  - [ListBoxDisplayName](#listboxdisplayname) 🔍 → `Text`
-  - [ListboxMetaExpression](#listboxmetaexpression) 🔍 → `Object`
-  - [SortOrder](#sortorder) 🔍 → `Text`
+  - **Regular Functions**
+    - [CheckRelated](#checkrelated) (1 param) → `Boolean` 🖥️
+    - [printQRSheet](#printqrsheet) (2 params) 🖥️
+    - [printLabel](#printlabel) (1 param) 🖥️
+    - [generateQR](#generateqr) → `Picture` 🖥️
+    - [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [DisplayName](#displayname) 🔍 → `Text`
+    - [Level](#level) 🔍 → `Integer`
+    - [ListBoxDisplayName](#listboxdisplayname) 🔍 → `Text`
+    - [ListboxMetaExpression](#listboxmetaexpression) 🔍 → `Object`
+    - [SortOrder](#sortorder) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---

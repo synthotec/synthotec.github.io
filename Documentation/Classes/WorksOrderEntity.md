@@ -9,29 +9,28 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.651Z*
+🕐 *Last updated: 2025-11-14T16:45:51.290Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
-  - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
-  - [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
-  - [getQuantityScrapped](#getquantityscrapped) → `Integer` 🖥️
-  - [IsRunning](#isrunning) (1 param) 🖥️
-  - [IsOpen](#isopen) (1 param) 🖥️
-  - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [HasMigrationID](#hasmigrationid) (1 param) → `Text` 🖥️
-  - [AvailableStock](#availablestock) 🔍 → `Integer`
-  - [ExS1Stock](#exs1stock) 🔍 → `Integer`
-  - [HasMigrationID](#hasmigrationid) 🔍 🔎 → `Boolean`
-  - [IsOpen](#isopen) 🔍 🔎 → `Boolean`
-  - [IsRunning](#isrunning) 🔍 🔎 → `Boolean`
-  - [WIP](#wip) 🔍 → `Integer`
+  - **Regular Functions**
+    - [setQuantityMade](#setquantitymade) (2 params) → `Date` 🖥️
+    - [getQuantityMade](#getquantitymade) (1 param) → `Integer` 🖥️
+    - [getQuantityPacked](#getquantitypacked) (1 param) → `Integer` 🖥️
+    - [getQuantityScrapped](#getquantityscrapped) → `Integer` 🖥️
+    - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [AvailableStock](#availablestock) 🔍 → `Integer`
+    - [ExS1Stock](#exs1stock) 🔍 → `Integer`
+    - [HasMigrationID](#hasmigrationid) 🔍 🔎 → `Boolean`
+    - [IsOpen](#isopen) 🔍 🔎 → `Boolean`
+    - [IsRunning](#isrunning) 🔍 🔎 → `Boolean`
+    - [WIP](#wip) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

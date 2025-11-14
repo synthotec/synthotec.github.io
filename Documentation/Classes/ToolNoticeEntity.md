@@ -9,18 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.537Z*
+🕐 *Last updated: 2025-11-14T16:45:51.179Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [displayWorkOrders](#displayworkorders) 🖥️
-  - [deactivate](#deactivate) 🖥️
-  - [ActiveUntilText](#activeuntiltext) 🔍 → `Text`
-  - [IsActive](#isactive) 🔍 → `Boolean`
-  - [RemainingRuns](#remainingruns) 🔍 → `Integer`
+  - **Regular Functions**
+    - [displayWorkOrders](#displayworkorders) 🖥️
+    - [deactivate](#deactivate) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [ActiveUntilText](#activeuntiltext) 🔍 → `Text`
+    - [IsActive](#isactive) 🔍 → `Boolean`
+    - [RemainingRuns](#remainingruns) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

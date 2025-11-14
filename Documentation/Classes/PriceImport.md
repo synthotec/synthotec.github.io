@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:59.033Z*
+🕐 *Last updated: 2025-11-14T16:45:50.690Z*
 
 ---
 
@@ -16,7 +16,8 @@ parent : Classes
 - [📋 Properties (4)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [importPrices](#importprices) → `$Result : Object`
+  - **Regular Functions**
+    - [importPrices](#importprices) → `$Result : Object`
 ---
 
 ## Properties {#properties}

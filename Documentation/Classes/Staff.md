@@ -9,17 +9,18 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.415Z*
+🕐 *Last updated: 2025-11-14T16:45:51.059Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getUsingKeyfob](#getusingkeyfob) (2 params) → `$StaffEntity : cs.StaffEntity` 🖥️
-  - [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
-  - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
-  - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
+  - **Regular Functions**
+    - [getUsingKeyfob](#getusingkeyfob) (2 params) → `$StaffEntity : cs.StaffEntity` 🖥️
+    - [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
+    - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
+    - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

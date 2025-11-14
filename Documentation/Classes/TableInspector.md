@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D catalog.4DCatalog file and extract table metadata for documentation
 
-🕐 *Last updated: 2025-11-14T16:35:59.523Z*
+🕐 *Last updated: 2025-11-14T16:45:51.163Z*
 
 ---
 
@@ -19,20 +19,21 @@ parent : Classes
 
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [_parseCatalog](#_parsecatalog)
-  - [_parseTableAttributes](#_parsetableattributes) (1 param)
-  - [_parseField](#_parsefield) (1 param) → `Object`
-  - [_parseFieldExtra](#_parsefieldextra) (2 params)
-  - [_parsePrimaryKey](#_parseprimarykey) (1 param)
-  - [_parseIndex](#_parseindex) (2 params)
-  - [_parseRelation](#_parserelation) (2 params)
-  - [_getTypeName](#_gettypename) (1 param) → `Text`
-  - [_getIndexTypeName](#_getindextypename) (1 param) → `Text`
-  - [_getRelationStateName](#_getrelationstatename) (1 param) → `Text`
-  - [_mergeExistingComments](#_mergeexistingcomments)
-  - [toObject](#toobject) → `Object`
-  - [toJSON](#tojson) → `Text`
-  - [saveToFile](#savetofile)
+  - **Regular Functions**
+    - [_parseCatalog](#_parsecatalog)
+    - [_parseTableAttributes](#_parsetableattributes) (1 param)
+    - [_parseField](#_parsefield) (1 param) → `Object`
+    - [_parseFieldExtra](#_parsefieldextra) (2 params)
+    - [_parsePrimaryKey](#_parseprimarykey) (1 param)
+    - [_parseIndex](#_parseindex) (2 params)
+    - [_parseRelation](#_parserelation) (2 params)
+    - [_getTypeName](#_gettypename) (1 param) → `Text`
+    - [_getIndexTypeName](#_getindextypename) (1 param) → `Text`
+    - [_getRelationStateName](#_getrelationstatename) (1 param) → `Text`
+    - [_mergeExistingComments](#_mergeexistingcomments)
+    - [toObject](#toobject) → `Object`
+    - [toJSON](#tojson) → `Text`
+    - [saveToFile](#savetofile)
 ---
 
 ## Constructor {#constructor}

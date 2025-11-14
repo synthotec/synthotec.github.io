@@ -9,20 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.290Z*
+🕐 *Last updated: 2025-11-14T16:45:50.939Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
-  - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
-  - [sendEmail](#sendemail) → `Boolean`
-  - [Duration](#duration) 🔍 → `Time`
-  - [HighestCelciusTemperature](#highestcelciustemperature) 🔍 → `Real`
-  - [LowestCelciusTemperature](#lowestcelciustemperature) 🔍 → `Real`
-  - [PartsMade](#partsmade) 🔍 → `Integer`
+  - **Regular Functions**
+    - [getRealTimeSelection](#getrealtimeselection) → `cs.RealTimeSelection` 🖥️
+    - [getTemperatureSensors](#gettemperaturesensors) (1 param) → `Collection` 🖥️
+    - [sendEmail](#sendemail) → `Boolean`
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [Duration](#duration) 🔍 → `Time`
+    - [HighestCelciusTemperature](#highestcelciustemperature) 🔍 → `Real`
+    - [LowestCelciusTemperature](#lowestcelciustemperature) 🔍 → `Real`
+    - [PartsMade](#partsmade) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

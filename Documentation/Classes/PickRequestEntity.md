@@ -9,31 +9,32 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.015Z*
+🕐 *Last updated: 2025-11-14T16:45:50.674Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [modify](#modify) → `$Modified : Boolean` 🖥️
-  - [cancel](#cancel)
-  - [despatch](#despatch) 🖥️
-  - [despatchOrder](#despatchorder) (1 param) 🖥️
-  - [despatchConsignment](#despatchconsignment) 🖥️
-  - [Picked](#picked) (1 param) → `Text` 🖥️
-  - [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
-  - [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
-  - [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
-  - [sendNotification](#sendnotification)
-  - [sendPickedNotification](#sendpickednotification)
-  - [MovementPickRequest](#movementpickrequest) 🔍 → `Boolean`
-  - [OrderPickRequest](#orderpickrequest) 🔍 → `Boolean`
-  - [PartsRequested](#partsrequested) 🔍 → `Boolean`
-  - [Picked](#picked) 🔍 🔎 → `Boolean`
-  - [PickingStarted](#pickingstarted) 🔍 → `Boolean`
-  - [Status](#status) 🔍 → `Text`
-  - [StatusColor](#statuscolor) 🔍 → `Integer`
+  - **Regular Functions**
+    - [modify](#modify) → `$Modified : Boolean` 🖥️
+    - [cancel](#cancel)
+    - [despatch](#despatch) 🖥️
+    - [despatchOrder](#despatchorder) (1 param) 🖥️
+    - [despatchConsignment](#despatchconsignment) 🖥️
+    - [getNotInStockWorksOrders](#getnotinstockworksorders) → `$WorksOrderSelection : cs.WorksOrderSelection` 🖥️
+    - [getWorksOrderSummaryListboxCollection](#getworksordersummarylistboxcollection) → `$Collection : Collection` 🖥️
+    - [getPickedStockListboxObject](#getpickedstocklistboxobject) → `$Object : Object` 🖥️
+    - [sendNotification](#sendnotification)
+    - [sendPickedNotification](#sendpickednotification)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [MovementPickRequest](#movementpickrequest) 🔍 → `Boolean`
+    - [OrderPickRequest](#orderpickrequest) 🔍 → `Boolean`
+    - [PartsRequested](#partsrequested) 🔍 → `Boolean`
+    - [Picked](#picked) 🔍 🔎 → `Boolean`
+    - [PickingStarted](#pickingstarted) 🔍 → `Boolean`
+    - [Status](#status) 🔍 → `Text`
+    - [StatusColor](#statuscolor) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

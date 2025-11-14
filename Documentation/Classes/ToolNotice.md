@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.531Z*
+🕐 *Last updated: 2025-11-14T16:45:51.173Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [create](#create) (1 param) → `$ToolNoticeEntity : cs.ToolNoticeEntity` 🖥️
+  - **Regular Functions**
+    - [create](#create) (1 param) → `$ToolNoticeEntity : cs.ToolNoticeEntity` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

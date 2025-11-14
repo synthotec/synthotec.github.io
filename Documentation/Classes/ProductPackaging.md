@@ -9,16 +9,17 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.160Z*
+🕐 *Last updated: 2025-11-14T16:45:50.814Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
-  - [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
-  - [generateCustomerPackaging](#generatecustomerpackaging)
+  - **Regular Functions**
+    - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+    - [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
+    - [generateCustomerPackaging](#generatecustomerpackaging)
 - [🔗 Related Items](#related-items)
 
 ---

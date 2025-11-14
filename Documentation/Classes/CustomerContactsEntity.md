@@ -9,16 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.122Z*
+🕐 *Last updated: 2025-11-14T16:45:49.770Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+  - **Regular Functions**
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
 ---

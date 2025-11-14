@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
 
-🕐 *Last updated: 2025-11-14T16:35:58.609Z*
+🕐 *Last updated: 2025-11-14T16:45:50.242Z*
 
 ---
 
@@ -19,13 +19,14 @@ parent : Classes
 
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [_parseForm](#_parseform)
-  - [_countObjects](#_countobjects) (1 param)
-  - [_getTableName](#_gettablename) (1 param) → `Text`
-  - [_mergeExistingData](#_mergeexistingdata)
-  - [toObject](#toobject) → `Object`
-  - [toJSON](#tojson) → `Text`
-  - [saveToFile](#savetofile)
+  - **Regular Functions**
+    - [_parseForm](#_parseform)
+    - [_countObjects](#_countobjects) (1 param)
+    - [_getTableName](#_gettablename) (1 param) → `Text`
+    - [_mergeExistingData](#_mergeexistingdata)
+    - [toObject](#toobject) → `Object`
+    - [toJSON](#tojson) → `Text`
+    - [saveToFile](#savetofile)
 ---
 
 ## Constructor {#constructor}

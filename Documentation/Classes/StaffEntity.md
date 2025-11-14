@@ -9,16 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.419Z*
+🕐 *Last updated: 2025-11-14T16:45:51.063Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
-  - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
-  - [FullName](#fullname) 🔍 → `Text`
+  - **Regular Functions**
+    - [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
+    - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [FullName](#fullname) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---

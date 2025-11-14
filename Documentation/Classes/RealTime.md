@@ -9,20 +9,22 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.215Z*
+🕐 *Last updated: 2025-11-14T16:45:50.865Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
-  - [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️
-  - [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
-  - [_createFragmentedCycles](#_createfragmentedcycles) (2 params) → `cs.RealTimeEntity` 🖥️
-  - [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
-  - [SECONDS_IN_DAY](#seconds_in_day) 🔍 → `Real`
-  - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) 🔍 → `Real`
+  - **Regular Functions**
+    - [_getNextEvenHourBoundary](#_getnextevenhourboundary) (1 param) → `Real` 🖥️
+    - [_prepareSensorData](#_preparesensordata) (1 param) → `Collection` 🖥️
+    - [_createSingleCycle](#_createsinglecycle) (5 params) → `cs.RealTimeEntity` 🖥️
+    - [_createFragmentedCycles](#_createfragmentedcycles) (2 params) → `cs.RealTimeEntity` 🖥️
+    - [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [SECONDS_IN_DAY](#seconds_in_day) 🔍 → `Real`
+    - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
 
 ---

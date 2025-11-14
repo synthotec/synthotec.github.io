@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Set up paths
 
-🕐 *Last updated: 2025-11-14T16:35:59.340Z*
+🕐 *Last updated: 2025-11-14T16:45:50.989Z*
 
 ---
 
@@ -20,17 +20,18 @@ parent : Classes
 - [📋 Properties (3)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
-  - [_loadRelationships](#_loadrelationships)
-  - [discoverRelationships](#discoverrelationships) → `Integer`
-  - [_discoverFormTableLinks](#_discoverformtablelinks)
-  - [_discoverTableClassLinks](#_discovertableclasslinks)
-  - [_discoverClassClassLinks](#_discoverclassclasslinks)
-  - [addLink](#addlink) (6 params)
-  - [removeLink](#removelink) (4 params)
-  - [getRelationshipsFor](#getrelationshipsfor) (2 params) → `Collection`
-  - [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Collection`
-  - [save](#save)
-  - [toJSON](#tojson) → `Text`
+  - **Regular Functions**
+    - [_loadRelationships](#_loadrelationships)
+    - [discoverRelationships](#discoverrelationships) → `Integer`
+    - [_discoverFormTableLinks](#_discoverformtablelinks)
+    - [_discoverTableClassLinks](#_discovertableclasslinks)
+    - [_discoverClassClassLinks](#_discoverclassclasslinks)
+    - [addLink](#addlink) (6 params)
+    - [removeLink](#removelink) (4 params)
+    - [getRelationshipsFor](#getrelationshipsfor) (2 params) → `Collection`
+    - [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Collection`
+    - [save](#save)
+    - [toJSON](#tojson) → `Text`
 ---
 
 ## Properties {#properties}

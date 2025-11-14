@@ -9,17 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:57.973Z*
+🕐 *Last updated: 2025-11-14T16:45:49.626Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
-  - [print](#print) 🖥️
-  - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
-  - [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
+  - **Regular Functions**
+    - [generateNTNSNR_DESADV](#generatentnsnr_desadv) 🖥️
+    - [print](#print) 🖥️
+    - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
+    - [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

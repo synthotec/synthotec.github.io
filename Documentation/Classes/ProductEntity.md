@@ -9,29 +9,30 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.150Z*
+🕐 *Last updated: 2025-11-14T16:45:50.804Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [OurPartName](#ourpartname) (1 param) 🖥️
-  - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
-  - [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
-  - [getPreviousPickRequestQuantity](#getpreviouspickrequestquantity) (2 params) → `Integer` 🖥️
-  - [getFinishedStock](#getfinishedstock) → `Integer` 🖥️
-  - [getQuarantinedStock](#getquarantinedstock) → `Integer` 🖥️
-  - [getWIP](#getwip) → `Integer` 🖥️
-  - [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
-  - [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
-  - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [Emoji](#emoji) 🔍 → `Text`
-  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
-  - [MainToolRegrind](#maintoolregrind) 🔍 ✏️ → `Boolean`
-  - [OurPartName](#ourpartname) 🔎
+  - **Regular Functions**
+    - [getRobotHeadList](#getrobotheadlist) (1 param) → `Text` 🖥️
+    - [getMainTool](#getmaintool) → `cs.ToolsEntity` 🖥️
+    - [getPreviousPickRequestQuantity](#getpreviouspickrequestquantity) (2 params) → `Integer` 🖥️
+    - [getFinishedStock](#getfinishedstock) → `Integer` 🖥️
+    - [getQuarantinedStock](#getquarantinedstock) → `Integer` 🖥️
+    - [getWIP](#getwip) → `Integer` 🖥️
+    - [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
+    - [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
+    - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [Emoji](#emoji) 🔍 → `Text`
+    - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+    - [MainToolRegrind](#maintoolregrind) 🔍 ✏️ → `Boolean`
+    - [OurPartName](#ourpartname) 🔎
 - [🔗 Related Items](#related-items)
 
 ---

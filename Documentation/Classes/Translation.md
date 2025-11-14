@@ -9,19 +9,21 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.591Z*
+🕐 *Last updated: 2025-11-14T16:45:51.229Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [pushProcess](#pushprocess) (1 param) 🖥️
-  - [popProcess](#popprocess) 🖥️
-  - [translate](#translate) (2 params) → `Text` 🖥️
-  - [translateFormObjects](#translateformobjects) (1 param) 🖥️
-  - [_TranslationProcessCollection](#_translationprocesscollection) 🔍 → `Collection`
-  - [CurrentProcess](#currentprocess) 🔍 → `Text`
+  - **Regular Functions**
+    - [pushProcess](#pushprocess) (1 param) 🖥️
+    - [popProcess](#popprocess) 🖥️
+    - [translate](#translate) (2 params) → `Text` 🖥️
+    - [translateFormObjects](#translateformobjects) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [_TranslationProcessCollection](#_translationprocesscollection) 🔍 → `Collection`
+    - [CurrentProcess](#currentprocess) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -9,42 +9,42 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.040Z*
+🕐 *Last updated: 2025-11-14T16:45:49.690Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getStatesCollection](#getstatescollection) → `Collection`
-  - [ModifyStatus](#modifystatus) 🖥️
-  - [AddComment](#addcomment) (2 params) 🖥️
-  - [PartBox](#partbox) (1 param)
-  - [Despatched](#despatched) (1 param)
-  - [removeFromPallet](#removefrompallet) → `$Success : Boolean`
-  - [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
-  - [generateQR](#generateqr) → `Picture` 🖥️
-  - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
-  - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-  - [AdviceNote](#advicenote) 🔍 → `Integer`
-  - [BoxNumberColor](#boxnumbercolor) 🔍 → `Integer`
-  - [BoxNumberDisplay](#boxnumberdisplay) 🔍 → `Text`
-  - [BoxQuantityDisplay](#boxquantitydisplay) 🔍 → `Text`
-  - [CurrentStatus](#currentstatus) 🔍 → `Object`
-  - [Despatched](#despatched) 🔍 🔎 → `Boolean`
-  - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
-  - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
-  - [linkedBoxesQuantity](#linkedboxesquantity) 🔍 → `Integer`
-  - [NetWeightKg](#netweightkg) 🔍 → `Real`
-  - [PackedByDisplay](#packedbydisplay) 🔍 → `Text`
-  - [PartBox](#partbox) 🔍 🔎 → `Boolean`
-  - [partBoxSkipped](#partboxskipped) 🔍 → `Boolean`
-  - [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) 🔍 → `Text`
-  - [RouteCardColor](#routecardcolor) 🔍 → `Integer`
-  - [StatusText](#statustext) 🔍 → `Text`
-  - [TestProduct](#testproduct) 🔍 → `cs.ProductEntity`
-  - [toolIsRunning](#toolisrunning) 🔍 → `Boolean`
-  - [totalBoxQuantity](#totalboxquantity) 🔍 → `Integer`
+  - **Regular Functions**
+    - [getStatesCollection](#getstatescollection) → `Collection`
+    - [ModifyStatus](#modifystatus) 🖥️
+    - [AddComment](#addcomment) (2 params) 🖥️
+    - [removeFromPallet](#removefrompallet) → `$Success : Boolean`
+    - [getNextBoxPacked](#getnextboxpacked) → `cs.BoxLabelsEntity` 🖥️
+    - [generateQR](#generateqr) → `Picture` 🖥️
+    - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
+    - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [AdviceNote](#advicenote) 🔍 → `Integer`
+    - [BoxNumberColor](#boxnumbercolor) 🔍 → `Integer`
+    - [BoxNumberDisplay](#boxnumberdisplay) 🔍 → `Text`
+    - [BoxQuantityDisplay](#boxquantitydisplay) 🔍 → `Text`
+    - [CurrentStatus](#currentstatus) 🔍 → `Object`
+    - [Despatched](#despatched) 🔍 🔎 → `Boolean`
+    - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
+    - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
+    - [linkedBoxesQuantity](#linkedboxesquantity) 🔍 → `Integer`
+    - [NetWeightKg](#netweightkg) 🔍 → `Real`
+    - [PackedByDisplay](#packedbydisplay) 🔍 → `Text`
+    - [PartBox](#partbox) 🔍 🔎 → `Boolean`
+    - [partBoxSkipped](#partboxskipped) 🔍 → `Boolean`
+    - [PartsFromOtherWorksOrders->$Text](#partsfromotherworksorders->$text) 🔍 → `Text`
+    - [RouteCardColor](#routecardcolor) 🔍 → `Integer`
+    - [StatusText](#statustext) 🔍 → `Text`
+    - [TestProduct](#testproduct) 🔍 → `cs.ProductEntity`
+    - [toolIsRunning](#toolisrunning) 🔍 → `Boolean`
+    - [totalBoxQuantity](#totalboxquantity) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
 
 ---

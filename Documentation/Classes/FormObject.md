@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-14T16:35:58.647Z*
+🕐 *Last updated: 2025-11-14T16:45:50.281Z*
 
 ---
 
@@ -16,38 +16,40 @@ parent : Classes
 - [📋 Properties (1)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [setMaxFontSize](#setmaxfontsize) (2 params)
-  - [setBestObjectSize](#setbestobjectsize) (1 param)
-  - [Focus](#focus)
-  - [HighlightText](#highlighttext) (2 params)
-  - [BackgroundColor](#backgroundcolor) 🔍 ✏️ → `Integer`
-  - [Bold](#bold) 🔍 ✏️ → `Boolean`
-  - [Bottom](#bottom) 🔍 ✏️ → `Integer`
-  - [CornerRadius](#cornerradius) 🔍 ✏️ → `Integer`
-  - [DisplayFormat](#displayformat) 🔍 ✏️ → `Text`
-  - [Enabled](#enabled) 🔍 ✏️ → `Boolean`
-  - [Enterable](#enterable) 🔍 ✏️ → `Boolean`
-  - [Font](#font) 🔍 ✏️ → `Text`
-  - [FontSize](#fontsize) 🔍 ✏️ → `Integer`
-  - [ForegroundColor](#foregroundcolor) 🔍 ✏️ → `Integer`
-  - [HasFocus](#hasfocus) 🔍 → `Boolean`
-  - [Height](#height) 🔍 ✏️ → `Integer`
-  - [HelpTip](#helptip) 🔍 ✏️ → `Text`
-  - [HorizontalScrollPosition](#horizontalscrollposition) 🔍 ✏️ → `Integer`
-  - [Italic](#italic) 🔍 ✏️ → `Boolean`
-  - [Left](#left) 🔍 ✏️ → `Integer`
-  - [MaximumValue](#maximumvalue) 🔍 ✏️ → `Variant`
-  - [MinimumValue](#minimumvalue) 🔍 ✏️ → `Variant`
-  - [Multiline](#multiline) 🔍 ✏️ → `Boolean`
-  - [PlaceholderText](#placeholdertext) 🔍 ✏️ → `Text`
-  - [Pointer](#pointer) 🔍 → `Pointer`
-  - [Right](#right) 🔍 ✏️ → `Integer`
-  - [Title](#title) 🔍 ✏️ → `Text`
-  - [Top](#top) 🔍 ✏️ → `Integer`
-  - [Underline](#underline) 🔍 ✏️ → `Boolean`
-  - [VerticalScrollPosition](#verticalscrollposition) 🔍 ✏️ → `Integer`
-  - [Visible](#visible) 🔍 ✏️ → `Boolean`
-  - [Width](#width) 🔍 ✏️ → `Integer`
+  - **Regular Functions**
+    - [setMaxFontSize](#setmaxfontsize) (2 params)
+    - [setBestObjectSize](#setbestobjectsize) (1 param)
+    - [Focus](#focus)
+    - [HighlightText](#highlighttext) (2 params)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [BackgroundColor](#backgroundcolor) 🔍 ✏️ → `Integer`
+    - [Bold](#bold) 🔍 ✏️ → `Boolean`
+    - [Bottom](#bottom) 🔍 ✏️ → `Integer`
+    - [CornerRadius](#cornerradius) 🔍 ✏️ → `Integer`
+    - [DisplayFormat](#displayformat) 🔍 ✏️ → `Text`
+    - [Enabled](#enabled) 🔍 ✏️ → `Boolean`
+    - [Enterable](#enterable) 🔍 ✏️ → `Boolean`
+    - [Font](#font) 🔍 ✏️ → `Text`
+    - [FontSize](#fontsize) 🔍 ✏️ → `Integer`
+    - [ForegroundColor](#foregroundcolor) 🔍 ✏️ → `Integer`
+    - [HasFocus](#hasfocus) 🔍 → `Boolean`
+    - [Height](#height) 🔍 ✏️ → `Integer`
+    - [HelpTip](#helptip) 🔍 ✏️ → `Text`
+    - [HorizontalScrollPosition](#horizontalscrollposition) 🔍 ✏️ → `Integer`
+    - [Italic](#italic) 🔍 ✏️ → `Boolean`
+    - [Left](#left) 🔍 ✏️ → `Integer`
+    - [MaximumValue](#maximumvalue) 🔍 ✏️ → `Variant`
+    - [MinimumValue](#minimumvalue) 🔍 ✏️ → `Variant`
+    - [Multiline](#multiline) 🔍 ✏️ → `Boolean`
+    - [PlaceholderText](#placeholdertext) 🔍 ✏️ → `Text`
+    - [Pointer](#pointer) 🔍 → `Pointer`
+    - [Right](#right) 🔍 ✏️ → `Integer`
+    - [Title](#title) 🔍 ✏️ → `Text`
+    - [Top](#top) 🔍 ✏️ → `Integer`
+    - [Underline](#underline) 🔍 ✏️ → `Boolean`
+    - [VerticalScrollPosition](#verticalscrollposition) 🔍 ✏️ → `Integer`
+    - [Visible](#visible) 🔍 ✏️ → `Boolean`
+    - [Width](#width) 🔍 ✏️ → `Integer`
 ---
 
 ## Properties {#properties}

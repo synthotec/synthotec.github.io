@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.493Z*
+🕐 *Last updated: 2025-11-14T16:45:50.122Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [processError](#processerror) 🖥️
+  - **Regular Functions**
+    - [processError](#processerror) 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

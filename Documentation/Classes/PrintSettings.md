@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:59.068Z*
+🕐 *Last updated: 2025-11-14T16:45:50.726Z*
 
 ---
 
@@ -16,11 +16,12 @@ parent : Classes
 - [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor) (4 params)
 - [⚙️ Functions](#functions)
-  - [display](#display) → `$Accepted : Boolean`
-  - [load](#load) (2 params) → `cs.PrintSettings`
-  - [save](#save) (1 param) → `cs.PrintSettings`
-  - [apply](#apply) → `$Success : Boolean`
-  - [restore](#restore) → `$Success : Boolean`
+  - **Regular Functions**
+    - [display](#display) → `$Accepted : Boolean`
+    - [load](#load) (2 params) → `cs.PrintSettings`
+    - [save](#save) (1 param) → `cs.PrintSettings`
+    - [apply](#apply) → `$Success : Boolean`
+    - [restore](#restore) → `$Success : Boolean`
 ---
 
 ## Properties {#properties}

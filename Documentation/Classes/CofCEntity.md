@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.107Z*
+🕐 *Last updated: 2025-11-14T16:45:49.756Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [cancel](#cancel) → `$Cancelled : Boolean`
+  - **Regular Functions**
+    - [cancel](#cancel) → `$Cancelled : Boolean`
 - [🔗 Related Items](#related-items)
 
 ---

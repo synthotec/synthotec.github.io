@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-14T16:35:58.454Z*
+🕐 *Last updated: 2025-11-14T16:45:50.080Z*
 
 ---
 
@@ -20,23 +20,25 @@ parent : Classes
 - [📋 Properties (6)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
-  - [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
-  - [_functionsExistChecks](#_functionsexistchecks)
-  - [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
-  - [link](#link) (2 params) → `$RemoteEntity : 4D.Entity`
-  - [get](#get) (3 params) → `$RemoteEntity : 4D.Entity`
-  - [LinkDisplayPropertyValue](#linkdisplaypropertyvalue) (1 param) → `Variant`
-  - [updateLoading](#updateloading) (2 params)
-  - [startTransactions](#starttransactions)
-  - [validateTransactions](#validatetransactions)
-  - [cancelTransactions](#canceltransactions)
-  - [_MigrationSettings](#_migrationsettings) 🔍 → `Object`
-  - [DataClassName](#dataclassname) 🔍 → `Text`
-  - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) 🔍 → `Text`
-  - [LinkDisplayProperty](#linkdisplayproperty) 🔍 → `Text`
-  - [LinkingEnabled](#linkingenabled) 🔍 → `Boolean`
-  - [MigrationPropertyExists](#migrationpropertyexists) 🔍 → `Boolean`
-  - [NewEntityPropertyFormulas](#newentitypropertyformulas) 🔍 → `Collection`
+  - **Regular Functions**
+    - [sync](#sync) (2 params) → `$RemoteEntity : 4D.Entity`
+    - [_functionsExistChecks](#_functionsexistchecks)
+    - [create](#create) (2 params) → `$RemoteEntity : 4D.Entity`
+    - [link](#link) (2 params) → `$RemoteEntity : 4D.Entity`
+    - [get](#get) (3 params) → `$RemoteEntity : 4D.Entity`
+    - [LinkDisplayPropertyValue](#linkdisplaypropertyvalue) (1 param) → `Variant`
+    - [updateLoading](#updateloading) (2 params)
+    - [startTransactions](#starttransactions)
+    - [validateTransactions](#validatetransactions)
+    - [cancelTransactions](#canceltransactions)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [_MigrationSettings](#_migrationsettings) 🔍 → `Object`
+    - [DataClassName](#dataclassname) 🔍 → `Text`
+    - [LinkAdditionalInfoProperty](#linkadditionalinfoproperty) 🔍 → `Text`
+    - [LinkDisplayProperty](#linkdisplayproperty) 🔍 → `Text`
+    - [LinkingEnabled](#linkingenabled) 🔍 → `Boolean`
+    - [MigrationPropertyExists](#migrationpropertyexists) 🔍 → `Boolean`
+    - [NewEntityPropertyFormulas](#newentitypropertyformulas) 🔍 → `Collection`
 ---
 
 ## Properties {#properties}

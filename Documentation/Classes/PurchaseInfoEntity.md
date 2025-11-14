@@ -9,16 +9,18 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.176Z*
+🕐 *Last updated: 2025-11-14T16:45:50.829Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
-  - [OutstandingQuantity](#outstandingquantity) 🔍 → `Real`
-  - [value](#value) 🔍 → `Real`
+  - **Regular Functions**
+    - [createReceipt](#createreceipt) → `cs.PurchaseReceiptsEntity` 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [OutstandingQuantity](#outstandingquantity) 🔍 → `Real`
+    - [value](#value) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
 
 ---

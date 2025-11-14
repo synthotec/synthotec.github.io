@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:59.347Z*
+🕐 *Last updated: 2025-11-14T16:45:50.993Z*
 
 ---
 
@@ -16,11 +16,12 @@ parent : Classes
 - [📋 Properties (2)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [getStaffEntity](#getstaffentity) → `cs.StaffEntity`
-  - [getScannerObject](#getscannerobject) → `Object`
-  - [getScannerText](#getscannertext) → `Text`
-  - [getRestPostObject](#getrestpostobject) → `Object`
-  - [toObject](#toobject) → `Object`
+  - **Regular Functions**
+    - [getStaffEntity](#getstaffentity) → `cs.StaffEntity`
+    - [getScannerObject](#getscannerobject) → `Object`
+    - [getScannerText](#getscannertext) → `Text`
+    - [getRestPostObject](#getrestpostobject) → `Object`
+    - [toObject](#toobject) → `Object`
 ---
 
 ## Properties {#properties}

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-14T16:35:58.403Z*
+🕐 *Last updated: 2025-11-14T16:45:50.032Z*
 
 ---
 
@@ -20,23 +20,24 @@ parent : Classes
 - [📋 Properties (2)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [generateClassDocumentation](#generateclassdocumentation)
-  - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
-  - [generateTableDocumentation](#generatetabledocumentation) (1 param)
-  - [generateAllClassJSON](#generateallclassjson)
-  - [generateMarkdownFromJSON](#generatemarkdownfromjson)
-  - [_generateMarkdownForClass](#_generatemarkdownforclass) (1 param) → `Text`
-  - [_generateFunctionMarkdown](#_generatefunctionmarkdown) (1 param) → `Text`
-  - [_generateGetterSetterQueryOrderByMarkdown](#_generategettersetterqueryorderbymarkdown) (4 params) → `Text`
-  - [generateAllTableJSON](#generatealltablejson)
-  - [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
-  - [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
-  - [generateAllFormJSON](#generateallformjson)
-  - [discoverRelationships](#discoverrelationships) → `Integer`
-  - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
-  - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
-  - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
-  - [getClassJsonCollection](#getclassjsoncollection) → `$ClassJsonCollection : Collection`
+  - **Regular Functions**
+    - [generateClassDocumentation](#generateclassdocumentation)
+    - [getCompiledClassesObject](#getcompiledclassesobject) (1 param) → `Object`
+    - [generateTableDocumentation](#generatetabledocumentation) (1 param)
+    - [generateAllClassJSON](#generateallclassjson)
+    - [generateMarkdownFromJSON](#generatemarkdownfromjson)
+    - [_generateMarkdownForClass](#_generatemarkdownforclass) (1 param) → `Text`
+    - [_generateFunctionMarkdown](#_generatefunctionmarkdown) (1 param) → `Text`
+    - [_generateGetterSetterQueryOrderByMarkdown](#_generategettersetterqueryorderbymarkdown) (4 params) → `Text`
+    - [generateAllTableJSON](#generatealltablejson)
+    - [generateMarkdownFromTableJSON](#generatemarkdownfromtablejson)
+    - [_generateMarkdownForTable](#_generatemarkdownfortable) (1 param) → `Text`
+    - [generateAllFormJSON](#generateallformjson)
+    - [discoverRelationships](#discoverrelationships) → `Integer`
+    - [generateMarkdownFromFormJSON](#generatemarkdownfromformjson)
+    - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
+    - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
+    - [getClassJsonCollection](#getclassjsoncollection) → `$ClassJsonCollection : Collection`
 ---
 
 ## Properties {#properties}

@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.025Z*
+🕐 *Last updated: 2025-11-14T16:45:50.683Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [insertLine](#insertline) (2 params) → `$PlanningWheelEntity : cs.PlanningWheelEntity` 🖥️
-  - [reducePlannedStand](#reduceplannedstand) 🖥️
+  - **Regular Functions**
+    - [insertLine](#insertline) (2 params) → `$PlanningWheelEntity : cs.PlanningWheelEntity` 🖥️
+    - [reducePlannedStand](#reduceplannedstand) 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

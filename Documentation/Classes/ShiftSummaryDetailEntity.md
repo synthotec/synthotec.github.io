@@ -9,18 +9,20 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.391Z*
+🕐 *Last updated: 2025-11-14T16:45:51.037Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
-  - [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
-  - [Status](#status) 🔍 → `Integer`
-  - [StatusColor](#statuscolor) 🔍 → `Integer`
-  - [StatusText](#statustext) 🔍 → `Text`
+  - **Regular Functions**
+    - [fillDowntimeSincePrevious](#filldowntimesinceprevious) 🖥️
+    - [fillRealTimeOutputMachine](#fillrealtimeoutputmachine) (1 param) 🖥️
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [Status](#status) 🔍 → `Integer`
+    - [StatusColor](#statuscolor) 🔍 → `Integer`
+    - [StatusText](#statustext) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
 
 ---

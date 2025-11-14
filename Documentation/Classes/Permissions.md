@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.920Z*
+🕐 *Last updated: 2025-11-14T16:45:50.558Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getByName](#getbyname) (1 param) → `$PermissionsEntity : cs.PermissionsEntity`
-  - [check](#check) (3 params) → `$HasPermission : Boolean` 🖥️
+  - **Regular Functions**
+    - [getByName](#getbyname) (1 param) → `$PermissionsEntity : cs.PermissionsEntity`
+    - [check](#check) (3 params) → `$HasPermission : Boolean` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

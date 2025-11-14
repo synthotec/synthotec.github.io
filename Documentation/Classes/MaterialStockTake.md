@@ -9,18 +9,19 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.760Z*
+🕐 *Last updated: 2025-11-14T16:45:50.402Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
-  - [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
-  - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
-  - [restViewResults](#restviewresults) (1 param) → `Object`
-  - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
+  - **Regular Functions**
+    - [getLastStockTakeDate](#getlaststocktakedate) → `Date` 🖥️
+    - [getLastStockTakeAmount](#getlaststocktakeamount) (1 param) → `Real` 🖥️
+    - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
+    - [restViewResults](#restviewresults) (1 param) → `Object`
+    - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
 
 ---

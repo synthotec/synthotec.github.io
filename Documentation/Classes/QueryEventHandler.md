@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:35:59.197Z*
+🕐 *Last updated: 2025-11-14T16:45:50.847Z*
 
 ---
 
@@ -16,9 +16,11 @@ parent : Classes
 - [📋 Properties (6)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [setResult](#setresult) (2 params)
-  - [booleanResult](#booleanresult) 🔍 → `Variant`
-  - [valueType](#valuetype) 🔍 → `Integer`
+  - **Regular Functions**
+    - [setResult](#setresult) (2 params)
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [booleanResult](#booleanresult) 🔍 → `Variant`
+    - [valueType](#valuetype) 🔍 → `Integer`
 ---
 
 ## Properties {#properties}

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:58.772Z*
+🕐 *Last updated: 2025-11-14T16:45:50.414Z*
 
 ---
 
@@ -16,13 +16,14 @@ parent : Classes
 - [📋 Properties (6)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [addSeperator](#addseperator)
-  - [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
-  - [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
-  - [addSubMenu](#addsubmenu) (1 param) → `$Menu : cs.Menu`
-  - [show](#show) → `$FormulaResult : Variant`
-  - [_addMenuItems](#_addmenuitems) (1 param)
-  - [_release](#_release)
+  - **Regular Functions**
+    - [addSeperator](#addseperator)
+    - [addVariantItem](#addvariantitem) (2 params) → `$MenuItem : cs.MenuItem`
+    - [addFormulaItem](#addformulaitem) (2 params) → `$MenuItem : cs.MenuItem`
+    - [addSubMenu](#addsubmenu) (1 param) → `$Menu : cs.Menu`
+    - [show](#show) → `$FormulaResult : Variant`
+    - [_addMenuItems](#_addmenuitems) (1 param)
+    - [_release](#_release)
 ---
 
 ## Properties {#properties}

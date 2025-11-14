@@ -9,21 +9,22 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:59.619Z*
+🕐 *Last updated: 2025-11-14T16:45:51.257Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
-  - [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
-  - [restTest](#resttest) (1 param) → `Object`
-  - [restStartPage](#reststartpage) (1 param) → `Object`
-  - [restInitialScan](#restinitialscan) (1 param) → `Object`
-  - [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
-  - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
-  - [restScanTest](#restscantest) (1 param) → `Object`
+  - **Regular Functions**
+    - [restExecutePromptFormula](#restexecutepromptformula) (1 param) → `Object`
+    - [restExecuteFormula](#restexecuteformula) (1 param) → `Object`
+    - [restTest](#resttest) (1 param) → `Object`
+    - [restStartPage](#reststartpage) (1 param) → `Object`
+    - [restInitialScan](#restinitialscan) (1 param) → `Object`
+    - [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
+    - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
+    - [restScanTest](#restscantest) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
 
 ---

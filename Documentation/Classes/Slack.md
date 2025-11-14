@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:59.410Z*
+🕐 *Last updated: 2025-11-14T16:45:51.054Z*
 
 ---
 
@@ -16,13 +16,14 @@ parent : Classes
 - [📋 Properties (1)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
-  - [createChannel](#createchannel) (1 param) → `Text`
-  - [setChannelID](#setchannelid) (1 param) → `Boolean`
-  - [convertBlocks](#convertblocks) (2 params) → `$BlocksCollection : Collection`
-  - [createMessage](#createmessage) (2 params) → `$MessageTimeStamp : Text`
-  - [updateMessage](#updatemessage) (3 params) → `Boolean`
-  - [deleteMessage](#deletemessage) (1 param) → `Boolean`
+  - **Regular Functions**
+    - [newHttpRequest](#newhttprequest) (2 params) → `4D.HTTPRequest`
+    - [createChannel](#createchannel) (1 param) → `Text`
+    - [setChannelID](#setchannelid) (1 param) → `Boolean`
+    - [convertBlocks](#convertblocks) (2 params) → `$BlocksCollection : Collection`
+    - [createMessage](#createmessage) (2 params) → `$MessageTimeStamp : Text`
+    - [updateMessage](#updatemessage) (3 params) → `Boolean`
+    - [deleteMessage](#deletemessage) (1 param) → `Boolean`
 ---
 
 ## Properties {#properties}

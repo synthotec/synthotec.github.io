@@ -9,20 +9,22 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.225Z*
+🕐 *Last updated: 2025-11-14T16:45:50.874Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
-  - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) 🔍 → `Boolean`
-  - [Changing](#changing) 🔍 → `Boolean`
-  - [TemperatureSensorsInstalled](#temperaturesensorsinstalled) 🔍 → `Boolean`
-  - [UniChar](#unichar) 🔍 → `Text`
-  - [WorksOrder](#worksorder) 🔍 → `Integer`
-  - [WorksOrderEntity](#worksorderentity) 🔍 → `cs.WorksOrderEntity`
+  - **Regular Functions**
+    - [checkTempZoneExists](#checktempzoneexists) (1 param) → `Boolean`
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) 🔍 → `Boolean`
+    - [Changing](#changing) 🔍 → `Boolean`
+    - [TemperatureSensorsInstalled](#temperaturesensorsinstalled) 🔍 → `Boolean`
+    - [UniChar](#unichar) 🔍 → `Text`
+    - [WorksOrder](#worksorder) 🔍 → `Integer`
+    - [WorksOrderEntity](#worksorderentity) 🔍 → `cs.WorksOrderEntity`
 - [🔗 Related Items](#related-items)
 
 ---

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-14T16:35:58.503Z*
+🕐 *Last updated: 2025-11-14T16:45:50.137Z*
 
 ---
 
@@ -20,9 +20,11 @@ parent : Classes
 - [📋 Properties (2)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
-  - [calculateValue](#calculatevalue) (1 param) → `Real`
-  - [processOrder](#processorder) (2 params) → `Boolean`
-  - [ItemCount](#itemcount) 🔍 → `Integer`
+  - **Regular Functions**
+    - [calculateValue](#calculatevalue) (1 param) → `Real`
+    - [processOrder](#processorder) (2 params) → `Boolean`
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [ItemCount](#itemcount) 🔍 → `Integer`
 ---
 
 ## Properties {#properties}

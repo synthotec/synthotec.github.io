@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.753Z*
+🕐 *Last updated: 2025-11-14T16:45:50.395Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
+  - **Regular Functions**
+    - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

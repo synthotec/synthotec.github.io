@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:59.355Z*
+🕐 *Last updated: 2025-11-14T16:45:51.002Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [delete](#delete) 🖥️
-  - [requestCertificate](#requestcertificate) 🖥️
+  - **Regular Functions**
+    - [delete](#delete) 🖥️
+    - [requestCertificate](#requestcertificate) 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

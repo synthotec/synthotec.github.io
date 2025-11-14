@@ -9,14 +9,15 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:35:58.578Z*
+🕐 *Last updated: 2025-11-14T16:45:50.212Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [Consignment](#consignment) 🔍 → `Boolean`
+  - **Properties (Getters/Setters/Query/OrderBy)**
+    - [Consignment](#consignment) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
 
 ---

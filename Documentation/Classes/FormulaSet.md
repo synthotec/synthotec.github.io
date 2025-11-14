@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T16:35:58.651Z*
+🕐 *Last updated: 2025-11-14T16:45:50.286Z*
 
 ---
 
@@ -16,7 +16,8 @@ parent : Classes
 - [📋 Properties (4)](#properties)
 - [🏗️ Constructor](#constructor) (3 params)
 - [⚙️ Functions](#functions)
-  - [apply](#apply) → `$LastFormulaResult : Variant`
+  - **Regular Functions**
+    - [apply](#apply) → `$LastFormulaResult : Variant`
 ---
 
 ## Properties {#properties}

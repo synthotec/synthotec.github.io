@@ -9,15 +9,16 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:35:58.799Z*
+🕐 *Last updated: 2025-11-14T16:45:50.440Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getLatest](#getlatest) (1 param) → `cs.PackingInstructionFilesEntity`
-  - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
+  - **Regular Functions**
+    - [getLatest](#getlatest) (1 param) → `cs.PackingInstructionFilesEntity`
+    - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---

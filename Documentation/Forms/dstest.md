@@ -14,7 +14,7 @@ parent : Forms
 | **Destination** | detailScreen |
 | **Pages** | 2 |
 | **Form Method** | ❌ No |
-| **Generated** | 🕐 2025-11-14T16:36:00.517Z |
+| **Generated** | 🕐 2025-11-14T16:45:52.040Z |
 
 ---
 

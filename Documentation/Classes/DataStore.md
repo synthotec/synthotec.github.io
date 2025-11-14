@@ -9,32 +9,33 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-14T16:35:58.194Z*
+🕐 *Last updated: 2025-11-14T16:45:49.838Z*
 
 ---
 
 ## 📑 Table of Contents
 
 - [⚙️ Functions](#functions)
-  - [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `$DuplicateEntitySelection : 4D.EntitySelection` 🖥️
-  - [applyFormulasToSelection](#applyformulastoselection) (3 params) → `$LockedEntityCollection : Collection` 🖥️
-  - [lockEntitySelection](#lockentityselection) (2 params) → `$LockedSelectionObject : Object` 🖥️
-  - [unlockEntitySelection](#unlockentityselection) (1 param) 🖥️
-  - [lockEntity](#lockentity) (2 params) → `$Success : Boolean` 🖥️
-  - [getTablePrimaryKeyField](#gettableprimarykeyfield) (1 param) → `Pointer` 🖥️
-  - [getRelation](#getrelation) (2 params) → `$relatedEntityOrEntitySelection : Variant` 🖥️
-  - [getRelationName](#getrelationname) (3 params) → `$relationName : Text`
-  - [updateClientFiles](#updateclientfiles) → `Boolean`
-  - [stringTest](#stringtest) (1 param) → `Boolean`
-  - [echoTest](#echotest) (1 param) → `Variant`
-  - [blobTest](#blobtest) (1 param) → `Integer`
-  - [_getUpdateFolder](#_getupdatefolder) → `4D.Folder`
-  - [updateServer](#updateserver) (1 param) → `Object`
-  - [testA](#testa) → `Object`
-  - [testB](#testb) → `Object`
-  - [unpackServerUpdate](#unpackserverupdate) → `Boolean`
-  - [_updateServer](#_updateserver) 🖥️
-  - [_unpackServerUpdate->$UpdateFolder](#_unpackserverupdate->$updatefolder) → `4D.Folder` 🖥️
+  - **Regular Functions**
+    - [getDuplicateValueEntities](#getduplicatevalueentities) (2 params) → `$DuplicateEntitySelection : 4D.EntitySelection` 🖥️
+    - [applyFormulasToSelection](#applyformulastoselection) (3 params) → `$LockedEntityCollection : Collection` 🖥️
+    - [lockEntitySelection](#lockentityselection) (2 params) → `$LockedSelectionObject : Object` 🖥️
+    - [unlockEntitySelection](#unlockentityselection) (1 param) 🖥️
+    - [lockEntity](#lockentity) (2 params) → `$Success : Boolean` 🖥️
+    - [getTablePrimaryKeyField](#gettableprimarykeyfield) (1 param) → `Pointer` 🖥️
+    - [getRelation](#getrelation) (2 params) → `$relatedEntityOrEntitySelection : Variant` 🖥️
+    - [getRelationName](#getrelationname) (3 params) → `$relationName : Text`
+    - [updateClientFiles](#updateclientfiles) → `Boolean`
+    - [stringTest](#stringtest) (1 param) → `Boolean`
+    - [echoTest](#echotest) (1 param) → `Variant`
+    - [blobTest](#blobtest) (1 param) → `Integer`
+    - [_getUpdateFolder](#_getupdatefolder) → `4D.Folder`
+    - [updateServer](#updateserver) (1 param) → `Object`
+    - [testA](#testa) → `Object`
+    - [testB](#testb) → `Object`
+    - [unpackServerUpdate](#unpackserverupdate) → `Boolean`
+    - [_updateServer](#_updateserver) 🖥️
+    - [_unpackServerUpdate->$UpdateFolder](#_unpackserverupdate->$updatefolder) → `4D.Folder` 🖥️
 - [🔗 Related Items](#related-items)
 
 ---
