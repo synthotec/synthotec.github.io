@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.609Z*
+🕐 *Last updated: 2025-11-14T00:02:22.147Z*
 
 ---
 
@@ -20,10 +20,12 @@ parent : Classes
   - [setDebugInfo](#setdebuginfo) (1 param) 🖥️
   - [notify](#notify)
   - [record](#record) 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### fillGitHubIssues {#fillgithubissues}
 
@@ -67,7 +69,7 @@ Function record
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.402Z*
+🕐 *Last updated: 2025-11-14T00:02:22.925Z*
 
 ---
 
@@ -23,10 +23,12 @@ parent : Classes
   - [Duration](#duration) → `Time`
   - [LowestCelciusTemperature](#lowestcelciustemperature) → `Real`
   - [HighestCelciusTemperature](#highestcelciustemperature) → `Real`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getRealTimeSelection {#getrealtimeselection}
  `[🖥️ local]`
@@ -66,6 +68,8 @@ Function sendEmail -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+### Getters
 
 #### PartsMade {#partsmade}
  `[🖥️ local, 🔍 getter]`
@@ -111,7 +115,7 @@ Function HighestCelciusTemperature -> Real
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

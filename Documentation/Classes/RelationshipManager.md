@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Set up paths
 
-🕐 *Last updated: 2025-11-13T23:49:47.452Z*
+🕐 *Last updated: 2025-11-14T00:02:22.973Z*
 
 ---
 
@@ -53,6 +53,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### _loadRelationships {#_loadrelationships}
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.311Z*
+🕐 *Last updated: 2025-11-14T00:02:21.821Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [classicMakeOrderSort](#classicmakeordersort) (1 param) 🖥️
   - [classicOrderOverviewSort](#classicorderoverviewsort) (1 param) 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### classicMakeOrderSort {#classicmakeordersort}
  `[🖥️ local]`
@@ -57,7 +59,7 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

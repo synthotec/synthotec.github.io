@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.171Z*
+🕐 *Last updated: 2025-11-14T00:02:21.691Z*
 
 ---
 
@@ -23,10 +23,12 @@ parent : Classes
   - [getByUUID](#getbyuuid) (1 param) → `cs.BoxLabelsEntity`
   - [GetBoxQuantity](#getboxquantity) (1 param) → `$BoxQuantity : Integer`
   - [restScannedBoxLabel](#restscannedboxlabel) (1 param) → `Object`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`
@@ -140,7 +142,7 @@ Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

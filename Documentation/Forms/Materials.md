@@ -17,7 +17,7 @@ parent : Forms
 | **Pages** | 4 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Materials/method.4dm) |
 | **Object Methods** | 19 |
-| **Generated** | 🕐 2025-11-13T23:49:49.448Z |
+| **Generated** | 🕐 2025-11-14T00:02:24.381Z |
 
 ---
 

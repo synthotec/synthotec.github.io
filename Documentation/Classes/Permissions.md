@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.050Z*
+🕐 *Last updated: 2025-11-14T00:02:22.581Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [getByName](#getbyname) (1 param) → `$PermissionsEntity : cs.PermissionsEntity`
   - [check](#check) (3 params) → `$HasPermission : Boolean` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getByName {#getbyname}
 
@@ -59,7 +61,7 @@ Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity :
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

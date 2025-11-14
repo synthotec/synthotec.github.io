@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-13T23:49:47.234Z*
+🕐 *Last updated: 2025-11-14T00:02:22.761Z*
 
 ---
 
@@ -91,6 +91,8 @@ Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### setDefaultActions {#setdefaultactions}
 
@@ -245,6 +247,8 @@ Function process_CloseOrder
 ```
 
 ---
+
+### Getters
 
 #### IsActionSet {#isactionset}
  `[🔍 getter]`

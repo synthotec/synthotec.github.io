@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:46.935Z*
+🕐 *Last updated: 2025-11-14T00:02:22.462Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getUnprocessedQuantity](#getunprocessedquantity) → `Integer` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getUnprocessedQuantity {#getunprocessedquantity}
  `[🖥️ local]`
@@ -33,7 +35,7 @@ Function getUnprocessedQuantity -> Integer
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

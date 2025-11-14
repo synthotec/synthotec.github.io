@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:47.457Z*
+🕐 *Last updated: 2025-11-14T00:02:22.979Z*
 
 ---
 
@@ -48,6 +48,8 @@ Class constructor($RestPostDataObject : Object)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getStaffEntity {#getstaffentity}
 

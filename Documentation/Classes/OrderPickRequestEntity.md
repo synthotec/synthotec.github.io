@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.934Z*
+🕐 *Last updated: 2025-11-14T00:02:22.460Z*
 
 ---
 
@@ -27,10 +27,12 @@ parent : Classes
   - [Pallets](#pallets) (1 param)
   - [Boxes](#boxes) (1 param)
   - [Parts](#parts) (1 param)
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### query Parts {#query parts}
  `[🖥️ local]`
@@ -57,6 +59,8 @@ Function getPickedStockListboxCollection -> Collection
 **Returns:** `Collection`
 
 ---
+
+### Getters
 
 #### QuantityPicked {#quantitypicked}
  `[🖥️ local, 🔍 getter]`
@@ -130,6 +134,8 @@ MARK: Parts
 
 ---
 
+### Setters
+
 #### Pallets {#pallets}
  `[🖥️ local, ✏️ setter]`
 
@@ -175,7 +181,7 @@ Function Parts($Parts : Integer)
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

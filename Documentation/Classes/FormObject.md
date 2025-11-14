@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-13T23:49:46.793Z*
+🕐 *Last updated: 2025-11-14T00:02:22.322Z*
 
 ---
 
@@ -101,6 +101,8 @@ Class constructor($FormObjectName : Text)
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### setMaxFontSize {#setmaxfontsize}
 
 
@@ -156,6 +158,8 @@ Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
 | `$EndPosition` | `Integer` | - | - |
 
 ---
+
+### Getters
 
 #### Title {#title}
  `[🔍 getter]`
@@ -464,6 +468,8 @@ Function HasFocus -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+### Setters
 
 #### Title {#title}
  `[✏️ setter]`

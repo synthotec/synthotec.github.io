@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.520Z*
+🕐 *Last updated: 2025-11-14T00:02:23.043Z*
 
 ---
 
@@ -20,10 +20,12 @@ parent : Classes
   - [getCurrentUser](#getcurrentuser) → `cs.StaffEntity` 🖥️
   - [getNonArchived](#getnonarchived) → `cs.StaffSelection` 🖥️
   - [newUsingEntry](#newusingentry) → `cs.StaffEntity` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getUsingKeyfob {#getusingkeyfob}
  `[🖥️ local]`
@@ -76,7 +78,7 @@ Function newUsingEntry -> cs.StaffEntity
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

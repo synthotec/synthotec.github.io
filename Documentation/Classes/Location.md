@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.851Z*
+🕐 *Last updated: 2025-11-14T00:02:22.380Z*
 
 ---
 
@@ -20,10 +20,12 @@ parent : Classes
   - [newLocation](#newlocation) (1 param) → `$LocationEntity : cs.LocationEntity` 🖥️
   - [restClearStockLocation](#restclearstocklocation) (1 param) → `Object`
   - [restSetStockLocation](#restsetstocklocation) (1 param) → `Object`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getUsingScanner {#getusingscanner}
 
@@ -93,7 +95,7 @@ Function restSetStockLocation($RestPostDataObject : Object) -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

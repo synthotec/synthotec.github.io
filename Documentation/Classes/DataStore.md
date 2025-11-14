@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-13T23:49:46.369Z*
+🕐 *Last updated: 2025-11-14T00:02:21.883Z*
 
 ---
 
@@ -35,10 +35,12 @@ parent : Classes
   - [unpackServerUpdate](#unpackserverupdate) → `Boolean`
   - [_updateServer](#_updateserver) 🖥️
   - [_unpackServerUpdate->$UpdateFolder](#_unpackserverupdate->$updatefolder) → `4D.Folder` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getDuplicateValueEntities {#getduplicatevalueentities}
  `[🖥️ local]`
@@ -325,7 +327,7 @@ Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### � Related Classes
 

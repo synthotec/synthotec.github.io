@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.626Z*
+🕐 *Last updated: 2025-11-14T00:02:22.168Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [sendEmailReport](#sendemailreport)
   - [sendSlackReport](#sendslackreport) → `$Success : Boolean`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### sendEmailReport {#sendemailreport}
 
@@ -43,7 +45,7 @@ Function sendSlackReport -> $Success : Boolean
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

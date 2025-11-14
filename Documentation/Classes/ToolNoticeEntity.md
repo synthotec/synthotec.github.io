@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.640Z*
+🕐 *Last updated: 2025-11-14T00:02:23.165Z*
 
 ---
 
@@ -21,10 +21,12 @@ parent : Classes
   - [IsActive](#isactive) → `Boolean`
   - [RemainingRuns](#remainingruns) → `Integer`
   - [ActiveUntilText](#activeuntiltext) → `Text`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### displayWorkOrders {#displayworkorders}
  `[🖥️ local]`
@@ -43,6 +45,8 @@ Function deactivate
 ```
 
 ---
+
+### Getters
 
 #### IsActive {#isactive}
  `[🔍 getter]`
@@ -77,7 +81,7 @@ Function ActiveUntilText -> Text
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

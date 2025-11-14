@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.333Z*
+🕐 *Last updated: 2025-11-14T00:02:22.855Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getByMachine](#getbymachine) (1 param) → `cs.RealTimeMachinesEntity`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getByMachine {#getbymachine}
 
@@ -39,7 +41,7 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

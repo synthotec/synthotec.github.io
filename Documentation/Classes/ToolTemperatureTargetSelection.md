@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.679Z*
+🕐 *Last updated: 2025-11-14T00:02:23.209Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [CheckInRange](#checkinrange) (1 param) → `Boolean`
   - [CheckTargetsSet](#checktargetsset) (1 param) → `Boolean`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### CheckInRange {#checkinrange}
 
@@ -57,7 +59,7 @@ Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) ->
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

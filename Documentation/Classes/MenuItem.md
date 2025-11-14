@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:46.924Z*
+🕐 *Last updated: 2025-11-14T00:02:22.451Z*
 
 ---
 
@@ -57,6 +57,8 @@ Class constructor($MenuText : Text)
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### _addMenuItem {#_addmenuitem}
 
 
@@ -82,6 +84,8 @@ Function _process -> Variant
 **Returns:** `Variant`
 
 ---
+
+### Getters
 
 #### _Style {#_style}
  `[🔍 getter]`

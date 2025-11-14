@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.877Z*
+🕐 *Last updated: 2025-11-14T00:02:22.405Z*
 
 ---
 
@@ -20,10 +20,12 @@ parent : Classes
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [HasMigrationID](#hasmigrationid) → `Boolean`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMaterialsUsingThis {#getmaterialsusingthis}
 
@@ -70,6 +72,8 @@ Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
 
 ---
 
+### Getters
+
 #### HasMigrationID {#hasmigrationid}
  `[🖥️ local, 🔍 getter]`
 
@@ -81,7 +85,7 @@ Function HasMigrationID -> Boolean
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

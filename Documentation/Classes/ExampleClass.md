@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-13T23:49:46.631Z*
+🕐 *Last updated: 2025-11-14T00:02:22.173Z*
 
 ---
 
@@ -53,6 +53,8 @@ $InitialCount: Starting inventory count
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### calculateValue {#calculatevalue}
 
 
@@ -91,6 +93,8 @@ $Quantity: Number of items to order
 **Returns:** `Boolean`
 
 ---
+
+### Getters
 
 #### ItemCount {#itemcount}
  `[🔍 getter]`

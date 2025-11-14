@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.691Z*
+🕐 *Last updated: 2025-11-14T00:02:22.236Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [upload](#upload) → `$FileEntity : cs.FileEntity` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### upload {#upload}
  `[🖥️ local]`
@@ -33,7 +35,7 @@ Function upload -> $FileEntity : cs.FileEntity
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.029Z*
+🕐 *Last updated: 2025-11-14T00:02:22.558Z*
 
 ---
 
@@ -31,10 +31,12 @@ parent : Classes
   - [restDeletePallet](#restdeletepallet) (1 param) → `Object`
   - [restReassignLocation](#restreassignlocation) (1 param) → `Object`
   - [restLoadPallet](#restloadpallet) (1 param) → `Object`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`
@@ -292,7 +294,7 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

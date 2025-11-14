@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-13T23:49:46.554Z*
+🕐 *Last updated: 2025-11-14T00:02:22.084Z*
 
 ---
 
@@ -32,7 +32,8 @@ parent : Classes
   - [setSubject](#setsubject) (1 param)
   - [attachFile](#attachfile) (2 params)
   - [send](#send) → `$EmailSent : Boolean`
-- [📚 Examples (1)](#-examples)
+- [📚 Examples (1)](#examples)
+  - [Sending notification email](#sending-notification-email)
 ---
 
 ## 📋 Properties
@@ -61,6 +62,8 @@ Class constructor($Subject : Text; $HTML_Body : Text)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### addTo {#addto}
 
@@ -238,7 +241,7 @@ Function send -> $EmailSent : Boolean
 
 ---
 
-## 📚 Examples
+## Examples {#examples}
 
 ### Sending notification email {#sending-notification-email}
 

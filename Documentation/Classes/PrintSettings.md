@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:47.186Z*
+🕐 *Last updated: 2025-11-14T00:02:22.716Z*
 
 ---
 
@@ -54,6 +54,8 @@ Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : I
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### display {#display}
 

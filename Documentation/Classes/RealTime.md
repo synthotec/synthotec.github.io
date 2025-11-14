@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.328Z*
+🕐 *Last updated: 2025-11-14T00:02:22.849Z*
 
 ---
 
@@ -23,10 +23,12 @@ parent : Classes
   - [newFromJson](#newfromjson) (1 param) → `cs.RealTimeEntity` 🖥️
   - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) → `Real`
   - [SECONDS_IN_DAY](#seconds_in_day) → `Real`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### _getNextEvenHourBoundary {#_getnextevenhourboundary}
  `[🖥️ local]`
@@ -126,6 +128,8 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 
 ---
 
+### Getters
+
 #### TWO_HOURS_IN_SECONDS {#two_hours_in_seconds}
  `[🔍 getter]`
 
@@ -148,7 +152,7 @@ Function SECONDS_IN_DAY -> Real
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

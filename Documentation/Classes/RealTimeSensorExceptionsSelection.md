@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.406Z*
+🕐 *Last updated: 2025-11-14T00:02:22.930Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [acknowledge](#acknowledge) 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### acknowledge {#acknowledge}
  `[🖥️ local]`
@@ -31,7 +33,7 @@ Function acknowledge
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

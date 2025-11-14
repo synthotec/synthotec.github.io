@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.662Z*
+🕐 *Last updated: 2025-11-14T00:02:23.189Z*
 
 ---
 
@@ -19,10 +19,12 @@ parent : Classes
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - [NextToolChangeText](#nexttoolchangetext) → `Text`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMigrationRules {#getmigrationrules}
  `[🖥️ local]`
@@ -60,6 +62,8 @@ return
 
 ---
 
+### Getters
+
 #### NextToolChangeText {#nexttoolchangetext}
  `[🔍 getter]`
 
@@ -71,7 +75,7 @@ Function NextToolChangeText -> Text
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

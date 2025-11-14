@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:47.410Z*
+🕐 *Last updated: 2025-11-14T00:02:22.933Z*
 
 ---
 
@@ -49,6 +49,8 @@ Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObj
 ---
 
 ## ⚙️ Functions
+
+### Getters
 
 #### ZoneName {#zonename}
  `[🔍 getter]`

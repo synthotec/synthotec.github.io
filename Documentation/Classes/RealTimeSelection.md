@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.392Z*
+🕐 *Last updated: 2025-11-14T00:02:22.916Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [getTemperatureSensors](#gettemperaturesensors) → `$TemperatureSensors : Collection`
   - [getTemperatureSensorZones](#gettemperaturesensorzones) → `$TemperatureSensorZones : Collection`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getTemperatureSensors {#gettemperaturesensors}
 
@@ -45,7 +47,7 @@ Function getTemperatureSensorZones -> $TemperatureSensorZones : Collection
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

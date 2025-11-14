@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:46.808Z*
+🕐 *Last updated: 2025-11-14T00:02:22.334Z*
 
 ---
 
@@ -33,6 +33,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### newHttpRequest {#newhttprequest}
 

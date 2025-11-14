@@ -12,7 +12,7 @@ parent : Classes
 🗨️ ClassInspector - Analyzes 4D class files and extracts comprehensive metadata
 Usage: var $Inspector : cs.ClassInspector := cs.ClassInspector.new($File)
 
-🕐 *Last updated: 2025-11-13T23:49:46.264Z*
+🕐 *Last updated: 2025-11-14T00:02:21.784Z*
 
 ---
 
@@ -71,6 +71,8 @@ Class constructor($File : 4D.File)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### _parse {#_parse}
 

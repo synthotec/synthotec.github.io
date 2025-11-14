@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-13T23:49:46.601Z*
+🕐 *Last updated: 2025-11-14T00:02:22.135Z*
 
 ---
 
@@ -49,6 +49,8 @@ Class constructor($EntitySelection : 4D.EntitySelection; $ParentPath : Text)
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### display {#display}
 
 
@@ -84,6 +86,8 @@ Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Obj
 
 ---
 
+### Getters
+
 #### selectedEntity {#selectedentity}
  `[🔍 getter]`
 
@@ -94,6 +98,8 @@ Function selectedEntity -> 4D.Entity
 **Returns:** `4D.Entity`
 
 ---
+
+### Setters
 
 #### selectedEntity {#selectedentity}
  `[✏️ setter]`

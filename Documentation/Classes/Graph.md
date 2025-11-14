@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:46.810Z*
+🕐 *Last updated: 2025-11-14T00:02:22.336Z*
 
 ---
 
@@ -30,6 +30,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### generate {#generate}
 

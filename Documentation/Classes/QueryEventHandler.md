@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:47.311Z*
+🕐 *Last updated: 2025-11-14T00:02:22.833Z*
 
 ---
 
@@ -51,6 +51,8 @@ Class constructor($QueryEventObject : Object)
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### setResult {#setresult}
 
 
@@ -66,6 +68,8 @@ Function setResult($QueryText : Text; $QueryParameters : Collection)
 | `$QueryParameters` | `Collection` | - | - |
 
 ---
+
+### Getters
 
 #### valueType {#valuetype}
  `[🔍 getter]`

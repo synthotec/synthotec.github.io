@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.718Z*
+🕐 *Last updated: 2025-11-14T00:02:23.256Z*
 
 ---
 
@@ -24,10 +24,12 @@ parent : Classes
   - [restDisplayPrinterList](#restdisplayprinterlist) (1 param) → `Object`
   - [restSetLabelPrinter](#restsetlabelprinter) (1 param) → `Object`
   - [restScanTest](#restscantest) (1 param) → `Object`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### restExecutePromptFormula {#restexecutepromptformula}
 
@@ -167,7 +169,7 @@ Function restScanTest($RestPostDataObject : Object) -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

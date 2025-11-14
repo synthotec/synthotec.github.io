@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.484Z*
+🕐 *Last updated: 2025-11-14T00:02:23.006Z*
 
 ---
 
@@ -18,10 +18,12 @@ parent : Classes
 - [⚙️ Functions](#️-functions)
   - [global](#global) (1 param) → `$SettingsEntity : cs.SettingsEntity` 🖥️
   - [userSpecific](#userspecific) (2 params) → `$SettingsEntity : cs.SettingsEntity` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### global {#global}
  `[🖥️ local]`
@@ -58,7 +60,7 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEnti
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

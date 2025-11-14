@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.688Z*
+🕐 *Last updated: 2025-11-14T00:02:22.233Z*
 
 ---
 
@@ -19,10 +19,12 @@ parent : Classes
   - [ClassicListboxClickedEvent](#classiclistboxclickedevent) 🖥️
   - [display](#display) (4 params) 🖥️
   - [triggerLog](#triggerlog) (2 params) 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### ClassicListboxClickedEvent {#classiclistboxclickedevent}
  `[🖥️ local]`
@@ -67,7 +69,7 @@ Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.489Z*
+🕐 *Last updated: 2025-11-14T00:02:23.013Z*
 
 ---
 
@@ -21,10 +21,12 @@ parent : Classes
   - [getValue](#getvalue) (1 param) → `Variant` 🖥️
   - [getObject](#getobject) (1 param) → `Object` 🖥️
   - [reset](#reset) → `Boolean` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### setValue {#setvalue}
  `[🖥️ local]`
@@ -105,7 +107,7 @@ Function reset -> Boolean
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

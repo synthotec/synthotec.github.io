@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.525Z*
+🕐 *Last updated: 2025-11-14T00:02:23.048Z*
 
 ---
 
@@ -19,10 +19,12 @@ parent : Classes
   - [permissionCheck](#permissioncheck) (2 params) → `$HasPermission : Boolean` 🖥️
   - [copyPermissionsFrom](#copypermissionsfrom) (1 param) → `$Success : Boolean` 🖥️
   - [FullName](#fullname) → `Text`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### permissionCheck {#permissioncheck}
  `[🖥️ local]`
@@ -59,6 +61,8 @@ Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> $Success : Boolea
 
 ---
 
+### Getters
+
 #### FullName {#fullname}
  `[🖥️ local, 🔍 getter]`
 
@@ -70,7 +74,7 @@ Function FullName -> Text
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

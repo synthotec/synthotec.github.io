@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-13T23:49:46.663Z*
+🕐 *Last updated: 2025-11-14T00:02:22.208Z*
 
 ---
 
@@ -53,6 +53,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### addSelectionBasedListbox {#addselectionbasedlistbox}
 

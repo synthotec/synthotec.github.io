@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.099Z*
+🕐 *Last updated: 2025-11-14T00:02:22.628Z*
 
 ---
 
@@ -27,10 +27,12 @@ parent : Classes
   - [restSelectOrderToPickAgainst](#restselectordertopickagainst) (1 param) → `Object`
   - [restPickAgainstOrder](#restpickagainstorder) (1 param) → `Object`
   - [checkForPickedPickRequests](#checkforpickedpickrequests)
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### create {#create}
  `[🖥️ local]`
@@ -193,7 +195,7 @@ Function checkForPickedPickRequests
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.171Z*
+🕐 *Last updated: 2025-11-14T00:02:22.701Z*
 
 ---
 
@@ -26,10 +26,12 @@ parent : Classes
   - [isLabelPrinter](#islabelprinter) → `Boolean`
   - [isDocumentPrinter](#isdocumentprinter) → `Boolean`
   - [TypeDisplay](#typedisplay) → `Text`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getLabelPaperOptions {#getlabelpaperoptions}
 
@@ -79,6 +81,8 @@ Function setDefault
 ```
 
 ---
+
+### Getters
 
 #### LabelPrinter {#labelprinter}
  `[🔍 getter]`
@@ -135,7 +139,7 @@ Function TypeDisplay -> Text
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

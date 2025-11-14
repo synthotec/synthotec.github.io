@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-13T23:49:47.353Z*
+🕐 *Last updated: 2025-11-14T00:02:22.877Z*
 
 ---
 
@@ -38,6 +38,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Getters
 
 #### Machines {#machines}
  `[🔍 getter]`

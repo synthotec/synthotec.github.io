@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.863Z*
+🕐 *Last updated: 2025-11-14T00:02:22.392Z*
 
 ---
 
@@ -26,10 +26,12 @@ parent : Classes
   - [DisplayName](#displayname) → `Text`
   - [ListboxMetaExpression](#listboxmetaexpression) → `Object`
   - [Level](#level) → `Integer`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### CheckRelated {#checkrelated}
  `[🖥️ local]`
@@ -101,6 +103,8 @@ Function getStockListboxCollection -> $StockListboxCollection : Collection
 
 ---
 
+### Getters
+
 #### SortOrder {#sortorder}
  `[🖥️ local, 🔍 getter]`
 
@@ -156,7 +160,7 @@ Function Level -> $Level : Integer
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

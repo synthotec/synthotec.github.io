@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.335Z*
+🕐 *Last updated: 2025-11-14T00:02:21.849Z*
 
 ---
 
@@ -32,10 +32,12 @@ parent : Classes
   - [OutstandingToDeliver](#outstandingtodeliver) → `Integer`
   - [OutstandingToPickRequest](#outstandingtopickrequest) → `Integer`
   - [OutstandingToDeliver](#outstandingtodeliver) (1 param)
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### createCofC {#createcofc}
  `[🖥️ local]`
@@ -180,6 +182,8 @@ Function getPickRequestQuantitiesColor -> Integer
 
 ---
 
+### Getters
+
 #### DespatchDateTime {#despatchdatetime}
  `[🖥️ local, 🔍 getter]`
 
@@ -246,6 +250,8 @@ Function OutstandingToPickRequest -> Integer
 
 ---
 
+### Setters
+
 #### OutstandingToDeliver {#outstandingtodeliver}
  `[🖥️ local, ✏️ setter]`
 
@@ -261,7 +267,7 @@ Function OutstandingToDeliver($OutstandingToDeliver : Integer)
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

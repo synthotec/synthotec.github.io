@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.045Z*
+🕐 *Last updated: 2025-11-14T00:02:22.576Z*
 
 ---
 
@@ -29,10 +29,12 @@ parent : Classes
   - [GrossWeightKg](#grossweightkg) → `Real`
   - [QRObject](#qrobject) → `Object`
   - [HasMigrationID](#hasmigrationid) → `Boolean`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### createPrintJob {#createprintjob}
 
@@ -168,6 +170,8 @@ Function transfer($ToLocation : Integer) -> Boolean
 
 ---
 
+### Getters
+
 #### NetWeightKg {#netweightkg}
  `[🖥️ local, 🔍 getter]`
 
@@ -212,7 +216,7 @@ Function HasMigrationID -> Boolean
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

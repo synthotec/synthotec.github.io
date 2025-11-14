@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
-🕐 *Last updated: 2025-11-13T23:49:46.536Z*
+🕐 *Last updated: 2025-11-14T00:02:22.064Z*
 
 ---
 
@@ -63,6 +63,8 @@ This.generateClassDocumentation()
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### generateClassDocumentation {#generateclassdocumentation}
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:46.906Z*
+🕐 *Last updated: 2025-11-14T00:02:22.434Z*
 
 ---
 
@@ -21,10 +21,12 @@ parent : Classes
   - [getLastStockTakeSelection](#getlaststocktakeselection) → `cs.MaterialStockTakeSelection` 🖥️
   - [restViewResults](#restviewresults) (1 param) → `Object`
   - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getLastStockTakeDate {#getlaststocktakedate}
  `[🖥️ local]`
@@ -99,7 +101,7 @@ Function restRemoveEntry($RestPostDataObject : Object) -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

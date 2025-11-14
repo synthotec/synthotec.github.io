@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:47.195Z*
+🕐 *Last updated: 2025-11-14T00:02:22.726Z*
 
 ---
 
@@ -55,6 +55,8 @@ Class constructor($ClipboardText : Text)
 
 ## ⚙️ Functions
 
+### Regular Functions
+
 #### process {#process}
 
 
@@ -63,6 +65,8 @@ Function process
 ```
 
 ---
+
+### Getters
 
 #### AllLinesActioned {#alllinesactioned}
  `[🔍 getter]`

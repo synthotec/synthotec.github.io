@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.473Z*
+🕐 *Last updated: 2025-11-14T00:02:22.997Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getMaterialUsedForProduction](#getmaterialusedforproduction) (1 param) → `Real` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMaterialUsedForProduction {#getmaterialusedforproduction}
  `[🖥️ local]`
@@ -39,7 +41,7 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

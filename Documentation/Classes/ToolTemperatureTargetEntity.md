@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.674Z*
+🕐 *Last updated: 2025-11-14T00:02:23.203Z*
 
 ---
 
@@ -19,10 +19,12 @@ parent : Classes
   - [SetTargetValues](#settargetvalues) (1 param) 🖥️
   - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
   - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### SetTargetValues {#settargetvalues}
  `[🖥️ local]`
@@ -71,7 +73,7 @@ Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureTargetEntity)
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

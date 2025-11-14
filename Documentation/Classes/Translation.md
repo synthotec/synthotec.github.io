@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.689Z*
+🕐 *Last updated: 2025-11-14T00:02:23.224Z*
 
 ---
 
@@ -22,10 +22,12 @@ parent : Classes
   - [translateFormObjects](#translateformobjects) (1 param) 🖥️
   - [CurrentProcess](#currentprocess) → `Text`
   - [_TranslationProcessCollection](#_translationprocesscollection) → `Collection`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### pushProcess {#pushprocess}
  `[🖥️ local]`
@@ -84,6 +86,8 @@ Function translateFormObjects($TranslationProcess : Text)
 
 ---
 
+### Getters
+
 #### CurrentProcess {#currentprocess}
  `[🖥️ local, 🔍 getter]`
 
@@ -106,7 +110,7 @@ Function _TranslationProcessCollection -> Collection
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

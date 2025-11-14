@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.900Z*
+🕐 *Last updated: 2025-11-14T00:02:22.428Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getStockListBoxObject {#getstocklistboxobject}
  `[🖥️ local]`
@@ -33,7 +35,7 @@ Function getStockListBoxObject -> Object
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

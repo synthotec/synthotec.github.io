@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.263Z*
+🕐 *Last updated: 2025-11-14T00:02:22.791Z*
 
 ---
 
@@ -32,10 +32,12 @@ parent : Classes
   - [MainToolRegrind](#maintoolregrind) → `Boolean`
   - [HasMigrationID](#hasmigrationid) → `Boolean`
   - [MainToolRegrind](#maintoolregrind) (1 param)
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### query OurPartName {#query ourpartname}
  `[🖥️ local]`
@@ -211,6 +213,8 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 
 ---
 
+### Getters
+
 #### Emoji {#emoji}
  `[🖥️ local, 🔍 getter]`
 
@@ -244,6 +248,8 @@ Function HasMigrationID -> Boolean
 
 ---
 
+### Setters
+
 #### MainToolRegrind {#maintoolregrind}
  `[🖥️ local, ✏️ setter]`
 
@@ -259,7 +265,7 @@ Function MainToolRegrind($MainToolRegrind : Boolean)
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-13T23:49:46.832Z*
+🕐 *Last updated: 2025-11-14T00:02:22.360Z*
 
 ---
 
@@ -47,6 +47,8 @@ Class constructor($BorderWidth : Integer; $CellPadding : Integer; $UpperCase : B
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### AddRow {#addrow}
 

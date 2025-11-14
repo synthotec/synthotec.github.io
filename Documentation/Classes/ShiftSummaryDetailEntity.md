@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.498Z*
+🕐 *Last updated: 2025-11-14T00:02:23.022Z*
 
 ---
 
@@ -21,10 +21,12 @@ parent : Classes
   - [Status](#status) → `Integer`
   - [StatusText](#statustext) → `Text`
   - [StatusColor](#statuscolor) → `Integer`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### fillDowntimeSincePrevious {#filldowntimesinceprevious}
  `[🖥️ local]`
@@ -49,6 +51,8 @@ Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachines
 | `$RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
 
 ---
+
+### Getters
 
 #### Status {#status}
  `[🖥️ local, 🔍 getter]`
@@ -83,7 +87,7 @@ Function StatusColor -> Integer
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

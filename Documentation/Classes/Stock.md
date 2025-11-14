@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:47.550Z*
+🕐 *Last updated: 2025-11-14T00:02:23.074Z*
 
 ---
 
@@ -53,6 +53,8 @@ Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### adjust {#adjust}
 

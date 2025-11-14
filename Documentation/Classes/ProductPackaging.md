@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-13T23:49:47.274Z*
+🕐 *Last updated: 2025-11-14T00:02:22.800Z*
 
 ---
 
@@ -19,10 +19,12 @@ parent : Classes
   - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
   - [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
   - [generateCustomerPackaging](#generatecustomerpackaging)
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getMigrationSettings {#getmigrationsettings}
  `[🖥️ local]`
@@ -53,7 +55,7 @@ Function generateCustomerPackaging
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

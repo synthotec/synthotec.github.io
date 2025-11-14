@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:46.285Z*
+🕐 *Last updated: 2025-11-14T00:02:21.803Z*
 
 ---
 
@@ -46,6 +46,8 @@ Class constructor($valuesCollection : Collection; $placeHolderText : Text)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### CollectionObject {#collectionobject}
 

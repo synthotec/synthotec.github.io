@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-13T23:49:46.267Z*
+🕐 *Last updated: 2025-11-14T00:02:21.787Z*
 
 ---
 
@@ -43,6 +43,8 @@ Stores metadata about a function parameter
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### toObject {#toobject}
 

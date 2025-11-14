@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.752Z*
+🕐 *Last updated: 2025-11-14T00:02:23.291Z*
 
 ---
 
@@ -32,10 +32,12 @@ parent : Classes
   - [IsOpen](#isopen) → `Boolean`
   - [HasMigrationID](#hasmigrationid) → `Boolean`
   - [ExS1Stock](#exs1stock) → `Integer`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### setQuantityMade {#setquantitymade}
  `[🖥️ local]`
@@ -195,6 +197,8 @@ Function query HasMigrationID($QueryEventObject : Object) -> Text
 
 ---
 
+### Getters
+
 #### AvailableStock {#availablestock}
  `[🖥️ local, 🔍 getter]`
 
@@ -261,7 +265,7 @@ Function ExS1Stock -> Integer
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

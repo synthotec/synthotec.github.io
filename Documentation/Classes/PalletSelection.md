@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.047Z*
+🕐 *Last updated: 2025-11-14T00:02:22.577Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getAvailable](#getavailable) → `cs.PalletSelection` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getAvailable {#getavailable}
  `[🖥️ local]`
@@ -33,7 +35,7 @@ Function getAvailable -> cs.PalletSelection
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

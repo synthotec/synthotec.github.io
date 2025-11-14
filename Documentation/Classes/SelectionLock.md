@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:47.479Z*
+🕐 *Last updated: 2025-11-14T00:02:23.003Z*
 
 ---
 
@@ -46,6 +46,8 @@ Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Bool
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### displayAlert {#displayalert}
 

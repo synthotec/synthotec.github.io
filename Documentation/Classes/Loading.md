@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:46.838Z*
+🕐 *Last updated: 2025-11-14T00:02:22.368Z*
 
 ---
 
@@ -38,6 +38,8 @@ Class constructor($LoadingText : Text; $LoadingProgress : Real)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### stop {#stop}
 

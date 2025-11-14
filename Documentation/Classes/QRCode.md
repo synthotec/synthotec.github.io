@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:47.299Z*
+🕐 *Last updated: 2025-11-14T00:02:22.823Z*
 
 ---
 
@@ -43,6 +43,8 @@ Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### fillBoxLabelsQR {#fillboxlabelsqr}
 
@@ -110,6 +112,8 @@ Function generate -> Picture
 **Returns:** `Picture`
 
 ---
+
+### Getters
 
 #### BarcodeType {#barcodetype}
  `[🔍 getter]`

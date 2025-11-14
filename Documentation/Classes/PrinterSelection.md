@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-13T23:49:47.172Z*
+🕐 *Last updated: 2025-11-14T00:02:22.703Z*
 
 ---
 
@@ -17,10 +17,12 @@ parent : Classes
 
 - [⚙️ Functions](#️-functions)
   - [getLabelPrinters](#getlabelprinters) → `$PrinterSelection : cs.PrinterSelection` 🖥️
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### getLabelPrinters {#getlabelprinters}
  `[🖥️ local]`
@@ -33,7 +35,7 @@ Function getLabelPrinters -> $PrinterSelection : cs.PrinterSelection
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

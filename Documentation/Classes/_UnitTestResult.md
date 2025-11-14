@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-13T23:49:47.756Z*
+🕐 *Last updated: 2025-11-14T00:02:23.295Z*
 
 ---
 
@@ -43,6 +43,8 @@ Class constructor
 ---
 
 ## ⚙️ Functions
+
+### Getters
 
 #### TestFormulaText {#testformulatext}
  `[🔍 getter]`

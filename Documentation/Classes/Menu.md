@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-13T23:49:46.917Z*
+🕐 *Last updated: 2025-11-14T00:02:22.445Z*
 
 ---
 
@@ -54,6 +54,8 @@ Class constructor($BasicMenuItems : Collection)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### addSeperator {#addseperator}
 

@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a class function
 
-🕐 *Last updated: 2025-11-13T23:49:46.213Z*
+🕐 *Last updated: 2025-11-14T00:02:21.735Z*
 
 ---
 
@@ -44,6 +44,8 @@ Stores metadata about a class function
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### addModifier {#addmodifier}
 

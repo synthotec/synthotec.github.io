@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:47.338Z*
+🕐 *Last updated: 2025-11-14T00:02:22.860Z*
 
 ---
 
@@ -23,10 +23,12 @@ parent : Classes
   - [Changing](#changing) → `Boolean`
   - [UniChar](#unichar) → `Text`
   - [AssignedTemperatureSensorsPresent](#assignedtemperaturesensorspresent) → `Boolean`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### checkTempZoneExists {#checktempzoneexists}
 
@@ -44,6 +46,8 @@ Function checkTempZoneExists($Zone : Integer) -> Boolean
 **Returns:** `Boolean`
 
 ---
+
+### Getters
 
 #### TemperatureSensorsInstalled {#temperaturesensorsinstalled}
  `[🔍 getter]`
@@ -111,7 +115,7 @@ Function AssignedTemperatureSensorsPresent -> Boolean
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 

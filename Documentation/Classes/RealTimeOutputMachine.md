@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-13T23:49:47.389Z*
+🕐 *Last updated: 2025-11-14T00:02:22.913Z*
 
 ---
 
@@ -77,6 +77,8 @@ Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### ProcessColors {#processcolors}
 
@@ -169,6 +171,8 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 | `$AdditionalSeconds` | `Real` | - | - |
 
 ---
+
+### Getters
 
 #### SecondaryStatusText {#secondarystatustext}
  `[🔍 getter]`

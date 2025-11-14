@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-13T23:49:46.615Z*
+🕐 *Last updated: 2025-11-14T00:02:22.156Z*
 
 ---
 
@@ -23,10 +23,12 @@ parent : Classes
   - [GitHubIssueTitle](#githubissuetitle) → `Text`
   - [FirstOccurrence](#firstoccurrence) → `Text`
   - [LastOccurrence](#lastoccurrence) → `Text`
-- [🔗 Related Items](#-related-items)
+- [🔗 Related Items](#related-items)
 ---
 
 ## ⚙️ Functions
+
+### Regular Functions
 
 #### createGitHubIssue {#creategithubissue}
 
@@ -36,6 +38,8 @@ Function createGitHubIssue
 ```
 
 ---
+
+### Getters
 
 #### ListboxMeta->$ListboxMeta {#listboxmeta->$listboxmeta}
  `[🔍 getter]`
@@ -103,7 +107,7 @@ Function LastOccurrence -> Text
 
 ---
 
-## 🔗 Related Items
+## Related Items {#related-items}
 
 ### 🗂️ Tables
 
