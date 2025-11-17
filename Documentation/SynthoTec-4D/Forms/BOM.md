@@ -86,7 +86,7 @@ This form handles **17** of **44** possible events:
 
 ![BOM Management Screen](Images/BOM-1.png)
 
-2 Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
+Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
 
 ---
 
