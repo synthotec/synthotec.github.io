@@ -7,6 +7,10 @@ parent : Forms
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 8 Object Methods
 
+## 📝 Description
+
+🗨️ This is a test to see if manual comments work on the BOM form documentation
+
 ## ℹ️ Form Information
 
 | Property | Value |
@@ -82,7 +86,7 @@ This form handles **17** of **44** possible events:
 
 ![BOM Management Screen](Images/BOM-1.png)
 
-Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
+2 Main view showing the Bill of Materials interface with listbox for parts selection and management controls.
 
 ---
 
