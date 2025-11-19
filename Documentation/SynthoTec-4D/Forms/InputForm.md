@@ -3,7 +3,7 @@ layout : default
 title : InputForm
 parent : Forms
 ---
-# InputForm [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/InputForm)
+# InputForm [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/InputForm)
 
 📊 **Overview:** 5 Objects | 2 Types | 3 Pages | 16 Events | 5 Object Methods
 

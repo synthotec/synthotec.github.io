@@ -3,7 +3,7 @@ layout : default
 title : DownTime
 parent : Forms
 ---
-# DownTime [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DownTime)
+# DownTime [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DownTime)
 
 📊 **Overview:** 22 Objects | 5 Types | 2 Pages | 16 Events | 22 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : PermissionManager
 parent : Forms
 ---
-# PermissionManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PermissionManager)
+# PermissionManager [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PermissionManager)
 
 📊 **Overview:** 9 Objects | 5 Types | 3 Pages | 15 Events | 6 Object Methods
 

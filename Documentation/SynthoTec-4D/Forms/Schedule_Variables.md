@@ -3,7 +3,7 @@ layout : default
 title : Schedule_Variables
 parent : Forms
 ---
-# Schedule_Variables [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Schedule_Variables)
+# Schedule_Variables [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Schedule_Variables)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 17 Events | 1 Object Methods
 

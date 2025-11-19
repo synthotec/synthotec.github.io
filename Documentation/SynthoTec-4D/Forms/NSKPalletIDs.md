@@ -3,7 +3,7 @@ layout : default
 title : NSKPalletIDs
 parent : Forms
 ---
-# NSKPalletIDs [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NSKPalletIDs)
+# NSKPalletIDs [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NSKPalletIDs)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 2 Object Methods
 

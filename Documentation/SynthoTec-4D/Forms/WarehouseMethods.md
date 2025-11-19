@@ -3,7 +3,7 @@ layout : default
 title : WarehouseMethods
 parent : Forms
 ---
-# WarehouseMethods [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WarehouseMethods)
+# WarehouseMethods [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WarehouseMethods)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events
 

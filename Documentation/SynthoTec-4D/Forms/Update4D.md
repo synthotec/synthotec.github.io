@@ -3,7 +3,7 @@ layout : default
 title : Update4D
 parent : Forms
 ---
-# Update4D [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Update4D)
+# Update4D [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Update4D)
 
 📊 **Overview:** 5 Objects | 2 Types | 2 Pages | 15 Events | 4 Object Methods
 

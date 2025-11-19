@@ -3,7 +3,7 @@ layout : default
 title : StaffLogin
 parent : Forms
 ---
-# StaffLogin [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StaffLogin)
+# StaffLogin [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StaffLogin)
 
 📊 **Overview:** 27 Objects | 4 Types | 6 Pages | 16 Events | 11 Object Methods
 

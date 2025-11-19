@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemProcedures
 parent : Forms
 ---
-# QualitySystemProcedures [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemProcedures)
+# QualitySystemProcedures [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemProcedures)
 
 📊 **Overview:** 11 Objects | 6 Types | 2 Pages | 15 Events | 11 Object Methods
 

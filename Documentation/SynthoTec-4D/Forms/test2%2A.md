@@ -3,7 +3,7 @@ layout : default
 title : test2%2A
 parent : Forms
 ---
-# test2%2A [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/test2%2A)
+# test2%2A [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/test2%2A)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 15 Events | 1 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : ToolDisplay4
 parent : Forms
 ---
-# ToolDisplay4 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolDisplay4)
+# ToolDisplay4 [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolDisplay4)
 
 📊 **Overview:** 42 Objects | 7 Types | 3 Pages | 16 Events | 20 Object Methods
 

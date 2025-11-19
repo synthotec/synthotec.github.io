@@ -3,7 +3,7 @@ layout : default
 title : StockTakeInput
 parent : Forms
 ---
-# StockTakeInput [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StockTakeInput)
+# StockTakeInput [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StockTakeInput)
 
 📊 **Overview:** 18 Objects | 5 Types | 2 Pages | 16 Events | 10 Object Methods
 

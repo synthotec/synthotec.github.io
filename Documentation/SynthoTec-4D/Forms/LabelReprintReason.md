@@ -3,7 +3,7 @@ layout : default
 title : LabelReprintReason
 parent : Forms
 ---
-# LabelReprintReason [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelReprintReason)
+# LabelReprintReason [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelReprintReason)
 
 📊 **Overview:** 4 Objects | 4 Types | 2 Pages | 16 Events | 2 Object Methods
 

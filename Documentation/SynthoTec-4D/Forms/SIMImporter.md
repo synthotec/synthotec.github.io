@@ -3,7 +3,7 @@ layout : default
 title : SIMImporter
 parent : Forms
 ---
-# SIMImporter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SIMImporter)
+# SIMImporter [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SIMImporter)
 
 📊 **Overview:** 4 Objects | 3 Types | 2 Pages | 16 Events | 3 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : ForecastImporter
 parent : Forms
 ---
-# ForecastImporter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ForecastImporter)
+# ForecastImporter [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ForecastImporter)
 
 📊 **Overview:** 9 Objects | 5 Types | 2 Pages | 16 Events | 4 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : CalibrationLog
 parent : Forms
 ---
-# CalibrationLog [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CalibrationLog)
+# CalibrationLog [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CalibrationLog)
 
 📊 **Overview:** 12 Objects | 4 Types | 6 Pages | 15 Events | 4 Object Methods
 

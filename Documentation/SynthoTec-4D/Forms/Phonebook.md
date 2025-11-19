@@ -3,7 +3,7 @@ layout : default
 title : Phonebook
 parent : Forms
 ---
-# Phonebook [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Phonebook)
+# Phonebook [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Phonebook)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events | 1 Object Methods
 

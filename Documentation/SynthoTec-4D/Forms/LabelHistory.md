@@ -3,7 +3,7 @@ layout : default
 title : LabelHistory
 parent : Forms
 ---
-# LabelHistory [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelHistory)
+# LabelHistory [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelHistory)
 
 📊 **Overview:** 4 Objects | 4 Types | 2 Pages | 16 Events | 4 Object Methods
 

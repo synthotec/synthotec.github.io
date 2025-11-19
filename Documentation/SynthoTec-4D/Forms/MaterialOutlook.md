@@ -3,7 +3,7 @@ layout : default
 title : MaterialOutlook
 parent : Forms
 ---
-# MaterialOutlook [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialOutlook)
+# MaterialOutlook [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialOutlook)
 
 📊 **Overview:** 13 Objects | 6 Types | 2 Pages | 16 Events | 8 Object Methods
 

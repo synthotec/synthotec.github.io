@@ -3,7 +3,7 @@ layout : default
 title : ShiftSummaries
 parent : Forms
 ---
-# ShiftSummaries [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ShiftSummaries)
+# ShiftSummaries [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ShiftSummaries)
 
 📊 **Overview:** 9 Objects | 3 Types | 3 Pages | 4 Events | 7 Object Methods
 

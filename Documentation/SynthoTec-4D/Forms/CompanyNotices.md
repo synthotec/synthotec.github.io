@@ -3,7 +3,7 @@ layout : default
 title : CompanyNotices
 parent : Forms
 ---
-# CompanyNotices [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CompanyNotices)
+# CompanyNotices [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CompanyNotices)
 
 📊 **Overview:** 26 Objects | 7 Types | 4 Pages | 16 Events | 16 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : BOM
 parent : Forms
 ---
-# BOM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM)
+# BOM [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 8 Object Methods
 

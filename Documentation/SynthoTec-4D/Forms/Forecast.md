@@ -3,7 +3,7 @@ layout : default
 title : Forecast
 parent : Forms
 ---
-# Forecast [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Forecast)
+# Forecast [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Forecast)
 
 📊 **Overview:** 20 Objects | 6 Types | 2 Pages | 17 Events | 25 Object Methods
 

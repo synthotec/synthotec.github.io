@@ -3,7 +3,7 @@ layout : default
 title : ChangeRealTimeImpressions
 parent : Forms
 ---
-# ChangeRealTimeImpressions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeRealTimeImpressions)
+# ChangeRealTimeImpressions [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeRealTimeImpressions)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 

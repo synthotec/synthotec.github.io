@@ -3,7 +3,7 @@ layout : default
 title : EquipmentProfiles
 parent : Forms
 ---
-# EquipmentProfiles [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EquipmentProfiles)
+# EquipmentProfiles [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EquipmentProfiles)
 
 📊 **Overview:** 7 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 

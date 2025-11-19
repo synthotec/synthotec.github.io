@@ -3,7 +3,7 @@ layout : default
 title : QS_List_Editor
 parent : Forms
 ---
-# QS_List_Editor [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QS_List_Editor)
+# QS_List_Editor [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QS_List_Editor)
 
 📊 **Overview:** 7 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : ToolManager
 parent : Forms
 ---
-# ToolManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolManager)
+# ToolManager [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolManager)
 
 📊 **Overview:** 12 Objects | 4 Types | 2 Pages | 16 Events | 11 Object Methods
 

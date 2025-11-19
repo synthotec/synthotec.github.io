@@ -3,7 +3,7 @@ layout : default
 title : ToolTemps
 parent : Forms
 ---
-# ToolTemps [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolTemps)
+# ToolTemps [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolTemps)
 
 📊 **Overview:** 13 Objects | 4 Types | 2 Pages | 15 Events | 11 Object Methods
 

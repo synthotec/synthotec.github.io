@@ -3,7 +3,7 @@ layout : default
 title : Materials
 parent : Forms
 ---
-# Materials [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Materials)
+# Materials [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Materials)
 
 📊 **Overview:** 39 Objects | 9 Types | 4 Pages | 15 Events | 19 Object Methods
 

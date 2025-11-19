@@ -3,7 +3,7 @@ layout : default
 title : Scheduler
 parent : Forms
 ---
-# Scheduler [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Scheduler)
+# Scheduler [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Scheduler)
 
 📊 **Overview:** 20 Objects | 5 Types | 4 Pages | 4 Events | 21 Object Methods
 

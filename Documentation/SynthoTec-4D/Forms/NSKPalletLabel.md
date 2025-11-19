@@ -3,7 +3,7 @@ layout : default
 title : NSKPalletLabel
 parent : Forms
 ---
-# NSKPalletLabel [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NSKPalletLabel)
+# NSKPalletLabel [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NSKPalletLabel)
 
 📊 **Overview:** 8 Objects | 1 Types | 2 Pages | 16 Events | 2 Object Methods
 

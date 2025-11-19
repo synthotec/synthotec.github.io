@@ -3,7 +3,7 @@ layout : default
 title : EP-Lists
 parent : Forms
 ---
-# EP-Lists [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EP-Lists)
+# EP-Lists [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EP-Lists)
 
 📊 **Overview:** 8 Objects | 4 Types | 2 Pages | 16 Events | 6 Object Methods
 

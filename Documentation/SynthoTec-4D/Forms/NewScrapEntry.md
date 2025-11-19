@@ -3,7 +3,7 @@ layout : default
 title : NewScrapEntry
 parent : Forms
 ---
-# NewScrapEntry [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NewScrapEntry)
+# NewScrapEntry [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NewScrapEntry)
 
 📊 **Overview:** 26 Objects | 5 Types | 2 Pages | 16 Events | 15 Object Methods
 

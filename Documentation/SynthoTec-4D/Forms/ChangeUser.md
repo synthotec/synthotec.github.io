@@ -3,7 +3,7 @@ layout : default
 title : ChangeUser
 parent : Forms
 ---
-# ChangeUser [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeUser)
+# ChangeUser [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeUser)
 
 📊 **Overview:** 4 Objects | 2 Types | 2 Pages | 15 Events | 3 Object Methods
 

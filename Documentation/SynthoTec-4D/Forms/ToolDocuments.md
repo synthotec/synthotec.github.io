@@ -3,7 +3,7 @@ layout : default
 title : ToolDocuments
 parent : Forms
 ---
-# ToolDocuments [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolDocuments)
+# ToolDocuments [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolDocuments)
 
 📊 **Overview:** 3 Objects | 2 Types | 3 Pages | 15 Events | 3 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : BOM_MaterialPrices
 parent : Forms
 ---
-# BOM_MaterialPrices [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM_MaterialPrices)
+# BOM_MaterialPrices [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/BOM_MaterialPrices)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events | 1 Object Methods
 

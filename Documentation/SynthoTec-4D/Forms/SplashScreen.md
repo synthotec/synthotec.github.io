@@ -3,7 +3,7 @@ layout : default
 title : SplashScreen
 parent : Forms
 ---
-# SplashScreen [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SplashScreen)
+# SplashScreen [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SplashScreen)
 
 📊 **Overview:** 4 Objects | 2 Types | 3 Pages | 16 Events
 

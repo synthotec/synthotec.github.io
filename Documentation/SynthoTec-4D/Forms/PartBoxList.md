@@ -3,7 +3,7 @@ layout : default
 title : PartBoxList
 parent : Forms
 ---
-# PartBoxList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PartBoxList)
+# PartBoxList [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PartBoxList)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 17 Events | 1 Object Methods
 

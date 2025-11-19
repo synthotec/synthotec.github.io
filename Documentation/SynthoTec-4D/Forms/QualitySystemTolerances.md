@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemTolerances
 parent : Forms
 ---
-# QualitySystemTolerances [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemTolerances)
+# QualitySystemTolerances [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemTolerances)
 
 📊 **Overview:** 5 Objects | 4 Types | 2 Pages | 15 Events | 5 Object Methods
 

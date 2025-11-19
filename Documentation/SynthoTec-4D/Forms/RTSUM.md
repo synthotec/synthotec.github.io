@@ -3,7 +3,7 @@ layout : default
 title : RTSUM
 parent : Forms
 ---
-# RTSUM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RTSUM)
+# RTSUM [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RTSUM)
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 7 Object Methods
 

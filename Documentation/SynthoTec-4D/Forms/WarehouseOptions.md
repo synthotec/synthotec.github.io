@@ -3,7 +3,7 @@ layout : default
 title : WarehouseOptions
 parent : Forms
 ---
-# WarehouseOptions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WarehouseOptions)
+# WarehouseOptions [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WarehouseOptions)
 
 📊 **Overview:** 8 Objects | 4 Types | 2 Pages | 16 Events | 6 Object Methods
 

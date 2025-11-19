@@ -3,7 +3,7 @@ layout : default
 title : WO_Numbers
 parent : Forms
 ---
-# WO_Numbers [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WO_Numbers)
+# WO_Numbers [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WO_Numbers)
 
 📊 **Overview:** 8 Objects | 3 Types | 2 Pages | 16 Events | 3 Object Methods
 

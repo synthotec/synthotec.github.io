@@ -3,7 +3,7 @@ layout : default
 title : Form1
 parent : Forms
 ---
-# Form1 [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Form1)
+# Form1 [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Form1)
 
 📊 **Overview:** 3 Objects | 2 Types | 2 Pages | 16 Events | 3 Object Methods
 

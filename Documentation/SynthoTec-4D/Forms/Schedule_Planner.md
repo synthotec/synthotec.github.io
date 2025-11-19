@@ -3,7 +3,7 @@ layout : default
 title : Schedule_Planner
 parent : Forms
 ---
-# Schedule_Planner [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Schedule_Planner)
+# Schedule_Planner [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Schedule_Planner)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 16 Events | 6 Object Methods
 

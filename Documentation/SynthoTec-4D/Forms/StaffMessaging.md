@@ -3,7 +3,7 @@ layout : default
 title : StaffMessaging
 parent : Forms
 ---
-# StaffMessaging [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StaffMessaging)
+# StaffMessaging [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StaffMessaging)
 
 📊 **Overview:** 12 Objects | 4 Types | 2 Pages | 15 Events | 5 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : PickingList
 parent : Forms
 ---
-# PickingList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PickingList)
+# PickingList [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PickingList)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events
 

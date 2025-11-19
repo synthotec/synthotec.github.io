@@ -3,7 +3,7 @@ layout : default
 title : DocumentationManager
 parent : Forms
 ---
-# DocumentationManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DocumentationManager)
+# DocumentationManager [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DocumentationManager)
 
 📊 **Overview:** 4 Objects | 3 Types | 4 Pages | 15 Events | 2 Object Methods
 

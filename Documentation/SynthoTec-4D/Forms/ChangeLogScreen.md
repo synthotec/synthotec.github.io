@@ -3,7 +3,7 @@ layout : default
 title : ChangeLogScreen
 parent : Forms
 ---
-# ChangeLogScreen [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeLogScreen)
+# ChangeLogScreen [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeLogScreen)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 15 Events | 2 Object Methods
 

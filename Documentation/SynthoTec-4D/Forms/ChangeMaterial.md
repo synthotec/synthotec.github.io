@@ -3,7 +3,7 @@ layout : default
 title : ChangeMaterial
 parent : Forms
 ---
-# ChangeMaterial [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeMaterial)
+# ChangeMaterial [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ChangeMaterial)
 
 📊 **Overview:** 3 Objects | 2 Types | 2 Pages | 16 Events | 2 Object Methods
 

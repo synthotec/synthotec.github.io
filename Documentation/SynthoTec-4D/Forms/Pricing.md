@@ -3,7 +3,7 @@ layout : default
 title : Pricing
 parent : Forms
 ---
-# Pricing [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Pricing)
+# Pricing [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Pricing)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 2 Events | 7 Object Methods
 

@@ -3,7 +3,7 @@ layout : default
 title : MessageBox
 parent : Forms
 ---
-# MessageBox [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MessageBox)
+# MessageBox [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MessageBox)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 15 Events | 2 Object Methods
 

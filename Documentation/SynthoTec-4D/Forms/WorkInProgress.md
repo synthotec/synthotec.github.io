@@ -3,7 +3,7 @@ layout : default
 title : WorkInProgress
 parent : Forms
 ---
-# WorkInProgress [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WorkInProgress)
+# WorkInProgress [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/WorkInProgress)
 
 📊 **Overview:** 3 Objects | 3 Types | 2 Pages | 15 Events | 3 Object Methods
 

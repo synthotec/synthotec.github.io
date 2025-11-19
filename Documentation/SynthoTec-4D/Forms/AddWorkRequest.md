@@ -3,7 +3,7 @@ layout : default
 title : AddWorkRequest
 parent : Forms
 ---
-# AddWorkRequest [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/AddWorkRequest)
+# AddWorkRequest [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/AddWorkRequest)
 
 📊 **Overview:** 17 Objects | 5 Types | 2 Pages | 16 Events | 7 Object Methods
 

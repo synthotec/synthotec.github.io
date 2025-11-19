@@ -3,7 +3,7 @@ layout : default
 title : ToolMaintenanceLog
 parent : Forms
 ---
-# ToolMaintenanceLog [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolMaintenanceLog)
+# ToolMaintenanceLog [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ToolMaintenanceLog)
 
 📊 **Overview:** 3 Objects | 3 Types | 2 Pages | 15 Events | 2 Object Methods
 

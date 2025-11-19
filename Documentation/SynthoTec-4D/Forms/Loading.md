@@ -3,7 +3,7 @@ layout : default
 title : Loading
 parent : Forms
 ---
-# Loading [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Loading)
+# Loading [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Loading)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 

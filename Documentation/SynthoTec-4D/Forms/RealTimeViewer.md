@@ -3,7 +3,7 @@ layout : default
 title : RealTimeViewer
 parent : Forms
 ---
-# RealTimeViewer [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RealTimeViewer)
+# RealTimeViewer [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/RealTimeViewer)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events | 1 Object Methods
 

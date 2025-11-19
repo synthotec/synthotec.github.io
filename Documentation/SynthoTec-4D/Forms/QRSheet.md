@@ -3,7 +3,7 @@ layout : default
 title : QRSheet
 parent : Forms
 ---
-# QRSheet [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QRSheet)
+# QRSheet [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QRSheet)
 
 📊 **Overview:** 0 Objects | 0 Types | 0 Pages | 0 Events
 

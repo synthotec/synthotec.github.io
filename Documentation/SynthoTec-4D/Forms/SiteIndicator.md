@@ -3,7 +3,7 @@ layout : default
 title : SiteIndicator
 parent : Forms
 ---
-# SiteIndicator [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SiteIndicator)
+# SiteIndicator [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SiteIndicator)
 
 📊 **Overview:** 1 Objects | 1 Types | 2 Pages | 16 Events
 

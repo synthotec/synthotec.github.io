@@ -3,7 +3,7 @@ layout : default
 title : CycleHistory
 parent : Forms
 ---
-# CycleHistory [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CycleHistory)
+# CycleHistory [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CycleHistory)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 16 Events | 4 Object Methods
 

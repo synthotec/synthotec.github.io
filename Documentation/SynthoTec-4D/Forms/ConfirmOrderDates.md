@@ -3,7 +3,7 @@ layout : default
 title : ConfirmOrderDates
 parent : Forms
 ---
-# ConfirmOrderDates [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ConfirmOrderDates)
+# ConfirmOrderDates [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/ConfirmOrderDates)
 
 📊 **Overview:** 22 Objects | 4 Types | 2 Pages | 16 Events | 7 Object Methods
 

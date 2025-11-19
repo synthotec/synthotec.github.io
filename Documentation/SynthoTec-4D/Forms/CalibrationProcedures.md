@@ -3,7 +3,7 @@ layout : default
 title : CalibrationProcedures
 parent : Forms
 ---
-# CalibrationProcedures [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CalibrationProcedures)
+# CalibrationProcedures [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CalibrationProcedures)
 
 📊 **Overview:** 21 Objects | 5 Types | 6 Pages | 16 Events | 6 Object Methods
 

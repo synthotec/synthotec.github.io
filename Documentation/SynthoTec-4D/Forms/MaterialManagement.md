@@ -3,7 +3,7 @@ layout : default
 title : MaterialManagement
 parent : Forms
 ---
-# MaterialManagement [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialManagement)
+# MaterialManagement [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/MaterialManagement)
 
 📊 **Overview:** 14 Objects | 6 Types | 2 Pages | 1 Events | 8 Object Methods
 

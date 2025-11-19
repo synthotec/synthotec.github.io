@@ -3,7 +3,7 @@ layout : default
 title : CustomerInput
 parent : Forms
 ---
-# CustomerInput [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CustomerInput)
+# CustomerInput [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/CustomerInput)
 
 📊 **Overview:** 57 Objects | 8 Types | 2 Pages | 16 Events | 14 Object Methods
 

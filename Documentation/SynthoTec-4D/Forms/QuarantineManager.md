@@ -3,7 +3,7 @@ layout : default
 title : QuarantineManager
 parent : Forms
 ---
-# QuarantineManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QuarantineManager)
+# QuarantineManager [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QuarantineManager)
 
 📊 **Overview:** 17 Objects | 5 Types | 2 Pages | 16 Events | 6 Object Methods
 

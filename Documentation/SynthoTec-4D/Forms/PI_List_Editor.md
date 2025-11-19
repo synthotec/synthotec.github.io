@@ -3,7 +3,7 @@ layout : default
 title : PI_List_Editor
 parent : Forms
 ---
-# PI_List_Editor [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PI_List_Editor)
+# PI_List_Editor [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PI_List_Editor)
 
 📊 **Overview:** 7 Objects | 3 Types | 2 Pages | 16 Events | 5 Object Methods
 

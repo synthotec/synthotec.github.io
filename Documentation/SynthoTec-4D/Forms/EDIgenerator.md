@@ -3,7 +3,7 @@ layout : default
 title : EDIgenerator
 parent : Forms
 ---
-# EDIgenerator [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EDIgenerator)
+# EDIgenerator [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/EDIgenerator)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 1 Events | 4 Object Methods
 

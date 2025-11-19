@@ -3,7 +3,7 @@ layout : default
 title : PalletDespatchList
 parent : Forms
 ---
-# PalletDespatchList [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PalletDespatchList)
+# PalletDespatchList [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/PalletDespatchList)
 
 📊 **Overview:** 6 Objects | 4 Types | 2 Pages | 15 Events | 3 Object Methods
 

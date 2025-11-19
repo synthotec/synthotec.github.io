@@ -3,7 +3,7 @@ layout : default
 title : SNRSUMMARY
 parent : Forms
 ---
-# SNRSUMMARY [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SNRSUMMARY)
+# SNRSUMMARY [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SNRSUMMARY)
 
 📊 **Overview:** 24 Objects | 5 Types | 5 Pages | 16 Events | 15 Object Methods
 

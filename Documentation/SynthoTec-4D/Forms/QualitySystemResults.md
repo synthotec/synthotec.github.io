@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemResults
 parent : Forms
 ---
-# QualitySystemResults [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemResults)
+# QualitySystemResults [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/QualitySystemResults)
 
 📊 **Overview:** 5 Objects | 3 Types | 2 Pages | 16 Events | 8 Object Methods
 

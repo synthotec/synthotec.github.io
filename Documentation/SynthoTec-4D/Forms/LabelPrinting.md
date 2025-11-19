@@ -3,7 +3,7 @@ layout : default
 title : LabelPrinting
 parent : Forms
 ---
-# LabelPrinting [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelPrinting)
+# LabelPrinting [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/LabelPrinting)
 
 📊 **Overview:** 18 Objects | 2 Types | 3 Pages | 17 Events | 17 Object Methods
 

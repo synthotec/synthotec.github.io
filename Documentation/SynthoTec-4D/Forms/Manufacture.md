@@ -3,7 +3,7 @@ layout : default
 title : Manufacture
 parent : Forms
 ---
-# Manufacture [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Manufacture)
+# Manufacture [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/Manufacture)
 
 📊 **Overview:** 39 Objects | 9 Types | 3 Pages | 4 Events | 22 Object Methods
 

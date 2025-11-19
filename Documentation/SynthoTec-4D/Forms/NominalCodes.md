@@ -3,7 +3,7 @@ layout : default
 title : NominalCodes
 parent : Forms
 ---
-# NominalCodes [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NominalCodes)
+# NominalCodes [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/NominalCodes)
 
 📊 **Overview:** 7 Objects | 4 Types | 2 Pages | 16 Events | 5 Object Methods
 

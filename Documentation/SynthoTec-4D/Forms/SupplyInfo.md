@@ -3,7 +3,7 @@ layout : default
 title : SupplyInfo
 parent : Forms
 ---
-# SupplyInfo [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SupplyInfo)
+# SupplyInfo [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/SupplyInfo)
 
 📊 **Overview:** 9 Objects | 6 Types | 2 Pages | 16 Events | 4 Object Methods
 

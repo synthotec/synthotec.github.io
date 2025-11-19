@@ -3,7 +3,7 @@ layout : default
 title : HotHalfManager
 parent : Forms
 ---
-# HotHalfManager [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/HotHalfManager)
+# HotHalfManager [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/HotHalfManager)
 
 📊 **Overview:** 2 Objects | 2 Types | 2 Pages | 16 Events | 1 Object Methods
 

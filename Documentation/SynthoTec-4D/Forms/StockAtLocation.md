@@ -3,7 +3,7 @@ layout : default
 title : StockAtLocation
 parent : Forms
 ---
-# StockAtLocation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StockAtLocation)
+# StockAtLocation [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/StockAtLocation)
 
 📊 **Overview:** 4 Objects | 3 Types | 2 Pages | 16 Events | 3 Object Methods
 

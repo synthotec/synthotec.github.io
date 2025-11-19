@@ -3,7 +3,7 @@ layout : default
 title : DatabaseSettings
 parent : Forms
 ---
-# DatabaseSettings [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DatabaseSettings)
+# DatabaseSettings [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DatabaseSettings)
 
 📊 **Overview:** 6 Objects | 3 Types | 3 Pages | 15 Events | 5 Object Methods
 
