@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.338Z*
+🕐 *Last updated: 2025-11-19T18:10:05.995Z*
 
 ---
 
@@ -41,7 +41,15 @@ Function upload -> $FileEntity : cs.FileEntity
 
 ### 🗂️ Tables
 
-- [File](../Tables/File.md) - Source table for this ORDA class
+- [File](../Tables/File.md) - ORDA DataClass class for File table
+
+### � Related Classes
+
+- [FileEntity](FileEntity.md) - ORDA Entity class for File table
+
+### � Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:09.988Z*
+🕐 *Last updated: 2025-11-19T18:10:07.727Z*
 
 ---
 
@@ -41,7 +41,21 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [Supplies](../Tables/Supplies.md) - Source table for this ORDA class
+- [Supplies](../Tables/Supplies.md) - ORDA DataClass class for Supplies table
+
+### � Related Classes
+
+- [SuppliesEntity](SuppliesEntity.md) - ORDA Entity class for Supplies table
+
+### � Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [BOM_Packaging](../Forms/BOM_Packaging.md) - Data source for BOM_Packaging form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [SupplyInfo](../Forms/SupplyInfo.md) - Data source for SupplyInfo form
+- [TransferSupply](../Forms/TransferSupply.md) - Data source for TransferSupply form
 
 ---
 

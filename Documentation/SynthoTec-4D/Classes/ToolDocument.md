@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:10.010Z*
+🕐 *Last updated: 2025-11-19T18:10:07.752Z*
 
 ---
 
@@ -47,7 +47,12 @@ Function newUsingEntry($ToolsEntity : cs.ToolsEntity) -> $ToolDocumentEntity : c
 
 ### 🗂️ Tables
 
-- [ToolDocument](../Tables/ToolDocument.md) - Source table for this ORDA class
+- [ToolDocument](../Tables/ToolDocument.md) - ORDA DataClass class for ToolDocument table
+
+### � Forms
+
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
 
 ---
 

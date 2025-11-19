@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.607Z*
+🕐 *Last updated: 2025-11-19T18:10:06.299Z*
 
 ---
 
@@ -167,7 +167,15 @@ Function get SortOrder -> $SortOrder : Text
 
 ### 🗂️ Tables
 
-- [Location](../Tables/Location.md) - Source table for this ORDA class
+- [Location](../Tables/Location.md) - ORDA Entity class for Location table
+
+### � Related Classes
+
+- [Location](Location.md) - ORDA DataClass class for Location table
+
+### � Forms
+
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
 
 ---
 

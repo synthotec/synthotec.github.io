@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.702Z*
+🕐 *Last updated: 2025-11-19T18:10:07.445Z*
 
 ---
 
@@ -122,7 +122,11 @@ Function get PartsMade -> Integer
 
 ### 🗂️ Tables
 
-- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table for this ORDA class
+- [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - ORDA Entity class for RealTimeSensorExceptions table
+
+### � Related Classes
+
+- [RealTimeSensorExceptionsSelection](RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---
 

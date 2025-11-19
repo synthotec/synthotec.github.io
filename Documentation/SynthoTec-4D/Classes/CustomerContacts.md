@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:07.901Z*
+🕐 *Last updated: 2025-11-19T18:10:05.498Z*
 
 ---
 
@@ -41,7 +41,17 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [CustomerContacts](../Tables/CustomerContacts.md) - Source table for this ORDA class
+- [CustomerContacts](../Tables/CustomerContacts.md) - ORDA DataClass class for CustomerContacts table
+
+### � Related Classes
+
+- [CustomerContactsEntity](CustomerContactsEntity.md) - ORDA Entity class for CustomerContacts table
+
+### � Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [CustomerInput](../Forms/CustomerInput.md) - Data source for CustomerInput form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
 
 ---
 

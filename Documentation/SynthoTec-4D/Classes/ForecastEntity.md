@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.383Z*
+🕐 *Last updated: 2025-11-19T18:10:06.047Z*
 
 ---
 
@@ -41,7 +41,11 @@ Function get Consignment -> Boolean
 
 ### 🗂️ Tables
 
-- [Forecast](../Tables/Forecast.md) - Source table for this ORDA class
+- [Forecast](../Tables/Forecast.md) - ORDA Entity class for Forecast table
+
+### � Related Classes
+
+- [Forecast](Forecast.md) - ORDA DataClass class for Forecast table
 
 ---
 

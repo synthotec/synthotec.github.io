@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.756Z*
+🕐 *Last updated: 2025-11-19T18:10:07.497Z*
 
 ---
 
@@ -49,7 +49,14 @@ Function requestCertificate
 
 ### 🗂️ Tables
 
-- [RMC](../Tables/RMC.md) - Source table for this ORDA class
+- [RMC](../Tables/RMC.md) - ORDA Entity class for RMC table
+
+### � Forms
+
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialManagement](../Forms/MaterialManagement.md) - Data source for MaterialManagement form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

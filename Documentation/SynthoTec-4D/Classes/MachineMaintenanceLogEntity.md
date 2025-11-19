@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.629Z*
+🕐 *Last updated: 2025-11-19T18:10:06.320Z*
 
 ---
 
@@ -53,7 +53,11 @@ Function get TimeStampWithTab -> Text
 
 ### 🗂️ Tables
 
-- [MachineMaintenanceLog](../Tables/MachineMaintenanceLog.md) - Source table for this ORDA class
+- [MachineMaintenanceLog](../Tables/MachineMaintenanceLog.md) - ORDA Entity class for MachineMaintenanceLog table
+
+### � Forms
+
+- [MachineMaintenance](../Forms/MachineMaintenance.md) - Data source for MachineMaintenance form
 
 ---
 

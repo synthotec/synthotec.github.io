@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:07.913Z*
+🕐 *Last updated: 2025-11-19T18:10:05.509Z*
 
 ---
 
@@ -78,7 +78,17 @@ Function get HasMigrationID -> Boolean
 
 ### 🗂️ Tables
 
-- [CustomerContacts](../Tables/CustomerContacts.md) - Source table for this ORDA class
+- [CustomerContacts](../Tables/CustomerContacts.md) - ORDA Entity class for CustomerContacts table
+
+### � Related Classes
+
+- [CustomerContacts](CustomerContacts.md) - ORDA DataClass class for CustomerContacts table
+
+### � Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [CustomerInput](../Forms/CustomerInput.md) - Data source for CustomerInput form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
 
 ---
 

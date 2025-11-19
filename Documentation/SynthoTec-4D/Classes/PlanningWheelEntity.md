@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.153Z*
+🕐 *Last updated: 2025-11-19T18:10:06.861Z*
 
 ---
 
@@ -23,7 +23,18 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [PlanningWheel](../Tables/PlanningWheel.md) - Source table for this ORDA class
+- [PlanningWheel](../Tables/PlanningWheel.md) - ORDA Entity class for PlanningWheel table
+
+### � Related Classes
+
+- [PlanningWheel](PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
+
+### � Forms
+
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Data source for ConsignmentEntry form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [MaterialOptions](../Forms/MaterialOptions.md) - Data source for MaterialOptions form
+- [Scheduler](../Forms/Scheduler.md) - Data source for Scheduler form
 
 ---
 

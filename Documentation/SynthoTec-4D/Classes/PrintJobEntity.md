@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.244Z*
+🕐 *Last updated: 2025-11-19T18:10:06.949Z*
 
 ---
 
@@ -41,7 +41,7 @@ Function print -> $Success : Boolean
 
 ### 🗂️ Tables
 
-- [PrintJob](../Tables/PrintJob.md) - Source table for this ORDA class
+- [PrintJob](../Tables/PrintJob.md) - ORDA Entity class for PrintJob table
 
 ---
 

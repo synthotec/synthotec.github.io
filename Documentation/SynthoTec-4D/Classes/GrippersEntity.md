@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.503Z*
+🕐 *Last updated: 2025-11-19T18:10:06.173Z*
 
 ---
 
@@ -63,7 +63,15 @@ Function syncMigrationSelections($RemoteEntity : cs.GrippersEntity)
 
 ### 🗂️ Tables
 
-- [Grippers](../Tables/Grippers.md) - Source table for this ORDA class
+- [Grippers](../Tables/Grippers.md) - ORDA Entity class for Grippers table
+
+### � Related Classes
+
+- [Grippers](Grippers.md) - ORDA DataClass class for Grippers table
+
+### � Forms
+
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

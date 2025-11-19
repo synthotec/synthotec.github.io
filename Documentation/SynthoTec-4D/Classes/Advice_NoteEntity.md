@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:07.700Z*
+🕐 *Last updated: 2025-11-19T18:10:05.276Z*
 
 ---
 
@@ -73,7 +73,13 @@ Function cancel -> $Cancelled : Boolean
 
 ### 🗂️ Tables
 
-- [Advice_Note](../Tables/Advice_Note.md) - Source table for this ORDA class
+- [Advice_Note](../Tables/Advice_Note.md) - ORDA Entity class for Advice_Note table
+
+### � Forms
+
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [PalletDespatchList](../Forms/PalletDespatchList.md) - Data source for PalletDespatchList form
 
 ---
 

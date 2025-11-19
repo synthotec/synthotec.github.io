@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.506Z*
+🕐 *Last updated: 2025-11-19T18:10:06.176Z*
 
 ---
 
@@ -41,7 +41,16 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [HotHalfs](../Tables/HotHalfs.md) - Source table for this ORDA class
+- [HotHalfs](../Tables/HotHalfs.md) - ORDA DataClass class for HotHalfs table
+
+### � Related Classes
+
+- [HotHalfsEntity](HotHalfsEntity.md) - ORDA Entity class for HotHalfs table
+
+### � Forms
+
+- [HotHalfManager](../Forms/HotHalfManager.md) - Data source for HotHalfManager form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

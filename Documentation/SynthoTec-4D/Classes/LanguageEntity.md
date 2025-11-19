@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.548Z*
+🕐 *Last updated: 2025-11-19T18:10:06.225Z*
 
 ---
 
@@ -23,7 +23,7 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Language](../Tables/Language.md) - Source table for this ORDA class
+- [Language](../Tables/Language.md) - ORDA Entity class for Language table
 
 ---
 

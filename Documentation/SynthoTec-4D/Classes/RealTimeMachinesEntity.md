@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.589Z*
+🕐 *Last updated: 2025-11-19T18:10:07.331Z*
 
 ---
 
@@ -122,7 +122,20 @@ Function get WorksOrderEntity -> cs.WorksOrderEntity
 
 ### 🗂️ Tables
 
-- [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table for this ORDA class
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - ORDA Entity class for RealTimeMachines table
+
+### � Related Classes
+
+- [RealTimeMachines](RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
+
+### � Forms
+
+- [CurrentDownTime](../Forms/CurrentDownTime.md) - Data source for CurrentDownTime form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [MachineMaintenance](../Forms/MachineMaintenance.md) - Data source for MachineMaintenance form
+- [RealTimeMonitor](../Forms/RealTimeMonitor.md) - Data source for RealTimeMonitor form
+- [RealTimeViewer](../Forms/RealTimeViewer.md) - Data source for RealTimeViewer form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
 
 ---
 

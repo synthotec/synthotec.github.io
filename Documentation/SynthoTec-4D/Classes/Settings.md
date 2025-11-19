@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:09.807Z*
+🕐 *Last updated: 2025-11-19T18:10:07.551Z*
 
 ---
 
@@ -66,7 +66,23 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEnti
 
 ### 🗂️ Tables
 
-- [Settings](../Tables/Settings.md) - Source table for this ORDA class
+- [Settings](../Tables/Settings.md) - ORDA DataClass class for Settings table
+
+### � Related Classes
+
+- [SettingsEntity](SettingsEntity.md) - ORDA Entity class for Settings table
+
+### � Forms
+
+- [%2AMethodList](../Forms/%2AMethodList.md) - Data source for %2AMethodList form
+- [Forecast](../Forms/Forecast.md) - Data source for Forecast form
+- [LabelHistory](../Forms/LabelHistory.md) - Data source for LabelHistory form
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [ProcurementProgramImporter](../Forms/ProcurementProgramImporter.md) - Data source for ProcurementProgramImporter form
+- [Schedule_Variables](../Forms/Schedule_Variables.md) - Data source for Schedule_Variables form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

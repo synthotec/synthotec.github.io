@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-19T15:47:08.788Z*
+🕐 *Last updated: 2025-11-19T18:10:06.493Z*
 
 ---
 
@@ -41,7 +41,15 @@ Function getUnprocessedQuantity -> Integer
 
 ### 🗂️ Tables
 
-- [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table for this ORDA class
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - ORDA EntitySelection class for OrderPickRequest table
+
+### � Related Classes
+
+- [OrderPickRequestEntity](OrderPickRequestEntity.md) - ORDA Entity class for OrderPickRequest table
+
+### � Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

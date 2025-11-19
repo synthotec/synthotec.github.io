@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.506Z*
+🕐 *Last updated: 2025-11-19T18:10:07.239Z*
 
 ---
 
@@ -63,7 +63,15 @@ Function syncMigrationSelections($RemoteEntity : cs.QualitySystemProceduresEntit
 
 ### 🗂️ Tables
 
-- [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Source table for this ORDA class
+- [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - ORDA Entity class for QualitySystemProcedures table
+
+### � Related Classes
+
+- [QualitySystemProcedures](QualitySystemProcedures.md) - ORDA DataClass class for QualitySystemProcedures table
+
+### � Forms
+
+- [QualitySystemProcedures](../Forms/QualitySystemProcedures.md) - Data source for QualitySystemProcedures form
 
 ---
 

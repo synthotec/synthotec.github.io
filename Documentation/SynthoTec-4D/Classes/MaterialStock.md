@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.690Z*
+🕐 *Last updated: 2025-11-19T18:10:06.383Z*
 
 ---
 
@@ -83,7 +83,18 @@ Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 
 ### 🗂️ Tables
 
-- [MaterialStock](../Tables/MaterialStock.md) - Source table for this ORDA class
+- [MaterialStock](../Tables/MaterialStock.md) - ORDA DataClass class for MaterialStock table
+
+### � Related Classes
+
+- [MaterialStockEntity](MaterialStockEntity.md) - ORDA Entity class for MaterialStock table
+
+### � Forms
+
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialManagement](../Forms/MaterialManagement.md) - Data source for MaterialManagement form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.198Z*
+🕐 *Last updated: 2025-11-19T18:10:05.836Z*
 
 ---
 
@@ -39,7 +39,11 @@ Function processError
 
 ### 🗂️ Tables
 
-- [ErrorReport](../Tables/ErrorReport.md) - Source table for this ORDA class
+- [ErrorReport](../Tables/ErrorReport.md) - ORDA DataClass class for ErrorReport table
+
+### � Related Classes
+
+- [ErrorReportEntity](ErrorReportEntity.md) - ORDA Entity class for ErrorReport table
 
 ---
 

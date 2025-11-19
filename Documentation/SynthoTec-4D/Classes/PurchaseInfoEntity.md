@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.466Z*
+🕐 *Last updated: 2025-11-19T18:10:07.197Z*
 
 ---
 
@@ -68,7 +68,16 @@ Function get value -> Real
 
 ### 🗂️ Tables
 
-- [PurchaseInfo](../Tables/PurchaseInfo.md) - Source table for this ORDA class
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - ORDA Entity class for PurchaseInfo table
+
+### � Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [NominalCodes](../Forms/NominalCodes.md) - Data source for NominalCodes form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
 
 ---
 

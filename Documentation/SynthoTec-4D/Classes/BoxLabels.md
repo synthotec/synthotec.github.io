@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:07.765Z*
+🕐 *Last updated: 2025-11-19T18:10:05.342Z*
 
 ---
 
@@ -148,7 +148,21 @@ Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 
 ### 🗂️ Tables
 
-- [BoxLabels](../Tables/BoxLabels.md) - Source table for this ORDA class
+- [BoxLabels](../Tables/BoxLabels.md) - ORDA DataClass class for BoxLabels table
+
+### � Related Classes
+
+- [BoxLabelsEntity](BoxLabelsEntity.md) - ORDA Entity class for BoxLabels table
+
+### � Forms
+
+- [%2Atest](../Forms/%2Atest.md) - Data source for %2Atest form
+- [%2Atest1](../Forms/%2Atest1.md) - Data source for %2Atest1 form
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [LabelPrinting](../Forms/LabelPrinting.md) - Data source for LabelPrinting form
+- [NSKPalletIDs](../Forms/NSKPalletIDs.md) - Data source for NSKPalletIDs form
+- [PalletDespatchList](../Forms/PalletDespatchList.md) - Data source for PalletDespatchList form
+- [Warehouse](../Forms/Warehouse.md) - Data source for Warehouse form
 
 ---
 

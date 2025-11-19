@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.916Z*
+🕐 *Last updated: 2025-11-19T18:10:07.653Z*
 
 ---
 
@@ -81,7 +81,29 @@ Function get FullName -> Text
 
 ### 🗂️ Tables
 
-- [Staff](../Tables/Staff.md) - Source table for this ORDA class
+- [Staff](../Tables/Staff.md) - ORDA Entity class for Staff table
+
+### � Related Classes
+
+- [Staff](Staff.md) - ORDA DataClass class for Staff table
+
+### � Forms
+
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [ConfirmOrderDates](../Forms/ConfirmOrderDates.md) - Data source for ConfirmOrderDates form
+- [LabelPrinting](../Forms/LabelPrinting.md) - Data source for LabelPrinting form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
+- [PermissionManager](../Forms/PermissionManager.md) - Data source for PermissionManager form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
+- [Staff](../Forms/Staff.md) - Data source for Staff form
+- [StaffLogin](../Forms/StaffLogin.md) - Data source for StaffLogin form
+- [StaffMessaging](../Forms/StaffMessaging.md) - Data source for StaffMessaging form
+- [ToolMaintenanceLog](../Forms/ToolMaintenanceLog.md) - Data source for ToolMaintenanceLog form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

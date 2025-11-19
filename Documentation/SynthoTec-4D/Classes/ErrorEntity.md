@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.182Z*
+🕐 *Last updated: 2025-11-19T18:10:05.821Z*
 
 ---
 
@@ -114,7 +114,15 @@ Function get ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
 
 ### 🗂️ Tables
 
-- [Error](../Tables/Error.md) - Source table for this ORDA class
+- [Error](../Tables/Error.md) - ORDA Entity class for Error table
+
+### � Related Classes
+
+- [Error](Error.md) - ORDA DataClass class for Error table
+
+### � Forms
+
+- [Errors](../Forms/Errors.md) - Data source for Errors form
 
 ---
 

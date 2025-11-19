@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.003Z*
+🕐 *Last updated: 2025-11-19T18:10:06.715Z*
 
 ---
 
@@ -63,7 +63,22 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 
 ### 🗂️ Tables
 
-- [Permissions](../Tables/Permissions.md) - Source table for this ORDA class
+- [Permissions](../Tables/Permissions.md) - ORDA Entity class for Permissions table
+
+### � Related Classes
+
+- [Permissions](Permissions.md) - ORDA DataClass class for Permissions table
+
+### � Forms
+
+- [Errors](../Forms/Errors.md) - Data source for Errors form
+- [OrderOverview](../Forms/OrderOverview.md) - Data source for OrderOverview form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PermissionManager](../Forms/PermissionManager.md) - Data source for PermissionManager form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
+- [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

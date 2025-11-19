@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.715Z*
+🕐 *Last updated: 2025-11-19T18:10:06.414Z*
 
 ---
 
@@ -107,7 +107,15 @@ Function restRemoveEntry($RestPostDataObject : Object) -> Object
 
 ### 🗂️ Tables
 
-- [MaterialStockTake](../Tables/MaterialStockTake.md) - Source table for this ORDA class
+- [MaterialStockTake](../Tables/MaterialStockTake.md) - ORDA DataClass class for MaterialStockTake table
+
+### � Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

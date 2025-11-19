@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.978Z*
+🕐 *Last updated: 2025-11-19T18:10:07.717Z*
 
 ---
 
@@ -23,7 +23,23 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Stock_Location](../Tables/Stock_Location.md) - Source table for this ORDA class
+- [Stock_Location](../Tables/Stock_Location.md) - ORDA Entity class for Stock_Location table
+
+### � Related Classes
+
+- [Stock_Location](Stock_Location.md) - ORDA DataClass class for Stock_Location table
+
+### � Forms
+
+- [%2AStockControl](../Forms/%2AStockControl.md) - Data source for %2AStockControl form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentSSLs](../Forms/ConsignmentSSLs.md) - Data source for ConsignmentSSLs form
+- [EDIgenerator](../Forms/EDIgenerator.md) - Data source for EDIgenerator form
+- [OrderOverview](../Forms/OrderOverview.md) - Data source for OrderOverview form
+- [PalletTransfer](../Forms/PalletTransfer.md) - Data source for PalletTransfer form
+- [SNRSUMMARY](../Forms/SNRSUMMARY.md) - Data source for SNRSUMMARY form
+- [StockAtLocation](../Forms/StockAtLocation.md) - Data source for StockAtLocation form
+- [StockMovements](../Forms/StockMovements.md) - Data source for StockMovements form
 
 ---
 

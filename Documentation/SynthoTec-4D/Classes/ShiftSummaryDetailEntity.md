@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.843Z*
+🕐 *Last updated: 2025-11-19T18:10:07.586Z*
 
 ---
 
@@ -94,7 +94,11 @@ Function get StatusText -> Text
 
 ### 🗂️ Tables
 
-- [ShiftSummaryDetail](../Tables/ShiftSummaryDetail.md) - Source table for this ORDA class
+- [ShiftSummaryDetail](../Tables/ShiftSummaryDetail.md) - ORDA Entity class for ShiftSummaryDetail table
+
+### � Forms
+
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
 
 ---
 

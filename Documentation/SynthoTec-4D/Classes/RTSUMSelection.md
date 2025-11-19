@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-19T15:47:09.781Z*
+🕐 *Last updated: 2025-11-19T18:10:07.525Z*
 
 ---
 
@@ -47,7 +47,17 @@ Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 
 ### 🗂️ Tables
 
-- [RTSUM](../Tables/RTSUM.md) - Source table for this ORDA class
+- [RTSUM](../Tables/RTSUM.md) - ORDA EntitySelection class for RTSUM table
+
+### � Related Classes
+
+- [RTSUM](RTSUM.md) - ORDA DataClass class for RTSUM table
+
+### � Forms
+
+- [ChangeRealTimeImpressions](../Forms/ChangeRealTimeImpressions.md) - Data source for ChangeRealTimeImpressions form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
 
 ---
 

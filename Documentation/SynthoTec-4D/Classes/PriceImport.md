@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-19T15:47:09.169Z*
+🕐 *Last updated: 2025-11-19T18:10:06.878Z*
 
 ---
 

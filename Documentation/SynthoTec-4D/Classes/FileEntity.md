@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.348Z*
+🕐 *Last updated: 2025-11-19T18:10:06.006Z*
 
 ---
 
@@ -39,7 +39,15 @@ Function open
 
 ### 🗂️ Tables
 
-- [File](../Tables/File.md) - Source table for this ORDA class
+- [File](../Tables/File.md) - ORDA Entity class for File table
+
+### � Related Classes
+
+- [File](File.md) - ORDA DataClass class for File table
+
+### � Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

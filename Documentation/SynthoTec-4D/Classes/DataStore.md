@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-19T15:47:08.019Z*
+🕐 *Last updated: 2025-11-19T18:10:05.634Z*
 
 ---
 
@@ -36,6 +36,8 @@ parent : Classes
     - [unpackServerUpdate](#unpackserverupdate) → `Boolean`
     - [_updateServer](#_updateserver) 🖥️
     - [_unpackServerUpdate->$UpdateFolder](#_unpackserverupdate->$updatefolder) → `4D.Folder` 🖥️
+- [🔗 Related Items](#related-items)
+
 ---
 
 ## Functions {#functions}
@@ -326,6 +328,12 @@ Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
 **Returns:** `4D.Folder`
 
 ---
+
+## Related Items {#related-items}
+
+### � Related Classes
+
+- [DataStoreImplementation](DataStoreImplementation.md) - Base class for DataStore X
 
 ---
 

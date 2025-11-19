@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:09.063Z*
+🕐 *Last updated: 2025-11-19T18:10:06.773Z*
 
 ---
 
@@ -201,7 +201,15 @@ Function checkForPickedPickRequests
 
 ### 🗂️ Tables
 
-- [PickRequest](../Tables/PickRequest.md) - Source table for this ORDA class
+- [PickRequest](../Tables/PickRequest.md) - ORDA DataClass class for PickRequest table
+
+### � Related Classes
+
+- [PickRequestEntity](PickRequestEntity.md) - ORDA Entity class for PickRequest table
+
+### � Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

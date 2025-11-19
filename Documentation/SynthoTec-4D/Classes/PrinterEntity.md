@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.214Z*
+🕐 *Last updated: 2025-11-19T18:10:06.918Z*
 
 ---
 
@@ -146,7 +146,16 @@ Function get TypeDisplay -> Text
 
 ### 🗂️ Tables
 
-- [Printer](../Tables/Printer.md) - Source table for this ORDA class
+- [Printer](../Tables/Printer.md) - ORDA Entity class for Printer table
+
+### � Related Classes
+
+- [Printer](Printer.md) - ORDA DataClass class for Printer table
+- [PrinterSelection](PrinterSelection.md) - ORDA EntitySelection class for Printer table
+
+### � Forms
+
+- [PrinterManagement](../Forms/PrinterManagement.md) - Data source for PrinterManagement form
 
 ---
 

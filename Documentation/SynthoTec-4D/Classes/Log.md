@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.620Z*
+🕐 *Last updated: 2025-11-19T18:10:06.310Z*
 
 ---
 
@@ -56,7 +56,7 @@ Function trim
 
 ### 🗂️ Tables
 
-- [Log](../Tables/Log.md) - Source table for this ORDA class
+- [Log](../Tables/Log.md) - ORDA DataClass class for Log table
 
 ---
 

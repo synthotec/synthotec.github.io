@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.493Z*
+🕐 *Last updated: 2025-11-19T18:10:06.160Z*
 
 ---
 
@@ -41,7 +41,15 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [Grippers](../Tables/Grippers.md) - Source table for this ORDA class
+- [Grippers](../Tables/Grippers.md) - ORDA DataClass class for Grippers table
+
+### � Related Classes
+
+- [GrippersEntity](GrippersEntity.md) - ORDA Entity class for Grippers table
+
+### � Forms
+
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

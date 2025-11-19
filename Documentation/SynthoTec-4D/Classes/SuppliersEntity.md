@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.985Z*
+🕐 *Last updated: 2025-11-19T18:10:07.724Z*
 
 ---
 
@@ -23,7 +23,15 @@ parent : Classes
 
 ### 🗂️ Tables
 
-- [Suppliers](../Tables/Suppliers.md) - Source table for this ORDA class
+- [Suppliers](../Tables/Suppliers.md) - ORDA Entity class for Suppliers table
+
+### � Forms
+
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
+- [SupplierDocumentationAdd](../Forms/SupplierDocumentationAdd.md) - Data source for SupplierDocumentationAdd form
+- [SupplierManager](../Forms/SupplierManager.md) - Data source for SupplierManager form
+- [TransferSupply](../Forms/TransferSupply.md) - Data source for TransferSupply form
 
 ---
 

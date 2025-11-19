@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:07.928Z*
+🕐 *Last updated: 2025-11-19T18:10:05.526Z*
 
 ---
 
@@ -78,7 +78,27 @@ Function get HasMigrationID -> Boolean
 
 ### 🗂️ Tables
 
-- [Customer](../Tables/Customer.md) - Source table for this ORDA class
+- [Customer](../Tables/Customer.md) - ORDA Entity class for Customer table
+
+### � Related Classes
+
+- [Customer](Customer.md) - ORDA DataClass class for Customer table
+
+### � Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [BOM_CustomerTransport](../Forms/BOM_CustomerTransport.md) - Data source for BOM_CustomerTransport form
+- [ConfirmOrderDates](../Forms/ConfirmOrderDates.md) - Data source for ConfirmOrderDates form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Data source for ConsignmentEntry form
+- [CustomerInput](../Forms/CustomerInput.md) - Data source for CustomerInput form
+- [CustomerOrderEntry](../Forms/CustomerOrderEntry.md) - Data source for CustomerOrderEntry form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PackingListGenerator](../Forms/PackingListGenerator.md) - Data source for PackingListGenerator form
+- [SIMImporter](../Forms/SIMImporter.md) - Data source for SIMImporter form
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:07.721Z*
+🕐 *Last updated: 2025-11-19T18:10:05.299Z*
 
 ---
 
@@ -63,7 +63,11 @@ Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
 
 ### 🗂️ Tables
 
-- [Approvals](../Tables/Approvals.md) - Source table for this ORDA class
+- [Approvals](../Tables/Approvals.md) - ORDA Entity class for Approvals table
+
+### � Related Classes
+
+- [Approvals](Approvals.md) - ORDA DataClass class for Approvals table
 
 ---
 

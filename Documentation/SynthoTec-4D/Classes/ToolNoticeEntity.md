@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:10.049Z*
+🕐 *Last updated: 2025-11-19T18:10:07.791Z*
 
 ---
 
@@ -88,7 +88,15 @@ Function get RemainingRuns -> Integer
 
 ### 🗂️ Tables
 
-- [ToolNotice](../Tables/ToolNotice.md) - Source table for this ORDA class
+- [ToolNotice](../Tables/ToolNotice.md) - ORDA Entity class for ToolNotice table
+
+### � Related Classes
+
+- [ToolNotice](ToolNotice.md) - ORDA DataClass class for ToolNotice table
+
+### � Forms
+
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

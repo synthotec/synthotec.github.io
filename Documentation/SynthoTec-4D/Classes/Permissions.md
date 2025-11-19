@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:08.985Z*
+🕐 *Last updated: 2025-11-19T18:10:06.700Z*
 
 ---
 
@@ -67,7 +67,22 @@ Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity :
 
 ### 🗂️ Tables
 
-- [Permissions](../Tables/Permissions.md) - Source table for this ORDA class
+- [Permissions](../Tables/Permissions.md) - ORDA DataClass class for Permissions table
+
+### � Related Classes
+
+- [PermissionsEntity](PermissionsEntity.md) - ORDA Entity class for Permissions table
+
+### � Forms
+
+- [Errors](../Forms/Errors.md) - Data source for Errors form
+- [OrderOverview](../Forms/OrderOverview.md) - Data source for OrderOverview form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PermissionManager](../Forms/PermissionManager.md) - Data source for PermissionManager form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
+- [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

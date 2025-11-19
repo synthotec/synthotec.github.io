@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:09.564Z*
+🕐 *Last updated: 2025-11-19T18:10:07.303Z*
 
 ---
 
@@ -82,7 +82,21 @@ Function get StartTime -> Time
 
 ### 🗂️ Tables
 
-- [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
+- [RealTime](../Tables/RealTime.md) - ORDA Entity class for RealTime table
+
+### � Related Classes
+
+- [RealTime](RealTime.md) - ORDA DataClass class for RealTime table
+- [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
+
+### � Forms
+
+- [ChangeRealTimeImpressions](../Forms/ChangeRealTimeImpressions.md) - Data source for ChangeRealTimeImpressions form
+- [CycleHistory](../Forms/CycleHistory.md) - Data source for CycleHistory form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:08.777Z*
+🕐 *Last updated: 2025-11-19T18:10:06.483Z*
 
 ---
 
@@ -152,7 +152,15 @@ Function get QuantityToPick -> Integer
 
 ### 🗂️ Tables
 
-- [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table for this ORDA class
+- [OrderPickRequest](../Tables/OrderPickRequest.md) - ORDA Entity class for OrderPickRequest table
+
+### � Related Classes
+
+- [OrderPickRequestSelection](OrderPickRequestSelection.md) - ORDA EntitySelection class for OrderPickRequest table
+
+### � Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

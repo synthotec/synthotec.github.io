@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-19T15:47:08.968Z*
+🕐 *Last updated: 2025-11-19T18:10:06.683Z*
 
 ---
 
@@ -41,7 +41,24 @@ Function getAvailable -> cs.PalletSelection
 
 ### 🗂️ Tables
 
-- [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
+- [Pallet](../Tables/Pallet.md) - ORDA EntitySelection class for Pallet table
+
+### � Related Classes
+
+- [Pallet](Pallet.md) - ORDA DataClass class for Pallet table
+- [PalletEntity](PalletEntity.md) - ORDA Entity class for Pallet table
+
+### � Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [%2Atest](../Forms/%2Atest.md) - Data source for %2Atest form
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
+- [NSKPalletIDs](../Forms/NSKPalletIDs.md) - Data source for NSKPalletIDs form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [PalletDespatchList](../Forms/PalletDespatchList.md) - Data source for PalletDespatchList form
+- [PalletTransfer](../Forms/PalletTransfer.md) - Data source for PalletTransfer form
+- [Warehouse](../Forms/Warehouse.md) - Data source for Warehouse form
 
 ---
 

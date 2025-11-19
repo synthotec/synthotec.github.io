@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:10.029Z*
+🕐 *Last updated: 2025-11-19T18:10:07.773Z*
 
 ---
 
@@ -47,7 +47,15 @@ Function create($ToolsEntity : cs.ToolsEntity) -> $ToolNoticeEntity : cs.ToolNot
 
 ### 🗂️ Tables
 
-- [ToolNotice](../Tables/ToolNotice.md) - Source table for this ORDA class
+- [ToolNotice](../Tables/ToolNotice.md) - ORDA DataClass class for ToolNotice table
+
+### � Related Classes
+
+- [ToolNoticeEntity](ToolNoticeEntity.md) - ORDA Entity class for ToolNotice table
+
+### � Forms
+
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

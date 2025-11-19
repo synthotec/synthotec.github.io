@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:10.177Z*
+🕐 *Last updated: 2025-11-19T18:10:07.924Z*
 
 ---
 
@@ -117,7 +117,12 @@ Function get CurrentProcess -> Text
 
 ### 🗂️ Tables
 
-- [Translation](../Tables/Translation.md) - Source table for this ORDA class
+- [Translation](../Tables/Translation.md) - ORDA DataClass class for Translation table
+
+### � Forms
+
+- [CalibrationProcedures](../Forms/CalibrationProcedures.md) - Data source for CalibrationProcedures form
+- [TranslationManager](../Forms/TranslationManager.md) - Data source for TranslationManager form
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:10.111Z*
+🕐 *Last updated: 2025-11-19T18:10:07.851Z*
 
 ---
 
@@ -59,7 +59,16 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table for this ORDA class
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
+
+### � Related Classes
+
+- [ToolTemperatureTargetEntity](ToolTemperatureTargetEntity.md) - ORDA Entity class for ToolTemperatureTarget table
+- [ToolTemperatureTargetSelection](ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
+
+### � Forms
+
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 

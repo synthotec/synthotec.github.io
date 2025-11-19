@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T15:47:09.550Z*
+🕐 *Last updated: 2025-11-19T18:10:07.289Z*
 
 ---
 
@@ -159,7 +159,21 @@ Function get TWO_HOURS_IN_SECONDS -> Real
 
 ### 🗂️ Tables
 
-- [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
+- [RealTime](../Tables/RealTime.md) - ORDA DataClass class for RealTime table
+
+### � Related Classes
+
+- [RealTimeEntity](RealTimeEntity.md) - ORDA Entity class for RealTime table
+- [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
+
+### � Forms
+
+- [ChangeRealTimeImpressions](../Forms/ChangeRealTimeImpressions.md) - Data source for ChangeRealTimeImpressions form
+- [CycleHistory](../Forms/CycleHistory.md) - Data source for CycleHistory form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 

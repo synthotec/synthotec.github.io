@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:10.098Z*
+🕐 *Last updated: 2025-11-19T18:10:07.838Z*
 
 ---
 
@@ -82,7 +82,40 @@ Function get NextToolChangeText -> Text
 
 ### 🗂️ Tables
 
-- [Tools](../Tables/Tools.md) - Source table for this ORDA class
+- [Tools](../Tables/Tools.md) - ORDA Entity class for Tools table
+
+### � Related Classes
+
+- [Tools](Tools.md) - ORDA DataClass class for Tools table
+
+### � Forms
+
+- [%2AToolEditor](../Forms/%2AToolEditor.md) - Data source for %2AToolEditor form
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [CapacityPlanning](../Forms/CapacityPlanning.md) - Data source for CapacityPlanning form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Data source for ConsignmentEntry form
+- [CustomerOrderEntry](../Forms/CustomerOrderEntry.md) - Data source for CustomerOrderEntry form
+- [EDIgenerator](../Forms/EDIgenerator.md) - Data source for EDIgenerator form
+- [EquipmentProfiles](../Forms/EquipmentProfiles.md) - Data source for EquipmentProfiles form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PackingLabour](../Forms/PackingLabour.md) - Data source for PackingLabour form
+- [Pricing](../Forms/Pricing.md) - Data source for Pricing form
+- [Quality](../Forms/Quality.md) - Data source for Quality form
+- [QualitySystemResults](../Forms/QualitySystemResults.md) - Data source for QualitySystemResults form
+- [QualitySystemTolerances](../Forms/QualitySystemTolerances.md) - Data source for QualitySystemTolerances form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
+- [Scheduler](../Forms/Scheduler.md) - Data source for Scheduler form
+- [SIMImporter](../Forms/SIMImporter.md) - Data source for SIMImporter form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
+- [ToolDisplay4](../Forms/ToolDisplay4.md) - Data source for ToolDisplay4 form
+- [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
+- [ToolStandardsReview](../Forms/ToolStandardsReview.md) - Data source for ToolStandardsReview form
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 

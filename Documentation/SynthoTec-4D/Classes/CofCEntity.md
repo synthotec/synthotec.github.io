@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:07.867Z*
+🕐 *Last updated: 2025-11-19T18:10:05.459Z*
 
 ---
 
@@ -41,7 +41,17 @@ Function cancel -> $Cancelled : Boolean
 
 ### 🗂️ Tables
 
-- [CofC](../Tables/CofC.md) - Source table for this ORDA class
+- [CofC](../Tables/CofC.md) - ORDA Entity class for CofC table
+
+### � Forms
+
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
+- [Forecast](../Forms/Forecast.md) - Data source for Forecast form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [SNRSUMMARY](../Forms/SNRSUMMARY.md) - Data source for SNRSUMMARY form
+- [StockMovements](../Forms/StockMovements.md) - Data source for StockMovements form
 
 ---
 

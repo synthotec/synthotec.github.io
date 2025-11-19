@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T15:47:10.129Z*
+🕐 *Last updated: 2025-11-19T18:10:07.871Z*
 
 ---
 
@@ -79,7 +79,16 @@ Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureTargetEntity)
 
 ### 🗂️ Tables
 
-- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table for this ORDA class
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - ORDA Entity class for ToolTemperatureTarget table
+
+### � Related Classes
+
+- [ToolTemperatureTarget](ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
+- [ToolTemperatureTargetSelection](ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
+
+### � Forms
+
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 
