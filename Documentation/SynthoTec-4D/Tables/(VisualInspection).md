@@ -7,6 +7,10 @@ parent : Tables
 
 📊 **Overview:** 28 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Test
+
 ## ℹ️ Table Information
 
 - **Table ID:** 94
