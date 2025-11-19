@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : MaterialStockEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.792Z*
+🕐 *Last updated: 2025-11-19T15:47:08.701Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getStockListBoxObject -> Object
 ### 🗂️ Tables
 
 - [MaterialStock](../Tables/MaterialStock.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [MaterialStock](MaterialStock.md) - ORDA DataClass class for MaterialStock table
 
 ---
 

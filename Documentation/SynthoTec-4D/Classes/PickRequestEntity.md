@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PickRequestEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.031Z*
+🕐 *Last updated: 2025-11-19T15:47:09.121Z*
 
 ---
 
@@ -240,10 +240,6 @@ Function get StatusColor -> Integer
 ### 🗂️ Tables
 
 - [PickRequest](../Tables/PickRequest.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PickRequest](PickRequest.md) - ORDA DataClass class for PickRequest table
 
 ---
 

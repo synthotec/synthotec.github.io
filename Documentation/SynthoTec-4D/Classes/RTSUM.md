@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RTSUM
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.359Z*
+🕐 *Last updated: 2025-11-19T15:47:09.772Z*
 
 ---
 
@@ -48,10 +48,6 @@ Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Inte
 ### 🗂️ Tables
 
 - [RTSUM](../Tables/RTSUM.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RTSUMSelection](RTSUMSelection.md) - ORDA EntitySelection class for RTSUM table
 
 ---
 

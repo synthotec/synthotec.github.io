@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PrintSettings
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:01.076Z*
+🕐 *Last updated: 2025-11-19T15:47:09.263Z*
 
 ---
 

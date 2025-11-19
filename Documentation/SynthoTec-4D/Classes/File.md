@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : File
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.590Z*
+🕐 *Last updated: 2025-11-19T15:47:08.338Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function upload -> $FileEntity : cs.FileEntity
 ### 🗂️ Tables
 
 - [File](../Tables/File.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [FileEntity](FileEntity.md) - ORDA Entity class for File table
 
 ---
 

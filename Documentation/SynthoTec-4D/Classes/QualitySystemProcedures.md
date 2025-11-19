@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : QualitySystemProcedures
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.188Z*
+🕐 *Last updated: 2025-11-19T15:47:09.495Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [QualitySystemProceduresEntity](QualitySystemProceduresEntity.md) - ORDA Entity class for QualitySystemProcedures table
 
 ---
 

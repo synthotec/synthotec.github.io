@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : WorksOrderEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.643Z*
+🕐 *Last updated: 2025-11-19T15:47:10.284Z*
 
 ---
 
@@ -250,10 +250,6 @@ Function get WIP -> Integer
 ### 🗂️ Tables
 
 - [WorksOrder](../Tables/WorksOrder.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [WorksOrder](WorksOrder.md) - ORDA DataClass class for WorksOrder table
 
 ---
 

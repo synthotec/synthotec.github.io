@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolNotice
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.526Z*
+🕐 *Last updated: 2025-11-19T15:47:10.029Z*
 
 ---
 
@@ -48,10 +48,6 @@ Function create($ToolsEntity : cs.ToolsEntity) -> $ToolNoticeEntity : cs.ToolNot
 ### 🗂️ Tables
 
 - [ToolNotice](../Tables/ToolNotice.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolNoticeEntity](ToolNoticeEntity.md) - ORDA Entity class for ToolNotice table
 
 ---
 

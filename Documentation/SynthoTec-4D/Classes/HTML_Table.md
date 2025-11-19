@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : HTML_Table
 parent : Classes
@@ -12,7 +12,7 @@ parent : Classes
 🗨️ var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-14T16:53:00.723Z*
+🕐 *Last updated: 2025-11-19T15:47:08.540Z*
 
 ---
 

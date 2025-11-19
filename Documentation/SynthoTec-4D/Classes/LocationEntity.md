@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : LocationEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.755Z*
+🕐 *Last updated: 2025-11-19T15:47:08.607Z*
 
 ---
 
@@ -168,10 +168,6 @@ Function get SortOrder -> $SortOrder : Text
 ### 🗂️ Tables
 
 - [Location](../Tables/Location.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Location](Location.md) - ORDA DataClass class for Location table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolTemperatureTargetSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:01.573Z*
+🕐 *Last updated: 2025-11-19T15:47:10.145Z*
 
 ---
 
@@ -66,11 +66,6 @@ Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) ->
 ### 🗂️ Tables
 
 - [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolTemperatureTarget](ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
-- [ToolTemperatureTargetEntity](ToolTemperatureTargetEntity.md) - ORDA Entity class for ToolTemperatureTarget table
 
 ---
 

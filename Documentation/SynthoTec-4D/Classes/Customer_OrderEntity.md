@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Customer_OrderEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.205Z*
+🕐 *Last updated: 2025-11-19T15:47:07.973Z*
 
 ---
 
@@ -264,10 +264,6 @@ Function get OutstandingToPickRequest -> Integer
 ### 🗂️ Tables
 
 - [Customer_Order](../Tables/Customer_Order.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Customer_Order](Customer_Order.md) - ORDA DataClass class for Customer_Order table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeMachines
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.221Z*
+🕐 *Last updated: 2025-11-19T15:47:09.574Z*
 
 ---
 
@@ -48,10 +48,6 @@ Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 ### 🗂️ Tables
 
 - [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTimeMachinesEntity](RealTimeMachinesEntity.md) - ORDA Entity class for RealTimeMachines table
 
 ---
 

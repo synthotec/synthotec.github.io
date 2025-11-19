@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Loading
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.729Z*
+🕐 *Last updated: 2025-11-19T15:47:08.567Z*
 
 ---
 

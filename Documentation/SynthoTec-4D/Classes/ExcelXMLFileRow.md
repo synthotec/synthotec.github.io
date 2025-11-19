@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ExcelXMLFileRow
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.569Z*
+🕐 *Last updated: 2025-11-19T15:47:08.289Z*
 
 ---
 

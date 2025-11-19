@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeTemperatureSensor
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:53:01.295Z*
+🕐 *Last updated: 2025-11-19T15:47:09.726Z*
 
 ---
 

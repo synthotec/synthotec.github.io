@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductMaterialOptionsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.158Z*
+🕐 *Last updated: 2025-11-19T15:47:09.402Z*
 
 ---
 
@@ -79,10 +79,6 @@ Function get Default -> Boolean
 ### 🗂️ Tables
 
 - [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ProductMaterialOptions](ProductMaterialOptions.md) - ORDA DataClass class for ProductMaterialOptions table
 
 ---
 

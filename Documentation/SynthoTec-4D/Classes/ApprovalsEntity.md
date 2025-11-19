@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ApprovalsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.020Z*
+🕐 *Last updated: 2025-11-19T15:47:07.721Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
 ### 🗂️ Tables
 
 - [Approvals](../Tables/Approvals.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Approvals](Approvals.md) - ORDA DataClass class for Approvals table
 
 ---
 

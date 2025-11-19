@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : EntityMigration
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-14T16:53:00.488Z*
+🕐 *Last updated: 2025-11-19T15:47:08.096Z*
 
 ---
 

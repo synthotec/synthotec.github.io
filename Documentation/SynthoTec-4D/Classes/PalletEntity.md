@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PalletEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.938Z*
+🕐 *Last updated: 2025-11-19T15:47:08.957Z*
 
 ---
 
@@ -224,11 +224,6 @@ Function get QRObject -> Object
 ### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Pallet](Pallet.md) - ORDA DataClass class for Pallet table
-- [PalletSelection](PalletSelection.md) - ORDA EntitySelection class for Pallet table
 
 ---
 

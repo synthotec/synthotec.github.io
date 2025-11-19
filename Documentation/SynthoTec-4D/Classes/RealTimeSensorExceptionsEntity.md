@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeSensorExceptionsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.287Z*
+🕐 *Last updated: 2025-11-19T15:47:09.702Z*
 
 ---
 
@@ -123,10 +123,6 @@ Function get PartsMade -> Integer
 ### 🗂️ Tables
 
 - [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTimeSensorExceptionsSelection](RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---
 

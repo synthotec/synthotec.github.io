@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeSensorExceptionsSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:01.292Z*
+🕐 *Last updated: 2025-11-19T15:47:09.715Z*
 
 ---
 
@@ -40,10 +40,6 @@ Function acknowledge
 ### 🗂️ Tables
 
 - [RealTimeSensorExceptions](../Tables/RealTimeSensorExceptions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTimeSensorExceptionsEntity](RealTimeSensorExceptionsEntity.md) - ORDA Entity class for RealTimeSensorExceptions table
 
 ---
 

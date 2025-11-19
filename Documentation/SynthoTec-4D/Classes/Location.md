@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Location
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.743Z*
+🕐 *Last updated: 2025-11-19T15:47:08.588Z*
 
 ---
 
@@ -102,10 +102,6 @@ Function restSetStockLocation($RestPostDataObject : Object) -> Object
 ### 🗂️ Tables
 
 - [Location](../Tables/Location.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [LocationEntity](LocationEntity.md) - ORDA Entity class for Location table
 
 ---
 

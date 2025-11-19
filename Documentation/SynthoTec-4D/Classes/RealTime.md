@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTime
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.214Z*
+🕐 *Last updated: 2025-11-19T15:47:09.550Z*
 
 ---
 
@@ -160,11 +160,6 @@ Function get TWO_HOURS_IN_SECONDS -> Real
 ### 🗂️ Tables
 
 - [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTimeEntity](RealTimeEntity.md) - ORDA Entity class for RealTime table
-- [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
 
 ---
 

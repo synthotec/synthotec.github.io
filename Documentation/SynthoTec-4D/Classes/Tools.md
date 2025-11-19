@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Tools
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.539Z*
+🕐 *Last updated: 2025-11-19T15:47:10.064Z*
 
 ---
 
@@ -54,10 +54,6 @@ Function createForProduct -> cs.ToolsEntity
 ### 🗂️ Tables
 
 - [Tools](../Tables/Tools.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolsEntity](ToolsEntity.md) - ORDA Entity class for Tools table
 
 ---
 

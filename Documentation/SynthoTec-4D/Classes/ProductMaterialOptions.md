@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductMaterialOptions
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.155Z*
+🕐 *Last updated: 2025-11-19T15:47:09.388Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ProductMaterialOptionsEntity](ProductMaterialOptionsEntity.md) - ORDA Entity class for ProductMaterialOptions table
 
 ---
 

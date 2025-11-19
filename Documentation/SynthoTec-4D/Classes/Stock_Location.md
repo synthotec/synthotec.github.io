@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Stock_Location
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.446Z*
+🕐 *Last updated: 2025-11-19T15:47:09.965Z*
 
 ---
 
@@ -81,10 +81,6 @@ Function get PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 ### 🗂️ Tables
 
 - [Stock_Location](../Tables/Stock_Location.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Stock_LocationEntity](Stock_LocationEntity.md) - ORDA Entity class for Stock_Location table
 
 ---
 

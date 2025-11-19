@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PrinterSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:01.064Z*
+🕐 *Last updated: 2025-11-19T15:47:09.224Z*
 
 ---
 
@@ -42,11 +42,6 @@ Function getLabelPrinters -> $PrinterSelection : cs.PrinterSelection
 ### 🗂️ Tables
 
 - [Printer](../Tables/Printer.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Printer](Printer.md) - ORDA DataClass class for Printer table
-- [PrinterEntity](PrinterEntity.md) - ORDA Entity class for Printer table
 
 ---
 

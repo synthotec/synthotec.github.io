@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : CollectionObject
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.159Z*
+🕐 *Last updated: 2025-11-19T15:47:07.884Z*
 
 ---
 

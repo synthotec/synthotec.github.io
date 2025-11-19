@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Product_Option
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.169Z*
+🕐 *Last updated: 2025-11-19T15:47:09.438Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [Product_Option](../Tables/Product_Option.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Product_OptionEntity](Product_OptionEntity.md) - ORDA Entity class for Product_Option table
 
 ---
 

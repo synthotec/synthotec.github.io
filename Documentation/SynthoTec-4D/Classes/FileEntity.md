@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : FileEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.595Z*
+🕐 *Last updated: 2025-11-19T15:47:08.348Z*
 
 ---
 
@@ -40,10 +40,6 @@ Function open
 ### 🗂️ Tables
 
 - [File](../Tables/File.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [File](File.md) - ORDA DataClass class for File table
 
 ---
 

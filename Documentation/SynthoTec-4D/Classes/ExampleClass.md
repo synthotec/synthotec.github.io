@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ExampleClass
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-14T16:53:00.534Z*
+🕐 *Last updated: 2025-11-19T15:47:08.230Z*
 
 ---
 

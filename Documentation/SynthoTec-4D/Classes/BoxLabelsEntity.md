@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : BoxLabelsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.084Z*
+🕐 *Last updated: 2025-11-19T15:47:07.813Z*
 
 ---
 
@@ -388,10 +388,6 @@ Function get totalBoxQuantity -> Integer
 ### 🗂️ Tables
 
 - [BoxLabels](../Tables/BoxLabels.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [BoxLabels](BoxLabels.md) - ORDA DataClass class for BoxLabels table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProcurementProgramLine
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-14T16:53:01.124Z*
+🕐 *Last updated: 2025-11-19T15:47:09.328Z*
 
 ---
 

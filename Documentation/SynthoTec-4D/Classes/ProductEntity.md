@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.154Z*
+🕐 *Last updated: 2025-11-19T15:47:09.378Z*
 
 ---
 
@@ -264,10 +264,6 @@ Function query OurPartName($QueryEventObject : Object)
 ### 🗂️ Tables
 
 - [Product](../Tables/Product.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Product](Product.md) - ORDA DataClass class for Product table
 
 ---
 

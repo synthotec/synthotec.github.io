@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Graph
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.695Z*
+🕐 *Last updated: 2025-11-19T15:47:08.490Z*
 
 ---
 

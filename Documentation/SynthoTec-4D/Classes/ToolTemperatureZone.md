@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolTemperatureZone
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.574Z*
+🕐 *Last updated: 2025-11-19T15:47:10.154Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [ToolTemperatureZone](../Tables/ToolTemperatureZone.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolTemperatureZoneEntity](ToolTemperatureZoneEntity.md) - ORDA Entity class for ToolTemperatureZone table
 
 ---
 

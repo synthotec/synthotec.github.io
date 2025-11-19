@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Stock_LocationEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.448Z*
+🕐 *Last updated: 2025-11-19T15:47:09.978Z*
 
 ---
 
@@ -24,10 +24,6 @@ parent : Classes
 ### 🗂️ Tables
 
 - [Stock_Location](../Tables/Stock_Location.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Stock_Location](Stock_Location.md) - ORDA DataClass class for Stock_Location table
 
 ---
 

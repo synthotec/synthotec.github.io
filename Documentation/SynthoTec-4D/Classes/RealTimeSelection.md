@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:01.278Z*
+🕐 *Last updated: 2025-11-19T15:47:09.684Z*
 
 ---
 
@@ -54,11 +54,6 @@ Function getTemperatureSensorZones -> $TemperatureSensorZones : Collection
 ### 🗂️ Tables
 
 - [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTime](RealTime.md) - ORDA DataClass class for RealTime table
-- [RealTimeEntity](RealTimeEntity.md) - ORDA Entity class for RealTime table
 
 ---
 

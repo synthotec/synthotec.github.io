@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolLogEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.522Z*
+🕐 *Last updated: 2025-11-19T15:47:10.018Z*
 
 ---
 

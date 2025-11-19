@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductPackagingEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.165Z*
+🕐 *Last updated: 2025-11-19T15:47:09.426Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
 ### 🗂️ Tables
 
 - [ProductPackaging](../Tables/ProductPackaging.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ProductPackaging](ProductPackaging.md) - ORDA DataClass class for ProductPackaging table
 
 ---
 

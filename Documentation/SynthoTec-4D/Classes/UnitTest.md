@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : UnitTest
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T16:53:01.588Z*
+🕐 *Last updated: 2025-11-19T15:47:10.197Z*
 
 ---
 

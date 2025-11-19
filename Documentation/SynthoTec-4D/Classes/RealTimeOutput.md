@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeOutput
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-14T16:53:01.239Z*
+🕐 *Last updated: 2025-11-19T15:47:09.617Z*
 
 ---
 

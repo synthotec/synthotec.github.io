@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : QualitySystemProceduresEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.191Z*
+🕐 *Last updated: 2025-11-19T15:47:09.506Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.QualitySystemProceduresEntit
 ### 🗂️ Tables
 
 - [QualitySystemProcedures](../Tables/QualitySystemProcedures.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [QualitySystemProcedures](QualitySystemProcedures.md) - ORDA DataClass class for QualitySystemProcedures table
 
 ---
 

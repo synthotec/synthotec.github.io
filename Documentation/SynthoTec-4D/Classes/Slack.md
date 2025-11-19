@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Slack
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:01.404Z*
+🕐 *Last updated: 2025-11-19T15:47:09.890Z*
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PalletSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:00.940Z*
+🕐 *Last updated: 2025-11-19T15:47:08.968Z*
 
 ---
 
@@ -42,11 +42,6 @@ Function getAvailable -> cs.PalletSelection
 ### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Pallet](Pallet.md) - ORDA DataClass class for Pallet table
-- [PalletEntity](PalletEntity.md) - ORDA Entity class for Pallet table
 
 ---
 

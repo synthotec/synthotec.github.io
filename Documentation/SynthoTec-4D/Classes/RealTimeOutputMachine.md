@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeOutputMachine
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-14T16:53:01.274Z*
+🕐 *Last updated: 2025-11-19T15:47:09.667Z*
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : BOMEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.028Z*
+🕐 *Last updated: 2025-11-19T15:47:07.740Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 ### 🗂️ Tables
 
 - [BOM](../Tables/BOM.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [BOM](BOM.md) - ORDA DataClass class for BOM table
 
 ---
 

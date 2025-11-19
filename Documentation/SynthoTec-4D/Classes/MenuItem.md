@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : MenuItem
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-14T16:53:00.816Z*
+🕐 *Last updated: 2025-11-19T15:47:08.757Z*
 
 ---
 

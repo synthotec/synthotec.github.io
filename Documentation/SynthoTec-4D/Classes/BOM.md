@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : BOM
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.021Z*
+🕐 *Last updated: 2025-11-19T15:47:07.725Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [BOM](../Tables/BOM.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [BOMEntity](BOMEntity.md) - ORDA Entity class for BOM table
 
 ---
 

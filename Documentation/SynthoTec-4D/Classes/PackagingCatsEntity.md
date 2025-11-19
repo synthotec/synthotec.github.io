@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PackagingCatsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.832Z*
+🕐 *Last updated: 2025-11-19T15:47:08.808Z*
 
 ---
 
@@ -66,10 +66,6 @@ var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.Supplies
 ### 🗂️ Tables
 
 - [PackagingCats](../Tables/PackagingCats.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PackagingCats](PackagingCats.md) - ORDA DataClass class for PackagingCats table
 
 ---
 

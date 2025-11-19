@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : OrderPickRequestSelection
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-14T16:53:00.828Z*
+🕐 *Last updated: 2025-11-19T15:47:08.788Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getUnprocessedQuantity -> Integer
 ### 🗂️ Tables
 
 - [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [OrderPickRequestEntity](OrderPickRequestEntity.md) - ORDA Entity class for OrderPickRequest table
 
 ---
 

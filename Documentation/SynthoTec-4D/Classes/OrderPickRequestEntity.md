@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : OrderPickRequestEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.826Z*
+🕐 *Last updated: 2025-11-19T15:47:08.777Z*
 
 ---
 
@@ -153,10 +153,6 @@ Function get QuantityToPick -> Integer
 ### 🗂️ Tables
 
 - [OrderPickRequest](../Tables/OrderPickRequest.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [OrderPickRequestSelection](OrderPickRequestSelection.md) - ORDA EntitySelection class for OrderPickRequest table
 
 ---
 

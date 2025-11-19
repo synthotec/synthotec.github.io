@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Stock
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:01.442Z*
+🕐 *Last updated: 2025-11-19T15:47:09.952Z*
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.556Z*
+🕐 *Last updated: 2025-11-19T15:47:10.098Z*
 
 ---
 
@@ -83,10 +83,6 @@ Function get NextToolChangeText -> Text
 ### 🗂️ Tables
 
 - [Tools](../Tables/Tools.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Tools](Tools.md) - ORDA DataClass class for Tools table
 
 ---
 

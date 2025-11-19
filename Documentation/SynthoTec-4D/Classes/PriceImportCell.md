@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PriceImportCell
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 
 
-🕐 *Last updated: 2025-11-14T16:53:01.045Z*
+🕐 *Last updated: 2025-11-19T15:47:09.172Z*
 
 ---
 

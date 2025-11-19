@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolNoticeEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.534Z*
+🕐 *Last updated: 2025-11-19T15:47:10.049Z*
 
 ---
 
@@ -89,10 +89,6 @@ Function get RemainingRuns -> Integer
 ### 🗂️ Tables
 
 - [ToolNotice](../Tables/ToolNotice.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolNotice](ToolNotice.md) - ORDA DataClass class for ToolNotice table
 
 ---
 

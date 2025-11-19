@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PurchasesEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.180Z*
+🕐 *Last updated: 2025-11-19T15:47:09.473Z*
 
 ---
 

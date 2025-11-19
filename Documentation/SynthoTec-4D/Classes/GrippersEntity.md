@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : GrippersEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.702Z*
+🕐 *Last updated: 2025-11-19T15:47:08.503Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.GrippersEntity)
 ### 🗂️ Tables
 
 - [Grippers](../Tables/Grippers.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Grippers](Grippers.md) - ORDA DataClass class for Grippers table
 
 ---
 

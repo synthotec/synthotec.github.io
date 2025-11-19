@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : WorksOrder
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.611Z*
+🕐 *Last updated: 2025-11-19T15:47:10.242Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [WorksOrder](../Tables/WorksOrder.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [WorksOrderEntity](WorksOrderEntity.md) - ORDA Entity class for WorksOrder table
 
 ---
 

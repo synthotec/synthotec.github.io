@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : HotHalfs
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.703Z*
+🕐 *Last updated: 2025-11-19T15:47:08.506Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [HotHalfs](../Tables/HotHalfs.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [HotHalfsEntity](HotHalfsEntity.md) - ORDA Entity class for HotHalfs table
 
 ---
 

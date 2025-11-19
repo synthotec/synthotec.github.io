@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Forecast
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.608Z*
+🕐 *Last updated: 2025-11-19T15:47:08.368Z*
 
 ---
 
@@ -52,10 +52,6 @@ Function generateForecastOrders
 ### 🗂️ Tables
 
 - [Forecast](../Tables/Forecast.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ForecastEntity](ForecastEntity.md) - ORDA Entity class for Forecast table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Pallet
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.923Z*
+🕐 *Last updated: 2025-11-19T15:47:08.930Z*
 
 ---
 
@@ -301,11 +301,6 @@ Function restLoadPallet($RestPostDataObject : Object) -> Object
 ### 🗂️ Tables
 
 - [Pallet](../Tables/Pallet.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PalletEntity](PalletEntity.md) - ORDA Entity class for Pallet table
-- [PalletSelection](PalletSelection.md) - ORDA EntitySelection class for Pallet table
 
 ---
 

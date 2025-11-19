@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : QRCode
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-14T16:53:01.187Z*
+🕐 *Last updated: 2025-11-19T15:47:09.491Z*
 
 ---
 

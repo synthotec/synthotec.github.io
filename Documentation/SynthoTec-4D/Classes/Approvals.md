@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Approvals
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.016Z*
+🕐 *Last updated: 2025-11-19T15:47:07.710Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [Approvals](../Tables/Approvals.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ApprovalsEntity](ApprovalsEntity.md) - ORDA Entity class for Approvals table
 
 ---
 

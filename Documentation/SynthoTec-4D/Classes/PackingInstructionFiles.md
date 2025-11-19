@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PackingInstructionFiles
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.834Z*
+🕐 *Last updated: 2025-11-19T15:47:08.817Z*
 
 ---
 
@@ -60,10 +60,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [PackingInstructionFiles](../Tables/PackingInstructionFiles.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PackingInstructionFilesEntity](PackingInstructionFilesEntity.md) - ORDA Entity class for PackingInstructionFiles table
 
 ---
 

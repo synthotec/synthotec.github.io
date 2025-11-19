@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ClassInspector
 parent : Classes

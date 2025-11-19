@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : HotHalfsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.706Z*
+🕐 *Last updated: 2025-11-19T15:47:08.515Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.HotHalfsEntity)
 ### 🗂️ Tables
 
 - [HotHalfs](../Tables/HotHalfs.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [HotHalfs](HotHalfs.md) - ORDA DataClass class for HotHalfs table
 
 ---
 

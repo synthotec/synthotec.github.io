@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : SuppliesEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.456Z*
+🕐 *Last updated: 2025-11-19T15:47:10.000Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.SuppliesEntity)
 ### 🗂️ Tables
 
 - [Supplies](../Tables/Supplies.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Supplies](Supplies.md) - ORDA DataClass class for Supplies table
 
 ---
 

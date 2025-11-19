@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : LanguageTagEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.725Z*
+🕐 *Last updated: 2025-11-19T15:47:08.551Z*
 
 ---
 

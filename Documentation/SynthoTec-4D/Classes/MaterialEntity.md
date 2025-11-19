@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : MaterialEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.768Z*
+🕐 *Last updated: 2025-11-19T15:47:08.656Z*
 
 ---
 
@@ -93,10 +93,6 @@ Function get HasMigrationID -> Boolean
 ### 🗂️ Tables
 
 - [Material](../Tables/Material.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Material](Material.md) - ORDA DataClass class for Material table
 
 ---
 

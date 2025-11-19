@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ClassParameter
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-14T16:53:00.142Z*
+🕐 *Last updated: 2025-11-19T15:47:07.842Z*
 
 ---
 

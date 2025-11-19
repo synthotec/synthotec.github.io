@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Customer_Order
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.180Z*
+🕐 *Last updated: 2025-11-19T15:47:07.938Z*
 
 ---
 
@@ -66,10 +66,6 @@ ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecas
 ### 🗂️ Tables
 
 - [Customer_Order](../Tables/Customer_Order.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Customer_OrderEntity](Customer_OrderEntity.md) - ORDA Entity class for Customer_Order table
 
 ---
 

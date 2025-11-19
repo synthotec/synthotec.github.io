@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Printer
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.050Z*
+🕐 *Last updated: 2025-11-19T15:47:09.191Z*
 
 ---
 
@@ -74,11 +74,6 @@ Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelecti
 ### 🗂️ Tables
 
 - [Printer](../Tables/Printer.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PrinterEntity](PrinterEntity.md) - ORDA Entity class for Printer table
-- [PrinterSelection](PrinterSelection.md) - ORDA EntitySelection class for Printer table
 
 ---
 

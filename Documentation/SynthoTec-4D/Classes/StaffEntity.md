@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : StaffEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.414Z*
+🕐 *Last updated: 2025-11-19T15:47:09.916Z*
 
 ---
 
@@ -82,10 +82,6 @@ Function get FullName -> Text
 ### 🗂️ Tables
 
 - [Staff](../Tables/Staff.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Staff](Staff.md) - ORDA DataClass class for Staff table
 
 ---
 

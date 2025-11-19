@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PackagingCats
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.829Z*
+🕐 *Last updated: 2025-11-19T15:47:08.798Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [PackagingCats](../Tables/PackagingCats.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PackagingCatsEntity](PackagingCatsEntity.md) - ORDA Entity class for PackagingCats table
 
 ---
 

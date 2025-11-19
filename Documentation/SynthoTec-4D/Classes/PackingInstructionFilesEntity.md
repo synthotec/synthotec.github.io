@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PackingInstructionFilesEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.837Z*
+🕐 *Last updated: 2025-11-19T15:47:08.829Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function syncMigrationSelections($RemoteEntity : cs.PackingInstructionFilesEntit
 ### 🗂️ Tables
 
 - [PackingInstructionFiles](../Tables/PackingInstructionFiles.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PackingInstructionFiles](PackingInstructionFiles.md) - ORDA DataClass class for PackingInstructionFiles table
 
 ---
 

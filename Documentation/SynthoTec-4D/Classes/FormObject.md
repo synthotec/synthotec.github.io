@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : FormObject
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-14T16:53:00.678Z*
+🕐 *Last updated: 2025-11-19T15:47:08.430Z*
 
 ---
 

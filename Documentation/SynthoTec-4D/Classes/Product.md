@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Product
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.128Z*
+🕐 *Last updated: 2025-11-19T15:47:09.343Z*
 
 ---
 
@@ -52,10 +52,6 @@ Function populateEmojis
 ### 🗂️ Tables
 
 - [Product](../Tables/Product.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ProductEntity](ProductEntity.md) - ORDA Entity class for Product table
 
 ---
 

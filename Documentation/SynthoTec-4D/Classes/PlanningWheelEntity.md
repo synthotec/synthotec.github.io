@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PlanningWheelEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.040Z*
+🕐 *Last updated: 2025-11-19T15:47:09.153Z*
 
 ---
 
@@ -24,10 +24,6 @@ parent : Classes
 ### 🗂️ Tables
 
 - [PlanningWheel](../Tables/PlanningWheel.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PlanningWheel](PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
 
 ---
 

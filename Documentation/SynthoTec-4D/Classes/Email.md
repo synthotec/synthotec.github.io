@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Email
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ if(Match regex(Email Regex;$EmailAddress))
 
-🕐 *Last updated: 2025-11-14T16:53:00.459Z*
+🕐 *Last updated: 2025-11-19T15:47:08.052Z*
 
 ---
 
@@ -33,8 +33,6 @@ parent : Classes
     - [setSubject](#setsubject) (1 param)
     - [attachFile](#attachfile) (2 params)
     - [send](#send) → `$EmailSent : Boolean`
-- [📚 Examples (1)](#examples)
-  - [Sending notification email](#sending-notification-email)
 ---
 
 ## Properties {#properties}
@@ -241,20 +239,6 @@ Function send -> $EmailSent : Boolean
 **Returns:** `Boolean`
 
 ---
-
-## Examples {#examples}
-
-### Sending notification email {#sending-notification-email}
-
-Example of sending an email using the Email class after creating the email object.
-
-```4d
-		End if 
-	End for each 
-	
-	$Table.merge(True; [4; 5])
-	
-```
 
 ---
 

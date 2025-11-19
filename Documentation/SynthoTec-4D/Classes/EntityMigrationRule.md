@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : EntityMigrationRule
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.497Z*
+🕐 *Last updated: 2025-11-19T15:47:08.118Z*
 
 ---
 

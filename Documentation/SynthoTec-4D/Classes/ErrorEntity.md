@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ErrorEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.518Z*
+🕐 *Last updated: 2025-11-19T15:47:08.182Z*
 
 ---
 
@@ -115,10 +115,6 @@ Function get ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
 ### 🗂️ Tables
 
 - [Error](../Tables/Error.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Error](Error.md) - ORDA DataClass class for Error table
 
 ---
 

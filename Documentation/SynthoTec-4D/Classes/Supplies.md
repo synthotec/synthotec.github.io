@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Supplies
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.451Z*
+🕐 *Last updated: 2025-11-19T15:47:09.988Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [Supplies](../Tables/Supplies.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [SuppliesEntity](SuppliesEntity.md) - ORDA Entity class for Supplies table
 
 ---
 

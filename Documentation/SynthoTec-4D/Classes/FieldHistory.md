@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : FieldHistory
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.588Z*
+🕐 *Last updated: 2025-11-19T15:47:08.328Z*
 
 ---
 

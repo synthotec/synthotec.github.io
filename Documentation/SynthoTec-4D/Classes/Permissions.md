@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Permissions
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.943Z*
+🕐 *Last updated: 2025-11-19T15:47:08.985Z*
 
 ---
 
@@ -68,10 +68,6 @@ Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity :
 ### 🗂️ Tables
 
 - [Permissions](../Tables/Permissions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PermissionsEntity](PermissionsEntity.md) - ORDA Entity class for Permissions table
 
 ---
 

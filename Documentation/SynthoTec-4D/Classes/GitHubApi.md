@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : GitHubApi
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-14T16:53:00.693Z*
+🕐 *Last updated: 2025-11-19T15:47:08.477Z*
 
 ---
 

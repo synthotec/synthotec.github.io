@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : CustomerContactsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.166Z*
+🕐 *Last updated: 2025-11-19T15:47:07.913Z*
 
 ---
 
@@ -79,10 +79,6 @@ Function get HasMigrationID -> Boolean
 ### 🗂️ Tables
 
 - [CustomerContacts](../Tables/CustomerContacts.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [CustomerContacts](CustomerContacts.md) - ORDA DataClass class for CustomerContacts table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Settings
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.372Z*
+🕐 *Last updated: 2025-11-19T15:47:09.807Z*
 
 ---
 
@@ -67,10 +67,6 @@ Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEnti
 ### 🗂️ Tables
 
 - [Settings](../Tables/Settings.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [SettingsEntity](SettingsEntity.md) - ORDA Entity class for Settings table
 
 ---
 

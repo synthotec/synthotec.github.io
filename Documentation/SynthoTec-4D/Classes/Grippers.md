@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Grippers
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.696Z*
+🕐 *Last updated: 2025-11-19T15:47:08.493Z*
 
 ---
 
@@ -42,10 +42,6 @@ Function getMigrationSettings -> Object
 ### 🗂️ Tables
 
 - [Grippers](../Tables/Grippers.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [GrippersEntity](GrippersEntity.md) - ORDA Entity class for Grippers table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeMachinesEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.225Z*
+🕐 *Last updated: 2025-11-19T15:47:09.589Z*
 
 ---
 
@@ -123,10 +123,6 @@ Function get WorksOrderEntity -> cs.WorksOrderEntity
 ### 🗂️ Tables
 
 - [RealTimeMachines](../Tables/RealTimeMachines.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTimeMachines](RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
 
 ---
 

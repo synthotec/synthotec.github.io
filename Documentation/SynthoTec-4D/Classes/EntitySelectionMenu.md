@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : EntitySelectionMenu
 parent : Classes
@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-14T16:53:00.506Z*
+🕐 *Last updated: 2025-11-19T15:47:08.140Z*
 
 ---
 

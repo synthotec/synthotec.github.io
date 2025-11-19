@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductPackaging
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.163Z*
+🕐 *Last updated: 2025-11-19T15:47:09.416Z*
 
 ---
 
@@ -62,10 +62,6 @@ Function generateCustomerPackaging
 ### 🗂️ Tables
 
 - [ProductPackaging](../Tables/ProductPackaging.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ProductPackagingEntity](ProductPackagingEntity.md) - ORDA Entity class for ProductPackaging table
 
 ---
 

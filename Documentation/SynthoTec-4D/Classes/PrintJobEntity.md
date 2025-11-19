@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PrintJobEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.067Z*
+🕐 *Last updated: 2025-11-19T15:47:09.244Z*
 
 ---
 

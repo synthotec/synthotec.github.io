@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ErrorReport
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.524Z*
+🕐 *Last updated: 2025-11-19T15:47:08.198Z*
 
 ---
 
@@ -40,10 +40,6 @@ Function processError
 ### 🗂️ Tables
 
 - [ErrorReport](../Tables/ErrorReport.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ErrorReportEntity](ErrorReportEntity.md) - ORDA Entity class for ErrorReport table
 
 ---
 

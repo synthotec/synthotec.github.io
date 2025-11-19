@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PickRequest
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:00.990Z*
+🕐 *Last updated: 2025-11-19T15:47:09.063Z*
 
 ---
 
@@ -202,10 +202,6 @@ Function checkForPickedPickRequests
 ### 🗂️ Tables
 
 - [PickRequest](../Tables/PickRequest.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PickRequestEntity](PickRequestEntity.md) - ORDA Entity class for PickRequest table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Staff
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.409Z*
+🕐 *Last updated: 2025-11-19T15:47:09.903Z*
 
 ---
 
@@ -85,10 +85,6 @@ Function newUsingEntry -> cs.StaffEntity
 ### 🗂️ Tables
 
 - [Staff](../Tables/Staff.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [StaffEntity](StaffEntity.md) - ORDA Entity class for Staff table
 
 ---
 

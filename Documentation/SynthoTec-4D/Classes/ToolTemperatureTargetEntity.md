@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolTemperatureTargetEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.568Z*
+🕐 *Last updated: 2025-11-19T15:47:10.129Z*
 
 ---
 
@@ -80,11 +80,6 @@ Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureTargetEntity)
 ### 🗂️ Tables
 
 - [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [ToolTemperatureTarget](ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
-- [ToolTemperatureTargetSelection](ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
 
 ---
 

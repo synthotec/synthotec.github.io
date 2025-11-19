@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PlanningWheel
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-14T16:53:01.039Z*
+🕐 *Last updated: 2025-11-19T15:47:09.142Z*
 
 ---
 
@@ -59,10 +59,6 @@ Function reducePlannedStand
 ### 🗂️ Tables
 
 - [PlanningWheel](../Tables/PlanningWheel.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [PlanningWheelEntity](PlanningWheelEntity.md) - ORDA Entity class for PlanningWheel table
 
 ---
 

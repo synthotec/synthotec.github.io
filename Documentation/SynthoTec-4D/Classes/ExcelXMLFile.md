@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ExcelXMLFile
 parent : Classes
@@ -11,7 +11,7 @@ parent : Classes
 
 🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-14T16:53:00.566Z*
+🕐 *Last updated: 2025-11-19T15:47:08.275Z*
 
 ---
 

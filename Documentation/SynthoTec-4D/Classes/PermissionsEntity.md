@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PermissionsEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:00.948Z*
+🕐 *Last updated: 2025-11-19T15:47:09.003Z*
 
 ---
 
@@ -64,10 +64,6 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 ### 🗂️ Tables
 
 - [Permissions](../Tables/Permissions.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [Permissions](Permissions.md) - ORDA DataClass class for Permissions table
 
 ---
 

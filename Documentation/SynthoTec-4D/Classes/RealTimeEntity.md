@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeEntity
 parent : Classes
@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-14T16:53:01.218Z*
+🕐 *Last updated: 2025-11-19T15:47:09.564Z*
 
 ---
 
@@ -83,11 +83,6 @@ Function get StartTime -> Time
 ### 🗂️ Tables
 
 - [RealTime](../Tables/RealTime.md) - Source table for this ORDA class
-
-### � Related Classes
-
-- [RealTime](RealTime.md) - ORDA DataClass class for RealTime table
-- [RealTimeSelection](RealTimeSelection.md) - ORDA EntitySelection class for RealTime table
 
 ---
 
