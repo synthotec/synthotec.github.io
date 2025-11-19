@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ if(Match regex(Email Regex;$EmailAddress))
+🗨️ Creates a new email with the specified subject and HTML body
 
-🕐 *Last updated: 2025-11-19T18:12:02.675Z*
+🕐 *Last updated: 2025-11-19T21:36:23.435Z*
 
 ---
 
@@ -39,8 +39,8 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `EmailObject` | `Object` | - | - |
-| `_PermissionFooterCollection` | `Collection` | - | - |
+| `EmailObject` | `Object` | - | The main email object containing all email properties (to, from, subject, body, attachments, etc.) |
+| `_PermissionFooterCollection` | `Collection` | - | Internal collection tracking permission groups for footer display |
 
 ## Constructor {#constructor}
 
@@ -50,6 +50,8 @@ parent : Classes
 ```4d
 Class constructor($Subject : Text; $HTML_Body : Text)
 ```
+
+Creates a new email with the specified subject and HTML body
 
 **Parameters:**
 
@@ -71,6 +73,8 @@ Class constructor($Subject : Text; $HTML_Body : Text)
 Function addTo($EmailAddress : Text)
 ```
 
+Adds an email address to the To recipients list (only if not already present)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -85,6 +89,8 @@ Function addTo($EmailAddress : Text)
 ```4d
 Function addCc($EmailAddress : Text)
 ```
+
+Adds an email address to the CC (carbon copy) recipients list (only if not already present)
 
 **Parameters:**
 
@@ -101,6 +107,8 @@ Function addCc($EmailAddress : Text)
 Function addBcc($EmailAddress : Text)
 ```
 
+Adds an email address to the BCC (blind carbon copy) recipients list (only if not already present)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -115,6 +123,8 @@ Function addBcc($EmailAddress : Text)
 ```4d
 Function addPermissionGroup($PermissionName : Text; $RecipientType : Integer; $ShowPermissionFooter : Boolean)
 ```
+
+Adds all staff members with the specified permission to recipients, optionally showing permission name in footer
 
 **Parameters:**
 
@@ -133,6 +143,8 @@ Function addPermissionGroup($PermissionName : Text; $RecipientType : Integer; $S
 Function addCustomerGroup($CustomerCode : Text)
 ```
 
+Adds all contacts for the specified customer code to the To recipients list
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -147,6 +159,8 @@ Function addCustomerGroup($CustomerCode : Text)
 ```4d
 Function setFromAddress($EmailAddress : Text; $EmailName : Text)
 ```
+
+Sets the sender's email address and optional display name (appends @TLD if no @ present)
 
 **Parameters:**
 
@@ -164,6 +178,8 @@ Function setFromAddress($EmailAddress : Text; $EmailName : Text)
 Function setFromCurrentUser -> $Success : Boolean
 ```
 
+Sets the sender to the currently logged-in user's email and name from Storage.User.ID
+
 **Returns:** `Boolean`
 
 ---
@@ -174,6 +190,8 @@ Function setFromCurrentUser -> $Success : Boolean
 ```4d
 Function setMessageID($MessageID : Text)
 ```
+
+Sets the email's message ID and reply-to ID (appends @TLD to the provided ID)
 
 **Parameters:**
 
@@ -189,6 +207,8 @@ Function setMessageID($MessageID : Text)
 ```4d
 Function setHtmlBody($HTML_Body : Text)
 ```
+
+Sets the HTML body content of the email
 
 **Parameters:**
 
@@ -220,6 +240,8 @@ Function setSubject($Subject : Text)
 Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
 ```
 
+Attaches a file to the email - accepts file path (Text), BLOB, 4D.Blob, or 4D.File object
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -235,6 +257,8 @@ Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
 ```4d
 Function send -> $EmailSent : Boolean
 ```
+
+Sends the email using SMTP settings from database, adds permission footer if applicable, returns success status
 
 **Returns:** `Boolean`
 
