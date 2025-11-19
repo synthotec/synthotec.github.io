@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (3)
 - [🧩 Form Objects](#-form-objects) (14)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -78,6 +80,16 @@ This form handles **3** of **44** possible events:
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CustomerOrders/ObjectMethods/List%20Box1.4dm) |
 | Radio Button | Standard Orders | 🔘 radio | ✅ | ✅ | ❌ | vStandard | [Radio Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CustomerOrders/ObjectMethods/Radio%20Button.4dm) |
 | Radio Button1 | Consignment Requirements | 🔘 radio | ✅ | ✅ | ❌ | vConsignment | [Radio Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CustomerOrders/ObjectMethods/Radio%20Button1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for CustomerOrders form
+- [CofC](../Tables/CofC.md) - Data source for CustomerOrders form
+- [FieldHistory](../Tables/FieldHistory.md) - Data source for CustomerOrders form
+- [Customer](../Tables/Customer.md) - Data source for CustomerOrders form
+- [CustomerContacts](../Tables/CustomerContacts.md) - Data source for CustomerOrders form
 
 ---
 

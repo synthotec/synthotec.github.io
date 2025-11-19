@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (1)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -64,6 +66,12 @@ This form handles **16** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeLog/ObjectMethods/List%20Box.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [ChangeLog](../Tables/ChangeLog.md) - Data source for ChangeLog form
 
 ---
 

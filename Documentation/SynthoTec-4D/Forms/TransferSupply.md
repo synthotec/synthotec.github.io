@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (5)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -71,6 +73,14 @@ A copy of the old record will be left with the original supplier, in order to pr
 | Button | Update | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button.4dm) |
 | Text1 | - | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Button1 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TransferSupply/ObjectMethods/Button1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Suppliers](../Tables/Suppliers.md) - Data source for TransferSupply form
+- [Supplies](../Tables/Supplies.md) - Data source for TransferSupply form
+- [ProductPackaging](../Tables/ProductPackaging.md) - Data source for TransferSupply form
 
 ---
 

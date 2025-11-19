@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (25)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -90,6 +92,16 @@ This form handles **15** of **44** possible events:
 | Check Box | Material Not Yet Delivered | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.NotDelivered | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Check%20Box.4dm) |
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PurchaseInfoEntitySelection | - |
 | Button2 | Load Purchase Order | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CreateRMC/ObjectMethods/Button2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Material](../Tables/Material.md) - Data source for CreateRMC form
+- [RMC](../Tables/RMC.md) - Data source for CreateRMC form
+- [MaterialStock](../Tables/MaterialStock.md) - Data source for CreateRMC form
+- [Purchases](../Tables/Purchases.md) - Data source for CreateRMC form
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Data source for CreateRMC form
 
 ---
 

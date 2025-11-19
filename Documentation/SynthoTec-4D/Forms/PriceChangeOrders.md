@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (2)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -66,6 +68,12 @@ This form handles **16** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PriceChangeOrders/ObjectMethods/List%20Box.4dm) |
 | Text | Double click an order to change it to the new price | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for PriceChangeOrders form
 
 ---
 

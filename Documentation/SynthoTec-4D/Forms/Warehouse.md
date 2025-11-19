@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (8)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -77,6 +79,13 @@ This form handles **17** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | Input | - | 📝 input | ✅ | ✅ | ❌ | Warehouse_WarningText | [Input.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Warehouse/ObjectMethods/Input.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Pallet](../Tables/Pallet.md) - Data source for Warehouse form
+- [BoxLabels](../Tables/BoxLabels.md) - Data source for Warehouse form
 
 ---
 

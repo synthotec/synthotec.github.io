@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (7)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -71,6 +73,13 @@ This form handles **16** of **44** possible events:
 | Button2 | Delete Selected Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NominalCodes/ObjectMethods/Button2.4dm) |
 | Text | Enter CAP as the 4D Code to require a CAPEX number | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text1 | Right click a line to change the category | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [NominalCodes](../Tables/NominalCodes.md) - Data source for NominalCodes form
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Data source for NominalCodes form
 
 ---
 

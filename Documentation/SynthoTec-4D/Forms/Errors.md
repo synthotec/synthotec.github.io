@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (6)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -71,6 +73,13 @@ This form handles **15** of **44** possible events:
 | List Box3 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ErrorDetailEntity.ErrorObject.CallChain | - |
 | Input | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.CurrentStackTrace; *) | - |
 | Input1 | - | 📝 input | ✅ | ✅ | ❌ | JSON Stringify:C1217(Form:C1466.ErrorDetailEntity.ErrorObject.DebugInfo || ""; *) | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Permissions](../Tables/Permissions.md) - Data source for Errors form
+- [Error](../Tables/Error.md) - Data source for Errors form
 
 ---
 

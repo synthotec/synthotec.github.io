@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (7)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -70,6 +72,15 @@ This form handles **16** of **44** possible events:
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | ProductStockTake_Listbox1 | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/List%20Box.4dm) |
 | Button13 | DELETE SELECTED ROW | 🔘 button | ✅ | ✅ | ❌ | Button13 | [Button13.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Button13.4dm) |
 | Variable4 | - | 📝 input | ✅ | ✅ | ❌ | boxcount | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ProductStockTake/ObjectMethods/Variable4.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product](../Tables/Product.md) - Data source for ProductStockTake form
+- [ProductStockTake](../Tables/ProductStockTake.md) - Data source for ProductStockTake form
+- [Finished_Stock](../Tables/Finished_Stock.md) - Data source for ProductStockTake form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for ProductStockTake form
 
 ---
 

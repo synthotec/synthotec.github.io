@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (9)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -72,6 +74,14 @@ This form handles **16** of **44** possible events:
 | List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | TopListBox | - |
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | MainListBox | - |
 | Text | Forecast Year | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [BOM](../Tables/BOM.md) - Data source for BOM_Output form
+- [Product](../Tables/Product.md) - Data source for BOM_Output form
+- [Material](../Tables/Material.md) - Data source for BOM_Output form
 
 ---
 

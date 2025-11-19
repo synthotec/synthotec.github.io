@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (10)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -80,6 +82,16 @@ This form handles **15** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | MaintenanceLogText | Select a machine maintenance action above to view / record a maintenance entry | 📄 text | ✅ | ✅ | ❌ | - | - |
 | MachineRequirementsText | Select a maintenance action to specify which machines it applies to | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [MachineMaintenanceActions](../Tables/MachineMaintenanceActions.md) - Data source for MachineMaintenance form
+- [MachineMaintenanceLog](../Tables/MachineMaintenanceLog.md) - Data source for MachineMaintenance form
+- [MachineMaintenanceRequirements](../Tables/MachineMaintenanceRequirements.md) - Data source for MachineMaintenance form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for MachineMaintenance form
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Data source for MachineMaintenance form
 
 ---
 

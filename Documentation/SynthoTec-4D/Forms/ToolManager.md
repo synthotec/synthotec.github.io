@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (12)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (6)
 
 ---
 
@@ -75,6 +77,17 @@ This form handles **16** of **44** possible events:
 | Input | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity=Null:C1517 ? "Tool Notices" : _Text("Tool Notices for Tool :1 (:2)").parse(Form:C1466.ToolsEntity.Tool_No; Form:C1466.ToolsEntity.ProduictEntity.OurPartName) | - |
 | Button4 | ➕New Tool Notice | 🔘 button | ✅ | ✅ | ❌ | - | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/Button4.4dm) |
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolNoticeSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolManager/ObjectMethods/List%20Box1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Staff](../Tables/Staff.md) - Data source for ToolManager form
+- [Tools](../Tables/Tools.md) - Data source for ToolManager form
+- [HotHalfs](../Tables/HotHalfs.md) - Data source for ToolManager form
+- [Permissions](../Tables/Permissions.md) - Data source for ToolManager form
+- [ToolNotice](../Tables/ToolNotice.md) - Data source for ToolManager form
+- [Grippers](../Tables/Grippers.md) - Data source for ToolManager form
 
 ---
 

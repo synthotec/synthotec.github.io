@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (2)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -66,6 +68,14 @@ This form handles **16** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CurrentDownTime/ObjectMethods/List%20Box.4dm) |
 | Text | Right click a machine to change it's downtime reason | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [RealTimeMachines](../Tables/RealTimeMachines.md) - Data source for CurrentDownTime form
+- [DownReasons](../Tables/DownReasons.md) - Data source for CurrentDownTime form
+- [NominalCodes](../Tables/NominalCodes.md) - Data source for CurrentDownTime form
 
 ---
 

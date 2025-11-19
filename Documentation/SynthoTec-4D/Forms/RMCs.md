@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (3)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (7)
 
 ---
 
@@ -66,6 +68,18 @@ This form handles **16** of **44** possible events:
 | Variable2 | - | 📝 input | ✅ | ✅ | ❌ | "RELOAD RMC DATA" | [Variable2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/Variable2.4dm) |
 | SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | Form:C1466.Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/SearchPicker.4dm) |
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RMCSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/RMCs/ObjectMethods/List%20Box1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [RMC](../Tables/RMC.md) - Data source for RMCs form
+- [Purchases](../Tables/Purchases.md) - Data source for RMCs form
+- [Permissions](../Tables/Permissions.md) - Data source for RMCs form
+- [lockEntity](../Tables/lockEntity.md) - Data source for RMCs form
+- [MaterialStockTake](../Tables/MaterialStockTake.md) - Data source for RMCs form
+- [MaterialCheckHistory](../Tables/MaterialCheckHistory.md) - Data source for RMCs form
+- [MaterialStock](../Tables/MaterialStock.md) - Data source for RMCs form
 
 ---
 

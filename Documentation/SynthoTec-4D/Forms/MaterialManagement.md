@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (1)
 - [🧩 Form Objects](#-form-objects) (14)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -77,6 +79,15 @@ This form handles **1** of **44** possible events:
 | Datepicker | - | 🔲 subform | ✅ | ✅ | ❌ | vDate | [Datepicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Datepicker.4dm) |
 | Variable | - | 📝 input | ✅ | ✅ | ❌ | vDate | - |
 | Button2 | Print A4 RMC Sheets | 🔘 button | ✅ | ✅ | ❌ | Button4 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialManagement/ObjectMethods/Button2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [MaterialStock](../Tables/MaterialStock.md) - Data source for MaterialManagement form
+- [MaterialLog](../Tables/MaterialLog.md) - Data source for MaterialManagement form
+- [Material](../Tables/Material.md) - Data source for MaterialManagement form
+- [RMC](../Tables/RMC.md) - Data source for MaterialManagement form
 
 ---
 

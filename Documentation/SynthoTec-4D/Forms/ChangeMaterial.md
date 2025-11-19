@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (3)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -67,6 +69,13 @@ This form handles **16** of **44** possible events:
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | - |
 | Button | Change | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeMaterial/ObjectMethods/Button.4dm) |
 | Button1 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ChangeMaterial/ObjectMethods/Button1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Material](../Tables/Material.md) - Data source for ChangeMaterial form
+- [Product](../Tables/Product.md) - Data source for ChangeMaterial form
 
 ---
 

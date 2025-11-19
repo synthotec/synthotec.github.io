@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (2)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -66,6 +68,13 @@ This form handles **16** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 | Button | Update Last Ordered Dates | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplierManager/ObjectMethods/Button.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Suppliers](../Tables/Suppliers.md) - Data source for SupplierManager form
+- [Purchases](../Tables/Purchases.md) - Data source for SupplierManager form
 
 ---
 

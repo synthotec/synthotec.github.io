@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (10)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -74,6 +76,13 @@ This form handles **16** of **44** possible events:
 | Text1 | Document Reference | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Variable1 | - | 📝 input | ✅ | ✅ | ❌ | vFileName | - |
 | Text2 | Document Valid Until | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [SupplierDocumentation](../Tables/SupplierDocumentation.md) - Data source for SupplierDocumentationAdd form
+- [Suppliers](../Tables/Suppliers.md) - Data source for SupplierDocumentationAdd form
 
 ---
 

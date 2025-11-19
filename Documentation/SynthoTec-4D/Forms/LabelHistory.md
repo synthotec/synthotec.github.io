@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (4)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -67,6 +69,13 @@ This form handles **16** of **44** possible events:
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.BoxLabelsSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/List%20Box1.4dm) |
 | Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.SortMethodsObject | [Popup Dropdown List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelHistory/ObjectMethods/Popup%20Dropdown%20List.4dm) |
 | Text | Sorting Method | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Settings](../Tables/Settings.md) - Data source for LabelHistory form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for LabelHistory form
 
 ---
 

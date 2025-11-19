@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (18)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (8)
 
 ---
 
@@ -82,6 +84,19 @@ This form handles **16** of **44** possible events:
 | Check Box1 | Add to previous stock take | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.AddToPreviousStockTake | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Check%20Box1.4dm) |
 | Button2 | Add Scanned Results | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button2.4dm) |
 | Button4 | 📅 Set Next STock Take Date | 🔘 button | ✅ | ✅ | ❌ | Button | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockTakeInput/ObjectMethods/Button4.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [MaterialStockTake](../Tables/MaterialStockTake.md) - Data source for StockTakeInput form
+- [RealTime](../Tables/RealTime.md) - Data source for StockTakeInput form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for StockTakeInput form
+- [Tools](../Tables/Tools.md) - Data source for StockTakeInput form
+- [Material](../Tables/Material.md) - Data source for StockTakeInput form
+- [RMC](../Tables/RMC.md) - Data source for StockTakeInput form
+- [MaterialStock](../Tables/MaterialStock.md) - Data source for StockTakeInput form
+- [Settings](../Tables/Settings.md) - Data source for StockTakeInput form
 
 ---
 

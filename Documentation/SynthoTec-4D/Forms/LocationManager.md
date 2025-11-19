@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (5)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -69,6 +71,15 @@ This form handles **15** of **44** possible events:
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.StockListboxCollection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/List%20Box1.4dm) |
 | SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | Form_Search | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/SearchPicker.4dm) |
 | Check Box | Only Show Stock With Locations | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.OnlyShowWithLocations | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LocationManager/ObjectMethods/Check%20Box.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Settings](../Tables/Settings.md) - Data source for LocationManager form
+- [Location](../Tables/Location.md) - Data source for LocationManager form
+- [Pallet](../Tables/Pallet.md) - Data source for LocationManager form
+- [lockEntity](../Tables/lockEntity.md) - Data source for LocationManager form
 
 ---
 

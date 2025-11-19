@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (3)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -73,6 +75,15 @@ This form handles **15** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ToolsEntity.ToolDocumentSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolDocuments/ObjectMethods/List%20Box1.4dm) |
 | Button | ➕ Add New Tool Document | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ToolDocuments/ObjectMethods/Button.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Tools](../Tables/Tools.md) - Data source for ToolDocuments form
+- [Permissions](../Tables/Permissions.md) - Data source for ToolDocuments form
+- [ToolDocument](../Tables/ToolDocument.md) - Data source for ToolDocuments form
+- [lockEntity](../Tables/lockEntity.md) - Data source for ToolDocuments form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (24)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (6)
 
 ---
 
@@ -125,6 +127,17 @@ Press CTRL+C to copy the text.
 Then click Import Clipboard Data | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Variable4 | - | 📝 input | ✅ | ✅ | ❌ | "SKF Outbound Report" | - |
 | Button8 | Print Report | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button8.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SNRSUMMARY/ObjectMethods/Button8.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product](../Tables/Product.md) - Data source for SNRSUMMARY form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for SNRSUMMARY form
+- [Stock_Location](../Tables/Stock_Location.md) - Data source for SNRSUMMARY form
+- [Finished_Stock](../Tables/Finished_Stock.md) - Data source for SNRSUMMARY form
+- [CofC](../Tables/CofC.md) - Data source for SNRSUMMARY form
+- [Stock_Movement](../Tables/Stock_Movement.md) - Data source for SNRSUMMARY form
 
 ---
 

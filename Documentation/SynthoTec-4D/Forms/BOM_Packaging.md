@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (1)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -64,6 +66,15 @@ This form handles **16** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | MaterialList | - | 📋 listbox | ✅ | ✅ | ❌ | - | [MaterialList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM_Packaging/ObjectMethods/MaterialList.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Supplies](../Tables/Supplies.md) - Data source for BOM_Packaging form
+- [SalesForecast](../Tables/SalesForecast.md) - Data source for BOM_Packaging form
+- [Product](../Tables/Product.md) - Data source for BOM_Packaging form
+- [Material](../Tables/Material.md) - Data source for BOM_Packaging form
 
 ---
 

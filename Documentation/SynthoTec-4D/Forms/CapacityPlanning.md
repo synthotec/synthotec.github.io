@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (24)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (6)
 
 ---
 
@@ -88,6 +90,17 @@ This form handles **16** of **44** possible events:
 | Text1 | Snapshot Date | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Button9 | New Window | 🔘 button | ✅ | ✅ | ❌ | Button9 | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Button9.4dm) |
 | Check Box3 | Hide Zero Forecast Lines | ☑️ checkbox | ✅ | ✅ | ❌ | CapacityPlanning_HideZero | [Check Box3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CapacityPlanning/ObjectMethods/Check%20Box3.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Planning](../Tables/Planning.md) - Data source for CapacityPlanning form
+- [Product](../Tables/Product.md) - Data source for CapacityPlanning form
+- [SalesForecast](../Tables/SalesForecast.md) - Data source for CapacityPlanning form
+- [Tools](../Tables/Tools.md) - Data source for CapacityPlanning form
+- [PlanningSettings](../Tables/PlanningSettings.md) - Data source for CapacityPlanning form
+- [EquipmentStock](../Tables/EquipmentStock.md) - Data source for CapacityPlanning form
 
 ---
 

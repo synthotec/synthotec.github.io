@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (8)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -71,6 +73,13 @@ This form handles **16** of **44** possible events:
 | AddMissingButton | Set Products Without Symbols | 🔘 button | ✅ | ✅ | ❌ | - | [AddMissingButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/AddMissingButton.4dm) |
 | EmojiManagerButton | Open Symbol Manager | 🔘 button | ✅ | ✅ | ❌ | - | [EmojiManagerButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/EmojiManagerButton.4dm) |
 | List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.ProductSelection | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/WarehouseOptions/ObjectMethods/List%20Box1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product](../Tables/Product.md) - Data source for WarehouseOptions form
+- [PalletMethods](../Tables/PalletMethods.md) - Data source for WarehouseOptions form
 
 ---
 

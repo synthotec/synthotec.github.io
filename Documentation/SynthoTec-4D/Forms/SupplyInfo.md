@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (9)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -72,6 +74,14 @@ This form handles **16** of **44** possible events:
 | Button1 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Button1.4dm) |
 | Check Box1 | Material | ☑️ checkbox | ✅ | ✅ | ❌ | varRaw | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SupplyInfo/ObjectMethods/Check%20Box1.4dm) |
 | Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | SupplyInfo_MaterialNames | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [PackagingCats](../Tables/PackagingCats.md) - Data source for SupplyInfo form
+- [Material](../Tables/Material.md) - Data source for SupplyInfo form
+- [Supplies](../Tables/Supplies.md) - Data source for SupplyInfo form
 
 ---
 

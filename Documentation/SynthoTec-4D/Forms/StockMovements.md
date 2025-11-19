@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (4)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -67,6 +69,14 @@ This form handles **16** of **44** possible events:
 | Variable | - | 📝 input | ✅ | ✅ | ❌ | vSearch | [Variable.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable.4dm) |
 | Variable1 | - | 📝 input | ✅ | ✅ | ❌ | xbox | [Variable1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StockMovements/ObjectMethods/Variable1.4dm) |
 | Text | The search function has been improved! You can now search by name, quantity, works order, CofC, advice note or movement reason. | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Stock_Movement](../Tables/Stock_Movement.md) - Data source for StockMovements form
+- [Stock_Location](../Tables/Stock_Location.md) - Data source for StockMovements form
+- [CofC](../Tables/CofC.md) - Data source for StockMovements form
 
 ---
 

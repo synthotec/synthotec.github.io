@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (26)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (6)
 
 ---
 
@@ -95,6 +97,17 @@ This form handles **16** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | Button1 | NEW ENTRY | 🔘 button | ✅ | ✅ | ❌ | scrapbutton | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/NewScrapEntry/ObjectMethods/Button1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Scrap](../Tables/Scrap.md) - Data source for NewScrapEntry form
+- [Staff](../Tables/Staff.md) - Data source for NewScrapEntry form
+- [Product](../Tables/Product.md) - Data source for NewScrapEntry form
+- [Tools](../Tables/Tools.md) - Data source for NewScrapEntry form
+- [Material](../Tables/Material.md) - Data source for NewScrapEntry form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for NewScrapEntry form
 
 ---
 

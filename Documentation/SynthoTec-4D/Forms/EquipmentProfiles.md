@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (7)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -70,6 +72,13 @@ This form handles **16** of **44** possible events:
 | Button2 | Approve Profile | 🔘 button | ✅ | ✅ | ❌ | Button | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button2.4dm) |
 | Button3 | Open List Editor | 🔘 button | ✅ | ✅ | ❌ | Button3 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentProfiles/ObjectMethods/Button3.4dm) |
 | Field | - | 📝 input | ✅ | ✅ | ❌ | [EquipmentProfiles:59]PalletLayout:10 | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [EquipmentProfiles](../Tables/EquipmentProfiles.md) - Data source for EquipmentProfiles form
+- [Tools](../Tables/Tools.md) - Data source for EquipmentProfiles form
 
 ---
 

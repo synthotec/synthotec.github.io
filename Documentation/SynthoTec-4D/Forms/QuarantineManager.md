@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (17)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -80,6 +82,14 @@ This form handles **16** of **44** possible events:
 | Text6 | Parts to Move | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text7 | Boxes to Move | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Button2 | Button | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/QuarantineManager/ObjectMethods/Button2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product](../Tables/Product.md) - Data source for QuarantineManager form
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for QuarantineManager form
+- [Finished_Stock](../Tables/Finished_Stock.md) - Data source for QuarantineManager form
 
 ---
 

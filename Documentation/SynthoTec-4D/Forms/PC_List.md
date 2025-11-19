@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (7)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -71,6 +73,12 @@ This form handles **16** of **44** possible events:
 | Button3 | Cancel | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button3.4dm) |
 | Button | Save | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PC_List/ObjectMethods/Button.4dm) |
 | Text | - | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [PackagingCats](../Tables/PackagingCats.md) - Data source for PC_List form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (1)
 - [🧩 Form Objects](#-form-objects) (6)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -70,6 +72,15 @@ This form handles **1** of **44** possible events:
 | Button | Create EDI File | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/Button.4dm) |
 | DateEntry | - | 🔲 subform | ✅ | ✅ | ❌ | vDate | [DateEntry.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EDIgenerator/ObjectMethods/DateEntry.4dm) |
 | Variable | - | 📝 input | ✅ | ✅ | ❌ | vWeight | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Stock_Location](../Tables/Stock_Location.md) - Data source for EDIgenerator form
+- [Stock_Movement](../Tables/Stock_Movement.md) - Data source for EDIgenerator form
+- [Product](../Tables/Product.md) - Data source for EDIgenerator form
+- [Tools](../Tables/Tools.md) - Data source for EDIgenerator form
 
 ---
 

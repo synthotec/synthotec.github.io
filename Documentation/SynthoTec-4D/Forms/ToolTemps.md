@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (13)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -83,6 +85,16 @@ This form handles **15** of **44** possible events:
 | TextBox_SelectATool | SELECT A TOOL TO VIEW ITS EXCEPTIONS | 📄 text | ✅ | ✅ | ❌ | - | - |
 | TextBox_SelectAnException | SELECT AN EXCEPTION TO VIEW ITS CYCLE HISTORY | 📄 text | ✅ | ✅ | ❌ | - | - |
 | TextBox_TemperatureTargets | SELECT A TOOL TO VIEW ITS TEMPERATURE TARGETS | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Tools](../Tables/Tools.md) - Data source for ToolTemps form
+- [ToolTemperatureZone](../Tables/ToolTemperatureZone.md) - Data source for ToolTemps form
+- [RealTime](../Tables/RealTime.md) - Data source for ToolTemps form
+- [ToolTemperatureTarget](../Tables/ToolTemperatureTarget.md) - Data source for ToolTemps form
+- [FieldHistory](../Tables/FieldHistory.md) - Data source for ToolTemps form
 
 ---
 

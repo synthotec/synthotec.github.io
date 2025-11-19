@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (1)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -65,6 +67,12 @@ This form handles **15** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.EmojisSelection.orderBy("Category ASC, Name ASC") | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Emojis](../Tables/Emojis.md) - Data source for EmojiManager form
 
 ---
 

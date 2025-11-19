@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (2)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -65,6 +67,12 @@ This form handles **16** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 | Button | Add New Hot Half | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/HotHalfManager/ObjectMethods/Button.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [HotHalfs](../Tables/HotHalfs.md) - Data source for HotHalfManager form
 
 ---
 

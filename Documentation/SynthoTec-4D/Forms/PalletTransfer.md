@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (9)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -72,6 +74,15 @@ This form handles **16** of **44** possible events:
 | Button2 | Transfer | 🔘 button | ✅ | ✅ | ❌ | Button2 | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletTransfer/ObjectMethods/Button2.4dm) |
 | Text1 | To | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text | From | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Pallet_IDs](../Tables/Pallet_IDs.md) - Data source for PalletTransfer form
+- [Stock_Location](../Tables/Stock_Location.md) - Data source for PalletTransfer form
+- [Pallet](../Tables/Pallet.md) - Data source for PalletTransfer form
+- [Product](../Tables/Product.md) - Data source for PalletTransfer form
 
 ---
 

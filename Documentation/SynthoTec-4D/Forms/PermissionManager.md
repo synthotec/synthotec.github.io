@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (9)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -74,6 +76,14 @@ This form handles **15** of **44** possible events:
 | SubjectFilter | - | 🔲 subform | ✅ | ✅ | ❌ | Permissions_Subject_Filter | [SubjectFilter.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/SubjectFilter.4dm) |
 | ObjectFilter | - | 🔲 subform | ✅ | ✅ | ❌ | Permissions_Object_Filter | [ObjectFilter.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/ObjectFilter.4dm) |
 | Button2 | Add New Permission | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PermissionManager/ObjectMethods/Button2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Permissions](../Tables/Permissions.md) - Data source for PermissionManager form
+- [Staff](../Tables/Staff.md) - Data source for PermissionManager form
+- [StaffPermissions](../Tables/StaffPermissions.md) - Data source for PermissionManager form
 
 ---
 

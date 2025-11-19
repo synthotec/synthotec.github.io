@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (11)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (10)
 
 ---
 
@@ -85,6 +87,21 @@ This form handles **16** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.CustomerSelection | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/List%20Box2.4dm) |
 | Button | Update Boxes / Pallet Quantity | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackagingOptions/ObjectMethods/Button.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [ProductPackaging](../Tables/ProductPackaging.md) - Data source for PackagingOptions form
+- [Product](../Tables/Product.md) - Data source for PackagingOptions form
+- [Customer](../Tables/Customer.md) - Data source for PackagingOptions form
+- [Permissions](../Tables/Permissions.md) - Data source for PackagingOptions form
+- [Supplies](../Tables/Supplies.md) - Data source for PackagingOptions form
+- [Material](../Tables/Material.md) - Data source for PackagingOptions form
+- [lockEntity](../Tables/lockEntity.md) - Data source for PackagingOptions form
+- [PackingInstructionFiles](../Tables/PackingInstructionFiles.md) - Data source for PackagingOptions form
+- [Tools](../Tables/Tools.md) - Data source for PackagingOptions form
+- [ProductMaterialOptions](../Tables/ProductMaterialOptions.md) - Data source for PackagingOptions form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (42)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -104,6 +106,16 @@ This form handles **16** of **44** possible events:
 | Text38 | To Tools | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text175 | Select Tool | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text1 | Search | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Tools](../Tables/Tools.md) - Data source for ToolDisplay4 form
+- [Product](../Tables/Product.md) - Data source for ToolDisplay4 form
+- [DISABLED](../Tables/DISABLED.md) - Data source for ToolDisplay4 form
+- [Products](../Tables/Products.md) - Data source for ToolDisplay4 form
+- [Purchases](../Tables/Purchases.md) - Data source for ToolDisplay4 form
 
 ---
 

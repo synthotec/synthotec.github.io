@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (6)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -71,6 +73,12 @@ This form handles **15** of **44** possible events:
 | Button* | PURGE TRANSLATIONS - BUTTON TO BE REMOVED | 🔘 button | ✅ | ❌ | ❌ | - | [Button%2A.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/TranslationManager/ObjectMethods/Button%2A.4dm) |
 | Text1* | DOUBLE CLICK THE ORIGINAL TEXT TO MOVE IT TO THE TRANSLATED TEXT SECTION | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Text2* | <PART> test | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Translation](../Tables/Translation.md) - Data source for TranslationManager form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (3)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -67,6 +69,12 @@ This form handles **16** of **44** possible events:
 | Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | vType | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
 | Button | ADD | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/EquipmentStock/ObjectMethods/Button.4dm) |
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [EquipmentStock](../Tables/EquipmentStock.md) - Data source for EquipmentStock form
 
 ---
 

@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (6)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -70,6 +72,15 @@ This form handles **15** of **44** possible events:
 | PalletDespatchList_Title | PalletDespatchList_Title | 📄 text | ✅ | ✅ | ❌ | - | - |
 | PalletDespatchList_Company | SynthoTec Ltd | 📄 text | ✅ | ✅ | ❌ | - | - |
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PalletDespatchList/ObjectMethods/List%20Box.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Advice_Note](../Tables/Advice_Note.md) - Data source for PalletDespatchList form
+- [BoxLabels](../Tables/BoxLabels.md) - Data source for PalletDespatchList form
+- [Pallet](../Tables/Pallet.md) - Data source for PalletDespatchList form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for PalletDespatchList form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (12)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -75,6 +77,13 @@ This form handles **16** of **44** possible events:
 | PopupDate1 | - | 🔲 subform | ✅ | ✅ | ❌ | vEndDate | [PopupDate1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/PopupDate1.4dm) |
 | Variable2 | - | 📝 input | ✅ | ✅ | ❌ | vEndDate | - |
 | Button3 | Close | 🔘 button | ✅ | ✅ | ❌ | Button | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PackingListGenerator/ObjectMethods/Button3.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer](../Tables/Customer.md) - Data source for PackingListGenerator form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for PackingListGenerator form
 
 ---
 

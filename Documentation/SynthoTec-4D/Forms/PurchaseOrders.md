@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (19)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -92,6 +94,16 @@ This form handles **16** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | Input1 | - | 📝 input | ✅ | ✅ | ❌ | "Select a Purchase Order line to see the full description and book / view receipts" | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Purchases](../Tables/Purchases.md) - Data source for PurchaseOrders form
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Data source for PurchaseOrders form
+- [Suppliers](../Tables/Suppliers.md) - Data source for PurchaseOrders form
+- [NominalCodes](../Tables/NominalCodes.md) - Data source for PurchaseOrders form
+- [Staff](../Tables/Staff.md) - Data source for PurchaseOrders form
 
 ---
 

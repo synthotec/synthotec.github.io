@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (9)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -77,6 +79,13 @@ Select Apply To Forecast to commit the schedule changes (You should aim to have 
 | Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | Forecast_ImportYear | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ForecastImporter/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
 | Text2 | Import Year | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Variable | - | 📝 input | ✅ | ✅ | ❌ | LastUpdated | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [SalesForecast](../Tables/SalesForecast.md) - Data source for ForecastImporter form
+- [Product](../Tables/Product.md) - Data source for ForecastImporter form
 
 ---
 

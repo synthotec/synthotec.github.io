@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (26)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -88,6 +90,12 @@ This form handles **16** of **44** possible events:
 | Text6 | Final Date (Blank = Never) | 📄 text | ✅ | ✅ | ❌ | - | - |
 | bArchive | ARCHIVE THIS COMPANY NOTICE | 🔘 button | ✅ | ✅ | ❌ | - | [bArchive.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CompanyNotices/ObjectMethods/bArchive.4dm) |
 | Variable1 | - | 📝 input | ✅ | ✅ | ❌ | LockedBy | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [CompanyNotices](../Tables/CompanyNotices.md) - Data source for CompanyNotices form
 
 ---
 

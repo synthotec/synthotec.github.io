@@ -23,6 +23,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (2)
 - [🧩 Form Objects](#-form-objects) (6)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (7)
 
 ---
 
@@ -69,6 +71,18 @@ This form handles **2** of **44** possible events:
 | Text1 | CTRL + CLICK A CELL TO VIEW ITS HISTORY | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Button | Add Price Option | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button.4dm) |
 | Button1 | Regenerate SSL Orders | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Pricing/ObjectMethods/Button1.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product_Option](../Tables/Product_Option.md) - Data source for Pricing form
+- [Tools](../Tables/Tools.md) - Data source for Pricing form
+- [Product](../Tables/Product.md) - Data source for Pricing form
+- [Material](../Tables/Material.md) - Data source for Pricing form
+- [FieldHistory](../Tables/FieldHistory.md) - Data source for Pricing form
+- [lockEntity](../Tables/lockEntity.md) - Data source for Pricing form
+- [SalesForecast](../Tables/SalesForecast.md) - Data source for Pricing form
 
 ---
 

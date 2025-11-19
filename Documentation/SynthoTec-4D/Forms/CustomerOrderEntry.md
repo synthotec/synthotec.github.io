@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (35)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -110,6 +112,16 @@ This form handles **16** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | Text6 | SELECT A TOOL AND PRICE OPTION | 📄 text | ✅ | ✅ | ❌ | - | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Product_Option](../Tables/Product_Option.md) - Data source for CustomerOrderEntry form
+- [Customer](../Tables/Customer.md) - Data source for CustomerOrderEntry form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for CustomerOrderEntry form
+- [Product](../Tables/Product.md) - Data source for CustomerOrderEntry form
+- [Tools](../Tables/Tools.md) - Data source for CustomerOrderEntry form
 
 ---
 

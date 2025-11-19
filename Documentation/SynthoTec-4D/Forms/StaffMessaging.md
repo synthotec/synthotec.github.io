@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (12)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (1)
 
 ---
 
@@ -77,6 +79,12 @@ This form handles **15** of **44** possible events:
 | Input3 | - | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSLimit | - |
 | Input4 | - | 📝 input | ✅ | ✅ | ❌ | StaffMessaging_SMSCredits | - |
 | Button3 | Send Messages | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/StaffMessaging/ObjectMethods/Button3.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Staff](../Tables/Staff.md) - Data source for StaffMessaging form
 
 ---
 

@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (13)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -77,6 +79,16 @@ This form handles **16** of **44** possible events:
 | Button1 | Export this material outlook to CSV file | 🔘 button | ✅ | ✅ | ❌ | Button1 | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Button1.4dm) |
 | Check Box1 | Treat Safety Stock Target as Zero | ☑️ checkbox | ✅ | ✅ | ❌ | DeductSafety | [Check Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box1.4dm) |
 | Check Box2 | Treat all IMR as A3HG5 Natural | ☑️ checkbox | ✅ | ✅ | ❌ | UseAllA3HG5 | [Check Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/MaterialOutlook/ObjectMethods/Check%20Box2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [PurchaseInfo](../Tables/PurchaseInfo.md) - Data source for MaterialOutlook form
+- [WheelCalendar](../Tables/WheelCalendar.md) - Data source for MaterialOutlook form
+- [MaterialStockTake](../Tables/MaterialStockTake.md) - Data source for MaterialOutlook form
+- [Material](../Tables/Material.md) - Data source for MaterialOutlook form
+- [Supplies](../Tables/Supplies.md) - Data source for MaterialOutlook form
 
 ---
 

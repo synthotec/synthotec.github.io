@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (5)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (6)
 
 ---
 
@@ -69,6 +71,17 @@ This form handles **16** of **44** possible events:
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | - | - |
 | Button1 | Undo Selected Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button1.4dm) |
 | Button2 | Undo Entire Advice Note and Keep Pallet IDS | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/CancelAdviceNote/ObjectMethods/Button2.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [CofC](../Tables/CofC.md) - Data source for CancelAdviceNote form
+- [Finished_Stock](../Tables/Finished_Stock.md) - Data source for CancelAdviceNote form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for CancelAdviceNote form
+- [Stock_Movement](../Tables/Stock_Movement.md) - Data source for CancelAdviceNote form
+- [Pallet](../Tables/Pallet.md) - Data source for CancelAdviceNote form
+- [BoxLabels](../Tables/BoxLabels.md) - Data source for CancelAdviceNote form
 
 ---
 

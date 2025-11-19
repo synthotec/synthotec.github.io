@@ -27,6 +27,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (10)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 - [📸 Screenshots](#-screenshots) (1)
   - [BOM Management Screen](#bom-management-screen)
 
@@ -79,6 +81,15 @@ This form handles **17** of **44** possible events:
 | Button | Add Product + Customer Line | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button.4dm) |
 | Button2 | Cancel Changes | 🔘 button | ✅ | ✅ | ❌ | - | [Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button2.4dm) |
 | Button3 | Save Changes | 🔘 button | ✅ | ✅ | ❌ | - | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/BOM/ObjectMethods/Button3.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [BOM](../Tables/BOM.md) - Data source for BOM form
+- [Product](../Tables/Product.md) - Data source for BOM form
+- [Material](../Tables/Material.md) - Data source for BOM form
+- [Product_Option](../Tables/Product_Option.md) - Data source for BOM form
 
 ## 📸 Screenshots
 

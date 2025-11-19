@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (4)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -69,6 +71,16 @@ This form handles **16** of **44** possible events:
 | Button | Read Clipboard Data | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SIMImporter/ObjectMethods/Button.4dm) |
 | Button1 | Create Orders | 🔘 button | ✅ | ✅ | ❌ | - | [Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/SIMImporter/ObjectMethods/Button1.4dm) |
 | Popup Dropdown List | - | 📥 dropdown | ✅ | ✅ | ❌ | SIMImporter_ImportType | - |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for SIMImporter form
+- [Product_Option](../Tables/Product_Option.md) - Data source for SIMImporter form
+- [Product](../Tables/Product.md) - Data source for SIMImporter form
+- [Tools](../Tables/Tools.md) - Data source for SIMImporter form
+- [Customer](../Tables/Customer.md) - Data source for SIMImporter form
 
 ---
 

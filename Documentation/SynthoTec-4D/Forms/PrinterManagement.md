@@ -25,6 +25,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (15)
 - [🧩 Form Objects](#-form-objects) (2)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -67,6 +69,13 @@ This form handles **15** of **44** possible events:
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | List Box | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.PrinterSelection | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PrinterManagement/ObjectMethods/List%20Box.4dm) |
 | Button | Add New Printer | 🔘 button | ✅ | ✅ | ❌ | - | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/PrinterManagement/ObjectMethods/Button.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Printer](../Tables/Printer.md) - Data source for PrinterManagement form
+- [lockEntity](../Tables/lockEntity.md) - Data source for PrinterManagement form
 
 ---
 

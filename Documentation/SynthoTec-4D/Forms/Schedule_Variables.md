@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (1)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (2)
 
 ---
 
@@ -65,6 +67,13 @@ This form handles **17** of **44** possible events:
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
 | MaterialList | - | 📋 listbox | ✅ | ✅ | ❌ | - | [MaterialList.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/Schedule_Variables/ObjectMethods/MaterialList.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for Schedule_Variables form
+- [Settings](../Tables/Settings.md) - Data source for Schedule_Variables form
 
 ---
 

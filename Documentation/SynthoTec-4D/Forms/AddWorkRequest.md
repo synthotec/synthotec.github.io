@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (17)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (5)
 
 ---
 
@@ -81,6 +83,16 @@ This form handles **16** of **44** possible events:
 | Text5 | Tool | 📄 text | ✅ | ✅ | ❌ | - | - |
 | Popup Drop down List1 | - | 📥 dropdown | ✅ | ✅ | ❌ | AddWorkRequest_ToolArray | [Popup Drop down List1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/Popup%20Drop%20down%20List1.4dm) |
 | SearchPicker | - | 🔲 subform | ✅ | ✅ | ❌ | AddWorkRequest_ToolSearch | [SearchPicker.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/AddWorkRequest/ObjectMethods/SearchPicker.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Staff](../Tables/Staff.md) - Data source for AddWorkRequest form
+- [Tools](../Tables/Tools.md) - Data source for AddWorkRequest form
+- [WorkFaults](../Tables/WorkFaults.md) - Data source for AddWorkRequest form
+- [WorkRequests](../Tables/WorkRequests.md) - Data source for AddWorkRequest form
+- [WorkRequestComments](../Tables/WorkRequestComments.md) - Data source for AddWorkRequest form
 
 ---
 

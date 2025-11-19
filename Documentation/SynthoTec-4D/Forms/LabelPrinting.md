@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (17)
 - [🧩 Form Objects](#-form-objects) (18)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (4)
 
 ---
 
@@ -92,6 +94,15 @@ This form handles **17** of **44** possible events:
 | Variable3 | - | 📝 input | ✅ | ✅ | ❌ | InputMandrels | [Variable3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelPrinting/ObjectMethods/Variable3.4dm) |
 | Variable4 | - | 📝 input | ✅ | ✅ | ❌ | TranslateText("PARTS") | [Variable4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelPrinting/ObjectMethods/Variable4.4dm) |
 | Variable5 | - | 📝 input | ✅ | ✅ | ❌ | InputParts | [Variable5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/LabelPrinting/ObjectMethods/Variable5.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [WorksOrder](../Tables/WorksOrder.md) - Data source for LabelPrinting form
+- [Staff](../Tables/Staff.md) - Data source for LabelPrinting form
+- [Product](../Tables/Product.md) - Data source for LabelPrinting form
+- [BoxLabels](../Tables/BoxLabels.md) - Data source for LabelPrinting form
 
 ---
 

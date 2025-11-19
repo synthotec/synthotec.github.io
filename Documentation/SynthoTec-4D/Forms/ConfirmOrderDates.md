@@ -24,6 +24,8 @@ parent : Forms
 
 - [🎯 Form Events](#-form-events) (16)
 - [🧩 Form Objects](#-form-objects) (22)
+- [🔗 Related Items](#-related-items)
+  - [Tables](#️-tables) (3)
 
 ---
 
@@ -86,6 +88,14 @@ This form handles **16** of **44** possible events:
 | Variable9 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oDespatch-oReceived)+" Days / "+String:C10(Round:C94((oDespatch-oReceived)/7; 1))+" Weeks" | - |
 | Variable10 | - | 📝 input | ✅ | ✅ | ❌ | String:C10(oArrival-oReceived)+" Days / "+String:C10(Round:C94((oArrival-oReceived)/7; 1))+" Weeks" | - |
 | Variable11 | - | 📝 input | ✅ | ✅ | ❌ | oLeadTimeNotice | [Variable11.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/ConfirmOrderDates/ObjectMethods/Variable11.4dm) |
+
+## 🔗 Related Items
+
+### 🗂️ Tables
+
+- [Customer](../Tables/Customer.md) - Data source for ConfirmOrderDates form
+- [Customer_Order](../Tables/Customer_Order.md) - Data source for ConfirmOrderDates form
+- [Staff](../Tables/Staff.md) - Data source for ConfirmOrderDates form
 
 ---
 
