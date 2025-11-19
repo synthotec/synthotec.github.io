@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (8)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (13)
 
 ---
 
@@ -117,6 +120,29 @@ parent : Tables
 | `BOMSelection` | [BOM](BOM.md) | `Customer` → `Customer_Code` | Active | - |
 | `CustomerContactsSelection` | [CustomerContacts](CustomerContacts.md) | `Customer` → `Customer_Code` | Active | - |
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `Customer` → `Customer_Code` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Customer](../Classes/Customer.md) - ORDA DataClass class for Customer table
+- [CustomerEntity](../Classes/CustomerEntity.md) - ORDA Entity class for Customer table
+
+### 📄 Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [BOM_CustomerTransport](../Forms/BOM_CustomerTransport.md) - Data source for BOM_CustomerTransport form
+- [ConfirmOrderDates](../Forms/ConfirmOrderDates.md) - Data source for ConfirmOrderDates form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Data source for ConsignmentEntry form
+- [CustomerInput](../Forms/CustomerInput.md) - Data source for CustomerInput form
+- [CustomerOrderEntry](../Forms/CustomerOrderEntry.md) - Data source for CustomerOrderEntry form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PackingListGenerator](../Forms/PackingListGenerator.md) - Data source for PackingListGenerator form
+- [SIMImporter](../Forms/SIMImporter.md) - Data source for SIMImporter form
 
 ---
 
