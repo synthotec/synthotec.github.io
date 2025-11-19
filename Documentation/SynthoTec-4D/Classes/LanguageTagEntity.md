@@ -3,7 +3,7 @@ layout : default
 title : LanguageTagEntity
 parent : Classes
 ---
-# LanguageTagEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LanguageTagEntity.4dm)
+# LanguageTagEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LanguageTagEntity.4dm)
 
 📊 **Overview:** 
 

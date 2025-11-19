@@ -3,7 +3,7 @@ layout : default
 title : ClassInspector
 parent : Classes
 ---
-# ClassInspector [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassInspector.4dm)
+# ClassInspector [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassInspector.4dm)
 
 📊 **Overview:** 10 Properties | 1 Constructor | 14 Functions
 

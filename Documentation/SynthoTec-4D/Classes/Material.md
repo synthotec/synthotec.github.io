@@ -3,7 +3,7 @@ layout : default
 title : Material
 parent : Classes
 ---
-# Material [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Material.4dm)
+# Material [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Material.4dm)
 
 📊 **Overview:** 1 Functions
 

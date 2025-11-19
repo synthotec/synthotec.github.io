@@ -3,7 +3,7 @@ layout : default
 title : WorksOrderEntity
 parent : Classes
 ---
-# WorksOrderEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
+# WorksOrderEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
 
 📊 **Overview:** 7 Functions | 6 Getters
 

@@ -3,7 +3,7 @@ layout : default
 title : PackingInstructionFilesEntity
 parent : Classes
 ---
-# PackingInstructionFilesEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackingInstructionFilesEntity.4dm)
+# PackingInstructionFilesEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PackingInstructionFilesEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

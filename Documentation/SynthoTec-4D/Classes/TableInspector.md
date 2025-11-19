@@ -3,7 +3,7 @@ layout : default
 title : TableInspector
 parent : Classes
 ---
-# TableInspector [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/TableInspector.4dm)
+# TableInspector [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/TableInspector.4dm)
 
 📊 **Overview:** 1 Constructor | 14 Functions
 

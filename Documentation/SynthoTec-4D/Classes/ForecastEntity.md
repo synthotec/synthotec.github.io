@@ -3,7 +3,7 @@ layout : default
 title : ForecastEntity
 parent : Classes
 ---
-# ForecastEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ForecastEntity.4dm)
+# ForecastEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ForecastEntity.4dm)
 
 📊 **Overview:** 1 Getters
 

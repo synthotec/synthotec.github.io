@@ -3,7 +3,7 @@ layout : default
 title : Customer
 parent : Classes
 ---
-# Customer [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer.4dm)
+# Customer [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer.4dm)
 
 📊 **Overview:** 1 Functions
 

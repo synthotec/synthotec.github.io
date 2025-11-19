@@ -3,7 +3,7 @@ layout : default
 title : PlanningWheelEntity
 parent : Classes
 ---
-# PlanningWheelEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheelEntity.4dm)
+# PlanningWheelEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheelEntity.4dm)
 
 📊 **Overview:** 
 

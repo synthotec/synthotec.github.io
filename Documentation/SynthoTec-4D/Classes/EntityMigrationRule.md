@@ -3,7 +3,7 @@ layout : default
 title : EntityMigrationRule
 parent : Classes
 ---
-# EntityMigrationRule [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntityMigrationRule.4dm)
+# EntityMigrationRule [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntityMigrationRule.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 

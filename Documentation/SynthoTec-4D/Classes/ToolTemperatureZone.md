@@ -3,7 +3,7 @@ layout : default
 title : ToolTemperatureZone
 parent : Classes
 ---
-# ToolTemperatureZone [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureZone.4dm)
+# ToolTemperatureZone [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureZone.4dm)
 
 📊 **Overview:** 1 Functions
 

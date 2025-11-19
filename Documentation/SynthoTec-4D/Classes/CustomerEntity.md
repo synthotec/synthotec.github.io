@@ -3,7 +3,7 @@ layout : default
 title : CustomerEntity
 parent : Classes
 ---
-# CustomerEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerEntity.4dm)
+# CustomerEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerEntity.4dm)
 
 📊 **Overview:** 2 Functions | 1 Getters
 

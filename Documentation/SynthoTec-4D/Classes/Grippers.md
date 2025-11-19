@@ -3,7 +3,7 @@ layout : default
 title : Grippers
 parent : Classes
 ---
-# Grippers [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Grippers.4dm)
+# Grippers [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Grippers.4dm)
 
 📊 **Overview:** 1 Functions
 

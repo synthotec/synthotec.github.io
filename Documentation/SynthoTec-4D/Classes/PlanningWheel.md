@@ -3,7 +3,7 @@ layout : default
 title : PlanningWheel
 parent : Classes
 ---
-# PlanningWheel [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheel.4dm)
+# PlanningWheel [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PlanningWheel.4dm)
 
 📊 **Overview:** 2 Functions
 

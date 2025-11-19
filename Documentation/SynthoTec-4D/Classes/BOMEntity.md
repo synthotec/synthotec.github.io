@@ -3,7 +3,7 @@ layout : default
 title : BOMEntity
 parent : Classes
 ---
-# BOMEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOMEntity.4dm)
+# BOMEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOMEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

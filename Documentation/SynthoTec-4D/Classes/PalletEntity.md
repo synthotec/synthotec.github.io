@@ -3,7 +3,7 @@ layout : default
 title : PalletEntity
 parent : Classes
 ---
-# PalletEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
+# PalletEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
 
 📊 **Overview:** 9 Functions | 4 Getters
 

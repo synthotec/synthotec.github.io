@@ -3,7 +3,7 @@ layout : default
 title : ProcurementProgramLine
 parent : Classes
 ---
-# ProcurementProgramLine [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgramLine.4dm)
+# ProcurementProgramLine [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgramLine.4dm)
 
 📊 **Overview:** 18 Properties | 1 Constructor | 14 Functions | 13 Getters
 

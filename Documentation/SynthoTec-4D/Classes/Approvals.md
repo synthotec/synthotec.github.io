@@ -3,7 +3,7 @@ layout : default
 title : Approvals
 parent : Classes
 ---
-# Approvals [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Approvals.4dm)
+# Approvals [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Approvals.4dm)
 
 📊 **Overview:** 1 Functions
 

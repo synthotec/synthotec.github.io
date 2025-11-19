@@ -3,7 +3,7 @@ layout : default
 title : LanguageEntity
 parent : Classes
 ---
-# LanguageEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LanguageEntity.4dm)
+# LanguageEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LanguageEntity.4dm)
 
 📊 **Overview:** 
 

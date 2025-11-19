@@ -3,7 +3,7 @@ layout : default
 title : ExampleClass
 parent : Classes
 ---
-# ExampleClass [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExampleClass.4dm)
+# ExampleClass [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExampleClass.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters
 

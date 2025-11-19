@@ -3,7 +3,7 @@ layout : default
 title : GitHubApi
 parent : Classes
 ---
-# GitHubApi [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/GitHubApi.4dm)
+# GitHubApi [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/GitHubApi.4dm)
 
 📊 **Overview:** 1 Constructor | 4 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : Staff
 parent : Classes
 ---
-# Staff [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
+# Staff [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Staff.4dm)
 
 📊 **Overview:** 4 Functions
 

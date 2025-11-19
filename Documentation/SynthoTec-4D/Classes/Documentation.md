@@ -3,7 +3,7 @@ layout : default
 title : Documentation
 parent : Classes
 ---
-# Documentation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Documentation.4dm)
+# Documentation [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Documentation.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 17 Functions
 

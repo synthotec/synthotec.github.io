@@ -3,7 +3,7 @@ layout : default
 title : PickRequest
 parent : Classes
 ---
-# PickRequest [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequest.4dm)
+# PickRequest [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PickRequest.4dm)
 
 📊 **Overview:** 11 Functions
 

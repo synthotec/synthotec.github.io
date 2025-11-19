@@ -3,7 +3,7 @@ layout : default
 title : Graph
 parent : Classes
 ---
-# Graph [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Graph.4dm)
+# Graph [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Graph.4dm)
 
 📊 **Overview:** 1 Constructor | 1 Functions
 

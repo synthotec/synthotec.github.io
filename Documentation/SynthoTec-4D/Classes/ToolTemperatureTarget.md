@@ -3,7 +3,7 @@ layout : default
 title : ToolTemperatureTarget
 parent : Classes
 ---
-# ToolTemperatureTarget [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTarget.4dm)
+# ToolTemperatureTarget [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolTemperatureTarget.4dm)
 
 📊 **Overview:** 2 Functions
 

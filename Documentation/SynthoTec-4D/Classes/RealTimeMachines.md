@@ -3,7 +3,7 @@ layout : default
 title : RealTimeMachines
 parent : Classes
 ---
-# RealTimeMachines [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachines.4dm)
+# RealTimeMachines [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeMachines.4dm)
 
 📊 **Overview:** 1 Functions
 

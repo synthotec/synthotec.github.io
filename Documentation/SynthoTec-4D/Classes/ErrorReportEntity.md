@@ -3,7 +3,7 @@ layout : default
 title : ErrorReportEntity
 parent : Classes
 ---
-# ErrorReportEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorReportEntity.4dm)
+# ErrorReportEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ErrorReportEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

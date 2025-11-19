@@ -3,7 +3,7 @@ layout : default
 title : RealTimeSensorExceptionsEntity
 parent : Classes
 ---
-# RealTimeSensorExceptionsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsEntity.4dm)
+# RealTimeSensorExceptionsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeSensorExceptionsEntity.4dm)
 
 📊 **Overview:** 3 Functions | 4 Getters
 

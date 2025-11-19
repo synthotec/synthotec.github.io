@@ -3,7 +3,7 @@ layout : default
 title : PrintingEntity
 parent : Classes
 ---
-# PrintingEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintingEntity.4dm)
+# PrintingEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintingEntity.4dm)
 
 📊 **Overview:** 
 

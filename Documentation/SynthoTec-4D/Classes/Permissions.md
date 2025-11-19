@@ -3,7 +3,7 @@ layout : default
 title : Permissions
 parent : Classes
 ---
-# Permissions [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Permissions.4dm)
+# Permissions [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Permissions.4dm)
 
 📊 **Overview:** 2 Functions
 

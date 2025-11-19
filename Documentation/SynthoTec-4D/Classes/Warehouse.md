@@ -3,7 +3,7 @@ layout : default
 title : Warehouse
 parent : Classes
 ---
-# Warehouse [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Warehouse.4dm)
+# Warehouse [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Warehouse.4dm)
 
 📊 **Overview:** 8 Functions
 

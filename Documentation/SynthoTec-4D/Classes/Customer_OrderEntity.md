@@ -3,7 +3,7 @@ layout : default
 title : Customer_OrderEntity
 parent : Classes
 ---
-# Customer_OrderEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
+# Customer_OrderEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
 
 📊 **Overview:** 9 Functions | 6 Getters | 1 Setters
 

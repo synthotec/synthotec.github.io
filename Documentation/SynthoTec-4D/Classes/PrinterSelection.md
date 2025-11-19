@@ -3,7 +3,7 @@ layout : default
 title : PrinterSelection
 parent : Classes
 ---
-# PrinterSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
+# PrinterSelection [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterSelection.4dm)
 
 📊 **Overview:** 1 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : RealTimeOutputMachine
 parent : Classes
 ---
-# RealTimeOutputMachine [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeOutputMachine.4dm)
+# RealTimeOutputMachine [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeOutputMachine.4dm)
 
 📊 **Overview:** 10 Properties | 1 Constructor | 6 Functions | 16 Getters
 

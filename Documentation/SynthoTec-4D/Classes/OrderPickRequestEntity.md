@@ -3,7 +3,7 @@ layout : default
 title : OrderPickRequestEntity
 parent : Classes
 ---
-# OrderPickRequestEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
+# OrderPickRequestEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/OrderPickRequestEntity.4dm)
 
 📊 **Overview:** 1 Functions | 6 Getters | 3 Setters
 

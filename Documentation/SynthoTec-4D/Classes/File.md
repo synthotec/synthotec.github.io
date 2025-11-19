@@ -3,7 +3,7 @@ layout : default
 title : File
 parent : Classes
 ---
-# File [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/File.4dm)
+# File [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/File.4dm)
 
 📊 **Overview:** 1 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : ExcelXMLFile
 parent : Classes
 ---
-# ExcelXMLFile [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExcelXMLFile.4dm)
+# ExcelXMLFile [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ExcelXMLFile.4dm)
 
 📊 **Overview:** 7 Properties | 1 Constructor | 7 Functions
 

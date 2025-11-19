@@ -3,7 +3,7 @@ layout : default
 title : ApprovalsEntity
 parent : Classes
 ---
-# ApprovalsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ApprovalsEntity.4dm)
+# ApprovalsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ApprovalsEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

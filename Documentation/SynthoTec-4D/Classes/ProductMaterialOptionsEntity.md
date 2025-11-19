@@ -3,7 +3,7 @@ layout : default
 title : ProductMaterialOptionsEntity
 parent : Classes
 ---
-# ProductMaterialOptionsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptionsEntity.4dm)
+# ProductMaterialOptionsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductMaterialOptionsEntity.4dm)
 
 📊 **Overview:** 2 Functions | 1 Getters
 

@@ -3,7 +3,7 @@ layout : default
 title : RealTime
 parent : Classes
 ---
-# RealTime [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTime.4dm)
+# RealTime [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTime.4dm)
 
 📊 **Overview:** 5 Functions | 2 Getters
 

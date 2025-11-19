@@ -3,7 +3,7 @@ layout : default
 title : Forecast
 parent : Classes
 ---
-# Forecast [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Forecast.4dm)
+# Forecast [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Forecast.4dm)
 
 📊 **Overview:** 2 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : Tools
 parent : Classes
 ---
-# Tools [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Tools.4dm)
+# Tools [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Tools.4dm)
 
 📊 **Overview:** 2 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : LocationEntity
 parent : Classes
 ---
-# LocationEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
+# LocationEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
 
 📊 **Overview:** 5 Functions | 5 Getters
 

@@ -3,7 +3,7 @@ layout : default
 title : GaugesEntity
 parent : Classes
 ---
-# GaugesEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/GaugesEntity.4dm)
+# GaugesEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/GaugesEntity.4dm)
 
 📊 **Overview:** 
 

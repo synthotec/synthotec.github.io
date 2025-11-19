@@ -3,7 +3,7 @@ layout : default
 title : Printer
 parent : Classes
 ---
-# Printer [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
+# Printer [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Printer.4dm)
 
 📊 **Overview:** 3 Functions
 

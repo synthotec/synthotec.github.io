@@ -3,7 +3,7 @@ layout : default
 title : RealTimeOutput
 parent : Classes
 ---
-# RealTimeOutput [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeOutput.4dm)
+# RealTimeOutput [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RealTimeOutput.4dm)
 
 📊 **Overview:** 1 Constructor | 5 Getters
 

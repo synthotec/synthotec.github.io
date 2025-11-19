@@ -3,7 +3,7 @@ layout : default
 title : ToolNotice
 parent : Classes
 ---
-# ToolNotice [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
+# ToolNotice [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNotice.4dm)
 
 📊 **Overview:** 1 Functions
 

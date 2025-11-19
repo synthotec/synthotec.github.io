@@ -3,7 +3,7 @@ layout : default
 title : MaterialEntity
 parent : Classes
 ---
-# MaterialEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialEntity.4dm)
+# MaterialEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialEntity.4dm)
 
 📊 **Overview:** 3 Functions | 1 Getters
 

@@ -3,7 +3,7 @@ layout : default
 title : ToolDocument
 parent : Classes
 ---
-# ToolDocument [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolDocument.4dm)
+# ToolDocument [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolDocument.4dm)
 
 📊 **Overview:** 1 Functions
 

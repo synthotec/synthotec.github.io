@@ -3,7 +3,7 @@ layout : default
 title : Supplies
 parent : Classes
 ---
-# Supplies [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Supplies.4dm)
+# Supplies [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Supplies.4dm)
 
 📊 **Overview:** 1 Functions
 

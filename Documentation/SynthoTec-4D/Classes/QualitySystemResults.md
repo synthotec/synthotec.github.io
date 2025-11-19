@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemResults
 parent : Classes
 ---
-# QualitySystemResults [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QualitySystemResults.4dm)
+# QualitySystemResults [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QualitySystemResults.4dm)
 
 📊 **Overview:** 
 

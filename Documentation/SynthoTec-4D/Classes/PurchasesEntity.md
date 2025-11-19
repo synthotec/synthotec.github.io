@@ -3,7 +3,7 @@ layout : default
 title : PurchasesEntity
 parent : Classes
 ---
-# PurchasesEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchasesEntity.4dm)
+# PurchasesEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchasesEntity.4dm)
 
 📊 **Overview:** 
 

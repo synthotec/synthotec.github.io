@@ -3,7 +3,7 @@ layout : default
 title : ProductPackaging
 parent : Classes
 ---
-# ProductPackaging [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductPackaging.4dm)
+# ProductPackaging [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductPackaging.4dm)
 
 📊 **Overview:** 3 Functions
 

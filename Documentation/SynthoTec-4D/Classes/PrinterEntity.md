@@ -3,7 +3,7 @@ layout : default
 title : PrinterEntity
 parent : Classes
 ---
-# PrinterEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterEntity.4dm)
+# PrinterEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrinterEntity.4dm)
 
 📊 **Overview:** 5 Functions | 5 Getters
 

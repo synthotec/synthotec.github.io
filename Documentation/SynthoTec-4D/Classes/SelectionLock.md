@@ -3,7 +3,7 @@ layout : default
 title : SelectionLock
 parent : Classes
 ---
-# SelectionLock [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SelectionLock.4dm)
+# SelectionLock [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SelectionLock.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
 

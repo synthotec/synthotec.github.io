@@ -3,7 +3,7 @@ layout : default
 title : Pallet
 parent : Classes
 ---
-# Pallet [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
+# Pallet [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Pallet.4dm)
 
 📊 **Overview:** 15 Functions
 

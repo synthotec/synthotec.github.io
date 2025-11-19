@@ -3,7 +3,7 @@ layout : default
 title : Email
 parent : Classes
 ---
-# Email [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Email.4dm)
+# Email [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Email.4dm)
 
 📊 **Overview:** 2 Properties | 1 Constructor | 12 Functions
 

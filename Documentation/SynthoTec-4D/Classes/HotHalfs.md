@@ -3,7 +3,7 @@ layout : default
 title : HotHalfs
 parent : Classes
 ---
-# HotHalfs [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/HotHalfs.4dm)
+# HotHalfs [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/HotHalfs.4dm)
 
 📊 **Overview:** 1 Functions
 

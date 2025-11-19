@@ -3,7 +3,7 @@ layout : default
 title : Log
 parent : Classes
 ---
-# Log [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Log.4dm)
+# Log [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Log.4dm)
 
 📊 **Overview:** 2 Functions
 

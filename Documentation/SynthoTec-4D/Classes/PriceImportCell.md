@@ -3,7 +3,7 @@ layout : default
 title : PriceImportCell
 parent : Classes
 ---
-# PriceImportCell [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PriceImportCell.4dm)
+# PriceImportCell [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PriceImportCell.4dm)
 
 📊 **Overview:** 
 

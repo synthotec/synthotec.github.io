@@ -3,7 +3,7 @@ layout : default
 title : ShiftSummaryEntity
 parent : Classes
 ---
-# ShiftSummaryEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryEntity.4dm)
+# ShiftSummaryEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ShiftSummaryEntity.4dm)
 
 📊 **Overview:** 1 Functions | 2 Getters
 

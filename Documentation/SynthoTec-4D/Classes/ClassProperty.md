@@ -3,7 +3,7 @@ layout : default
 title : ClassProperty
 parent : Classes
 ---
-# ClassProperty [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassProperty.4dm)
+# ClassProperty [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassProperty.4dm)
 
 📊 **Overview:** 1 Constructor | 2 Functions
 

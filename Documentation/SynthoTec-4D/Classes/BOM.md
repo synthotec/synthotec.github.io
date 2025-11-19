@@ -3,7 +3,7 @@ layout : default
 title : BOM
 parent : Classes
 ---
-# BOM [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOM.4dm)
+# BOM [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BOM.4dm)
 
 📊 **Overview:** 1 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : HotHalfsEntity
 parent : Classes
 ---
-# HotHalfsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/HotHalfsEntity.4dm)
+# HotHalfsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/HotHalfsEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

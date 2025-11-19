@@ -3,7 +3,7 @@ layout : default
 title : ClassParameter
 parent : Classes
 ---
-# ClassParameter [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassParameter.4dm)
+# ClassParameter [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassParameter.4dm)
 
 📊 **Overview:** 1 Constructor | 1 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : MachineMaintenanceLogEntity
 parent : Classes
 ---
-# MachineMaintenanceLogEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MachineMaintenanceLogEntity.4dm)
+# MachineMaintenanceLogEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MachineMaintenanceLogEntity.4dm)
 
 📊 **Overview:** 2 Getters
 

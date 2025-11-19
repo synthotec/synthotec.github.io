@@ -3,7 +3,7 @@ layout : default
 title : PalletSelection
 parent : Classes
 ---
-# PalletSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletSelection.4dm)
+# PalletSelection [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletSelection.4dm)
 
 📊 **Overview:** 1 Functions
 

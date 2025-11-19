@@ -3,7 +3,7 @@ layout : default
 title : ToolNoticeEntity
 parent : Classes
 ---
-# ToolNoticeEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNoticeEntity.4dm)
+# ToolNoticeEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolNoticeEntity.4dm)
 
 📊 **Overview:** 2 Functions | 3 Getters
 

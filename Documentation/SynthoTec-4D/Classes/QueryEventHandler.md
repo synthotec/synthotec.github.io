@@ -3,7 +3,7 @@ layout : default
 title : QueryEventHandler
 parent : Classes
 ---
-# QueryEventHandler [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QueryEventHandler.4dm)
+# QueryEventHandler [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QueryEventHandler.4dm)
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 

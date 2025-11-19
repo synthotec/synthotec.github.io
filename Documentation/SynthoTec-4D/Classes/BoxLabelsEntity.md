@@ -3,7 +3,7 @@ layout : default
 title : BoxLabelsEntity
 parent : Classes
 ---
-# BoxLabelsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
+# BoxLabelsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
 
 📊 **Overview:** 8 Functions | 19 Getters
 

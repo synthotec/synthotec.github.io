@@ -3,7 +3,7 @@ layout : default
 title : CustomerContacts
 parent : Classes
 ---
-# CustomerContacts [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerContacts.4dm)
+# CustomerContacts [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CustomerContacts.4dm)
 
 📊 **Overview:** 1 Functions
 

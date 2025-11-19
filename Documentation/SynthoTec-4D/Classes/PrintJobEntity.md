@@ -3,7 +3,7 @@ layout : default
 title : PrintJobEntity
 parent : Classes
 ---
-# PrintJobEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintJobEntity.4dm)
+# PrintJobEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PrintJobEntity.4dm)
 
 📊 **Overview:** 1 Functions
 

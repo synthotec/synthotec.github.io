@@ -3,7 +3,7 @@ layout : default
 title : Translation
 parent : Classes
 ---
-# Translation [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Translation.4dm)
+# Translation [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Translation.4dm)
 
 📊 **Overview:** 4 Functions | 2 Getters
 

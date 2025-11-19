@@ -3,7 +3,7 @@ layout : default
 title : RMCEntity
 parent : Classes
 ---
-# RMCEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RMCEntity.4dm)
+# RMCEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RMCEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

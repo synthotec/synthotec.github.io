@@ -3,7 +3,7 @@ layout : default
 title : _UnitTestResult
 parent : Classes
 ---
-# _UnitTestResult [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/_UnitTestResult.4dm)
+# _UnitTestResult [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/_UnitTestResult.4dm)
 
 📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
 

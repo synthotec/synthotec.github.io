@@ -3,7 +3,7 @@ layout : default
 title : MaterialStockEntity
 parent : Classes
 ---
-# MaterialStockEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockEntity.4dm)
+# MaterialStockEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStockEntity.4dm)
 
 📊 **Overview:** 1 Functions
 

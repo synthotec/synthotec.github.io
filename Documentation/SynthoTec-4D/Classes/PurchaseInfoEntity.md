@@ -3,7 +3,7 @@ layout : default
 title : PurchaseInfoEntity
 parent : Classes
 ---
-# PurchaseInfoEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchaseInfoEntity.4dm)
+# PurchaseInfoEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PurchaseInfoEntity.4dm)
 
 📊 **Overview:** 1 Functions | 2 Getters
 

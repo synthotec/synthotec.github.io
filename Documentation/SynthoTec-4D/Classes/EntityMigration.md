@@ -3,7 +3,7 @@ layout : default
 title : EntityMigration
 parent : Classes
 ---
-# EntityMigration [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntityMigration.4dm)
+# EntityMigration [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/EntityMigration.4dm)
 
 📊 **Overview:** 6 Properties | 1 Constructor | 10 Functions | 7 Getters
 

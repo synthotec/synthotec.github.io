@@ -3,7 +3,7 @@ layout : default
 title : RTSUMSelection
 parent : Classes
 ---
-# RTSUMSelection [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUMSelection.4dm)
+# RTSUMSelection [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RTSUMSelection.4dm)
 
 📊 **Overview:** 1 Functions
 

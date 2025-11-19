@@ -3,7 +3,7 @@ layout : default
 title : Advice_NoteEntity
 parent : Classes
 ---
-# Advice_NoteEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
+# Advice_NoteEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Advice_NoteEntity.4dm)
 
 📊 **Overview:** 4 Functions
 

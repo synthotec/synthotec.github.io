@@ -3,7 +3,7 @@ layout : default
 title : QualitySystemProceduresEntity
 parent : Classes
 ---
-# QualitySystemProceduresEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QualitySystemProceduresEntity.4dm)
+# QualitySystemProceduresEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/QualitySystemProceduresEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

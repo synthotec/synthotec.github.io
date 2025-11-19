@@ -3,7 +3,7 @@ layout : default
 title : SuppliesEntity
 parent : Classes
 ---
-# SuppliesEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SuppliesEntity.4dm)
+# SuppliesEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SuppliesEntity.4dm)
 
 📊 **Overview:** 2 Functions
 

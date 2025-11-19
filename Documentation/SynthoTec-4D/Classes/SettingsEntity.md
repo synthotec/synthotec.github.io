@@ -3,7 +3,7 @@ layout : default
 title : SettingsEntity
 parent : Classes
 ---
-# SettingsEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SettingsEntity.4dm)
+# SettingsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SettingsEntity.4dm)
 
 📊 **Overview:** 5 Functions
 

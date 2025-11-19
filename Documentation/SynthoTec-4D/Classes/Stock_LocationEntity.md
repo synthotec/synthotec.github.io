@@ -3,7 +3,7 @@ layout : default
 title : Stock_LocationEntity
 parent : Classes
 ---
-# Stock_LocationEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_LocationEntity.4dm)
+# Stock_LocationEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_LocationEntity.4dm)
 
 📊 **Overview:** 
 

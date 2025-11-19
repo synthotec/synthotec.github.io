@@ -3,7 +3,7 @@ layout : default
 title : ToolLogEntity
 parent : Classes
 ---
-# ToolLogEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolLogEntity.4dm)
+# ToolLogEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolLogEntity.4dm)
 
 📊 **Overview:** 
 

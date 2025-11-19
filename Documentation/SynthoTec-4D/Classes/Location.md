@@ -3,7 +3,7 @@ layout : default
 title : Location
 parent : Classes
 ---
-# Location [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Location.4dm)
+# Location [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Location.4dm)
 
 📊 **Overview:** 4 Functions
 

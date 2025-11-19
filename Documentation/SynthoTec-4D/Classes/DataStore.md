@@ -3,7 +3,7 @@ layout : default
 title : DataStore
 parent : Classes
 ---
-# DataStore [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/DataStore.4dm)
+# DataStore [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/DataStore.4dm)
 
 📊 **Overview:** 19 Functions
 

@@ -3,7 +3,7 @@ layout : default
 title : Stock_Location
 parent : Classes
 ---
-# Stock_Location [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
+# Stock_Location [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Stock_Location.4dm)
 
 📊 **Overview:** 1 Functions | 3 Getters
 

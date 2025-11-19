@@ -3,7 +3,7 @@ layout : default
 title : Loading
 parent : Classes
 ---
-# Loading [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Loading.4dm)
+# Loading [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Loading.4dm)
 
 📊 **Overview:** 1 Constructor | 2 Functions
 

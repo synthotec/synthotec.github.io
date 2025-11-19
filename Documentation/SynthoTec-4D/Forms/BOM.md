@@ -9,7 +9,7 @@ parent : Forms
 
 ## 📝 Description
 
-🗨️ This is a test to see if manual comments work on the BOM form documentation
+🗨️ This is a test to see if manual comments work on the BOM form documentation XYZ
 
 ## ℹ️ Form Information
 

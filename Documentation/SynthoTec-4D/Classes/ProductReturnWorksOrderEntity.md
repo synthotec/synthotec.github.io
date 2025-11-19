@@ -3,7 +3,7 @@ layout : default
 title : ProductReturnWorksOrderEntity
 parent : Classes
 ---
-# ProductReturnWorksOrderEntity [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductReturnWorksOrderEntity.4dm)
+# ProductReturnWorksOrderEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProductReturnWorksOrderEntity.4dm)
 
 📊 **Overview:** 
 

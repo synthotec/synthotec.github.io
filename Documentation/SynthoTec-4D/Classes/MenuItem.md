@@ -3,7 +3,7 @@ layout : default
 title : MenuItem
 parent : Classes
 ---
-# MenuItem [![GitHub](../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MenuItem.4dm)
+# MenuItem [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MenuItem.4dm)
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
