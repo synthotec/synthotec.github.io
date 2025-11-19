@@ -43,6 +43,26 @@ Function getMigrationSettings -> Object
 
 - [Customer](../Tables/Customer.md) - Source table for this ORDA class
 
+### � Related Classes
+
+- [CustomerEntity](CustomerEntity.md) - ORDA Entity class for Customer table
+
+### � Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Form uses Customer table
+- [BOM_CustomerTransport](../Forms/BOM_CustomerTransport.md) - Form uses Customer table
+- [ConfirmOrderDates](../Forms/ConfirmOrderDates.md) - Form uses Customer table
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Form uses Customer table
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Form uses Customer table
+- [CustomerInput](../Forms/CustomerInput.md) - Form uses Customer table
+- [CustomerOrderEntry](../Forms/CustomerOrderEntry.md) - Form uses Customer table
+- [CustomerOrders](../Forms/CustomerOrders.md) - Form uses Customer table
+- [Manufacture](../Forms/Manufacture.md) - Form uses Customer table
+- [OrderDelivery](../Forms/OrderDelivery.md) - Form uses Customer table
+- [PackagingOptions](../Forms/PackagingOptions.md) - Form uses Customer table
+- [PackingListGenerator](../Forms/PackingListGenerator.md) - Form uses Customer table
+- [SIMImporter](../Forms/SIMImporter.md) - Form uses Customer table
+
 ---
 
 *Generated from Customer.4dm*
