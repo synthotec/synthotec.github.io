@@ -9,7 +9,7 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
+This.CompiledClassesObject:=This.getCompiledClassesObject($CompileCode)
 
 🕐 *Last updated: 2025-11-14T16:53:00.442Z*
 
@@ -38,6 +38,7 @@ parent : Classes
     - [_generateMarkdownForForm](#_generatemarkdownforform) (1 param) → `Text`
     - [_getObjectTypeEmoji](#_getobjecttypeemoji) (1 param) → `Text`
     - [getClassJsonCollection](#getclassjsoncollection) → `$ClassJsonCollection : Collection`
+
 ---
 
 ## Properties {#properties}

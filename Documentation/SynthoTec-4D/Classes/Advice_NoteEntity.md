@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:02.472Z*
+🕐 *Last updated: 2025-11-19T21:53:01.955Z*
 
 ---
 
@@ -22,6 +22,7 @@ parent : Classes
     - [tryEmailMaterialCertificates](#tryemailmaterialcertificates) 🖥️
     - [cancel](#cancel) → `$Cancelled : Boolean` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

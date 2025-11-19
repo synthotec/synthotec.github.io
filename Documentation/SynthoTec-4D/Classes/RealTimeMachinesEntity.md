@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:03.599Z*
+🕐 *Last updated: 2025-11-19T21:53:03.910Z*
 
 ---
 
@@ -26,6 +26,7 @@ parent : Classes
     - [WorksOrder](#worksorder) 🔍 → `Integer`
     - [WorksOrderEntity](#worksorderentity) 🔍 → `cs.WorksOrderEntity`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

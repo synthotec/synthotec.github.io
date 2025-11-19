@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:02.598Z*
+🕐 *Last updated: 2025-11-19T21:53:02.218Z*
 
 ---
 
@@ -20,6 +20,7 @@ parent : Classes
     - [classicMakeOrderSort](#classicmakeordersort) (1 param) 🖥️
     - [classicOrderOverviewSort](#classicorderoverviewsort) (1 param) 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:02.744Z*
+🕐 *Last updated: 2025-11-19T21:53:02.430Z*
 
 ---
 
@@ -26,6 +26,7 @@ parent : Classes
     - [LastOccurrence](#lastoccurrence) 🔍 → `Text`
     - [ListboxMeta->$ListboxMeta](#listboxmeta->$listboxmeta) 🔍 → `cs.UI.ListBoxMeta`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

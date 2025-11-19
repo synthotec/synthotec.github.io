@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:03.976Z*
+🕐 *Last updated: 2025-11-19T21:53:04.648Z*
 
 ---
 
@@ -32,6 +32,7 @@ parent : Classes
     - [IsRunning](#isrunning) 🔍 🔎 → `Boolean`
     - [WIP](#wip) 🔍 → `Integer`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

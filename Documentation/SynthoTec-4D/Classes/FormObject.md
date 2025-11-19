@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-19T18:12:02.907Z*
+🕐 *Last updated: 2025-11-19T21:53:02.677Z*
 
 ---
 
@@ -50,6 +50,7 @@ parent : Classes
     - [VerticalScrollPosition](#verticalscrollposition) 🔍 ✏️ → `Integer`
     - [Visible](#visible) 🔍 ✏️ → `Boolean`
     - [Width](#width) 🔍 ✏️ → `Integer`
+
 ---
 
 ## Properties {#properties}

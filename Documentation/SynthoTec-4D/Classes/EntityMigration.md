@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Initialize migration manager for a specific dataclass with optional remote selection for linking
+Initialize migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-19T18:12:02.703Z*
+🕐 *Last updated: 2025-11-19T21:53:02.346Z*
 
 ---
 
@@ -39,6 +39,7 @@ parent : Classes
     - [LinkingEnabled](#linkingenabled) 🔍 → `Boolean`
     - [MigrationPropertyExists](#migrationpropertyexists) 🔍 → `Boolean`
     - [NewEntityPropertyFormulas](#newentitypropertyformulas) 🔍 → `Collection`
+
 ---
 
 ## Properties {#properties}

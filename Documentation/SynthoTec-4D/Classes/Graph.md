@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:02.929Z*
+🕐 *Last updated: 2025-11-19T21:53:02.747Z*
 
 ---
 
@@ -17,6 +17,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [generate](#generate) → `$Picture : Picture`
+
 ---
 
 ## Constructor {#constructor}

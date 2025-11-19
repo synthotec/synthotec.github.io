@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:03.774Z*
+🕐 *Last updated: 2025-11-19T21:53:04.255Z*
 
 ---
 
@@ -22,6 +22,7 @@ parent : Classes
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [FullName](#fullname) 🔍 → `Text`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

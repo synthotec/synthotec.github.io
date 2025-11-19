@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:03.421Z*
+🕐 *Last updated: 2025-11-19T21:53:03.528Z*
 
 ---
 
@@ -22,6 +22,7 @@ parent : Classes
     - [save](#save) (1 param) → `cs.PrintSettings`
     - [apply](#apply) → `$Success : Boolean`
     - [restore](#restore) → `$Success : Boolean`
+
 ---
 
 ## Properties {#properties}

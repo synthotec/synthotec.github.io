@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-19T18:12:03.433Z*
+🕐 *Last updated: 2025-11-19T21:53:03.565Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AllLinesActioned](#alllinesactioned) 🔍 → `Boolean`
     - [UnactionedLines](#unactionedlines) 🔍 → `Collection`
+
 ---
 
 ## Properties {#properties}

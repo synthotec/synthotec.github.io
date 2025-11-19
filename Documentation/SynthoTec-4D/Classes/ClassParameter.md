@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Stores metadata about a function parameter
+Stores metadata about a function parameter
 
-🕐 *Last updated: 2025-11-19T18:12:02.557Z*
+🕐 *Last updated: 2025-11-19T21:53:02.099Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [toObject](#toobject) → `Object`
+
 ---
 
 ## Constructor {#constructor}

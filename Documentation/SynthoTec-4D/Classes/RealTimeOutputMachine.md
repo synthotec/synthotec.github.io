@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ MARK:Primary Colors
+MARK:Primary Colors
 
-🕐 *Last updated: 2025-11-19T18:12:03.656Z*
+🕐 *Last updated: 2025-11-19T21:53:03.980Z*
 
 ---
 
@@ -44,6 +44,7 @@ parent : Classes
     - [UnacknowledgedSensorExceptions](#unacknowledgedsensorexceptions) 🔍 → `Boolean`
     - [UnicodeSymbolsText](#unicodesymbolstext) 🔍 → `Text`
     - [WorksOrderIsOpen](#worksorderisopen) 🔍 → `Boolean`
+
 ---
 
 ## Properties {#properties}

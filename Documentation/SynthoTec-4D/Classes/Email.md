@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Creates a new email with the specified subject and HTML body
+Creates a new email with the specified subject and HTML body
 
-🕐 *Last updated: 2025-11-19T21:36:23.435Z*
+🕐 *Last updated: 2025-11-19T21:53:02.305Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
     - [setSubject](#setsubject) (1 param)
     - [attachFile](#attachfile) (2 params)
     - [send](#send) → `$EmailSent : Boolean`
+
 ---
 
 ## Properties {#properties}

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:02.575Z*
+🕐 *Last updated: 2025-11-19T21:53:02.150Z*
 
 ---
 
@@ -26,6 +26,7 @@ parent : Classes
     - [GetCurrentValue](#getcurrentvalue) → `$currentValue : Variant`
     - [GetCurrentPrimaryKey](#getcurrentprimarykey) → `$currentPrimaryKey : Integer`
     - [GetCurrentEntity](#getcurrententity) → `$currentEntity : 4D.Entity`
+
 ---
 
 ## Constructor {#constructor}

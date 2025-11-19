@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-19T18:12:03.913Z*
+🕐 *Last updated: 2025-11-19T21:53:04.565Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [displayResultsAlert](#displayresultsalert)
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [Success](#success) 🔍 → `Boolean`
+
 ---
 
 ## Properties {#properties}

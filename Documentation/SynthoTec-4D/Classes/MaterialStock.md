@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.054Z*
+🕐 *Last updated: 2025-11-19T21:53:02.974Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`
     - [restLocateMaterialStock](#restlocatematerialstock) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

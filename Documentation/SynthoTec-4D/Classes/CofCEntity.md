@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:02.566Z*
+🕐 *Last updated: 2025-11-19T21:53:02.132Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [cancel](#cancel) → `$Cancelled : Boolean`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

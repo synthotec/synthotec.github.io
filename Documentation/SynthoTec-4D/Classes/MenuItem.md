@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-19T18:12:03.092Z*
+🕐 *Last updated: 2025-11-19T21:53:03.047Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [_process](#_process) → `Variant`
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [_Style](#_style) 🔍 → `Integer`
+
 ---
 
 ## Properties {#properties}

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.070Z*
+🕐 *Last updated: 2025-11-19T21:53:03.005Z*
 
 ---
 
@@ -23,6 +23,7 @@ parent : Classes
     - [restViewResults](#restviewresults) (1 param) → `Object`
     - [restRemoveEntry](#restremoveentry) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

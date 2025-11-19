@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.218Z*
+🕐 *Last updated: 2025-11-19T21:53:03.216Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
     - [restReassignLocation](#restreassignlocation) (1 param) → `Object`
     - [restLoadPallet](#restloadpallet) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

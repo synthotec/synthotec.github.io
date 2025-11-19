@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-19T18:12:03.405Z*
+🕐 *Last updated: 2025-11-19T21:53:03.483Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [getLabelPrinters](#getlabelprinters) → `$PrinterSelection : cs.PrinterSelection` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

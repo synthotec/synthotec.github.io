@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:02.835Z*
+🕐 *Last updated: 2025-11-19T21:53:02.573Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [display](#display) (4 params) 🖥️
     - [triggerLog](#triggerlog) (2 params) 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

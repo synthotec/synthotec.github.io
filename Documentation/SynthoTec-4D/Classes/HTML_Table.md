@@ -9,10 +9,10 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ var $RowObject : Object
+var $RowObject : Object
 $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
-🕐 *Last updated: 2025-11-19T18:12:02.969Z*
+🕐 *Last updated: 2025-11-19T21:53:02.806Z*
 
 ---
 
@@ -25,6 +25,7 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
     - [Output](#output) → `$Output_table : Text`
     - [HTML_Cell](#html_cell) (7 params) → `Object`
     - [merge](#merge) (2 params)
+
 ---
 
 ## Constructor {#constructor}

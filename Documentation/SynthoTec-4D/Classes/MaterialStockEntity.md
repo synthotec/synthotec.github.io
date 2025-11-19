@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T18:12:03.057Z*
+🕐 *Last updated: 2025-11-19T21:53:02.986Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [getStockListBoxObject](#getstocklistboxobject) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

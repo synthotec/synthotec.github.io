@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.707Z*
+🕐 *Last updated: 2025-11-19T21:53:04.098Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [generate](#generate) (3 params) 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

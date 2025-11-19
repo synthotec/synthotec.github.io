@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:03.802Z*
+🕐 *Last updated: 2025-11-19T21:53:04.291Z*
 
 ---
 
@@ -33,6 +33,7 @@ parent : Classes
     - [GetStockEntitySelection](#getstockentityselection) → `$EntitySelection : 4D.EntitySelection`
     - [GetNewStockQuarantineStatus](#getnewstockquarantinestatus) → `$QuarantineNewStock : Boolean`
     - [GetQuarantineReason](#getquarantinereason) → `$QuarantineReason : Text`
+
 ---
 
 ## Constructor {#constructor}

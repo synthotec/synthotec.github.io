@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.385Z*
+🕐 *Last updated: 2025-11-19T21:53:03.448Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [populate](#populate) 🖥️
     - [getComputerPrinters](#getcomputerprinters) (1 param) → `cs.PrinterSelection` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

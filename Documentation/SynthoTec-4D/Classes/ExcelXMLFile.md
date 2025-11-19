@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
+SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
 
-🕐 *Last updated: 2025-11-19T18:12:02.800Z*
+🕐 *Last updated: 2025-11-19T21:53:02.521Z*
 
 ---
 
@@ -28,6 +28,7 @@ parent : Classes
     - [addStyle](#addstyle) (1 param) → `Text`
     - [saveToClipboard](#savetoclipboard) (2 params)
     - [generate](#generate)
+
 ---
 
 ## Properties {#properties}

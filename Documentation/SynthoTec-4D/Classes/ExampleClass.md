@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Example class to demonstrate inline comments and parameter documentation
+Example class to demonstrate inline comments and parameter documentation
 
-🕐 *Last updated: 2025-11-19T18:12:02.764Z*
+🕐 *Last updated: 2025-11-19T21:53:02.482Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
     - [processOrder](#processorder) (2 params) → `Boolean`
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [ItemCount](#itemcount) 🔍 → `Integer`
+
 ---
 
 ## Properties {#properties}

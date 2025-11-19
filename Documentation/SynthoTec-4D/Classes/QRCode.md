@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-19T18:12:03.553Z*
+🕐 *Last updated: 2025-11-19T21:53:03.793Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [BarcodeType](#barcodetype) 🔍 → `Text`
     - [PrimaryKey](#primarykey) 🔍 → `Integer`
+
 ---
 
 ## Constructor {#constructor}

@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-19T18:12:02.725Z*
+🕐 *Last updated: 2025-11-19T21:53:02.388Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [displayWithParents](#displaywithparents) (2 params) → `4D.Entity`
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [selectedEntity](#selectedentity) 🔍 ✏️ → `4D.Entity`
+
 ---
 
 ## Properties {#properties}

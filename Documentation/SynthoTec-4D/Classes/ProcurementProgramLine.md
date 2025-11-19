@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ $Column.BackgroundColor:=Color.PastelGreen
+$Column.BackgroundColor:=Color.PastelGreen
 
-🕐 *Last updated: 2025-11-19T18:12:03.471Z*
+🕐 *Last updated: 2025-11-19T21:53:03.611Z*
 
 ---
 
@@ -49,6 +49,7 @@ parent : Classes
     - [OurPartName](#ourpartname) 🔍 → `Text`
     - [StatusText->$StatusText](#statustext->$statustext) 🔍 → `Text`
     - [WeekNumberText](#weeknumbertext) 🔍 → `Text`
+
 ---
 
 ## Properties {#properties}

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
+$SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
 
-🕐 *Last updated: 2025-11-19T18:12:03.616Z*
+🕐 *Last updated: 2025-11-19T21:53:03.936Z*
 
 ---
 
@@ -25,6 +25,7 @@ parent : Classes
     - [Machines](#machines) 🔍 → `Collection`
     - [SecondarySummaryText](#secondarysummarytext) 🔍 → `Text`
     - [SummaryText](#summarytext) 🔍 → `Text`
+
 ---
 
 ## Constructor {#constructor}

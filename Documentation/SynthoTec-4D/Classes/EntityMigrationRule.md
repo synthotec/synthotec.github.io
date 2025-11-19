@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:02.714Z*
+🕐 *Last updated: 2025-11-19T21:53:02.368Z*
 
 ---
 
@@ -23,6 +23,7 @@ parent : Classes
     - [addCriteria](#addcriteria) (1 param) → `cs.EntityMigrationRule`
     - [addEntity](#addentity) (4 params) → `cs.EntityMigrationRule`
     - [apply](#apply) (2 params)
+
 ---
 
 ## Properties {#properties}

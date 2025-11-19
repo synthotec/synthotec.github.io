@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.117Z*
+🕐 *Last updated: 2025-11-19T21:53:03.116Z*
 
 ---
 
@@ -20,6 +20,7 @@ parent : Classes
     - [getLatest](#getlatest) (1 param) → `cs.PackingInstructionFilesEntity`
     - [getMigrationSettings](#getmigrationsettings) → `Object` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

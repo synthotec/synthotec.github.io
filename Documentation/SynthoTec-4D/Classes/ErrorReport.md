@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:02.751Z*
+🕐 *Last updated: 2025-11-19T21:53:02.447Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [processError](#processerror) 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

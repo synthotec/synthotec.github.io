@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.587Z*
+🕐 *Last updated: 2025-11-19T21:53:03.861Z*
 
 ---
 
@@ -26,6 +26,7 @@ parent : Classes
     - [SECONDS_IN_DAY](#seconds_in_day) 🔍 → `Real`
     - [TWO_HOURS_IN_SECONDS](#two_hours_in_seconds) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
+
 
 ---
 

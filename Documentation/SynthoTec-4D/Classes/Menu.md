@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:03.081Z*
+🕐 *Last updated: 2025-11-19T21:53:03.028Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
     - [show](#show) → `$FormulaResult : Variant`
     - [_addMenuItems](#_addmenuitems) (1 param)
     - [_release](#_release)
+
 ---
 
 ## Properties {#properties}

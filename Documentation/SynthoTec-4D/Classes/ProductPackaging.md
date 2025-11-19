@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T18:12:03.521Z*
+🕐 *Last updated: 2025-11-19T21:53:03.705Z*
 
 ---
 
@@ -21,6 +21,7 @@ parent : Classes
     - [queueCustomerPackagingUpdate](#queuecustomerpackagingupdate)
     - [generateCustomerPackaging](#generatecustomerpackaging)
 - [🔗 Related Items](#related-items)
+
 
 ---
 

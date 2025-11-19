@@ -9,7 +9,7 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Set up paths
+Set up paths
 
 🕐 *Last updated: 2025-11-14T16:53:01.339Z*
 
@@ -32,6 +32,7 @@ parent : Classes
     - [getReverseRelationshipsFor](#getreverserelationshipsfor) (2 params) → `Collection`
     - [save](#save)
     - [toJSON](#tojson) → `Text`
+
 ---
 
 ## Properties {#properties}

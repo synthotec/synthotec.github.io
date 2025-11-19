@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-19T18:12:03.713Z*
+🕐 *Last updated: 2025-11-19T21:53:04.112Z*
 
 ---
 
@@ -19,6 +19,7 @@ parent : Classes
   - **Regular Functions**
     - [getMaterialUsedForProduction](#getmaterialusedforproduction) (1 param) → `Real` 🖥️
 - [🔗 Related Items](#related-items)
+
 
 ---
 

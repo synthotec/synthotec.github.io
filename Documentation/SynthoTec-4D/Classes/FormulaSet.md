@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:02.914Z*
+🕐 *Last updated: 2025-11-19T21:53:02.695Z*
 
 ---
 
@@ -18,6 +18,7 @@ parent : Classes
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [apply](#apply) → `$LastFormulaResult : Variant`
+
 ---
 
 ## Properties {#properties}

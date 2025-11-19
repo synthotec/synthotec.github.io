@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-19T18:12:03.763Z*
+🕐 *Last updated: 2025-11-19T21:53:04.224Z*
 
 ---
 
@@ -24,6 +24,7 @@ parent : Classes
     - [createMessage](#createmessage) (2 params) → `$MessageTimeStamp : Text`
     - [updateMessage](#updatemessage) (3 params) → `Boolean`
     - [deleteMessage](#deletemessage) (1 param) → `Boolean`
+
 ---
 
 ## Properties {#properties}

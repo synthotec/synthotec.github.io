@@ -9,7 +9,7 @@ parent : Classes
 
 ## 📝 Description
 
-🗨️ Parse 4D form.4DForm file and extract form metadata for documentation
+Parse 4D form.4DForm file and extract form metadata for documentation
 
 🕐 *Last updated: 2025-11-14T16:53:00.640Z*
 
@@ -27,6 +27,7 @@ parent : Classes
     - [toObject](#toobject) → `Object`
     - [toJSON](#tojson) → `Text`
     - [saveToFile](#savetofile)
+
 ---
 
 ## Constructor {#constructor}
