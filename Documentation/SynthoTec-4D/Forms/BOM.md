@@ -7,6 +7,10 @@ parent : Forms
 
 📊 **Overview:** 10 Objects | 4 Types | 2 Pages | 17 Events | 8 Object Methods
 
+## 📝 Description
+
+🗨️ The main form used to generate and maintain the bill of materials data
+
 ## ℹ️ Form Information
 
 | Property | Value |
@@ -25,6 +29,8 @@ parent : Forms
 - [🧩 Form Objects](#-form-objects) (10)
 - [🔗 Related Items](#-related-items)
   - [Tables](#️-tables) (4)
+- [📸 Screenshots](#-screenshots) (1)
+  - [Main Form Screenshot](#main-form-screenshot)
 
 ---
 
@@ -84,6 +90,16 @@ This form handles **17** of **44** possible events:
 - [Product](../Tables/Product.md) - Data source for BOM form
 - [Material](../Tables/Material.md) - Data source for BOM form
 - [Product_Option](../Tables/Product_Option.md) - Data source for BOM form
+
+## 📸 Screenshots
+
+### Main Form Screenshot {#main-form-screenshot}
+
+![Main Form Screenshot](Images/BOM-1.png)
+
+The main form that is presented to the user when they open the BOM screen
+
+---
 
 ---
 
