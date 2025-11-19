@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new email with the specified subject and HTML body
 
-🕐 *Last updated: 2025-11-19T21:53:02.305Z*
+🕐 *Last updated: 2025-11-19T00:00:00Z2025-11-19T21:56:35.713Z*
 
 ---
 
@@ -242,6 +242,8 @@ Function attachFile($FilePathBlobOrObject : Variant; $BlobFileName : Text)
 ```
 
 Attaches a file to the email - accepts file path (Text), BLOB, 4D.Blob, or 4D.File object
+
+🗨️ **Note:** Additional warning about file size limits, file path format, etc.
 
 **Parameters:**
 
