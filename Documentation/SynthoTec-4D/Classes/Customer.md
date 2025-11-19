@@ -41,7 +41,7 @@ Function getMigrationSettings -> Object
 
 ### 🗂️ Tables
 
-- [Customer](../Tables/Customer.md) - Source table for this ORDA class
+- [Customer](../Tables/Customer.md) - ORDA DataClass class for Customer table
 
 ### � Related Classes
 
