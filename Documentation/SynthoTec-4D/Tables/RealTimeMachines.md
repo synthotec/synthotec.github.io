@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (32)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (6)
 
 ---
 
@@ -73,6 +76,22 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `DownReasonsEntity` | [DownReasons](DownReasons.md) | `DownReason` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RealTimeMachines](../Classes/RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
+- [RealTimeMachinesEntity](../Classes/RealTimeMachinesEntity.md) - ORDA Entity class for RealTimeMachines table
+
+### 📄 Forms
+
+- [CurrentDownTime](../Forms/CurrentDownTime.md) - Data source for CurrentDownTime form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [MachineMaintenance](../Forms/MachineMaintenance.md) - Data source for MachineMaintenance form
+- [RealTimeMonitor](../Forms/RealTimeMonitor.md) - Data source for RealTimeMonitor form
+- [RealTimeViewer](../Forms/RealTimeViewer.md) - Data source for RealTimeViewer form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
 
 ---
 

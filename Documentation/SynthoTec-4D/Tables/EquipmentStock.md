@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (4)
 - [🔍 Indexes](#-indexes) (1)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -37,6 +39,13 @@ parent : Tables
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [CapacityPlanning](../Forms/CapacityPlanning.md) - Data source for CapacityPlanning form
+- [EquipmentStock](../Forms/EquipmentStock.md) - Data source for EquipmentStock form
 
 ---
 

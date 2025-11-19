@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (2)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
 
 ---
 
@@ -42,6 +44,12 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `LanguageTagSelection` | [LanguageTag](LanguageTag.md) | `Language_ID` → `ID_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [LanguageEntity](../Classes/LanguageEntity.md) - ORDA Entity class for Language table
 
 ---
 

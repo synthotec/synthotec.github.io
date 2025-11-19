@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (11)
 - [🔍 Indexes](#-indexes) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -45,6 +47,12 @@ parent : Tables
 |:------|:-----|:-----|:-------|
 | `Archived` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [CompanyNotices](../Forms/CompanyNotices.md) - Data source for CompanyNotices form
 
 ---
 

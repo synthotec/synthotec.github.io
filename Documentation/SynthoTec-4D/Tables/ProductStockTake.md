@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (7)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -48,6 +50,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WO` → `Works_Order_No` | Active | - |
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [ProductStockTake](../Forms/ProductStockTake.md) - Data source for ProductStockTake form
 
 ---
 

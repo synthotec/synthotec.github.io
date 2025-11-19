@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (8)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -49,6 +51,13 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorkRequestsEntity` | [WorkRequests](WorkRequests.md) | `WorkRequestID` → `ID` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
 
 ---
 

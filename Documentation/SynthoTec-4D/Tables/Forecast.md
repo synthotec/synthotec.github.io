@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
 
 ---
 
@@ -48,6 +50,13 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Forecast](../Classes/Forecast.md) - ORDA DataClass class for Forecast table
+- [ForecastEntity](../Classes/ForecastEntity.md) - ORDA Entity class for Forecast table
 
 ---
 

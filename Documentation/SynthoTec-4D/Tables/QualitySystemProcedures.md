@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -51,6 +54,17 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [QualitySystemProcedures](../Classes/QualitySystemProcedures.md) - ORDA DataClass class for QualitySystemProcedures table
+- [QualitySystemProceduresEntity](../Classes/QualitySystemProceduresEntity.md) - ORDA Entity class for QualitySystemProcedures table
+
+### 📄 Forms
+
+- [QualitySystemProcedures](../Forms/QualitySystemProcedures.md) - Data source for QualitySystemProcedures form
 
 ---
 

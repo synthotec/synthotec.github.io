@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (18)
 - [🔍 Indexes](#-indexes) (1)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -51,6 +53,12 @@ parent : Tables
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [EquipmentProfiles](../Forms/EquipmentProfiles.md) - Data source for EquipmentProfiles form
 
 ---
 

@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (3)
 
 ---
 
@@ -48,6 +50,14 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `RealTimeSelection` | [RealTime](RealTime.md) | `DownReason` → `ID` | Active | - |
 | `RealTimeMachinesSelection` | [RealTimeMachines](RealTimeMachines.md) | `DownReason` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [CurrentDownTime](../Forms/CurrentDownTime.md) - Data source for CurrentDownTime form
+- [DownTime](../Forms/DownTime.md) - Data source for DownTime form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
 
 ---
 

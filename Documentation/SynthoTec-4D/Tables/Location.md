@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -52,6 +55,17 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PalletSelection` | [Pallet](Pallet.md) | `LocationID` → `ID` | Active | - |
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `LocationID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Location](../Classes/Location.md) - ORDA DataClass class for Location table
+- [LocationEntity](../Classes/LocationEntity.md) - ORDA Entity class for Location table
+
+### 📄 Forms
+
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
 
 ---
 

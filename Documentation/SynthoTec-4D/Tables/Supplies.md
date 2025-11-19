@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (7)
 
 ---
 
@@ -70,6 +73,23 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `SuppliesID` → `UniqueID_i` | Active | - |
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `SuppliesID_i` → `UniqueID_i` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Supplies](../Classes/Supplies.md) - ORDA DataClass class for Supplies table
+- [SuppliesEntity](../Classes/SuppliesEntity.md) - ORDA Entity class for Supplies table
+
+### 📄 Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [BOM_Packaging](../Forms/BOM_Packaging.md) - Data source for BOM_Packaging form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [SupplyInfo](../Forms/SupplyInfo.md) - Data source for SupplyInfo form
+- [TransferSupply](../Forms/TransferSupply.md) - Data source for TransferSupply form
 
 ---
 

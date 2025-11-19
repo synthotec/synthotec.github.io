@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (22)
 - [🔍 Indexes](#-indexes) (7)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (7)
 
 ---
 
@@ -61,6 +63,18 @@ parent : Tables
 | `PartName` | Cluster | regular | - |
 | `SnapShot` | Cluster | regular | - |
 | `ID` | B-Tree | regular | ✨ Yes |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [BOM_CustomerTransport](../Forms/BOM_CustomerTransport.md) - Data source for BOM_CustomerTransport form
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [BOM_Packaging](../Forms/BOM_Packaging.md) - Data source for BOM_Packaging form
+- [CapacityPlanning](../Forms/CapacityPlanning.md) - Data source for CapacityPlanning form
+- [Forecast](../Forms/Forecast.md) - Data source for Forecast form
+- [ForecastImporter](../Forms/ForecastImporter.md) - Data source for ForecastImporter form
+- [Pricing](../Forms/Pricing.md) - Data source for Pricing form
 
 ---
 

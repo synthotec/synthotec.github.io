@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (15)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -57,6 +59,12 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
 
 ---
 

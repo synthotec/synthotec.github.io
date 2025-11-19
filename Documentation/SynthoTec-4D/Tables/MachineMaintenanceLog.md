@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (7)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -47,6 +50,16 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `MachineMaintenanceActionsEntity` | [MachineMaintenanceActions](MachineMaintenanceActions.md) | `MachineMaintenanceActionID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [MachineMaintenanceLogEntity](../Classes/MachineMaintenanceLogEntity.md) - ORDA Entity class for MachineMaintenanceLog table
+
+### 📄 Forms
+
+- [MachineMaintenance](../Forms/MachineMaintenance.md) - Data source for MachineMaintenance form
 
 ---
 

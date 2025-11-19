@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (10)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (12)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (26)
 
 ---
 
@@ -207,6 +210,42 @@ parent : Tables
 | `PlanningWheelSelection` | [PlanningWheel](PlanningWheel.md) | `ToolID` → `Tool_ID` | Active | - |
 | `Product_OptionSelection` | [Product_Option](Product_Option.md) | `Tool ID` → `Tool_ID` | Active | - |
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `ToolID` → `Tool_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Tools](../Classes/Tools.md) - ORDA DataClass class for Tools table
+- [ToolsEntity](../Classes/ToolsEntity.md) - ORDA Entity class for Tools table
+
+### 📄 Forms
+
+- [%2AToolEditor](../Forms/%2AToolEditor.md) - Data source for %2AToolEditor form
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [CapacityPlanning](../Forms/CapacityPlanning.md) - Data source for CapacityPlanning form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentEntry](../Forms/ConsignmentEntry.md) - Data source for ConsignmentEntry form
+- [CustomerOrderEntry](../Forms/CustomerOrderEntry.md) - Data source for CustomerOrderEntry form
+- [EDIgenerator](../Forms/EDIgenerator.md) - Data source for EDIgenerator form
+- [EquipmentProfiles](../Forms/EquipmentProfiles.md) - Data source for EquipmentProfiles form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [PackingLabour](../Forms/PackingLabour.md) - Data source for PackingLabour form
+- [Pricing](../Forms/Pricing.md) - Data source for Pricing form
+- [Quality](../Forms/Quality.md) - Data source for Quality form
+- [QualitySystemResults](../Forms/QualitySystemResults.md) - Data source for QualitySystemResults form
+- [QualitySystemTolerances](../Forms/QualitySystemTolerances.md) - Data source for QualitySystemTolerances form
+- [RTSUM](../Forms/RTSUM.md) - Data source for RTSUM form
+- [Scheduler](../Forms/Scheduler.md) - Data source for Scheduler form
+- [SIMImporter](../Forms/SIMImporter.md) - Data source for SIMImporter form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
+- [ToolDisplay4](../Forms/ToolDisplay4.md) - Data source for ToolDisplay4 form
+- [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
+- [ToolStandardsReview](../Forms/ToolStandardsReview.md) - Data source for ToolStandardsReview form
+- [ToolTemps](../Forms/ToolTemps.md) - Data source for ToolTemps form
 
 ---
 

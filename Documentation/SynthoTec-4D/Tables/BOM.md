@@ -25,6 +25,9 @@ parent : Tables
 - [📋 Fields](#-fields) (42)
 - [🔍 Indexes](#-indexes) (6)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -93,6 +96,18 @@ parent : Tables
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [BOM](../Classes/BOM.md) - ORDA DataClass class for BOM table
+- [BOMEntity](../Classes/BOMEntity.md) - ORDA Entity class for BOM table
+
+### 📄 Forms
+
+- [BOM](../Forms/BOM.md) - Data source for BOM form
+- [BOM_Output](../Forms/BOM_Output.md) - Data source for BOM_Output form
 
 ---
 

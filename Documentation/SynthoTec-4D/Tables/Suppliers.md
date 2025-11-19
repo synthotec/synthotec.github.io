@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (25)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (3)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (5)
 
 ---
 
@@ -69,6 +72,20 @@ parent : Tables
 | `SuppliesSelection` | [Supplies](Supplies.md) | `SupplierID_l` → `SupplierID_l` | Active | - |
 | `PurchasesSelection` | [Purchases](Purchases.md) | `SupplierID_l` → `SupplierID_l` | Active | - |
 | `SupplierDocumentationSelection` | [SupplierDocumentation](SupplierDocumentation.md) | `SupplierID` → `SupplierID_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [SuppliersEntity](../Classes/SuppliersEntity.md) - ORDA Entity class for Suppliers table
+
+### 📄 Forms
+
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
+- [SupplierDocumentationAdd](../Forms/SupplierDocumentationAdd.md) - Data source for SupplierDocumentationAdd form
+- [SupplierManager](../Forms/SupplierManager.md) - Data source for SupplierManager form
+- [TransferSupply](../Forms/TransferSupply.md) - Data source for TransferSupply form
 
 ---
 

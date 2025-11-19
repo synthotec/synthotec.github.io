@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
 
 ---
 
@@ -39,6 +41,12 @@ parent : Tables
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
 | `Date` | Keywords | regular | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Log](../Classes/Log.md) - ORDA DataClass class for Log table
 
 ---
 

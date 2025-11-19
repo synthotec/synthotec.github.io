@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (12)
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (5)
 
 ---
 
@@ -55,6 +58,20 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `RMCEntity` | [RMC](RMC.md) | `RMC` → `RMCNo_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [MaterialStockTake](../Classes/MaterialStockTake.md) - ORDA DataClass class for MaterialStockTake table
+
+### 📄 Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

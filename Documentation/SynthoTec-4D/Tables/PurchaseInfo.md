@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (8)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (6)
 
 ---
 
@@ -81,6 +84,21 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PurchaseReceiptsSelection` | [PurchaseReceipts](PurchaseReceipts.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
 | `RMCSelection` | [RMC](RMC.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PurchaseInfoEntity](../Classes/PurchaseInfoEntity.md) - ORDA Entity class for PurchaseInfo table
+
+### 📄 Forms
+
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [NominalCodes](../Forms/NominalCodes.md) - Data source for NominalCodes form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
 
 ---
 

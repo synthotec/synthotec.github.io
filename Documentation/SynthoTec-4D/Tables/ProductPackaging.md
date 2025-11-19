@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (6)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -56,6 +59,18 @@ parent : Tables
 | `SuppliesEntity` | [Supplies](Supplies.md) | `SuppliesID` → `UniqueID_i` | Active | - |
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ProductPackaging](../Classes/ProductPackaging.md) - ORDA DataClass class for ProductPackaging table
+- [ProductPackagingEntity](../Classes/ProductPackagingEntity.md) - ORDA Entity class for ProductPackaging table
+
+### 📄 Forms
+
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [TransferSupply](../Forms/TransferSupply.md) - Data source for TransferSupply form
 
 ---
 

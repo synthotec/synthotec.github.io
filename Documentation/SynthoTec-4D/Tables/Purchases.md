@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (6)
 
 ---
 
@@ -67,6 +70,21 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `OrderNo_l` → `OrderNo_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PurchasesEntity](../Classes/PurchasesEntity.md) - ORDA Entity class for Purchases table
+
+### 📄 Forms
+
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [SupplierManager](../Forms/SupplierManager.md) - Data source for SupplierManager form
+- [ToolDisplay4](../Forms/ToolDisplay4.md) - Data source for ToolDisplay4 form
 
 ---
 

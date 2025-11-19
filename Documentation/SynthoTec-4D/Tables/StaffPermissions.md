@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -46,6 +48,12 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `PermissionsEntity` | [Permissions](Permissions.md) | `PermissionID` → `ID` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [PermissionManager](../Forms/PermissionManager.md) - Data source for PermissionManager form
 
 ---
 

@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (12)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (4)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (3)
+  - [Forms](#-forms) (9)
 
 ---
 
@@ -90,6 +93,26 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `PalletID` → `ID` | Active | - |
 | `PrintJobSelection` | [PrintJob](PrintJob.md) | `RelatedUUID` → `UUID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Pallet](../Classes/Pallet.md) - ORDA DataClass class for Pallet table
+- [PalletEntity](../Classes/PalletEntity.md) - ORDA Entity class for Pallet table
+- [PalletSelection](../Classes/PalletSelection.md) - ORDA EntitySelection class for Pallet table
+
+### 📄 Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [%2Atest](../Forms/%2Atest.md) - Data source for %2Atest form
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
+- [NSKPalletIDs](../Forms/NSKPalletIDs.md) - Data source for NSKPalletIDs form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [PalletDespatchList](../Forms/PalletDespatchList.md) - Data source for PalletDespatchList form
+- [PalletTransfer](../Forms/PalletTransfer.md) - Data source for PalletTransfer form
+- [Warehouse](../Forms/Warehouse.md) - Data source for Warehouse form
 
 ---
 

@@ -22,6 +22,8 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -69,6 +71,13 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `WorkRequestCommentsSelection` | [WorkRequestComments](WorkRequestComments.md) | `WorkRequestID` → `ID` | Active | - |
 | `ToolMaintenanceLogSelection` | [ToolMaintenanceLog](ToolMaintenanceLog.md) | `WorkRequestID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
 
 ---
 

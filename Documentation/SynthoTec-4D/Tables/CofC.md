@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (11)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (5)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (7)
 
 ---
 
@@ -88,6 +91,22 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `CofCID` → `Cert_Of_Conformance_No` | Active | - |
 | `PalletSelection` | [Pallet](Pallet.md) | `CofCID` → `Cert_Of_Conformance_No` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [CofCEntity](../Classes/CofCEntity.md) - ORDA Entity class for CofC table
+
+### 📄 Forms
+
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [CustomerOrders](../Forms/CustomerOrders.md) - Data source for CustomerOrders form
+- [Forecast](../Forms/Forecast.md) - Data source for Forecast form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [SNRSUMMARY](../Forms/SNRSUMMARY.md) - Data source for SNRSUMMARY form
+- [StockMovements](../Forms/StockMovements.md) - Data source for StockMovements form
 
 ---
 

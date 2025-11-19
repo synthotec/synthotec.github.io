@@ -20,6 +20,8 @@ parent : Tables
 
 - [📋 Fields](#-fields) (13)
 - [🔍 Indexes](#-indexes) (4)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -49,6 +51,12 @@ parent : Tables
 | `Profile` | Cluster | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
 | `tRoute` | Cluster | regular | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [CapacityPlanning](../Forms/CapacityPlanning.md) - Data source for CapacityPlanning form
 
 ---
 

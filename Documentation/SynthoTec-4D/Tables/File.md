@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (4)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -44,6 +47,17 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `CustomerSelection` | [Customer](Customer.md) | `TransportInstructionFileID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [File](../Classes/File.md) - ORDA DataClass class for File table
+- [FileEntity](../Classes/FileEntity.md) - ORDA Entity class for File table
+
+### 📄 Forms
+
+- [%2AOrderPicking](../Forms/%2AOrderPicking.md) - Data source for %2AOrderPicking form
 
 ---
 

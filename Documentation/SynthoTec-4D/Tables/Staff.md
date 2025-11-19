@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (20)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (10)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (15)
 
 ---
 
@@ -69,6 +72,31 @@ parent : Tables
 | `StatusUpdatedBoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `StatusUpdatedStaffID` → `StaffID` | Active | - |
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `StaffID` → `StaffID` | Active | - |
 | `DeactivatedToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `DeactivatedStaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Staff](../Classes/Staff.md) - ORDA DataClass class for Staff table
+- [StaffEntity](../Classes/StaffEntity.md) - ORDA Entity class for Staff table
+
+### 📄 Forms
+
+- [AddWorkRequest](../Forms/AddWorkRequest.md) - Data source for AddWorkRequest form
+- [ConfirmOrderDates](../Forms/ConfirmOrderDates.md) - Data source for ConfirmOrderDates form
+- [LabelPrinting](../Forms/LabelPrinting.md) - Data source for LabelPrinting form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
+- [PermissionManager](../Forms/PermissionManager.md) - Data source for PermissionManager form
+- [PurchaseOrders](../Forms/PurchaseOrders.md) - Data source for PurchaseOrders form
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
+- [Staff](../Forms/Staff.md) - Data source for Staff form
+- [StaffLogin](../Forms/StaffLogin.md) - Data source for StaffLogin form
+- [StaffMessaging](../Forms/StaffMessaging.md) - Data source for StaffMessaging form
+- [ToolMaintenanceLog](../Forms/ToolMaintenanceLog.md) - Data source for ToolMaintenanceLog form
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (9)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (11)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (21)
 
 ---
 
@@ -93,6 +96,37 @@ parent : Tables
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ProductSelection` | [Product](Product.md) | `DefMatID` → `Unique_ID` | Active | - |
 | `WorksOrderSelection` | [WorksOrder](WorksOrder.md) | `MaterialID` → `Unique_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Material](../Classes/Material.md) - ORDA DataClass class for Material table
+- [MaterialEntity](../Classes/MaterialEntity.md) - ORDA Entity class for Material table
+
+### 📄 Forms
+
+- [%2AMigration](../Forms/%2AMigration.md) - Data source for %2AMigration form
+- [%2AToolEditor](../Forms/%2AToolEditor.md) - Data source for %2AToolEditor form
+- [BOM](../Forms/BOM.md) - Data source for BOM form
+- [BOM_MaterialPrices](../Forms/BOM_MaterialPrices.md) - Data source for BOM_MaterialPrices form
+- [BOM_Output](../Forms/BOM_Output.md) - Data source for BOM_Output form
+- [BOM_Packaging](../Forms/BOM_Packaging.md) - Data source for BOM_Packaging form
+- [ChangeMaterial](../Forms/ChangeMaterial.md) - Data source for ChangeMaterial form
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [MaterialManagement](../Forms/MaterialManagement.md) - Data source for MaterialManagement form
+- [MaterialOptions](../Forms/MaterialOptions.md) - Data source for MaterialOptions form
+- [MaterialOutlook](../Forms/MaterialOutlook.md) - Data source for MaterialOutlook form
+- [Materials](../Forms/Materials.md) - Data source for Materials form
+- [NewScrapEntry](../Forms/NewScrapEntry.md) - Data source for NewScrapEntry form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
+- [Pricing](../Forms/Pricing.md) - Data source for Pricing form
+- [Scheduler](../Forms/Scheduler.md) - Data source for Scheduler form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
+- [SupplyInfo](../Forms/SupplyInfo.md) - Data source for SupplyInfo form
 
 ---
 

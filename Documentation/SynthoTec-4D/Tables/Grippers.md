@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (5)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -53,6 +56,17 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `Product_ID` → `Product_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Grippers](../Classes/Grippers.md) - ORDA DataClass class for Grippers table
+- [GrippersEntity](../Classes/GrippersEntity.md) - ORDA Entity class for Grippers table
+
+### 📄 Forms
+
+- [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
 
 ---
 

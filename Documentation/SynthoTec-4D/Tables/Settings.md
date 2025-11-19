@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (4)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (9)
 
 ---
 
@@ -46,6 +49,25 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [Settings](../Classes/Settings.md) - ORDA DataClass class for Settings table
+- [SettingsEntity](../Classes/SettingsEntity.md) - ORDA Entity class for Settings table
+
+### 📄 Forms
+
+- [%2AMethodList](../Forms/%2AMethodList.md) - Data source for %2AMethodList form
+- [Forecast](../Forms/Forecast.md) - Data source for Forecast form
+- [LabelHistory](../Forms/LabelHistory.md) - Data source for LabelHistory form
+- [LocationManager](../Forms/LocationManager.md) - Data source for LocationManager form
+- [Manufacture](../Forms/Manufacture.md) - Data source for Manufacture form
+- [MaterialCalendar](../Forms/MaterialCalendar.md) - Data source for MaterialCalendar form
+- [ProcurementProgramImporter](../Forms/ProcurementProgramImporter.md) - Data source for ProcurementProgramImporter form
+- [Schedule_Variables](../Forms/Schedule_Variables.md) - Data source for Schedule_Variables form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

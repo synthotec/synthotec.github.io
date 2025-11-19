@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (6)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (4)
 
 ---
 
@@ -68,6 +71,19 @@ parent : Tables
 | `MaterialCheckHistorySelection2` | [MaterialCheckHistory](MaterialCheckHistory.md) | `RMC2` → `RMCNo_l` | Active | - |
 | `MaterialCheckHistorySelection3` | [MaterialCheckHistory](MaterialCheckHistory.md) | `RMC3` → `RMCNo_l` | Active | - |
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `RMC` → `RMCNo_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RMCEntity](../Classes/RMCEntity.md) - ORDA Entity class for RMC table
+
+### 📄 Forms
+
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
+- [MaterialManagement](../Forms/MaterialManagement.md) - Data source for MaterialManagement form
+- [RMCs](../Forms/RMCs.md) - Data source for RMCs form
+- [StockTakeInput](../Forms/StockTakeInput.md) - Data source for StockTakeInput form
 
 ---
 

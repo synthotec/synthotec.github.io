@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (2)
 
 ---
 
@@ -46,6 +48,13 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ProductSelection` | [Product](Product.md) | `EmojiID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [%2AToolEditor](../Forms/%2AToolEditor.md) - Data source for %2AToolEditor form
+- [EmojiManager](../Forms/EmojiManager.md) - Data source for EmojiManager form
 
 ---
 

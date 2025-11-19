@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (24)
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (4)
 
 ---
 
@@ -68,6 +70,15 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active | - |
 | `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `To_Location_l` → `StockLocationID_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [EDIgenerator](../Forms/EDIgenerator.md) - Data source for EDIgenerator form
+- [SNRSUMMARY](../Forms/SNRSUMMARY.md) - Data source for SNRSUMMARY form
+- [StockMovements](../Forms/StockMovements.md) - Data source for StockMovements form
 
 ---
 

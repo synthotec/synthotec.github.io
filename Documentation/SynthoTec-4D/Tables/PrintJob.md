@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (11)
 - [🔍 Indexes](#-indexes) (5)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
 
 ---
 
@@ -57,6 +59,12 @@ parent : Tables
 | `PrinterEntity` | [Printer](Printer.md) | `PrinterID` → `ID` | Active | - |
 | `PalletEntity` | [Pallet](Pallet.md) | `RelatedUUID` → `UUID` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [PrintJobEntity](../Classes/PrintJobEntity.md) - ORDA Entity class for PrintJob table
 
 ---
 

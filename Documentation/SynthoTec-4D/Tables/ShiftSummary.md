@@ -22,6 +22,9 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (1)
+  - [Forms](#-forms) (1)
 
 ---
 
@@ -55,6 +58,16 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `ShiftSummaryID` → `ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ShiftSummaryEntity](../Classes/ShiftSummaryEntity.md) - ORDA Entity class for ShiftSummary table
+
+### 📄 Forms
+
+- [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
 
 ---
 

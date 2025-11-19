@@ -21,6 +21,9 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
+  - [Forms](#-forms) (3)
 
 ---
 
@@ -49,6 +52,19 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [ProductMaterialOptions](../Classes/ProductMaterialOptions.md) - ORDA DataClass class for ProductMaterialOptions table
+- [ProductMaterialOptionsEntity](../Classes/ProductMaterialOptionsEntity.md) - ORDA Entity class for ProductMaterialOptions table
+
+### 📄 Forms
+
+- [MaterialCheck](../Forms/MaterialCheck.md) - Data source for MaterialCheck form
+- [MaterialOptions](../Forms/MaterialOptions.md) - Data source for MaterialOptions form
+- [PackagingOptions](../Forms/PackagingOptions.md) - Data source for PackagingOptions form
 
 ---
 

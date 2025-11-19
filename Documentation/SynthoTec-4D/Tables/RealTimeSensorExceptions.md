@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (8)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (4)
+- [🔗 Related Items](#-related-items)
+  - [Classes](#-classes) (2)
 
 ---
 
@@ -53,6 +55,13 @@ parent : Tables
 | `LastRealTimeEntity` | [RealTime](RealTime.md) | `LastRealTimeID` → `ID` | Active | - |
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
+
+## 🔗 Related Items
+
+### 📦 Classes
+
+- [RealTimeSensorExceptionsEntity](../Classes/RealTimeSensorExceptionsEntity.md) - ORDA Entity class for RealTimeSensorExceptions table
+- [RealTimeSensorExceptionsSelection](../Classes/RealTimeSensorExceptionsSelection.md) - ORDA EntitySelection class for RealTimeSensorExceptions table
 
 ---
 

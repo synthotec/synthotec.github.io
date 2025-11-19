@@ -21,6 +21,8 @@ parent : Tables
 - [📋 Fields](#-fields) (12)
 - [🔍 Indexes](#-indexes) (6)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
+- [🔗 Related Items](#-related-items)
+  - [Forms](#-forms) (9)
 
 ---
 
@@ -58,6 +60,20 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No` → `Works_Order_No` | Active | - |
 | `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `LocationID_l` → `StockLocationID_l` | Active | - |
+
+## 🔗 Related Items
+
+### 📄 Forms
+
+- [%2AStockControl](../Forms/%2AStockControl.md) - Data source for %2AStockControl form
+- [CancelAdviceNote](../Forms/CancelAdviceNote.md) - Data source for CancelAdviceNote form
+- [ConsignmentCallOff](../Forms/ConsignmentCallOff.md) - Data source for ConsignmentCallOff form
+- [ConsignmentSSLs](../Forms/ConsignmentSSLs.md) - Data source for ConsignmentSSLs form
+- [OrderDelivery](../Forms/OrderDelivery.md) - Data source for OrderDelivery form
+- [OrderOverview](../Forms/OrderOverview.md) - Data source for OrderOverview form
+- [ProductStockTake](../Forms/ProductStockTake.md) - Data source for ProductStockTake form
+- [QuarantineManager](../Forms/QuarantineManager.md) - Data source for QuarantineManager form
+- [SNRSUMMARY](../Forms/SNRSUMMARY.md) - Data source for SNRSUMMARY form
 
 ---
 
