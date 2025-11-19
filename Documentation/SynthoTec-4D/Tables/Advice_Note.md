@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Advice_Note
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -50,12 +48,6 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `CofCSelection` | [CofC](CofC.md) | `Advice_Note_No` → `Advice_Note_No` | Active | - |
 | `PickRequestSelection` | [PickRequest](PickRequest.md) | `AdviceNoteID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Advice_NoteEntity](../Classes/Advice_NoteEntity.md) - ORDA Entity class for Advice_Note table
 
 ---
 

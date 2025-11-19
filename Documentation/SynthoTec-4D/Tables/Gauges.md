@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Gauges
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (8)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -51,12 +49,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductEntity` | [Product](Product.md) | `Product_ID` → `Product_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [GaugesEntity](../Classes/GaugesEntity.md) - ORDA Entity class for Gauges table
 
 ---
 

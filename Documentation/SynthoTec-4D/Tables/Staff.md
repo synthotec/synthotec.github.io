@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Staff
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (20)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (10)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -71,13 +69,6 @@ parent : Tables
 | `StatusUpdatedBoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `StatusUpdatedStaffID` → `StaffID` | Active | - |
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `StaffID` → `StaffID` | Active | - |
 | `DeactivatedToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `DeactivatedStaffID` → `StaffID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Staff](../Classes/Staff.md) - ORDA DataClass class for Staff table
-- [StaffEntity](../Classes/StaffEntity.md) - ORDA Entity class for Staff table
 
 ---
 

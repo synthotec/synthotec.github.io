@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PlanningWheel
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (34)
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -83,13 +81,6 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PlanningWheel](../Classes/PlanningWheel.md) - ORDA DataClass class for PlanningWheel table
-- [PlanningWheelEntity](../Classes/PlanningWheelEntity.md) - ORDA Entity class for PlanningWheel table
 
 ---
 

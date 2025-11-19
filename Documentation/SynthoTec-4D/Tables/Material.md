@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Material
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (9)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (11)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -95,13 +93,6 @@ parent : Tables
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `ProductSelection` | [Product](Product.md) | `DefMatID` → `Unique_ID` | Active | - |
 | `WorksOrderSelection` | [WorksOrder](WorksOrder.md) | `MaterialID` → `Unique_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Material](../Classes/Material.md) - ORDA DataClass class for Material table
-- [MaterialEntity](../Classes/MaterialEntity.md) - ORDA Entity class for Material table
 
 ---
 

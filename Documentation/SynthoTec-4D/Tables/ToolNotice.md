@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolNotice
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -62,13 +60,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `ToolNoticeID` → `ToolID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ToolNotice](../Classes/ToolNotice.md) - ORDA DataClass class for ToolNotice table
-- [ToolNoticeEntity](../Classes/ToolNoticeEntity.md) - ORDA Entity class for ToolNotice table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : (Copy2_of_PatrolInspection)
 parent : Tables

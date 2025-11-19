@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Printing
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (7)
 - [🔍 Indexes](#-indexes) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -42,12 +40,6 @@ parent : Tables
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `Unique_ID` | Keywords | regular | ✨ Yes |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PrintingEntity](../Classes/PrintingEntity.md) - ORDA Entity class for Printing table
 
 ---
 

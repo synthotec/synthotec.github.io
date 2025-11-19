@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RTSUM
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (10)
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -55,13 +53,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [RTSUM](../Classes/RTSUM.md) - ORDA DataClass class for RTSUM table
-- [RTSUMSelection](../Classes/RTSUMSelection.md) - ORDA EntitySelection class for RTSUM table
 
 ---
 

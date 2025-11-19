@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RealTimeMachines
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (32)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -75,13 +73,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `DownReasonsEntity` | [DownReasons](DownReasons.md) | `DownReason` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [RealTimeMachines](../Classes/RealTimeMachines.md) - ORDA DataClass class for RealTimeMachines table
-- [RealTimeMachinesEntity](../Classes/RealTimeMachinesEntity.md) - ORDA Entity class for RealTimeMachines table
 
 ---
 

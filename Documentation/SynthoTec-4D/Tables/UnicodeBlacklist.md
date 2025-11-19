@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : UnicodeBlacklist
 parent : Tables

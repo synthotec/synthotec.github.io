@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : RMC
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (6)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -70,12 +68,6 @@ parent : Tables
 | `MaterialCheckHistorySelection2` | [MaterialCheckHistory](MaterialCheckHistory.md) | `RMC2` → `RMCNo_l` | Active | - |
 | `MaterialCheckHistorySelection3` | [MaterialCheckHistory](MaterialCheckHistory.md) | `RMC3` → `RMCNo_l` | Active | - |
 | `MaterialStockSelection` | [MaterialStock](MaterialStock.md) | `RMC` → `RMCNo_l` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [RMCEntity](../Classes/RMCEntity.md) - ORDA Entity class for RMC table
 
 ---
 

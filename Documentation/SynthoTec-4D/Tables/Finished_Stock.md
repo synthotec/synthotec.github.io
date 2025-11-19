@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Finished_Stock
 parent : Tables

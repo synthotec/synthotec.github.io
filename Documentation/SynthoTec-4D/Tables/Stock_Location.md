@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Stock_Location
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (5)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -55,13 +53,6 @@ parent : Tables
 | `CofCSelection` | [CofC](CofC.md) | `LocationID_l` → `StockLocationID_l` | Active | - |
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `Stock_LocationID` → `StockLocationID_l` | Active | - |
 | `CustomerSelection` | [Customer](Customer.md) | `ConsignmentLocationID` → `StockLocationID_l` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Stock_Location](../Classes/Stock_Location.md) - ORDA DataClass class for Stock_Location table
-- [Stock_LocationEntity](../Classes/Stock_LocationEntity.md) - ORDA Entity class for Stock_Location table
 
 ---
 

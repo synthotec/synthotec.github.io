@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Translation
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (3)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -42,12 +40,6 @@ parent : Tables
 | `OriginalText` | Keywords | regular | - |
 | `Process` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Translation](../Classes/Translation.md) - ORDA DataClass class for Translation table
 
 ---
 

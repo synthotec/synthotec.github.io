@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : QualitySystemResults
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (22)
 - [🔍 Indexes](#-indexes) (4)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -60,12 +58,6 @@ parent : Tables
 | `Completed` | Keywords | regular | - |
 | `WorksOrder` | Keywords | regular | - |
 | `System` | Keywords | regular | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [QualitySystemResults](../Classes/QualitySystemResults.md) - ORDA DataClass class for QualitySystemResults table
 
 ---
 

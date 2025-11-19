@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Customer
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (8)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -119,13 +117,6 @@ parent : Tables
 | `BOMSelection` | [BOM](BOM.md) | `Customer` → `Customer_Code` | Active | - |
 | `CustomerContactsSelection` | [CustomerContacts](CustomerContacts.md) | `Customer` → `Customer_Code` | Active | - |
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `Customer` → `Customer_Code` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Customer](../Classes/Customer.md) - ORDA DataClass class for Customer table
-- [CustomerEntity](../Classes/CustomerEntity.md) - ORDA Entity class for Customer table
 
 ---
 

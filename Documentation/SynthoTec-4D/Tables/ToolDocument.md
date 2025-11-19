@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolDocument
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -48,12 +46,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ToolDocument](../Classes/ToolDocument.md) - ORDA DataClass class for ToolDocument table
 
 ---
 

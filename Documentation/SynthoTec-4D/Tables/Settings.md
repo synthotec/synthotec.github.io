@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Settings
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (4)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -48,13 +46,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Settings](../Classes/Settings.md) - ORDA DataClass class for Settings table
-- [SettingsEntity](../Classes/SettingsEntity.md) - ORDA Entity class for Settings table
 
 ---
 

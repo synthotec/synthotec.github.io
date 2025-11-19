@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Warehouse
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (1)
 - [🔍 Indexes](#-indexes) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -36,12 +34,6 @@ parent : Tables
 | Field | Type | Kind | Unique |
 |:------|:-----|:-----|:-------|
 | `ID` | Keywords | regular | ✨ Yes |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Warehouse](../Classes/Warehouse.md) - ORDA DataClass class for Warehouse table
 
 ---
 

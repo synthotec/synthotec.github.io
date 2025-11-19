@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Stock_Movement
 parent : Tables

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Calibrations
 parent : Tables

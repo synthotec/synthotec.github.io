@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : BoxLabels
 parent : Tables
@@ -6,6 +6,10 @@ parent : Tables
 # BoxLabels
 
 📊 **Overview:** 36 Fields | 19 Indexes | 8 Many-to-One Relations
+
+## 📝 Description
+
+🗨️ Testing boxlabels manual comment
 
 ## ℹ️ Table Information
 
@@ -21,8 +25,6 @@ parent : Tables
 - [📋 Fields](#-fields) (36)
 - [🔍 Indexes](#-indexes) (19)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (8)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -103,13 +105,6 @@ parent : Tables
 | `CofCEntity` | [CofC](CofC.md) | `CofCID` → `Cert_Of_Conformance_No` | Active | - |
 | `Stock_LocationEntity` | [Stock_Location](Stock_Location.md) | `Stock_LocationID` → `StockLocationID_l` | Active | - |
 | `StatusUpdatedStaffEntity` | [Staff](Staff.md) | `StatusUpdatedStaffID` → `StaffID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [BoxLabels](../Classes/BoxLabels.md) - ORDA DataClass class for BoxLabels table
-- [BoxLabelsEntity](../Classes/BoxLabelsEntity.md) - ORDA Entity class for BoxLabels table
 
 ---
 

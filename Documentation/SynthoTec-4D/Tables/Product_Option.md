@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Product_Option
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (8)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (4)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -88,13 +86,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `Customer_OrderSelection` | [Customer_Order](Customer_Order.md) | `Product_OptionID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Product_Option](../Classes/Product_Option.md) - ORDA DataClass class for Product_Option table
-- [Product_OptionEntity](../Classes/Product_OptionEntity.md) - ORDA Entity class for Product_Option table
 
 ---
 

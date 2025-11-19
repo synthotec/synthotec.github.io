@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : HotHalfs
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (5)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -48,13 +46,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ToolsSelection` | [Tools](Tools.md) | `HotHalfID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [HotHalfs](../Classes/HotHalfs.md) - ORDA DataClass class for HotHalfs table
-- [HotHalfsEntity](../Classes/HotHalfsEntity.md) - ORDA Entity class for HotHalfs table
 
 ---
 

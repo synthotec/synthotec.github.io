@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : WorksOrder
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (18)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (4)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (14)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -167,13 +165,6 @@ parent : Tables
 | `WheelCalendarSelection` | [WheelCalendar](WheelCalendar.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 | `ShiftSummaryDetailSelection` | [ShiftSummaryDetail](ShiftSummaryDetail.md) | `WorksOrder` → `Works_Order_No` | Active | - |
 | `ToolNoticeWorksOrderSelection` | [ToolNoticeWorksOrder](ToolNoticeWorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [WorksOrder](../Classes/WorksOrder.md) - ORDA DataClass class for WorksOrder table
-- [WorksOrderEntity](../Classes/WorksOrderEntity.md) - ORDA Entity class for WorksOrder table
 
 ---
 

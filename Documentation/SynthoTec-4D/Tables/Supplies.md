@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Supplies
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -72,13 +70,6 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `ProductPackagingSelection` | [ProductPackaging](ProductPackaging.md) | `SuppliesID` → `UniqueID_i` | Active | - |
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `SuppliesID_i` → `UniqueID_i` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Supplies](../Classes/Supplies.md) - ORDA DataClass class for Supplies table
-- [SuppliesEntity](../Classes/SuppliesEntity.md) - ORDA Entity class for Supplies table
 
 ---
 

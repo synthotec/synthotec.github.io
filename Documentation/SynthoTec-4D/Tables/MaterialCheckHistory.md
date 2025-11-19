@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : MaterialCheckHistory
 parent : Tables

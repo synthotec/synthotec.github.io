@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : BOM
 parent : Tables
@@ -6,6 +6,10 @@ parent : Tables
 # BOM
 
 📊 **Overview:** 42 Fields | 6 Indexes | 3 Many-to-One Relations
+
+## 📝 Description
+
+🗨️ Test manual comment for BOM table
 
 ## ℹ️ Table Information
 
@@ -21,8 +25,6 @@ parent : Tables
 - [📋 Fields](#-fields) (42)
 - [🔍 Indexes](#-indexes) (6)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -91,13 +93,6 @@ parent : Tables
 | `ProductEntity` | [Product](Product.md) | `ProductID` → `Product_ID` | Active | - |
 | `MaterialEntity` | [Material](Material.md) | `MaterialID` → `Unique_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [BOM](../Classes/BOM.md) - ORDA DataClass class for BOM table
-- [BOMEntity](../Classes/BOMEntity.md) - ORDA Entity class for BOM table
 
 ---
 

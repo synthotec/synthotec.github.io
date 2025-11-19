@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : OrderPickRequest
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -57,13 +55,6 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PalletSelection` | [Pallet](Pallet.md) | `OrderPickRequestID` → `ID` | Active | - |
 | `BoxLabelsSelection` | [BoxLabels](BoxLabels.md) | `OrderPickRequestID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [OrderPickRequestEntity](../Classes/OrderPickRequestEntity.md) - ORDA Entity class for OrderPickRequest table
-- [OrderPickRequestSelection](../Classes/OrderPickRequestSelection.md) - ORDA EntitySelection class for OrderPickRequest table
 
 ---
 

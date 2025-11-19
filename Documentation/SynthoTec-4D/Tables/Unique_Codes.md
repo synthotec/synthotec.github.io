@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Unique_Codes
 parent : Tables

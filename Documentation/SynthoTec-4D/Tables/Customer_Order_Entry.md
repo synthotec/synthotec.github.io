@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Customer_Order_Entry
 parent : Tables

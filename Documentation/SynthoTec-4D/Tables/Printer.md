@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Printer
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (4)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (3)
 
 ---
 
@@ -54,14 +52,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PrintJobSelection` | [PrintJob](PrintJob.md) | `PrinterID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Printer](../Classes/Printer.md) - ORDA DataClass class for Printer table
-- [PrinterEntity](../Classes/PrinterEntity.md) - ORDA Entity class for Printer table
-- [PrinterSelection](../Classes/PrinterSelection.md) - ORDA EntitySelection class for Printer table
 
 ---
 

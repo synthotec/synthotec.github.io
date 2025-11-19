@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PackagingCats
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (3)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -45,13 +43,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `SuppliesSelection` | [Supplies](Supplies.md) | `PackagingCat` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PackagingCats](../Classes/PackagingCats.md) - ORDA DataClass class for PackagingCats table
-- [PackagingCatsEntity](../Classes/PackagingCatsEntity.md) - ORDA Entity class for PackagingCats table
 
 ---
 

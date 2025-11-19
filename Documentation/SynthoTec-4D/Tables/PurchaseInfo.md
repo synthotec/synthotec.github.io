@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PurchaseInfo
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (8)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -83,12 +81,6 @@ parent : Tables
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PurchaseReceiptsSelection` | [PurchaseReceipts](PurchaseReceipts.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
 | `RMCSelection` | [RMC](RMC.md) | `PurchaseInfoID` → `UniqueID_l` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PurchaseInfoEntity](../Classes/PurchaseInfoEntity.md) - ORDA Entity class for PurchaseInfo table
 
 ---
 

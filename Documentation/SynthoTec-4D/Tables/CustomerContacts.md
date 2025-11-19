@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : CustomerContacts
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (4)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -46,13 +44,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [CustomerContacts](../Classes/CustomerContacts.md) - ORDA DataClass class for CustomerContacts table
-- [CustomerContactsEntity](../Classes/CustomerContactsEntity.md) - ORDA Entity class for CustomerContacts table
 
 ---
 

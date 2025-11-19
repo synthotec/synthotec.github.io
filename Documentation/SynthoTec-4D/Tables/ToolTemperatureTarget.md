@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolTemperatureTarget
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (3)
 
 ---
 
@@ -55,14 +53,6 @@ parent : Tables
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
 | `ToolTemperatureZoneEntity` | [ToolTemperatureZone](ToolTemperatureZone.md) | `ZoneID` → `ID` | Active | - |
 | `StaffEntity` | [Staff](Staff.md) | `StaffID` → `StaffID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ToolTemperatureTarget](../Classes/ToolTemperatureTarget.md) - ORDA DataClass class for ToolTemperatureTarget table
-- [ToolTemperatureTargetEntity](../Classes/ToolTemperatureTargetEntity.md) - ORDA Entity class for ToolTemperatureTarget table
-- [ToolTemperatureTargetSelection](../Classes/ToolTemperatureTargetSelection.md) - ORDA EntitySelection class for ToolTemperatureTarget table
 
 ---
 

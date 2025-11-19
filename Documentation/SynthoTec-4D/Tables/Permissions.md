@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Permissions
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (2)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -44,13 +42,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `StaffPermissionsSelection` | [StaffPermissions](StaffPermissions.md) | `PermissionID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Permissions](../Classes/Permissions.md) - ORDA DataClass class for Permissions table
-- [PermissionsEntity](../Classes/PermissionsEntity.md) - ORDA Entity class for Permissions table
 
 ---
 

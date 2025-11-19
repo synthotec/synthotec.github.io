@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Tools
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (10)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (12)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -209,13 +207,6 @@ parent : Tables
 | `PlanningWheelSelection` | [PlanningWheel](PlanningWheel.md) | `ToolID` → `Tool_ID` | Active | - |
 | `Product_OptionSelection` | [Product_Option](Product_Option.md) | `Tool ID` → `Tool_ID` | Active | - |
 | `ToolNoticeSelection` | [ToolNotice](ToolNotice.md) | `ToolID` → `Tool_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Tools](../Classes/Tools.md) - ORDA DataClass class for Tools table
-- [ToolsEntity](../Classes/ToolsEntity.md) - ORDA Entity class for Tools table
 
 ---
 

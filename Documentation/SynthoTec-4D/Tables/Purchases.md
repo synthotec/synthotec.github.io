@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Purchases
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -69,12 +67,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `PurchaseInfoSelection` | [PurchaseInfo](PurchaseInfo.md) | `OrderNo_l` → `OrderNo_l` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PurchasesEntity](../Classes/PurchasesEntity.md) - ORDA Entity class for Purchases table
 
 ---
 

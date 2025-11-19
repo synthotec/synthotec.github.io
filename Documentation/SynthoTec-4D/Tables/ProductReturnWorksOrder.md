@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductReturnWorksOrder
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (8)
 - [🔍 Indexes](#-indexes) (3)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -53,12 +51,6 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ProductReturnEntity` | [ProductReturn](ProductReturn.md) | `ReturnID_l` → `ReturnID_l` | Active | - |
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `Works_Order_No_l` → `Works_Order_No` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ProductReturnWorksOrderEntity](../Classes/ProductReturnWorksOrderEntity.md) - ORDA Entity class for ProductReturnWorksOrder table
 
 ---
 

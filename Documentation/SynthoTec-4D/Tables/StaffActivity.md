@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : StaffActivity
 parent : Tables

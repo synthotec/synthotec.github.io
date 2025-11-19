@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ProductStockTake
 parent : Tables

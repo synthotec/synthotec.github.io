@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ToolLog
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (1)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -48,12 +46,6 @@ parent : Tables
 | Relation Name | Destination Table | Source → Destination | State | Description |
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ToolsEntity` | [Tools](Tools.md) | `Tool_ID` → `Tool_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ToolLogEntity](../Classes/ToolLogEntity.md) - ORDA Entity class for ToolLog table
 
 ---
 

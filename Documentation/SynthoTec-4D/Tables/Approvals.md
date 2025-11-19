@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Approvals
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (13)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -57,13 +55,6 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ToolsEntity` | [Tools](Tools.md) | `ToolID` → `Tool_ID` | Active | - |
 | `CustomerEntity` | [Customer](Customer.md) | `Customer` → `Customer_Code` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Approvals](../Classes/Approvals.md) - ORDA DataClass class for Approvals table
-- [ApprovalsEntity](../Classes/ApprovalsEntity.md) - ORDA Entity class for Approvals table
 
 ---
 

@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ErrorReport
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (9)
 - [🔍 Indexes](#-indexes) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -45,13 +43,6 @@ parent : Tables
 |:------|:-----|:-----|:-------|
 | `Digest` | Keywords | regular | - |
 | `ID` | Keywords | regular | ✨ Yes |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ErrorReport](../Classes/ErrorReport.md) - ORDA DataClass class for ErrorReport table
-- [ErrorReportEntity](../Classes/ErrorReportEntity.md) - ORDA Entity class for ErrorReport table
 
 ---
 

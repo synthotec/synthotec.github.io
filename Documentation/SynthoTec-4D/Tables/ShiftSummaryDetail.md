@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : ShiftSummaryDetail
 parent : Tables
@@ -21,8 +21,6 @@ parent : Tables
 - [📋 Fields](#-fields) (6)
 - [🔍 Indexes](#-indexes) (2)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -50,12 +48,6 @@ parent : Tables
 |:--------------|:------------------|:---------------------|:------|:------------|
 | `ShiftSummaryEntity` | [ShiftSummary](ShiftSummary.md) | `ShiftSummaryID` → `ID` | Active | - |
 | `WorksOrderEntity` | [WorksOrder](WorksOrder.md) | `WorksOrder` → `Works_Order_No` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [ShiftSummaryDetailEntity](../Classes/ShiftSummaryDetailEntity.md) - ORDA Entity class for ShiftSummaryDetail table
 
 ---
 

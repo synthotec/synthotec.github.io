@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : Product
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (3)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (18)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -179,13 +177,6 @@ parent : Tables
 | `CofCSelection` | [CofC](CofC.md) | `ProductID_l` → `Product_ID` | Active | - |
 | `ForecastSelection` | [Forecast](Forecast.md) | `ProductID` → `Product_ID` | Active | - |
 | `QualitySystemProceduresSelection` | [QualitySystemProcedures](QualitySystemProcedures.md) | `ProductID` → `Product_ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [Product](../Classes/Product.md) - ORDA DataClass class for Product table
-- [ProductEntity](../Classes/ProductEntity.md) - ORDA Entity class for Product table
 
 ---
 

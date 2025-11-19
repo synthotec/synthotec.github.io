@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : PickRequest
 parent : Tables
@@ -22,8 +22,6 @@ parent : Tables
 - [🔍 Indexes](#-indexes) (7)
 - [🔗 Many-to-One Relations](#-many-to-one-relations) (2)
 - [🔗 One-to-Many Relations](#-one-to-many-relations) (1)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (2)
 
 ---
 
@@ -64,13 +62,6 @@ parent : Tables
 | Relation Name | Source Table | Source → Destination | State | Description |
 |:--------------|:-------------|:---------------------|:------|:------------|
 | `OrderPickRequestSelection` | [OrderPickRequest](OrderPickRequest.md) | `PickRequestID` → `ID` | Active | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [PickRequest](../Classes/PickRequest.md) - ORDA DataClass class for PickRequest table
-- [PickRequestEntity](../Classes/PickRequestEntity.md) - ORDA Entity class for PickRequest table
 
 ---
 

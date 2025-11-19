@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : FieldHistory
 parent : Tables
@@ -20,8 +20,6 @@ parent : Tables
 
 - [📋 Fields](#-fields) (7)
 - [🔍 Indexes](#-indexes) (5)
-- [🔗 Related Items](#-related-items)
-  - [Classes](#-classes) (1)
 
 ---
 
@@ -46,12 +44,6 @@ parent : Tables
 | `Table` | B-Tree | regular | - |
 | `Table` | Keywords | regular | - |
 | `Field` | Keywords | regular | - |
-
-## 🔗 Related Items
-
-### 📦 Classes
-
-- [FieldHistory](../Classes/FieldHistory.md) - ORDA DataClass class for FieldHistory table
 
 ---
 

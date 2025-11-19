@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : (Route_Card_Data)
 parent : Tables

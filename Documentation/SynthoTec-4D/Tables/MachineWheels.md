@@ -1,4 +1,4 @@
-﻿---
+---
 layout : default
 title : MachineWheels
 parent : Tables
