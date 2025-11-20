@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new email with the specified subject and HTML body
 
-🕐 *Last updated: 2025-11-19T00:00:00Z2025-11-19T21:56:35.713Z*
+🕐 *Last updated: 2025-11-20T00:00:00Z2025-11-20T10:33:21.483Z*
 
 ---
 
@@ -225,6 +225,8 @@ Sets the HTML body content of the email
 ```4d
 Function setSubject($Subject : Text)
 ```
+
+🗨️ **Note:** Sets te subject f the email
 
 **Parameters:**
 
