@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-11-19T21:53:02.288Z*
+🕐 *Last updated: 2025-11-20T14:23:48.810Z*
 
 ---
 
@@ -52,6 +52,8 @@ parent : Classes
 Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribute : Object) -> $DuplicateEntitySelection : 4D.EntitySelection
 ```
 
+Returns entity selection containing all entities with duplicate values for the specified attribute
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -69,6 +71,8 @@ Function getDuplicateValueEntities($DataClass : 4D.DataClass; $DataClassAttribut
 ```4d
 Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $FormulaOrFormulaCollection : Variant; $FormulaParamsCollection : Collection) -> $LockedEntityCollection : Collection
 ```
+
+Applies formula(s) to each entity in selection, locks entities during update, returns collection of locked entities
 
 **Parameters:**
 
@@ -89,6 +93,8 @@ Function applyFormulasToSelection($EntitySelection : 4D.EntitySelection; $Formul
 Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfErrorOccurs : Boolean) -> $LockedSelectionObject : Object
 ```
 
+Locks all entities in selection, returns object with locked entities collection and success status
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -107,6 +113,8 @@ Function lockEntitySelection($EntitySelection : 4D.EntitySelection; $LockIfError
 Function unlockEntitySelection($LockedSelectionObject : Object)
 ```
 
+Unlocks all entities in the locked selection object's collection
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -121,6 +129,8 @@ Function unlockEntitySelection($LockedSelectionObject : Object)
 ```4d
 Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> $Success : Boolean
 ```
+
+Locks a single entity with reload if stamp changed, optionally displays warning dialog on failure
 
 **Parameters:**
 
@@ -140,6 +150,8 @@ Function lockEntity($Entity : 4D.Entity; $DisplayWarning : Boolean) -> $Success 
 Function getTablePrimaryKeyField($TablePointerOrNumber : Variant) -> Pointer
 ```
 
+Returns a pointer to the primary key field of the specified table (accepts pointer or table number)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -156,6 +168,8 @@ Function getTablePrimaryKeyField($TablePointerOrNumber : Variant) -> Pointer
 ```4d
 Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.DataClass) -> $relatedEntityOrEntitySelection : Variant
 ```
+
+Returns related entity or entity selection from source to destination table via ORDA relationship
 
 **Parameters:**
 
@@ -174,6 +188,8 @@ Function getRelation($entityOrEntitySelection : Variant; $destinationTable : 4D.
 ```4d
 Function getRelationName($sourceTableClass : 4D.Class; $destinationTableClass : 4D.Class; $supressNoRelationWarning : Boolean) -> $relationName : Text
 ```
+
+Returns the attribute name representing the relationship between source and destination tables
 
 **Parameters:**
 

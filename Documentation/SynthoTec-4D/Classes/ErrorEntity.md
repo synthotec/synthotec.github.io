@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.430Z*
+🕐 *Last updated: 2025-11-20T14:23:48.903Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 Function createGitHubIssue
 ```
 
+Creates a new GitHub issue for this error with stack trace, debug info, and call chain details
+
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
@@ -63,6 +65,8 @@ Function get FirstOccurrence -> Text
 Function get GitHubIssueLabel -> Text
 ```
 
+Returns the GitHub label string for this error (format: 4DErrorID:ID)
+
 **Returns:** `Text`
 
 ---
@@ -74,6 +78,8 @@ Function get GitHubIssueLabel -> Text
 Function get GitHubIssueText -> Text
 ```
 
+Returns formatted GitHub issue number text or empty string if no issue linked
+
 **Returns:** `Text`
 
 ---
@@ -84,6 +90,8 @@ Function get GitHubIssueText -> Text
 ```4d
 Function get GitHubIssueTitle -> Text
 ```
+
+Returns the GitHub issue title for this error (format: 4D Error [Code X] Method (Line Y))
 
 **Returns:** `Text`
 
@@ -106,6 +114,8 @@ Function get LastOccurrence -> Text
 ```4d
 Function get ListboxMeta->$ListboxMeta -> cs.UI.ListBoxMeta
 ```
+
+Returns listbox display metadata with colored backgrounds (green/red for suppress, gray/green/amber for GitHub issue)
 
 **Returns:** `cs.UI.ListBoxMeta`
 

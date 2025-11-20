@@ -5,18 +5,19 @@ parent : Classes
 ---
 # ClassFunction [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassFunction.4dm)
 
-📊 **Overview:** 1 Constructor | 3 Functions
+📊 **Overview:** 8 Properties | 1 Constructor | 3 Functions
 
 ## 📝 Description
 
-Stores metadata about a class function
+Creates a new class function metadata object with the specified function name
 
-🕐 *Last updated: 2025-11-19T21:53:02.084Z*
+🕐 *Last updated: 2025-11-20T14:23:48.694Z*
 
 ---
 
 ## 📑 Table of Contents
 
+- [📋 Properties (8)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -25,6 +26,19 @@ Stores metadata about a class function
     - [toObject](#toobject) → `Object`
 
 ---
+
+## Properties {#properties}
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Name` | `Text` | - | The name of the function |
+| `Modifiers` | `Collection` | `[]` | Collection of function modifiers (local, exposed, etc.) |
+| `IsGetter` | `Boolean` | `False` | Indicates if this is a getter function |
+| `IsSetter` | `Boolean` | `False` | Indicates if this is a setter function |
+| `Parameters` | `Collection` | `[]` | Collection of ClassParameter objects defining function parameters |
+| `ReturnType` | `Text` | `""` | The return type of the function |
+| `LineNumber` | `Integer` | `0` | Line number where the function is defined in the source file |
+| `DocComment` | `Text` | `""` | Documentation comment for the function |
 
 ## Constructor {#constructor}
 
@@ -35,7 +49,7 @@ Stores metadata about a class function
 Class constructor($Name : Text)
 ```
 
-Stores metadata about a class function
+Creates a new class function metadata object with the specified function name
 
 **Parameters:**
 
@@ -56,6 +70,8 @@ Stores metadata about a class function
 Function addModifier($Modifier : Text)
 ```
 
+Adds a modifier (e.g., "local", "exposed") to the function's modifiers collection
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -71,6 +87,8 @@ Function addModifier($Modifier : Text)
 Function addParameter($Parameter : cs.ClassParameter)
 ```
 
+Adds a parameter definition to the function's parameters collection
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -85,6 +103,8 @@ Function addParameter($Parameter : cs.ClassParameter)
 ```4d
 Function toObject -> Object
 ```
+
+Converts the function metadata to an object suitable for JSON serialization
 
 **Returns:** `Object`
 

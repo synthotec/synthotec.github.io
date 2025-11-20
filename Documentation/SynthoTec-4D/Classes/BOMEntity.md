@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.002Z*
+🕐 *Last updated: 2025-11-20T14:23:48.630Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.BOMEntity) -> $Collection : Collection
 ```
 
+Defines migration rules for syncing Bill of Materials entity data from a remote source
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.BOMEntity) -> $Collection : Collec
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.BOMEntity)
 ```
+
+Synchronizes related entity selections during migration process
 
 **Parameters:**
 

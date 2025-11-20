@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:01.955Z*
+🕐 *Last updated: 2025-11-20T14:23:48.610Z*
 
 ---
 
@@ -37,7 +37,7 @@ parent : Classes
 Function generateNTNSNR_DESADV
 ```
 
-MARK:- First Line
+Generates an EDI DESADV (Despatch Advice) message in NTN-SNR format for this advice note
 
 ---
 

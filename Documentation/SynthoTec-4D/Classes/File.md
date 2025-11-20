@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.585Z*
+🕐 *Last updated: 2025-11-20T14:23:48.994Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function upload -> $FileEntity : cs.FileEntity
 ```
+
+Prompts user to select a file and uploads it to database as new FileEntity with name, blob, and timestamp
 
 **Returns:** `cs.FileEntity`
 

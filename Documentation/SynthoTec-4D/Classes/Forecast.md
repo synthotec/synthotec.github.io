@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.618Z*
+🕐 *Last updated: 2025-11-20T14:23:49.025Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function generate -> $Success : Boolean
 ```
 
+Generates forecast data by truncating table and creating monthly forecast entities from SalesForecast records
+
 **Returns:** `Boolean`
 
 ---
@@ -45,6 +47,8 @@ Function generate -> $Success : Boolean
 ```4d
 Function generateForecastOrders
 ```
+
+Creates forecast customer orders for each non-zero forecast quantity from current month through last forecast year
 
 ---
 

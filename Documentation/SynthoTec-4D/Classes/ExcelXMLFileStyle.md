@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 9 Properties | 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-19T21:53:02.553Z*
+## 📝 Description
+
+Creates a new Excel cell style with default font settings
+
+🕐 *Last updated: 2025-11-20T14:23:48.968Z*
 
 ---
 
@@ -28,15 +32,15 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `NumberFormat_ShortDate` | `Text` | `"Short Date"` | - |
-| `NumberFormat_dd_mmm` | `Text` | `"dd\\-mmm"` | - |
-| `NumberFormat_Decimal` | `Text` | `"General;#;;@"` | - |
-| `NumberFormat_Number` | `Text` | `"#,###,###,##0"` | - |
-| `Font` | `Object` | `{}` | - |
-| `Interior` | `Object` | `{}` | - |
-| `Alignment` | `Object` | `{}` | - |
-| `NumberFormat` | `Text` | `"General"` | - |
-| `ID` | `Text` | - | - |
+| `NumberFormat_ShortDate` | `Text` | `"Short Date"` | Constant for short date format |
+| `NumberFormat_dd_mmm` | `Text` | `"dd\\-mmm"` | Constant for day-month format |
+| `NumberFormat_Decimal` | `Text` | `"General;#;;@"` | Constant for decimal number format |
+| `NumberFormat_Number` | `Text` | `"#,###,###,##0"` | Constant for integer number format with thousand separators |
+| `Font` | `Object` | `{}` | Font properties (name, family, size, color, bold) |
+| `Interior` | `Object` | `{}` | Cell background properties (color, pattern) |
+| `Alignment` | `Object` | `{}` | Text alignment properties (horizontal, vertical) |
+| `NumberFormat` | `Text` | `"General"` | Current number format for this style |
+| `ID` | `Text` | - | Unique identifier for this style |
 
 ## Constructor {#constructor}
 
@@ -46,6 +50,8 @@ parent : Classes
 ```4d
 Class constructor
 ```
+
+Creates a new Excel cell style with default font settings
 
 ---
 
@@ -59,6 +65,8 @@ Class constructor
 ```4d
 Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integer; $Bold : Boolean) -> cs.ExcelXMLFileStyle
 ```
+
+Sets font properties (name, family, size, color, bold) with defaults (Calibri, Swiss, 11pt, black, not bold)
 
 **Parameters:**
 
@@ -81,6 +89,8 @@ Function setFontStyle($Name : Text; $Family : Text; $Size : Real; $Color : Integ
 Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
 ```
 
+Sets the cell background color with solid pattern
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -98,6 +108,8 @@ Function setInteriorColor($Color : Integer) -> cs.ExcelXMLFileStyle
 Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
 ```
 
+Sets the number format for this style (use NumberFormat_* constants)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -114,6 +126,8 @@ Function setNumberFormat($NumberFormat : Text) -> cs.ExcelXMLFileStyle
 ```4d
 Function setAlignment($Horizontal : Text; $Vertical : Text) -> cs.ExcelXMLFileStyle
 ```
+
+Sets cell text alignment (defaults to center/center)
 
 **Parameters:**
 

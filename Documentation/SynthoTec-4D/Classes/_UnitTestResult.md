@@ -5,15 +5,19 @@ parent : Classes
 ---
 # _UnitTestResult [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/_UnitTestResult.4dm)
 
-📊 **Overview:** 5 Properties | 1 Constructor | 3 Getters
+📊 **Overview:** 6 Properties | 1 Constructor | 3 Getters
 
-🕐 *Last updated: 2025-11-19T21:53:04.666Z*
+## 📝 Description
+
+Returns the source code of the test formula as text
+
+🕐 *Last updated: 2025-11-20T14:23:51.107Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (5)](#properties)
+- [📋 Properties (6)](#properties)
 - [🏗️ Constructor](#constructor)
 - [⚙️ Functions](#functions)
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
@@ -27,11 +31,12 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `UnitTest` | `cs.UnitTest` | - | - |
-| `Success; ErrorOccurred` | `Boolean` | - | - |
-| `StackTrace` | `Collection` | - | - |
-| `TestFormula` | `4D.Function` | - | - |
-| `TestFormulaParameters` | `Collection` | - | - |
+| `UnitTest` | `cs.UnitTest` | - | Reference to the parent unit test instance |
+| `Success` | `Boolean` | - | Indicates if the test passed successfully |
+| `ErrorOccurred` | `Boolean` | - | Indicates if an error occurred during test execution |
+| `StackTrace` | `Collection` | - | Collection of stack trace information if an error occurred |
+| `TestFormula` | `4D.Function` | - | The formula that was executed for this test |
+| `TestFormulaParameters` | `Collection` | - | Parameters passed to the test formula |
 
 ## Constructor {#constructor}
 
@@ -55,6 +60,8 @@ Class constructor
 Function get StatusEmoji -> Text
 ```
 
+Returns an emoji indicating test status: ❗ for error, ✅ for success, ⚠️ for failure
+
 **Returns:** `Text`
 
 ---
@@ -66,6 +73,8 @@ Function get StatusEmoji -> Text
 Function get TestFormulaParametersText->$TestFormulaParametersText -> Text
 ```
 
+Returns a formatted string representation of the test formula parameters as "[param1; param2; ...]"
+
 **Returns:** `Text`
 
 ---
@@ -76,6 +85,8 @@ Function get TestFormulaParametersText->$TestFormulaParametersText -> Text
 ```4d
 Function get TestFormulaText -> Text
 ```
+
+Returns the source code of the test formula as text
 
 **Returns:** `Text`
 

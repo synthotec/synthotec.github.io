@@ -5,14 +5,19 @@ parent : Classes
 ---
 # CollectionObject [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/CollectionObject.4dm)
 
-📊 **Overview:** 1 Constructor | 10 Functions
+📊 **Overview:** 3 Properties | 1 Constructor | 10 Functions
 
-🕐 *Last updated: 2025-11-19T21:53:02.150Z*
+## 📝 Description
+
+Creates a collection wrapper for UI dropdowns with optional placeholder text
+
+🕐 *Last updated: 2025-11-20T14:23:48.719Z*
 
 ---
 
 ## 📑 Table of Contents
 
+- [📋 Properties (3)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -29,6 +34,14 @@ parent : Classes
 
 ---
 
+## Properties {#properties}
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `_CollectionObject` | `Object` | - | Internal object storing collection values, current index, and selected value |
+| `_primaryKeys` | `Collection` | `[]` | Collection of primary keys corresponding to each value |
+| `_entities` | `Collection` | `[]` | Collection of entity objects corresponding to each value |
+
 ## Constructor {#constructor}
 
 #### constructor {#constructor}
@@ -37,6 +50,8 @@ parent : Classes
 ```4d
 Class constructor($valuesCollection : Collection; $placeHolderText : Text)
 ```
+
+Creates a collection wrapper for UI dropdowns with optional placeholder text
 
 **Parameters:**
 
@@ -57,6 +72,8 @@ Class constructor($valuesCollection : Collection; $placeHolderText : Text)
 ```4d
 Function CollectionObject -> $CollectionObject : Object
 ```
+
+Returns the internal collection object containing values, index, and currentValue
 
 **Returns:** `Object`
 

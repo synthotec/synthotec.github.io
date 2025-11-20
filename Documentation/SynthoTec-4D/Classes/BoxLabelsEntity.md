@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.065Z*
+🕐 *Last updated: 2025-11-20T14:23:48.686Z*
 
 ---
 
@@ -61,6 +61,8 @@ parent : Classes
 Function getStatesCollection -> Collection
 ```
 
+Returns collection of possible box label states: In Stock, Not Made, Removed From Stock
+
 **Returns:** `Collection`
 
 ---
@@ -72,6 +74,8 @@ Function getStatesCollection -> Collection
 Function ModifyStatus
 ```
 
+Allows user to modify box status (In Stock/Not Made/Removed) with validation and permission checks
+
 ---
 
 #### AddComment {#addcomment}
@@ -80,6 +84,8 @@ Function ModifyStatus
 ```4d
 Function AddComment($Comment : Text; $StaffEntity : cs.StaffEntity)
 ```
+
+Adds a timestamped comment to the box label's comment history with staff member attribution
 
 **Parameters:**
 
@@ -208,6 +214,8 @@ Function get BoxQuantityDisplay -> Text
 Function get CurrentStatus -> Object
 ```
 
+Returns current status with text, background color, and foreground color based on box state
+
 **Returns:** `Object`
 
 ---
@@ -238,6 +246,8 @@ Function query Despatched($QueryEventObject : Object)
 ```4d
 Function get GrossWeightKg -> Real
 ```
+
+Calculates gross weight (net weight + 1kg for packaging: 800g box + 200g bags)
 
 **Returns:** `Real`
 
@@ -271,6 +281,8 @@ Function get linkedBoxesQuantity -> Integer
 ```4d
 Function get NetWeightKg -> Real
 ```
+
+Calculates the net weight in kilograms based on part weight and total quantity
 
 **Returns:** `Real`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.633Z*
+🕐 *Last updated: 2025-11-20T14:23:49.028Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function get Consignment -> Boolean
 ```
+
+Returns true if there is a consignment product option for this forecast's product and customer
 
 **Returns:** `Boolean`
 

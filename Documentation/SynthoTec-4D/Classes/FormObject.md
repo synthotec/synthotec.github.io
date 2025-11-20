@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 4 Functions | 28 Getters | 26 Setters
 
-🕐 *Last updated: 2025-11-19T21:53:02.677Z*
+## 📝 Description
+
+Creates wrapper for form object manipulation using 4D commands (defaults to current object if not specified)
+
+🕐 *Last updated: 2025-11-20T14:23:49.085Z*
 
 ---
 
@@ -57,7 +61,7 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Name` | `Text` | - | - |
+| `Name` | `Text` | - | Name of the form object being wrapped |
 
 ## Constructor {#constructor}
 
@@ -67,6 +71,8 @@ parent : Classes
 ```4d
 Class constructor($FormObjectName : Text)
 ```
+
+Creates wrapper for form object manipulation using 4D commands (defaults to current object if not specified)
 
 **Parameters:**
 
@@ -236,6 +242,8 @@ Function get Enabled -> Boolean
 Function set Enabled($Enabled : Boolean)
 ```
 
+Returns whether the form object is enabled
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -253,6 +261,8 @@ Function set Enabled($Enabled : Boolean)
 Function get Enterable -> Boolean
 Function set Enterable($Enterable : Boolean)
 ```
+
+Returns whether the form object is enterable
 
 **Setter Parameter:**
 
@@ -307,6 +317,8 @@ Function set FontSize($FontSize : Integer)
 Function get ForegroundColor -> $ForegroundColor : Integer
 Function set ForegroundColor($ForegroundColor : Variant)
 ```
+
+Returns the form object's foreground (text) color
 
 **Setter Parameter:**
 
@@ -427,6 +439,8 @@ Function get MaximumValue -> $MaximumValue : Variant
 Function set MaximumValue($MaximumValue : Variant)
 ```
 
+Returns the form object's maximum value
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -444,6 +458,8 @@ Function set MaximumValue($MaximumValue : Variant)
 Function get MinimumValue -> $MinimumValue : Variant
 Function set MinimumValue($MinimumValue : Variant)
 ```
+
+Returns the form object's minimum value
 
 **Setter Parameter:**
 
@@ -528,6 +544,8 @@ Function get Title -> Text
 Function set Title($Title : Text)
 ```
 
+Returns the form object's title
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -599,6 +617,8 @@ Function set VerticalScrollPosition($VerticalScrollPosition : Integer)
 Function get Visible -> Boolean
 Function set Visible($Visible : Boolean)
 ```
+
+Returns whether the form object is visible
 
 **Setter Parameter:**
 

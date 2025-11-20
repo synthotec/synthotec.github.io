@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.205Z*
+🕐 *Last updated: 2025-11-20T14:23:48.740Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.CustomerEntity) -> $Collection : Collection
 ```
 
+Defines migration rules for syncing customer entity data from a remote source (50+ properties)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -54,6 +56,8 @@ Function getMigrationRules($RemoteEntity : cs.CustomerEntity) -> $Collection : C
 Function syncMigrationSelections($RemoteEntity : cs.CustomerEntity)
 ```
 
+Synchronizes related entity selections (WorksOrder, Product_Option, PickRequest, Customer_Order, Approvals) during migration
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -70,6 +74,8 @@ Function syncMigrationSelections($RemoteEntity : cs.CustomerEntity)
 ```4d
 Function get HasMigrationID -> Boolean
 ```
+
+Returns true if this entity has a valid migration ID (not null and not empty string)
 
 **Returns:** `Boolean`
 

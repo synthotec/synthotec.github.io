@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:01.981Z*
+🕐 *Last updated: 2025-11-20T14:23:48.620Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.ApprovalsEntity) -> $Collection : Collection
 ```
 
+Defines migration rules for syncing approval entity data from a remote source
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.ApprovalsEntity) -> $Collection : 
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.ApprovalsEntity)
 ```
+
+Synchronizes related entity selections during migration process
 
 **Parameters:**
 

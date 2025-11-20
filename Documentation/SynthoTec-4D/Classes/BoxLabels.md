@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.025Z*
+🕐 *Last updated: 2025-11-20T14:23:48.646Z*
 
 ---
 
@@ -40,6 +40,8 @@ parent : Classes
 Function getMigrationSettings -> Object
 ```
 
+Returns configuration settings for entity migration including custom property formulas for ID and UUID
+
 **Returns:** `Object`
 
 ---
@@ -50,6 +52,8 @@ Function getMigrationSettings -> Object
 ```4d
 Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.BoxLabelsSelection
 ```
+
+Returns boxes available for picking: in stock (v2+), not on pallet, not already pick-requested, matching product
 
 **Parameters:**
 
@@ -68,6 +72,8 @@ Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.BoxLabelsSe
 Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCardNumber : Integer)
 ```
 
+Validates that parts packed on a route card do not exceed the configured pallet quantity, sends email alert if exceeded
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -83,6 +89,8 @@ Function checkPalletQuantity($WorksOrderEntity : cs.WorksOrderEntity; $RouteCard
 ```4d
 Function getUsingScanner($ScannerObject : Object) -> $BoxLabelsEntity : cs.BoxLabelsEntity
 ```
+
+Retrieves a box label entity using scanner data (UUID or BoxLabelID), validates works order matches
 
 **Parameters:**
 
@@ -101,6 +109,8 @@ Function getUsingScanner($ScannerObject : Object) -> $BoxLabelsEntity : cs.BoxLa
 Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
 ```
 
+Finds and returns a box label entity by its UUID, returns Null if UUID is empty or not found
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -118,6 +128,8 @@ Function getByUUID($UUID : Text) -> cs.BoxLabelsEntity
 Function GetBoxQuantity($BoxLabelID : Integer) -> $BoxQuantity : Integer
 ```
 
+REST API endpoint: Returns the total quantity of parts in the specified box label
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -134,6 +146,8 @@ Function GetBoxQuantity($BoxLabelID : Integer) -> $BoxQuantity : Integer
 ```4d
 Function restScannedBoxLabel($RestPostDataObject : Object) -> Object
 ```
+
+REST API endpoint: Processes scanned box label data and returns warehouse view data for mobile app
 
 **Parameters:**
 

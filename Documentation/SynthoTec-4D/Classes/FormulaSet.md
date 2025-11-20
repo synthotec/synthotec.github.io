@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-19T21:53:02.695Z*
+## 📝 Description
+
+Creates formula set from single formula or collection of formulas with optional this object and parameters
+
+🕐 *Last updated: 2025-11-20T14:23:49.105Z*
 
 ---
 
@@ -25,10 +29,10 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_FormulaCollection` | `Collection` | - | - |
-| `_ThisObject` | `4D.Function` | - | - |
-| `_Parameters` | `Collection` | - | - |
-| `FormulaResults` | `Collection` | - | - |
+| `_FormulaCollection` | `Collection` | - | Internal collection of formulas to execute |
+| `_ThisObject` | `4D.Function` | - | TBI: appears to be Object not Function based on constructor |
+| `_Parameters` | `Collection` | - | Parameters to pass to each formula |
+| `FormulaResults` | `Collection` | - | Results from executing all formulas in the set |
 
 ## Constructor {#constructor}
 
@@ -38,6 +42,8 @@ parent : Classes
 ```4d
 Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $Parameters : Collection)
 ```
+
+Creates formula set from single formula or collection of formulas with optional this object and parameters
 
 **Parameters:**
 
@@ -59,6 +65,8 @@ Class constructor($FormulaOrFormulaCollection : Variant; $ThisObject : Object; $
 ```4d
 Function apply -> $LastFormulaResult : Variant
 ```
+
+Applies all formulas in the set and returns the result of the last formula
 
 **Returns:** `Variant`
 

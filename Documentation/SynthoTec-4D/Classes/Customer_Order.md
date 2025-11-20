@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.218Z*
+🕐 *Last updated: 2025-11-20T14:23:48.744Z*
 
 ---
 
@@ -35,7 +35,7 @@ parent : Classes
 Function classicMakeOrderSort($ProductEntity : cs.ProductEntity)
 ```
 
-ORDER BY([Customer_Order]; [Customer_Order]Forecast; >; *)
+Sorts customer orders using classic 4D ORDER BY for make order view (prioritizes standard orders if product requires)
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ORDER BY([Customer_Order]; [Customer_Order]Forecast; >; *)
 Function classicOrderOverviewSort($ProductEntity : cs.ProductEntity)
 ```
 
-ORDER BY([Customer_Order]; [Customer_Order]Completed; >; [Customer_Order]Forecast; <; *)
+Sorts customer orders using classic 4D ORDER BY for order overview (completed last, prioritizes standard orders)
 
 **Parameters:**
 

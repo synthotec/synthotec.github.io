@@ -5,24 +5,33 @@ parent : Classes
 ---
 # ClassParameter [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassParameter.4dm)
 
-📊 **Overview:** 1 Constructor | 1 Functions
+📊 **Overview:** 3 Properties | 1 Constructor | 1 Functions
 
 ## 📝 Description
 
-Stores metadata about a function parameter
+Creates a new parameter metadata object with the specified name and type
 
-🕐 *Last updated: 2025-11-19T21:53:02.099Z*
+🕐 *Last updated: 2025-11-20T14:23:48.698Z*
 
 ---
 
 ## 📑 Table of Contents
 
+- [📋 Properties (3)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
     - [toObject](#toobject) → `Object`
 
 ---
+
+## Properties {#properties}
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Name` | `Text` | - | The name of the parameter |
+| `Type` | `Text` | - | The data type of the parameter |
+| `IsOptional` | `Boolean` | `False` | Indicates if the parameter is optional |
 
 ## Constructor {#constructor}
 
@@ -33,7 +42,7 @@ Stores metadata about a function parameter
 Class constructor($Name : Text; $Type : Text)
 ```
 
-Stores metadata about a function parameter
+Creates a new parameter metadata object with the specified name and type
 
 **Parameters:**
 
@@ -54,6 +63,8 @@ Stores metadata about a function parameter
 ```4d
 Function toObject -> Object
 ```
+
+Converts the parameter metadata to an object suitable for JSON serialization
 
 **Returns:** `Object`
 

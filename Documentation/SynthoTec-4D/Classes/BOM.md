@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:01.984Z*
+🕐 *Last updated: 2025-11-20T14:23:48.623Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getMigrationSettings -> Object
 ```
+
+Returns configuration settings for entity migration (linking disabled for this dataclass)
 
 **Returns:** `Object`
 

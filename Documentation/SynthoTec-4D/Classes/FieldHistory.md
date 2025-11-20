@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.573Z*
+🕐 *Last updated: 2025-11-20T14:23:48.990Z*
 
 ---
 
@@ -36,6 +36,8 @@ parent : Classes
 Function ClassicListboxClickedEvent
 ```
 
+Handles Alt+Click on listbox to display field history for the clicked cell
+
 ---
 
 #### display {#display}
@@ -44,6 +46,8 @@ Function ClassicListboxClickedEvent
 ```4d
 Function display($FieldPointer : Pointer; $PrimaryKey : Integer; $ForeignDataClass : 4D.DataClass; $ForeignFormula : 4D.Function)
 ```
+
+Displays field history in a popup window for the specified field and record
 
 **Parameters:**
 
@@ -62,6 +66,8 @@ Function display($FieldPointer : Pointer; $PrimaryKey : Integer; $ForeignDataCla
 ```4d
 Function triggerLog($FieldPointerCollection : Collection; $ChangedBy : Text)
 ```
+
+Logs field changes to FieldHistory table when triggered on save (creates history record for each changed field)
 
 **Parameters:**
 

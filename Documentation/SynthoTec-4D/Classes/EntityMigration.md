@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Initialize migration manager for a specific dataclass with optional remote selection for linking
+Initializes migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-19T21:53:02.346Z*
+🕐 *Last updated: 2025-11-20T14:23:48.861Z*
 
 ---
 
@@ -48,7 +48,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 |:---------|:-----|:--------|:------------|
 | `_RemoteDataStore` | `4D.DataStoreImplementation` | `DataStore(2)` | Remote datastore connection for migration target |
 | `_DataClass` | `4D.DataClass` | - | Local dataclass being migrated |
-| `LinkFunctionCancelled` | *Not specified* | `False` | Flag indicating user cancelled the link dialog |
+| `LinkFunctionCancelled` | `Boolean` | `False` | Flag indicating user cancelled the link dialog |
 | `RemoteDataClass` | `4D.DataClass` | - | Remote dataclass corresponding to local dataclass |
 | `LinkRemoteSelection` | `4D.EntitySelection` | - | Remote entities available for linking |
 | `Loading` | `cs.Loading` | - | Loading indicator for migration progress |
@@ -62,7 +62,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 Class constructor($DataClass : 4D.DataClass; $LinkRemoteSelection : 4D.EntitySelection)
 ```
 
-Initialize migration manager for a specific dataclass with optional remote selection for linking
+Initializes migration manager for a specific dataclass with optional remote selection for linking
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ Initialize migration manager for a specific dataclass with optional remote selec
 Function sync($Entity : 4D.Entity; $PreventSync : Boolean) -> $RemoteEntity : 4D.Entity
 ```
 
-Synchronize local entity with remote entity, applying migration rules to update remote properties
+Synchronizes local entity with remote entity, applying migration rules to update remote properties
 
 **Parameters:**
 
@@ -104,7 +104,7 @@ Synchronize local entity with remote entity, applying migration rules to update 
 Function _functionsExistChecks
 ```
 
-Development helper function to verify required migration functions exist on entity classes
+Development helper to verify required migration functions exist on entity classes
 
 ---
 

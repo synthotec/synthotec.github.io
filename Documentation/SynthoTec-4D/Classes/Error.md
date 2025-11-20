@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.408Z*
+🕐 *Last updated: 2025-11-20T14:23:48.896Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function fillGitHubIssues
 ```
 
+Fetches and associates GitHub issues with error entities using issue labels
+
 ---
 
 #### setDebugInfo {#setdebuginfo}
@@ -45,6 +47,8 @@ Function fillGitHubIssues
 ```4d
 Function setDebugInfo(...)
 ```
+
+Sets debug information for error tracking using variable number of parameters
 
 **Parameters:**
 
@@ -61,6 +65,8 @@ Function setDebugInfo(...)
 Function notify
 ```
 
+Sends email notification for new unsuppressed errors since last notification (once per hour)
+
 ---
 
 #### record {#record}
@@ -69,6 +75,8 @@ Function notify
 ```4d
 Function record
 ```
+
+Records error information by creating MD5 digest of error details for deduplication
 
 ---
 

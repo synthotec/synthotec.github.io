@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Example class to demonstrate inline comments and parameter documentation
+Creates example object with initial inventory count
 
-🕐 *Last updated: 2025-11-19T21:53:02.482Z*
+🕐 *Last updated: 2025-11-20T14:23:48.920Z*
 
 ---
 
@@ -44,7 +44,7 @@ Example class to demonstrate inline comments and parameter documentation
 Class constructor($InitialCount : Integer)
 ```
 
-$InitialCount: Starting inventory count
+Creates example object with initial inventory count
 
 **Parameters:**
 
@@ -65,7 +65,7 @@ $InitialCount: Starting inventory count
 Function calculateValue($UnitPrice : Real) -> Real
 ```
 
-Returns total inventory value
+Calculates total inventory value by multiplying count by unit price
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ Returns total inventory value
 Function processOrder($Quantity : Integer; $DiscountPercent : Real) -> Boolean
 ```
 
-$Quantity: Number of items to order
+Processes order by reducing count if sufficient quantity available, returns success status
 
 **Parameters:**
 
@@ -105,6 +105,8 @@ $Quantity: Number of items to order
 ```4d
 Function get ItemCount -> Integer
 ```
+
+Returns the current item count
 
 **Returns:** `Integer`
 

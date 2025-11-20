@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-19T21:53:02.536Z*
+## 📝 Description
+
+Adds a cell to this row with value, type, style ID, and optional formula
+
+🕐 *Last updated: 2025-11-20T14:23:48.956Z*
 
 ---
 
@@ -25,10 +29,10 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Cells` | `Collection` | `[]` | - |
-| `CellType_Number` | `Text` | `"Number"` | - |
-| `CellType_String` | `Text` | `"String"` | - |
-| `CellType_ISODateTime` | *Not specified* | `"DateTime"` | - |
+| `Cells` | `Collection` | `[]` | Collection of cell objects for this row |
+| `CellType_Number` | `Text` | `"Number"` | Constant for numeric cell type |
+| `CellType_String` | `Text` | `"String"` | Constant for string cell type |
+| `CellType_ISODateTime` | `Text` | `"DateTime"` | Constant for ISO date/time cell type |
 
 ## Constructor {#constructor}
 
@@ -38,6 +42,8 @@ parent : Classes
 ```4d
 Class constructor
 ```
+
+Creates a new Excel row with empty cells collection and cell type constants
 
 ---
 
@@ -51,6 +57,8 @@ Class constructor
 ```4d
 Function addCell($Value : Text; $Type : Text; $StyleID : Text; $Formula : Text)
 ```
+
+Adds a cell to this row with value, type, style ID, and optional formula
 
 **Parameters:**
 

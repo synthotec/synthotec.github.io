@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions | 1 Getters | 1 Setters
 
-🕐 *Last updated: 2025-11-19T21:53:02.388Z*
+## 📝 Description
+
+Creates a dynamic popup menu for selecting entities from an entity selection
+
+🕐 *Last updated: 2025-11-20T14:23:48.887Z*
 
 ---
 
@@ -28,8 +32,8 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `EntitySelection` | `4D.EntitySelection` | - | - |
-| `_selectedEntity` | `4D.Entity` | - | - |
+| `EntitySelection` | `4D.EntitySelection` | - | Entity selection to display in menu |
+| `_selectedEntity` | `4D.Entity` | - | Currently selected entity from the menu |
 
 ## Constructor {#constructor}
 
@@ -39,6 +43,8 @@ parent : Classes
 ```4d
 Class constructor($EntitySelection : 4D.EntitySelection; $ParentPath : Text)
 ```
+
+Creates a dynamic popup menu for selecting entities from an entity selection
 
 **Parameters:**
 
@@ -60,6 +66,8 @@ Class constructor($EntitySelection : 4D.EntitySelection; $ParentPath : Text)
 Function display($DisplayTextProperty : Object) -> 4D.Entity
 ```
 
+Displays a popup menu with entities sorted by display property, returns selected entity or Null
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -76,6 +84,8 @@ Function display($DisplayTextProperty : Object) -> 4D.Entity
 ```4d
 Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Object) -> 4D.Entity
 ```
+
+Displays hierarchical popup menu grouped by parent property, returns selected entity or Null
 
 **Parameters:**
 
@@ -97,6 +107,8 @@ Function displayWithParents($DisplayTextProperty : Object; $ParentProperty : Obj
 Function get selectedEntity -> 4D.Entity
 Function set selectedEntity($SelectedEntity : 4D.Entity)
 ```
+
+Returns the currently selected entity
 
 **Setter Parameter:**
 

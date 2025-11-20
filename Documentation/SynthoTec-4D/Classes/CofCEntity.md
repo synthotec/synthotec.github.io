@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.132Z*
+🕐 *Last updated: 2025-11-20T14:23:48.709Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function cancel -> $Cancelled : Boolean
 ```
+
+Cancels the Certificate of Conformance by reversing stock movements and reducing customer order delivered quantity
 
 **Returns:** `Boolean`
 

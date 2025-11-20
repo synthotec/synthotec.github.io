@@ -5,18 +5,19 @@ parent : Classes
 ---
 # ClassProperty [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ClassProperty.4dm)
 
-📊 **Overview:** 1 Constructor | 2 Functions
+📊 **Overview:** 6 Properties | 1 Constructor | 2 Functions
 
 ## 📝 Description
 
-Stores metadata about a class property
+Creates metadata for a class property with name and type
 
-🕐 *Last updated: 2025-11-19T21:53:02.115Z*
+🕐 *Last updated: 2025-11-20T14:23:48.704Z*
 
 ---
 
 ## 📑 Table of Contents
 
+- [📋 Properties (6)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -24,6 +25,17 @@ Stores metadata about a class property
     - [toObject](#toobject) → `Object`
 
 ---
+
+## Properties {#properties}
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `Name` | `Text` | - | Property name |
+| `Type` | `Text` | - | Property data type (Text, Integer, Object, etc.) |
+| `HasDefault` | `Boolean` | `False` | Whether property has a default value assigned |
+| `DefaultValue` | `Text` | `""` | Default value string if HasDefault is true |
+| `LineNumber` | `Integer` | `0` | Line number where property is declared |
+| `DocComment` | `Text` | `""` | Inline comment documenting the property |
 
 ## Constructor {#constructor}
 
@@ -34,7 +46,7 @@ Stores metadata about a class property
 Class constructor($Name : Text; $Type : Text)
 ```
 
-Stores metadata about a class property
+Creates metadata for a class property with name and type
 
 **Parameters:**
 
@@ -56,6 +68,8 @@ Stores metadata about a class property
 Function setDefault($Value : Text)
 ```
 
+Sets the default value for this property
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -70,6 +84,8 @@ Function setDefault($Value : Text)
 ```4d
 Function toObject -> Object
 ```
+
+Converts property metadata to JSON-serializable object
 
 **Returns:** `Object`
 

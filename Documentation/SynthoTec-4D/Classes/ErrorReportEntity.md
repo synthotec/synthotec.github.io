@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.466Z*
+🕐 *Last updated: 2025-11-20T14:23:48.915Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function sendEmailReport
 ```
 
+Sends email report for this error if SendEmail flag is enabled
+
 ---
 
 #### sendSlackReport {#sendslackreport}
@@ -43,6 +45,8 @@ Function sendEmailReport
 ```4d
 Function sendSlackReport -> $Success : Boolean
 ```
+
+Sends formatted Slack report with error details, stack, call chain, and debug info if SendSlack flag is enabled
 
 **Returns:** `Boolean`
 

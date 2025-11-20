@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-19T21:53:02.447Z*
+🕐 *Last updated: 2025-11-20T14:23:48.909Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function processError
 ```
+
+Processes current 4D error by creating error object with stack, call chain, and debug info, then saves to database
 
 ---
 

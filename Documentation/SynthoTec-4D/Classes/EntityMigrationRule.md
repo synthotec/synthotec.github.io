@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 2 Properties | 1 Constructor | 6 Functions
 
-🕐 *Last updated: 2025-11-19T21:53:02.368Z*
+## 📝 Description
+
+Adds rule to overwrite remote property with local property value unconditionally
+
+🕐 *Last updated: 2025-11-20T14:23:48.876Z*
 
 ---
 
@@ -30,8 +34,8 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `FormulaObjectCollection` | *Not specified* | `[]` | - |
-| `CriteriaCollection` | *Not specified* | `[]` | - |
+| `FormulaObjectCollection` | `Collection` | `[]` | Collection of formula objects to apply during migration |
+| `CriteriaCollection` | `Collection` | `[]` | Collection of criteria formulas to evaluate before applying rules |
 
 ## Constructor {#constructor}
 
@@ -41,6 +45,8 @@ parent : Classes
 ```4d
 Class constructor
 ```
+
+Creates a new entity migration rule with empty formula and criteria collections
 
 ---
 
@@ -54,6 +60,8 @@ Class constructor
 ```4d
 Function overwrite($PropertyName : Text) -> cs.EntityMigrationRule
 ```
+
+Adds rule to overwrite remote property with local property value unconditionally
 
 **Parameters:**
 
@@ -72,6 +80,8 @@ Function overwrite($PropertyName : Text) -> cs.EntityMigrationRule
 Function fillIfBlank($PropertyName : Text) -> cs.EntityMigrationRule
 ```
 
+Adds rule to fill remote property only if blank using local property value
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -88,6 +98,8 @@ Function fillIfBlank($PropertyName : Text) -> cs.EntityMigrationRule
 ```4d
 Function addFormula($Formula : 4D.Function; $SecondParameter : Variant; $CheckProperty : Text) -> cs.EntityMigrationRule
 ```
+
+Adds a custom formula to the migration rule with optional second parameter and property check
 
 **Parameters:**
 
@@ -108,6 +120,8 @@ Function addFormula($Formula : 4D.Function; $SecondParameter : Variant; $CheckPr
 Function addCriteria($Formula : 4D.Function) -> cs.EntityMigrationRule
 ```
 
+Adds a criteria formula that must return true for migration rules to be applied
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -124,6 +138,8 @@ Function addCriteria($Formula : 4D.Function) -> cs.EntityMigrationRule
 ```4d
 Function addEntity($DataClass : 4D.DataClass; $LocalEntity : 4D.Entity; $Formula : 4D.Function; $Sync : Boolean) -> cs.EntityMigrationRule
 ```
+
+Adds a related entity to the migration rule, optionally syncing it first, then applies formula with remote entity
 
 **Parameters:**
 
@@ -144,6 +160,8 @@ Function addEntity($DataClass : 4D.DataClass; $LocalEntity : 4D.Entity; $Formula
 ```4d
 Function apply($LocalEntity : 4D.Entity; $RemoteEntity : 4D.Entity)
 ```
+
+Applies all formulas in this rule to sync data from local to remote entity after checking criteria
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-19T21:53:02.250Z*
+🕐 *Last updated: 2025-11-20T14:23:48.775Z*
 
 ---
 
@@ -49,6 +49,8 @@ parent : Classes
 Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity : cs.WorksOrderEntity; $Quantity : Integer) -> $CofCEntity : cs.CofCEntity
 ```
 
+Creates a Certificate of Conformance for this order, updates delivered quantity, and adjusts stock movements
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -68,6 +70,8 @@ Function createCofC($Advice_NoteEntity : cs.Advice_NoteEntity; $WorksOrderEntity
 Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -> $AvailableForPickRequest : Integer
 ```
 
+Calculates total parts available for pick request (finished stock + quarantine + WIP + planned production)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -84,6 +88,8 @@ Function getAvailableForPickRequest($PickRequestEntity : cs.PickRequestEntity) -
 ```4d
 Function modifyOrderPickRequest($PickRequestEntity : cs.PickRequestEntity) -> $OrderPickRequestEntity : cs.OrderPickRequestEntity
 ```
+
+Creates or modifies an order pick request for this customer order, validates quantities and displays entry form
 
 **Parameters:**
 
@@ -194,6 +200,8 @@ Function getPickRequestQuantitiesColor -> Integer
 Function get DeliveryDate -> Date
 ```
 
+Returns delivery date using confirmed arrival date or fallback to customer delivery date
+
 **Returns:** `Date`
 
 ---
@@ -204,6 +212,8 @@ Function get DeliveryDate -> Date
 ```4d
 Function get DeliveryDateTime -> cs.System.DateTime
 ```
+
+Returns delivery date/time using confirmed arrival date or fallback to customer delivery date
 
 **Returns:** `cs.System.DateTime`
 
@@ -216,6 +226,8 @@ Function get DeliveryDateTime -> cs.System.DateTime
 Function get DespatchDate -> Date
 ```
 
+Returns despatch date using confirmed despatch date or fallback to our delivery date
+
 **Returns:** `Date`
 
 ---
@@ -226,6 +238,8 @@ Function get DespatchDate -> Date
 ```4d
 Function get DespatchDateTime -> cs.System.DateTime
 ```
+
+Returns despatch date/time using confirmed despatch date or fallback to our delivery date
 
 **Returns:** `cs.System.DateTime`
 
@@ -238,6 +252,8 @@ Function get DespatchDateTime -> cs.System.DateTime
 Function get OutstandingToDeliver -> Integer
 Function set OutstandingToDeliver($OutstandingToDeliver : Integer)
 ```
+
+Returns the quantity still outstanding to deliver (ordered minus delivered)
 
 **Setter Parameter:**
 
@@ -255,6 +271,8 @@ Function set OutstandingToDeliver($OutstandingToDeliver : Integer)
 ```4d
 Function get OutstandingToPickRequest -> Integer
 ```
+
+Returns quantity still outstanding for pick requests (outstanding delivery minus unprocessed pick requests)
 
 **Returns:** `Integer`
 

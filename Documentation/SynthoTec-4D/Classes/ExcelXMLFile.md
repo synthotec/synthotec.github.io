@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $BackgroundExpression))
+Converts a 4D selection-based listbox to Excel rows with styled cells matching listbox appearance
 
-🕐 *Last updated: 2025-11-19T21:53:02.521Z*
+🕐 *Last updated: 2025-11-20T14:23:48.951Z*
 
 ---
 
@@ -35,13 +35,13 @@ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $Bac
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Styles` | `Collection` | `[]` | - |
-| `Rows` | `Collection` | `[]` | - |
-| `Columns` | `Collection` | `[]` | - |
-| `FileContents` | `Text` | `""` | - |
-| `FreezeRowsAbove` | `Integer` | `0` | - |
-| `FreezeRowsToLeft` | `Integer` | `0` | - |
-| `ConditionalFormatting` | `Object` | - | - |
+| `Styles` | `Collection` | `[]` | Collection of ExcelXMLFileStyle objects for cell formatting |
+| `Rows` | `Collection` | `[]` | Collection of ExcelXMLFileRow objects representing worksheet rows |
+| `Columns` | `Collection` | `[]` | Collection of column width definitions |
+| `FileContents` | `Text` | `""` | Generated XML content for Excel file |
+| `FreezeRowsAbove` | `Integer` | `0` | Number of rows to freeze at top of worksheet |
+| `FreezeRowsToLeft` | `Integer` | `0` | Number of columns to freeze at left of worksheet |
+| `ConditionalFormatting` | `Object` | - | Conditional formatting rules for cells |
 
 ## Constructor {#constructor}
 
@@ -51,6 +51,8 @@ SetProcessDebugInfo(New collection(ds.getTablePrimaryKeyField($tableNum)->; $Bac
 ```4d
 Class constructor
 ```
+
+Creates a new Excel XML file object with empty collections
 
 ---
 
@@ -64,6 +66,8 @@ Class constructor
 ```4d
 Function addSelectionBasedListbox($ListboxName : Text)
 ```
+
+Converts a 4D selection-based listbox to Excel rows with styled cells matching listbox appearance
 
 **Parameters:**
 
