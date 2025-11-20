@@ -40,8 +40,8 @@ Creates a new email with the specified subject and HTML body
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `EmailObject` | `Object` | `{}` | The main email object containing all email properties (to, from, subject, body, attachments, etc.) |
-| `_PermissionFooterCollection` | `Collection` | `[]` | Internal collection tracking permission groups for footer display |
+| `EmailObject` | `Object` | - | The main email object containing all email properties (to, from, subject, body, attachments, etc.) |
+| `_PermissionFooterCollection` | `Collection` | - | Internal collection tracking permission groups for footer display |
 
 ## Constructor {#constructor}
 
