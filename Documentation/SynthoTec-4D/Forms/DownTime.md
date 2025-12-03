@@ -5,7 +5,11 @@ parent : Forms
 ---
 # DownTime [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/tree/main/Project/Sources/Forms/DownTime)
 
-📊 **Overview:** 22 Objects | 5 Types | 2 Pages | 16 Events | 22 Object Methods
+📊 **Overview:** 22 Objects | 5 Types | 2 Pages | 16 Events | 44 Object Methods
+
+## 📝 Description
+
+🗨️ Production downtime analysis and categorization form. Displays downtime events from the RealTime table and allows operators to assign reasons for stoppages. Features week-by-week navigation with daily filtering, machine-specific filtering, and category-based reason selection. Users right-click downtime records to assign reasons from a hierarchical menu (Category > Reason). Supports management of down reasons including adding new reasons, editing existing ones, and toggling archived reasons. The 'Update Last 8 Days' button recalculates recent downtime data. Critical for tracking production efficiency and identifying bottlenecks.
 
 ## ℹ️ Form Information
 
@@ -15,8 +19,8 @@ parent : Forms
 | **Window Sizing** | X: variable, Y: variable |
 | **Pages** | 2 |
 | **Form Method** | ✅ [method.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/method.4dm) |
-| **Object Methods** | 22 |
-| **Generated** | 🕐 2025-11-19T20:54:38.148Z |
+| **Object Methods** | 44 |
+| **Generated** | 🕐 2025-12-03T16:38:20.328Z |
 
 ---
 
@@ -66,28 +70,28 @@ This form handles **16** of **44** possible events:
 
 | Name | Title | Type | Enabled | Visible | Enterable | Data Source | Method |
 |:-----|:------|:-----|:-------:|:-------:|:---------:|:------------|:-------|
-| List Box | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox | [List Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/List%20Box.4dm) |
-| List Box1 | - | 📋 listbox | ✅ | ✅ | ❌ | $ListBox1 | [List Box1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/List%20Box1.4dm) |
-| ButtonPop | - | 📥 dropdown | ✅ | ✅ | ❌ | vCats | [ButtonPop.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/ButtonPop.4dm) |
-| Button | EDIT | 🔘 button | ✅ | ✅ | ❌ | Button | [Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Button.4dm) |
-| Button3 | ADD NEW DOWNREASON | 🔘 button | ✅ | ✅ | ❌ | Button3 | [Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Button3.4dm) |
-| List Box2 | - | 📋 listbox | ✅ | ✅ | ❌ | vMachines | [List Box2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/List%20Box2.4dm) |
-| Popup Drop down List | - | 📥 dropdown | ✅ | ✅ | ❌ | WeekCom | [Popup Drop down List.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Popup%20Drop%20down%20List.4dm) |
-| 3D Button | MON | 🔘 button | ✅ | ✅ | ❌ | bMON | [3D Button.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button.4dm) |
-| 3D Button1 | TUE | 🔘 button | ✅ | ✅ | ❌ | bTUE | [3D Button1.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button1.4dm) |
-| 3D Button2 | WED | 🔘 button | ✅ | ✅ | ❌ | bWED | [3D Button2.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button2.4dm) |
-| 3D Button3 | THUR | 🔘 button | ✅ | ✅ | ❌ | bTHUR | [3D Button3.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button3.4dm) |
-| 3D Button4 | FRI | 🔘 button | ✅ | ✅ | ❌ | bFRI | [3D Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button4.4dm) |
-| 3D Button5 | SAT | 🔘 button | ✅ | ✅ | ❌ | bSAT | [3D Button5.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button5.4dm) |
-| 3D Button6 | SUN | 🔘 button | ✅ | ✅ | ❌ | bSUN | [3D Button6.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/3D%20Button6.4dm) |
-| Variable | - | 📝 input | ✅ | ✅ | ❌ | vDates | - |
-| Button4 | UPDATE LAST 8 DAYS | 🔘 button | ✅ | ✅ | ❌ | Button4 | [Button4.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Button4.4dm) |
-| bUnidentified | SHOW ALL UNIDENTIFIED FOR WEEK | 🔘 button | ✅ | ✅ | ❌ | Button5 | [bUnidentified.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/bUnidentified.4dm) |
-| bPrev | PREV | 🔘 button | ✅ | ✅ | ❌ | Button7 | [bPrev.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/bPrev.4dm) |
-| bNext | NEXT | 🔘 button | ✅ | ✅ | ❌ | Button7 | [bNext.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/bNext.4dm) |
-| Button9 | REFRESH | 🔘 button | ✅ | ✅ | ❌ | Button | [Button9.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Button9.4dm) |
-| Button10 | UPDATE SELECTED DATE | 🔘 button | ✅ | ✅ | ❌ | Button4 | [Button10.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Button10.4dm) |
-| Check Box | Show Archived Down Reasons | ☑️ checkbox | ✅ | ✅ | ❌ | ShowArchivedDownReasons | [Check Box.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/Check%20Box.4dm) |
+| downtimeListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.RealTimeSelection | [downtimeListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/downtimeListBox.4dm) |
+| reasonsListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.DownReasonsSelection | [reasonsListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/reasonsListBox.4dm) |
+| categoryDropdown | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.CategoryDropdownObject | [categoryDropdown.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/categoryDropdown.4dm) |
+| editReasonButton | EDIT | 🔘 button | ✅ | ✅ | ❌ | - | [editReasonButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/editReasonButton.4dm) |
+| addReasonButton | ADD NEW DOWNREASON | 🔘 button | ✅ | ✅ | ❌ | - | [addReasonButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/addReasonButton.4dm) |
+| machineFilterListBox | - | 📋 listbox | ✅ | ✅ | ❌ | Form:C1466.MachineCollection | [machineFilterListBox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/machineFilterListBox.4dm) |
+| weekDropdown | - | 📥 dropdown | ✅ | ✅ | ❌ | Form:C1466.WeekDropdownObject | [weekDropdown.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/weekDropdown.4dm) |
+| mondayButton | MON | 🔘 button | ✅ | ✅ | ❌ | - | [mondayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/mondayButton.4dm) |
+| tuesdayButton | TUE | 🔘 button | ✅ | ✅ | ❌ | - | [tuesdayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/tuesdayButton.4dm) |
+| wednesdayButton | WED | 🔘 button | ✅ | ✅ | ❌ | - | [wednesdayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/wednesdayButton.4dm) |
+| thursdayButton | THUR | 🔘 button | ✅ | ✅ | ❌ | - | [thursdayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/thursdayButton.4dm) |
+| fridayButton | FRI | 🔘 button | ✅ | ✅ | ❌ | - | [fridayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/fridayButton.4dm) |
+| saturdayButton | SAT | 🔘 button | ✅ | ✅ | ❌ | - | [saturdayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/saturdayButton.4dm) |
+| sundayButton | SUN | 🔘 button | ✅ | ✅ | ❌ | - | [sundayButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/sundayButton.4dm) |
+| selectedDateDisplay | - | 📝 input | ✅ | ✅ | ❌ | Form:C1466.SelectedDate | - |
+| updateWeekButton | UPDATE LAST 8 DAYS | 🔘 button | ✅ | ✅ | ❌ | - | [updateWeekButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/updateWeekButton.4dm) |
+| showUnidentifiedButton | SHOW ALL UNIDENTIFIED FOR WEEK | 🔘 button | ✅ | ✅ | ❌ | - | [showUnidentifiedButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/showUnidentifiedButton.4dm) |
+| previousWeekButton | PREV | 🔘 button | ✅ | ✅ | ❌ | - | [previousWeekButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/previousWeekButton.4dm) |
+| nextWeekButton | NEXT | 🔘 button | ✅ | ✅ | ❌ | - | [nextWeekButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/nextWeekButton.4dm) |
+| refreshButton | REFRESH | 🔘 button | ✅ | ✅ | ❌ | - | [refreshButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/refreshButton.4dm) |
+| updateDateButton | UPDATE SELECTED DATE | 🔘 button | ✅ | ✅ | ❌ | - | [updateDateButton.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/updateDateButton.4dm) |
+| showArchivedCheckbox | Show Archived Down Reasons | ☑️ checkbox | ✅ | ✅ | ❌ | Form:C1466.ShowArchivedReasons | [showArchivedCheckbox.4dm](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Forms/DownTime/ObjectMethods/showArchivedCheckbox.4dm) |
 
 ## 🔗 Related Items
 
