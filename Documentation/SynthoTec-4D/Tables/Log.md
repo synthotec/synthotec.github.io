@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ General audit logging table recording user activities, system events, and significant operations. Provides activity trail for security and debugging.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 125
 - **UUID:** D76C2CDE837AD4459AD6DD1537723C7C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:07Z
+- **Generated:** 🕐 2025-12-04T14:35:25Z
 
 ---
 
@@ -51,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:07Z*
+*Generated at: 2025-12-04T14:35:25Z*

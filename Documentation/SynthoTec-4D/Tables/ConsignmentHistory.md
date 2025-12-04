@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Audit table tracking historical changes to consignment stock levels. Records additions, usage, returns, and adjustments over time.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 73
 - **UUID:** C0E7A8FCF0E83E42B41416BAD0691019
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:20Z
+- **Generated:** 🕐 2025-12-04T14:34:35Z
 
 ---
 
@@ -51,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:20Z*
+*Generated at: 2025-12-04T14:34:35Z*

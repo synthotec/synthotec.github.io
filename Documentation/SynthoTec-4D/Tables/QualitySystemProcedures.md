@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table defining quality control test procedures. Specifies inspection steps, measurement methods, and acceptance criteria per product.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 100
 - **UUID:** BBEBD957B57394498D952926A484488F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:45Z
+- **Generated:** 🕐 2025-12-04T14:35:01Z
 
 ---
 
@@ -69,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:45Z*
+*Generated at: 2025-12-04T14:35:01Z*

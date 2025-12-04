@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table defining maintenance tasks and procedures for production equipment. Specifies required actions, frequencies, and checklists.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 113
 - **UUID:** 3F67965E543B564DB573483EBEAC4C96
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:56Z
+- **Generated:** 🕐 2025-12-04T14:35:13Z
 
 ---
 
@@ -57,4 +61,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:56Z*
+*Generated at: 2025-12-04T14:35:13Z*

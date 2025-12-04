@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 12 Fields | 4 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording physical material inventory counts. Used for periodic stocktakes to verify system quantities against actual stock.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 53
 - **UUID:** A38A78E19EE7594CADD598417056C9D4
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:01Z
+- **Generated:** 🕐 2025-12-04T14:34:15Z
 
 ---
 
@@ -76,4 +80,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:01Z*
+*Generated at: 2025-12-04T14:34:15Z*

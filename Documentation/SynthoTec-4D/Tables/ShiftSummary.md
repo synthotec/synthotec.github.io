@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 3 Indexes | 1 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Summary table aggregating production performance by shift. Provides high-level metrics for output, downtime, and efficiency per shift.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 129
 - **UUID:** 9F8A3252F6D9E74589B429EA78C73E40
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:11Z
+- **Generated:** 🕐 2025-12-04T14:35:28Z
 
 ---
 
@@ -72,4 +76,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:11Z*
+*Generated at: 2025-12-04T14:35:28Z*

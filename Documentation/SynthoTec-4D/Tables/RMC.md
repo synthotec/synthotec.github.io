@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 12 Fields | 4 Indexes | 2 Many-to-One Relations | 6 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for Raw Material Certificates tracking material certifications and test results. Links material batches to supplier certificates and quality data.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 27
 - **UUID:** 888FFBDAC9DEBA469795A94E15901BAE
 - **Primary Key:** 🔑 `RMCNo_l`
-- **Generated:** 🕐 2025-12-03T16:23:40Z
+- **Generated:** 🕐 2025-12-04T14:33:53Z
 
 ---
 
@@ -88,4 +92,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:40Z*
+*Generated at: 2025-12-04T14:33:53Z*

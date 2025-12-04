@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ User-submitted error reports and bug tracking. Allows staff to report issues with descriptions, screenshots, and reproduction steps.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 128
 - **UUID:** 00591B1C82FBA248968703B6704134D1
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:10Z
+- **Generated:** 🕐 2025-12-04T14:35:27Z
 
 ---
 
@@ -56,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:10Z*
+*Generated at: 2025-12-04T14:35:27Z*

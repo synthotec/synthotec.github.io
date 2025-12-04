@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 1 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Audit table logging tool movements, usage, maintenance activities, and status changes. Provides complete tool history for lifecycle tracking.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 37
 - **UUID:** FD6A501D6913B94C884BCFC8E8930241
 - **Primary Key:** 🔑 `UniqueID`
-- **Generated:** 🕐 2025-12-03T16:23:49Z
+- **Generated:** 🕐 2025-12-04T14:34:03Z
 
 ---
 
@@ -58,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:49Z*
+*Generated at: 2025-12-04T14:34:03Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 3 Indexes | 3 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Configuration table defining target temperatures per tool and zone. Specifies setpoints for mold temperature control during production.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 119
 - **UUID:** FE2D9E448CE7164B82091770BB81AD24
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:02Z
+- **Generated:** 🕐 2025-12-04T14:35:19Z
 
 ---
 
@@ -72,4 +76,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:02Z*
+*Generated at: 2025-12-04T14:35:19Z*

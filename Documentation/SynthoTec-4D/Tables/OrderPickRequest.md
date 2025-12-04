@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 3 Indexes | 2 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table linking customer orders to warehouse pick requests. Generates picking tasks for order fulfillment workflow.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 124
 - **UUID:** 2BE22D1782098249A524034DE15E0047
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:06Z
+- **Generated:** 🕐 2025-12-04T14:35:24Z
 
 ---
 
@@ -73,4 +77,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:06Z*
+*Generated at: 2025-12-04T14:35:24Z*

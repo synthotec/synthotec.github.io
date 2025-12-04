@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 18 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table defining shipping methods, carriers, and delivery preferences per customer. Links to Customer with transport rules and costs.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 106
 - **UUID:** C94DE605E684BF448B7ED866B02B6D37
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:50Z
+- **Generated:** 🕐 2025-12-04T14:35:06Z
 
 ---
 
@@ -63,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:50Z*
+*Generated at: 2025-12-04T14:35:06Z*

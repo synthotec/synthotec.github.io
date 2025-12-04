@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 4 Indexes | 5 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table defining physical storage locations for inventory (warehouses, bays, consignment sites). Used by Finished_Stock and Stock_Movement for location tracking.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 29
 - **UUID:** 916903B13AB83B4A9937B1348364CCA9
 - **Primary Key:** 🔑 `StockLocationID_l`
-- **Generated:** 🕐 2025-12-03T16:23:42Z
+- **Generated:** 🕐 2025-12-04T14:33:55Z
 
 ---
 
@@ -79,4 +83,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:42Z*
+*Generated at: 2025-12-04T14:33:55Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 2 Indexes | 1 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording calibration events for measurement equipment. Links to CalibrationEquipment and CalibrationResults for complete audit trail.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 54
 - **UUID:** 818F64ABBFC3F74A99C310A3A1521577
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:02Z
+- **Generated:** 🕐 2025-12-04T14:34:16Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:02Z*
+*Generated at: 2025-12-04T14:34:16Z*

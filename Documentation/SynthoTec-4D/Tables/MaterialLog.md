@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Audit table recording material movements, receipts, and usage. Provides complete traceability for raw material inventory transactions.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 74
 - **UUID:** 7B19F335B56E4242828DF5D0077F42E6
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:21Z
+- **Generated:** 🕐 2025-12-04T14:34:36Z
 
 ---
 
@@ -53,4 +57,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:21Z*
+*Generated at: 2025-12-04T14:34:36Z*

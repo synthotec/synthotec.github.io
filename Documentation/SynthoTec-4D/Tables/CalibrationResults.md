@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 11 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table storing detailed measurement results from calibration tests. Links to Calibrations with pass/fail status and measured values.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 91
 - **UUID:** 0F3545F5ACE57B499D6C0FBD92F90C78
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:37Z
+- **Generated:** 🕐 2025-12-04T14:34:52Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:37Z*
+*Generated at: 2025-12-04T14:34:52Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 28 Fields | 12 Indexes | 4 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Inventory table tracking palletized finished goods. Records pallet contents, locations, and status for warehouse management and shipping.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 71
 - **UUID:** 33A92733465ACC42A746A5DD7A56B429
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:18Z
+- **Generated:** 🕐 2025-12-04T14:34:33Z
 
 ---
 
@@ -117,4 +121,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:18Z*
+*Generated at: 2025-12-04T14:34:33Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 4 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Extended logging table providing additional error context and diagnostic data. Links to Error with detailed call stacks and variable states.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 132
 - **UUID:** E06316D0DEB08A45A8A203D136C74702
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:14Z
+- **Generated:** 🕐 2025-12-04T14:35:31Z
 
 ---
 
@@ -54,4 +58,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:14Z*
+*Generated at: 2025-12-04T14:35:31Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 69 Fields | 19 Indexes | 4 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for customer purchase orders. Stores order details, delivery schedules, pricing, and status. Links to Customers, Products, and generates WorksOrders for production.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 3
 - **UUID:** BEB2206FADBF794D8690FF16FF7721B1
 - **Primary Key:** 🔑 `Petes_No`
-- **Generated:** 🕐 2025-12-03T16:23:19Z
+- **Generated:** 🕐 2025-12-04T14:33:31Z
 
 ---
 
@@ -173,4 +177,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:19Z*
+*Generated at: 2025-12-04T14:33:31Z*

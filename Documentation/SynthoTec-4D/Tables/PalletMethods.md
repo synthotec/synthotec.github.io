@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Lookup table defining palletization methods and patterns. Specifies how products should be arranged on pallets for optimal loading.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 86
 - **UUID:** CDB25505B7647A449BCF479500B14E95
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:32Z
+- **Generated:** 🕐 2025-12-04T14:34:48Z
 
 ---
 
@@ -56,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:32Z*
+*Generated at: 2025-12-04T14:34:48Z*

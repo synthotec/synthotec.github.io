@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Audit table tracking significant data changes across the system. Records who changed what and when for compliance and traceability.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 44
 - **UUID:** FCFA50991EE10548874C7FB40849B15D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:53Z
+- **Generated:** 🕐 2025-12-04T14:34:07Z
 
 ---
 
@@ -51,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:53Z*
+*Generated at: 2025-12-04T14:34:07Z*

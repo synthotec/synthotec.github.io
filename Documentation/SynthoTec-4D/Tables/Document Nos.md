@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 14 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table managing auto-incrementing document number sequences for various document types (CofC, invoices, orders, etc.). Ensures unique numbering across system.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 7
 - **UUID:** 6BC1D99CA275574B8B75504F16B14CB2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:23Z
+- **Generated:** 🕐 2025-12-04T14:33:35Z
 
 ---
 
@@ -51,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:23Z*
+*Generated at: 2025-12-04T14:33:35Z*

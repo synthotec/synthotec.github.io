@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 22 Fields | 7 Indexes
 
+## 📝 Description
+
+🗨️ Planning table storing customer demand forecasts by product and period. Used for long-term capacity planning and inventory management.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 49
 - **UUID:** 0412FF273154D14EA78AFDEC1CD85D3D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:58Z
+- **Generated:** 🕐 2025-12-04T14:34:12Z
 
 ---
 
@@ -79,4 +83,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:58Z*
+*Generated at: 2025-12-04T14:34:12Z*

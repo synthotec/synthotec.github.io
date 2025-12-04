@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 13 Fields | 2 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Workflow table tracking approval requests and decisions for product changes, tool modifications, and quality exceptions. Links to Product, Tools, and Staff.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 62
 - **UUID:** 6588D29DE7A2FE44BEEA0304F247C2A0
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:10Z
+- **Generated:** 🕐 2025-12-04T14:34:24Z
 
 ---
 
@@ -68,4 +72,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:10Z*
+*Generated at: 2025-12-04T14:34:24Z*

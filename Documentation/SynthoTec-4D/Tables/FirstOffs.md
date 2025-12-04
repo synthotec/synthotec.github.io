@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 23 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Quality control table recording first article inspections at production setup. Captures dimensional checks, weights, and approval before full run.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 60
 - **UUID:** 34BFB440508D4E468E6B86A28637B6DF
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:08Z
+- **Generated:** 🕐 2025-12-04T14:34:22Z
 
 ---
 
@@ -60,4 +64,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:08Z*
+*Generated at: 2025-12-04T14:34:22Z*

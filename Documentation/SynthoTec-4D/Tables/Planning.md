@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 13 Fields | 4 Indexes
 
+## 📝 Description
+
+🗨️ Core planning table managing production scheduling and machine allocation. Assigns works orders to machines with start/end times.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 69
 - **UUID:** 85B429DD73F4624CB829A1662373A124
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:16Z
+- **Generated:** 🕐 2025-12-04T14:34:31Z
 
 ---
 
@@ -61,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:16Z*
+*Generated at: 2025-12-04T14:34:31Z*

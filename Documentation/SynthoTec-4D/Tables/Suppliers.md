@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 25 Fields | 3 Indexes | 3 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for material and equipment suppliers. Stores supplier contact details, payment terms, and performance metrics. Links to Materials and Purchases.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 18
 - **UUID:** DD48C27A4EEF9442A7DB4C93B8CD90D3
 - **Primary Key:** 🔑 `SupplierID_l`
-- **Generated:** 🕐 2025-12-03T16:23:32Z
+- **Generated:** 🕐 2025-12-04T14:33:44Z
 
 ---
 
@@ -90,4 +94,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:32Z*
+*Generated at: 2025-12-04T14:33:44Z*

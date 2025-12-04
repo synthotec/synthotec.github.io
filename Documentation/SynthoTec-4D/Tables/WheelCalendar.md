@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 24 Fields | 10 Indexes | 3 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Calendar table mapping time periods to planning wheel positions. Defines date-to-wheel-position relationships for visual scheduling.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 51
 - **UUID:** DE47E38D9F06C94798575B35E1D1A5C3
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:59Z
+- **Generated:** 🕐 2025-12-04T14:34:14Z
 
 ---
 
@@ -90,4 +94,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:59Z*
+*Generated at: 2025-12-04T14:34:14Z*

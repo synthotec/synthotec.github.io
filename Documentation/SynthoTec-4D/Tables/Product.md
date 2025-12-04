@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 105 Fields | 7 Indexes | 3 Many-to-One Relations | 18 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for finished products and components. Stores product specifications, dimensions, materials, cycle times, and quality requirements. Links to Tools, Materials, and Customer data.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 10
 - **UUID:** C860B832DC3A2742AC90F8A95BC2F157
 - **Primary Key:** 🔑 `Product_ID`
-- **Generated:** 🕐 2025-12-03T16:23:25Z
+- **Generated:** 🕐 2025-12-04T14:33:37Z
 
 ---
 
@@ -32,16 +36,16 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Product_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Our Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
-| Cust Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
-| Issue No | `String` (5) | ⚠️ Required, 🚫 Not Null | - |
-| Issue Date | `Date` | 🚫 Not Null | - |
-| Part Name | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
-| Short Name | `String` (25) | ⚠️ Required, 🚫 Not Null | - |
-| Conditioned | `Boolean` | 🚫 Not Null | - |
-| QuotedCycle | `Real` | 🚫 Not Null, ��� Not Modifiable | - |
-| DefMatID | `Long Integer` | 🚫 Not Null | - |
+| 🔑 **Product_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | Primary key - Auto-incremented unique identifier for each product. |
+| Our Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | Internal part number assigned by manufacturing company. Mandatory, up to 50 characters. |
+| Cust Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | Customer's own part number for this product. Mandatory, up to 50 characters. |
+| Issue No | `String` (5) | ⚠️ Required, 🚫 Not Null | Current revision/issue number of product specification. Mandatory, 5 characters max. |
+| Issue Date | `Date` | 🚫 Not Null | Date when current issue/revision of product specification was released. |
+| Part Name | `String` (50) | ⚠️ Required, 🚫 Not Null | Descriptive name of the product/part. Mandatory, up to 50 characters. |
+| Short Name | `String` (25) | ⚠️ Required, 🚫 Not Null | Abbreviated product name for space-constrained displays. Mandatory, 25 characters max. |
+| Conditioned | `Boolean` | 🚫 Not Null | Flag indicating whether product requires post-mold conditioning process. |
+| QuotedCycle | `Real` | 🚫 Not Null, ��� Not Modifiable | Target cycle time quoted to customer (in seconds). Non-modifiable after initial entry. |
+| DefMatID | `Long Integer` | 🚫 Not Null | Default material ID - Foreign key to Material table for primary raw material used in production. |
 | Price Quan | `Integer` | 🚫 Not Null | - |
 | NoInBox | `Long Integer` | 🚫 Not Null | - |
 | Min Order Quan | `Long Integer` | 🚫 Not Null | - |
@@ -234,4 +238,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:25Z*
+*Generated at: 2025-12-04T14:33:37Z*

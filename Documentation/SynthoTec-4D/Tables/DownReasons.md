@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 3 Indexes | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Lookup table defining machine downtime reason codes. Used to categorize and analyze production stoppages (breakdown, changeover, maintenance, etc.).
+
 ## ℹ️ Table Information
 
 - **Table ID:** 64
 - **UUID:** 223300B659C4B94286C058AC2F0A57CC
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:12Z
+- **Generated:** 🕐 2025-12-04T14:34:26Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:12Z*
+*Generated at: 2025-12-04T14:34:26Z*

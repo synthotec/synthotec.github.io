@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 85 Fields | 18 Indexes | 4 Many-to-One Relations | 14 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for manufacturing works orders. Tracks production runs, quantities, machine assignments, cycle times, and completion status. Links Customer_Orders to production execution.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 4
 - **UUID:** 305DC4E1E3339443B76C086981BBCB7C
 - **Primary Key:** 🔑 `Works_Order_No`
-- **Generated:** 🕐 2025-12-03T16:23:20Z
+- **Generated:** 🕐 2025-12-04T14:33:32Z
 
 ---
 
@@ -210,4 +214,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:20Z*
+*Generated at: 2025-12-04T14:33:32Z*

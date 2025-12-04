@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 1 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Security junction table assigning permissions to staff members. Links Staff to Permissions defining individual user access rights.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 88
 - **UUID:** EBD332232B7BEB469977E8DB6898D40F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:34Z
+- **Generated:** 🕐 2025-12-04T14:34:50Z
 
 ---
 
@@ -58,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:34Z*
+*Generated at: 2025-12-04T14:34:50Z*

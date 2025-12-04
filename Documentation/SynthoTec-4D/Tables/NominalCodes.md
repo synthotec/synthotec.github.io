@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 3 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Accounting lookup table defining general ledger codes for financial transactions. Used to categorize costs and revenue by account type.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 84
 - **UUID:** B4B021F72621A44A861BDFF8762EE00C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:30Z
+- **Generated:** 🕐 2025-12-04T14:34:46Z
 
 ---
 
@@ -63,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:30Z*
+*Generated at: 2025-12-04T14:34:46Z*

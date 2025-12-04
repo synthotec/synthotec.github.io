@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 34 Fields | 7 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Visual scheduling master table defining planning wheel configurations. Manages circular schedule layouts showing machine assignments over time.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 50
 - **UUID:** 210A450720703645BB31F7B5A4075752
 - **Primary Key:** 🔑 `WheelID`
-- **Generated:** 🕐 2025-12-03T16:23:59Z
+- **Generated:** 🕐 2025-12-04T14:34:13Z
 
 ---
 
@@ -102,4 +106,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:59Z*
+*Generated at: 2025-12-04T14:34:13Z*

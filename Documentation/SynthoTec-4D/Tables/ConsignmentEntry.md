@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 27 Fields | 1 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording consignment stock movements into customer locations. Tracks products sent to customer sites but still owned by company.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 58
 - **UUID:** 1D7F0D4EFE7DFD438D22AF0D3E4F1FCA
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:06Z
+- **Generated:** 🕐 2025-12-04T14:34:20Z
 
 ---
 
@@ -79,4 +83,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:06Z*
+*Generated at: 2025-12-04T14:34:20Z*

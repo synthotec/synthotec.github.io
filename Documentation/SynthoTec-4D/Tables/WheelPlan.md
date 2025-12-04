@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 5 Indexes
 
+## 📝 Description
+
+🗨️ Historical planning table archiving completed wheel schedules. Preserves past planning wheel states for reference and analysis.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 72
 - **UUID:** 0FCA2FC5DFE22B4BBA03615CB63249A2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:19Z
+- **Generated:** 🕐 2025-12-04T14:34:34Z
 
 ---
 
@@ -53,4 +57,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:19Z*
+*Generated at: 2025-12-04T14:34:34Z*

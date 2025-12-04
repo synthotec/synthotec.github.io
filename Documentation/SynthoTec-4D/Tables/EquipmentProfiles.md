@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 18 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table defining equipment specifications and capabilities. Stores machine profiles, capacity, settings, and operational parameters.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 59
 - **UUID:** D8188042DA7A3C488CA350345D55AAE2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:07Z
+- **Generated:** 🕐 2025-12-04T14:34:21Z
 
 ---
 
@@ -63,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:07Z*
+*Generated at: 2025-12-04T14:34:21Z*

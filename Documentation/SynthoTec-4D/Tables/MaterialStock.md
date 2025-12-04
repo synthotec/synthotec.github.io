@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 12 Fields | 7 Indexes | 3 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Inventory table tracking current raw material stock levels by material type, batch, and location. Updated by receipts and consumption transactions.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 48
 - **UUID:** C11E4B61162CA04E8020762F66A8FC50
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:57Z
+- **Generated:** 🕐 2025-12-04T14:34:11Z
 
 ---
 
@@ -81,4 +85,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:57Z*
+*Generated at: 2025-12-04T14:34:11Z*

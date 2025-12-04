@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 28 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Legacy quality control table - archived copy of patrol inspection data. Replaced by QualitySystemResults.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 96
 - **UUID:** CDC6757D6C25C14A8C2CAA01079A6600
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:41Z
+- **Generated:** 🕐 2025-12-04T14:34:57Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:41Z*
+*Generated at: 2025-12-04T14:34:57Z*

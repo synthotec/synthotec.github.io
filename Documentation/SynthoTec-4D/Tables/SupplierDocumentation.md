@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Document management table linking suppliers to quality documents, certificates, and approvals. Stores supplier compliance documentation.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 85
 - **UUID:** 39E8E2BA6606BA4E97B23381CEBA900D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:31Z
+- **Generated:** 🕐 2025-12-04T14:34:47Z
 
 ---
 
@@ -63,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:31Z*
+*Generated at: 2025-12-04T14:34:47Z*

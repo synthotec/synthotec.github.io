@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 6 Indexes | 3 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Configuration table defining packaging specifications per product and customer. Includes box sizes, pallet configurations, and packing instructions.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 35
 - **UUID:** A0DC125CC548024984CE4F807E2D45E2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:47Z
+- **Generated:** 🕐 2025-12-04T14:34:01Z
 
 ---
 
@@ -75,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:47Z*
+*Generated at: 2025-12-04T14:34:01Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 49 Fields | 4 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Quality management table tracking non-conformance reports (NCRs) for defects, quality issues, and corrective actions. Links to WorksOrders, Products, and Staff for root cause analysis.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 19
 - **UUID:** 0EF85BE67B5AB047BDF434F47974C7C3
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:33Z
+- **Generated:** 🕐 2025-12-04T14:33:45Z
 
 ---
 
@@ -96,4 +100,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:33Z*
+*Generated at: 2025-12-04T14:33:45Z*

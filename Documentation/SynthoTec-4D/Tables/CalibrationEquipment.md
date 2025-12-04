@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 13 Fields | 2 Indexes | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for equipment requiring periodic calibration (gauges, scales, measuring tools). Tracks calibration schedules and certificates.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 34
 - **UUID:** 8043B353374B8C40B4E421933BA42318
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:46Z
+- **Generated:** 🕐 2025-12-04T14:34:00Z
 
 ---
 
@@ -69,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:46Z*
+*Generated at: 2025-12-04T14:34:00Z*

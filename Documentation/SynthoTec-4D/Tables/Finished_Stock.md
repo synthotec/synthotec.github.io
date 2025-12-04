@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 12 Fields | 6 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Inventory table tracking current finished goods stock levels by product and location. Updated by Stock_Movement transactions, used for availability checks and planning.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 12
 - **UUID:** 51AABC1ABE247B49864812D98CE6E30B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:27Z
+- **Generated:** 🕐 2025-12-04T14:33:39Z
 
 ---
 
@@ -78,4 +82,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:27Z*
+*Generated at: 2025-12-04T14:33:39Z*

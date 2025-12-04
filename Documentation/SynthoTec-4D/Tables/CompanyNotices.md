@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 11 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Communication table for company-wide announcements and notifications. Displays alerts, maintenance notices, and important messages to users.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 61
 - **UUID:** 015540DC6D91DB4182E6B439B2252CC2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:09Z
+- **Generated:** 🕐 2025-12-04T14:34:23Z
 
 ---
 
@@ -57,4 +61,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:09Z*
+*Generated at: 2025-12-04T14:34:23Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 24 Fields | 4 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table tracking inventory movements of finished products. Records stock transfers between locations, deliveries, adjustments, and provides audit trail for stock changes.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 5
 - **UUID:** F1AE2CED84FC204E9E788B8FF9BE9359
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:21Z
+- **Generated:** 🕐 2025-12-04T14:33:33Z
 
 ---
 
@@ -83,4 +87,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:21Z*
+*Generated at: 2025-12-04T14:33:33Z*

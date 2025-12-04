@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table managing print settings and templates for labels, reports, and documents. Stores printer configurations and layout specifications.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 15
 - **UUID:** 46AB44AA8924F449BCCF65AD27E8BDC1
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-12-03T16:23:29Z
+- **Generated:** 🕐 2025-12-04T14:33:41Z
 
 ---
 
@@ -52,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:29Z*
+*Generated at: 2025-12-04T14:33:41Z*

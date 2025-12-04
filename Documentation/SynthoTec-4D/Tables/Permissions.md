@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 2 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Security lookup table defining system permissions and access rights. Used to control user capabilities and feature access by role.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 87
 - **UUID:** E8C07233B3BC574991307875E3D2E16F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:33Z
+- **Generated:** 🕐 2025-12-04T14:34:49Z
 
 ---
 
@@ -68,4 +72,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:33Z*
+*Generated at: 2025-12-04T14:34:49Z*

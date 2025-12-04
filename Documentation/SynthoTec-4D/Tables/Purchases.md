@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 18 Fields | 3 Indexes | 1 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for purchase orders sent to suppliers. Tracks material and supplies orders, delivery schedules, and purchase order status.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 21
 - **UUID:** 0816EE7668E03647A01F7EB009589E04
 - **Primary Key:** 🔑 `OrderNo_l`
-- **Generated:** 🕐 2025-12-03T16:23:34Z
+- **Generated:** 🕐 2025-12-04T14:33:47Z
 
 ---
 
@@ -89,4 +93,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:34Z*
+*Generated at: 2025-12-04T14:33:47Z*

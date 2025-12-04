@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 32 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table defining production machines with real-time monitoring. Stores machine configurations, sensor mappings, and current status.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 63
 - **UUID:** 475BE219B3D798439D301555A3D28CCC
 - **Primary Key:** 🔑 `Machine`
-- **Generated:** 🕐 2025-12-03T16:24:11Z
+- **Generated:** 🕐 2025-12-04T14:34:25Z
 
 ---
 
@@ -96,4 +100,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:11Z*
+*Generated at: 2025-12-04T14:34:25Z*

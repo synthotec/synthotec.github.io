@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Document management table linking tools to technical documentation, drawings, and certificates. Stores tool-related file references.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 122
 - **UUID:** 7D2816DD1753484DA778A019D7B75188
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:04Z
+- **Generated:** 🕐 2025-12-04T14:35:22Z
 
 ---
 
@@ -64,4 +68,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:04Z*
+*Generated at: 2025-12-04T14:35:22Z*

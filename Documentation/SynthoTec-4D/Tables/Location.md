@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 2 Indexes | 1 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table defining physical locations within facilities (warehouse zones, production areas, storage bins). Used for inventory positioning.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 121
 - **UUID:** 44FBB6DE7626F84EA6B3129DC5AAA82E
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:03Z
+- **Generated:** 🕐 2025-12-04T14:35:21Z
 
 ---
 
@@ -70,4 +74,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:03Z*
+*Generated at: 2025-12-04T14:35:21Z*

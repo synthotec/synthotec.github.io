@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 13 Fields | 3 Indexes
 
+## 📝 Description
+
+🗨️ Analytics table calculating Overall Equipment Effectiveness metrics. Tracks availability, performance, and quality for production equipment.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 89
 - **UUID:** EDFCD4019448A2478EF7BDE89DD8498C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:35Z
+- **Generated:** 🕐 2025-12-04T14:34:51Z
 
 ---
 
@@ -60,4 +64,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:35Z*
+*Generated at: 2025-12-04T14:34:51Z*

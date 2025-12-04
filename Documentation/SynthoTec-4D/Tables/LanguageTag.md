@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Configuration table storing translated text strings for UI elements. Each tag contains translations for multiple languages.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 33
 - **UUID:** C687C116DFD6DE43AE003396315A8A4D
 - **Primary Key:** 🔑 `ID_l`
-- **Generated:** 🕐 2025-12-03T16:23:45Z
+- **Generated:** 🕐 2025-12-04T14:33:59Z
 
 ---
 
@@ -59,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:45Z*
+*Generated at: 2025-12-04T14:33:59Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 5 Indexes
 
+## 📝 Description
+
+🗨️ Audit table recording field-level changes to critical data. Tracks before/after values, timestamps, and users for compliance and traceability.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 102
 - **UUID:** D4E78D9BFB953A4889052AAB5F6072AF
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:47Z
+- **Generated:** 🕐 2025-12-04T14:35:03Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:47Z*
+*Generated at: 2025-12-04T14:35:03Z*

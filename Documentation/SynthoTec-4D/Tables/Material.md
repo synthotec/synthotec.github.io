@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 26 Fields | 9 Indexes | 3 Many-to-One Relations | 11 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for raw materials and resins used in production. Stores material specifications, suppliers, batch tracking, and quality certificates. Referenced by Products and MaterialStock.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 11
 - **UUID:** 13EE0980326D984887426E4CEDD50A30
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-12-03T16:23:26Z
+- **Generated:** 🕐 2025-12-04T14:33:38Z
 
 ---
 
@@ -131,4 +135,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:26Z*
+*Generated at: 2025-12-04T14:33:38Z*

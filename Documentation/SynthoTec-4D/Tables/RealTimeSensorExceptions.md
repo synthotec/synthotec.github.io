@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 3 Indexes | 4 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Alert table recording sensor anomalies and out-of-range readings. Flags equipment issues requiring attention based on predefined thresholds.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 117
 - **UUID:** 0ED7579A95D51547A48FD7693363C503
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:00Z
+- **Generated:** 🕐 2025-12-04T14:35:17Z
 
 ---
 
@@ -66,4 +70,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:00Z*
+*Generated at: 2025-12-04T14:35:17Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 24 Fields | 8 Indexes | 3 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Detail table for individual line items within purchase orders. Each record represents one material/supply item ordered from a supplier.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 22
 - **UUID:** C3FDC44293A15B4EA942AFEBF0341C9C
 - **Primary Key:** 🔑 `UniqueID_l`
-- **Generated:** 🕐 2025-12-03T16:23:35Z
+- **Generated:** 🕐 2025-12-04T14:33:48Z
 
 ---
 
@@ -103,4 +107,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:35Z*
+*Generated at: 2025-12-04T14:33:48Z*

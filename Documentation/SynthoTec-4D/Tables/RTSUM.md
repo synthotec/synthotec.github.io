@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 10 Fields | 4 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Summary table aggregating real-time production data by period. Provides pre-calculated totals for reporting and dashboard displays.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 67
 - **UUID:** B4BCF8D18A05AB4AB5784486D50CD234
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:14Z
+- **Generated:** 🕐 2025-12-04T14:34:29Z
 
 ---
 
@@ -73,4 +77,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:14Z*
+*Generated at: 2025-12-04T14:34:29Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Quality control table recording initial part weights at production start. Validates process setup before full production run begins.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 46
 - **UUID:** B81AB99DDF831D4C90A3E757E0528D32
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:55Z
+- **Generated:** 🕐 2025-12-04T14:34:09Z
 
 ---
 
@@ -43,4 +47,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:55Z*
+*Generated at: 2025-12-04T14:34:09Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 2 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Security configuration table blocking problematic Unicode characters. Prevents invalid characters from being entered in data fields.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 83
 - **UUID:** 98B0E0576FD17346823254A279D57754
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:29Z
+- **Generated:** 🕐 2025-12-04T14:34:45Z
 
 ---
 
@@ -39,4 +43,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:29Z*
+*Generated at: 2025-12-04T14:34:45Z*

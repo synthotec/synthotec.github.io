@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 3 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording goods receipts for purchase orders. Tracks received quantities, dates, batch numbers, and quality checks.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 109
 - **UUID:** BE29EC2C2AE9BF4496D0A54958A42DA5
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:52Z
+- **Generated:** 🕐 2025-12-04T14:35:09Z
 
 ---
 
@@ -55,4 +59,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:52Z*
+*Generated at: 2025-12-04T14:35:09Z*

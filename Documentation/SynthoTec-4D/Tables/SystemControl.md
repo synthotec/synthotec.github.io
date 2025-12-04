@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 13 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table storing system-wide settings, preferences, and control parameters. Single-record table managing global application behavior.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 28
 - **UUID:** 033E20DBAC212B4389E5C70620881ED8
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:41Z
+- **Generated:** 🕐 2025-12-04T14:33:54Z
 
 ---
 
@@ -50,4 +54,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:41Z*
+*Generated at: 2025-12-04T14:33:54Z*

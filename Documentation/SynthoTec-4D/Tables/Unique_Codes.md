@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 4 Indexes
 
+## 📝 Description
+
+🗨️ System table managing unique identifier generation across different tables. Tracks next available IDs and codes to prevent duplicates.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 17
 - **UUID:** 841927B91F0A984697E1A0A7E2C95BA9
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:31Z
+- **Generated:** 🕐 2025-12-04T14:33:43Z
 
 ---
 
@@ -48,4 +52,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:31Z*
+*Generated at: 2025-12-04T14:33:43Z*

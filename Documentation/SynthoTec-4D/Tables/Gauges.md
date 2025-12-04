@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table for measurement gauges and inspection equipment. Tracks calibration status, locations, and links to quality inspection procedures.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 23
 - **UUID:** B84C6CC0E8E67246A59E39321DB56B95
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-12-03T16:23:36Z
+- **Generated:** 🕐 2025-12-04T14:33:49Z
 
 ---
 
@@ -61,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:36Z*
+*Generated at: 2025-12-04T14:33:49Z*

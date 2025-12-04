@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Document management table storing file metadata and links. References attached documents, drawings, certificates, and other files.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 133
 - **UUID:** 42DDF5081B29E94091C7359EF587793D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:14Z
+- **Generated:** 🕐 2025-12-04T14:35:32Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:14Z*
+*Generated at: 2025-12-04T14:35:32Z*

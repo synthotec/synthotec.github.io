@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 5 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table for robotic grippers and end-effectors used in automation. Links to Tools and tracks gripper configurations and maintenance.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 25
 - **UUID:** 755FDB8A02ACFB4787F4589BA9B30BE2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:38Z
+- **Generated:** 🕐 2025-12-04T14:33:51Z
 
 ---
 
@@ -71,4 +75,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:38Z*
+*Generated at: 2025-12-04T14:33:51Z*

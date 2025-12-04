@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 2 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Detail table breaking down shift summary data by machine or work order. Links to ShiftSummary with granular performance metrics.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 130
 - **UUID:** 72508DC4C8B6954DB9CFBCAC2709E212
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:12Z
+- **Generated:** 🕐 2025-12-04T14:35:29Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:12Z*
+*Generated at: 2025-12-04T14:35:29Z*

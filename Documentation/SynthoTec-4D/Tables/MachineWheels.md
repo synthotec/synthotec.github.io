@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 28 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table defining production machine positions on planning wheels. Maps machines to wheel slots for visual scheduling interface.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 52
 - **UUID:** 4E54F86DE90F56408B41789A54462C64
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:00Z
+- **Generated:** 🕐 2025-12-04T14:34:15Z
 
 ---
 
@@ -75,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:00Z*
+*Generated at: 2025-12-04T14:34:15Z*

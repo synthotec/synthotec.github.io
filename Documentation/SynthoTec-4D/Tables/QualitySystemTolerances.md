@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table defining acceptable tolerance ranges for quality measurements. Links to QualitySystemProcedures with min/max limits.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 107
 - **UUID:** C3B026087195274EBE4A71B14374D159
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:51Z
+- **Generated:** 🕐 2025-12-04T14:35:07Z
 
 ---
 
@@ -52,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:51Z*
+*Generated at: 2025-12-04T14:35:07Z*

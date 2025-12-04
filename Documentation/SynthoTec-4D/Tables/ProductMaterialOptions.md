@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 3 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Junction table defining approved material alternatives for each product. Allows material substitutions while maintaining quality standards.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 40
 - **UUID:** 35B5E95C0975EB4583DCBCAD2723FA54
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:51Z
+- **Generated:** 🕐 2025-12-04T14:34:05Z
 
 ---
 
@@ -69,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:51Z*
+*Generated at: 2025-12-04T14:34:05Z*

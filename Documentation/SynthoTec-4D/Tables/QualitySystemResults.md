@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 22 Fields | 4 Indexes
 
+## 📝 Description
+
+🗨️ Transaction table storing quality inspection measurement results. Records dimensional checks, test values, pass/fail status, and inspector details.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 99
 - **UUID:** C46FD557FC0E4A4E995DC54102D0087E
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:44Z
+- **Generated:** 🕐 2025-12-04T14:35:00Z
 
 ---
 
@@ -75,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:44Z*
+*Generated at: 2025-12-04T14:35:00Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 3 Indexes | 1 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for customer product returns and RMAs. Tracks returned products, reasons, and links to replacement or credit processing.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 30
 - **UUID:** 84D5CEC865744441A28B55BDFF4F334A
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:43Z
+- **Generated:** 🕐 2025-12-04T14:33:56Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:43Z*
+*Generated at: 2025-12-04T14:33:56Z*

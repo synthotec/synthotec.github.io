@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 3 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Junction table linking ProductReturns to WorksOrders that produced the returned items. Enables traceability for quality analysis.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 31
 - **UUID:** 130945D5E0DF0E4498FBB20449311F51
 - **Primary Key:** 🔑 `WOReturnID_l`
-- **Generated:** 🕐 2025-12-03T16:23:44Z
+- **Generated:** 🕐 2025-12-04T14:33:57Z
 
 ---
 
@@ -63,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:44Z*
+*Generated at: 2025-12-04T14:33:57Z*

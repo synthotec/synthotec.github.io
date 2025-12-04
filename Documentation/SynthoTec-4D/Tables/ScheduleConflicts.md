@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Alert table flagging production scheduling conflicts. Identifies overlapping machine assignments, capacity violations, and date issues.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 56
 - **UUID:** 8353139CDBF96844B048C722296C657C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:04Z
+- **Generated:** 🕐 2025-12-04T14:34:18Z
 
 ---
 
@@ -43,4 +47,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:04Z*
+*Generated at: 2025-12-04T14:34:18Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 20 Fields | 1 Indexes | 10 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for employees and system users. Stores staff details, roles, permissions, and login credentials. Links to production activities, approvals, and audit trails.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 42
 - **UUID:** 34740841F2B0904CA92D155632F47E87
 - **Primary Key:** 🔑 `StaffID`
-- **Generated:** 🕐 2025-12-03T16:23:52Z
+- **Generated:** 🕐 2025-12-04T14:34:06Z
 
 ---
 
@@ -101,4 +105,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:52Z*
+*Generated at: 2025-12-04T14:34:06Z*

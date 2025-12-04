@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Lookup table defining packaging material categories (boxes, pallets, wrapping, labels). Referenced by ProductPackaging.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 36
 - **UUID:** 0EB107798546B546BF08F545905BAA5F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:48Z
+- **Generated:** 🕐 2025-12-04T14:34:02Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:48Z*
+*Generated at: 2025-12-04T14:34:02Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 4 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Junction table linking tool notices to affected works orders. Associates tool issues with production runs requiring action or rework.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 135
 - **UUID:** 4B07FFB98BFE74459EB30ECE3B9D6E1F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:16Z
+- **Generated:** 🕐 2025-12-04T14:35:34Z
 
 ---
 
@@ -52,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:16Z*
+*Generated at: 2025-12-04T14:35:34Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 2 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table defining supported languages for multi-language interface. Links to LanguageTag for translated strings.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 32
 - **UUID:** 4F6BBCF8E9304244A5440EF31A025AD4
 - **Primary Key:** 🔑 `ID_l`
-- **Generated:** 🕐 2025-12-03T16:23:45Z
+- **Generated:** 🕐 2025-12-04T14:33:58Z
 
 ---
 
@@ -54,4 +58,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:45Z*
+*Generated at: 2025-12-04T14:33:58Z*

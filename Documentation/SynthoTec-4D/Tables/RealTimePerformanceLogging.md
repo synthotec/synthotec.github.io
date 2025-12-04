@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Performance monitoring table logging real-time data collection metrics. Tracks system performance, data rates, and processing times for diagnostics.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 110
 - **UUID:** FFD7EEFC747D6D4D857DC0F0952A3D8B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:53Z
+- **Generated:** 🕐 2025-12-04T14:35:10Z
 
 ---
 
@@ -40,4 +44,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:53Z*
+*Generated at: 2025-12-04T14:35:10Z*

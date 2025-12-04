@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 29 Fields | 8 Indexes | 4 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Configuration table defining customer-specific product variants, packaging options, and special requirements. Links Products to Customer-specific specifications and pricing.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 13
 - **UUID:** 2E835762FEA7484EB4687878631CFB10
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:28Z
+- **Generated:** 🕐 2025-12-04T14:33:40Z
 
 ---
 
@@ -112,4 +116,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:28Z*
+*Generated at: 2025-12-04T14:33:40Z*

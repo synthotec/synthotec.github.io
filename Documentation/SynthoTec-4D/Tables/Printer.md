@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 4 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Configuration table defining available printers and print stations. Maps printers to workstations and specifies label/document routing rules.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 118
 - **UUID:** C5724BFA139A9141B0B974FDE6810417
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:01Z
+- **Generated:** 🕐 2025-12-04T14:35:18Z
 
 ---
 
@@ -71,4 +75,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:01Z*
+*Generated at: 2025-12-04T14:35:18Z*

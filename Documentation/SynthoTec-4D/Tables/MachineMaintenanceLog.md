@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 1 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording completed maintenance activities on production equipment. Links to MachineMaintenanceActions with dates, staff, and results.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 112
 - **UUID:** FE5239933752004A898745F680742B25
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:55Z
+- **Generated:** 🕐 2025-12-04T14:35:12Z
 
 ---
 
@@ -64,4 +68,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:55Z*
+*Generated at: 2025-12-04T14:35:12Z*

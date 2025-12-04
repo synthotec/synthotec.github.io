@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Quality control table recording hot-half temperature measurements during molding process. Critical for process validation and quality.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 45
 - **UUID:** B129C8DCAC2B444CB303898B002AAF6E
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:54Z
+- **Generated:** 🕐 2025-12-04T14:34:08Z
 
 ---
 
@@ -65,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:54Z*
+*Generated at: 2025-12-04T14:34:08Z*

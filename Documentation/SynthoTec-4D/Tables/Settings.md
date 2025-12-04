@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ System configuration table storing global application settings and preferences. Manages feature flags, defaults, and system-wide parameters.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 82
 - **UUID:** 693874A53327EC4980F6359376A41BBD
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:28Z
+- **Generated:** 🕐 2025-12-04T14:34:44Z
 
 ---
 
@@ -72,4 +76,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:28Z*
+*Generated at: 2025-12-04T14:34:44Z*

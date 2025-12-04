@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 1 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Discussion thread table storing comments and updates on work requests. Enables communication and status tracking for maintenance tasks.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 66
 - **UUID:** 17EBB00DC2A338479A5DE717852AEA8A
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:13Z
+- **Generated:** 🕐 2025-12-04T14:34:28Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:13Z*
+*Generated at: 2025-12-04T14:34:28Z*

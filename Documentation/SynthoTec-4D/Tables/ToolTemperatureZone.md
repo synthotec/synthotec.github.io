@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 1 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table defining temperature control zones on mold tools. Maps heating/cooling zones to sensors and control systems.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 120
 - **UUID:** 968EE478343D5B48862979641CF58B28
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:03Z
+- **Generated:** 🕐 2025-12-04T14:35:20Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:03Z*
+*Generated at: 2025-12-04T14:35:20Z*

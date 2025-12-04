@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Inventory table tracking consumable equipment and supplies (gloves, tools, spare parts). Records stock levels and usage.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 70
 - **UUID:** 7E8A79F83C60A542A51B1DB4FF1DE543
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:17Z
+- **Generated:** 🕐 2025-12-04T14:34:32Z
 
 ---
 
@@ -50,4 +54,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:17Z*
+*Generated at: 2025-12-04T14:34:32Z*

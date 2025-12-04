@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table storing contact persons for each customer. Includes names, roles, email, phone numbers, and communication preferences.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 78
 - **UUID:** 4BCC18B6E22B7B4CB1440CD3608A0D8D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:25Z
+- **Generated:** 🕐 2025-12-04T14:34:40Z
 
 ---
 
@@ -64,4 +68,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:25Z*
+*Generated at: 2025-12-04T14:34:40Z*

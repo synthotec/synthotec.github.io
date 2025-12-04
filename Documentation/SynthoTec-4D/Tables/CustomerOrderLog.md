@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Audit table logging changes to customer orders. Tracks modifications to quantities, dates, status, and other order details for traceability.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 77
 - **UUID:** 8921E64C9227D341A45DA81DDEBEFC8F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:24Z
+- **Generated:** 🕐 2025-12-04T14:34:39Z
 
 ---
 
@@ -55,4 +59,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:24Z*
+*Generated at: 2025-12-04T14:34:39Z*

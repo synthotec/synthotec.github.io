@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Transaction table recording production faults and issues encountered during works orders. Links defects to specific production runs.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 68
 - **UUID:** E16A7AC9E01F8147991AD5993CECBA12
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:15Z
+- **Generated:** 🕐 2025-12-04T14:34:30Z
 
 ---
 
@@ -49,4 +53,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:15Z*
+*Generated at: 2025-12-04T14:34:30Z*

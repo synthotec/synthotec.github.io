@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 9 Fields | 1 Indexes | 2 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording tool maintenance activities, repairs, and modifications. Tracks service history with dates, staff, and work performed.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 105
 - **UUID:** 1F02089890EA3F489FED75E8E2877B11
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:49Z
+- **Generated:** 🕐 2025-12-04T14:35:05Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:49Z*
+*Generated at: 2025-12-04T14:35:05Z*

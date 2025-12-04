@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Master data table defining calibration procedures and test methods for each equipment type. Specifies frequency, tolerances, and acceptance criteria.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 90
 - **UUID:** 1A64E1E52A2717409460B15ADE9D3AA3
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:36Z
+- **Generated:** 🕐 2025-12-04T14:34:52Z
 
 ---
 
@@ -62,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:36Z*
+*Generated at: 2025-12-04T14:34:52Z*

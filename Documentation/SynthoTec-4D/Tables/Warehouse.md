@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 1 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Master data table defining warehouse facilities and storage locations. Manages multiple warehouse sites with location hierarchies.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 116
 - **UUID:** 61BC381495AC964C931FBA8CC3D8C5E5
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:59Z
+- **Generated:** 🕐 2025-12-04T14:35:16Z
 
 ---
 
@@ -46,4 +50,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:59Z*
+*Generated at: 2025-12-04T14:35:16Z*

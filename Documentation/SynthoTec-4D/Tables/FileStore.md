@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 2 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Binary storage table holding actual file content as BLOBs. Linked from File table for embedded document storage.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 92
 - **UUID:** 90D601F48AD3E547905987918AFB7C90
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:38Z
+- **Generated:** 🕐 2025-12-04T14:34:53Z
 
 ---
 
@@ -39,4 +43,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:38Z*
+*Generated at: 2025-12-04T14:34:53Z*

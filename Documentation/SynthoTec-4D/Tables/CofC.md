@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 26 Fields | 11 Indexes | 5 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for Certificates of Conformance issued with product shipments. Links to WorksOrders and materials to certify product compliance with specifications.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 6
 - **UUID:** 81B9B2AF685A1B4E892794C866475FCC
 - **Primary Key:** 🔑 `Cert_Of_Conformance_No`
-- **Generated:** 🕐 2025-12-03T16:23:22Z
+- **Generated:** 🕐 2025-12-04T14:33:34Z
 
 ---
 
@@ -111,4 +115,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:22Z*
+*Generated at: 2025-12-04T14:33:34Z*

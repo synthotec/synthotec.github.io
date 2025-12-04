@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 3 Indexes
 
+## 📝 Description
+
+🗨️ Internationalization table storing translated text for multi-language support. Links to Language and LanguageTag for localized strings.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 93
 - **UUID:** FB3EF960B67EC1469BFEF51C80EEDF92
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:38Z
+- **Generated:** 🕐 2025-12-04T14:34:54Z
 
 ---
 
@@ -58,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:38Z*
+*Generated at: 2025-12-04T14:34:54Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 7 Fields | 2 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ System logging table capturing application errors and exceptions. Records error details, stack traces, and context for debugging.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 131
 - **UUID:** AF1DEE5EA76ACE42AEFB98922A785EEB
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:13Z
+- **Generated:** 🕐 2025-12-04T14:35:30Z
 
 ---
 
@@ -66,4 +70,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:13Z*
+*Generated at: 2025-12-04T14:35:30Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 2 Indexes | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table for delivery advice notes sent to customers. Documents shipment details and tracking information for product deliveries.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 9
 - **UUID:** 1C150D42AE7E4341870D4DBFA6AD3288
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:24Z
+- **Generated:** 🕐 2025-12-04T14:33:36Z
 
 ---
 
@@ -67,4 +71,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:24Z*
+*Generated at: 2025-12-04T14:33:36Z*

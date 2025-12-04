@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 15 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording scrap and waste from production runs. Tracks quantities, reasons, and costs for waste reduction analysis.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 47
 - **UUID:** B91E3A24E0704F41AAE38F93EE48B9E6
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:56Z
+- **Generated:** 🕐 2025-12-04T14:34:10Z
 
 ---
 
@@ -69,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:56Z*
+*Generated at: 2025-12-04T14:34:10Z*

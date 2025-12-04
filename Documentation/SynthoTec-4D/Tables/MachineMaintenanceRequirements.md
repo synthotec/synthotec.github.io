@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 4 Fields | 1 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Junction table linking machines to their required maintenance actions. Defines what maintenance is needed for each equipment type.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 114
 - **UUID:** 45A9294EBF7DC04CB9F45F557F9377F7
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:57Z
+- **Generated:** 🕐 2025-12-04T14:35:14Z
 
 ---
 
@@ -56,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:57Z*
+*Generated at: 2025-12-04T14:35:14Z*

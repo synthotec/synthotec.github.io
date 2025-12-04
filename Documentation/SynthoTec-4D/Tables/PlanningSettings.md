@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table storing production planning parameters. Defines scheduling rules, capacity constraints, and planning horizons.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 80
 - **UUID:** 5A779C2255F0D14490E406B28C808818
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:26Z
+- **Generated:** 🕐 2025-12-04T14:34:42Z
 
 ---
 
@@ -48,4 +52,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:26Z*
+*Generated at: 2025-12-04T14:34:42Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 6 Fields | 3 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Planning table storing demand forecasts by product and period. Used for capacity planning and material requirement calculations.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 108
 - **UUID:** 3D30ED9FCDC1D24697A8C1D1F6F01D55
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:51Z
+- **Generated:** 🕐 2025-12-04T14:35:08Z
 
 ---
 
@@ -61,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:51Z*
+*Generated at: 2025-12-04T14:35:08Z*

@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 30 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Legacy quality control table for product conditioning inspection data. Archived table - replaced by QualitySystemResults.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 98
 - **UUID:** B616A5CF96100A4097E3ECAA7E6BD71C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:43Z
+- **Generated:** 🕐 2025-12-04T14:34:59Z
 
 ---
 
@@ -67,4 +71,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:43Z*
+*Generated at: 2025-12-04T14:34:59Z*

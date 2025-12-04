@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 11 Fields | 5 Indexes | 3 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table queueing and tracking print jobs. Records label print requests, status, and completion for production and shipping labels.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 126
 - **UUID:** B29FF560CBF45F4FB415A4450511F8C1
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:08Z
+- **Generated:** 🕐 2025-12-04T14:35:25Z
 
 ---
 
@@ -69,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:08Z*
+*Generated at: 2025-12-04T14:35:25Z*

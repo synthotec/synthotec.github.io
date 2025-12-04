@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 1 Indexes
 
+## 📝 Description
+
+🗨️ Transaction table for individual line items within Customer_Orders. Each entry represents one product/quantity combination on an order.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 16
 - **UUID:** AF0EF9F5DE55394BA5A574DC03975466
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:30Z
+- **Generated:** 🕐 2025-12-04T14:33:42Z
 
 ---
 
@@ -45,4 +49,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:30Z*
+*Generated at: 2025-12-04T14:33:42Z*

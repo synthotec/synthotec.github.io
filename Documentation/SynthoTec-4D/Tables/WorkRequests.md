@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 18 Fields | 4 Indexes | 1 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Transaction table managing maintenance and repair requests for equipment and facilities. Tracks request status, priority, and assignments.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 65
 - **UUID:** F442B2C4FB8A82459B54D0CF985365AB
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:13Z
+- **Generated:** 🕐 2025-12-04T14:34:27Z
 
 ---
 
@@ -82,4 +86,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:13Z*
+*Generated at: 2025-12-04T14:34:27Z*

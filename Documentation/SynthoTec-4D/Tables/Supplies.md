@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 19 Fields | 3 Indexes | 2 Many-to-One Relations | 2 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for general supplies and consumables used in production (not raw materials). Tracks inventory levels, suppliers, and reorder points.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 20
 - **UUID:** B84FAAF4158D23479C7828325B99FDF5
 - **Primary Key:** 🔑 `UniqueID_i`
-- **Generated:** 🕐 2025-12-03T16:23:33Z
+- **Generated:** 🕐 2025-12-04T14:33:46Z
 
 ---
 
@@ -94,4 +98,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:33Z*
+*Generated at: 2025-12-04T14:33:46Z*

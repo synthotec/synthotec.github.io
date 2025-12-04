@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 11 Fields | 6 Indexes | 5 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Transaction table recording material inspection results and quality checks. Links to Material batches with test data and approval status.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 39
 - **UUID:** CD2B15382AF9D24BB806CE53302773A9
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:50Z
+- **Generated:** 🕐 2025-12-04T14:34:04Z
 
 ---
 
@@ -73,4 +77,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:50Z*
+*Generated at: 2025-12-04T14:34:04Z*

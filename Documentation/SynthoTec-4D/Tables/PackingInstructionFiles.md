@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 8 Fields | 2 Indexes | 1 Many-to-One Relations
 
+## 📝 Description
+
+🗨️ Document management table linking products to packing instruction documents. Stores references to packaging procedure files and drawings.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 115
 - **UUID:** F461D77AA880C5449A02C9E91E10F836
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:58Z
+- **Generated:** 🕐 2025-12-04T14:35:15Z
 
 ---
 
@@ -67,4 +71,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:58Z*
+*Generated at: 2025-12-04T14:35:15Z*

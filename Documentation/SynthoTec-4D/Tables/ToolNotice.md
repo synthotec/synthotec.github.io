@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 10 Fields | 2 Indexes | 3 Many-to-One Relations | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Alert table flagging tool issues, damage, or required actions. Notifies staff of tool problems requiring attention or repair.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 134
 - **UUID:** 6950DFACF3DA9842AF4C96E83B43790D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:25:15Z
+- **Generated:** 🕐 2025-12-04T14:35:33Z
 
 ---
 
@@ -78,4 +82,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:25:15Z*
+*Generated at: 2025-12-04T14:35:33Z*

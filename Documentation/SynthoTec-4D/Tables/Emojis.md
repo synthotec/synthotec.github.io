@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 5 Fields | 2 Indexes | 1 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Lookup table storing emoji characters and metadata for UI enhancement. Used in MessageBox and notifications to provide visual context.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 111
 - **UUID:** D8CAAE9B0978364D94111448E593405B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:54Z
+- **Generated:** 🕐 2025-12-04T14:35:11Z
 
 ---
 
@@ -59,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:54Z*
+*Generated at: 2025-12-04T14:35:11Z*

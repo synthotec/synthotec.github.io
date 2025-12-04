@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 18 Fields | 5 Indexes
 
+## 📝 Description
+
+🗨️ Legacy/deprecated table for production routing card data. Parentheses indicate inactive table; data may have been migrated to newer structure.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 26
 - **UUID:** AB1C481C69AFC94D924C5E73D8EC1283
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:23:39Z
+- **Generated:** 🕐 2025-12-04T14:33:52Z
 
 ---
 
@@ -59,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:39Z*
+*Generated at: 2025-12-04T14:33:52Z*

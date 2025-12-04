@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 139 Fields | 10 Indexes | 2 Many-to-One Relations | 12 One-to-Many Relations
 
+## 📝 Description
+
+🗨️ Master data table for injection molding tools/dies. Stores tool specifications, maintenance history, temperature settings, and production parameters. Links to Products and tracks tool lifecycle.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 2
 - **UUID:** 730DDB789A822A45A2769798BE8BF8C3
 - **Primary Key:** 🔑 `Tool_ID`
-- **Generated:** 🕐 2025-12-03T16:23:18Z
+- **Generated:** 🕐 2025-12-04T14:33:31Z
 
 ---
 
@@ -250,4 +254,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:23:18Z*
+*Generated at: 2025-12-04T14:33:31Z*

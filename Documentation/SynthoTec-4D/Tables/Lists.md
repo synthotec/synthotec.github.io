@@ -7,12 +7,16 @@ parent : Tables
 
 📊 **Overview:** 3 Fields | 2 Indexes
 
+## 📝 Description
+
+🗨️ Configuration table storing dynamic dropdown lists and lookup values. Provides centralized management of enumerated values used across the system.
+
 ## ℹ️ Table Information
 
 - **Table ID:** 101
 - **UUID:** 716403697442E64CB5DD2FD41B577122
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-12-03T16:24:46Z
+- **Generated:** 🕐 2025-12-04T14:35:02Z
 
 ---
 
@@ -41,4 +45,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-12-03T16:24:46Z*
+*Generated at: 2025-12-04T14:35:02Z*
