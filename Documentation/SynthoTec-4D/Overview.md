@@ -11,7 +11,7 @@ A comprehensive manufacturing ERP system for injection molding operations. Manag
 
 ## Documentation Progress
 
-**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T12:40:07.653Z
+**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T13:01:59.217Z
 
 ### Overall Completion Status
 
@@ -28,13 +28,13 @@ pie title Documentation Completion Status
 Total Classes: **152**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#6b7280, #10b981'}}}}%%
 xychart-beta
     title "Classes Documentation Metrics"
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
     y-axis "Count" 0 --> 721
-    bar [0, 0, 0, 0]
     bar [152, 721, 179, 152]
+    bar [0, 0, 0, 0]
 ```
 
 ### Forms Documentation
@@ -42,13 +42,13 @@ xychart-beta
 Total Forms: **156**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#6b7280, #10b981'}}}}%%
 xychart-beta
     title "Forms Documentation Metrics"
     x-axis ["Descriptions", "Screenshots"]
     y-axis "Count" 0 --> 156
+    bar [156, 156]
     bar [2, 1]
-    bar [154, 155]
 ```
 
 ### Tables Documentation
@@ -56,13 +56,13 @@ xychart-beta
 Total Tables: **129**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#6b7280, #10b981'}}}}%%
 xychart-beta
     title "Tables Documentation Metrics"
     x-axis ["Descriptions", "Fields", "N→1 Relations", "1→N Relations"]
     y-axis "Count" 0 --> 1894
-    bar [0, 0, 0, 0]
     bar [129, 1894, 0, 0]
+    bar [0, 0, 0, 0]
 ```
 
 ### Summary Statistics
