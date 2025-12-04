@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 10
 - **UUID:** C860B832DC3A2742AC90F8A95BC2F157
 - **Primary Key:** 🔑 `Product_ID`
-- **Generated:** 🕐 2025-11-13T23:17:50Z
+- **Generated:** 🕐 2025-12-03T16:23:25Z
 
 ---
 
@@ -32,34 +32,34 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Product_ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **Product_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Our Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
 | Cust Part No | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
 | Issue No | `String` (5) | ⚠️ Required, 🚫 Not Null | - |
-| Issue Date | `Integer` | 🚫 Not Null | - |
+| Issue Date | `Date` | 🚫 Not Null | - |
 | Part Name | `String` (50) | ⚠️ Required, 🚫 Not Null | - |
 | Short Name | `String` (25) | ⚠️ Required, 🚫 Not Null | - |
-| Conditioned | `Real` | 🚫 Not Null | - |
-| QuotedCycle | `Boolean` | 🚫 Not Null, ��� Not Modifiable | - |
-| DefMatID | `Date` | 🚫 Not Null | - |
-| Price Quan | `Picture` | 🚫 Not Null | - |
-| NoInBox | `Date` | 🚫 Not Null | - |
-| Min Order Quan | `Date` | 🚫 Not Null | - |
-| NumOfSquirts | `Date` | 🚫 Not Null | - |
+| Conditioned | `Boolean` | 🚫 Not Null | - |
+| QuotedCycle | `Real` | 🚫 Not Null, ��� Not Modifiable | - |
+| DefMatID | `Long Integer` | 🚫 Not Null | - |
+| Price Quan | `Integer` | 🚫 Not Null | - |
+| NoInBox | `Long Integer` | 🚫 Not Null | - |
+| Min Order Quan | `Long Integer` | 🚫 Not Null | - |
+| NumOfSquirts | `Long Integer` | 🚫 Not Null | - |
 | Drawing No | `String` (25) | 🚫 Not Null | - |
-| Regrnd allwd pc | `Picture` | 🚫 Not Null | - |
+| Regrnd allwd pc | `Integer` | 🚫 Not Null | - |
 | Odette_PO | `String` (255) | 🚫 Not Null | - |
-| Packed_Per_Hour | `Date` | 🚫 Not Null | - |
+| Packed_Per_Hour | `Long Integer` | 🚫 Not Null | - |
 | Programme_No | `String` (3) | 🚫 Not Null | - |
-| Tolerance_Low | `Boolean` | 🚫 Not Null | - |
-| Tolerance_High | `Boolean` | 🚫 Not Null | - |
-| TimePerPallet | `Picture` | 🚫 Not Null | - |
+| Tolerance_Low | `Real` | 🚫 Not Null | - |
+| Tolerance_High | `Real` | 🚫 Not Null | - |
+| TimePerPallet | `Integer` | 🚫 Not Null | - |
 | MBType | `String` (255) | 🚫 Not Null | - |
-| MBAmount | `Picture` | 🚫 Not Null | - |
-| EmojiID | `Date` | - | - |
-| Archive | `Real` | 🚫 Not Null | - |
-| Inspection Issue | `Picture` | 🚫 Not Null | - |
-| Inspection IssueDate | `Integer` | 🚫 Not Null | - |
+| MBAmount | `Integer` | 🚫 Not Null | - |
+| EmojiID | `Long Integer` | - | - |
+| Archive | `Boolean` | 🚫 Not Null | - |
+| Inspection Issue | `Integer` | 🚫 Not Null | - |
+| Inspection IssueDate | `Date` | 🚫 Not Null | - |
 | Inspection IssuedBy | `String` (20) | 🚫 Not Null | - |
 | Inspect Method1 | `String` | 🚫 Not Null | - |
 | Inspect Method2 | `String` | 🚫 Not Null | - |
@@ -71,71 +71,71 @@ parent : Tables
 | Patrol Inspect3 | `String` | 🚫 Not Null | - |
 | Patrol Inspect4 | `String` | 🚫 Not Null | - |
 | Conversion_Figure | `String` (50) | 🚫 Not Null | - |
-| Quality_FormNo | `Picture` | 🚫 Not Null | - |
-| Quality_IssueDate | `Integer` | 🚫 Not Null | - |
+| Quality_FormNo | `Integer` | 🚫 Not Null | - |
+| Quality_IssueDate | `Date` | 🚫 Not Null | - |
 | Quality_Issuedby | `String` (10) | 🚫 Not Null | - |
 | Quality_ReferenceNo | `String` (10) | 🚫 Not Null | - |
 | Initial_Customer | `String` (3) | 🚫 Not Null | - |
-| OperatorRequired | `Real` | 🚫 Not Null | - |
-| Inspect_Freq_qty | `Picture` | 🚫 Not Null | - |
-| Inspect_freq_cycle | `Picture` | 🚫 Not Null | - |
+| OperatorRequired | `Boolean` | 🚫 Not Null | - |
+| Inspect_Freq_qty | `Integer` | 🚫 Not Null | - |
+| Inspect_freq_cycle | `Integer` | 🚫 Not Null | - |
 | Inspect_freq_period | `String` (9) | 🚫 Not Null | - |
 | Extra_Text | `String` (40) | 🚫 Not Null | - |
-| Box_Per_Pallet | `Picture` | 🚫 Not Null | - |
-| Top_Up_No | `Picture` | 🚫 Not Null | - |
-| Cond_Cycl_Lght | `Picture` | 🚫 Not Null | - |
-| Part_No_Colour | `Picture` | 🚫 Not Null | - |
+| Box_Per_Pallet | `Integer` | 🚫 Not Null | - |
+| Top_Up_No | `Integer` | 🚫 Not Null | - |
+| Cond_Cycl_Lght | `Integer` | 🚫 Not Null | - |
+| Part_No_Colour | `Integer` | 🚫 Not Null | - |
 | Part_Colour | `String` | 🚫 Not Null | - |
 | Reason_4_Issue_Change | `String` (20) | 🚫 Not Null | - |
-| Danzas_ID | `Picture` | 🚫 Not Null | - |
-| Cages_per_Mandrell | `Picture` | 🚫 Not Null | - |
-| Boxes_per_M_Pallet | `Picture` | 🚫 Not Null | - |
+| Danzas_ID | `Integer` | 🚫 Not Null | - |
+| Cages_per_Mandrell | `Integer` | 🚫 Not Null | - |
+| Boxes_per_M_Pallet | `Integer` | 🚫 Not Null | - |
 | Pallet_Type_m | `String` (5) | 🚫 Not Null | - |
-| OurMinimum | `Date` | 🚫 Not Null | - |
+| OurMinimum | `Long Integer` | 🚫 Not Null | - |
 | Robot_Prg_No | `String` (255) | 🚫 Not Null | - |
 | Pallet_Pic | `Picture` | 🚫 Not Null | - |
 | Production_Mandrell | `String` (30) | 🚫 Not Null | - |
-| Mandrells_per_Pallet | `Picture` | 🚫 Not Null | - |
-| Mandrel_OD | `Boolean` | 🚫 Not Null | - |
-| OurBatchSize | `Date` | 🚫 Not Null | - |
-| PrimaryRoute | `Picture` | 🚫 Not Null | - |
-| Setup_Sheet | `Real` | 🚫 Not Null | - |
-| Danzas_ID1 | `Picture` | 🚫 Not Null | - |
-| Danzas_ID2 | `Picture` | 🚫 Not Null | - |
+| Mandrells_per_Pallet | `Integer` | 🚫 Not Null | - |
+| Mandrel_OD | `Real` | 🚫 Not Null | - |
+| OurBatchSize | `Long Integer` | 🚫 Not Null | - |
+| PrimaryRoute | `Integer` | 🚫 Not Null | - |
+| Setup_Sheet | `Boolean` | 🚫 Not Null | - |
+| Danzas_ID1 | `Integer` | 🚫 Not Null | - |
+| Danzas_ID2 | `Integer` | 🚫 Not Null | - |
 | ControlPlanLink1_txt | `String` | 🚫 Not Null | - |
 | ControlPlanLink2_txt | `String` | 🚫 Not Null | - |
-| Water_Squirt_prog_number | `Boolean` | 🚫 Not Null | - |
-| RunsPerForecast | `Date` | 🚫 Not Null | - |
-| StockTowardsForecast | `Undefined` | 🚫 Not Null | - |
-| ForecastQty | `Undefined` | 🚫 Not Null | - |
-| ForecastOutstanding | `Undefined` | 🚫 Not Null | - |
-| CoveredByWheel | `Undefined` | 🚫 Not Null | - |
-| MagicNumber | `Boolean` | 🚫 Not Null | - |
+| Water_Squirt_prog_number | `Real` | 🚫 Not Null | - |
+| RunsPerForecast | `Long Integer` | 🚫 Not Null | - |
+| StockTowardsForecast | `Integer` | 🚫 Not Null | - |
+| ForecastQty | `Integer` | 🚫 Not Null | - |
+| ForecastOutstanding | `Integer` | 🚫 Not Null | - |
+| CoveredByWheel | `Integer` | 🚫 Not Null | - |
+| MagicNumber | `Real` | 🚫 Not Null | - |
 | Field_80 | `String` (255) | 🚫 Not Null | - |
-| RoutedElsewhere | `Undefined` | 🚫 Not Null | - |
-| ConsignmentOrder | `Real` | 🚫 Not Null | - |
-| HoursOverride | `Boolean` | 🚫 Not Null | - |
-| Inspect_Freq_MIN | `Picture` | 🚫 Not Null | - |
-| PlannedRoute | `Picture` | 🚫 Not Null | - |
+| RoutedElsewhere | `Integer` | 🚫 Not Null | - |
+| ConsignmentOrder | `Boolean` | 🚫 Not Null | - |
+| HoursOverride | `Real` | 🚫 Not Null | - |
+| Inspect_Freq_MIN | `Integer` | 🚫 Not Null | - |
+| PlannedRoute | `Integer` | 🚫 Not Null | - |
 | SecondCode | `String` (255) | 🚫 Not Null | - |
-| UsedSinceBill | `Date` | 🚫 Not Null | - |
+| UsedSinceBill | `Long Integer` | 🚫 Not Null | - |
 | WareHouseMethod | `String` (255) | 🚫 Not Null | - |
-| PrioritizeStandardOrders | `Real` | 🚫 Not Null | - |
-| TotalPackTime | `Boolean` | 🚫 Not Null | - |
-| TotalPackInstances | `Date` | 🚫 Not Null | - |
+| PrioritizeStandardOrders | `Boolean` | 🚫 Not Null | - |
+| TotalPackTime | `Real` | 🚫 Not Null | - |
+| TotalPackInstances | `Long Integer` | 🚫 Not Null | - |
 | TotalPackString | `String` (255) | 🚫 Not Null | - |
 | SecondLocation | `String` (255) | 🚫 Not Null | - |
-| BottomPackTimeTarget | `Boolean` | 🚫 Not Null | - |
-| BottomPackTimeOverride | `Long Integer` | 🚫 Not Null | - |
-| PalletMethodID | `Date` | 🚫 Not Null | - |
-| ClosedLoopPercent | `Boolean` | 🚫 Not Null | - |
-| ForecastOutstandingCurrentYear | `Date` | 🚫 Not Null | - |
-| AverageRunLength | `Boolean` | 🚫 Not Null | - |
-| SubContainerQty | `Date` | 🚫 Not Null | - |
+| BottomPackTimeTarget | `Real` | 🚫 Not Null | - |
+| BottomPackTimeOverride | `Time` | 🚫 Not Null | - |
+| PalletMethodID | `Long Integer` | 🚫 Not Null | - |
+| ClosedLoopPercent | `Real` | 🚫 Not Null | - |
+| ForecastOutstandingCurrentYear | `Long Integer` | 🚫 Not Null | - |
+| AverageRunLength | `Real` | 🚫 Not Null | - |
+| SubContainerQty | `Long Integer` | 🚫 Not Null | - |
 | SubContainerName | `String` (255) | 🚫 Not Null | - |
-| PackingInstructionsFileBlob | `Unknown (18)` | - | - |
+| PackingInstructionsFileBlob | `BLOB Scalar` | - | - |
 | PackingInstructionsFileName | `String` (255) | - | - |
-| MigrationID | `Date` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | 🚫 Not Null | - |
 | LastMigration | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -234,4 +234,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:50Z*
+*Generated at: 2025-12-03T16:23:25Z*

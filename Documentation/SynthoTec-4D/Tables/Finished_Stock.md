@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 12
 - **UUID:** 51AABC1ABE247B49864812D98CE6E30B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:52Z
+- **Generated:** 🕐 2025-12-03T16:23:27Z
 
 ---
 
@@ -30,18 +30,18 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| FinishedStockID | `Date` | ⚠️ Required, 🚫 Not Null | - |
-| ProductID_l | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| FinishedStockID | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
+| ProductID_l | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Reuse_Issue_No | `String` (5) | 🚫 Not Null | - |
-| MaterialID | `Picture` | 🚫 Not Null | - |
-| Stock_Quantity | `Date` | 🚫 Not Null | - |
-| Reuse_NoOfBoxes | `Date` | 🚫 Not Null | - |
-| Reuse_PartBoxQty | `Date` | 🚫 Not Null | - |
-| Reuse_WIP | `Date` | 🚫 Not Null | - |
-| LocationID_l | `Date` | 🚫 Not Null | - |
-| Works_Order_No | `Date` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| Pallet_ID | `Date` | 🚫 Not Null | - |
+| MaterialID | `Integer` | 🚫 Not Null | - |
+| Stock_Quantity | `Long Integer` | 🚫 Not Null | - |
+| Reuse_NoOfBoxes | `Long Integer` | 🚫 Not Null | - |
+| Reuse_PartBoxQty | `Long Integer` | 🚫 Not Null | - |
+| Reuse_WIP | `Long Integer` | 🚫 Not Null | - |
+| LocationID_l | `Long Integer` | 🚫 Not Null | - |
+| Works_Order_No | `Long Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| Pallet_ID | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -78,4 +78,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:52Z*
+*Generated at: 2025-12-03T16:23:27Z*

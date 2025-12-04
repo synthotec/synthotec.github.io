@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 111
 - **UUID:** D8CAAE9B0978364D94111448E593405B
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:30Z
+- **Generated:** 🕐 2025-12-03T16:24:54Z
 
 ---
 
@@ -30,11 +30,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Emoji | `String` (255) | ✨ Unique | - |
 | Name | `String` (255) | - | - |
 | Category | `String` (255) | - | - |
-| Banned | `Real` | - | - |
+| Banned | `Boolean` | - | - |
 
 ## 🔍 Indexes
 
@@ -59,4 +59,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:30Z*
+*Generated at: 2025-12-03T16:24:54Z*

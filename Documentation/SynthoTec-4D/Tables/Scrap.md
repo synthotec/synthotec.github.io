@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 47
 - **UUID:** B91E3A24E0704F41AAE38F93EE48B9E6
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:24Z
+- **Generated:** 🕐 2025-12-03T16:23:56Z
 
 ---
 
@@ -30,21 +30,21 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| DateScrapped | `Integer` | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| DateProduced | `Integer` | 🚫 Not Null | - |
+| DateScrapped | `Date` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| DateProduced | `Date` | 🚫 Not Null | - |
 | Fault | `String` (255) | 🚫 Not Null | - |
 | Reason | `String` (255) | 🚫 Not Null | - |
-| Quantity | `Date` | 🚫 Not Null | - |
+| Quantity | `Long Integer` | 🚫 Not Null | - |
 | Location | `String` (255) | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 | ScrappedBy | `String` (255) | 🚫 Not Null | - |
-| New | `Real` | 🚫 Not Null | - |
-| Shift | `Date` | 🚫 Not Null | - |
-| Sequence | `Picture` | 🚫 Not Null | - |
+| New | `Boolean` | 🚫 Not Null | - |
+| Shift | `Long Integer` | 🚫 Not Null | - |
+| Sequence | `Integer` | 🚫 Not Null | - |
 | Comment | `String` (255) | 🚫 Not Null | - |
 | DateTimeScrapped | `String` (255) | 🚫 Not Null | - |
-| ShiftDate | `Date` | 🚫 Not Null | - |
+| ShiftDate | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -69,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:24Z*
+*Generated at: 2025-12-03T16:23:56Z*

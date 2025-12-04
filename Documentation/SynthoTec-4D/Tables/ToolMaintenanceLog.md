@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 105
 - **UUID:** 1F02089890EA3F489FED75E8E2877B11
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:22Z
+- **Generated:** 🕐 2025-12-03T16:24:49Z
 
 ---
 
@@ -31,14 +31,14 @@ parent : Tables
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
-| ToolID | `Date` | 🚫 Not Null | - |
-| MaintenanceDate | `Integer` | 🚫 Not Null | - |
-| MaintenanceTime | `Long Integer` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| MaintenanceDate | `Date` | 🚫 Not Null | - |
+| MaintenanceTime | `Time` | 🚫 Not Null | - |
 | MaintenanceWho | `String` (255) | 🚫 Not Null | - |
 | Comments | `String` (255) | 🚫 Not Null | - |
-| CycleCount | `Date` | 🚫 Not Null | - |
-| BypassCountReset | `Real` | 🚫 Not Null | - |
-| WorkRequestID | `Date` | - | - |
+| CycleCount | `Long Integer` | 🚫 Not Null | - |
+| BypassCountReset | `Boolean` | 🚫 Not Null | - |
+| WorkRequestID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -62,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:22Z*
+*Generated at: 2025-12-03T16:24:49Z*

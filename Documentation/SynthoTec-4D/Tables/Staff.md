@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 42
 - **UUID:** 34740841F2B0904CA92D155632F47E87
 - **Primary Key:** 🔑 `StaffID`
-- **Generated:** 🕐 2025-11-13T23:18:20Z
+- **Generated:** 🕐 2025-12-03T16:23:52Z
 
 ---
 
@@ -37,16 +37,16 @@ parent : Tables
 | PrintAs | `String` (255) | 🚫 Not Null | - |
 | FobID | `String` (255) | 🚫 Not Null | - |
 | AccountAD | `String` (255) | 🚫 Not Null | - |
-| SelfApprovalLimit | `Boolean` | 🚫 Not Null | - |
+| SelfApprovalLimit | `Real` | 🚫 Not Null | - |
 | WorkRequestEmail | `String` (255) | - | - |
 | Account4D | `String` (255) | 🚫 Not Null | - |
-| SharedAccount | `Real` | 🚫 Not Null | - |
+| SharedAccount | `Boolean` | 🚫 Not Null | - |
 | Code | `String` (255) | 🚫 Not Null | - |
-| 🔑 **StaffID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| Stock | `Real` | 🚫 Not Null | - |
+| 🔑 **StaffID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| Stock | `Boolean` | 🚫 Not Null | - |
 | UserID | `String` (255) | 🚫 Not Null | - |
-| Archive | `Real` | 🚫 Not Null | - |
-| PO_Approval | `Real` | 🚫 Not Null | - |
+| Archive | `Boolean` | 🚫 Not Null | - |
+| PO_Approval | `Boolean` | 🚫 Not Null | - |
 | Mobile | `String` (255) | 🚫 Not Null | - |
 | PasswordHash | `String` (255) | 🚫 Not Null | - |
 | PersonalEmail | `String` (255) | 🚫 Not Null | - |
@@ -101,4 +101,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:20Z*
+*Generated at: 2025-12-03T16:23:52Z*

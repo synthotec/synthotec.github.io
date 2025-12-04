@@ -16,7 +16,7 @@ parent : Tables
 - **Table ID:** 81
 - **UUID:** 54265309B2FD8743A7314DCD2E8357C4
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:59Z
+- **Generated:** 🕐 2025-12-03T16:24:27Z
 
 ---
 
@@ -35,48 +35,48 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| Impressions | `Picture` | 🚫 Not Null | - |
-| PartWeight | `Boolean` | 🚫 Not Null | - |
-| RunnerWeight | `Boolean` | 🚫 Not Null | - |
-| MaterialID | `Date` | 🚫 Not Null | - |
-| RegrindWeight | `Boolean` | 🚫 Not Null | - |
-| WasteFactor | `Boolean` | 🚫 Not Null | - |
-| PackagingCost | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| Impressions | `Integer` | 🚫 Not Null | - |
+| PartWeight | `Real` | 🚫 Not Null | - |
+| RunnerWeight | `Real` | 🚫 Not Null | - |
+| MaterialID | `Long Integer` | 🚫 Not Null | - |
+| RegrindWeight | `Real` | 🚫 Not Null | - |
+| WasteFactor | `Real` | 🚫 Not Null | - |
+| PackagingCost | `Real` | 🚫 Not Null | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
-| MaterialValue | `Boolean` | 🚫 Not Null | - |
-| SalesPrice | `Boolean` | 🚫 Not Null | - |
-| PackingLabourCost | `Boolean` | 🚫 Not Null | - |
-| TransportPrice | `Boolean` | 🚫 Not Null | - |
-| PartCost | `Boolean` | 🚫 Not Null | - |
-| RunnerCost | `Boolean` | 🚫 Not Null | - |
-| RegrindValue | `Boolean` | 🚫 Not Null | - |
-| WasteCost | `Boolean` | 🚫 Not Null | - |
-| ForecastQty | `Date` | 🚫 Not Null | - |
-| MaterialYieldLossCost | `Boolean` | 🚫 Not Null | - |
-| MaterialYieldLossPercent | `Boolean` | 🚫 Not Null | - |
-| EnergyCost | `Boolean` | 🚫 Not Null | - |
-| Locked | `Real` | 🚫 Not Null | - |
-| SnapShotDate | `Integer` | 🚫 Not Null | - |
-| PartsPerHour | `Boolean` | 🚫 Not Null | - |
-| PackagingMarginDeduction | `Boolean` | 🚫 Not Null | - |
-| IndirectLabourCost | `Boolean` | 🚫 Not Null | - |
-| RepairsCost | `Boolean` | 🚫 Not Null | - |
-| DepreciationCost | `Boolean` | 🚫 Not Null | - |
-| OverheadsCost | `Boolean` | 🚫 Not Null | - |
-| PackingLabourTime | `Long Integer` | 🚫 Not Null | - |
-| ClosedLoopPercentage | `Boolean` | 🚫 Not Null | - |
-| OEE_Percentage | `Boolean` | 🚫 Not Null | - |
-| SecondaryOverheadsCost | `Boolean` | 🚫 Not Null | - |
-| AverageRunLength | `Date` | 🚫 Not Null | - |
-| SetterCost | `Boolean` | - | - |
-| CycleTime | `Boolean` | 🚫 Not Null | - |
-| TotalMaterialValue | `Boolean` | 🚫 Not Null | - |
-| TotalDirectCosts | `Boolean` | 🚫 Not Null | - |
-| TotalFactoryCosts | `Boolean` | 🚫 Not Null | - |
-| PackingLabourTime_Secs | `Boolean` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| MaterialValue | `Real` | 🚫 Not Null | - |
+| SalesPrice | `Real` | 🚫 Not Null | - |
+| PackingLabourCost | `Real` | 🚫 Not Null | - |
+| TransportPrice | `Real` | 🚫 Not Null | - |
+| PartCost | `Real` | 🚫 Not Null | - |
+| RunnerCost | `Real` | 🚫 Not Null | - |
+| RegrindValue | `Real` | 🚫 Not Null | - |
+| WasteCost | `Real` | 🚫 Not Null | - |
+| ForecastQty | `Long Integer` | 🚫 Not Null | - |
+| MaterialYieldLossCost | `Real` | 🚫 Not Null | - |
+| MaterialYieldLossPercent | `Real` | 🚫 Not Null | - |
+| EnergyCost | `Real` | 🚫 Not Null | - |
+| Locked | `Boolean` | 🚫 Not Null | - |
+| SnapShotDate | `Date` | 🚫 Not Null | - |
+| PartsPerHour | `Real` | 🚫 Not Null | - |
+| PackagingMarginDeduction | `Real` | 🚫 Not Null | - |
+| IndirectLabourCost | `Real` | 🚫 Not Null | - |
+| RepairsCost | `Real` | 🚫 Not Null | - |
+| DepreciationCost | `Real` | 🚫 Not Null | - |
+| OverheadsCost | `Real` | 🚫 Not Null | - |
+| PackingLabourTime | `Time` | 🚫 Not Null | - |
+| ClosedLoopPercentage | `Real` | 🚫 Not Null | - |
+| OEE_Percentage | `Real` | 🚫 Not Null | - |
+| SecondaryOverheadsCost | `Real` | 🚫 Not Null | - |
+| AverageRunLength | `Long Integer` | 🚫 Not Null | - |
+| SetterCost | `Real` | - | - |
+| CycleTime | `Real` | 🚫 Not Null | - |
+| TotalMaterialValue | `Real` | 🚫 Not Null | - |
+| TotalDirectCosts | `Real` | 🚫 Not Null | - |
+| TotalFactoryCosts | `Real` | 🚫 Not Null | - |
+| PackingLabourTime_Secs | `Real` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -112,4 +112,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:59Z*
+*Generated at: 2025-12-03T16:24:27Z*

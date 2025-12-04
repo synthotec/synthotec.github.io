@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 15
 - **UUID:** 46AB44AA8924F449BCCF65AD27E8BDC1
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-11-13T23:17:54Z
+- **Generated:** 🕐 2025-12-03T16:23:29Z
 
 ---
 
@@ -29,13 +29,13 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Unique_ID** | `Date` | 🔑 PK, ✨ Unique, ⚠️ Required, 🚫 Not Null | - |
+| 🔑 **Unique_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚠️ Required, 🚫 Not Null | - |
 | User_Name | `String` (40) | 🚫 Not Null | - |
 | Report | `String` (40) | 🚫 Not Null | - |
 | Parameter1 | `String` (20) | 🚫 Not Null | - |
 | Parameter2 | `String` (20) | 🚫 Not Null | - |
 | labelpartno | `String` (30) | 🚫 Not Null | - |
-| PrintDate_d | `Integer` | 🚫 Not Null | - |
+| PrintDate_d | `Date` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -52,4 +52,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:54Z*
+*Generated at: 2025-12-03T16:23:29Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 119
 - **UUID:** FE2D9E448CE7164B82091770BB81AD24
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:41Z
+- **Generated:** 🕐 2025-12-03T16:25:02Z
 
 ---
 
@@ -31,15 +31,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ToolID | `Date` | - | - |
-| ZoneID | `Date` | - | - |
-| Target | `Boolean` | - | - |
-| Min | `Boolean` | - | - |
-| Max | `Boolean` | - | - |
-| StaffID | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ToolID | `Long Integer` | - | - |
+| ZoneID | `Long Integer` | - | - |
+| Target | `Real` | - | - |
+| Min | `Real` | - | - |
+| Max | `Real` | - | - |
+| StaffID | `Long Integer` | - | - |
 | LastUpdated | `String` (255) | - | - |
-| MigrationID | `Undefined` | - | - |
+| MigrationID | `Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -72,4 +72,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:41Z*
+*Generated at: 2025-12-03T16:25:02Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 116
 - **UUID:** 61BC381495AC964C931FBA8CC3D8C5E5
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:38Z
+- **Generated:** 🕐 2025-12-03T16:24:59Z
 
 ---
 
@@ -29,7 +29,7 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 
 ## 🔍 Indexes
 
@@ -46,4 +46,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:38Z*
+*Generated at: 2025-12-03T16:24:59Z*

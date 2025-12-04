@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 112
 - **UUID:** FE5239933752004A898745F680742B25
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:32Z
+- **Generated:** 🕐 2025-12-03T16:24:55Z
 
 ---
 
@@ -31,11 +31,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Machine | `Date` | - | - |
-| MachineMaintenanceActionID | `Date` | - | - |
-| MaintenanceDate | `Integer` | - | - |
-| MaintenanceTime | `Long Integer` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Machine | `Long Integer` | - | - |
+| MachineMaintenanceActionID | `Long Integer` | - | - |
+| MaintenanceDate | `Date` | - | - |
+| MaintenanceTime | `Time` | - | - |
 | CompletedBy | `String` (255) | - | - |
 | Comments | `String` (255) | - | - |
 
@@ -64,4 +64,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:32Z*
+*Generated at: 2025-12-03T16:24:55Z*

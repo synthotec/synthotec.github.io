@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 104
 - **UUID:** C375BFE8D695A44DAF7A1BB4569FEEE0
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:21Z
+- **Generated:** 🕐 2025-12-03T16:24:48Z
 
 ---
 
@@ -29,7 +29,7 @@ parent : Tables
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
 | ValueName | `String` (255) | 🚫 Not Null | - |
-| PrimaryKey | `Date` | 🚫 Not Null | - |
+| PrimaryKey | `Long Integer` | 🚫 Not Null | - |
 | Value | `Object` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -42,4 +42,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:21Z*
+*Generated at: 2025-12-03T16:24:48Z*

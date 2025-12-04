@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 17
 - **UUID:** 841927B91F0A984697E1A0A7E2C95BA9
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:57Z
+- **Generated:** 🕐 2025-12-03T16:23:31Z
 
 ---
 
@@ -27,14 +27,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| TableNo | `Picture` | 🚫 Not Null | - |
-| UniqueCode | `Date` | 🚫 Not Null | - |
-| IsItMaster | `Real` | 🚫 Not Null | - |
+| TableNo | `Integer` | 🚫 Not Null | - |
+| UniqueCode | `Long Integer` | 🚫 Not Null | - |
+| IsItMaster | `Boolean` | 🚫 Not Null | - |
 | SearchParameter | `String` (11) | 🚫 Not Null | - |
-| Display_b | `Real` | 🚫 Not Null | - |
+| Display_b | `Boolean` | 🚫 Not Null | - |
 | Label_s | `String` (32) | 🚫 Not Null | - |
-| FieldNo_l | `Picture` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| FieldNo_l | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -48,4 +48,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:57Z*
+*Generated at: 2025-12-03T16:23:31Z*

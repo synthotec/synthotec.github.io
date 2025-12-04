@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 71
 - **UUID:** 33A92733465ACC42A746A5DD7A56B429
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:49Z
+- **Generated:** 🕐 2025-12-03T16:24:18Z
 
 ---
 
@@ -32,33 +32,33 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Location | `Date` | 🚫 Not Null | - |
-| WO1 | `Date` | 🚫 Not Null | - |
-| WO1Qty | `Date` | 🚫 Not Null | - |
-| WO2 | `Date` | 🚫 Not Null | - |
-| WO2Qty | `Date` | 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| Created | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Location | `Long Integer` | 🚫 Not Null | - |
+| WO1 | `Long Integer` | 🚫 Not Null | - |
+| WO1Qty | `Long Integer` | 🚫 Not Null | - |
+| WO2 | `Long Integer` | 🚫 Not Null | - |
+| WO2Qty | `Long Integer` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| Created | `Date` | 🚫 Not Null | - |
 | CreatedBy | `String` (255) | 🚫 Not Null | - |
-| Transfer | `Real` | 🚫 Not Null | - |
-| CreationTime | `Long Integer` | 🚫 Not Null | - |
-| AdviceNote | `Date` | 🚫 Not Null | - |
-| OrderID | `Date` | 🚫 Not Null | - |
-| Printed | `Real` | 🚫 Not Null | - |
-| Verified | `Real` | 🚫 Not Null | - |
-| NewSystem | `Real` | 🚫 Not Null | - |
+| Transfer | `Boolean` | 🚫 Not Null | - |
+| CreationTime | `Time` | 🚫 Not Null | - |
+| AdviceNote | `Long Integer` | 🚫 Not Null | - |
+| OrderID | `Long Integer` | 🚫 Not Null | - |
+| Printed | `Boolean` | 🚫 Not Null | - |
+| Verified | `Boolean` | 🚫 Not Null | - |
+| NewSystem | `Boolean` | 🚫 Not Null | - |
 | VerifiedBy | `String` (255) | 🚫 Not Null | - |
 | PrintedBy | `String` (255) | 🚫 Not Null | - |
-| Completed | `Real` | 🚫 Not Null | - |
+| Completed | `Boolean` | 🚫 Not Null | - |
 | LocationID | `String` | - | - |
 | LocatedBy | `String` (255) | - | - |
-| OrderPickRequestID | `Date` | - | - |
-| CofCID | `Date` | - | - |
+| OrderPickRequestID | `Long Integer` | - | - |
+| CofCID | `Long Integer` | - | - |
 | UUID | `String` | ✨ Unique | - |
-| Version | `Picture` | 🚫 Not Null | - |
-| Despatched | `Real` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| Version | `Integer` | 🚫 Not Null | - |
+| Despatched | `Boolean` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 | LastMigration | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -117,4 +117,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:49Z*
+*Generated at: 2025-12-03T16:24:18Z*

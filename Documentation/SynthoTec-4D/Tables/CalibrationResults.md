@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 91
 - **UUID:** 0F3545F5ACE57B499D6C0FBD92F90C78
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:09Z
+- **Generated:** 🕐 2025-12-03T16:24:37Z
 
 ---
 
@@ -30,17 +30,17 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| CalibrationID | `Date` | 🚫 Not Null | - |
-| Type | `Picture` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| CalibrationID | `Long Integer` | 🚫 Not Null | - |
+| Type | `Integer` | - | - |
 | Description | `String` (255) | 🚫 Not Null | - |
-| FileBLOB | `Unknown (18)` | 🚫 Not Null | - |
+| FileBLOB | `BLOB Scalar` | 🚫 Not Null | - |
 | FileName | `String` (255) | 🚫 Not Null | - |
-| BooleanResult | `Real` | 🚫 Not Null | - |
-| NumberResult | `Boolean` | 🚫 Not Null | - |
-| NumberTarget | `Boolean` | 🚫 Not Null | - |
-| TargetMin | `Boolean` | 🚫 Not Null | - |
-| TargetMax | `Boolean` | 🚫 Not Null | - |
+| BooleanResult | `Boolean` | 🚫 Not Null | - |
+| NumberResult | `Real` | 🚫 Not Null | - |
+| NumberTarget | `Real` | 🚫 Not Null | - |
+| TargetMin | `Real` | 🚫 Not Null | - |
+| TargetMax | `Real` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -65,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:09Z*
+*Generated at: 2025-12-03T16:24:37Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 78
 - **UUID:** 4BCC18B6E22B7B4CB1440CD3608A0D8D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:56Z
+- **Generated:** 🕐 2025-12-03T16:24:25Z
 
 ---
 
@@ -31,10 +31,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
 | Email | `String` (255) | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -64,4 +64,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:56Z*
+*Generated at: 2025-12-03T16:24:25Z*

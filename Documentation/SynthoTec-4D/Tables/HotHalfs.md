@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 45
 - **UUID:** B129C8DCAC2B444CB303898B002AAF6E
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:22Z
+- **Generated:** 🕐 2025-12-03T16:23:54Z
 
 ---
 
@@ -31,11 +31,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Name | `String` (255) | 🚫 Not Null | - |
-| Count | `Date` | 🚫 Not Null | - |
+| Count | `Long Integer` | 🚫 Not Null | - |
 | Description | `String` (255) | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -65,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:22Z*
+*Generated at: 2025-12-03T16:23:54Z*

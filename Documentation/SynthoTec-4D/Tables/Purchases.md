@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 21
 - **UUID:** 0816EE7668E03647A01F7EB009589E04
 - **Primary Key:** 🔑 `OrderNo_l`
-- **Generated:** 🕐 2025-11-13T23:18:01Z
+- **Generated:** 🕐 2025-12-03T16:23:34Z
 
 ---
 
@@ -32,24 +32,24 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **OrderNo_l** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
-| DateRaised_d | `Integer` | 🚫 Not Null | - |
-| Confirmed | `Real` | 🚫 Not Null | - |
+| 🔑 **OrderNo_l** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
+| DateRaised_d | `Date` | 🚫 Not Null | - |
+| Confirmed | `Boolean` | 🚫 Not Null | - |
 | RaisedBy_s | `String` (30) | 🚫 Not Null | - |
-| SupplierID_l | `Date` | 🚫 Not Null | - |
-| GoodsReceived_b | `Real` | 🚫 Not Null | - |
-| InvoiceAuthorised_b | `Real` | 🚫 Not Null | - |
+| SupplierID_l | `Long Integer` | 🚫 Not Null | - |
+| GoodsReceived_b | `Boolean` | 🚫 Not Null | - |
+| InvoiceAuthorised_b | `Boolean` | 🚫 Not Null | - |
 | AdditionalInfo_txt | `String` | 🚫 Not Null | - |
-| Archived_b | `Real` | 🚫 Not Null | - |
-| VATRate_r | `Boolean` | 🚫 Not Null | - |
-| Received | `Real` | 🚫 Not Null | - |
-| Invoiced | `Real` | 🚫 Not Null | - |
-| Approved | `Real` | 🚫 Not Null | - |
+| Archived_b | `Boolean` | 🚫 Not Null | - |
+| VATRate_r | `Real` | 🚫 Not Null | - |
+| Received | `Boolean` | 🚫 Not Null | - |
+| Invoiced | `Boolean` | 🚫 Not Null | - |
+| Approved | `Boolean` | 🚫 Not Null | - |
 | ApprovedBy | `String` (255) | 🚫 Not Null | - |
-| ApprovalRequested | `Real` | 🚫 Not Null | - |
-| OrderPrinted | `Real` | 🚫 Not Null | - |
-| Revision | `Picture` | 🚫 Not Null | - |
-| ApprovedDate | `Integer` | 🚫 Not Null | - |
+| ApprovalRequested | `Boolean` | 🚫 Not Null | - |
+| OrderPrinted | `Boolean` | 🚫 Not Null | - |
+| Revision | `Integer` | 🚫 Not Null | - |
+| ApprovedDate | `Date` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -89,4 +89,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:01Z*
+*Generated at: 2025-12-03T16:23:34Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 128
 - **UUID:** 00591B1C82FBA248968703B6704134D1
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:54Z
+- **Generated:** 🕐 2025-12-03T16:25:10Z
 
 ---
 
@@ -29,14 +29,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | FirstOccurrence | `String` (255) | - | - |
 | LastOccurrence | `String` (255) | - | - |
-| Occurrences | `Undefined` | - | - |
+| Occurrences | `Integer` | - | - |
 | Digest | `String` (255) | - | - |
 | ErrorObject | `Object` | - | - |
-| SendSlack | `Real` | - | - |
-| SendEmail | `Real` | - | - |
+| SendSlack | `Boolean` | - | - |
+| SendEmail | `Boolean` | - | - |
 | SlackMessageID | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -56,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:54Z*
+*Generated at: 2025-12-03T16:25:10Z*

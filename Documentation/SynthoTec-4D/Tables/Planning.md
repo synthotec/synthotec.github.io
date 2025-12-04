@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 69
 - **UUID:** 85B429DD73F4624CB829A1662373A124
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:47Z
+- **Generated:** 🕐 2025-12-03T16:24:16Z
 
 ---
 
@@ -29,19 +29,19 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Product_ID | `Date` | 🚫 Not Null | - |
-| Hours | `Boolean` | 🚫 Not Null | - |
-| fQTY | `Date` | 🚫 Not Null | - |
-| tRoute | `Picture` | 🚫 Not Null | - |
-| tImps | `Boolean` | 🚫 Not Null | - |
-| tCycle | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Product_ID | `Long Integer` | 🚫 Not Null | - |
+| Hours | `Real` | 🚫 Not Null | - |
+| fQTY | `Long Integer` | 🚫 Not Null | - |
+| tRoute | `Integer` | 🚫 Not Null | - |
+| tImps | `Real` | 🚫 Not Null | - |
+| tCycle | `Real` | 🚫 Not Null | - |
 | Comments | `String` (255) | 🚫 Not Null | - |
 | Pallet | `String` (255) | 🚫 Not Null | - |
 | Mandrel | `String` (255) | 🚫 Not Null | - |
 | Profile | `String` (255) | 🚫 Not Null | - |
-| SnapDate | `Integer` | 🚫 Not Null | - |
-| ShotWeight | `Boolean` | 🚫 Not Null | - |
+| SnapDate | `Date` | 🚫 Not Null | - |
+| ShotWeight | `Real` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -61,4 +61,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:47Z*
+*Generated at: 2025-12-03T16:24:16Z*

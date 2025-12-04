@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 135
 - **UUID:** 4B07FFB98BFE74459EB30ECE3B9D6E1F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:20:04Z
+- **Generated:** 🕐 2025-12-03T16:25:16Z
 
 ---
 
@@ -28,10 +28,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ToolNoticeID | `Date` | - | - |
-| WorksOrder | `Date` | - | - |
-| EmailSent | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ToolNoticeID | `Long Integer` | - | - |
+| WorksOrder | `Long Integer` | - | - |
+| EmailSent | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -52,4 +52,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:20:04Z*
+*Generated at: 2025-12-03T16:25:16Z*

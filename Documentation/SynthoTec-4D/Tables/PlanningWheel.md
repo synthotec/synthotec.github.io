@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 50
 - **UUID:** 210A450720703645BB31F7B5A4075752
 - **Primary Key:** 🔑 `WheelID`
-- **Generated:** 🕐 2025-11-13T23:18:27Z
+- **Generated:** 🕐 2025-12-03T16:23:59Z
 
 ---
 
@@ -31,40 +31,40 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| ProductID | `Date` | 🚫 Not Null | - |
-| TargetQty | `Undefined` | 🚫 Not Null | - |
-| PeriodStart | `Integer` | 🚫 Not Null | - |
-| PeriodFinish | `Integer` | 🚫 Not Null | - |
-| StartDate | `Integer` | 🚫 Not Null | - |
-| HoursOfProduction | `Boolean` | 🚫 Not Null | - |
-| FinishDate | `Integer` | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| ActualQty | `Undefined` | 🚫 Not Null | - |
-| RunOrder | `Boolean` | 🚫 Not Null | - |
-| Machine | `Picture` | 🚫 Not Null | - |
-| StartDaysEarly | `Boolean` | 🚫 Not Null | - |
-| FinishDaysEarly | `Boolean` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| TargetQty | `Integer` | 🚫 Not Null | - |
+| PeriodStart | `Date` | 🚫 Not Null | - |
+| PeriodFinish | `Date` | 🚫 Not Null | - |
+| StartDate | `Date` | 🚫 Not Null | - |
+| HoursOfProduction | `Real` | 🚫 Not Null | - |
+| FinishDate | `Date` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| ActualQty | `Integer` | 🚫 Not Null | - |
+| RunOrder | `Real` | 🚫 Not Null | - |
+| Machine | `Integer` | 🚫 Not Null | - |
+| StartDaysEarly | `Real` | 🚫 Not Null | - |
+| FinishDaysEarly | `Real` | 🚫 Not Null | - |
 | PartName | `String` (255) | 🚫 Not Null | - |
-| OnlyForecast | `Real` | 🚫 Not Null | - |
-| FixedRun | `Real` | 🚫 Not Null | - |
+| OnlyForecast | `Boolean` | 🚫 Not Null | - |
+| FixedRun | `Boolean` | 🚫 Not Null | - |
 | Tool | `String` (255) | 🚫 Not Null | - |
-| SetDate | `Integer` | 🚫 Not Null | - |
-| 🔑 **WheelID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| DailyPlannedHours | `Boolean` | 🚫 Not Null | - |
-| Late | `Real` | 🚫 Not Null | - |
-| AvgCycle | `Boolean` | 🚫 Not Null | - |
-| Trial | `Real` | 🚫 Not Null | - |
+| SetDate | `Date` | 🚫 Not Null | - |
+| 🔑 **WheelID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| DailyPlannedHours | `Real` | 🚫 Not Null | - |
+| Late | `Boolean` | 🚫 Not Null | - |
+| AvgCycle | `Real` | 🚫 Not Null | - |
+| Trial | `Boolean` | 🚫 Not Null | - |
 | Notes | `String` (255) | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
-| Impressions | `Picture` | 🚫 Not Null | - |
-| Conflict | `Real` | 🚫 Not Null | - |
-| TargetQtyThousands | `Boolean` | 🚫 Not Null | - |
-| Changed | `Real` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| Impressions | `Integer` | 🚫 Not Null | - |
+| Conflict | `Boolean` | 🚫 Not Null | - |
+| TargetQtyThousands | `Real` | 🚫 Not Null | - |
+| Changed | `Boolean` | 🚫 Not Null | - |
 | ConflictReason | `String` (255) | 🚫 Not Null | - |
-| MaterialConflict | `Real` | 🚫 Not Null | - |
-| MaterialID | `Date` | 🚫 Not Null | - |
-| InitialYear | `Picture` | 🚫 Not Null | - |
-| BalancingQuantity | `Real` | 🚫 Not Null | - |
+| MaterialConflict | `Boolean` | 🚫 Not Null | - |
+| MaterialID | `Long Integer` | 🚫 Not Null | - |
+| InitialYear | `Integer` | 🚫 Not Null | - |
+| BalancingQuantity | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -102,4 +102,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:27Z*
+*Generated at: 2025-12-03T16:23:59Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 65
 - **UUID:** F442B2C4FB8A82459B54D0CF985365AB
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:42Z
+- **Generated:** 🕐 2025-12-03T16:24:13Z
 
 ---
 
@@ -31,24 +31,24 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| CreatedDate | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| CreatedDate | `Date` | 🚫 Not Null | - |
 | CreatedBy | `String` (255) | 🚫 Not Null | - |
 | FaultLocation | `String` (255) | 🚫 Not Null | - |
-| UnitNumber | `Picture` | 🚫 Not Null | - |
+| UnitNumber | `Integer` | 🚫 Not Null | - |
 | Priority | `String` (255) | 🚫 Not Null | - |
 | Description | `String` (255) | 🚫 Not Null | - |
 | CorrectiveAction | `String` (255) | 🚫 Not Null | - |
-| TargetDate | `Integer` | 🚫 Not Null | - |
-| Cost | `Boolean` | 🚫 Not Null | - |
-| Completed | `Real` | 🚫 Not Null | - |
-| CompletedDate | `Integer` | 🚫 Not Null | - |
+| TargetDate | `Date` | 🚫 Not Null | - |
+| Cost | `Real` | 🚫 Not Null | - |
+| Completed | `Boolean` | 🚫 Not Null | - |
+| CompletedDate | `Date` | 🚫 Not Null | - |
 | Category | `String` (255) | 🚫 Not Null | - |
 | LastComment | `String` (255) | 🚫 Not Null | - |
 | CompletedBy | `String` (255) | 🚫 Not Null | - |
 | LastCommentTime | `String` (255) | 🚫 Not Null | - |
 | ToolNo | `String` (255) | 🚫 Not Null | - |
-| ToolID | `Date` | - | - |
+| ToolID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -82,4 +82,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:42Z*
+*Generated at: 2025-12-03T16:24:13Z*

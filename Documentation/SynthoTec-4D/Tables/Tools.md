@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 2
 - **UUID:** 730DDB789A822A45A2769798BE8BF8C3
 - **Primary Key:** 🔑 `Tool_ID`
-- **Generated:** 🕐 2025-11-13T23:17:43Z
+- **Generated:** 🕐 2025-12-03T16:23:18Z
 
 ---
 
@@ -32,143 +32,143 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| NextUniqueLabelID_l | `Date` | 🚫 Not Null | - |
-| Approved | `Real` | 🚫 Not Null | - |
+| NextUniqueLabelID_l | `Long Integer` | 🚫 Not Null | - |
+| Approved | `Boolean` | 🚫 Not Null | - |
 | Short Name | `String` | 🚫 Not Null, ���️ Hidden | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| 🔑 **Tool_ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null, ��� Not Modifiable | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| 🔑 **Tool_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null, ��� Not Modifiable | - |
 | PartNo | `String` (30) | 🚫 Not Null | - |
 | ShortName | `String` (25) | 🚫 Not Null, ���️ Hidden | - |
 | Machine_Type | `String` | 🚫 Not Null | - |
-| NumOfRows | `Date` | 🚫 Not Null | - |
+| NumOfRows | `Long Integer` | 🚫 Not Null | - |
 | Pallet_Pic | `Picture` | 🚫 Not Null | - |
-| Setup_Sheet | `Real` | 🚫 Not Null | - |
-| OperatorRequired | `Real` | 🚫 Not Null | - |
+| Setup_Sheet | `Boolean` | 🚫 Not Null | - |
+| OperatorRequired | `Boolean` | 🚫 Not Null | - |
 | Robot_Prg_No | `String` (255) | 🚫 Not Null | - |
 | Pallet_Type_m | `String` (255) | 🚫 Not Null | - |
 | Tool_No | `String` (10) | ✨ Unique, ⚠️ Required, 🚫 Not Null | - |
-| Impressions | `Picture` | ⚠️ Required, 🚫 Not Null | - |
-| Date Created | `Integer` | 🚫 Not Null, 🔒 Not Enterable | - |
-| Box_Per_Pallet | `Picture` | 🚫 Not Null | - |
-| Boxes_Per_M_Pallet | `Picture` | 🚫 Not Null | - |
-| Archive | `Real` | 🚫 Not Null | - |
-| CycleTimeSecs | `Boolean` | ⚠️ Required, 🚫 Not Null | - |
-| PartWtGrams | `Boolean` | ⚠️ Required, 🚫 Not Null | - |
-| RunnerWtGrams | `Boolean` | 🚫 Not Null | - |
-| Regrind_MaxPercent | `Boolean` | 🚫 Not Null | - |
-| Packed_Per_Hour | `Date` | 🚫 Not Null | - |
-| Mandrells_per_Pallet | `Picture` | 🚫 Not Null | - |
+| Impressions | `Integer` | ⚠️ Required, 🚫 Not Null | - |
+| Date Created | `Date` | 🚫 Not Null, 🔒 Not Enterable | - |
+| Box_Per_Pallet | `Integer` | 🚫 Not Null | - |
+| Boxes_Per_M_Pallet | `Integer` | 🚫 Not Null | - |
+| Archive | `Boolean` | 🚫 Not Null | - |
+| CycleTimeSecs | `Real` | ⚠️ Required, 🚫 Not Null | - |
+| PartWtGrams | `Real` | ⚠️ Required, 🚫 Not Null | - |
+| RunnerWtGrams | `Real` | 🚫 Not Null | - |
+| Regrind_MaxPercent | `Real` | 🚫 Not Null | - |
+| Packed_Per_Hour | `Long Integer` | 🚫 Not Null | - |
+| Mandrells_per_Pallet | `Integer` | 🚫 Not Null | - |
 | Packing Box | `String` (20) | 🚫 Not Null, ���️ Hidden | - |
-| Dry_Weight | `Boolean` | 🚫 Not Null | - |
-| If on Concess | `Real` | 🚫 Not Null | - |
-| If Concess by N | `Real` | 🚫 Not Null | - |
-| Total No Conces | `Date` | 🚫 Not Null | - |
-| No Concess Supp | `Date` | 🚫 Not Null | - |
-| Concess End Dat | `Integer` | 🚫 Not Null | - |
+| Dry_Weight | `Real` | 🚫 Not Null | - |
+| If on Concess | `Boolean` | 🚫 Not Null | - |
+| If Concess by N | `Boolean` | 🚫 Not Null | - |
+| Total No Conces | `Long Integer` | 🚫 Not Null | - |
+| No Concess Supp | `Long Integer` | 🚫 Not Null | - |
+| Concess End Dat | `Date` | 🚫 Not Null | - |
 | DryWeightText | `String` | 🚫 Not Null | - |
 | ReasonToolOffsite_txt | `String` | 🚫 Not Null | - |
-| IsToolOffsite_b | `Real` | 🚫 Not Null | - |
-| DateToolDueBack_d | `Integer` | 🚫 Not Null | - |
-| TimePerPallet | `Picture` | 🚫 Not Null | - |
+| IsToolOffsite_b | `Boolean` | 🚫 Not Null | - |
+| DateToolDueBack_d | `Date` | 🚫 Not Null | - |
+| TimePerPallet | `Integer` | 🚫 Not Null | - |
 | Picture | `Picture` | 🚫 Not Null | - |
-| Prodn Quan Min | `Date` | 🚫 Not Null | - |
+| Prodn Quan Min | `Long Integer` | 🚫 Not Null | - |
 | Production_Mandrell | `String` (255) | 🚫 Not Null | - |
 | Tool_Notes | `String` | 🚫 Not Null | - |
-| Conditioned | `Real` | 🚫 Not Null | - |
-| Type | `Picture` | 🚫 Not Null | - |
-| Grey box Quan | `Date` | 🚫 Not Null, ���️ Hidden | - |
-| Cages_per_Mandrell | `Picture` | 🚫 Not Null | - |
+| Conditioned | `Boolean` | 🚫 Not Null | - |
+| Type | `Integer` | 🚫 Not Null | - |
+| Grey box Quan | `Long Integer` | 🚫 Not Null, ���️ Hidden | - |
+| Cages_per_Mandrell | `Integer` | 🚫 Not Null | - |
 | Concession No | `String` (20) | 🚫 Not Null | - |
 | Customer Label | `String` (25) | 🚫 Not Null | - |
 | Additional_text_4_label | `String` | 🚫 Not Null | - |
 | Nozzle | `String` (10) | 🚫 Not Null | - |
-| Separator | `Picture` | 🚫 Not Null | - |
-| Prodn Quan Max | `Date` | 🚫 Not Null | - |
+| Separator | `Integer` | 🚫 Not Null | - |
+| Prodn Quan Max | `Long Integer` | 🚫 Not Null | - |
 | Location | `String` (30) | 🚫 Not Null | - |
 | Tool Mod | `String` (10) | 🚫 Not Null | - |
 | Initial Cust | `String` (3) | 🚫 Not Null | - |
-| Main Tool | `Real` | 🚫 Not Null | - |
+| Main Tool | `Boolean` | 🚫 Not Null | - |
 | Additional_text | `String` | 🚫 Not Null | - |
-| UseAddressLabels_b | `Real` | 🚫 Not Null | - |
-| UseUniqueIDLabels_b | `Real` | 🚫 Not Null | - |
+| UseAddressLabels_b | `Boolean` | 🚫 Not Null | - |
+| UseUniqueIDLabels_b | `Boolean` | 🚫 Not Null | - |
 | LabelChoice_s | `String` (35) | ⚠️ Required, 🚫 Not Null | - |
-| UseBagLabel_b | `Real` | 🚫 Not Null | - |
-| UseExtraID_b | `Real` | 🚫 Not Null | - |
-| UseLogisticslabel_b | `Real` | 🚫 Not Null | - |
-| NextUniqueIDLogistics_l | `Date` | 🚫 Not Null | - |
+| UseBagLabel_b | `Boolean` | 🚫 Not Null | - |
+| UseExtraID_b | `Boolean` | 🚫 Not Null | - |
+| UseLogisticslabel_b | `Boolean` | 🚫 Not Null | - |
+| NextUniqueIDLogistics_l | `Long Integer` | 🚫 Not Null | - |
 | Final_Customer | `String` (35) | 🚫 Not Null | - |
-| Weight_kitlabel | `Boolean` | 🚫 Not Null | - |
+| Weight_kitlabel | `Real` | 🚫 Not Null | - |
 | Kit_ProductID | `String` (30) | 🚫 Not Null | - |
-| Kit_Quantity | `Date` | 🚫 Not Null | - |
-| Mandrel_OD | `Boolean` | 🚫 Not Null | - |
-| NumOfLayers | `Date` | 🚫 Not Null | - |
+| Kit_Quantity | `Long Integer` | 🚫 Not Null | - |
+| Mandrel_OD | `Real` | 🚫 Not Null | - |
+| NumOfLayers | `Long Integer` | 🚫 Not Null | - |
 | BagSealingMethod | `String` (255) | 🚫 Not Null | - |
-| PackedInColumns | `Real` | 🚫 Not Null | - |
-| RC_Sub_Sequence | `Date` | 🚫 Not Null | - |
-| RC_Additional_Seq | `Real` | 🚫 Not Null | - |
-| RC_Barcode | `Real` | 🚫 Not Null | - |
-| x3_sequence_packsheet | `Real` | 🚫 Not Null | - |
-| x4_sequence_packsheet | `Real` | 🚫 Not Null | - |
-| PackagingInstructionIssueDate | `Integer` | 🚫 Not Null | - |
+| PackedInColumns | `Boolean` | 🚫 Not Null | - |
+| RC_Sub_Sequence | `Long Integer` | 🚫 Not Null | - |
+| RC_Additional_Seq | `Boolean` | 🚫 Not Null | - |
+| RC_Barcode | `Boolean` | 🚫 Not Null | - |
+| x3_sequence_packsheet | `Boolean` | 🚫 Not Null | - |
+| x4_sequence_packsheet | `Boolean` | 🚫 Not Null | - |
+| PackagingInstructionIssueDate | `Date` | 🚫 Not Null | - |
 | PackagingInstructionIssueName | `String` (255) | 🚫 Not Null | - |
 | identifier_address | `String` (2) | 🚫 Not Null | - |
-| No_metalpallets_per_box | `Picture` | ⚠️ Required, 🚫 Not Null | - |
-| two_boxnos | `Real` | 🚫 Not Null | - |
-| qty_delivered_flag | `Real` | 🚫 Not Null | - |
-| qty_pricechange | `Date` | 🚫 Not Null | - |
-| packrange_max | `Date` | 🚫 Not Null | - |
-| AQP | `Real` | 🚫 Not Null | - |
-| x2_uniqueIDlabels | `Real` | 🚫 Not Null | - |
-| DateChanged | `Integer` | 🚫 Not Null | - |
+| No_metalpallets_per_box | `Integer` | ⚠️ Required, 🚫 Not Null | - |
+| two_boxnos | `Boolean` | 🚫 Not Null | - |
+| qty_delivered_flag | `Boolean` | 🚫 Not Null | - |
+| qty_pricechange | `Long Integer` | 🚫 Not Null | - |
+| packrange_max | `Long Integer` | 🚫 Not Null | - |
+| AQP | `Boolean` | 🚫 Not Null | - |
+| x2_uniqueIDlabels | `Boolean` | 🚫 Not Null | - |
+| DateChanged | `Date` | 🚫 Not Null | - |
 | PackagingInstructionIssueLevel | `String` (255) | 🚫 Not Null | - |
-| IsHandLoaded | `Real` | 🚫 Not Null | - |
-| OddLayerQuantity | `Date` | 🚫 Not Null | - |
-| SmallSide | `Real` | 🚫 Not Null | - |
-| LargeSide | `Real` | 🚫 Not Null | - |
-| AlternatingLayerQuantA | `Date` | 🚫 Not Null | - |
-| AlternatingLayerQuantB | `Date` | 🚫 Not Null | - |
-| ScalesFixedQuant | `Date` | 🚫 Not Null | - |
+| IsHandLoaded | `Boolean` | 🚫 Not Null | - |
+| OddLayerQuantity | `Long Integer` | 🚫 Not Null | - |
+| SmallSide | `Boolean` | 🚫 Not Null | - |
+| LargeSide | `Boolean` | 🚫 Not Null | - |
+| AlternatingLayerQuantA | `Long Integer` | 🚫 Not Null | - |
+| AlternatingLayerQuantB | `Long Integer` | 🚫 Not Null | - |
+| ScalesFixedQuant | `Long Integer` | 🚫 Not Null | - |
 | ExtraPackInfo | `String` | 🚫 Not Null | - |
-| LabelOrigin | `Real` | 🚫 Not Null | - |
-| QRCode | `Real` | 🚫 Not Null | - |
-| Amber | `Real` | 🚫 Not Null | - |
-| RunsSinceApproval | `Picture` | 🚫 Not Null | - |
-| AmberCheckPercent | `Picture` | 🚫 Not Null | - |
-| AmberManual | `Real` | 🚫 Not Null | - |
-| AmberManualWhen | `Integer` | 🚫 Not Null | - |
+| LabelOrigin | `Boolean` | 🚫 Not Null | - |
+| QRCode | `Boolean` | 🚫 Not Null | - |
+| Amber | `Boolean` | 🚫 Not Null | - |
+| RunsSinceApproval | `Integer` | 🚫 Not Null | - |
+| AmberCheckPercent | `Integer` | 🚫 Not Null | - |
+| AmberManual | `Boolean` | 🚫 Not Null | - |
+| AmberManualWhen | `Date` | 🚫 Not Null | - |
 | AmberManualWho | `String` (255) | 🚫 Not Null | - |
-| AmberPQITriggered | `Real` | 🚫 Not Null | - |
+| AmberPQITriggered | `Boolean` | 🚫 Not Null | - |
 | RCText | `String` (255) | 🚫 Not Null | - |
-| ForeCast2015 | `Date` | 🚫 Not Null | - |
-| ForeCast2015Update | `Integer` | 🚫 Not Null | - |
+| ForeCast2015 | `Long Integer` | 🚫 Not Null | - |
+| ForeCast2015Update | `Date` | 🚫 Not Null | - |
 | ProductName | `String` (255) | 🚫 Not Null | - |
-| PicBlob | `Unknown (18)` | 🚫 Not Null | - |
+| PicBlob | `BLOB Scalar` | 🚫 Not Null | - |
 | PicBlobTxt | `String` | 🚫 Not Null | - |
 | LogisticsPrefix | `String` (255) | 🚫 Not Null | - |
-| DataMatrix | `Real` | 🚫 Not Null | - |
-| Regrind | `Real` | 🚫 Not Null | - |
+| DataMatrix | `Boolean` | 🚫 Not Null | - |
+| Regrind | `Boolean` | 🚫 Not Null | - |
 | RegrindComments | `String` (255) | 🚫 Not Null | - |
-| NotifyQuality | `Real` | 🚫 Not Null | - |
+| NotifyQuality | `Boolean` | 🚫 Not Null | - |
 | NotifyReason | `String` (255) | 🚫 Not Null | - |
-| ToolReady | `Real` | 🚫 Not Null | - |
-| ToolOffsite | `Real` | 🚫 Not Null | - |
+| ToolReady | `Boolean` | 🚫 Not Null | - |
+| ToolOffsite | `Boolean` | 🚫 Not Null | - |
 | StatusUpdated | `String` (255) | 🚫 Not Null | - |
-| ToolDueDate | `Integer` | 🚫 Not Null | - |
-| PlanningWheelCycle | `Boolean` | 🚫 Not Null | - |
-| PlanningWheelHours | `Boolean` | 🚫 Not Null | - |
-| HotHalfID | `Date` | 🚫 Not Null | - |
-| HotHalfBooked | `Real` | 🚫 Not Null | - |
+| ToolDueDate | `Date` | 🚫 Not Null | - |
+| PlanningWheelCycle | `Real` | 🚫 Not Null | - |
+| PlanningWheelHours | `Real` | 🚫 Not Null | - |
+| HotHalfID | `Long Integer` | 🚫 Not Null | - |
+| HotHalfBooked | `Boolean` | 🚫 Not Null | - |
 | AmberTriggerTime | `String` (255) | 🚫 Not Null | - |
-| NewCalcedPartWeight | `Boolean` | 🚫 Not Null | - |
-| MaintenanceCycleTrigger | `Date` | 🚫 Not Null | - |
-| UsageWarningDays | `Date` | 🚫 Not Null | - |
-| ExtraSideLabel | `Real` | 🚫 Not Null | - |
-| QRtype | `Picture` | 🚫 Not Null | - |
-| RequiresChecking | `Real` | - | - |
-| TemperatureTargetMin | `Boolean` | 🚫 Not Null | - |
-| TemperatureTargetMax | `Boolean` | 🚫 Not Null | - |
+| NewCalcedPartWeight | `Real` | 🚫 Not Null | - |
+| MaintenanceCycleTrigger | `Long Integer` | 🚫 Not Null | - |
+| UsageWarningDays | `Long Integer` | 🚫 Not Null | - |
+| ExtraSideLabel | `Boolean` | 🚫 Not Null | - |
+| QRtype | `Integer` | 🚫 Not Null | - |
+| RequiresChecking | `Boolean` | - | - |
+| TemperatureTargetMin | `Real` | 🚫 Not Null | - |
+| TemperatureTargetMax | `Real` | 🚫 Not Null | - |
 | RobotHeads | `String` (255) | - | - |
-| MigrationID | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 | ToolNoticeObject | `Object` | - | - |
 | ProductionHoldObject | `Object` | - | - |
 
@@ -250,4 +250,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:43Z*
+*Generated at: 2025-12-03T16:23:18Z*

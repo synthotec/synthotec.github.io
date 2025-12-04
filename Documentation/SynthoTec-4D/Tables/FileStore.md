@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 92
 - **UUID:** 90D601F48AD3E547905987918AFB7C90
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:10Z
+- **Generated:** 🕐 2025-12-03T16:24:38Z
 
 ---
 
@@ -27,8 +27,8 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| File | `Unknown (18)` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| File | `BLOB Scalar` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -39,4 +39,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:10Z*
+*Generated at: 2025-12-03T16:24:38Z*

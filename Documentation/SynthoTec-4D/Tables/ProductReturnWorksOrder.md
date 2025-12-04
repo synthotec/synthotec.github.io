@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 31
 - **UUID:** 130945D5E0DF0E4498FBB20449311F51
 - **Primary Key:** 🔑 `WOReturnID_l`
-- **Generated:** 🕐 2025-11-13T23:18:11Z
+- **Generated:** 🕐 2025-12-03T16:23:44Z
 
 ---
 
@@ -30,14 +30,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **WOReturnID_l** | `Date` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
-| ReturnID_l | `Date` | 🚫 Not Null | - |
-| Works_Order_No_l | `Date` | 🚫 Not Null | - |
-| ReturnedQuantity_l | `Date` | 🚫 Not Null | - |
-| Scrapped_b | `Real` | 🚫 Not Null | - |
-| Restocked_b | `Real` | 🚫 Not Null | - |
-| ScrappedQuantity_l | `Date` | 🚫 Not Null | - |
-| RestockedQuantity_l | `Date` | 🚫 Not Null | - |
+| 🔑 **WOReturnID_l** | `Long Integer` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
+| ReturnID_l | `Long Integer` | 🚫 Not Null | - |
+| Works_Order_No_l | `Long Integer` | 🚫 Not Null | - |
+| ReturnedQuantity_l | `Long Integer` | 🚫 Not Null | - |
+| Scrapped_b | `Boolean` | 🚫 Not Null | - |
+| Restocked_b | `Boolean` | 🚫 Not Null | - |
+| ScrappedQuantity_l | `Long Integer` | 🚫 Not Null | - |
+| RestockedQuantity_l | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -63,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:11Z*
+*Generated at: 2025-12-03T16:23:44Z*

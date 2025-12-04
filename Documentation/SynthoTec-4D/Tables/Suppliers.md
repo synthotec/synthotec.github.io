@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 18
 - **UUID:** DD48C27A4EEF9442A7DB4C93B8CD90D3
 - **Primary Key:** 🔑 `SupplierID_l`
-- **Generated:** 🕐 2025-11-13T23:17:58Z
+- **Generated:** 🕐 2025-12-03T16:23:32Z
 
 ---
 
@@ -31,7 +31,7 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **SupplierID_l** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null, ��� Not Modifiable | - |
+| 🔑 **SupplierID_l** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null, ��� Not Modifiable | - |
 | Name_s | `String` (31) | ⚠️ Required, 🚫 Not Null | - |
 | Address1_s | `String` (41) | 🚫 Not Null | - |
 | Address2_s | `String` (41) | 🚫 Not Null | - |
@@ -45,15 +45,15 @@ parent : Tables
 | AdditionalInfo_txt | `String` | 🚫 Not Null | - |
 | ContactName_s | `String` (31) | 🚫 Not Null | - |
 | EMailAddress_s | `String` (51) | 🚫 Not Null | - |
-| ConfirmationR | `Real` | 🚫 Not Null | - |
+| ConfirmationR | `Boolean` | 🚫 Not Null | - |
 | FaxNo2_s | `String` (30) | 🚫 Not Null | - |
 | EMailAddress2_s | `String` (51) | 🚫 Not Null | - |
 | Position_s | `String` (21) | 🚫 Not Null | - |
-| Archived_b | `Real` | 🚫 Not Null | - |
+| Archived_b | `Boolean` | 🚫 Not Null | - |
 | ContactName2_s | `String` (21) | 🚫 Not Null | - |
-| VATRate_r | `Boolean` | 🚫 Not Null | - |
+| VATRate_r | `Real` | 🚫 Not Null | - |
 | TelephneNo1_s | `String` (15) | 🚫 Not Null | - |
-| LastOrdered | `Integer` | 🚫 Not Null | - |
+| LastOrdered | `Date` | 🚫 Not Null | - |
 | ApprovalStatus | `String` (255) | 🚫 Not Null | - |
 | CofaEmailContact | `String` (255) | 🚫 Not Null | - |
 
@@ -90,4 +90,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:58Z*
+*Generated at: 2025-12-03T16:23:32Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 53
 - **UUID:** A38A78E19EE7594CADD598417056C9D4
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:30Z
+- **Generated:** 🕐 2025-12-03T16:24:01Z
 
 ---
 
@@ -31,17 +31,17 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| StockTakeDate | `Integer` | 🚫 Not Null | - |
-| RMC | `Date` | 🚫 Not Null | - |
-| MatID | `Picture` | 🚫 Not Null | - |
-| Bags | `Boolean` | 🚫 Not Null | - |
-| AmountKG | `Boolean` | 🚫 Not Null | - |
-| RMCID | `Date` | 🚫 Not Null | - |
+| StockTakeDate | `Date` | 🚫 Not Null | - |
+| RMC | `Long Integer` | 🚫 Not Null | - |
+| MatID | `Integer` | 🚫 Not Null | - |
+| Bags | `Real` | 🚫 Not Null | - |
+| AmountKG | `Real` | 🚫 Not Null | - |
+| RMCID | `Long Integer` | 🚫 Not Null | - |
 | MaterialName | `String` (255) | 🚫 Not Null | - |
 | Location | `String` (255) | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 | CountedBy | `String` (255) | 🚫 Not Null | - |
-| PrimaryStockTake | `Real` | 🚫 Not Null | - |
+| PrimaryStockTake | `Boolean` | 🚫 Not Null | - |
 | SavedTimeStamp | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -76,4 +76,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:30Z*
+*Generated at: 2025-12-03T16:24:01Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 63
 - **UUID:** 475BE219B3D798439D301555A3D28CCC
 - **Primary Key:** 🔑 `Machine`
-- **Generated:** 🕐 2025-11-13T23:18:40Z
+- **Generated:** 🕐 2025-12-03T16:24:11Z
 
 ---
 
@@ -31,38 +31,38 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| RequiresRecalculation | `Real` | 🚫 Not Null | - |
-| 🔑 **Machine** | `Date` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
+| RequiresRecalculation | `Boolean` | 🚫 Not Null | - |
+| 🔑 **Machine** | `Long Integer` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
 | MouldStatus | `String` (255) | 🚫 Not Null | - |
 | LastActivity | `String` (255) | 🚫 Not Null | - |
-| AutoStatus | `Real` | 🚫 Not Null | - |
-| SlowStatus | `Real` | 🚫 Not Null | - |
-| Battery | `Picture` | 🚫 Not Null | - |
+| AutoStatus | `Boolean` | 🚫 Not Null | - |
+| SlowStatus | `Boolean` | 🚫 Not Null | - |
+| Battery | `Integer` | 🚫 Not Null | - |
 | UpTime | `String` (255) | 🚫 Not Null | - |
 | LastPulse | `String` (255) | 🚫 Not Null | - |
 | LastCycleSensorData | `Object` | - | - |
-| Availability | `Boolean` | 🚫 Not Null | - |
-| Performance | `Boolean` | 🚫 Not Null | - |
-| Quality | `Boolean` | 🚫 Not Null | - |
+| Availability | `Real` | 🚫 Not Null | - |
+| Performance | `Real` | 🚫 Not Null | - |
+| Quality | `Real` | 🚫 Not Null | - |
 | LastAudit | `String` (255) | 🚫 Not Null | - |
 | StopReason | `String` (255) | 🚫 Not Null | - |
-| NextJobID | `Date` | 🚫 Not Null | - |
-| AwaitingSetter | `Picture` | 🚫 Not Null | - |
-| PowerStatus | `Real` | 🚫 Not Null | - |
-| MouldClosed | `Real` | 🚫 Not Null | - |
+| NextJobID | `Long Integer` | 🚫 Not Null | - |
+| AwaitingSetter | `Integer` | 🚫 Not Null | - |
+| PowerStatus | `Boolean` | 🚫 Not Null | - |
+| MouldClosed | `Boolean` | 🚫 Not Null | - |
 | WinVer | `String` (255) | 🚫 Not Null | - |
-| MadeQty | `Date` | 🚫 Not Null | - |
-| TimeLeft | `Undefined` | 🚫 Not Null | - |
-| Cycle | `Boolean` | 🚫 Not Null | - |
-| RealMade | `Date` | 🚫 Not Null | - |
-| Enabled | `Real` | 🚫 Not Null | - |
-| Robot | `Real` | 🚫 Not Null | - |
-| NoWorksOrderEmailSent | `Real` | 🚫 Not Null | - |
+| MadeQty | `Long Integer` | 🚫 Not Null | - |
+| TimeLeft | `Integer` | 🚫 Not Null | - |
+| Cycle | `Real` | 🚫 Not Null | - |
+| RealMade | `Long Integer` | 🚫 Not Null | - |
+| Enabled | `Boolean` | 🚫 Not Null | - |
+| Robot | `Boolean` | 🚫 Not Null | - |
+| NoWorksOrderEmailSent | `Boolean` | 🚫 Not Null | - |
 | TimeStartedNonRobot | `String` (255) | 🚫 Not Null | - |
-| DownReason | `Date` | - | - |
-| TemperatureSensorException | `Real` | 🚫 Not Null | - |
+| DownReason | `Long Integer` | - | - |
+| TemperatureSensorException | `Boolean` | 🚫 Not Null | - |
 | TemperatureSensors | `Object` | - | - |
-| LastCycleTime | `Boolean` | - | - |
+| LastCycleTime | `Real` | - | - |
 
 ## 🔍 Indexes
 
@@ -96,4 +96,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:40Z*
+*Generated at: 2025-12-03T16:24:11Z*

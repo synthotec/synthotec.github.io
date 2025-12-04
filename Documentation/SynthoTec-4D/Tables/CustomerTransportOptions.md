@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 106
 - **UUID:** C94DE605E684BF448B7ED866B02B6D37
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:23Z
+- **Generated:** 🕐 2025-12-03T16:24:50Z
 
 ---
 
@@ -31,22 +31,22 @@ parent : Tables
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
 | TransportOption | `String` (255) | 🚫 Not Null | - |
-| MondayDespatch | `Real` | 🚫 Not Null | - |
-| MondayDays | `Picture` | 🚫 Not Null | - |
-| TuesdayDespatch | `Real` | 🚫 Not Null | - |
-| TuesdayDays | `Picture` | 🚫 Not Null | - |
-| WednesdayDespatch | `Real` | 🚫 Not Null | - |
-| WednesdayDays | `Picture` | 🚫 Not Null | - |
-| ThursdayDespatch | `Real` | 🚫 Not Null | - |
-| ThursdayDays | `Picture` | 🚫 Not Null | - |
-| FridayDespatch | `Real` | 🚫 Not Null | - |
-| FridayDays | `Picture` | 🚫 Not Null | - |
-| SaturdayDespatch | `Real` | 🚫 Not Null | - |
-| SaturdayDays | `Picture` | 🚫 Not Null | - |
-| SundayDespatch | `Real` | 🚫 Not Null | - |
-| SundayDays | `Picture` | 🚫 Not Null | - |
+| MondayDespatch | `Boolean` | 🚫 Not Null | - |
+| MondayDays | `Integer` | 🚫 Not Null | - |
+| TuesdayDespatch | `Boolean` | 🚫 Not Null | - |
+| TuesdayDays | `Integer` | 🚫 Not Null | - |
+| WednesdayDespatch | `Boolean` | 🚫 Not Null | - |
+| WednesdayDays | `Integer` | 🚫 Not Null | - |
+| ThursdayDespatch | `Boolean` | 🚫 Not Null | - |
+| ThursdayDays | `Integer` | 🚫 Not Null | - |
+| FridayDespatch | `Boolean` | 🚫 Not Null | - |
+| FridayDays | `Integer` | 🚫 Not Null | - |
+| SaturdayDespatch | `Boolean` | 🚫 Not Null | - |
+| SaturdayDays | `Integer` | 🚫 Not Null | - |
+| SundayDespatch | `Boolean` | 🚫 Not Null | - |
+| SundayDays | `Integer` | 🚫 Not Null | - |
 | CustomerCode | `String` | 🚫 Not Null | - |
-| AdminLeadTimeDays | `Picture` | 🚫 Not Null | - |
+| AdminLeadTimeDays | `Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -63,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:23Z*
+*Generated at: 2025-12-03T16:24:50Z*

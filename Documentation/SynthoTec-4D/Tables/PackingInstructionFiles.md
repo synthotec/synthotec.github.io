@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 115
 - **UUID:** F461D77AA880C5449A02C9E91E10F836
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:36Z
+- **Generated:** 🕐 2025-12-03T16:24:58Z
 
 ---
 
@@ -31,14 +31,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | FileName | `String` (255) | - | - |
-| FileBLOB | `Unknown (18)` | - | - |
+| FileBLOB | `BLOB Scalar` | - | - |
 | UploadedWhen | `String` (255) | - | - |
 | UploadedBy | `String` (255) | - | - |
-| ProductID | `Date` | - | - |
-| Version | `Date` | - | - |
-| MigrationID | `Date` | - | - |
+| ProductID | `Long Integer` | - | - |
+| Version | `Long Integer` | - | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -67,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:36Z*
+*Generated at: 2025-12-03T16:24:58Z*

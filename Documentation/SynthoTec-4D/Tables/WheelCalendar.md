@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 51
 - **UUID:** DE47E38D9F06C94798575B35E1D1A5C3
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:28Z
+- **Generated:** 🕐 2025-12-03T16:23:59Z
 
 ---
 
@@ -30,30 +30,30 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| Machine | `Picture` | 🚫 Not Null | - |
-| MCDate | `Integer` | 🚫 Not Null | - |
-| Hours | `Boolean` | 🚫 Not Null | - |
-| RegrindAmountKg | `Boolean` | 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| MatID | `Date` | 🚫 Not Null | - |
-| MatAmountKG | `Boolean` | 🚫 Not Null | - |
+| Machine | `Integer` | 🚫 Not Null | - |
+| MCDate | `Date` | 🚫 Not Null | - |
+| Hours | `Real` | 🚫 Not Null | - |
+| RegrindAmountKg | `Real` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| MatID | `Long Integer` | 🚫 Not Null | - |
+| MatAmountKG | `Real` | 🚫 Not Null | - |
 | Pallet | `String` (255) | 🚫 Not Null | - |
 | Mandrel | `String` (255) | 🚫 Not Null | - |
-| Parts | `Date` | 🚫 Not Null | - |
-| ToolChange | `Real` | 🚫 Not Null | - |
+| Parts | `Long Integer` | 🚫 Not Null | - |
+| ToolChange | `Boolean` | 🚫 Not Null | - |
 | PartName | `String` (255) | 🚫 Not Null | - |
 | ToolNumber | `String` (255) | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| DateReq | `Integer` | 🚫 Not Null | - |
-| TotalQty | `Date` | 🚫 Not Null | - |
-| SetDate | `Integer` | 🚫 Not Null | - |
-| WheelID | `Date` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| HasSetDate | `Real` | 🚫 Not Null | - |
-| RemainingHours | `Boolean` | 🚫 Not Null | - |
-| Trial | `Real` | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
-| ChangeDate | `Integer` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| DateReq | `Date` | 🚫 Not Null | - |
+| TotalQty | `Long Integer` | 🚫 Not Null | - |
+| SetDate | `Date` | 🚫 Not Null | - |
+| WheelID | `Long Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| HasSetDate | `Boolean` | 🚫 Not Null | - |
+| RemainingHours | `Real` | 🚫 Not Null | - |
+| Trial | `Boolean` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| ChangeDate | `Date` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -90,4 +90,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:28Z*
+*Generated at: 2025-12-03T16:23:59Z*

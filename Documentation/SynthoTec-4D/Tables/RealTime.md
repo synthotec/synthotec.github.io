@@ -36,17 +36,17 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | Primary key, auto-incremented unique identifier. WARNING: Catalog shows type code 4 (Date) but this field is actually a Long Integer in the database schema. |
-| SensorData | `Object` | - | JSON object containing raw sensor readings from manufacturing equipment. Stores structured sensor data including timestamps, values, and sensor identifiers. |
-| EndDate | `Date` | 🚫 Not Null | Date when the production cycle ended. WARNING: Catalog shows type code 8 (Integer) but this field is actually a Date type in the database schema. |
-| EndTime | `Time` | 🚫 Not Null | Time when the production cycle ended. WARNING: Catalog shows type code 9 (Long Integer) but this field is actually a Time type in the database schema. |
-| CycleTime | `Real` | 🚫 Not Null | Duration of the production cycle. WARNING: Catalog shows type code 6 (Boolean) but this field is actually a Real/numeric type in the database schema. |
-| Stoppage | `Boolean` | 🚫 Not Null | Boolean flag indicating whether the machine was stopped (true) or running (false) during this cycle. WARNING: Catalog shows type code 1 (Real) but this field is actually a Boolean type in the database schema. |
-| Impressions | `Integer` | 🚫 Not Null | Number of parts produced (impressions) during this production cycle. WARNING: Catalog shows type code 3 (Picture) but this field is actually an Integer type in the database schema. |
-| WorksOrder | `Long Integer` | 🚫 Not Null | Foreign key to WorksOrder table, links this real-time data to the production work order being executed. Cannot be null, indexed for performance. |
-| MouldClosedTime | `Real` | 🚫 Not Null | Duration that the mould was closed during the production cycle. WARNING: Catalog shows type code 6 (Boolean) but this field is actually a Real/numeric type in the database schema. |
-| DownReason | `Long Integer` | - | Foreign key to DownReasons table, identifies the reason for machine stoppage if a stoppage occurred. Can be null if no stoppage. Indexed with keywords for search. |
-| Robot | `Boolean` | 🚫 Not Null | Boolean flag indicating whether robot was in use for this production cycle. WARNING: Catalog shows type code 1 (Real) but this field is actually a Boolean type in the database schema. |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| SensorData | `Object` | - | - |
+| EndDate | `Date` | 🚫 Not Null | - |
+| EndTime | `Time` | 🚫 Not Null | - |
+| CycleTime | `Real` | 🚫 Not Null | - |
+| Stoppage | `Boolean` | 🚫 Not Null | - |
+| Impressions | `Integer` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| MouldClosedTime | `Real` | 🚫 Not Null | - |
+| DownReason | `Long Integer` | - | - |
+| Robot | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 66
 - **UUID:** 17EBB00DC2A338479A5DE717852AEA8A
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:43Z
+- **Generated:** 🕐 2025-12-03T16:24:13Z
 
 ---
 
@@ -30,14 +30,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| WorkRequestID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| WorkRequestID | `Long Integer` | 🚫 Not Null | - |
 | Comment | `String` | 🚫 Not Null | - |
 | CommentBy | `String` (255) | 🚫 Not Null | - |
-| CommentDate | `Integer` | 🚫 Not Null | - |
-| Public | `Real` | 🚫 Not Null | - |
+| CommentDate | `Date` | 🚫 Not Null | - |
+| Public | `Boolean` | 🚫 Not Null | - |
 | CommentTime | `String` (255) | 🚫 Not Null | - |
-| StaffID | `Date` | - | - |
+| StaffID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -62,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:43Z*
+*Generated at: 2025-12-03T16:24:13Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 99
 - **UUID:** C46FD557FC0E4A4E995DC54102D0087E
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:17Z
+- **Generated:** 🕐 2025-12-03T16:24:44Z
 
 ---
 
@@ -30,28 +30,28 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
 | System | `String` (255) | 🚫 Not Null | - |
 | Procedure | `String` (255) | 🚫 Not Null | - |
 | Subject | `String` (255) | 🚫 Not Null | - |
-| Result | `Boolean` | 🚫 Not Null | - |
-| TargetMin | `Boolean` | 🚫 Not Null | - |
-| TargetMax | `Boolean` | 🚫 Not Null | - |
-| Completed | `Real` | 🚫 Not Null | - |
+| Result | `Real` | 🚫 Not Null | - |
+| TargetMin | `Real` | 🚫 Not Null | - |
+| TargetMax | `Real` | 🚫 Not Null | - |
+| Completed | `Boolean` | 🚫 Not Null | - |
 | CompletedBy | `String` (255) | 🚫 Not Null | - |
-| CompletedDate | `Integer` | 🚫 Not Null | - |
-| CompletedTime | `Long Integer` | 🚫 Not Null | - |
+| CompletedDate | `Date` | 🚫 Not Null | - |
+| CompletedTime | `Time` | 🚫 Not Null | - |
 | AdditionalDetail | `String` (255) | 🚫 Not Null | - |
 | Comment | `String` (255) | 🚫 Not Null | - |
-| ResultPassStatus | `Real` | 🚫 Not Null | - |
-| AdditionalID | `Date` | 🚫 Not Null | - |
-| SubjectID | `Date` | 🚫 Not Null | - |
-| Confirmed | `Real` | 🚫 Not Null | - |
-| ConfirmedDate | `Integer` | 🚫 Not Null | - |
-| ConfirmedTime | `Long Integer` | 🚫 Not Null | - |
+| ResultPassStatus | `Boolean` | 🚫 Not Null | - |
+| AdditionalID | `Long Integer` | 🚫 Not Null | - |
+| SubjectID | `Long Integer` | 🚫 Not Null | - |
+| Confirmed | `Boolean` | 🚫 Not Null | - |
+| ConfirmedDate | `Date` | 🚫 Not Null | - |
+| ConfirmedTime | `Time` | 🚫 Not Null | - |
 | ConfirmedBy | `String` (255) | 🚫 Not Null | - |
-| ProcedureOrder | `Picture` | 🚫 Not Null | - |
+| ProcedureOrder | `Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -75,4 +75,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:17Z*
+*Generated at: 2025-12-03T16:24:44Z*

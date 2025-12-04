@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 46
 - **UUID:** B81AB99DDF831D4C90A3E757E0528D32
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:23Z
+- **Generated:** 🕐 2025-12-03T16:23:55Z
 
 ---
 
@@ -27,11 +27,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Object | `String` (255) | 🚫 Not Null | - |
-| Weight | `Boolean` | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| StandardWeight | `Boolean` | 🚫 Not Null | - |
+| Weight | `Real` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| StandardWeight | `Real` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -43,4 +43,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:23Z*
+*Generated at: 2025-12-03T16:23:55Z*

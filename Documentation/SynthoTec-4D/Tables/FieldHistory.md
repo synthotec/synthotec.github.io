@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 102
 - **UUID:** D4E78D9BFB953A4889052AAB5F6072AF
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:20Z
+- **Generated:** 🕐 2025-12-03T16:24:47Z
 
 ---
 
@@ -30,10 +30,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Table | `Date` | 🚫 Not Null | - |
-| Field | `Date` | 🚫 Not Null | - |
-| PrimaryKey | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Table | `Long Integer` | 🚫 Not Null | - |
+| Field | `Long Integer` | 🚫 Not Null | - |
+| PrimaryKey | `Long Integer` | 🚫 Not Null | - |
 | ChangedBy | `String` (255) | 🚫 Not Null | - |
 | ChangedDateTime | `String` (255) | 🚫 Not Null | - |
 | Value | `String` (255) | 🚫 Not Null | - |
@@ -65,4 +65,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:20Z*
+*Generated at: 2025-12-03T16:24:47Z*

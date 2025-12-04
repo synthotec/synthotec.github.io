@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 114
 - **UUID:** 45A9294EBF7DC04CB9F45F557F9377F7
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:35Z
+- **Generated:** 🕐 2025-12-03T16:24:57Z
 
 ---
 
@@ -30,10 +30,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| MachineMaintenanceActionID | `Date` | - | - |
-| Machine | `Date` | - | - |
-| Required | `Real` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| MachineMaintenanceActionID | `Long Integer` | - | - |
+| Machine | `Long Integer` | - | - |
+| Required | `Boolean` | - | - |
 
 ## 🔍 Indexes
 
@@ -56,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:35Z*
+*Generated at: 2025-12-03T16:24:57Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 90
 - **UUID:** 1A64E1E52A2717409460B15ADE9D3AA3
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:08Z
+- **Generated:** 🕐 2025-12-03T16:24:36Z
 
 ---
 
@@ -30,13 +30,13 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| EquipmentID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| EquipmentID | `Long Integer` | 🚫 Not Null | - |
 | ProcedureName | `String` (255) | 🚫 Not Null | - |
-| ProcedureType | `Picture` | 🚫 Not Null | - |
-| TargetResult | `Boolean` | 🚫 Not Null | - |
-| MinResult | `Boolean` | 🚫 Not Null | - |
-| MaxResult | `Boolean` | 🚫 Not Null | - |
+| ProcedureType | `Integer` | 🚫 Not Null | - |
+| TargetResult | `Real` | 🚫 Not Null | - |
+| MinResult | `Real` | 🚫 Not Null | - |
+| MaxResult | `Real` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -62,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:08Z*
+*Generated at: 2025-12-03T16:24:36Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 27
 - **UUID:** 888FFBDAC9DEBA469795A94E15901BAE
 - **Primary Key:** 🔑 `RMCNo_l`
-- **Generated:** 🕐 2025-11-13T23:18:07Z
+- **Generated:** 🕐 2025-12-03T16:23:40Z
 
 ---
 
@@ -32,18 +32,18 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **RMCNo_l** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| MaterialID_l | `Date` | 🚫 Not Null | - |
-| RMCDate_d | `Integer` | 🚫 Not Null | - |
+| 🔑 **RMCNo_l** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| MaterialID_l | `Long Integer` | 🚫 Not Null | - |
+| RMCDate_d | `Date` | 🚫 Not Null | - |
 | BatchNo_s | `String` (25) | 🚫 Not Null | - |
-| Quantity_l | `Date` | 🚫 Not Null | - |
-| OrderNo_l | `Date` | 🚫 Not Null | - |
+| Quantity_l | `Long Integer` | 🚫 Not Null | - |
+| OrderNo_l | `Long Integer` | 🚫 Not Null | - |
 | Name_s | `String` (30) | 🚫 Not Null | - |
 | Remarks_s | `String` (20) | 🚫 Not Null | - |
-| CofA_BLOB | `Unknown (18)` | 🚫 Not Null | - |
+| CofA_BLOB | `BLOB Scalar` | 🚫 Not Null | - |
 | CofA_Filename | `String` (255) | 🚫 Not Null | - |
-| CofA_Requested | `Integer` | 🚫 Not Null | - |
-| PurchaseInfoID | `Date` | 🚫 Not Null | - |
+| CofA_Requested | `Date` | 🚫 Not Null | - |
+| PurchaseInfoID | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -88,4 +88,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:07Z*
+*Generated at: 2025-12-03T16:23:40Z*

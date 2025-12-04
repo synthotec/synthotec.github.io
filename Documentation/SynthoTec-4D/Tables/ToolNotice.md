@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 134
 - **UUID:** 6950DFACF3DA9842AF4C96E83B43790D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:20:03Z
+- **Generated:** 🕐 2025-12-03T16:25:15Z
 
 ---
 
@@ -32,15 +32,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ToolID | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ToolID | `Long Integer` | - | - |
 | CreationTimestamp | `String` (255) | - | - |
-| StaffID | `Date` | - | - |
-| ProductionHold | `Real` | - | - |
-| Active | `Real` | - | - |
-| RunsActiveFor | `Date` | - | - |
+| StaffID | `Long Integer` | - | - |
+| ProductionHold | `Boolean` | - | - |
+| Active | `Boolean` | - | - |
+| RunsActiveFor | `Long Integer` | - | - |
 | NoticeText | `String` (255) | - | - |
-| DeactivatedStaffID | `Date` | - | - |
+| DeactivatedStaffID | `Long Integer` | - | - |
 | DeactivatedTimestamp | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -78,4 +78,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:20:03Z*
+*Generated at: 2025-12-03T16:25:15Z*

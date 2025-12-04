@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 34
 - **UUID:** 8043B353374B8C40B4E421933BA42318
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:14Z
+- **Generated:** 🕐 2025-12-03T16:23:46Z
 
 ---
 
@@ -30,18 +30,18 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | EquipmentName | `String` (255) | 🚫 Not Null | - |
-| UsageFrequency | `Picture` | 🚫 Not Null | - |
-| Wear | `Picture` | 🚫 Not Null | - |
-| Environment | `Picture` | 🚫 Not Null | - |
-| Sensitivity | `Picture` | 🚫 Not Null | - |
-| InternallyCalibrated | `Real` | 🚫 Not Null | - |
+| UsageFrequency | `Integer` | 🚫 Not Null | - |
+| Wear | `Integer` | 🚫 Not Null | - |
+| Environment | `Integer` | 🚫 Not Null | - |
+| Sensitivity | `Integer` | 🚫 Not Null | - |
+| InternallyCalibrated | `Boolean` | 🚫 Not Null | - |
 | EquipmentLocation | `String` (255) | 🚫 Not Null | - |
 | Contact | `String` (255) | 🚫 Not Null | - |
 | Notes | `String` (255) | 🚫 Not Null | - |
-| Visible_ID | `Date` | 🚫 Not Null | - |
-| Archived | `Real` | 🚫 Not Null | - |
+| Visible_ID | `Long Integer` | 🚫 Not Null | - |
+| Archived | `Boolean` | 🚫 Not Null | - |
 | Serial | `String` (255) | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -69,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:14Z*
+*Generated at: 2025-12-03T16:23:46Z*

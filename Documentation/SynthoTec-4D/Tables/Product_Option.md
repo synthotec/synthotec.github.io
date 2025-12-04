@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 13
 - **UUID:** 2E835762FEA7484EB4687878631CFB10
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:53Z
+- **Generated:** 🕐 2025-12-03T16:23:28Z
 
 ---
 
@@ -32,35 +32,35 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| Product ID | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| Product ID | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Part No | `String` (30) | ⚠️ Required, 🚫 Not Null | - |
-| Tool ID | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| Tool ID | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Tool No | `String` (5) | ⚠️ Required, 🚫 Not Null | - |
-| Material_ID | `Date` | 🚫 Not Null | - |
+| Material_ID | `Long Integer` | 🚫 Not Null | - |
 | Material Name | `String` (80) | 🚫 Not Null | - |
-| Price | `Boolean` | ⚠️ Required, 🚫 Not Null | - |
+| Price | `Real` | ⚠️ Required, 🚫 Not Null | - |
 | Customer Code | `String` (3) | ⚠️ Required, 🚫 Not Null | - |
-| Modified_Date | `Integer` | 🚫 Not Null | - |
+| Modified_Date | `Date` | 🚫 Not Null | - |
 | Currency | `String` (2) | 🚫 Not Null | - |
 | INCOTERM | `String` (255) | 🚫 Not Null | - |
-| Batch Quantity | `Date` | 🚫 Not Null | - |
-| PriceQuantity | `Date` | 🚫 Not Null | - |
-| DeliveryCost | `Boolean` | 🚫 Not Null | - |
+| Batch Quantity | `Long Integer` | 🚫 Not Null | - |
+| PriceQuantity | `Long Integer` | 🚫 Not Null | - |
+| DeliveryCost | `Real` | 🚫 Not Null | - |
 | Comments | `String` | 🚫 Not Null | - |
-| Consignment | `Real` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| ConsignmentMin | `Date` | 🚫 Not Null | - |
-| ConsignmentMax | `Date` | 🚫 Not Null | - |
+| Consignment | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| ConsignmentMin | `Long Integer` | 🚫 Not Null | - |
+| ConsignmentMax | `Long Integer` | 🚫 Not Null | - |
 | CustomerReference | `String` (255) | 🚫 Not Null | - |
-| Deconsigned_Stock | `Date` | 🚫 Not Null | - |
+| Deconsigned_Stock | `Long Integer` | 🚫 Not Null | - |
 | CurrentConsignmentOrder | `String` (255) | 🚫 Not Null | - |
-| Con_LastReceived | `Integer` | 🚫 Not Null | - |
-| MOQ | `Date` | 🚫 Not Null | - |
+| Con_LastReceived | `Date` | 🚫 Not Null | - |
+| MOQ | `Long Integer` | 🚫 Not Null | - |
 | DefaultOrderNumber | `String` (255) | 🚫 Not Null | - |
-| MOV | `Boolean` | 🚫 Not Null | - |
-| SSLOffsetDays | `Picture` | - | - |
-| SSLOverride | `Date` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| MOV | `Real` | 🚫 Not Null | - |
+| SSLOffsetDays | `Integer` | - | - |
+| SSLOverride | `Long Integer` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -112,4 +112,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:53Z*
+*Generated at: 2025-12-03T16:23:28Z*

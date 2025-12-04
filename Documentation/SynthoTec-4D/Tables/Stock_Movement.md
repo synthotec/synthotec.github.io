@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 5
 - **UUID:** F1AE2CED84FC204E9E788B8FF9BE9359
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:46Z
+- **Generated:** 🕐 2025-12-03T16:23:21Z
 
 ---
 
@@ -31,29 +31,29 @@ parent : Tables
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
 | Movement_Type_From_s | `String` (2) | 🚫 Not Null | - |
-| Date_Of_Movement_d | `Integer` | 🚫 Not Null | - |
-| Works_Order_No_l | `Date` | 🚫 Not Null | - |
-| Quantity_In_l | `Date` | 🚫 Not Null | - |
-| Advice_Note_No_i | `Date` | 🚫 Not Null | - |
-| Quantity_Out_l | `Date` | 🚫 Not Null | - |
-| Stock_Movement_b | `Real` | 🚫 Not Null | - |
-| Cert_Of_Conformance_No_i | `Date` | 🚫 Not Null | - |
-| From_Location_l | `Date` | 🚫 Not Null | - |
+| Date_Of_Movement_d | `Date` | 🚫 Not Null | - |
+| Works_Order_No_l | `Long Integer` | 🚫 Not Null | - |
+| Quantity_In_l | `Long Integer` | 🚫 Not Null | - |
+| Advice_Note_No_i | `Long Integer` | 🚫 Not Null | - |
+| Quantity_Out_l | `Long Integer` | 🚫 Not Null | - |
+| Stock_Movement_b | `Boolean` | 🚫 Not Null | - |
+| Cert_Of_Conformance_No_i | `Long Integer` | 🚫 Not Null | - |
+| From_Location_l | `Long Integer` | 🚫 Not Null | - |
 | UserName_txt | `String` | 🚫 Not Null | - |
-| ProductID_l | `Date` | 🚫 Not Null | - |
-| To_Location_l | `Date` | 🚫 Not Null | - |
+| ProductID_l | `Long Integer` | 🚫 Not Null | - |
+| To_Location_l | `Long Integer` | 🚫 Not Null | - |
 | Reason_For_Movement_txt | `String` | 🚫 Not Null | - |
 | Movement_Type_To_s | `String` (2) | 🚫 Not Null | - |
-| StockMovementID_l | `Date` | 🚫 Not Null | - |
+| StockMovementID_l | `Long Integer` | 🚫 Not Null | - |
 | DeliveryMethod_txt | `String` | 🚫 Not Null | - |
 | Order_No_s | `String` (30) | 🚫 Not Null | - |
-| FullPallet_l | `Date` | 🚫 Not Null | - |
-| is_consigment_stock_b | `Real` | 🚫 Not Null | - |
-| NSKFromBox | `Date` | 🚫 Not Null | - |
-| NSKToBox | `Date` | 🚫 Not Null | - |
-| TransactionID | `Date` | 🚫 Not Null | - |
-| MoveListNum | `Date` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| FullPallet_l | `Long Integer` | 🚫 Not Null | - |
+| is_consigment_stock_b | `Boolean` | 🚫 Not Null | - |
+| NSKFromBox | `Long Integer` | 🚫 Not Null | - |
+| NSKToBox | `Long Integer` | 🚫 Not Null | - |
+| TransactionID | `Long Integer` | 🚫 Not Null | - |
+| MoveListNum | `Long Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -83,4 +83,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:46Z*
+*Generated at: 2025-12-03T16:23:21Z*

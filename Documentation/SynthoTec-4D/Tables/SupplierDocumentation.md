@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 85
 - **UUID:** 39E8E2BA6606BA4E97B23381CEBA900D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:03Z
+- **Generated:** 🕐 2025-12-03T16:24:31Z
 
 ---
 
@@ -30,15 +30,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| SupplierID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| SupplierID | `Long Integer` | 🚫 Not Null | - |
 | DocumentType | `String` (255) | 🚫 Not Null | - |
 | DocumentReference | `String` (255) | 🚫 Not Null | - |
-| File | `Unknown (18)` | 🚫 Not Null | - |
-| DateAdded | `Integer` | 🚫 Not Null | - |
-| DateValidUntil | `Integer` | 🚫 Not Null | - |
+| File | `BLOB Scalar` | 🚫 Not Null | - |
+| DateAdded | `Date` | 🚫 Not Null | - |
+| DateValidUntil | `Date` | 🚫 Not Null | - |
 | FileName | `String` (255) | 🚫 Not Null | - |
-| Archived | `Real` | 🚫 Not Null | - |
+| Archived | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -63,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:03Z*
+*Generated at: 2025-12-03T16:24:31Z*

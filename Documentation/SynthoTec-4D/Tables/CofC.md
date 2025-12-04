@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 6
 - **UUID:** 81B9B2AF685A1B4E892794C866475FCC
 - **Primary Key:** 🔑 `Cert_Of_Conformance_No`
-- **Generated:** 🕐 2025-11-13T23:17:47Z
+- **Generated:** 🕐 2025-12-03T16:23:22Z
 
 ---
 
@@ -32,30 +32,30 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Cert_Of_Conformance_No** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
+| 🔑 **Cert_Of_Conformance_No** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
 | Customer_Code | `String` (3) | ⚠️ Required, 🚫 Not Null | - |
-| Created_Date | `Integer` | ⚠️ Required, 🚫 Not Null | - |
-| Advice_Note_No | `Date` | 🚫 Not Null | - |
+| Created_Date | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| Advice_Note_No | `Long Integer` | 🚫 Not Null | - |
 | Part No | `String` (30) | ⚠️ Required, 🚫 Not Null | - |
 | Customer_Order_No | `String` (20) | ⚠️ Required, 🚫 Not Null | - |
-| MovementCofC | `Real` | 🚫 Not Null | - |
+| MovementCofC | `Boolean` | 🚫 Not Null | - |
 | RMC_Nos | `String` (30) | 🚫 Not Null | - |
-| Delivery_Quantity | `Date` | ⚠️ Required, 🚫 Not Null | - |
-| Works_Order_No | `Date` | ⚠️ Required, 🚫 Not Null | - |
-| Petes No | `Date` | 🚫 Not Null | - |
-| Quantity_Loose | `Date` | 🚫 Not Null | - |
-| Price | `Boolean` | 🚫 Not Null | - |
-| Nunber_Of_Boxes | `Picture` | 🚫 Not Null | - |
-| Number_In_Box | `Date` | 🚫 Not Null | - |
+| Delivery_Quantity | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
+| Works_Order_No | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
+| Petes No | `Long Integer` | 🚫 Not Null | - |
+| Quantity_Loose | `Long Integer` | 🚫 Not Null | - |
+| Price | `Real` | 🚫 Not Null | - |
+| Nunber_Of_Boxes | `Integer` | 🚫 Not Null | - |
+| Number_In_Box | `Long Integer` | 🚫 Not Null | - |
 | loose | `String` | 🚫 Not Null | - |
-| Order_Completed | `Real` | 🚫 Not Null | - |
+| Order_Completed | `Boolean` | 🚫 Not Null | - |
 | Batch_No | `String` (5) | 🚫 Not Null | - |
-| CofC_Report | `Real` | 🚫 Not Null | - |
-| Invoice_Report | `Real` | 🚫 Not Null | - |
-| ProductID_l | `Date` | 🚫 Not Null | - |
-| Date_Int | `Date` | 🚫 Not Null | - |
-| DeliveredDate_d | `Integer` | 🚫 Not Null | - |
-| LocationID_l | `Date` | 🚫 Not Null | - |
+| CofC_Report | `Boolean` | 🚫 Not Null | - |
+| Invoice_Report | `Boolean` | 🚫 Not Null | - |
+| ProductID_l | `Long Integer` | 🚫 Not Null | - |
+| Date_Int | `Long Integer` | 🚫 Not Null | - |
+| DeliveredDate_d | `Date` | 🚫 Not Null | - |
+| LocationID_l | `Long Integer` | 🚫 Not Null | - |
 | LocationName_s | `String` (30) | 🚫 Not Null | - |
 | Delivery_Method_s | `String` (30) | 🚫 Not Null | - |
 
@@ -111,4 +111,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:47Z*
+*Generated at: 2025-12-03T16:23:22Z*

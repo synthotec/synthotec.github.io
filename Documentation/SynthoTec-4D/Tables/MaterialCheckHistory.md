@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 39
 - **UUID:** CD2B15382AF9D24BB806CE53302773A9
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:18Z
+- **Generated:** 🕐 2025-12-03T16:23:50Z
 
 ---
 
@@ -30,17 +30,17 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| MaterialID | `Date` | 🚫 Not Null | - |
-| Regrind | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| MaterialID | `Long Integer` | 🚫 Not Null | - |
+| Regrind | `Boolean` | 🚫 Not Null | - |
 | CheckedBy | `String` (255) | 🚫 Not Null | - |
 | DateTime | `String` (255) | 🚫 Not Null | - |
 | CheckComment | `String` (255) | 🚫 Not Null | - |
-| RMC1 | `Date` | 🚫 Not Null | - |
-| RMC2 | `Date` | 🚫 Not Null | - |
-| RMC3 | `Date` | 🚫 Not Null | - |
-| FromSharedSource | `Real` | 🚫 Not Null | - |
+| RMC1 | `Long Integer` | 🚫 Not Null | - |
+| RMC2 | `Long Integer` | 🚫 Not Null | - |
+| RMC3 | `Long Integer` | 🚫 Not Null | - |
+| FromSharedSource | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -73,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:18Z*
+*Generated at: 2025-12-03T16:23:50Z*

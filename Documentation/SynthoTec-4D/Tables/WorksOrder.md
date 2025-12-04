@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 4
 - **UUID:** 305DC4E1E3339443B76C086981BBCB7C
 - **Primary Key:** 🔑 `Works_Order_No`
-- **Generated:** 🕐 2025-11-13T23:17:45Z
+- **Generated:** 🕐 2025-12-03T16:23:20Z
 
 ---
 
@@ -32,57 +32,57 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Works_Order_No** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
+| 🔑 **Works_Order_No** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
 | Part_No | `String` (30) | ⚠️ Required, 🚫 Not Null | - |
 | Customer_Code | `String` (3) | ⚠️ Required, 🚫 Not Null | - |
-| Production_Target | `Date` | ⚠️ Required, 🚫 Not Null | - |
-| Parts_Packed | `Date` | 🚫 Not Null | - |
-| Raised_Job_Card | `Real` | 🚫 Not Null | - |
-| Machine_Completed | `Real` | 🚫 Not Null | - |
-| RouteCards | `Real` | 🚫 Not Null | - |
+| Production_Target | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
+| Parts_Packed | `Long Integer` | 🚫 Not Null | - |
+| Raised_Job_Card | `Boolean` | 🚫 Not Null | - |
+| Machine_Completed | `Boolean` | 🚫 Not Null | - |
+| RouteCards | `Boolean` | 🚫 Not Null | - |
 | Notes | `String` | 🚫 Not Null | - |
-| Labels | `Real` | 🚫 Not Null | - |
-| SequencedNo | `Undefined` | 🚫 Not Null | - |
-| Quantity_Manufactured | `Date` | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
+| Labels | `Boolean` | 🚫 Not Null | - |
+| SequencedNo | `Integer` | 🚫 Not Null | - |
+| Quantity_Manufactured | `Long Integer` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
 | Tool_No | `String` (5) | 🚫 Not Null | - |
-| No_In_Stock | `Date` | 🚫 Not Null | - |
+| No_In_Stock | `Long Integer` | 🚫 Not Null | - |
 | MaterialName | `String` (80) | ⚠️ Required, 🚫 Not Null | - |
-| MaterialID | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| MaterialID | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Issue_No | `String` (5) | 🚫 Not Null | - |
-| ProductID_l | `Date` | 🚫 Not Null | - |
-| Packing_Completed | `Real` | 🚫 Not Null | - |
-| Calculated_Scrap | `Date` | 🚫 Not Null | - |
+| ProductID_l | `Long Integer` | 🚫 Not Null | - |
+| Packing_Completed | `Boolean` | 🚫 Not Null | - |
+| Calculated_Scrap | `Long Integer` | 🚫 Not Null | - |
 | Label_Text | `String` (80) | 🚫 Not Null | - |
 | RMC_Nos | `String` (61) | 🚫 Not Null | - |
-| Machine_No | `Picture` | 🚫 Not Null | - |
-| Completed_Date | `Integer` | 🚫 Not Null | - |
-| Packing_Box_No | `Date` | 🚫 Not Null | - |
-| Machine_Started | `Real` | 🚫 Not Null | - |
-| WorkInProgress | `Date` | 🚫 Not Null | - |
-| Current_Production_Quantity | `Date` | 🚫 Not Null | - |
-| UpdatePartsMadeDate | `Integer` | 🚫 Not Null | - |
-| Is_a_Trial | `Real` | 🚫 Not Null | - |
-| Parts_Delivered | `Date` | 🚫 Not Null | - |
-| Date_Created | `Integer` | 🚫 Not Null | - |
-| Quarantine_Finished_Stock | `Date` | 🚫 Not Null | - |
+| Machine_No | `Integer` | 🚫 Not Null | - |
+| Completed_Date | `Date` | 🚫 Not Null | - |
+| Packing_Box_No | `Long Integer` | 🚫 Not Null | - |
+| Machine_Started | `Boolean` | 🚫 Not Null | - |
+| WorkInProgress | `Long Integer` | 🚫 Not Null | - |
+| Current_Production_Quantity | `Long Integer` | 🚫 Not Null | - |
+| UpdatePartsMadeDate | `Date` | 🚫 Not Null | - |
+| Is_a_Trial | `Boolean` | 🚫 Not Null | - |
+| Parts_Delivered | `Long Integer` | 🚫 Not Null | - |
+| Date_Created | `Date` | 🚫 Not Null | - |
+| Quarantine_Finished_Stock | `Long Integer` | 🚫 Not Null | - |
 | DrawingNo | `String` (25) | 🚫 Not Null | - |
-| Start_Date | `Integer` | 🚫 Not Null | - |
-| PackingSheetPrinted | `Real` | 🚫 Not Null | - |
-| Cycle_Time | `Boolean` | 🚫 Not Null | - |
-| Entered_Parts_Scrap | `Date` | 🚫 Not Null | - |
+| Start_Date | `Date` | 🚫 Not Null | - |
+| PackingSheetPrinted | `Boolean` | 🚫 Not Null | - |
+| Cycle_Time | `Real` | 🚫 Not Null | - |
+| Entered_Parts_Scrap | `Long Integer` | 🚫 Not Null | - |
 | Fin_Initals | `String` (30) | 🚫 Not Null | - |
-| Part_Weight | `Boolean` | 🚫 Not Null | - |
-| Runner_Weight | `Boolean` | 🚫 Not Null | - |
+| Part_Weight | `Real` | 🚫 Not Null | - |
+| Runner_Weight | `Real` | 🚫 Not Null | - |
 | Weight_Initals | `String` (30) | 🚫 Not Null | - |
-| Dry_Weight | `Boolean` | 🚫 Not Null | - |
-| Fin_Packed_Date | `Integer` | 🚫 Not Null | - |
-| Production_Chart_Status | `Real` | 🚫 Not Null | - |
-| Production_Chart_DateSent | `Integer` | 🚫 Not Null | - |
-| Quarantined_b | `Real` | 🚫 Not Null | - |
-| Quarantine_UnpackedWIP_Stock | `Date` | 🚫 Not Null | - |
-| ReturnsScrap_l | `Date` | 🚫 Not Null | - |
-| Quarantine_Returned_Stock_l | `Date` | 🚫 Not Null | - |
+| Dry_Weight | `Real` | 🚫 Not Null | - |
+| Fin_Packed_Date | `Date` | 🚫 Not Null | - |
+| Production_Chart_Status | `Boolean` | 🚫 Not Null | - |
+| Production_Chart_DateSent | `Date` | 🚫 Not Null | - |
+| Quarantined_b | `Boolean` | 🚫 Not Null | - |
+| Quarantine_UnpackedWIP_Stock | `Long Integer` | 🚫 Not Null | - |
+| ReturnsScrap_l | `Long Integer` | 🚫 Not Null | - |
+| Quarantine_Returned_Stock_l | `Long Integer` | 🚫 Not Null | - |
 | Barcodenum_Part | `String` | 🚫 Not Null | - |
 | Barcodepicture_part | `String` | 🚫 Not Null | - |
 | Barcodenum_quantity | `String` | 🚫 Not Null | - |
@@ -93,29 +93,29 @@ parent : Tables
 | Barcodepicture_labelid | `String` | 🚫 Not Null | - |
 | Barcodepicture_workorder | `String` | 🚫 Not Null | - |
 | Barcodenum_worksorder | `String` | 🚫 Not Null | - |
-| Cycle_Flag | `Real` | 🚫 Not Null | - |
-| AmberQuarantine | `Real` | 🚫 Not Null | - |
-| StartTime | `Long Integer` | 🚫 Not Null | - |
-| FinishTime | `Long Integer` | 🚫 Not Null | - |
-| rFtime | `Boolean` | 🚫 Not Null | - |
-| rStime | `Boolean` | 🚫 Not Null | - |
-| SetDate | `Integer` | 🚫 Not Null | - |
-| FirstOffCompleted | `Real` | 🚫 Not Null | - |
+| Cycle_Flag | `Boolean` | 🚫 Not Null | - |
+| AmberQuarantine | `Boolean` | 🚫 Not Null | - |
+| StartTime | `Time` | 🚫 Not Null | - |
+| FinishTime | `Time` | 🚫 Not Null | - |
+| rFtime | `Real` | 🚫 Not Null | - |
+| rStime | `Real` | 🚫 Not Null | - |
+| SetDate | `Date` | 🚫 Not Null | - |
+| FirstOffCompleted | `Boolean` | 🚫 Not Null | - |
 | FirstOffComments | `String` | 🚫 Not Null | - |
-| Impressions | `Picture` | 🚫 Not Null | - |
-| NewSystem | `Real` | 🚫 Not Null | - |
-| AutomaticStock | `Real` | 🚫 Not Null | - |
-| Robot | `Real` | 🚫 Not Null | - |
+| Impressions | `Integer` | 🚫 Not Null | - |
+| NewSystem | `Boolean` | 🚫 Not Null | - |
+| AutomaticStock | `Boolean` | 🚫 Not Null | - |
+| Robot | `Boolean` | 🚫 Not Null | - |
 | QuarantineReason | `String` (255) | 🚫 Not Null | - |
-| FirstOffWeightsChecked | `Real` | 🚫 Not Null | - |
-| PlannedMaterialID | `Date` | 🚫 Not Null | - |
-| Regrind | `Real` | 🚫 Not Null | - |
+| FirstOffWeightsChecked | `Boolean` | 🚫 Not Null | - |
+| PlannedMaterialID | `Long Integer` | 🚫 Not Null | - |
+| Regrind | `Boolean` | 🚫 Not Null | - |
 | MaterialCheckedBy | `String` (255) | 🚫 Not Null | - |
 | MaterialCheckComment | `String` (255) | 🚫 Not Null | - |
-| OEEgenerated | `Real` | 🚫 Not Null | - |
-| LastProcessedRealTimeID | `Date` | - | - |
-| FixedDate | `Integer` | - | - |
-| MigrationID | `Date` | - | - |
+| OEEgenerated | `Boolean` | 🚫 Not Null | - |
+| LastProcessedRealTimeID | `Long Integer` | - | - |
+| FixedDate | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 | LastMigration | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -210,4 +210,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:45Z*
+*Generated at: 2025-12-03T16:23:20Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 29
 - **UUID:** 916903B13AB83B4A9937B1348364CCA9
 - **Primary Key:** 🔑 `StockLocationID_l`
-- **Generated:** 🕐 2025-11-13T23:18:09Z
+- **Generated:** 🕐 2025-12-03T16:23:42Z
 
 ---
 
@@ -31,12 +31,12 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **StockLocationID_l** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| 🔑 **StockLocationID_l** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 | Location_Name_s | `String` (30) | 🚫 Not Null | - |
-| Is_Consignment_b | `Real` | 🚫 Not Null | - |
+| Is_Consignment_b | `Boolean` | 🚫 Not Null | - |
 | Location_Code_s | `String` (5) | 🚫 Not Null | - |
-| DeafultPackingLocation_b | `Real` | 🚫 Not Null | - |
-| DespatchLocation | `Real` | 🚫 Not Null | - |
+| DeafultPackingLocation_b | `Boolean` | 🚫 Not Null | - |
+| DespatchLocation | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -79,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:09Z*
+*Generated at: 2025-12-03T16:23:42Z*

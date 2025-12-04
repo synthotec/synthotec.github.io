@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 74
 - **UUID:** 7B19F335B56E4242828DF5D0077F42E6
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:52Z
+- **Generated:** 🕐 2025-12-03T16:24:21Z
 
 ---
 
@@ -29,14 +29,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| RMC | `Date` | 🚫 Not Null | - |
-| MoveDate | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| RMC | `Long Integer` | 🚫 Not Null | - |
+| MoveDate | `Date` | 🚫 Not Null | - |
 | From | `String` (255) | 🚫 Not Null | - |
 | ToLocation | `String` (255) | 🚫 Not Null | - |
 | Who | `String` (255) | 🚫 Not Null | - |
-| PalletNumber | `Picture` | 🚫 Not Null | - |
-| Qty | `Picture` | 🚫 Not Null | - |
+| PalletNumber | `Integer` | 🚫 Not Null | - |
+| Qty | `Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -53,4 +53,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:52Z*
+*Generated at: 2025-12-03T16:24:21Z*

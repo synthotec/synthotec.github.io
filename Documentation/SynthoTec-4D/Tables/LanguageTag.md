@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 33
 - **UUID:** C687C116DFD6DE43AE003396315A8A4D
 - **Primary Key:** 🔑 `ID_l`
-- **Generated:** 🕐 2025-11-13T23:18:13Z
+- **Generated:** 🕐 2025-12-03T16:23:45Z
 
 ---
 
@@ -30,8 +30,8 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID_l** | `Date` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
-| Language_ID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID_l** | `Long Integer` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
+| Language_ID | `Long Integer` | 🚫 Not Null | - |
 | TagIdentifier_s | `String` (10) | 🚫 Not Null | - |
 | TagText_txt | `String` | 🚫 Not Null | - |
 | TagDescription_txt | `String` | 🚫 Not Null | - |
@@ -59,4 +59,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:13Z*
+*Generated at: 2025-12-03T16:23:45Z*

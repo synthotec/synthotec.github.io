@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 118
 - **UUID:** C5724BFA139A9141B0B974FDE6810417
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:40Z
+- **Generated:** 🕐 2025-12-03T16:25:01Z
 
 ---
 
@@ -31,15 +31,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Name | `String` (255) | - | - |
-| Type | `Date` | - | - |
+| Type | `Long Integer` | - | - |
 | Port | `String` (255) | - | - |
 | Model | `String` (255) | - | - |
 | Computer | `String` (255) | - | - |
 | Options | `Object` | - | - |
-| Active | `Real` | - | - |
-| UpdateOptions | `Real` | - | - |
+| Active | `Boolean` | - | - |
+| UpdateOptions | `Boolean` | - | - |
 
 ## 🔍 Indexes
 
@@ -71,4 +71,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:40Z*
+*Generated at: 2025-12-03T16:25:01Z*

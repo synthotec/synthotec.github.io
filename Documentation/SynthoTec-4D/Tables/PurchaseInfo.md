@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 22
 - **UUID:** C3FDC44293A15B4EA942AFEBF0341C9C
 - **Primary Key:** 🔑 `UniqueID_l`
-- **Generated:** 🕐 2025-11-13T23:18:02Z
+- **Generated:** 🕐 2025-12-03T16:23:35Z
 
 ---
 
@@ -32,30 +32,30 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **UniqueID_l** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
-| OrderNo_l | `Date` | 🚫 Not Null | - |
-| SuppliesID_i | `Picture` | 🚫 Not Null | - |
+| 🔑 **UniqueID_l** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
+| OrderNo_l | `Long Integer` | 🚫 Not Null | - |
+| SuppliesID_i | `Integer` | 🚫 Not Null | - |
 | Currency_s | `String` (3) | 🚫 Not Null | - |
 | Reference_s | `String` (20) | 🚫 Not Null | - |
 | Description_txt | `String` | 🚫 Not Null | - |
-| Quantity_r | `Boolean` | 🚫 Not Null | - |
+| Quantity_r | `Real` | 🚫 Not Null | - |
 | Unit_s | `String` (20) | 🚫 Not Null | - |
-| Price_r | `Boolean` | 🚫 Not Null | - |
-| PriceQuantity_l | `Date` | 🚫 Not Null | - |
-| Cost_r | `Boolean` | 🚫 Not Null | - |
-| FontStyle_i | `Picture` | 🚫 Not Null | - |
-| FontSize_i | `Picture` | 🚫 Not Null | - |
-| QuantityReceived_r | `Boolean` | 🚫 Not Null | - |
-| QuantityInvoiced_r | `Boolean` | 🚫 Not Null | - |
-| Received | `Real` | 🚫 Not Null | - |
-| Invoiced | `Real` | 🚫 Not Null | - |
+| Price_r | `Real` | 🚫 Not Null | - |
+| PriceQuantity_l | `Long Integer` | 🚫 Not Null | - |
+| Cost_r | `Real` | 🚫 Not Null | - |
+| FontStyle_i | `Integer` | 🚫 Not Null | - |
+| FontSize_i | `Integer` | 🚫 Not Null | - |
+| QuantityReceived_r | `Real` | 🚫 Not Null | - |
+| QuantityInvoiced_r | `Real` | 🚫 Not Null | - |
+| Received | `Boolean` | 🚫 Not Null | - |
+| Invoiced | `Boolean` | 🚫 Not Null | - |
 | InvoiceNumber | `String` (255) | 🚫 Not Null | - |
-| DateRequested | `Integer` | 🚫 Not Null | - |
-| NominalCode | `Date` | 🚫 Not Null | - |
-| Revision | `Picture` | 🚫 Not Null | - |
-| CAPEX | `Date` | 🚫 Not Null | - |
+| DateRequested | `Date` | 🚫 Not Null | - |
+| NominalCode | `Long Integer` | 🚫 Not Null | - |
+| Revision | `Integer` | 🚫 Not Null | - |
+| CAPEX | `Long Integer` | 🚫 Not Null | - |
 | Invoice | `String` (255) | 🚫 Not Null | - |
-| DateReceived | `Integer` | 🚫 Not Null | - |
+| DateReceived | `Date` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -103,4 +103,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:02Z*
+*Generated at: 2025-12-03T16:23:35Z*

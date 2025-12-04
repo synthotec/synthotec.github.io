@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 16
 - **UUID:** AF0EF9F5DE55394BA5A574DC03975466
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:55Z
+- **Generated:** 🕐 2025-12-03T16:23:30Z
 
 ---
 
@@ -29,12 +29,12 @@ parent : Tables
 |:------|:-----|:------------|:------------|
 | Order_ID | `String` (10) | 🚫 Not Null | - |
 | Batch_No | `String` (3) | 🚫 Not Null | - |
-| CustomerDeliveryDate | `Integer` | 🚫 Not Null | - |
-| OurDeliveryDate | `Integer` | 🚫 Not Null | - |
-| QuantityOrdered | `Date` | 🚫 Not Null | - |
-| Nominal Sale | `Boolean` | 🚫 Not Null | - |
-| Is_Replacement | `Real` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| CustomerDeliveryDate | `Date` | 🚫 Not Null | - |
+| OurDeliveryDate | `Date` | 🚫 Not Null | - |
+| QuantityOrdered | `Long Integer` | 🚫 Not Null | - |
+| Nominal Sale | `Real` | 🚫 Not Null | - |
+| Is_Replacement | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -45,4 +45,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:55Z*
+*Generated at: 2025-12-03T16:23:30Z*

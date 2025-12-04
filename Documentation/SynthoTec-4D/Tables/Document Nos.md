@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 7
 - **UUID:** 6BC1D99CA275574B8B75504F16B14CB2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:48Z
+- **Generated:** 🕐 2025-12-03T16:23:23Z
 
 ---
 
@@ -27,20 +27,20 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| Cert_Of_Conformance_No | `Picture` | 🚫 Not Null | - |
-| Advice Note No | `Picture` | 🚫 Not Null | - |
-| Petes No | `Picture` | 🚫 Not Null | - |
-| Date spare5 | `Integer` | 🚫 Not Null | - |
+| Cert_Of_Conformance_No | `Integer` | 🚫 Not Null | - |
+| Advice Note No | `Integer` | 🚫 Not Null | - |
+| Petes No | `Integer` | 🚫 Not Null | - |
+| Date spare5 | `Date` | 🚫 Not Null | - |
 | C Code Spare | `String` (3) | 🚫 Not Null | - |
-| no ord spare2 | `Picture` | 🚫 Not Null | - |
-| Balance | `Boolean` | 🚫 Not Null | - |
-| totalflag | `Real` | 🚫 Not Null | - |
+| no ord spare2 | `Integer` | 🚫 Not Null | - |
+| Balance | `Real` | 🚫 Not Null | - |
+| totalflag | `Boolean` | 🚫 Not Null | - |
 | Ord No spare3 | `String` (15) | 🚫 Not Null | - |
 | Cust Name spare | `String` (25) | 🚫 Not Null | - |
-| Works No spare6 | `Picture` | 🚫 Not Null | - |
-| Datepriceupdate | `Integer` | 🚫 Not Null | - |
-| HARtrays1E | `Picture` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| Works No spare6 | `Integer` | 🚫 Not Null | - |
+| Datepriceupdate | `Date` | 🚫 Not Null | - |
+| HARtrays1E | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -51,4 +51,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:48Z*
+*Generated at: 2025-12-03T16:23:23Z*

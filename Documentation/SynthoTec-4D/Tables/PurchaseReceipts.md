@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 109
 - **UUID:** BE29EC2C2AE9BF4496D0A54958A42DA5
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:27Z
+- **Generated:** 🕐 2025-12-03T16:24:52Z
 
 ---
 
@@ -28,14 +28,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| PurchaseInfoID | `Date` | 🚫 Not Null | - |
-| DateReceived | `Integer` | 🚫 Not Null | - |
-| QuantityRecieved | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| PurchaseInfoID | `Long Integer` | 🚫 Not Null | - |
+| DateReceived | `Date` | 🚫 Not Null | - |
+| QuantityRecieved | `Real` | 🚫 Not Null | - |
 | ReceivedBy | `String` (255) | 🚫 Not Null | - |
-| ProofOfReceiptFile | `Unknown (18)` | 🚫 Not Null | - |
+| ProofOfReceiptFile | `BLOB Scalar` | 🚫 Not Null | - |
 | ProofOfReceiptName | `String` (255) | 🚫 Not Null | - |
-| RMC | `Date` | 🚫 Not Null | - |
+| RMC | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -55,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:27Z*
+*Generated at: 2025-12-03T16:24:52Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 89
 - **UUID:** EDFCD4019448A2478EF7BDE89DD8498C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:07Z
+- **Generated:** 🕐 2025-12-03T16:24:35Z
 
 ---
 
@@ -29,19 +29,19 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ProductionDate | `Integer` | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| Availability | `Boolean` | 🚫 Not Null | - |
-| Performance | `Boolean` | 🚫 Not Null | - |
-| Quality | `Boolean` | 🚫 Not Null | - |
-| OEE | `Boolean` | 🚫 Not Null | - |
-| GoodTime | `Boolean` | 🚫 Not Null | - |
-| PlannedTime | `Boolean` | 🚫 Not Null | - |
-| TargetTime | `Boolean` | - | - |
-| ActualTime | `Boolean` | 🚫 Not Null | - |
-| TotalPacked | `Undefined` | - | - |
-| TotalMade | `Undefined` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ProductionDate | `Date` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| Availability | `Real` | 🚫 Not Null | - |
+| Performance | `Real` | 🚫 Not Null | - |
+| Quality | `Real` | 🚫 Not Null | - |
+| OEE | `Real` | 🚫 Not Null | - |
+| GoodTime | `Real` | 🚫 Not Null | - |
+| PlannedTime | `Real` | 🚫 Not Null | - |
+| TargetTime | `Real` | - | - |
+| ActualTime | `Real` | 🚫 Not Null | - |
+| TotalPacked | `Integer` | - | - |
+| TotalMade | `Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -60,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:07Z*
+*Generated at: 2025-12-03T16:24:35Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 20
 - **UUID:** B84FAAF4158D23479C7828325B99FDF5
 - **Primary Key:** 🔑 `UniqueID_i`
-- **Generated:** 🕐 2025-11-13T23:18:00Z
+- **Generated:** 🕐 2025-12-03T16:23:33Z
 
 ---
 
@@ -32,25 +32,25 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **UniqueID_i** | `Picture` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
+| 🔑 **UniqueID_i** | `Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, ⚠️ Required, 🚫 Not Null | - |
 | Name_s | `String` (31) | 🚫 Not Null | - |
 | Ref_s | `String` (20) | 🚫 Not Null | - |
 | Description_txt | `String` | 🚫 Not Null | - |
-| Price_r | `Boolean` | 🚫 Not Null | - |
-| PriceQuantity_l | `Date` | 🚫 Not Null | - |
-| MinOrderQty_r | `Boolean` | 🚫 Not Null | - |
-| SupplierID_l | `Date` | 🚫 Not Null | - |
+| Price_r | `Real` | 🚫 Not Null | - |
+| PriceQuantity_l | `Long Integer` | 🚫 Not Null | - |
+| MinOrderQty_r | `Real` | 🚫 Not Null | - |
+| SupplierID_l | `Long Integer` | 🚫 Not Null | - |
 | UnitOfSale_s | `String` (20) | 🚫 Not Null | - |
-| StockQty_r | `Boolean` | 🚫 Not Null | - |
+| StockQty_r | `Real` | 🚫 Not Null | - |
 | AdditionalInfo_txt | `String` | 🚫 Not Null | - |
 | Currency_s | `String` (3) | 🚫 Not Null | - |
-| IsPackaging | `Real` | 🚫 Not Null | - |
-| PackagingCat | `Date` | 🚫 Not Null | - |
-| RawMaterial | `Real` | 🚫 Not Null | - |
-| MaterialID | `Date` | 🚫 Not Null | - |
-| ReuseTimes | `Picture` | 🚫 Not Null | - |
-| MarginDeduction | `Real` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| IsPackaging | `Boolean` | 🚫 Not Null | - |
+| PackagingCat | `Long Integer` | 🚫 Not Null | - |
+| RawMaterial | `Boolean` | 🚫 Not Null | - |
+| MaterialID | `Long Integer` | 🚫 Not Null | - |
+| ReuseTimes | `Integer` | 🚫 Not Null | - |
+| MarginDeduction | `Boolean` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -94,4 +94,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:00Z*
+*Generated at: 2025-12-03T16:23:33Z*

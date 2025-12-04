@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 107
 - **UUID:** C3B026087195274EBE4A71B14374D159
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:24Z
+- **Generated:** 🕐 2025-12-03T16:24:51Z
 
 ---
 
@@ -31,10 +31,10 @@ parent : Tables
 |:------|:-----|:------------|:------------|
 | 🔑 **ID** | `String` | 🔑 PK, ✨ Unique | - |
 | System | `String` (255) | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
-| Type | `Date` | 🚫 Not Null | - |
-| Tolerance | `Boolean` | 🚫 Not Null | - |
-| Machine | `Date` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| Type | `Long Integer` | 🚫 Not Null | - |
+| Tolerance | `Real` | 🚫 Not Null | - |
+| Machine | `Long Integer` | 🚫 Not Null | - |
 | ModifiedBy | `String` (255) | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -52,4 +52,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:24Z*
+*Generated at: 2025-12-03T16:24:51Z*

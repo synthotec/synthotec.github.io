@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 32
 - **UUID:** 4F6BBCF8E9304244A5440EF31A025AD4
 - **Primary Key:** 🔑 `ID_l`
-- **Generated:** 🕐 2025-11-13T23:18:12Z
+- **Generated:** 🕐 2025-12-03T16:23:45Z
 
 ---
 
@@ -30,7 +30,7 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID_l** | `Date` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
+| 🔑 **ID_l** | `Long Integer` | 🔑 PK, ✨ Unique, 🚫 Not Null | - |
 | Language_s | `String` (30) | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -54,4 +54,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:12Z*
+*Generated at: 2025-12-03T16:23:45Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 117
 - **UUID:** 0ED7579A95D51547A48FD7693363C503
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:39Z
+- **Generated:** 🕐 2025-12-03T16:25:00Z
 
 ---
 
@@ -30,12 +30,12 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| FirstRealTimeID | `Date` | - | - |
-| LastRealTimeID | `Date` | - | - |
-| WorksOrder | `Date` | - | - |
-| Acknowledged | `Real` | 🚫 Not Null | - |
-| StaffID | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| FirstRealTimeID | `Long Integer` | - | - |
+| LastRealTimeID | `Long Integer` | - | - |
+| WorksOrder | `Long Integer` | - | - |
+| Acknowledged | `Boolean` | 🚫 Not Null | - |
+| StaffID | `Long Integer` | - | - |
 | Comment | `String` (255) | - | - |
 | RouteCards | `String` (255) | - | - |
 
@@ -66,4 +66,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:39Z*
+*Generated at: 2025-12-03T16:25:00Z*

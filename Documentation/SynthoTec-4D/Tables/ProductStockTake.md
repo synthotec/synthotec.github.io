@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 55
 - **UUID:** CD7EC16B6973004E85CD5D29E07127D6
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:32Z
+- **Generated:** 🕐 2025-12-03T16:24:03Z
 
 ---
 
@@ -30,13 +30,13 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| WO | `Date` | 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| PartsCounted | `Date` | 🚫 Not Null | - |
-| BoxesCounted | `Picture` | 🚫 Not Null | - |
-| ActualStock | `Date` | 🚫 Not Null | - |
-| sDate | `Integer` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| WO | `Long Integer` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| PartsCounted | `Long Integer` | 🚫 Not Null | - |
+| BoxesCounted | `Integer` | 🚫 Not Null | - |
+| ActualStock | `Long Integer` | 🚫 Not Null | - |
+| sDate | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -60,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:32Z*
+*Generated at: 2025-12-03T16:24:03Z*

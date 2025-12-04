@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 79
 - **UUID:** 26B56558930CE9449F07B020C86BEA93
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:57Z
+- **Generated:** 🕐 2025-12-03T16:24:25Z
 
 ---
 
@@ -27,11 +27,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | StaffName | `String` (255) | 🚫 Not Null | - |
-| FirstDate | `Integer` | 🚫 Not Null | - |
-| LastDate | `Integer` | 🚫 Not Null | - |
-| Days | `Boolean` | 🚫 Not Null | - |
+| FirstDate | `Date` | 🚫 Not Null | - |
+| LastDate | `Date` | 🚫 Not Null | - |
+| Days | `Real` | 🚫 Not Null | - |
 | Comment | `String` (255) | 🚫 Not Null | - |
 | Status | `String` (255) | 🚫 Not Null | - |
 
@@ -45,4 +45,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:57Z*
+*Generated at: 2025-12-03T16:24:25Z*

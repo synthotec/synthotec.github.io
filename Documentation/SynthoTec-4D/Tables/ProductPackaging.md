@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 35
 - **UUID:** A0DC125CC548024984CE4F807E2D45E2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:15Z
+- **Generated:** 🕐 2025-12-03T16:23:47Z
 
 ---
 
@@ -31,15 +31,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| ToolID | `Date` | 🚫 Not Null | - |
-| SuppliesID | `Picture` | 🚫 Not Null | - |
-| Quantity | `Boolean` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| SuppliesID | `Integer` | 🚫 Not Null | - |
+| Quantity | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
 | CreatedBy | `String` (255) | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 | Customer | `String` (255) | - | - |
-| CustomerSpecific | `Real` | 🚫 Not Null | - |
+| CustomerSpecific | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -75,4 +75,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:15Z*
+*Generated at: 2025-12-03T16:23:47Z*

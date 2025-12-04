@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 11
 - **UUID:** 13EE0980326D984887426E4CEDD50A30
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-11-13T23:17:51Z
+- **Generated:** 🕐 2025-12-03T16:23:26Z
 
 ---
 
@@ -32,31 +32,31 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Unique_ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null, ��� Not Modifiable | - |
+| 🔑 **Unique_ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null, ��� Not Modifiable | - |
 | MaterialName | `String` (80) | 🚫 Not Null | - |
 | Customers Name | `String` (35) | 🚫 Not Null | - |
-| In Stock | `Date` | 🚫 Not Null | - |
+| In Stock | `Long Integer` | 🚫 Not Null | - |
 | Supplier Code | `String` (3) | 🚫 Not Null | - |
 | Supplier Name | `String` (25) | 🚫 Not Null | - |
-| Current | `Real` | 🚫 Not Null | - |
+| Current | `Boolean` | 🚫 Not Null | - |
 | Short Name | `String` (35) | 🚫 Not Null | - |
-| Archive | `Real` | 🚫 Not Null | - |
-| Colour_l | `Date` | 🚫 Not Null | - |
+| Archive | `Boolean` | 🚫 Not Null | - |
+| Colour_l | `Long Integer` | 🚫 Not Null | - |
 | Manufacturer_s | `String` (20) | 🚫 Not Null | - |
-| UsageMatID | `Date` | 🚫 Not Null | - |
-| SafetyStockTarget | `Picture` | 🚫 Not Null | - |
-| BOM_Price | `Boolean` | 🚫 Not Null | - |
-| LossPercent | `Boolean` | 🚫 Not Null | - |
-| UsageMatID2 | `Date` | 🚫 Not Null | - |
-| UsageMatID2Percent | `Boolean` | 🚫 Not Null | - |
-| Calendar_Price | `Boolean` | 🚫 Not Null | - |
-| UsageMatID3 | `Date` | 🚫 Not Null | - |
-| UsageMatID3Percent | `Boolean` | 🚫 Not Null | - |
-| FontColour | `Date` | 🚫 Not Null | - |
+| UsageMatID | `Long Integer` | 🚫 Not Null | - |
+| SafetyStockTarget | `Integer` | 🚫 Not Null | - |
+| BOM_Price | `Real` | 🚫 Not Null | - |
+| LossPercent | `Real` | 🚫 Not Null | - |
+| UsageMatID2 | `Long Integer` | 🚫 Not Null | - |
+| UsageMatID2Percent | `Real` | 🚫 Not Null | - |
+| Calendar_Price | `Real` | 🚫 Not Null | - |
+| UsageMatID3 | `Long Integer` | 🚫 Not Null | - |
+| UsageMatID3Percent | `Real` | 🚫 Not Null | - |
+| FontColour | `Long Integer` | 🚫 Not Null | - |
 | BOM_Comment | `String` (255) | 🚫 Not Null | - |
-| SharedMaterialSource | `Real` | 🚫 Not Null | - |
-| LeadTimeDays | `Date` | - | - |
-| MigrationID | `Date` | - | - |
+| SharedMaterialSource | `Boolean` | 🚫 Not Null | - |
+| LeadTimeDays | `Long Integer` | - | - |
+| MigrationID | `Long Integer` | - | - |
 | LastMigration | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -131,4 +131,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:51Z*
+*Generated at: 2025-12-03T16:23:26Z*

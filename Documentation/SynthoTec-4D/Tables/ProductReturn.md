@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 30
 - **UUID:** 84D5CEC865744441A28B55BDFF4F334A
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:10Z
+- **Generated:** 🕐 2025-12-03T16:23:43Z
 
 ---
 
@@ -29,15 +29,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| ReturnID_l | `Date` | 🚫 Not Null | - |
-| DateOfReturn_d | `Integer` | 🚫 Not Null | - |
+| ReturnID_l | `Long Integer` | 🚫 Not Null | - |
+| DateOfReturn_d | `Date` | 🚫 Not Null | - |
 | ReturnNotes_txt | `String` | 🚫 Not Null | - |
 | PQI_No_s | `String` (15) | 🚫 Not Null | - |
 | CustomerOrderDetails_s | `String` (50) | 🚫 Not Null | - |
-| ProductID_l | `Date` | 🚫 Not Null | - |
+| ProductID_l | `Long Integer` | 🚫 Not Null | - |
 | CustomerCode_s | `String` (3) | 🚫 Not Null | - |
-| ReturnClosed_b | `Real` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| ReturnClosed_b | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -62,4 +62,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:10Z*
+*Generated at: 2025-12-03T16:23:43Z*

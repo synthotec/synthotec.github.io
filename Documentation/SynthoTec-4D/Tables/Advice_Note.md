@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 9
 - **UUID:** 1C150D42AE7E4341870D4DBFA6AD3288
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:17:49Z
+- **Generated:** 🕐 2025-12-03T16:23:24Z
 
 ---
 
@@ -31,11 +31,11 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| Advice_Note_No | `Date` | ⚡ Auto, 🚫 Not Null | - |
+| Advice_Note_No | `Long Integer` | ⚡ Auto, 🚫 Not Null | - |
 | Customer_Code | `String` (3) | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| DespatchDate | `Integer` | - | - |
-| ArrivalDate | `Integer` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| DespatchDate | `Date` | - | - |
+| ArrivalDate | `Date` | - | - |
 | Transport | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -67,4 +67,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:49Z*
+*Generated at: 2025-12-03T16:23:24Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 84
 - **UUID:** B4B021F72621A44A861BDFF8762EE00C
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:02Z
+- **Generated:** 🕐 2025-12-03T16:24:30Z
 
 ---
 
@@ -30,12 +30,12 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| NominalCode | `Date` | ✨ Unique | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| NominalCode | `Long Integer` | ✨ Unique | - |
 | Description | `String` (255) | 🚫 Not Null | - |
 | Code_4D | `String` (255) | 🚫 Not Null | - |
 | Category | `String` (255) | 🚫 Not Null | - |
-| FinishedGoodsTransport | `Real` | 🚫 Not Null | - |
+| FinishedGoodsTransport | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -63,4 +63,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:02Z*
+*Generated at: 2025-12-03T16:24:30Z*

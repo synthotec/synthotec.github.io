@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 100
 - **UUID:** BBEBD957B57394498D952926A484488F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:18Z
+- **Generated:** 🕐 2025-12-03T16:24:45Z
 
 ---
 
@@ -31,15 +31,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ProductID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
 | System | `String` (255) | 🚫 Not Null | - |
 | Procedure | `String` (255) | 🚫 Not Null | - |
-| TargetMin | `Boolean` | 🚫 Not Null | - |
-| TargetMax | `Boolean` | 🚫 Not Null | - |
-| ForEachCavity | `Real` | 🚫 Not Null | - |
-| ProcedureOrder | `Picture` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| TargetMin | `Real` | 🚫 Not Null | - |
+| TargetMax | `Real` | 🚫 Not Null | - |
+| ForEachCavity | `Boolean` | 🚫 Not Null | - |
+| ProcedureOrder | `Integer` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -69,4 +69,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:18Z*
+*Generated at: 2025-12-03T16:24:45Z*

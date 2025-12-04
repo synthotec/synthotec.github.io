@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 58
 - **UUID:** 1D7F0D4EFE7DFD438D22AF0D3E4F1FCA
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:35Z
+- **Generated:** 🕐 2025-12-03T16:24:06Z
 
 ---
 
@@ -30,33 +30,33 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| StartDate | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| StartDate | `Date` | 🚫 Not Null | - |
 | CustomerCode | `String` (255) | 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
-| Week1 | `Date` | 🚫 Not Null | - |
-| Week2 | `Date` | 🚫 Not Null | - |
-| Week3 | `Date` | 🚫 Not Null | - |
-| Week4 | `Date` | 🚫 Not Null | - |
-| Week5 | `Date` | 🚫 Not Null | - |
-| Week6 | `Date` | 🚫 Not Null | - |
-| Week7 | `Date` | 🚫 Not Null | - |
-| Week8 | `Date` | 🚫 Not Null | - |
-| Week9 | `Date` | 🚫 Not Null | - |
-| Week10 | `Date` | 🚫 Not Null | - |
-| Week11 | `Date` | 🚫 Not Null | - |
-| Week12 | `Date` | 🚫 Not Null | - |
-| Archived | `Real` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| Week1 | `Long Integer` | 🚫 Not Null | - |
+| Week2 | `Long Integer` | 🚫 Not Null | - |
+| Week3 | `Long Integer` | 🚫 Not Null | - |
+| Week4 | `Long Integer` | 🚫 Not Null | - |
+| Week5 | `Long Integer` | 🚫 Not Null | - |
+| Week6 | `Long Integer` | 🚫 Not Null | - |
+| Week7 | `Long Integer` | 🚫 Not Null | - |
+| Week8 | `Long Integer` | 🚫 Not Null | - |
+| Week9 | `Long Integer` | 🚫 Not Null | - |
+| Week10 | `Long Integer` | 🚫 Not Null | - |
+| Week11 | `Long Integer` | 🚫 Not Null | - |
+| Week12 | `Long Integer` | 🚫 Not Null | - |
+| Archived | `Boolean` | 🚫 Not Null | - |
 | PartName | `String` (255) | 🚫 Not Null | - |
 | CustomerRef | `String` (255) | 🚫 Not Null | - |
-| Week13 | `Date` | 🚫 Not Null | - |
-| Week14 | `Date` | 🚫 Not Null | - |
-| Week15 | `Date` | 🚫 Not Null | - |
-| Week16 | `Date` | 🚫 Not Null | - |
-| Week17 | `Date` | 🚫 Not Null | - |
-| Week18 | `Date` | 🚫 Not Null | - |
-| Week19 | `Date` | 🚫 Not Null | - |
-| Week20 | `Date` | 🚫 Not Null | - |
+| Week13 | `Long Integer` | 🚫 Not Null | - |
+| Week14 | `Long Integer` | 🚫 Not Null | - |
+| Week15 | `Long Integer` | 🚫 Not Null | - |
+| Week16 | `Long Integer` | 🚫 Not Null | - |
+| Week17 | `Long Integer` | 🚫 Not Null | - |
+| Week18 | `Long Integer` | 🚫 Not Null | - |
+| Week19 | `Long Integer` | 🚫 Not Null | - |
+| Week20 | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -79,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:35Z*
+*Generated at: 2025-12-03T16:24:06Z*

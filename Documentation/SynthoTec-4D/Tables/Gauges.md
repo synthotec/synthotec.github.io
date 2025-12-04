@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 23
 - **UUID:** B84C6CC0E8E67246A59E39321DB56B95
 - **Primary Key:** 🔑 `Unique_ID`
-- **Generated:** 🕐 2025-11-13T23:18:03Z
+- **Generated:** 🕐 2025-12-03T16:23:36Z
 
 ---
 
@@ -30,14 +30,14 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **Unique_ID** | `Picture` | 🔑 PK, ✨ Unique, ⚠️ Required, 🚫 Not Null | - |
-| Product_ID | `Date` | ⚠️ Required, 🚫 Not Null | - |
+| 🔑 **Unique_ID** | `Integer` | 🔑 PK, ✨ Unique, ⚠️ Required, 🚫 Not Null | - |
+| Product_ID | `Long Integer` | ⚠️ Required, 🚫 Not Null | - |
 | Type | `String` (40) | 🚫 Not Null | - |
-| DateLastChecked | `Integer` | 🚫 Not Null | - |
+| DateLastChecked | `Date` | 🚫 Not Null | - |
 | LastCheckedbyWhom | `String` (50) | 🚫 Not Null | - |
-| No_BetweenChecks | `Picture` | 🚫 Not Null | - |
-| NoOfDaysUsage | `Picture` | 🚫 Not Null | - |
-| NoOfDaysUsageLeft | `Picture` | 🚫 Not Null | - |
+| No_BetweenChecks | `Integer` | 🚫 Not Null | - |
+| NoOfDaysUsage | `Integer` | 🚫 Not Null | - |
+| NoOfDaysUsageLeft | `Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -61,4 +61,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:03Z*
+*Generated at: 2025-12-03T16:23:36Z*

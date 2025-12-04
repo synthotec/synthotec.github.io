@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 93
 - **UUID:** FB3EF960B67EC1469BFEF51C80EEDF92
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:11Z
+- **Generated:** 🕐 2025-12-03T16:24:38Z
 
 ---
 
@@ -30,7 +30,7 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Process | `String` (255) | 🚫 Not Null | - |
 | OriginalText | `String` | 🚫 Not Null | - |
 | TranslatedText | `String` | 🚫 Not Null | - |
@@ -58,4 +58,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:11Z*
+*Generated at: 2025-12-03T16:24:38Z*

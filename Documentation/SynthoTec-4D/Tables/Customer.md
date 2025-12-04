@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 1
 - **UUID:** 29D34E506C4DF7418EA055008A0624CE
 - **Primary Key:** 🔑 `Customer_Code`
-- **Generated:** 🕐 2025-11-13T23:17:42Z
+- **Generated:** 🕐 2025-12-03T16:23:17Z
 
 ---
 
@@ -44,23 +44,23 @@ parent : Tables
 | Cust Contact1 | `String` (20) | 🚫 Not Null | - |
 | Email1 | `String` (80) | 🚫 Not Null | - |
 | Cust Notes | `String` | 🚫 Not Null | - |
-| Cust Cum Ord | `Boolean` | 🚫 Not Null | - |
-| Cust Inv Date | `Integer` | 🚫 Not Null | - |
+| Cust Cum Ord | `Real` | 🚫 Not Null | - |
+| Cust Inv Date | `Date` | 🚫 Not Null | - |
 | Cust Label1 | `String` (25) | ⚠️ Required, 🚫 Not Null | - |
 | Cust Label2 | `String` (25) | 🚫 Not Null | - |
 | Cust label3 | `String` (25) | 🚫 Not Null | - |
-| Acknowledgement | `Real` | 🚫 Not Null | - |
+| Acknowledgement | `Boolean` | 🚫 Not Null | - |
 | Acknow Contact | `String` (30) | 🚫 Not Null | - |
-| Archive | `Real` | 🚫 Not Null | - |
+| Archive | `Boolean` | 🚫 Not Null | - |
 | CustContact2 | `String` (20) | 🚫 Not Null | - |
 | CustPhone2 | `String` (20) | 🚫 Not Null | - |
 | CustPosition1 | `String` (20) | 🚫 Not Null | - |
 | CustPosition2 | `String` (20) | 🚫 Not Null | - |
 | Email2 | `String` (80) | 🚫 Not Null | - |
-| CofCRequired_b | `Real` | 🚫 Not Null | - |
+| CofCRequired_b | `Boolean` | 🚫 Not Null | - |
 | DeliveryAddress_txt | `String` | 🚫 Not Null | - |
 | SupplierCode | `String` (30) | 🚫 Not Null | - |
-| DeliveryDays | `Picture` | 🚫 Not Null | - |
+| DeliveryDays | `Integer` | 🚫 Not Null | - |
 | CustPosition3 | `String` (20) | 🚫 Not Null | - |
 | CustPosition4 | `String` (20) | 🚫 Not Null | - |
 | CustPosition5 | `String` (20) | 🚫 Not Null | - |
@@ -77,17 +77,17 @@ parent : Tables
 | Email4 | `String` (80) | 🚫 Not Null | - |
 | Email5 | `String` (80) | 🚫 Not Null | - |
 | Email6 | `String` (80) | 🚫 Not Null | - |
-| BoxesPerPallet | `Boolean` | 🚫 Not Null | - |
+| BoxesPerPallet | `Real` | 🚫 Not Null | - |
 | OrderEmail | `String` (255) | 🚫 Not Null | - |
-| PalletTransportCost | `Boolean` | 🚫 Not Null | - |
+| PalletTransportCost | `Real` | 🚫 Not Null | - |
 | TransportComment | `String` (255) | 🚫 Not Null | - |
-| RequiresMaterialCofA | `Real` | - | - |
+| RequiresMaterialCofA | `Boolean` | - | - |
 | NtnSnrLocationCode | `String` (255) | - | - |
-| Consignment | `Real` | 🚫 Not Null | - |
-| ConsignmentLocationID | `Date` | - | - |
+| Consignment | `Boolean` | 🚫 Not Null | - |
+| ConsignmentLocationID | `Long Integer` | - | - |
 | MigrationID | `String` | - | - |
 | LastMigration | `String` (255) | - | - |
-| TransportInstructionFileID | `Date` | - | - |
+| TransportInstructionFileID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -147,4 +147,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:17:42Z*
+*Generated at: 2025-12-03T16:23:17Z*

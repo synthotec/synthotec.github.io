@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 86
 - **UUID:** CDB25505B7647A449BCF479500B14E95
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:04Z
+- **Generated:** 🕐 2025-12-03T16:24:32Z
 
 ---
 
@@ -30,9 +30,9 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Symbol | `String` (255) | 🚫 Not Null | - |
-| BoxesPerPallet | `Picture` | 🚫 Not Null | - |
+| BoxesPerPallet | `Integer` | 🚫 Not Null | - |
 | Description | `String` (255) | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -56,4 +56,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:04Z*
+*Generated at: 2025-12-03T16:24:32Z*

@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 44
 - **UUID:** FCFA50991EE10548874C7FB40849B15D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:21Z
+- **Generated:** 🕐 2025-12-03T16:23:53Z
 
 ---
 
@@ -29,8 +29,8 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Date | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Date | `Date` | 🚫 Not Null | - |
 | Section | `String` (255) | 🚫 Not Null | - |
 | Type | `String` (255) | 🚫 Not Null | - |
 | Description | `String` (255) | 🚫 Not Null | - |
@@ -51,4 +51,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:21Z*
+*Generated at: 2025-12-03T16:23:53Z*

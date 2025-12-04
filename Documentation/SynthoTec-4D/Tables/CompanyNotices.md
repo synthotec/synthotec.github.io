@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 61
 - **UUID:** 015540DC6D91DB4182E6B439B2252CC2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:38Z
+- **Generated:** 🕐 2025-12-03T16:24:09Z
 
 ---
 
@@ -29,17 +29,17 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Category | `String` (255) | 🚫 Not Null | - |
 | Title | `String` (255) | 🚫 Not Null | - |
 | Description | `String` | 🚫 Not Null | - |
 | CreatedBy | `String` (255) | 🚫 Not Null | - |
-| ShowDuration | `Picture` | 🚫 Not Null | - |
+| ShowDuration | `Integer` | 🚫 Not Null | - |
 | Image | `Picture` | 🚫 Not Null | - |
-| Colour | `Date` | 🚫 Not Null | - |
-| ShowFrom | `Integer` | 🚫 Not Null | - |
-| ShowUntil | `Integer` | 🚫 Not Null | - |
-| Archived | `Real` | 🚫 Not Null | - |
+| Colour | `Long Integer` | 🚫 Not Null | - |
+| ShowFrom | `Date` | 🚫 Not Null | - |
+| ShowUntil | `Date` | 🚫 Not Null | - |
+| Archived | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -57,4 +57,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:38Z*
+*Generated at: 2025-12-03T16:24:09Z*

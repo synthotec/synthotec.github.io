@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 28
 - **UUID:** 033E20DBAC212B4389E5C70620881ED8
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:08Z
+- **Generated:** 🕐 2025-12-03T16:23:41Z
 
 ---
 
@@ -27,19 +27,19 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| NSKLabelsPerSet_l | `Date` | 🚫 Not Null | - |
-| NoOfPackers_l | `Date` | 🚫 Not Null | - |
-| WIPStockValuePC_i | `Picture` | 🚫 Not Null | - |
-| QuarantinedStockValuePC_i | `Picture` | 🚫 Not Null | - |
-| ReturnedStockValuePC_i | `Picture` | 🚫 Not Null | - |
-| FinishedStockValuePC_i | `Picture` | 🚫 Not Null | - |
-| MaxPOCost_r | `Boolean` | 🚫 Not Null | - |
+| NSKLabelsPerSet_l | `Long Integer` | 🚫 Not Null | - |
+| NoOfPackers_l | `Long Integer` | 🚫 Not Null | - |
+| WIPStockValuePC_i | `Integer` | 🚫 Not Null | - |
+| QuarantinedStockValuePC_i | `Integer` | 🚫 Not Null | - |
+| ReturnedStockValuePC_i | `Integer` | 🚫 Not Null | - |
+| FinishedStockValuePC_i | `Integer` | 🚫 Not Null | - |
+| MaxPOCost_r | `Real` | 🚫 Not Null | - |
 | POLimitGroup_s | `String` (30) | 🚫 Not Null | - |
-| ThreeMnthStkChk | `Real` | 🚫 Not Null | - |
-| OldNew_RouteCardLayout | `Real` | 🚫 Not Null | - |
-| gross_wgt_label | `Real` | 🚫 Not Null | - |
-| Machine_Hourly_Rate | `Boolean` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| ThreeMnthStkChk | `Boolean` | 🚫 Not Null | - |
+| OldNew_RouteCardLayout | `Boolean` | 🚫 Not Null | - |
+| gross_wgt_label | `Boolean` | 🚫 Not Null | - |
+| Machine_Hourly_Rate | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -50,4 +50,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:08Z*
+*Generated at: 2025-12-03T16:23:41Z*

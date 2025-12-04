@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 67
 - **UUID:** B4BCF8D18A05AB4AB5784486D50CD234
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:44Z
+- **Generated:** 🕐 2025-12-03T16:24:14Z
 
 ---
 
@@ -31,16 +31,16 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| dDate | `Integer` | 🚫 Not Null | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| Stoppage | `Real` | 🚫 Not Null | - |
-| DownCode | `Date` | 🚫 Not Null | - |
-| Impressions | `Date` | 🚫 Not Null | - |
-| Seconds | `Boolean` | 🚫 Not Null | - |
-| Instances | `Picture` | 🚫 Not Null | - |
-| Target | `Boolean` | 🚫 Not Null | - |
-| TC | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| dDate | `Date` | 🚫 Not Null | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| Stoppage | `Boolean` | 🚫 Not Null | - |
+| DownCode | `Long Integer` | 🚫 Not Null | - |
+| Impressions | `Long Integer` | 🚫 Not Null | - |
+| Seconds | `Real` | 🚫 Not Null | - |
+| Instances | `Integer` | 🚫 Not Null | - |
+| Target | `Real` | 🚫 Not Null | - |
+| TC | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -73,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:44Z*
+*Generated at: 2025-12-03T16:24:14Z*

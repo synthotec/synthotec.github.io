@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 124
 - **UUID:** 2BE22D1782098249A524034DE15E0047
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:49Z
+- **Generated:** 🕐 2025-12-03T16:25:06Z
 
 ---
 
@@ -32,10 +32,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| PickRequestID | `Date` | - | - |
-| CustomerOrderID | `Date` | - | - |
-| Quantity | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| PickRequestID | `Long Integer` | - | - |
+| CustomerOrderID | `Long Integer` | - | - |
+| Quantity | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -73,4 +73,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:49Z*
+*Generated at: 2025-12-03T16:25:06Z*

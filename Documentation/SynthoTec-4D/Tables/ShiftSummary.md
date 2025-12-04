@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 129
 - **UUID:** 9F8A3252F6D9E74589B429EA78C73E40
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:56Z
+- **Generated:** 🕐 2025-12-03T16:25:11Z
 
 ---
 
@@ -32,12 +32,12 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| Date | `Integer` | - | - |
-| Time | `Long Integer` | - | - |
-| StaffID | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| Date | `Date` | - | - |
+| Time | `Time` | - | - |
+| StaffID | `Long Integer` | - | - |
 | Commentary | `String` | - | - |
-| EmailSent | `Real` | 🚫 Not Null | - |
+| EmailSent | `Boolean` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -72,4 +72,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:56Z*
+*Generated at: 2025-12-03T16:25:11Z*

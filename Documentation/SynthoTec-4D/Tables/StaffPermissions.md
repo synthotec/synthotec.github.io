@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 88
 - **UUID:** EBD332232B7BEB469977E8DB6898D40F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:06Z
+- **Generated:** 🕐 2025-12-03T16:24:34Z
 
 ---
 
@@ -30,10 +30,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| StaffID | `Date` | 🚫 Not Null | - |
-| PermissionID | `Date` | 🚫 Not Null | - |
-| HasPermission | `Real` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| StaffID | `Long Integer` | 🚫 Not Null | - |
+| PermissionID | `Long Integer` | 🚫 Not Null | - |
+| HasPermission | `Boolean` | 🚫 Not Null | - |
 | LastModified | `String` (255) | 🚫 Not Null | - |
 
 ## 🔍 Indexes
@@ -58,4 +58,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:06Z*
+*Generated at: 2025-12-03T16:24:34Z*

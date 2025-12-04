@@ -16,7 +16,7 @@ parent : Tables
 - **Table ID:** 76
 - **UUID:** 0B40C76291EE2E44AC3F733AD8213391
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:54Z
+- **Generated:** 🕐 2025-12-03T16:24:23Z
 
 ---
 
@@ -35,41 +35,41 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
-| BoxNumber | `Date` | 🚫 Not Null | - |
-| RouteCard | `Picture` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
+| BoxNumber | `Long Integer` | 🚫 Not Null | - |
+| RouteCard | `Integer` | 🚫 Not Null | - |
 | PackedBy | `String` (255) | 🚫 Not Null | - |
-| Date | `Integer` | 🚫 Not Null | - |
-| Time | `Long Integer` | 🚫 Not Null | - |
+| Date | `Date` | 🚫 Not Null | - |
+| Time | `Time` | 🚫 Not Null | - |
 | DateTime | `String` (255) | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
-| Parts | `Date` | 🚫 Not Null | - |
-| Shift | `Date` | 🚫 Not Null | - |
-| WORC | `Date` | 🚫 Not Null | - |
-| Mandrels | `Picture` | 🚫 Not Null | - |
-| NotMade | `Real` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
+| Parts | `Long Integer` | 🚫 Not Null | - |
+| Shift | `Long Integer` | 🚫 Not Null | - |
+| WORC | `Long Integer` | 🚫 Not Null | - |
+| Mandrels | `Integer` | 🚫 Not Null | - |
+| NotMade | `Boolean` | 🚫 Not Null | - |
 | NotMadeWho | `String` (255) | 🚫 Not Null | - |
-| TimeToPack | `Boolean` | 🚫 Not Null | - |
-| StockInput | `Real` | 🚫 Not Null | - |
-| TimeProcessed | `Real` | 🚫 Not Null | - |
-| StandardHours | `Boolean` | 🚫 Not Null | - |
-| ShiftDate | `Date` | 🚫 Not Null | - |
+| TimeToPack | `Real` | 🚫 Not Null | - |
+| StockInput | `Boolean` | 🚫 Not Null | - |
+| TimeProcessed | `Boolean` | 🚫 Not Null | - |
+| StandardHours | `Real` | 🚫 Not Null | - |
+| ShiftDate | `Long Integer` | 🚫 Not Null | - |
 | PartBoxCode | `String` (5) | 🚫 Not Null | - |
-| LinkedBoxID | `Date` | 🚫 Not Null | - |
-| RemoveFromStock | `Real` | 🚫 Not Null | - |
+| LinkedBoxID | `Long Integer` | 🚫 Not Null | - |
+| RemoveFromStock | `Boolean` | 🚫 Not Null | - |
 | StockRemovedBy | `String` | 🚫 Not Null | - |
-| PalletID | `Date` | 🚫 Not Null | - |
+| PalletID | `Long Integer` | 🚫 Not Null | - |
 | WhenAddedToPallet | `String` (255) | - | - |
-| OrderPickRequestID | `Date` | - | - |
-| Version | `Picture` | - | - |
-| CofCID | `Date` | - | - |
-| Stock_LocationID | `Date` | - | - |
+| OrderPickRequestID | `Long Integer` | - | - |
+| Version | `Integer` | - | - |
+| CofCID | `Long Integer` | - | - |
+| Stock_LocationID | `Long Integer` | - | - |
 | Comments | `String` | - | - |
-| StatusUpdatedStaffID | `Date` | - | - |
+| StatusUpdatedStaffID | `Long Integer` | - | - |
 | StatusUpdatedWhen | `String` (255) | - | - |
 | UUID | `String` | - | - |
-| MigrationID | `Date` | - | - |
+| MigrationID | `Long Integer` | - | - |
 | LastMigration | `String` (255) | - | - |
 
 ## 🔍 Indexes
@@ -129,4 +129,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:54Z*
+*Generated at: 2025-12-03T16:24:23Z*

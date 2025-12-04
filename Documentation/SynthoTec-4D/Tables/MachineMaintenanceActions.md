@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 113
 - **UUID:** 3F67965E543B564DB573483EBEAC4C96
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:33Z
+- **Generated:** 🕐 2025-12-03T16:24:56Z
 
 ---
 
@@ -30,10 +30,10 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
 | Action | `String` (255) | - | - |
-| Frequency | `Date` | - | - |
-| FrequencyType | `Date` | - | - |
+| Frequency | `Long Integer` | - | - |
+| FrequencyType | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -57,4 +57,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:33Z*
+*Generated at: 2025-12-03T16:24:56Z*

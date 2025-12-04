@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 62
 - **UUID:** 6588D29DE7A2FE44BEEA0304F247C2A0
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:39Z
+- **Generated:** 🕐 2025-12-03T16:24:10Z
 
 ---
 
@@ -30,19 +30,19 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ToolID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
-| FullApproval | `Real` | 🚫 Not Null | - |
+| FullApproval | `Boolean` | 🚫 Not Null | - |
 | ApprovalType | `String` (255) | 🚫 Not Null | - |
-| ConditionalApproval | `Real` | 🚫 Not Null | - |
-| ConditionalUntil | `Integer` | 🚫 Not Null | - |
+| ConditionalApproval | `Boolean` | 🚫 Not Null | - |
+| ConditionalUntil | `Date` | 🚫 Not Null | - |
 | Issue | `String` (255) | 🚫 Not Null | - |
-| BypassApproval | `Real` | 🚫 Not Null | - |
+| BypassApproval | `Boolean` | 🚫 Not Null | - |
 | Comments | `String` (255) | 🚫 Not Null | - |
 | ApprovedBy | `String` (255) | 🚫 Not Null | - |
-| ApprovedWhen | `Integer` | 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| ApprovedWhen | `Date` | 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -68,4 +68,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:39Z*
+*Generated at: 2025-12-03T16:24:10Z*

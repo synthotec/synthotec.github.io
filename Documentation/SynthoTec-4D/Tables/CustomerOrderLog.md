@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 77
 - **UUID:** 8921E64C9227D341A45DA81DDEBEFC8F
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:55Z
+- **Generated:** 🕐 2025-12-03T16:24:24Z
 
 ---
 
@@ -29,13 +29,13 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| PetesNo | `Date` | 🚫 Not Null | - |
-| OurDelivery | `Integer` | 🚫 Not Null | - |
-| CustomerDelivery | `Integer` | 🚫 Not Null | - |
-| QtyOrdered | `Date` | 🚫 Not Null | - |
-| QtyDelivered | `Date` | 🚫 Not Null | - |
-| PartPrice | `Boolean` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| PetesNo | `Long Integer` | 🚫 Not Null | - |
+| OurDelivery | `Date` | 🚫 Not Null | - |
+| CustomerDelivery | `Date` | 🚫 Not Null | - |
+| QtyOrdered | `Long Integer` | 🚫 Not Null | - |
+| QtyDelivered | `Long Integer` | 🚫 Not Null | - |
+| PartPrice | `Real` | 🚫 Not Null | - |
 | DateTime | `String` (255) | 🚫 Not Null | - |
 | ModifiedBy | `String` (255) | 🚫 Not Null | - |
 
@@ -55,4 +55,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:55Z*
+*Generated at: 2025-12-03T16:24:24Z*

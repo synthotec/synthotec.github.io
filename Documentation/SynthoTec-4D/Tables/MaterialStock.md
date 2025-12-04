@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 48
 - **UUID:** C11E4B61162CA04E8020762F66A8FC50
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:25Z
+- **Generated:** 🕐 2025-12-03T16:23:57Z
 
 ---
 
@@ -31,18 +31,18 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| MaterialID | `Date` | 🚫 Not Null | - |
-| RMC | `Date` | 🚫 Not Null | - |
+| MaterialID | `Long Integer` | 🚫 Not Null | - |
+| RMC | `Long Integer` | 🚫 Not Null | - |
 | Location | `String` (255) | 🚫 Not Null | - |
-| Quantity | `Boolean` | 🚫 Not Null | - |
-| PalletNumber | `Date` | 🚫 Not Null | - |
+| Quantity | `Real` | 🚫 Not Null | - |
+| PalletNumber | `Long Integer` | 🚫 Not Null | - |
 | MaterialName | `String` (255) | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| LastMoveDate | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| LastMoveDate | `Date` | 🚫 Not Null | - |
 | Comment | `String` (125) | 🚫 Not Null | - |
 | LocationID | `String` | - | - |
-| LabelsPrinted | `Real` | - | - |
-| SheetsPrinted | `Real` | - | - |
+| LabelsPrinted | `Boolean` | - | - |
+| SheetsPrinted | `Boolean` | - | - |
 
 ## 🔍 Indexes
 
@@ -81,4 +81,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:25Z*
+*Generated at: 2025-12-03T16:23:57Z*

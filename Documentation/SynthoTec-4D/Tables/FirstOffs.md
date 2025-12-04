@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 60
 - **UUID:** 34BFB440508D4E468E6B86A28637B6DF
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:37Z
+- **Generated:** 🕐 2025-12-03T16:24:08Z
 
 ---
 
@@ -27,21 +27,21 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| WorksOrder | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| WorksOrder | `Long Integer` | 🚫 Not Null | - |
 | CompletedBy | `String` (255) | 🚫 Not Null | - |
 | Method | `String` (255) | 🚫 Not Null | - |
-| Cav1 | `Boolean` | 🚫 Not Null | - |
-| Cav2 | `Boolean` | 🚫 Not Null | - |
-| Cav3 | `Boolean` | 🚫 Not Null | - |
-| Cav4 | `Boolean` | 🚫 Not Null | - |
-| Cav5 | `Boolean` | 🚫 Not Null | - |
-| Cav6 | `Boolean` | 🚫 Not Null | - |
-| Cav7 | `Boolean` | 🚫 Not Null | - |
-| Cav8 | `Boolean` | 🚫 Not Null | - |
-| MethodCompleted | `Real` | 🚫 Not Null | - |
-| DateCompleted | `Integer` | 🚫 Not Null | - |
-| ProductID | `Date` | 🚫 Not Null | - |
+| Cav1 | `Real` | 🚫 Not Null | - |
+| Cav2 | `Real` | 🚫 Not Null | - |
+| Cav3 | `Real` | 🚫 Not Null | - |
+| Cav4 | `Real` | 🚫 Not Null | - |
+| Cav5 | `Real` | 🚫 Not Null | - |
+| Cav6 | `Real` | 🚫 Not Null | - |
+| Cav7 | `Real` | 🚫 Not Null | - |
+| Cav8 | `Real` | 🚫 Not Null | - |
+| MethodCompleted | `Boolean` | 🚫 Not Null | - |
+| DateCompleted | `Date` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
 | Cav9 | `String` (255) | 🚫 Not Null | - |
 | Cav10 | `String` (255) | 🚫 Not Null | - |
 | Cav11 | `String` (255) | 🚫 Not Null | - |
@@ -60,4 +60,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:37Z*
+*Generated at: 2025-12-03T16:24:08Z*

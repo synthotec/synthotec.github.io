@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 49
 - **UUID:** 0412FF273154D14EA78AFDEC1CD85D3D
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:26Z
+- **Generated:** 🕐 2025-12-03T16:23:58Z
 
 ---
 
@@ -29,28 +29,28 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| ProductID | `Date` | 🚫 Not Null | - |
-| fYear | `Picture` | 🚫 Not Null | - |
-| January | `Undefined` | 🚫 Not Null | - |
-| February | `Undefined` | 🚫 Not Null | - |
-| March | `Undefined` | 🚫 Not Null | - |
-| April | `Undefined` | 🚫 Not Null | - |
-| May | `Undefined` | 🚫 Not Null | - |
-| June | `Undefined` | 🚫 Not Null | - |
-| July | `Undefined` | 🚫 Not Null | - |
-| August | `Undefined` | 🚫 Not Null | - |
-| September | `Undefined` | 🚫 Not Null | - |
-| October | `Undefined` | 🚫 Not Null | - |
-| November | `Undefined` | 🚫 Not Null | - |
-| December | `Undefined` | 🚫 Not Null | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
+| fYear | `Integer` | 🚫 Not Null | - |
+| January | `Integer` | 🚫 Not Null | - |
+| February | `Integer` | 🚫 Not Null | - |
+| March | `Integer` | 🚫 Not Null | - |
+| April | `Integer` | 🚫 Not Null | - |
+| May | `Integer` | 🚫 Not Null | - |
+| June | `Integer` | 🚫 Not Null | - |
+| July | `Integer` | 🚫 Not Null | - |
+| August | `Integer` | 🚫 Not Null | - |
+| September | `Integer` | 🚫 Not Null | - |
+| October | `Integer` | 🚫 Not Null | - |
+| November | `Integer` | 🚫 Not Null | - |
+| December | `Integer` | 🚫 Not Null | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
 | PartName | `String` (255) | 🚫 Not Null | - |
-| LastEdited | `Integer` | 🚫 Not Null | - |
-| YearlyVolume | `Undefined` | 🚫 Not Null | - |
-| SnapShot | `Real` | 🚫 Not Null | - |
-| SnapDate | `Integer` | 🚫 Not Null | - |
-| CurrentBacklog | `Undefined` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| LastEdited | `Date` | 🚫 Not Null | - |
+| YearlyVolume | `Integer` | 🚫 Not Null | - |
+| SnapShot | `Boolean` | 🚫 Not Null | - |
+| SnapDate | `Date` | 🚫 Not Null | - |
+| CurrentBacklog | `Integer` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -79,4 +79,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:26Z*
+*Generated at: 2025-12-03T16:23:58Z*

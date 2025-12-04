@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 108
 - **UUID:** 3D30ED9FCDC1D24697A8C1D1F6F01D55
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:19:25Z
+- **Generated:** 🕐 2025-12-03T16:24:51Z
 
 ---
 
@@ -30,12 +30,12 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
-| ProductID | `Date` | 🚫 Not Null | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto | - |
+| ProductID | `Long Integer` | 🚫 Not Null | - |
 | Customer | `String` (255) | 🚫 Not Null | - |
-| ForecastYear | `Picture` | 🚫 Not Null | - |
-| ForecastMonth | `Picture` | 🚫 Not Null | - |
-| Quantity | `Date` | 🚫 Not Null | - |
+| ForecastYear | `Integer` | 🚫 Not Null | - |
+| ForecastMonth | `Integer` | 🚫 Not Null | - |
+| Quantity | `Long Integer` | 🚫 Not Null | - |
 
 ## 🔍 Indexes
 
@@ -61,4 +61,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:19:25Z*
+*Generated at: 2025-12-03T16:24:51Z*

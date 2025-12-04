@@ -12,7 +12,7 @@ parent : Tables
 - **Table ID:** 25
 - **UUID:** 755FDB8A02ACFB4787F4589BA9B30BE2
 - **Primary Key:** 🔑 `ID`
-- **Generated:** 🕐 2025-11-13T23:18:05Z
+- **Generated:** 🕐 2025-12-03T16:23:38Z
 
 ---
 
@@ -31,15 +31,15 @@ parent : Tables
 
 | Field | Type | Constraints | Description |
 |:------|:-----|:------------|:------------|
-| Product_ID | `Date` | 🚫 Not Null | - |
+| Product_ID | `Long Integer` | 🚫 Not Null | - |
 | Part_No | `String` (30) | ⚠️ Required, 🚫 Not Null | - |
-| Machine_No | `Picture` | 🚫 Not Null | - |
+| Machine_No | `Integer` | 🚫 Not Null | - |
 | Head_No | `String` (10) | 🚫 Not Null | - |
 | Gripper_Details | `String` (255) | 🚫 Not Null | - |
-| ToolID | `Date` | 🚫 Not Null | - |
+| ToolID | `Long Integer` | 🚫 Not Null | - |
 | Cleaning_Details | `String` | 🚫 Not Null | - |
-| 🔑 **ID** | `Date` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
-| MigrationID | `Date` | - | - |
+| 🔑 **ID** | `Long Integer` | 🔑 PK, ✨ Unique, ⚡ Auto, 🚫 Not Null | - |
+| MigrationID | `Long Integer` | - | - |
 
 ## 🔍 Indexes
 
@@ -71,4 +71,4 @@ parent : Tables
 ---
 
 *Generated from catalog.4DCatalog*
-*Generated at: 2025-11-13T23:18:05Z*
+*Generated at: 2025-12-03T16:23:38Z*
