@@ -11,16 +11,16 @@ A comprehensive manufacturing ERP system for injection molding operations. Manag
 
 ## Documentation Progress
 
-**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T13:01:59.217Z
+**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T13:47:27.454Z
 
 ### Overall Completion Status
 
 ```mermaid
 %%{init: {'theme':'base'}}%%
 pie title Documentation Completion Status
-    "Fully Documented" : 14
-    "Partially Documented" : 103
-    "Needs Work" : 161
+    "Fully Documented" : 65
+    "Partially Documented" : 80
+    "Needs Work" : 133
 ```
 
 ### Classes Documentation
@@ -33,8 +33,8 @@ xychart-beta
     title "Classes Documentation Metrics"
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
     y-axis "Count" 0 --> 721
-    bar [152, 721, 179, 152]
-    bar [0, 0, 0, 0]
+    bar [152, 721, 183, 152]
+    bar [0, 313, 140, 0]
 ```
 
 ### Forms Documentation
@@ -69,10 +69,10 @@ xychart-beta
 
 | Entity Type | Total | Fully Documented | Partially Documented | Needs Work | Avg Completion |
 |-------------|-------|------------------|----------------------|------------|----------------|
-| Classes | 152 | 12 | 103 | 32 | 43.2% |
+| Classes | 152 | 63 | 80 | 4 | 71.9% |
 | Forms | 156 | 2 | 154 | 0 | 27.1% |
 | Tables | 129 | 0 | 0 | 129 | 0% |
-| **Total** | **437** | **14** | **103** | **161** | - |
+| **Total** | **437** | **65** | **80** | **133** | - |
 
 ### Detailed Progress Reports
 
