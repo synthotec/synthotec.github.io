@@ -11,7 +11,7 @@ A comprehensive manufacturing ERP system for injection molding operations. Manag
 
 ## Documentation Progress
 
-**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T12:31:08.058Z
+**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T12:40:07.653Z
 
 ### Overall Completion Status
 
@@ -28,8 +28,8 @@ pie title Documentation Completion Status
 Total Classes: **152**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent'}}}}%%
-xychart-beta horizontal
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+xychart-beta
     title "Classes Documentation Metrics"
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
     y-axis "Count" 0 --> 721
@@ -42,8 +42,8 @@ xychart-beta horizontal
 Total Forms: **156**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent'}}}}%%
-xychart-beta horizontal
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+xychart-beta
     title "Forms Documentation Metrics"
     x-axis ["Descriptions", "Screenshots"]
     y-axis "Count" 0 --> 156
@@ -56,8 +56,8 @@ xychart-beta horizontal
 Total Tables: **129**
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent'}}}}%%
-xychart-beta horizontal
+%%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#10b981, #6b7280'}}}}%%
+xychart-beta
     title "Tables Documentation Metrics"
     x-axis ["Descriptions", "Fields", "N→1 Relations", "1→N Relations"]
     y-axis "Count" 0 --> 1894
