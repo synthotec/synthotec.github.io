@@ -5,19 +5,19 @@ parent : Classes
 ---
 # HTML_Table [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/HTML_Table.4dm)
 
-📊 **Overview:** 1 Constructor | 4 Functions
+📊 **Overview:** 5 Properties | 1 Constructor | 4 Functions
 
 ## 📝 Description
 
-var $RowObject : Object
-$RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
+Add a new row to the table with optional styling (bold, colors, alignment)
 
-🕐 *Last updated: 2025-11-20T14:23:49.214Z*
+🕐 *Last updated: 2025-12-10T11:45:23.146Z*
 
 ---
 
 ## 📑 Table of Contents
 
+- [📋 Properties (5)](#properties)
 - [🏗️ Constructor](#constructor) (4 params)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -28,6 +28,16 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 
 ---
 
+## Properties {#properties}
+
+| Property | Type | Default | Description |
+|:---------|:-----|:--------|:------------|
+| `RowCollection` | `Collection` | `[]` | Collection of row objects containing cell data |
+| `BorderWidth` | `Integer` | `0` | Width of table borders in pixels |
+| `CellPadding` | `Integer` | `0` | Cell padding in pixels |
+| `UpperCase` | `Boolean` | `False` | Whether to convert cell text to uppercase |
+| `Centralize` | `Boolean` | `False` | Whether to center-align table content |
+
 ## Constructor {#constructor}
 
 #### constructor {#constructor}
@@ -36,6 +46,8 @@ $RowObject:=New object("Collection"; $RowCellCollection; "Bold"; $Bold)
 ```4d
 Class constructor($BorderWidth : Integer; $CellPadding : Integer; $UpperCase : Boolean; $Centralize : Boolean)
 ```
+
+Initialize HTML table builder with formatting options
 
 **Parameters:**
 
@@ -59,6 +71,8 @@ Class constructor($BorderWidth : Integer; $CellPadding : Integer; $UpperCase : B
 Function AddRow($RowCellCollection : Collection; $Bold : Boolean; $ForegroundColour : Text; $BackgroundColour : Text; $Alignment : Text)
 ```
 
+Add a new row to the table with optional styling (bold, colors, alignment)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -78,6 +92,8 @@ Function AddRow($RowCellCollection : Collection; $Bold : Boolean; $ForegroundCol
 Function Output -> $Output_table : Text
 ```
 
+Generate HTML table markup from RowCollection
+
 **Returns:** `Text`
 
 ---
@@ -88,6 +104,8 @@ Function Output -> $Output_table : Text
 ```4d
 Function HTML_Cell($CellValue : Text; $ForegroundColour : Text; $BackgroundColour : Text; $Alignment : Text; $Strong : Boolean; $RowSpan : Integer; $ColumnSpan : Integer) -> Object
 ```
+
+Create a cell object with value and optional styling properties
 
 **Parameters:**
 
@@ -111,6 +129,8 @@ Function HTML_Cell($CellValue : Text; $ForegroundColour : Text; $BackgroundColou
 ```4d
 Function merge($SkipFirstRow : Boolean; $ColumnsToIgnore : Collection)
 ```
+
+Merge vertically adjacent cells with identical values (optional skip first row and ignore columns)
 
 **Parameters:**
 

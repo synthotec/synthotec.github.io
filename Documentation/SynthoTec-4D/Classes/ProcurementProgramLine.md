@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-$Column.BackgroundColor:=Color.PastelGreen
+Sets default action flags based on line type (forecast, backlog, new order, existing order, etc.)
 
-🕐 *Last updated: 2025-11-20T14:23:50.039Z*
+🕐 *Last updated: 2025-12-10T11:45:23.864Z*
 
 ---
 
@@ -56,24 +56,24 @@ $Column.BackgroundColor:=Color.PastelGreen
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `ItemNumber` | `Text` | - | - |
-| `OrderNumber` | `Text` | - | - |
-| `Quantity` | `Integer` | - | - |
-| `DueDate` | `Date` | - | - |
-| `ItemDescription` | `Text` | - | - |
-| `Vmi` | `Boolean` | - | - |
-| `Warehouse` | `Text` | - | - |
-| `Product_OptionEntity` | `cs.Product_OptionEntity` | - | - |
-| `Customer_OrderEntity` | `cs.Customer_OrderEntity` | - | - |
-| `ProcurementProgram` | `cs.ProcurementProgram` | - | - |
-| `RemovedFromProgram` | `Boolean` | - | - |
-| `Action_CreateForecast` | `Boolean` | - | - |
-| `Action_CreateOrder` | `Boolean` | - | - |
-| `Action_Ignore` | `Boolean` | - | - |
-| `Action_CloseOrder` | `Boolean` | - | - |
-| `Action_UpdateOrder` | `Boolean` | - | - |
-| `WarehouseWithCustomerCode` | `Text` | - | - |
-| `ds` | *Not specified* | `DataStore(0)` | - |
+| `ItemNumber` | `Text` | - | Customer's item reference number |
+| `OrderNumber` | `Text` | - | Order number or status (FORECAST, BACKLOG, BACKORDER, or actual order number) |
+| `Quantity` | `Integer` | - | Quantity ordered or forecasted |
+| `DueDate` | `Date` | - | Customer delivery date |
+| `ItemDescription` | `Text` | - | Description of the item from procurement program |
+| `Vmi` | `Boolean` | - | True if this is a Vendor Managed Inventory item |
+| `Warehouse` | `Text` | - | Warehouse location code (e.g., NTN, SNR) |
+| `Product_OptionEntity` | `cs.Product_OptionEntity` | - | Linked product option (matched by CustomerReference), can be Null if not found |
+| `Customer_OrderEntity` | `cs.Customer_OrderEntity` | - | Existing customer order entity if line matches an existing order, otherwise Null |
+| `ProcurementProgram` | `cs.ProcurementProgram` | - | Parent procurement program object |
+| `RemovedFromProgram` | `Boolean` | - | True if this order exists in system but was not in latest procurement program file |
+| `Action_CreateForecast` | `Boolean` | - | True if action is to create a forecast order |
+| `Action_CreateOrder` | `Boolean` | - | True if action is to create a new customer order |
+| `Action_Ignore` | `Boolean` | - | True if no action should be taken (e.g., backlog items) |
+| `Action_CloseOrder` | `Boolean` | - | True if existing order should be closed |
+| `Action_UpdateOrder` | `Boolean` | - | True if existing order quantity should be updated |
+| `WarehouseWithCustomerCode` | `Text` | - | Warehouse code with customer code appended in format "NTN (123)" |
+| `ds` | *Not specified* | `DataStore(0)` | Reference to main datastore |
 
 ## Constructor {#constructor}
 
@@ -83,6 +83,8 @@ $Column.BackgroundColor:=Color.PastelGreen
 ```4d
 Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram : cs.ProcurementProgram)
 ```
+
+Creates a procurement program line from either tab-delimited text or an existing Customer_OrderEntity
 
 **Parameters:**
 
@@ -104,6 +106,8 @@ Class constructor($TextLineOrCustomer_OrderEntity : Variant; $ProcurementProgram
 Function setDefaultActions
 ```
 
+Sets default action flags based on line type (forecast, backlog, new order, existing order, etc.)
+
 ---
 
 #### newFromText {#newfromtext}
@@ -112,6 +116,8 @@ Function setDefaultActions
 ```4d
 Function newFromText($Line : Text)
 ```
+
+Parses tab-delimited text line and populates properties, attempts to match product and existing order
 
 **Parameters:**
 
@@ -128,6 +134,8 @@ Function newFromText($Line : Text)
 Function newFromCustomerOrder($Customer_OrderEntity : cs.Customer_OrderEntity)
 ```
 
+Populates properties from an existing Customer_OrderEntity (used for orders removed from program)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -142,6 +150,8 @@ Function newFromCustomerOrder($Customer_OrderEntity : cs.Customer_OrderEntity)
 ```4d
 Function getWarehouseWithCustomerCode -> Text
 ```
+
+Returns warehouse code with customer code appended in format "NTN (123)", or just warehouse code if customer not found
 
 **Returns:** `Text`
 
@@ -271,6 +281,8 @@ Function get ActionText->$ActionText -> Text
 Function get IsActionSet -> Boolean
 ```
 
+Returns true if any action flag is set for this line
+
 **Returns:** `Boolean`
 
 ---
@@ -281,6 +293,8 @@ Function get IsActionSet -> Boolean
 ```4d
 Function get IsBacklog -> Boolean
 ```
+
+Returns true if order status is BACKLOG or BACKORDER
 
 **Returns:** `Boolean`
 
@@ -293,6 +307,8 @@ Function get IsBacklog -> Boolean
 Function get IsExistingOrder -> Boolean
 ```
 
+Returns true if both product and matching customer order exist
+
 **Returns:** `Boolean`
 
 ---
@@ -303,6 +319,8 @@ Function get IsExistingOrder -> Boolean
 ```4d
 Function get IsExistingOrderModified -> Boolean
 ```
+
+Returns true if existing order quantity differs from procurement program quantity
 
 **Returns:** `Boolean`
 
@@ -315,6 +333,8 @@ Function get IsExistingOrderModified -> Boolean
 Function get IsForecast -> Boolean
 ```
 
+Returns true if order status is FORECAST
+
 **Returns:** `Boolean`
 
 ---
@@ -326,6 +346,8 @@ Function get IsForecast -> Boolean
 Function get IsItemMissing -> Boolean
 ```
 
+Returns true if item number could not be matched to a Product_Option in the system
+
 **Returns:** `Boolean`
 
 ---
@@ -336,6 +358,8 @@ Function get IsItemMissing -> Boolean
 ```4d
 Function get IsNewOrder -> Boolean
 ```
+
+Returns true if product exists but no matching customer order found
 
 **Returns:** `Boolean`
 
@@ -358,6 +382,8 @@ Function get Meta->$Meta -> cs.UI.ListBoxMeta
 ```4d
 Function get OrderBatchNumber -> Text
 ```
+
+Returns batch number in format "YYYY-MM-DD" for grouping orders
 
 **Returns:** `Text`
 
@@ -391,6 +417,8 @@ Function get StatusText->$StatusText -> Text
 ```4d
 Function get WeekNumberText -> Text
 ```
+
+Returns week number in format "YYYY-WW"
 
 **Returns:** `Text`
 

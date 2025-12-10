@@ -11,7 +11,7 @@ parent : Classes
 
 Returns the source code of the test formula as text
 
-🕐 *Last updated: 2025-11-20T14:23:51.107Z*
+🕐 *Last updated: 2025-12-10T11:45:24.657Z*
 
 ---
 
@@ -46,6 +46,8 @@ Returns the source code of the test formula as text
 ```4d
 Class constructor
 ```
+
+Creates a new unit test result object for tracking individual test execution outcomes
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 Creates wrapper for form object manipulation using 4D commands (defaults to current object if not specified)
 
-🕐 *Last updated: 2025-11-20T14:23:49.085Z*
+🕐 *Last updated: 2025-12-10T11:45:23.003Z*
 
 ---
 
@@ -93,6 +93,8 @@ Creates wrapper for form object manipulation using 4D commands (defaults to curr
 Function setMaxFontSize($MultiLine : Boolean; $UpperFontSizeLimit : Integer)
 ```
 
+Automatically adjusts font size to largest possible while fitting within object bounds
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -109,6 +111,8 @@ Function setMaxFontSize($MultiLine : Boolean; $UpperFontSizeLimit : Integer)
 Function setBestObjectSize($HeightOnly : Boolean)
 ```
 
+Resizes form object to best fit its content, optionally adjusting height only
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -124,6 +128,8 @@ Function setBestObjectSize($HeightOnly : Boolean)
 Function Focus
 ```
 
+Moves keyboard focus to this form object
+
 ---
 
 #### HighlightText {#highlighttext}
@@ -132,6 +138,8 @@ Function Focus
 ```4d
 Function HighlightText($StartPosition : Integer; $EndPosition : Integer)
 ```
+
+Highlights text in the form object from start to end position
 
 **Parameters:**
 
@@ -152,6 +160,8 @@ Function get BackgroundColor -> $BackgroundColor : Integer
 Function set BackgroundColor($BackgroundColor : Variant)
 ```
 
+Returns the form object's background color
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -169,6 +179,8 @@ Function set BackgroundColor($BackgroundColor : Variant)
 Function get Bold -> Boolean
 Function set Bold($Bold : Boolean)
 ```
+
+Returns whether bold styling is applied to the form object
 
 **Setter Parameter:**
 
@@ -188,6 +200,8 @@ Function get Bottom -> $Bottom : Integer
 Function set Bottom($Bottom : Integer)
 ```
 
+Returns the bottom coordinate of the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -206,6 +220,8 @@ Function get CornerRadius -> Integer
 Function set CornerRadius($CornerRadius : Integer)
 ```
 
+Returns the corner radius of the form object in pixels
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -223,6 +239,8 @@ Function set CornerRadius($CornerRadius : Integer)
 Function get DisplayFormat -> Text
 Function set DisplayFormat($DisplayFormat : Variant)
 ```
+
+Returns the display format of the form object
 
 **Setter Parameter:**
 
@@ -282,6 +300,8 @@ Function get Font -> Text
 Function set Font($Font : Text)
 ```
 
+Returns the font name of the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -299,6 +319,8 @@ Function set Font($Font : Text)
 Function get FontSize -> Integer
 Function set FontSize($FontSize : Integer)
 ```
+
+Returns the font size of the form object
 
 **Setter Parameter:**
 
@@ -337,6 +359,8 @@ Returns the form object's foreground (text) color
 Function get HasFocus -> Boolean
 ```
 
+Returns whether this form object currently has keyboard focus
+
 **Returns:** `Boolean`
 
 ---
@@ -348,6 +372,8 @@ Function get HasFocus -> Boolean
 Function get Height -> Integer
 Function set Height($Height : Integer)
 ```
+
+Returns the height of the form object (calculated from coordinates)
 
 **Setter Parameter:**
 
@@ -367,6 +393,8 @@ Function get HelpTip -> Text
 Function set HelpTip($HelpTip : Text)
 ```
 
+Returns the help tip (tooltip) text of the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -384,6 +412,8 @@ Function set HelpTip($HelpTip : Text)
 Function get HorizontalScrollPosition -> $HorizontalScrollPosition : Integer
 Function set HorizontalScrollPosition($HorizontalScrollPosition : Integer)
 ```
+
+Returns the horizontal scroll position of the form object
 
 **Setter Parameter:**
 
@@ -403,6 +433,8 @@ Function get Italic -> Boolean
 Function set Italic($Italic : Boolean)
 ```
 
+Returns whether italic styling is applied to the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -420,6 +452,8 @@ Function set Italic($Italic : Boolean)
 Function get Left -> $Left : Integer
 Function set Left($Left : Integer)
 ```
+
+Returns the left coordinate of the form object
 
 **Setter Parameter:**
 
@@ -479,6 +513,8 @@ Function get Multiline -> Boolean
 Function set Multiline($Multiline : Boolean)
 ```
 
+Returns whether multiline mode is enabled for the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -497,6 +533,8 @@ Function get PlaceholderText -> Text
 Function set PlaceholderText($PlaceholderText : Text)
 ```
 
+Returns the placeholder text of the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -514,6 +552,8 @@ Function set PlaceholderText($PlaceholderText : Text)
 Function get Pointer -> Pointer
 ```
 
+Returns a pointer to the form object's variable
+
 **Returns:** `Pointer`
 
 ---
@@ -525,6 +565,8 @@ Function get Pointer -> Pointer
 Function get Right -> $Right : Integer
 Function set Right($Right : Integer)
 ```
+
+Returns the right coordinate of the form object
 
 **Setter Parameter:**
 
@@ -564,6 +606,8 @@ Function get Top -> $Top : Integer
 Function set Top($Top : Integer)
 ```
 
+Returns the top coordinate of the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -582,6 +626,8 @@ Function get Underline -> Boolean
 Function set Underline($Underline : Boolean)
 ```
 
+Returns whether underline styling is applied to the form object
+
 **Setter Parameter:**
 
 | Name | Type | Description |
@@ -599,6 +645,8 @@ Function set Underline($Underline : Boolean)
 Function get VerticalScrollPosition -> $VerticalScrollPosition : Integer
 Function set VerticalScrollPosition($VerticalScrollPosition : Integer)
 ```
+
+Returns the vertical scroll position of the form object
 
 **Setter Parameter:**
 
@@ -637,6 +685,8 @@ Returns whether the form object is visible
 Function get Width -> Integer
 Function set Width($Width : Integer)
 ```
+
+Returns the width of the form object (calculated from coordinates)
 
 **Setter Parameter:**
 

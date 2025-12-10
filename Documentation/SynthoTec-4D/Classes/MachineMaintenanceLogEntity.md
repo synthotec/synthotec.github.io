@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:49.307Z*
+🕐 *Last updated: 2025-12-10T11:45:23.239Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function get TimeStamp -> Text
 ```
 
+Returns ISO timestamp string combining maintenance date and time
+
 **Returns:** `Text`
 
 ---
@@ -45,6 +47,8 @@ Function get TimeStamp -> Text
 ```4d
 Function get TimeStampWithTab -> Text
 ```
+
+Returns timestamp with tab separator instead of T, truncated based on whether time is midnight
 
 **Returns:** `Text`
 

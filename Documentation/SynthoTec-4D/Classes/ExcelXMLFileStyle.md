@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new Excel cell style with default font settings
 
-🕐 *Last updated: 2025-11-20T14:23:48.968Z*
+🕐 *Last updated: 2025-12-10T11:45:22.920Z*
 
 ---
 

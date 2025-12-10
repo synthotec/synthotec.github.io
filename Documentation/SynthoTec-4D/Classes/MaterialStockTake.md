@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:49.393Z*
+🕐 *Last updated: 2025-12-10T11:45:23.317Z*
 
 ---
 
@@ -38,6 +38,8 @@ parent : Classes
 Function getLastStockTakeDate -> Date
 ```
 
+Returns the date of the most recent primary stock take
+
 **Returns:** `Date`
 
 ---
@@ -48,6 +50,8 @@ Function getLastStockTakeDate -> Date
 ```4d
 Function getLastStockTakeAmount($MaterialID : Integer) -> Real
 ```
+
+Returns total amount in Kg for a specific material from the last primary stock take
 
 **Parameters:**
 
@@ -66,6 +70,8 @@ Function getLastStockTakeAmount($MaterialID : Integer) -> Real
 Function getLastStockTakeSelection -> cs.MaterialStockTakeSelection
 ```
 
+Returns entity selection of all primary stock take entries from the most recent stock take date
+
 **Returns:** `cs.MaterialStockTakeSelection`
 
 ---
@@ -76,6 +82,8 @@ Function getLastStockTakeSelection -> cs.MaterialStockTakeSelection
 ```4d
 Function restViewResults($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to display stock take results for current date in mobile warehouse app
 
 **Parameters:**
 
@@ -93,6 +101,8 @@ Function restViewResults($RestPostDataObject : Object) -> Object
 ```4d
 Function restRemoveEntry($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to remove a stock take entry after confirmation in mobile app
 
 **Parameters:**
 

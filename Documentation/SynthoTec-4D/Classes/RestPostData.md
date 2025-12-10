@@ -5,15 +5,19 @@ parent : Classes
 ---
 # RestPostData [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/RestPostData.4dm)
 
-📊 **Overview:** 2 Properties | 1 Constructor | 5 Functions
+📊 **Overview:** 4 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:50.497Z*
+## 📝 Description
+
+Creates REST post data handler from object containing JSON strings and staff ID
+
+🕐 *Last updated: 2025-12-10T11:45:24.252Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#properties)
+- [📋 Properties (4)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -29,8 +33,10 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `RestPostJson; ScannerData; PromptResult` | `Text` | - | - |
-| `StaffID` | `Integer` | - | - |
+| `RestPostJson` | `Text` | - | JSON string from REST POST request |
+| `ScannerData` | `Text` | - | Raw scanner input data |
+| `PromptResult` | `Text` | - | Result from user prompt dialog |
+| `StaffID` | `Integer` | - | ID of staff member associated with request |
 
 ## Constructor {#constructor}
 
@@ -40,6 +46,8 @@ parent : Classes
 ```4d
 Class constructor($RestPostDataObject : Object)
 ```
+
+Creates REST post data handler from object containing JSON strings and staff ID
 
 **Parameters:**
 
@@ -60,6 +68,8 @@ Class constructor($RestPostDataObject : Object)
 Function getStaffEntity -> cs.StaffEntity
 ```
 
+Returns the staff entity associated with this request
+
 **Returns:** `cs.StaffEntity`
 
 ---
@@ -70,6 +80,8 @@ Function getStaffEntity -> cs.StaffEntity
 ```4d
 Function getScannerObject -> Object
 ```
+
+Parses and returns scanner data as object, returns Null on parse error
 
 **Returns:** `Object`
 
@@ -82,6 +94,8 @@ Function getScannerObject -> Object
 Function getScannerText -> Text
 ```
 
+Returns the raw scanner data text
+
 **Returns:** `Text`
 
 ---
@@ -93,6 +107,8 @@ Function getScannerText -> Text
 Function getRestPostObject -> Object
 ```
 
+Parses and returns REST POST JSON as object, returns Null on parse error
+
 **Returns:** `Object`
 
 ---
@@ -103,6 +119,8 @@ Function getRestPostObject -> Object
 ```4d
 Function toObject -> Object
 ```
+
+Converts this object to a plain object suitable for serialization
 
 **Returns:** `Object`
 

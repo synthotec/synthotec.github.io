@@ -11,7 +11,7 @@ parent : Classes
 
 Creates example object with initial inventory count
 
-🕐 *Last updated: 2025-11-20T14:23:48.920Z*
+🕐 *Last updated: 2025-12-10T11:45:22.861Z*
 
 ---
 

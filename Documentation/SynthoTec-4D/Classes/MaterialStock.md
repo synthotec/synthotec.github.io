@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:49.369Z*
+🕐 *Last updated: 2025-12-10T11:45:23.288Z*
 
 ---
 
@@ -36,6 +36,8 @@ parent : Classes
 Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint to load material stock details in warehouse mobile app, with location assignment options
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -52,6 +54,8 @@ Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
 ```4d
 Function restUpdateQuantity($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to update quantity of a material stock record via mobile app prompt
 
 **Parameters:**
 

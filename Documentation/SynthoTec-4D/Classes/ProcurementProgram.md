@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-20T14:23:49.979Z*
+🕐 *Last updated: 2025-12-10T11:45:23.820Z*
 
 ---
 
@@ -28,16 +28,16 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Lines` | `Collection` | - | - |
-| `ItemNumberIndex` | *Not specified* | `-1` | - |
-| `StatusIndex` | *Not specified* | `-1` | - |
-| `QuantityIndex` | *Not specified* | `-1` | - |
-| `DueDateIndex` | *Not specified* | `-1` | - |
-| `ItemDescriptionIndex` | *Not specified* | `-1` | - |
-| `VmiIndex` | *Not specified* | `-1` | - |
-| `WarehouseIndex` | *Not specified* | `-1` | - |
-| `ErrorOccurred` | `Boolean` | - | - |
-| `ds` | *Not specified* | `DataStore(0)` | - |
+| `Lines` | `Collection` | - | Collection of cs.ProcurementProgramLine objects parsed from clipboard data |
+| `ItemNumberIndex` | *Not specified* | `-1` | Column index for item number in tab-delimited input |
+| `StatusIndex` | *Not specified* | `-1` | Column index for order status (FORECAST/BACKLOG/order number) in input |
+| `QuantityIndex` | *Not specified* | `-1` | Column index for quantity in input |
+| `DueDateIndex` | *Not specified* | `-1` | Column index for due date in input |
+| `ItemDescriptionIndex` | *Not specified* | `-1` | Column index for item description in input |
+| `VmiIndex` | *Not specified* | `-1` | Column index for VMI (Vendor Managed Inventory) flag in input |
+| `WarehouseIndex` | *Not specified* | `-1` | Column index for warehouse location code in input |
+| `ErrorOccurred` | `Boolean` | - | True if parsing failed due to missing columns or invalid format |
+| `ds` | *Not specified* | `DataStore(0)` | Reference to main datastore |
 
 ## Constructor {#constructor}
 
@@ -47,6 +47,8 @@ parent : Classes
 ```4d
 Class constructor($ClipboardText : Text)
 ```
+
+Parses tab-delimited procurement program data from clipboard and creates ProcurementProgramLine objects for each row
 
 **Parameters:**
 
@@ -67,6 +69,8 @@ Class constructor($ClipboardText : Text)
 Function process
 ```
 
+Processes all procurement program lines by executing assigned actions (create orders, create forecasts, update orders, etc.)
+
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
@@ -78,6 +82,8 @@ Function process
 Function get AllLinesActioned -> Boolean
 ```
 
+Returns true if all lines in the procurement program have an action assigned
+
 **Returns:** `Boolean`
 
 ---
@@ -88,6 +94,8 @@ Function get AllLinesActioned -> Boolean
 ```4d
 Function get UnactionedLines -> Collection
 ```
+
+Returns collection of ProcurementProgramLine objects that have no action assigned
 
 **Returns:** `Collection`
 

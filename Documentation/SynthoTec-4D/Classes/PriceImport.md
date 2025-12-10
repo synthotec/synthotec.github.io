@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 4 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:49.857Z*
+## 📝 Description
+
+Imports tabular data from clipboard, prompting user to identify if first line contains headers
+
+🕐 *Last updated: 2025-12-10T11:45:23.750Z*
 
 ---
 
@@ -25,10 +29,10 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `PasteBoardText` | `Text` | - | - |
-| `ColumnNames` | *Not specified* | `[]` | - |
-| `DataLines` | *Not specified* | `[]` | - |
-| `CellCollection` | *Not specified* | `[]` | - |
+| `PasteBoardText` | `Text` | - | Raw text from clipboard containing tabular data |
+| `ColumnNames` | *Not specified* | `[]` | Collection of column header names |
+| `DataLines` | *Not specified* | `[]` | Collection of data rows split by line breaks |
+| `CellCollection` | *Not specified* | `[]` | Collection of parsed cell objects |
 
 ## Constructor {#constructor}
 
@@ -38,6 +42,8 @@ parent : Classes
 ```4d
 Class constructor
 ```
+
+Imports tabular data from clipboard, prompting user to identify if first line contains headers
 
 ---
 
@@ -51,6 +57,8 @@ Class constructor
 ```4d
 Function importPrices -> $Result : Object
 ```
+
+Parses clipboard data into collection of objects with column names as keys
 
 **Returns:** `Object`
 

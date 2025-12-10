@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new parameter metadata object with the specified name and type
 
-🕐 *Last updated: 2025-11-20T14:23:48.698Z*
+🕐 *Last updated: 2025-12-10T11:45:22.438Z*
 
 ---
 

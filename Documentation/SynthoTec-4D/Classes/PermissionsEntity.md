@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:49.677Z*
+🕐 *Last updated: 2025-12-10T11:45:23.576Z*
 
 ---
 
@@ -80,6 +80,7 @@ Function displayWarning($StaffEntity : cs.StaffEntity)
 - [ShiftSummaries](../Forms/ShiftSummaries.md) - Data source for ShiftSummaries form
 - [ToolDocuments](../Forms/ToolDocuments.md) - Data source for ToolDocuments form
 - [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
+- [Schedule_Planner](../Forms/Schedule_Planner.md) - Data source for Schedule_Planner form
 
 ---
 

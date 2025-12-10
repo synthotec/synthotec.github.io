@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:49.379Z*
+🕐 *Last updated: 2025-12-10T11:45:23.301Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getStockListBoxObject -> Object
 ```
+
+Returns object with stock data formatted for warehouse listbox display
 
 **Returns:** `Object`
 

@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new class function metadata object with the specified function name
 
-🕐 *Last updated: 2025-11-20T14:23:48.694Z*
+🕐 *Last updated: 2025-12-10T11:45:22.432Z*
 
 ---
 

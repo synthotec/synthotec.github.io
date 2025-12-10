@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 4 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:49.142Z*
+## 📝 Description
+
+Create a new HTTP request with GitHub API headers and authentication
+
+🕐 *Last updated: 2025-12-10T11:45:23.106Z*
 
 ---
 
@@ -32,6 +36,8 @@ parent : Classes
 Class constructor
 ```
 
+Initialize GitHub API wrapper for repository operations
+
 ---
 
 ## Functions {#functions}
@@ -44,6 +50,8 @@ Class constructor
 ```4d
 Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTPRequest
 ```
+
+Create a new HTTP request with GitHub API headers and authentication
 
 **Parameters:**
 
@@ -64,6 +72,8 @@ Function newHttpRequest($Url : Text; $Method : Text; $Body : Variant) -> 4D.HTTP
 Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Object
 ```
 
+Create a new GitHub issue with title, body, and optional labels
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -83,6 +93,8 @@ Function createIssue($Title : Text; $Body : Text; $Labels : Collection) -> Objec
 Function getIssues($Label : Text) -> Collection
 ```
 
+Retrieve all GitHub issues, optionally filtered by label
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -99,6 +111,8 @@ Function getIssues($Label : Text) -> Collection
 ```4d
 Function onError($HttpRequest : 4D.HTTPRequest; $Event : Object)
 ```
+
+Handle HTTP request errors (callback function)
 
 **Parameters:**
 

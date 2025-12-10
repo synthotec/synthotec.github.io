@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:49.418Z*
+## 📝 Description
+
+Creates a new menu with optional collection of text items that return their index when selected
+
+🕐 *Last updated: 2025-12-10T11:45:23.331Z*
 
 ---
 
@@ -31,12 +35,12 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_MenuItems` | `Collection` | - | - |
-| `_MenuReference` | `Text` | - | - |
-| `_SubMenu` | `Boolean` | - | - |
-| `_SubMenuText` | `Text` | - | - |
-| `_MenuItemCollection` | `Collection` | - | - |
-| `Cancelled` | `Boolean` | - | - |
+| `_MenuItems` | `Collection` | - | Collection of MenuItem and submenu objects |
+| `_MenuReference` | `Text` | - | 4D menu reference handle |
+| `_SubMenu` | `Boolean` | - | True if this menu is a submenu of another |
+| `_SubMenuText` | `Text` | - | Display text when this is a submenu |
+| `_MenuItemCollection` | `Collection` | - | Flattened collection of all menu items including submenus |
+| `Cancelled` | `Boolean` | - | True if user cancelled menu selection |
 
 ## Constructor {#constructor}
 
@@ -46,6 +50,8 @@ parent : Classes
 ```4d
 Class constructor($BasicMenuItems : Collection)
 ```
+
+Creates a new menu with optional collection of text items that return their index when selected
 
 **Parameters:**
 
@@ -66,6 +72,8 @@ Class constructor($BasicMenuItems : Collection)
 Function addSeperator
 ```
 
+Adds a separator line to the menu (ignored if menu is empty)
+
 ---
 
 #### addVariantItem {#addvariantitem}
@@ -74,6 +82,8 @@ Function addSeperator
 ```4d
 Function addVariantItem($MenuText : Text; $Variant : Variant) -> $MenuItem : cs.MenuItem
 ```
+
+Adds a menu item that returns a specified variant value when selected
 
 **Parameters:**
 
@@ -93,6 +103,8 @@ Function addVariantItem($MenuText : Text; $Variant : Variant) -> $MenuItem : cs.
 Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> $MenuItem : cs.MenuItem
 ```
 
+Adds a menu item that executes a formula or formula set when selected
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -111,6 +123,8 @@ Function addFormulaItem($MenuText : Text; $FormulaOrFormulaSet : Variant) -> $Me
 Function addSubMenu($SubMenuText : Text) -> $Menu : cs.Menu
 ```
 
+Adds a submenu with the specified text, returns the new submenu for further item additions
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -128,6 +142,8 @@ Function addSubMenu($SubMenuText : Text) -> $Menu : cs.Menu
 Function show -> $FormulaResult : Variant
 ```
 
+Displays the menu and returns the result from the selected item, sets Cancelled if dismissed
+
 **Returns:** `Variant`
 
 ---
@@ -138,6 +154,8 @@ Function show -> $FormulaResult : Variant
 ```4d
 Function _addMenuItems($ParentMenuReference : Text)
 ```
+
+Internal method to build 4D menu structure from menu items, handling submenus recursively
 
 **Parameters:**
 
@@ -153,6 +171,8 @@ Function _addMenuItems($ParentMenuReference : Text)
 ```4d
 Function _release
 ```
+
+Releases menu resources, recursively releasing all submenus
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:50.176Z*
+🕐 *Last updated: 2025-12-10T11:45:24.012Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.Product_OptionEntity) -> $Collection : Collection
 ```
 
+Returns collection of entity migration rules defining which fields to overwrite/fill and related entities to sync
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.Product_OptionEntity) -> $Collecti
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.Product_OptionEntity)
 ```
+
+Synchronizes related entity selections during migration (currently commented out/not implemented)
 
 **Parameters:**
 

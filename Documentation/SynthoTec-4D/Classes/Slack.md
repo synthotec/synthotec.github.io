@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 7 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:50.668Z*
+## 📝 Description
+
+Creates Slack integration for the specified channel, creating it if it doesn't exist
+
+🕐 *Last updated: 2025-12-10T11:45:24.337Z*
 
 ---
 
@@ -31,7 +35,7 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `ChannelID` | `Text` | - | - |
+| `ChannelID` | `Text` | - | Slack channel ID for posting messages |
 
 ## Constructor {#constructor}
 
@@ -41,6 +45,8 @@ parent : Classes
 ```4d
 Class constructor($ChannelName : Text)
 ```
+
+Creates Slack integration for the specified channel, creating it if it doesn't exist
 
 **Parameters:**
 
@@ -61,6 +67,8 @@ Class constructor($ChannelName : Text)
 Function newHttpRequest($Url : Text; $Options : Object) -> 4D.HTTPRequest
 ```
 
+Creates HTTP request with Slack authorization header
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -79,6 +87,8 @@ Function newHttpRequest($Url : Text; $Options : Object) -> 4D.HTTPRequest
 Function createChannel($ChannelName : Text) -> Text
 ```
 
+Creates a new Slack channel and returns its channel ID
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -96,6 +106,8 @@ Function createChannel($ChannelName : Text) -> Text
 Function setChannelID($ChannelName : Text) -> Boolean
 ```
 
+Finds and sets the channel ID for the specified channel name, returns false if not found
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -112,6 +124,8 @@ Function setChannelID($ChannelName : Text) -> Boolean
 ```4d
 Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> $BlocksCollection : Collection
 ```
+
+Converts text and collections into Slack block format for rich message formatting
 
 **Parameters:**
 
@@ -131,6 +145,8 @@ Function convertBlocks($HeaderText : Text; $Blocks : Collection) -> $BlocksColle
 Function createMessage($HeaderText : Text; $Blocks : Collection) -> $MessageTimeStamp : Text
 ```
 
+Posts a new message to the Slack channel, returns message timestamp for future updates
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -148,6 +164,8 @@ Function createMessage($HeaderText : Text; $Blocks : Collection) -> $MessageTime
 ```4d
 Function updateMessage($MessageTimeStamp : Text; $text : Text; $Blocks : Collection) -> Boolean
 ```
+
+Updates an existing Slack message by timestamp, returns success status
 
 **Parameters:**
 
@@ -167,6 +185,8 @@ Function updateMessage($MessageTimeStamp : Text; $text : Text; $Blocks : Collect
 ```4d
 Function deleteMessage($MessageTimeStamp : Text) -> Boolean
 ```
+
+Deletes a Slack message by timestamp, returns success status
 
 **Parameters:**
 

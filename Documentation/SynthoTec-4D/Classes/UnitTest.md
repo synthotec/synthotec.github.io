@@ -5,15 +5,19 @@ parent : Classes
 ---
 # UnitTest [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/UnitTest.4dm)
 
-📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions | 1 Getters
+📊 **Overview:** 4 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-20T14:23:51.001Z*
+## 📝 Description
+
+Creates a new unit test suite with the specified description
+
+🕐 *Last updated: 2025-12-10T11:45:24.547Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (3)](#properties)
+- [📋 Properties (4)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -28,9 +32,10 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Description; Process` | `Text` | - | - |
-| `UnitTestResults` | `Collection` | - | - |
-| `FailedTestCount` | `Integer` | - | - |
+| `Description` | `Text` | - | Description of the unit test suite |
+| `Process` | `Text` | - | Name of the process running the test |
+| `UnitTestResults` | `Collection` | - | Collection of individual test results |
+| `FailedTestCount` | `Integer` | - | Count of tests that failed |
 
 ## Constructor {#constructor}
 
@@ -40,6 +45,8 @@ parent : Classes
 ```4d
 Class constructor($Description : Text)
 ```
+
+Creates a new unit test suite with the specified description
 
 **Parameters:**
 
@@ -60,6 +67,8 @@ Class constructor($Description : Text)
 Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collection) -> $UnitTestResult : cs._UnitTestResult
 ```
 
+Executes a test formula with parameters and records the result
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -78,6 +87,8 @@ Function evaluate($TestFormula : 4D.Function; $TestFormulaParameters : Collectio
 Function displayResultsAlert
 ```
 
+Displays an alert with test results summary and details for each test
+
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
@@ -88,6 +99,8 @@ Function displayResultsAlert
 ```4d
 Function get Success -> Boolean
 ```
+
+Returns true if all tests passed, false if any failed, Null if no tests run
 
 **Returns:** `Boolean`
 

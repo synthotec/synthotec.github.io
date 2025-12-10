@@ -11,7 +11,7 @@ parent : Classes
 
 Adds a cell to this row with value, type, style ID, and optional formula
 
-🕐 *Last updated: 2025-11-20T14:23:48.956Z*
+🕐 *Last updated: 2025-12-10T11:45:22.910Z*
 
 ---
 

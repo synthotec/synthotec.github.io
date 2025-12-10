@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:50.908Z*
+🕐 *Last updated: 2025-12-10T11:45:24.503Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getByWorksOrder($WorksOrder : Integer) -> cs.ToolTemperatureTargetSelection
 ```
 
+Returns temperature targets for zones configured on the machine running the specified works order
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getByWorksOrder($WorksOrder : Integer) -> cs.ToolTemperatureTargetSelec
 ```4d
 Function getMigrationSettings -> Object
 ```
+
+Returns configuration for entity migration, linking is disabled for this table
 
 **Returns:** `Object`
 

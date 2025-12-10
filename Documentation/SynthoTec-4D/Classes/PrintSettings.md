@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:49.952Z*
+## 📝 Description
+
+Creates print settings object with optional default values, optionally using system default printer
+
+🕐 *Last updated: 2025-12-10T11:45:23.804Z*
 
 ---
 
@@ -29,11 +33,11 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Name` | `Text` | - | - |
-| `Paper` | `Text` | - | - |
-| `Orientation` | `Integer` | - | - |
-| `Copies` | `Integer` | - | - |
-| `CurrentPrinter` | `Text` | - | - |
+| `Name` | `Text` | - | Name of the printer to use |
+| `Paper` | `Text` | - | Paper size/format name |
+| `Orientation` | `Integer` | - | Page orientation: 1=Portrait, 2=Landscape |
+| `Copies` | `Integer` | - | Number of copies to print |
+| `CurrentPrinter` | `Text` | - | Name of printer that was active before applying settings |
 
 ## Constructor {#constructor}
 
@@ -43,6 +47,8 @@ parent : Classes
 ```4d
 Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : Integer; $Orientation : Integer)
 ```
+
+Creates print settings object with optional default values, optionally using system default printer
 
 **Parameters:**
 
@@ -66,6 +72,8 @@ Class constructor($UseSystemDefaultPrinter : Boolean; $Paper : Text; $Copies : I
 Function display -> $Accepted : Boolean
 ```
 
+Displays a dialog for user to select printer settings, returns true if accepted
+
 **Returns:** `Boolean`
 
 ---
@@ -76,6 +84,8 @@ Function display -> $Accepted : Boolean
 ```4d
 Function load($SettingName : Text; $LoadCopyCount : Boolean) -> cs.PrintSettings
 ```
+
+Loads print settings from user-specific settings storage, optionally including copy count
 
 **Parameters:**
 
@@ -95,6 +105,8 @@ Function load($SettingName : Text; $LoadCopyCount : Boolean) -> cs.PrintSettings
 Function save($SettingName : Text) -> cs.PrintSettings
 ```
 
+Saves current print settings to user-specific settings storage
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -112,6 +124,8 @@ Function save($SettingName : Text) -> cs.PrintSettings
 Function apply -> $Success : Boolean
 ```
 
+Applies these print settings to 4D print system, saves current printer for restoration
+
 **Returns:** `Boolean`
 
 ---
@@ -122,6 +136,8 @@ Function apply -> $Success : Boolean
 ```4d
 Function restore -> $Success : Boolean
 ```
+
+Restores the printer that was active before apply() was called
 
 **Returns:** `Boolean`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:49.264Z*
+🕐 *Last updated: 2025-12-10T11:45:23.180Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
 ```
 
+Returns LocationEntity from scanner object if it contains a valid location barcode, otherwise Null
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -53,6 +55,8 @@ Function getUsingScanner($ScannerObject : Object) -> cs.LocationEntity
 ```4d
 Function newLocation($ParentLocationEntity : cs.LocationEntity) -> $LocationEntity : cs.LocationEntity
 ```
+
+Creates a new location with user-entered name, optionally under a parent location
 
 **Parameters:**
 
@@ -71,6 +75,8 @@ Function newLocation($ParentLocationEntity : cs.LocationEntity) -> $LocationEnti
 Function restClearStockLocation($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint to clear location assignment from a pallet or material stock record
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -87,6 +93,8 @@ Function restClearStockLocation($RestPostDataObject : Object) -> Object
 ```4d
 Function restSetStockLocation($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to assign a location to a pallet or material stock record using scanner or manual selection
 
 **Parameters:**
 

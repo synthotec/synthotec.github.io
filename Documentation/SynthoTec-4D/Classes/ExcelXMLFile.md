@@ -11,7 +11,7 @@ parent : Classes
 
 Converts a 4D selection-based listbox to Excel rows with styled cells matching listbox appearance
 
-🕐 *Last updated: 2025-11-20T14:23:48.951Z*
+🕐 *Last updated: 2025-12-10T11:45:22.894Z*
 
 ---
 

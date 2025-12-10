@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a collection wrapper for UI dropdowns with optional placeholder text
 
-🕐 *Last updated: 2025-11-20T14:23:48.719Z*
+🕐 *Last updated: 2025-12-10T11:45:22.462Z*
 
 ---
 
@@ -86,6 +86,8 @@ Returns the internal collection object containing values, index, and currentValu
 Function SetIndex($index : Integer)
 ```
 
+Sets the current selected index in the collection
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -101,6 +103,8 @@ Function SetIndex($index : Integer)
 Function GetIndex -> $index : Integer
 ```
 
+Returns the current selected index in the collection
+
 **Returns:** `Integer`
 
 ---
@@ -111,6 +115,8 @@ Function GetIndex -> $index : Integer
 ```4d
 Function SetPlaceholder($placeHolderText : Text)
 ```
+
+Resets selection to placeholder state with specified text
 
 **Parameters:**
 
@@ -127,6 +133,8 @@ Function SetPlaceholder($placeHolderText : Text)
 Function AppendValue($value : Variant)
 ```
 
+Adds a new value to the collection without primary key or entity
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -141,6 +149,8 @@ Function AppendValue($value : Variant)
 ```4d
 Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
 ```
+
+Adds a new value to the collection with associated primary key
 
 **Parameters:**
 
@@ -158,6 +168,8 @@ Function AppendValueWithPrimaryKey($value : Variant; $primaryKey : Integer)
 Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
 ```
 
+Adds a new value to the collection with associated entity reference
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -174,6 +186,8 @@ Function AppendValueWithEntity($value : Variant; $entity : 4D.Entity)
 Function GetCurrentValue -> $currentValue : Variant
 ```
 
+Returns the currently selected value from the collection
+
 **Returns:** `Variant`
 
 ---
@@ -185,6 +199,8 @@ Function GetCurrentValue -> $currentValue : Variant
 Function GetCurrentPrimaryKey -> $currentPrimaryKey : Integer
 ```
 
+Returns the primary key associated with the currently selected item
+
 **Returns:** `Integer`
 
 ---
@@ -195,6 +211,8 @@ Function GetCurrentPrimaryKey -> $currentPrimaryKey : Integer
 ```4d
 Function GetCurrentEntity -> $currentEntity : 4D.Entity
 ```
+
+Returns the entity associated with the currently selected item
 
 **Returns:** `4D.Entity`
 

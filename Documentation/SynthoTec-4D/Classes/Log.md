@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:49.298Z*
+🕐 *Last updated: 2025-12-10T11:45:23.227Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function record($Message : Text; $RecordMessage : Boolean)
 ```
 
+Records a log message with timestamp and process info, optionally can be disabled with $RecordMessage=False
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -50,6 +52,8 @@ Function record($Message : Text; $RecordMessage : Boolean)
 ```4d
 Function trim
 ```
+
+Deletes old log entries to keep total log size within configured limit (default 10000 entries)
 
 ---
 

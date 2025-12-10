@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 6 Properties | 1 Constructor | 1 Functions | 2 Getters
 
-🕐 *Last updated: 2025-11-20T14:23:50.257Z*
+## 📝 Description
+
+Creates query event handler from 4D query event object for custom query processing
+
+🕐 *Last updated: 2025-12-10T11:45:24.050Z*
 
 ---
 
@@ -28,12 +32,12 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `value` | `Variant` | - | - |
-| `operator` | `Text` | - | - |
-| `eventKind` | `Text` | - | - |
-| `attributeName` | `Text` | - | - |
-| `dataClassName` | `Text` | - | - |
-| `QueryEventObject` | `Object` | - | - |
+| `value` | `Variant` | - | Value being compared in the query |
+| `operator` | `Text` | - | Comparison operator (==, !=, <, >, etc.) |
+| `eventKind` | `Text` | - | Type of query event |
+| `attributeName` | `Text` | - | Name of the attribute being queried |
+| `dataClassName` | `Text` | - | Name of the dataclass being queried |
+| `QueryEventObject` | `Object` | - | Original query event object from 4D |
 
 ## Constructor {#constructor}
 
@@ -43,6 +47,8 @@ parent : Classes
 ```4d
 Class constructor($QueryEventObject : Object)
 ```
+
+Creates query event handler from 4D query event object for custom query processing
 
 **Parameters:**
 
@@ -63,6 +69,8 @@ Class constructor($QueryEventObject : Object)
 Function setResult($QueryText : Text; $QueryParameters : Collection)
 ```
 
+Sets the query result with custom query text and parameters
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -81,6 +89,8 @@ Function setResult($QueryText : Text; $QueryParameters : Collection)
 Function get booleanResult -> Variant
 ```
 
+Returns the boolean result for equality/inequality operators, Null if not boolean comparison
+
 **Returns:** `Variant`
 
 ---
@@ -91,6 +101,8 @@ Function get booleanResult -> Variant
 ```4d
 Function get valueType -> Integer
 ```
+
+Returns the 4D value type of the query comparison value
 
 **Returns:** `Integer`
 

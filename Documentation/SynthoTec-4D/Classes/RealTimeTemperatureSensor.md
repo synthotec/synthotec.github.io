@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 5 Properties | 1 Constructor | 2 Getters
 
-🕐 *Last updated: 2025-11-20T14:23:50.479Z*
+## 📝 Description
+
+Creates temperature sensor object from sensor data, linking to tool temperature target if configured
+
+🕐 *Last updated: 2025-12-10T11:45:24.244Z*
 
 ---
 
@@ -26,11 +30,11 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `Index` | `Integer` | - | - |
-| `Zone` | `Integer` | - | - |
-| `CelsiusValue` | `Real` | - | - |
-| `_WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
-| `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - | - |
+| `Index` | `Integer` | - | Sensor index number |
+| `Zone` | `Integer` | - | Temperature zone ID this sensor monitors |
+| `CelsiusValue` | `Real` | - | Current temperature reading in Celsius |
+| `_WorksOrderEntity` | `cs.WorksOrderEntity` | - | Works order this sensor is monitoring |
+| `ToolTemperatureTargetEntity` | `cs.ToolTemperatureTargetEntity` | - | Target temperature range for this zone, can be Null if not configured |
 
 ## Constructor {#constructor}
 
@@ -40,6 +44,8 @@ parent : Classes
 ```4d
 Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObject : Object)
 ```
+
+Creates temperature sensor object from sensor data, linking to tool temperature target if configured
 
 **Parameters:**
 
@@ -61,6 +67,8 @@ Class constructor($WorksOrderEntity : cs.WorksOrderEntity; $TemperatureSensorObj
 Function get InRange -> Boolean
 ```
 
+Returns true if temperature is within target range, Null if no target configured
+
 **Returns:** `Boolean`
 
 ---
@@ -71,6 +79,8 @@ Function get InRange -> Boolean
 ```4d
 Function get ZoneName -> Text
 ```
+
+Returns the name of the temperature zone from ToolTemperatureZone table
 
 **Returns:** `Text`
 

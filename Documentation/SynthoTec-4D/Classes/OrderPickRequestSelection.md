@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-11-20T14:23:49.466Z*
+🕐 *Last updated: 2025-12-10T11:45:23.371Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getUnprocessedQuantity -> Integer
 ```
+
+Returns total quantity from all unprocessed pick requests in this selection
 
 **Returns:** `Integer`
 

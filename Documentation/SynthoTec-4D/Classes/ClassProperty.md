@@ -11,7 +11,7 @@ parent : Classes
 
 Creates metadata for a class property with name and type
 
-🕐 *Last updated: 2025-11-20T14:23:48.704Z*
+🕐 *Last updated: 2025-12-10T11:45:22.445Z*
 
 ---
 

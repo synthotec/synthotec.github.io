@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:49.173Z*
+🕐 *Last updated: 2025-12-10T11:45:23.120Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.GrippersEntity) -> $Collection : Collection
 ```
 
+Define migration rules for syncing gripper data from remote entity
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.GrippersEntity) -> $Collection : C
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.GrippersEntity)
 ```
+
+Synchronize related entity selections during migration
 
 **Parameters:**
 

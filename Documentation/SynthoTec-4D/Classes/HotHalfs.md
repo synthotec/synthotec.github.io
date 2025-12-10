@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:49.177Z*
+🕐 *Last updated: 2025-12-10T11:45:23.124Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getMigrationSettings -> Object
 ```
+
+Return migration settings for HotHalfs table (linking disabled)
 
 **Returns:** `Object`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:50.822Z*
+🕐 *Last updated: 2025-12-10T11:45:24.456Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function create($ToolsEntity : cs.ToolsEntity) -> $ToolNoticeEntity : cs.ToolNoticeEntity
 ```
+
+Creates a new tool notice or production hold through UI entry form, returns created entity or Null if cancelled
 
 **Parameters:**
 

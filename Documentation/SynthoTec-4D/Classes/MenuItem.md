@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 12 Properties | 1 Constructor | 2 Functions | 1 Getters
 
-🕐 *Last updated: 2025-11-20T14:23:49.435Z*
+## 📝 Description
+
+Creates a new menu item with the specified display text and default styling
+
+🕐 *Last updated: 2025-12-10T11:45:23.344Z*
 
 ---
 
@@ -28,18 +32,18 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `_UUID` | `Text` | - | - |
-| `_IsFormulaItem` | `Boolean` | - | - |
-| `_Formula` | `Variant` | - | - |
-| `_IsVariantItem` | `Boolean` | - | - |
-| `_Variant` | `Variant` | - | - |
-| `MenuText` | `Text` | - | - |
-| `Bold` | `Boolean` | - | - |
-| `Italic` | `Boolean` | - | - |
-| `Underline` | `Boolean` | - | - |
-| `Checked` | `Boolean` | - | - |
-| `Enabled` | `Boolean` | - | - |
-| `_IsSeperator` | `Boolean` | - | - |
+| `_UUID` | `Text` | - | Unique identifier for this menu item |
+| `_IsFormulaItem` | `Boolean` | - | True if this item executes a formula when selected |
+| `_Formula` | `Variant` | - | Formula or FormulaSet to execute on selection |
+| `_IsVariantItem` | `Boolean` | - | True if this item returns a variant value when selected |
+| `_Variant` | `Variant` | - | Value to return when item is selected |
+| `MenuText` | `Text` | - | Display text for the menu item |
+| `Bold` | `Boolean` | - | Apply bold styling to menu text |
+| `Italic` | `Boolean` | - | Apply italic styling to menu text |
+| `Underline` | `Boolean` | - | Apply underline styling to menu text |
+| `Checked` | `Boolean` | - | Display checkmark next to menu item |
+| `Enabled` | `Boolean` | - | Enable/disable menu item selection |
+| `_IsSeperator` | `Boolean` | - | True if this is a separator line |
 
 ## Constructor {#constructor}
 
@@ -49,6 +53,8 @@ parent : Classes
 ```4d
 Class constructor($MenuText : Text)
 ```
+
+Creates a new menu item with the specified display text and default styling
 
 **Parameters:**
 
@@ -69,6 +75,8 @@ Class constructor($MenuText : Text)
 Function _addMenuItem($MenuReference : Text)
 ```
 
+Adds this menu item to the specified menu reference with all styling and properties
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -84,6 +92,8 @@ Function _addMenuItem($MenuReference : Text)
 Function _process -> Variant
 ```
 
+Processes menu item selection by returning variant value or executing formula
+
 **Returns:** `Variant`
 
 ---
@@ -96,6 +106,8 @@ Function _process -> Variant
 ```4d
 Function get _Style -> Integer
 ```
+
+Returns combined style flags for 4D menu: 1=Bold, 2=Italic, 4=Underline
 
 **Returns:** `Integer`
 

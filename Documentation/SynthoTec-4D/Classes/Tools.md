@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-11-20T14:23:50.860Z*
+🕐 *Last updated: 2025-12-10T11:45:24.474Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationSettings -> Object
 ```
 
+Returns configuration for entity migration including linking settings and remote datastore selection
+
 **Returns:** `Object`
 
 ---
@@ -45,6 +47,8 @@ Function getMigrationSettings -> Object
 ```4d
 Function createForProduct -> cs.ToolsEntity
 ```
+
+Creates a new tool and product option through UI entry form, linking to an existing product
 
 **Returns:** `cs.ToolsEntity`
 

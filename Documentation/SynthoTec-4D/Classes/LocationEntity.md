@@ -5,11 +5,11 @@ parent : Classes
 ---
 # LocationEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/LocationEntity.4dm)
 
-📊 **Overview:** 5 Functions | 5 Getters
+📊 **Overview:** 6 Functions | 6 Getters
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:49.285Z*
+🕐 *Last updated: 2025-12-10T11:45:23.208Z*
 
 ---
 
@@ -22,8 +22,10 @@ parent : Classes
     - [printLabel](#printlabel) (1 param) 🖥️
     - [generateQR](#generateqr) → `Picture` 🖥️
     - [getStockListboxCollection](#getstocklistboxcollection) → `$StockListboxCollection : Collection` 🖥️
+    - [removeLocation](#removelocation) → `Boolean` 🖥️
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [DisplayName](#displayname) 🔍 → `Text`
+    - [HasStock](#hasstock) 🔍 → `Boolean`
     - [Level](#level) 🔍 → `Integer`
     - [ListBoxDisplayName](#listboxdisplayname) 🔍 → `Text`
     - [ListboxMetaExpression](#listboxmetaexpression) 🔍 → `Object`
@@ -44,6 +46,8 @@ parent : Classes
 Function CheckRelated($LocationID : Text) -> Boolean
 ```
 
+Returns true if specified LocationID exists anywhere in this location's parent hierarchy
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -61,6 +65,8 @@ Function CheckRelated($LocationID : Text) -> Boolean
 Function printQRSheet($PageSize : Text; $ShowPrintSettings : Boolean)
 ```
 
+Prints a QR code sheet for this location using specified page size
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -77,6 +83,8 @@ Function printQRSheet($PageSize : Text; $ShowPrintSettings : Boolean)
 Function printLabel($ShowPrintSettings : Boolean)
 ```
 
+Prints a location barcode label with QR code
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -92,6 +100,8 @@ Function printLabel($ShowPrintSettings : Boolean)
 Function generateQR -> Picture
 ```
 
+Generates QR code picture containing location barcode data as JSON
+
 **Returns:** `Picture`
 
 ---
@@ -103,7 +113,22 @@ Function generateQR -> Picture
 Function getStockListboxCollection -> $StockListboxCollection : Collection
 ```
 
+Returns collection of stock listbox objects for all pallets and material stock at this location
+
 **Returns:** `Collection`
+
+---
+
+#### removeLocation {#removelocation}
+ `[🖥️ local]`
+
+```4d
+Function removeLocation -> Boolean
+```
+
+Deletes this location after validation (no sub-locations, no stock, user confirmation), returns success status
+
+**Returns:** `Boolean`
 
 ---
 
@@ -116,7 +141,22 @@ Function getStockListboxCollection -> $StockListboxCollection : Collection
 Function get DisplayName -> $DisplayName : Text
 ```
 
+Returns full location path with » separators (e.g., "Warehouse » Aisle 1 » Shelf A")
+
 **Returns:** `Text`
+
+---
+
+#### HasStock {#hasstock}
+ `[🔍 get only]`
+
+```4d
+Function get HasStock -> Boolean
+```
+
+Returns true if location has any pallets or material stock assigned to it
+
+**Returns:** `Boolean`
 
 ---
 
@@ -126,6 +166,8 @@ Function get DisplayName -> $DisplayName : Text
 ```4d
 Function get Level -> $Level : Integer
 ```
+
+Returns hierarchy depth level (0=root, 1=first level, etc.)
 
 **Returns:** `Integer`
 
@@ -138,6 +180,8 @@ Function get Level -> $Level : Integer
 Function get ListBoxDisplayName -> $ListBoxDisplayName : Text
 ```
 
+Returns location name indented with tabs based on hierarchy level for listbox display
+
 **Returns:** `Text`
 
 ---
@@ -149,6 +193,8 @@ Function get ListBoxDisplayName -> $ListBoxDisplayName : Text
 Function get ListboxMetaExpression -> $ListboxMetaExpression : Object
 ```
 
+Returns styling object for listbox row (font weight, background color based on hierarchy level)
+
 **Returns:** `Object`
 
 ---
@@ -159,6 +205,8 @@ Function get ListboxMetaExpression -> $ListboxMetaExpression : Object
 ```4d
 Function get SortOrder -> $SortOrder : Text
 ```
+
+Returns tab-delimited hierarchy path for sorting locations in tree structure
 
 **Returns:** `Text`
 

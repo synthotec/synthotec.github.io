@@ -11,7 +11,7 @@ parent : Classes
 
 Initializes migration manager for a specific dataclass with optional remote selection for linking
 
-🕐 *Last updated: 2025-11-20T14:23:48.861Z*
+🕐 *Last updated: 2025-12-10T11:45:22.750Z*
 
 ---
 
@@ -104,7 +104,7 @@ Synchronizes local entity with remote entity, applying migration rules to update
 Function _functionsExistChecks
 ```
 
-Development helper to verify required migration functions exist on entity classes
+Development helper to verify required migration functions exist on entity classes (currently inactive)
 
 ---
 

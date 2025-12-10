@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-11-20T14:23:50.842Z*
+🕐 *Last updated: 2025-12-10T11:45:24.464Z*
 
 ---
 
@@ -39,6 +39,8 @@ parent : Classes
 Function displayWorkOrders
 ```
 
+Displays list of works orders started while this tool notice was active
+
 ---
 
 #### deactivate {#deactivate}
@@ -47,6 +49,8 @@ Function displayWorkOrders
 ```4d
 Function deactivate
 ```
+
+Deactivates this tool notice after permission check, locking, and user confirmation
 
 ---
 
@@ -70,6 +74,8 @@ Function get ActiveUntilText -> Text
 Function get IsActive -> Boolean
 ```
 
+Returns true if notice is active and has remaining runs (or unlimited runs with RunsActiveFor=-1)
+
 **Returns:** `Boolean`
 
 ---
@@ -80,6 +86,8 @@ Function get IsActive -> Boolean
 ```4d
 Function get RemainingRuns -> Integer
 ```
+
+Returns number of remaining work orders before notice expires, 0 if unlimited (RunsActiveFor=-1)
 
 **Returns:** `Integer`
 

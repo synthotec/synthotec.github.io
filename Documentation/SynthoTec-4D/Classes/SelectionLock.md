@@ -5,15 +5,19 @@ parent : Classes
 ---
 # SelectionLock [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/SelectionLock.4dm)
 
-📊 **Overview:** 2 Properties | 1 Constructor | 2 Functions
+📊 **Overview:** 3 Properties | 1 Constructor | 2 Functions
 
-🕐 *Last updated: 2025-11-20T14:23:50.566Z*
+## 📝 Description
+
+Attempts to lock all entities in provided entity selections, optionally unlocking all on failure
+
+🕐 *Last updated: 2025-12-10T11:45:24.285Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (2)](#properties)
+- [📋 Properties (3)](#properties)
 - [🏗️ Constructor](#constructor) (2 params)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
@@ -26,8 +30,9 @@ parent : Classes
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `LockedEntityCollection; FailedLockObjectCollection` | `Collection` | - | - |
-| `Success` | `Boolean` | - | - |
+| `LockedEntityCollection` | `Collection` | - | Collection of successfully locked entities |
+| `FailedLockObjectCollection` | `Collection` | - | Collection of lock failure objects with entity references |
+| `Success` | `Boolean` | - | True if all entities locked successfully |
 
 ## Constructor {#constructor}
 
@@ -37,6 +42,8 @@ parent : Classes
 ```4d
 Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Boolean)
 ```
+
+Attempts to lock all entities in provided entity selections, optionally unlocking all on failure
 
 **Parameters:**
 
@@ -58,6 +65,8 @@ Class constructor($EntitySelectionCollection : Collection; $UnlockOnError : Bool
 Function displayAlert($Unlock : Boolean; $DisplayForAllEntities : Boolean)
 ```
 
+Displays alert for each failed lock, optionally unlocking all locked entities first
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -73,6 +82,8 @@ Function displayAlert($Unlock : Boolean; $DisplayForAllEntities : Boolean)
 ```4d
 Function unlock
 ```
+
+Unlocks all successfully locked entities in the collection
 
 ---
 

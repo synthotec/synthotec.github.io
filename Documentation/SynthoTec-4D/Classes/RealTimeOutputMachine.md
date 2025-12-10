@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-MARK:Primary Colors
+Creates real-time output object for displaying machine status on dashboard, calculates colors and metrics
 
-🕐 *Last updated: 2025-11-20T14:23:50.417Z*
+🕐 *Last updated: 2025-12-10T11:45:24.149Z*
 
 ---
 
@@ -51,16 +51,16 @@ MARK:Primary Colors
 
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
-| `RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | - |
-| `WorksOrderEntity` | `cs.WorksOrderEntity` | - | - |
-| `ProductEntity` | `cs.ProductEntity` | - | - |
-| `ToolsEntity` | `cs.ToolsEntity` | - | - |
-| `DownReasonsEntity` | `cs.DownReasonsEntity` | - | - |
-| `AverageCycleTime` | `Real` | - | - |
-| `RunningSlow` | `Boolean` | - | - |
-| `MachineWheelsEntity` | `cs.MachineWheelsEntity` | - | - |
-| `QuantityMade` | `Integer` | - | - |
-| `QuantityScrapped` | `Integer` | - | - |
+| `RealTimeMachinesEntity` | `cs.RealTimeMachinesEntity` | - | Machine being monitored |
+| `WorksOrderEntity` | `cs.WorksOrderEntity` | - | Current works order on machine, can be Null if no order active |
+| `ProductEntity` | `cs.ProductEntity` | - | Product being manufactured, Null if no order active |
+| `ToolsEntity` | `cs.ToolsEntity` | - | Tool being used, Null if no order active |
+| `DownReasonsEntity` | `cs.DownReasonsEntity` | - | Current downtime reason if machine stopped, otherwise Null |
+| `AverageCycleTime` | `Real` | - | Average cycle time over recent cycles in seconds |
+| `RunningSlow` | `Boolean` | - | True if average cycle time exceeds tool's target cycle time |
+| `MachineWheelsEntity` | `cs.MachineWheelsEntity` | - | Machine wheel/priority configuration |
+| `QuantityMade` | `Integer` | - | Total quantity produced on current works order |
+| `QuantityScrapped` | `Integer` | - | Total quantity scrapped on current works order |
 
 ## Constructor {#constructor}
 
@@ -70,6 +70,8 @@ MARK:Primary Colors
 ```4d
 Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 ```
+
+Creates real-time output object for displaying machine status on dashboard, calculates colors and metrics
 
 **Parameters:**
 
@@ -90,7 +92,7 @@ Class constructor($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 Function ProcessColors
 ```
 
-MARK:Primary Colors
+Determines background and foreground colors for machine display based on machine state, downtime, temperature exceptions, etc.
 
 ---
 
@@ -304,6 +306,8 @@ Function get ScrapText -> Text
 ```4d
 Function get SecondaryStatusText -> $DateTimeObject : Object
 ```
+
+Returns object with status text template and datetime for secondary status line (e.g., last activity, temperature exceptions)
 
 **Returns:** `Object`
 
