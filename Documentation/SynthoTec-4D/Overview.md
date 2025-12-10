@@ -34,7 +34,7 @@ xychart-beta
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
     y-axis "Count" 0 --> 721
     bar [152, 721, 183, 152]
-    bar [0, 379, 183, 0]
+    bar [98, 379, 183, 98]
 ```
 
 ### Forms Documentation
