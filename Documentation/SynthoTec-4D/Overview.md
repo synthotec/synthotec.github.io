@@ -67,10 +67,10 @@ xychart-beta
 
 ### Summary Statistics
 
-| Entity Type | Total | Fully Documented | Partially Documented | Not Started | Avg Completion |
+| Entity Type | Total | Fully Documented | Partially Documented | Not Started |
 |-------------|-------|------------------|----------------------|-------------|----------------|
-| Classes | 152 | 78 | 69 | 0 | 79.1% |
-| Forms | 156 | 17 | 139 | 0 | 30.9% |
-| Tables | 129 | 1 | 128 | 0 | 50.4% |
-| **Total** | **437** | **141** | **296** | **0** | - |
+| Classes | 152 | 98 | 54 | 0 |
+| Forms | 156 | 17 | 139 | 0 |
+| Tables | 129 | 26 | 103 | 0 |
+| **Total** | **437** | **141** | **296** | **0** |
 
