@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SynthoTec-4D
+title: Overview
 parent: SynthoTec 4D
 nav_order: 1
 ---
@@ -11,16 +11,16 @@ A comprehensive manufacturing ERP system for injection molding operations. Manag
 
 ## Documentation Progress
 
-**Last Updated**: 2025-12-04T00:00:00Z2025-12-04T15:51:01.028Z
+**Last Updated**: 2025-12-10T00:00:00Z2025-12-10T11:45:28.091Z
 
 ### Overall Completion Status
 
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'pieStrokeColor': '#ffffff', 'pieStrokeWidth': '2px', 'primaryColor': '#f59e0b', 'primaryTextColor': '#fff', 'primaryBorderColor': '#000', 'secondaryColor': '#10b981', 'secondaryTextColor': '#fff', 'secondaryBorderColor': '#000', 'tertiaryColor': '#6b7280', 'tertiaryTextColor': '#fff', 'tertiaryBorderColor': '#000'}}}%%
 pie showData title Documentation Completion Status
-    "Fully Documented" : 81
-    "Partially Documented" : 208
-    "Not Started" : 4
+    "Fully Documented" : 96
+    "Partially Documented" : 197
+    "Not Started" : 0
 ```
 
 ### Classes Documentation
@@ -34,7 +34,7 @@ xychart-beta
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
     y-axis "Count" 0 --> 721
     bar [152, 721, 183, 152]
-    bar [0, 313, 140, 0]
+    bar [0, 379, 183, 0]
 ```
 
 ### Forms Documentation
@@ -69,8 +69,8 @@ xychart-beta
 
 | Entity Type | Total | Fully Documented | Partially Documented | Not Started | Avg Completion |
 |-------------|-------|------------------|----------------------|-------------|----------------|
-| Classes | 152 | 63 | 80 | 4 | 71.9% |
+| Classes | 152 | 78 | 69 | 0 | 79.1% |
 | Forms | 156 | 17 | 139 | 0 | 30.9% |
 | Tables | 129 | 1 | 128 | 0 | 50.4% |
-| **Total** | **437** | **81** | **208** | **4** | - |
+| **Total** | **437** | **96** | **197** | **0** | - |
 
