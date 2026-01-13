@@ -11,30 +11,30 @@ A comprehensive manufacturing ERP system for injection molding operations. Manag
 
 ## Documentation Progress
 
-**Last Updated**: 2025-12-10T00:00:00Z2025-12-10T12:03:29.452Z
+**Last Updated**: 2026-01-13T00:00:00Z2026-01-13T16:04:13.848Z
 
 ### Overall Completion Status
 
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'pieStrokeColor': '#ffffff', 'pieStrokeWidth': '2px', 'primaryColor': '#f59e0b', 'primaryTextColor': '#fff', 'primaryBorderColor': '#000', 'secondaryColor': '#10b981', 'secondaryTextColor': '#fff', 'secondaryBorderColor': '#000', 'tertiaryColor': '#6b7280', 'tertiaryTextColor': '#fff', 'tertiaryBorderColor': '#000'}}}%%
 pie showData title Documentation Completion Status
-    "Fully Documented" : 141
-    "Partially Documented" : 296
+    "Fully Documented" : 166
+    "Partially Documented" : 268
     "Not Started" : 0
 ```
 
 ### Classes Documentation
 
-Total Classes: **152**
+Total Classes: **154**
 
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'xyChart': {'backgroundColor': 'transparent', 'plotColorPalette': '#6b7280, #10b981'}}}}%%
 xychart-beta
     title "Classes Documentation Metrics"
     x-axis ["Descriptions", "Functions", "Properties", "Examples"]
-    y-axis "Count" 0 --> 721
-    bar [152, 721, 183, 152]
-    bar [98, 379, 183, 98]
+    y-axis "Count" 0 --> 723
+    bar [154, 723, 183, 154]
+    bar [0, 717, 183, 0]
 ```
 
 ### Forms Documentation
@@ -67,10 +67,10 @@ xychart-beta
 
 ### Summary Statistics
 
-| Entity Type | Total | Fully Documented | Partially Documented | Not Started |
+| Entity Type | Total | Fully Documented | Partially Documented | Not Started | Avg Completion |
 |-------------|-------|------------------|----------------------|-------------|----------------|
-| Classes | 152 | 98 | 54 | 0 |
-| Forms | 156 | 17 | 139 | 0 |
-| Tables | 129 | 26 | 103 | 0 |
-| **Total** | **437** | **141** | **296** | **0** |
+| Classes | 154 | 148 | 1 | 0 | 99.9% |
+| Forms | 156 | 17 | 139 | 0 | 30.9% |
+| Tables | 129 | 1 | 128 | 0 | 50.4% |
+| **Total** | **439** | **166** | **268** | **0** | - |
 
