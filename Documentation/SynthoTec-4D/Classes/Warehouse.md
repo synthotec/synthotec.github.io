@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.573Z*
+🕐 *Last updated: 2026-01-13T16:04:13.746Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 Function restExecutePromptFormula($RestPostDataObject : Object) -> Object
 ```
 
+Displays a prompt dialog for user input and executes a formula on the result; returns WarehouseViewData with optional redirect
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -57,6 +59,8 @@ Function restExecutePromptFormula($RestPostDataObject : Object) -> Object
 ```4d
 Function restExecuteFormula($RestPostDataObject : Object) -> Object
 ```
+
+Executes a formula with provided parameters and context; returns WarehouseViewData with optional alert or redirect
 
 **Parameters:**
 
@@ -75,6 +79,8 @@ Function restExecuteFormula($RestPostDataObject : Object) -> Object
 Function restTest($RestPostDataObject : Object) -> Object
 ```
 
+Test REST endpoint displaying a prompt dialog and showing test data; used for development/debugging
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -92,7 +98,7 @@ Function restTest($RestPostDataObject : Object) -> Object
 Function restStartPage($RestPostDataObject : Object) -> Object
 ```
 
-var $Name : Text
+Displays the warehouse app start page with initial UI and scanner setup; entry point for warehouse workflows
 
 **Parameters:**
 
@@ -111,6 +117,8 @@ var $Name : Text
 Function restInitialScan($RestPostDataObject : Object) -> Object
 ```
 
+Routes scanned barcode to appropriate handler (BoxLabel, Pallet, MaterialStock) or prompts to rescan if invalid
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -127,6 +135,8 @@ Function restInitialScan($RestPostDataObject : Object) -> Object
 ```4d
 Function restDisplayPrinterList($RestPostDataObject : Object) -> Object
 ```
+
+Displays UI to select active label printer from available label printers in system; updates user settings
 
 **Parameters:**
 
@@ -145,6 +155,8 @@ Function restDisplayPrinterList($RestPostDataObject : Object) -> Object
 Function restSetLabelPrinter($RestPostDataObject : Object) -> Object
 ```
 
+Sets the active label printer for the current staff member; confirms selection and returns to start page
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -161,6 +173,8 @@ Function restSetLabelPrinter($RestPostDataObject : Object) -> Object
 ```4d
 Function restScanTest($RestPostDataObject : Object) -> Object
 ```
+
+Test endpoint for scanner functionality; returns mock data and enables scanner for testing
 
 **Parameters:**
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.090Z*
+🕐 *Last updated: 2026-01-13T16:04:13.102Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 Function checkTempZoneExists($Zone : Integer) -> Boolean
 ```
 
+Returns true if the specified temperature zone is configured on this machine
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -60,6 +62,8 @@ Function checkTempZoneExists($Zone : Integer) -> Boolean
 Function get AssignedTemperatureSensorsPresent -> Boolean
 ```
 
+Returns true if all assigned temperature sensors are present in the last cycle sensor data
+
 **Returns:** `Boolean`
 
 ---
@@ -70,6 +74,8 @@ Function get AssignedTemperatureSensorsPresent -> Boolean
 ```4d
 Function get Changing -> Boolean
 ```
+
+Returns true if machine is idle/changing (no active works order)
 
 **Returns:** `Boolean`
 
@@ -82,6 +88,8 @@ Function get Changing -> Boolean
 Function get TemperatureSensorsInstalled -> Boolean
 ```
 
+Returns true if temperature sensors are configured and have zones defined
+
 **Returns:** `Boolean`
 
 ---
@@ -92,6 +100,8 @@ Function get TemperatureSensorsInstalled -> Boolean
 ```4d
 Function get UniChar -> Text
 ```
+
+Returns the emoji character for the currently running product, or empty string if idle
 
 **Returns:** `Text`
 
@@ -104,6 +114,8 @@ Function get UniChar -> Text
 Function get WorksOrder -> Integer
 ```
 
+Returns the currently running works order number, or 0 if no active order
+
 **Returns:** `Integer`
 
 ---
@@ -114,6 +126,8 @@ Function get WorksOrder -> Integer
 ```4d
 Function get WorksOrderEntity -> cs.WorksOrderEntity
 ```
+
+Returns the currently running works order entity for this machine, or null if idle or multiple active
 
 **Returns:** `cs.WorksOrderEntity`
 

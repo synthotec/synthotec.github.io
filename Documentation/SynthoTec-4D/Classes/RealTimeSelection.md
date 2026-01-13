@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:24.219Z*
+🕐 *Last updated: 2026-01-13T16:04:13.255Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getTemperatureSensors -> $TemperatureSensors : Collection
 ```
 
+Collects all temperature sensors from all RealTime entities in the selection
+
 **Returns:** `Collection`
 
 ---
@@ -45,6 +47,8 @@ Function getTemperatureSensors -> $TemperatureSensors : Collection
 ```4d
 Function getTemperatureSensorZones -> $TemperatureSensorZones : Collection
 ```
+
+Returns a collection of unique temperature sensor zones and indices from all sensors in the selection
 
 **Returns:** `Collection`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.252Z*
+🕐 *Last updated: 2026-01-13T16:04:12.107Z*
 
 ---
 
@@ -38,6 +38,8 @@ parent : Classes
 Function getMaterialsUsingThis -> cs.MaterialSelection
 ```
 
+Returns collection of materials that use this material as a usage/component material in slots 1, 2, or 3
+
 **Returns:** `cs.MaterialSelection`
 
 ---
@@ -49,7 +51,7 @@ Function getMaterialsUsingThis -> cs.MaterialSelection
 Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> $Collection : Collection
 ```
 
-////////////////////////////////////////////////////////////////////////////////////////
+Returns collection of EntityMigrationRule objects defining how to merge this material with remote during sync
 
 **Parameters:**
 
@@ -68,6 +70,8 @@ Function getMigrationRules($RemoteEntity : cs.MaterialEntity) -> $Collection : C
 Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
 ```
 
+Synchronizes related selections (Product_Option, BOM, UsageMat selections) after material entity merge
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -84,6 +88,8 @@ Function syncMigrationSelections($RemoteEntity : cs.MaterialEntity)
 ```4d
 Function get HasMigrationID -> Boolean
 ```
+
+Returns true if material has valid migration ID (greater than 0); indicates entity was involved in sync operation
 
 **Returns:** `Boolean`
 

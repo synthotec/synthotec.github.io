@@ -11,7 +11,7 @@ parent : Classes
 
 Converts a 4D selection-based listbox to Excel rows with styled cells matching listbox appearance
 
-🕐 *Last updated: 2025-12-10T11:45:22.894Z*
+🕐 *Last updated: 2026-01-13T16:04:11.704Z*
 
 ---
 
@@ -84,6 +84,8 @@ Converts a 4D selection-based listbox to Excel rows with styled cells matching l
 Function setFreezePanes($RowsAbove : Integer; $RowsToLeft : Integer)
 ```
 
+Sets freeze panes for worksheet; rows above and columns to left will remain visible when scrolling
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -99,6 +101,8 @@ Function setFreezePanes($RowsAbove : Integer; $RowsToLeft : Integer)
 ```4d
 Function addColumn($Width : Real; $Span : Integer)
 ```
+
+Adds a column definition to the worksheet with optional width and span; used to define column layout
 
 **Parameters:**
 
@@ -116,6 +120,8 @@ Function addColumn($Width : Real; $Span : Integer)
 Function addRow($ExcelXMLFileRow : cs.ExcelXMLFileRow)
 ```
 
+Adds a row of cells to the worksheet; stores row object for later generation to Excel XML
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -130,6 +136,8 @@ Function addRow($ExcelXMLFileRow : cs.ExcelXMLFileRow)
 ```4d
 Function addStyle($NewExcelXMLFileStyle : cs.ExcelXMLFileStyle) -> Text
 ```
+
+Adds a cell style to the worksheet; deduplicates identical styles and returns unique style ID for cell reference
 
 **Parameters:**
 
@@ -148,6 +156,8 @@ Function addStyle($NewExcelXMLFileStyle : cs.ExcelXMLFileStyle) -> Text
 Function saveToClipboard($FileNameWithoutExtension : Text; $ShowAlert : Boolean)
 ```
 
+Generates Excel XML, saves to temporary file, copies to clipboard; displays optional alert with instructions
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -163,6 +173,8 @@ Function saveToClipboard($FileNameWithoutExtension : Text; $ShowAlert : Boolean)
 ```4d
 Function generate
 ```
+
+Generates complete Excel XML file content from rows, columns, and styles; creates valid XML Spreadsheet format
 
 ---
 

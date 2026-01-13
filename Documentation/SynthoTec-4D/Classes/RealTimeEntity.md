@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.080Z*
+🕐 *Last updated: 2026-01-13T16:04:13.087Z*
 
 ---
 
@@ -38,7 +38,7 @@ parent : Classes
 Function getTemperatureSensors -> $TemperatureSensors : Collection
 ```
 
-Returns a collection of cs.RealTimeTemperatureSensor
+Returns collection of RealTimeTemperatureSensor objects parsed from sensor data; empty collection if no sensor data available
 
 **Returns:** `Collection`
 
@@ -53,6 +53,8 @@ Returns a collection of cs.RealTimeTemperatureSensor
 Function get EndDateTime -> cs.System.DateTime
 ```
 
+Returns end date-time as System.DateTime object for cycle record; combines end date and end time properties
+
 **Returns:** `cs.System.DateTime`
 
 ---
@@ -64,6 +66,8 @@ Function get EndDateTime -> cs.System.DateTime
 Function get MouldOpenTime -> Real
 ```
 
+Returns time in seconds that mould was open during this cycle (total cycle time minus mould closed time)
+
 **Returns:** `Real`
 
 ---
@@ -74,6 +78,8 @@ Function get MouldOpenTime -> Real
 ```4d
 Function get StartTime -> Time
 ```
+
+Returns start time of cycle; calculates by subtracting cycle time from end time; returns 00:00:00 if result negative
 
 **Returns:** `Time`
 

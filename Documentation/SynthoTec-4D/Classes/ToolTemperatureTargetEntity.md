@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.515Z*
+🕐 *Last updated: 2026-01-13T16:04:13.663Z*
 
 ---
 
@@ -53,6 +53,8 @@ Prompts user to select zone (if new) and set target/min/max temperatures for thi
 Function getMigrationRules($RemoteEntity : cs.ToolTemperatureTargetEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing tool temperature target with remote entity (overwrites temps, maps Tool/Zone/Staff)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -69,6 +71,8 @@ Function getMigrationRules($RemoteEntity : cs.ToolTemperatureTargetEntity) -> $C
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureTargetEntity)
 ```
+
+Syncs migration selections for this tool temperature target with remote entity during data migration
 
 **Parameters:**
 

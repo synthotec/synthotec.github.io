@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Sets default action flags based on line type (forecast, backlog, new order, existing order, etc.)
+Returns true if any action flag is set for this line
 
-🕐 *Last updated: 2025-12-10T11:45:23.864Z*
+🕐 *Last updated: 2026-01-13T16:04:12.811Z*
 
 ---
 
@@ -164,6 +164,8 @@ Returns warehouse code with customer code appended in format "NTN (123)", or jus
 Function setAction
 ```
 
+Displays menu for user to set action (Create/Close/Update/Ignore) or copy item number based on line type
+
 ---
 
 #### _setActions {#_setactions}
@@ -172,6 +174,8 @@ Function setAction
 ```4d
 Function _setActions($ActiveActionProperty : Text)
 ```
+
+Clears all action flags, then sets specified action flag if parameter provided; used for exclusive action selection
 
 **Parameters:**
 
@@ -188,6 +192,8 @@ Function _setActions($ActiveActionProperty : Text)
 Function _copyItemNumber
 ```
 
+Copies item number to clipboard and displays confirmation dialog with option to open Product Price Options screen
+
 ---
 
 #### _setActionIgnore {#_setactionignore}
@@ -196,6 +202,8 @@ Function _copyItemNumber
 ```4d
 Function _setActionIgnore($IgnoreForAllOrders : Boolean)
 ```
+
+Sets ignore action flag; if parameter false, only ignores this line; otherwise ignores all matching orders
 
 **Parameters:**
 
@@ -269,6 +277,8 @@ Function process_CloseOrder
 ```4d
 Function get ActionText->$ActionText -> Text
 ```
+
+Returns action display text based on selected action (Create/Close/Update/Ignore or "Click to set action")
 
 **Returns:** `Text`
 
@@ -372,6 +382,8 @@ Returns true if product exists but no matching customer order found
 Function get Meta->$Meta -> cs.UI.ListBoxMeta
 ```
 
+Returns listbox display metadata with colored backgrounds for status, action, and order details
+
 **Returns:** `cs.UI.ListBoxMeta`
 
 ---
@@ -396,6 +408,8 @@ Returns batch number in format "YYYY-MM-DD" for grouping orders
 Function get OurPartName -> Text
 ```
 
+Returns our part name from product if product found; otherwise returns item description from program
+
 **Returns:** `Text`
 
 ---
@@ -406,6 +420,8 @@ Function get OurPartName -> Text
 ```4d
 Function get StatusText->$StatusText -> Text
 ```
+
+Returns status display text for line (Forecast, Backlog, New Order, Existing Order, Item Missing, or Removed from Program)
 
 **Returns:** `Text`
 

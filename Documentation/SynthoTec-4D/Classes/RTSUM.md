@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.273Z*
+🕐 *Last updated: 2026-01-13T16:04:13.322Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function generate($StartDate : Date; $EndDate : Date; $SelectedWorksOrder : Integer)
 ```
+
+Generates real-time summary records for specified date range and works orders
 
 **Parameters:**
 

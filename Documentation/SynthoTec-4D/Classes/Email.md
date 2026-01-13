@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new email with the specified subject and HTML body
 
-🕐 *Last updated: 2025-12-10T11:45:22.710Z*
+🕐 *Last updated: 2026-01-13T16:04:11.478Z*
 
 ---
 

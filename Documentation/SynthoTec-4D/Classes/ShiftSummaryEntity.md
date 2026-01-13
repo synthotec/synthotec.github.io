@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.321Z*
+🕐 *Last updated: 2026-01-13T16:04:13.393Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
 ```
 
+Returns the previous shift summary (closest one by ID) before this shift
+
 **Returns:** `cs.ShiftSummaryEntity`
 
 ---
@@ -50,6 +52,8 @@ Function getPreviousShiftSummaryEntity -> cs.ShiftSummaryEntity
 Function get ShiftColor -> Integer
 ```
 
+Returns color representing shift time (dark gray=night, golden yellow=morning, light sky blue=afternoon)
+
 **Returns:** `Integer`
 
 ---
@@ -60,6 +64,8 @@ Function get ShiftColor -> Integer
 ```4d
 Function get ShiftSymbol -> Text
 ```
+
+Returns emoji symbol representing shift time (🌙 night, 🐓 morning, ☀️ afternoon)
 
 **Returns:** `Text`
 

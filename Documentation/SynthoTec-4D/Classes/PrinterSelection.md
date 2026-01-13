@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:23.785Z*
+🕐 *Last updated: 2026-01-13T16:04:12.705Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getLabelPrinters -> $PrinterSelection : cs.PrinterSelection
 ```
+
+Returns a filtered selection of only label printers
 
 **Returns:** `cs.PrinterSelection`
 

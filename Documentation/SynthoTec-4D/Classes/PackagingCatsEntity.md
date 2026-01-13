@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.387Z*
+🕐 *Last updated: 2026-01-13T16:04:12.229Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.PackagingCatsEntity) -> $Collection : Collection
 ```
 
+Returns collection of EntityMigrationRule objects defining how to merge packaging category with remote during sync
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -52,7 +54,7 @@ Function getMigrationRules($RemoteEntity : cs.PackagingCatsEntity) -> $Collectio
 Function syncMigrationSelections($RemoteEntity : cs.PackagingCatsEntity)
 ```
 
-var $EntityMigration:=cs.EntityMigration.new(ds.Supplies; $RemoteEntity.SuppliesSelection)
+Synchronizes related Supplies selection after packaging category entity merge
 
 **Parameters:**
 

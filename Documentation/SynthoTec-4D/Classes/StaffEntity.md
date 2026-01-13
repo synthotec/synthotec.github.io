@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.356Z*
+🕐 *Last updated: 2026-01-13T16:04:13.446Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> $HasPermission : Boolean
 ```
 
+Checks if this staff member has the specified permission; optionally displays a warning if denied
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -54,6 +56,8 @@ Function permissionCheck($PermissionName : Text; $DisplayWarning : Boolean) -> $
 ```4d
 Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> $Success : Boolean
 ```
+
+Copies all permissions from another staff member to this staff member within a transaction
 
 **Parameters:**
 
@@ -73,6 +77,8 @@ Function copyPermissionsFrom($StaffEntity : cs.StaffEntity) -> $Success : Boolea
 ```4d
 Function get FullName -> Text
 ```
+
+Returns the full name of the staff member by combining first and last names
 
 **Returns:** `Text`
 

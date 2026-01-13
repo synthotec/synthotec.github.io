@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.775Z*
+🕐 *Last updated: 2026-01-13T16:04:12.691Z*
 
 ---
 
@@ -44,6 +44,8 @@ parent : Classes
 Function getLabelPaperOptions -> Collection
 ```
 
+Returns a collection of label paper options with 709x291 dimensions from printer options
+
 **Returns:** `Collection`
 
 ---
@@ -55,6 +57,8 @@ Function getLabelPaperOptions -> Collection
 Function updateOptions
 ```
 
+Reads printer paper and source options from system and updates the printer's configuration
+
 ---
 
 #### printJobs {#printjobs}
@@ -64,6 +68,8 @@ Function updateOptions
 Function printJobs
 ```
 
+Prints all pending print jobs for this printer, grouped by paper type
+
 ---
 
 #### setCurrent {#setcurrent}
@@ -72,6 +78,8 @@ Function printJobs
 ```4d
 Function setCurrent -> $Success : Boolean
 ```
+
+Sets this printer as the current printer for printing operations
 
 **Returns:** `Boolean`
 
@@ -84,6 +92,8 @@ Function setCurrent -> $Success : Boolean
 Function setDefault
 ```
 
+Sets this printer as the default printer (currently incomplete)
+
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
@@ -94,6 +104,8 @@ Function setDefault
 ```4d
 Function get isDocumentPrinter -> Boolean
 ```
+
+Returns true if printer type is set to Document
 
 **Returns:** `Boolean`
 
@@ -106,6 +118,8 @@ Function get isDocumentPrinter -> Boolean
 Function get isLabelPrinter -> Boolean
 ```
 
+Returns true if printer type is set to Label
+
 **Returns:** `Boolean`
 
 ---
@@ -116,6 +130,8 @@ Function get isLabelPrinter -> Boolean
 ```4d
 Function get LabelPaperName -> Text
 ```
+
+Returns the name of the first available label paper option, or empty string if none
 
 **Returns:** `Text`
 
@@ -128,6 +144,8 @@ Function get LabelPaperName -> Text
 Function get LabelPrinter -> Boolean
 ```
 
+Returns true if this printer has label paper options configured
+
 **Returns:** `Boolean`
 
 ---
@@ -138,6 +156,8 @@ Function get LabelPrinter -> Boolean
 ```4d
 Function get TypeDisplay -> Text
 ```
+
+Returns a human-readable display string for the printer type
 
 **Returns:** `Text`
 

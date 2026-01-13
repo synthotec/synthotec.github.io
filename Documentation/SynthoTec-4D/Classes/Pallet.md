@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.488Z*
+🕐 *Last updated: 2026-01-13T16:04:12.342Z*
 
 ---
 
@@ -48,6 +48,8 @@ parent : Classes
 Function getMigrationSettings -> Object
 ```
 
+Returns migration settings for Pallet dataclass: disables linking and preserves ID during entity sync
+
 **Returns:** `Object`
 
 ---
@@ -59,7 +61,7 @@ Function getMigrationSettings -> Object
 Function getAvailableToPick($ProductEntity : cs.ProductEntity) -> cs.PalletSelection
 ```
 
-return This.query("Verified=True && Location IN :1 && OrderPickRequestEntity=Null && ProductEntity.ID=:2"; ds.Stock_Location.query("DespatchLocation=True").ID; $ProductEntity.ID)
+Returns pallets of specified product available for picking: verified, in despatch location, not yet assigned to pick request
 
 **Parameters:**
 
@@ -77,6 +79,8 @@ return This.query("Verified=True && Location IN :1 && OrderPickRequestEntity=Nul
 ```4d
 Function getUsingScanner($ScannerObject : Object; $ScannerText : Text) -> cs.PalletEntity
 ```
+
+Retrieves pallet entity from scanner input: either ScannerObject with PalletID or parsed barcode text (extracts ID from characters 10+)
 
 **Parameters:**
 
@@ -96,6 +100,8 @@ Function getUsingScanner($ScannerObject : Object; $ScannerText : Text) -> cs.Pal
 Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> $ResultObject : Object
 ```
 
+REST endpoint to create new pallet from collection of box label IDs; validates box compatibility, locks entities, and returns result object with success/error info
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -113,6 +119,8 @@ Function Create($BoxLabelIDCollection : Collection; $StaffID : Integer) -> $Resu
 ```4d
 Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) -> $ResultObject : Object
 ```
+
+REST endpoint to verify (QA check) pallet contents; locks pallet and boxes, validates integrity, and marks as verified
 
 **Parameters:**
 
@@ -133,6 +141,8 @@ Function Verify($PalletID : Integer; $BoxLabelID : Integer; $StaffID : Integer) 
 Function Print($PalletID : Integer; $Printer : Text) -> $ResultObject : Object
 ```
 
+REST endpoint to print pallet label; creates print job for warehouse label printer
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -151,6 +161,8 @@ Function Print($PalletID : Integer; $Printer : Text) -> $ResultObject : Object
 Function Delete($PalletID : Integer) -> $ResultObject : Object
 ```
 
+REST endpoint to delete pallet; removes pallet and unlinks associated boxes
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -167,6 +179,8 @@ Function Delete($PalletID : Integer) -> $ResultObject : Object
 ```4d
 Function restLoadPalletList($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint for mobile warehouse app; returns scrollable view of all pallets with details, status, and action buttons
 
 **Parameters:**
 
@@ -185,6 +199,8 @@ Function restLoadPalletList($RestPostDataObject : Object) -> Object
 Function restAddToPallet($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint for mobile pallet creation; displays UI to select and add boxes to new pallet with product matching validation
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -201,6 +217,8 @@ Function restAddToPallet($RestPostDataObject : Object) -> Object
 ```4d
 Function restCompletePallet($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to finalize pallet; marks pallet as complete and ready for verification/despatch
 
 **Parameters:**
 
@@ -219,6 +237,8 @@ Function restCompletePallet($RestPostDataObject : Object) -> Object
 Function restVerifyPallet($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint for QA verification; displays pallet contents and allows staff to verify/confirm boxes match pallet manifest
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -235,6 +255,8 @@ Function restVerifyPallet($RestPostDataObject : Object) -> Object
 ```4d
 Function restLocatePallet($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint for locating pallet in warehouse; scans pallet barcode and displays location/contents information
 
 **Parameters:**
 
@@ -253,6 +275,8 @@ Function restLocatePallet($RestPostDataObject : Object) -> Object
 Function restDeletePallet($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint to delete pallet from warehouse system; removes pallet record and unlinks all boxes
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -270,6 +294,8 @@ Function restDeletePallet($RestPostDataObject : Object) -> Object
 Function restReassignLocation($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint to change pallet location; allows reassigning pallets to different warehouse locations
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -286,6 +312,8 @@ Function restReassignLocation($RestPostDataObject : Object) -> Object
 ```4d
 Function restLoadPallet($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint for mobile pallet details view; displays pallet contents, boxes, status, and available actions (verify, print, delete, relocate)
 
 **Parameters:**
 

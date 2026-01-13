@@ -11,7 +11,7 @@ parent : Classes
 
 Create a new HTTP request with GitHub API headers and authentication
 
-🕐 *Last updated: 2025-12-10T11:45:23.106Z*
+🕐 *Last updated: 2026-01-13T16:04:11.955Z*
 
 ---
 

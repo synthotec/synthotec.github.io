@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.979Z*
+🕐 *Last updated: 2026-01-13T16:04:12.956Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.ProductMaterialOptionsEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing this product material option with remote entity (maps Product/Material IDs)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -54,6 +56,8 @@ Function getMigrationRules($RemoteEntity : cs.ProductMaterialOptionsEntity) -> $
 Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity)
 ```
 
+Syncs migration selections for this product material option with remote entity during data migration
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -70,6 +74,8 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductMaterialOptionsEntity
 ```4d
 Function get Default -> Boolean
 ```
+
+Returns true if this material option is the default for its product
 
 **Returns:** `Boolean`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.313Z*
+🕐 *Last updated: 2026-01-13T16:04:13.382Z*
 
 ---
 
@@ -39,6 +39,8 @@ parent : Classes
 Function fillDowntimeSincePrevious
 ```
 
+Calculates downtime since previous shift by accounting for production, planned downtime, and current downtime periods
+
 ---
 
 #### fillRealTimeOutputMachine {#fillrealtimeoutputmachine}
@@ -47,6 +49,8 @@ Function fillDowntimeSincePrevious
 ```4d
 Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachinesEntity)
 ```
+
+Populates RealTimeOutputMachine object from the given machine entity, excluding entity and selection references
 
 **Parameters:**
 
@@ -65,6 +69,8 @@ Function fillRealTimeOutputMachine($RealTimeMachinesEntity : cs.RealTimeMachines
 Function get Status -> Integer
 ```
 
+Returns status code based on works order dates (1=Finished, 2=Tool Change, 3=In Progress)
+
 **Returns:** `Integer`
 
 ---
@@ -76,6 +82,8 @@ Function get Status -> Integer
 Function get StatusColor -> Integer
 ```
 
+Returns color indicating shift status (amber=Finished, light blue=Tool Change, green=In Progress)
+
 **Returns:** `Integer`
 
 ---
@@ -86,6 +94,8 @@ Function get StatusColor -> Integer
 ```4d
 Function get StatusText -> Text
 ```
+
+Returns human-readable status text based on works order progress ("Finished", "Tool Change", or "")
 
 **Returns:** `Text`
 

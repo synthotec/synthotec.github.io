@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.419Z*
+🕐 *Last updated: 2026-01-13T16:04:13.524Z*
 
 ---
 
@@ -38,6 +38,8 @@ parent : Classes
 Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
 ```
 
+Returns the default location marked for both packing and despatch
+
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
@@ -51,6 +53,8 @@ Function getDefaultDespatchLocation -> cs.Stock_LocationEntity
 Function get DefaultDespatchLocation -> cs.Stock_LocationEntity
 ```
 
+Returns the default location marked for both packing and despatch, asserting exactly one exists
+
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
@@ -62,6 +66,8 @@ Function get DefaultDespatchLocation -> cs.Stock_LocationEntity
 Function get DefaultPackingLocation -> cs.Stock_LocationEntity
 ```
 
+Returns the default location marked for packing, asserting exactly one exists
+
 **Returns:** `cs.Stock_LocationEntity`
 
 ---
@@ -72,6 +78,8 @@ Function get DefaultPackingLocation -> cs.Stock_LocationEntity
 ```4d
 Function get PartBoxStore -> $Stock_LocationEntity : cs.Stock_LocationEntity
 ```
+
+Returns the Part Box Store location, creating it if it doesn't exist
 
 **Returns:** `cs.Stock_LocationEntity`
 

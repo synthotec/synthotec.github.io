@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:24.524Z*
+🕐 *Last updated: 2026-01-13T16:04:13.674Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function CheckInRange($TemperatureSensorCollection : Collection) -> Boolean
 ```
 
+Returns true if all temperature sensors in the zones are within their target min/max ranges
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function CheckInRange($TemperatureSensorCollection : Collection) -> Boolean
 ```4d
 Function CheckTargetsSet($RealTimeMachinesEntity : cs.RealTimeMachinesEntity) -> Boolean
 ```
+
+Returns true if temperature targets are set for all zones in the machine
 
 **Parameters:**
 

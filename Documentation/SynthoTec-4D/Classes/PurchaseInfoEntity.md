@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.019Z*
+🕐 *Last updated: 2026-01-13T16:04:13.001Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function createReceipt -> cs.PurchaseReceiptsEntity
 ```
 
+Creates a purchase receipt for this purchase with user-entered quantity, date, and staff info
+
 **Returns:** `cs.PurchaseReceiptsEntity`
 
 ---
@@ -50,6 +52,8 @@ Function createReceipt -> cs.PurchaseReceiptsEntity
 Function get OutstandingQuantity -> Real
 ```
 
+Returns the quantity still outstanding for this purchase (ordered minus received)
+
 **Returns:** `Real`
 
 ---
@@ -60,6 +64,8 @@ Function get OutstandingQuantity -> Real
 ```4d
 Function get value -> Real
 ```
+
+Returns the total value of this purchase (quantity times unit price)
 
 **Returns:** `Real`
 

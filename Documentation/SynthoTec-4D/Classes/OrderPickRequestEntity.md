@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.359Z*
+🕐 *Last updated: 2026-01-13T16:04:12.209Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 Function getPickedStockListboxCollection -> Collection
 ```
 
+Returns collection of picked stock items for listbox display; includes pallets and individual boxes with works order and quantities
+
 **Returns:** `Collection`
 
 ---
@@ -55,7 +57,7 @@ Function get Boxes -> Real
 Function set Boxes($Boxes : Real)
 ```
 
-MARK:Boxes
+Returns number of boxes calculated by dividing parts by items per box from product; returns 0 if no items per box
 
 **Setter Parameter:**
 
@@ -74,6 +76,8 @@ MARK:Boxes
 Function get BoxesPerPallet -> Integer
 ```
 
+Returns boxes per pallet from customer or product's pallet method; fallback to 0 if not defined
+
 **Returns:** `Integer`
 
 ---
@@ -86,7 +90,7 @@ Function get Pallets -> Real
 Function set Pallets($Pallets : Real)
 ```
 
-MARK:Pallets
+Returns number of pallets calculated by dividing boxes by boxes per pallet; returns 0 if boxes per pallet is 0
 
 **Setter Parameter:**
 
@@ -107,7 +111,7 @@ Function set Parts($Parts : Integer)
 Function query Parts($QueryEventObject : Object)
 ```
 
-MARK: Parts
+Returns the quantity property (alias for inventory quantity in pick request)
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
@@ -134,6 +138,8 @@ MARK: Parts
 Function get QuantityPicked -> Integer
 ```
 
+Returns total quantity already picked (boxes + pallets of boxes) from all BoxLabels and Pallet selections
+
 **Returns:** `Integer`
 
 ---
@@ -144,6 +150,8 @@ Function get QuantityPicked -> Integer
 ```4d
 Function get QuantityToPick -> Integer
 ```
+
+Returns remaining quantity to pick (total quantity minus quantity already picked)
 
 **Returns:** `Integer`
 

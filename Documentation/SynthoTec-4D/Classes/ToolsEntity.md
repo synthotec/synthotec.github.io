@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.493Z*
+🕐 *Last updated: 2026-01-13T16:04:13.630Z*
 
 ---
 
@@ -56,7 +56,7 @@ Function getMigrationRules($RemoteEntity : cs.ToolsEntity) -> $Collection : Coll
 Function syncMigrationSelections($RemoteEntity : cs.ToolsEntity)
 ```
 
-return
+Syncs migration selections for tool entity relations (approvals, maintenance tasks, logs, etc) with remote entity
 
 **Parameters:**
 
@@ -74,6 +74,8 @@ return
 ```4d
 Function get NextToolChangeText -> Text
 ```
+
+Returns formatted next scheduled tool change date; or "Not Planned" if no future tool changes
 
 **Returns:** `Text`
 

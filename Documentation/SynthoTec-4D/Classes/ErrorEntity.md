@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:22.839Z*
+🕐 *Last updated: 2026-01-13T16:04:11.634Z*
 
 ---
 
@@ -53,6 +53,8 @@ Creates a new GitHub issue for this error with stack trace, debug info, and call
 ```4d
 Function get FirstOccurrence -> Text
 ```
+
+Returns formatted date-time string (ISO format) of first error occurrence from error detail selection
 
 **Returns:** `Text`
 
@@ -103,6 +105,8 @@ Returns the GitHub issue title for this error (format: 4D Error [Code X] Method 
 ```4d
 Function get LastOccurrence -> Text
 ```
+
+Returns formatted date-time string (ISO format) of last error occurrence from error detail selection
 
 **Returns:** `Text`
 

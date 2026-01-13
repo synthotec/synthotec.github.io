@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.793Z*
+🕐 *Last updated: 2026-01-13T16:04:12.714Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function print -> $Success : Boolean
 ```
+
+Prints this print job by opening a printing job, rendering copies, and marking as printed
 
 **Returns:** `Boolean`
 

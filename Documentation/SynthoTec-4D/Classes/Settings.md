@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.292Z*
+🕐 *Last updated: 2026-01-13T16:04:13.356Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function global($VariableName : Text) -> $SettingsEntity : cs.SettingsEntity
 ```
 
+Gets or creates a global setting by variable name (StaffID is null for global settings)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function global($VariableName : Text) -> $SettingsEntity : cs.SettingsEntity
 ```4d
 Function userSpecific($VariableName : Text; $StaffID : Integer) -> $SettingsEntity : cs.SettingsEntity
 ```
+
+Gets or creates a user-specific setting by variable name and staff ID
 
 **Parameters:**
 

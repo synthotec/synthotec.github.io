@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.299Z*
+🕐 *Last updated: 2026-01-13T16:04:13.366Z*
 
 ---
 
@@ -38,6 +38,8 @@ parent : Classes
 Function setValue($Value : Variant) -> Boolean
 ```
 
+Sets the setting value with automatic type detection and storage
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -54,6 +56,8 @@ Function setValue($Value : Variant) -> Boolean
 ```4d
 Function setObject($Object : Object) -> Boolean
 ```
+
+Sets the setting value as an object directly
 
 **Parameters:**
 
@@ -72,6 +76,8 @@ Function setObject($Object : Object) -> Boolean
 Function getValue($DefaultValue : Variant) -> Variant
 ```
 
+Gets the stored value, using default value if not set
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -89,6 +95,8 @@ Function getValue($DefaultValue : Variant) -> Variant
 Function getObject($DefaultValue : Variant) -> Object
 ```
 
+Gets the stored object, using default value if not set
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -105,6 +113,8 @@ Function getObject($DefaultValue : Variant) -> Object
 ```4d
 Function reset -> Boolean
 ```
+
+Clears the setting value by setting Object to null
 
 **Returns:** `Boolean`
 

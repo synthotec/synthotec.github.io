@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.531Z*
+🕐 *Last updated: 2026-01-13T16:04:13.686Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.ToolTemperatureZoneEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing temperature zone data during migration
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.ToolTemperatureZoneEntity) -> $Col
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.ToolTemperatureZoneEntity)
 ```
+
+Syncs related temperature target entities during data migration (currently commented out)
 
 **Parameters:**
 

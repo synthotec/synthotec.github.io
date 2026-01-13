@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.625Z*
+🕐 *Last updated: 2026-01-13T16:04:12.505Z*
 
 ---
 
@@ -44,6 +44,8 @@ parent : Classes
 Function create -> $PickRequestEntity : cs.PickRequestEntity
 ```
 
+Opens modify dialog for new pick request; returns created entity if saved, null if cancelled
+
 **Returns:** `cs.PickRequestEntity`
 
 ---
@@ -54,6 +56,8 @@ Function create -> $PickRequestEntity : cs.PickRequestEntity
 ```4d
 Function newUsingEntry -> $PickRequestEntity : cs.PickRequestEntity
 ```
+
+Opens UI entry dialog to create new pick request with customer and despatch date; returns created entity if saved, null if cancelled
 
 **Returns:** `cs.PickRequestEntity`
 
@@ -66,6 +70,8 @@ Function newUsingEntry -> $PickRequestEntity : cs.PickRequestEntity
 Function getOpenRequests -> cs.PickRequestSelection
 ```
 
+Returns all pick requests; used to filter ready-to-pick requests in REST API
+
 **Returns:** `cs.PickRequestSelection`
 
 ---
@@ -76,6 +82,8 @@ Function getOpenRequests -> cs.PickRequestSelection
 ```4d
 Function restInitialPage($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint for mobile warehouse app; returns view with list of open pick requests ready to pick, styled as clickable buttons
 
 **Parameters:**
 
@@ -94,6 +102,8 @@ Function restInitialPage($RestPostDataObject : Object) -> Object
 Function restPickPage($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint showing specific pick request with orders to pick; displays UI for stock picking with box quantity input and order details
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -110,6 +120,8 @@ Function restPickPage($RestPostDataObject : Object) -> Object
 ```4d
 Function restUnpickStock($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to reverse picked stock; returns confirmation view after unpicking boxes from pick request
 
 **Parameters:**
 
@@ -128,6 +140,8 @@ Function restUnpickStock($RestPostDataObject : Object) -> Object
 Function restViewStock($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint showing current stock availability for orders in pick request; displays works order details with available/finished stock and bin locations
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -144,6 +158,8 @@ Function restViewStock($RestPostDataObject : Object) -> Object
 ```4d
 Function restScanStock($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint for mobile barcode scanning; accepts box/pallet scans and updates picked quantities in pick request; returns updated view with scan results
 
 **Parameters:**
 
@@ -162,6 +178,8 @@ Function restScanStock($RestPostDataObject : Object) -> Object
 Function restSelectOrderToPickAgainst($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint showing available customer orders that can be added to pick request; returns filtered list of non-completed orders for selection
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -179,6 +197,8 @@ Function restSelectOrderToPickAgainst($RestPostDataObject : Object) -> Object
 Function restPickAgainstOrder($RestPostDataObject : Object) -> Object
 ```
 
+REST endpoint to add selected customer order to pick request; links order's stock to pick request and returns updated picking view
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -195,6 +215,8 @@ Function restPickAgainstOrder($RestPostDataObject : Object) -> Object
 ```4d
 Function checkForPickedPickRequests
 ```
+
+Monitors for pick requests that have finished picking and automatically triggers despatch workflow and notifications
 
 ---
 

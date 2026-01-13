@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.539Z*
+🕐 *Last updated: 2026-01-13T16:04:13.699Z*
 
 ---
 
@@ -40,6 +40,8 @@ parent : Classes
 Function pushProcess($Process : Text)
 ```
 
+Pushes a new translation process onto the process stack
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -55,6 +57,8 @@ Function pushProcess($Process : Text)
 Function popProcess
 ```
 
+Pops the current translation process from the process stack
+
 ---
 
 #### translate {#translate}
@@ -63,6 +67,8 @@ Function popProcess
 ```4d
 Function translate($Text : Text; $TranslationProcess : Text) -> Text
 ```
+
+Returns translated text if available and user has permission, otherwise returns original text
 
 **Parameters:**
 
@@ -82,6 +88,8 @@ Function translate($Text : Text; $TranslationProcess : Text) -> Text
 Function translateFormObjects($TranslationProcess : Text)
 ```
 
+Translates all form objects in the current form for the specified process (legacy method)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -99,6 +107,8 @@ Function translateFormObjects($TranslationProcess : Text)
 Function get _TranslationProcessCollection -> Collection
 ```
 
+Returns or initializes the translation process collection with current process name
+
 **Returns:** `Collection`
 
 ---
@@ -109,6 +119,8 @@ Function get _TranslationProcessCollection -> Collection
 ```4d
 Function get CurrentProcess -> Text
 ```
+
+Returns the name of the current translation process from the process collection
 
 **Returns:** `Text`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2025-12-10T11:45:22.587Z*
+🕐 *Last updated: 2026-01-13T16:04:11.335Z*
 
 ---
 
@@ -210,6 +210,8 @@ Returns the attribute name representing the relationship between source and dest
 Function updateClientFiles -> Boolean
 ```
 
+Updates client files on network share from extracted ClientUpdate folder; returns true if successful with rollback on failure
+
 **Returns:** `Boolean`
 
 ---
@@ -220,6 +222,8 @@ Function updateClientFiles -> Boolean
 ```4d
 Function stringTest($Text : Text) -> Boolean
 ```
+
+Test endpoint for string parameter passing; returns true (used for REST API testing)
 
 **Parameters:**
 
@@ -238,6 +242,8 @@ Function stringTest($Text : Text) -> Boolean
 Function echoTest($Variant : Variant) -> Variant
 ```
 
+Test endpoint for variant parameter passing and return value; echoes input back unchanged (used for REST API testing)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -254,6 +260,8 @@ Function echoTest($Variant : Variant) -> Variant
 ```4d
 Function blobTest($Blob : Blob) -> Integer
 ```
+
+Test endpoint for blob parameter passing; returns blob size in bytes (used for REST API testing)
 
 **Parameters:**
 
@@ -272,6 +280,8 @@ Function blobTest($Blob : Blob) -> Integer
 Function _getUpdateFolder -> 4D.Folder
 ```
 
+Returns the update folder path from settings; used as root for ServerUpdate and ClientUpdate operations
+
 **Returns:** `4D.Folder`
 
 ---
@@ -282,6 +292,8 @@ Function _getUpdateFolder -> 4D.Folder
 ```4d
 Function updateServer($RestartServer : Boolean) -> Object
 ```
+
+Asynchronously performs server update via background worker; returns shared object with status/success/running properties
 
 **Parameters:**
 
@@ -300,6 +312,8 @@ Function updateServer($RestartServer : Boolean) -> Object
 Function testA -> Object
 ```
 
+Test function for worker signal mechanism; returns server update worker signal object (development/debugging)
+
 **Returns:** `Object`
 
 ---
@@ -310,6 +324,8 @@ Function testA -> Object
 ```4d
 Function testB -> Object
 ```
+
+Test function for storage object access; returns copy of entire Storage object (development/debugging)
 
 **Returns:** `Object`
 
@@ -322,6 +338,8 @@ Function testB -> Object
 Function unpackServerUpdate -> Boolean
 ```
 
+Triggers server update unpacking via background worker signal; waits for completion and returns success status
+
 **Returns:** `Boolean`
 
 ---
@@ -333,6 +351,8 @@ Function unpackServerUpdate -> Boolean
 Function _updateServer
 ```
 
+Internal worker process that manages server update queue; listens for unpacking signals and processes updates in loop
+
 ---
 
 #### _unpackServerUpdate->$UpdateFolder {#_unpackserverupdate->$updatefolder}
@@ -341,6 +361,8 @@ Function _updateServer
 ```4d
 Function _unpackServerUpdate->$UpdateFolder -> 4D.Folder
 ```
+
+Extracts server and client zip archives to update folders; copies certificates to server update folder for SSL/TLS
 
 **Returns:** `4D.Folder`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.761Z*
+🕐 *Last updated: 2026-01-13T16:04:12.673Z*
 
 ---
 
@@ -36,6 +36,8 @@ parent : Classes
 Function getDefault($PrinterType : Integer)
 ```
 
+Gets the default printer for the specified printer type (currently incomplete)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getDefault($PrinterType : Integer)
 Function populate
 ```
 
+Synchronizes printer list from system printers and updates active status in database
+
 ---
 
 #### getComputerPrinters {#getcomputerprinters}
@@ -59,6 +63,8 @@ Function populate
 ```4d
 Function getComputerPrinters($ActivePrintersOnly : Boolean) -> cs.PrinterSelection
 ```
+
+Returns printers for current computer; optionally filters to active printers only
 
 **Parameters:**
 

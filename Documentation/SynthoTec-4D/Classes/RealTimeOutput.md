@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-$SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###,###,##0")
+Returns collection of RealTimeOutputMachine objects for all enabled machines with current production state, tool status, and scrap data; refreshes from real-time table on each call
 
-🕐 *Last updated: 2025-12-10T11:45:24.108Z*
+🕐 *Last updated: 2026-01-13T16:04:13.123Z*
 
 ---
 
@@ -37,6 +37,8 @@ $SummaryText+=CRLF+"📦"+String($RealTimeSelection.sum("Impressions"); "###,###
 Class constructor
 ```
 
+Initializes real-time output display object for machine production dashboard
+
 ---
 
 ## Functions {#functions}
@@ -50,6 +52,8 @@ Class constructor
 Function get InfoTextBox -> $InfoTextBox : Object
 ```
 
+Returns status information object for dashboard info box showing unacknowledged temperature sensor exceptions by machine, temperature targets, and operational warnings
+
 **Returns:** `Object`
 
 ---
@@ -60,6 +64,8 @@ Function get InfoTextBox -> $InfoTextBox : Object
 ```4d
 Function get Layout -> $Layout : Object
 ```
+
+Returns dashboard layout configuration object with rows and columns from settings; used to determine responsive grid layout for machine cards
 
 **Returns:** `Object`
 
@@ -72,6 +78,8 @@ Function get Layout -> $Layout : Object
 Function get Machines -> $Collection : Collection
 ```
 
+Returns collection of RealTimeOutputMachine objects for all enabled machines with current production state, tool status, and scrap data; refreshes from real-time table on each call
+
 **Returns:** `Collection`
 
 ---
@@ -83,6 +91,8 @@ Function get Machines -> $Collection : Collection
 Function get SecondarySummaryText -> $SecondarySummaryText : Text
 ```
 
+Aggregates secondary machine production data and returns formatted text summary of setters awaiting, availability metrics, and scrap data; returns text with emoji indicators
+
 **Returns:** `Text`
 
 ---
@@ -93,6 +103,8 @@ Function get SecondarySummaryText -> $SecondarySummaryText : Text
 ```4d
 Function get SummaryText -> $SummaryText : Text
 ```
+
+Returns formatted text summary of production metrics: running/total machines, tool changes, cycle hours and downtime hours; aggregated from real-time records for current date
 
 **Returns:** `Text`
 

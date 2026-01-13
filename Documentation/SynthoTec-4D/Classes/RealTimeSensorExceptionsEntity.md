@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.230Z*
+🕐 *Last updated: 2026-01-13T16:04:13.269Z*
 
 ---
 
@@ -41,6 +41,8 @@ parent : Classes
 Function getRealTimeSelection -> cs.RealTimeSelection
 ```
 
+Queries RealTime table for all records within this exception's ID range and matching works order; returns entity selection used by other methods to aggregate data
+
 **Returns:** `cs.RealTimeSelection`
 
 ---
@@ -51,6 +53,8 @@ Function getRealTimeSelection -> cs.RealTimeSelection
 ```4d
 Function getTemperatureSensors($Zone : Integer) -> Collection
 ```
+
+Returns collection of temperature sensor readings (from RealTime records) for specified zone, or all zones if $Zone not provided; filters based on this exception's real-time records
 
 **Parameters:**
 
@@ -69,6 +73,8 @@ Function getTemperatureSensors($Zone : Integer) -> Collection
 Function sendEmail -> Boolean
 ```
 
+Builds and sends HTML email with temperature exception details including works order, machine, tool, affected zones, and temperature readings; returns success boolean; creates table showing min/max temperatures with pass/fail coloring
+
 **Returns:** `Boolean`
 
 ---
@@ -82,6 +88,8 @@ Function sendEmail -> Boolean
 Function get Duration -> Time
 ```
 
+Returns total cycle time for this exception's real-time records converted to Time format; aggregates CycleTime between FirstRealTimeID and LastRealTimeID
+
 **Returns:** `Time`
 
 ---
@@ -92,6 +100,8 @@ Function get Duration -> Time
 ```4d
 Function get HighestCelciusTemperature -> Real
 ```
+
+Returns maximum temperature (in Celsius) recorded across all sensors during this exception's real-time records; returns 0 if no sensor data available
 
 **Returns:** `Real`
 
@@ -104,6 +114,8 @@ Function get HighestCelciusTemperature -> Real
 Function get LowestCelciusTemperature -> Real
 ```
 
+Returns minimum temperature (in Celsius) recorded across all sensors during this exception's real-time records; returns 0 if no sensor data available
+
 **Returns:** `Real`
 
 ---
@@ -114,6 +126,8 @@ Function get LowestCelciusTemperature -> Real
 ```4d
 Function get PartsMade -> Integer
 ```
+
+Returns total impressions (parts produced) for this temperature exception's real-time records; aggregates from all records between FirstRealTimeID and LastRealTimeID
 
 **Returns:** `Integer`
 

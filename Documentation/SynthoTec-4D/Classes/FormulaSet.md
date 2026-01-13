@@ -11,7 +11,7 @@ parent : Classes
 
 Creates formula set from single formula or collection of formulas with optional this object and parameters
 
-🕐 *Last updated: 2025-12-10T11:45:23.091Z*
+🕐 *Last updated: 2026-01-13T16:04:11.939Z*
 
 ---
 

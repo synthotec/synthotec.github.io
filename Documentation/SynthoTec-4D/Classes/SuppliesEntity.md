@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.435Z*
+🕐 *Last updated: 2026-01-13T16:04:13.546Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.SuppliesEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing Supplies entity fields during data migration
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.SuppliesEntity) -> $Collection : C
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.SuppliesEntity)
 ```
+
+Syncs related entity selections during data migration (currently commented out)
 
 **Parameters:**
 

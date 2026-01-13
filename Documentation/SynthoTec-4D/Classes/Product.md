@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.928Z*
+🕐 *Last updated: 2026-01-13T16:04:12.891Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationSettings -> Object
 ```
 
+Returns migration settings for Product with linking enabled and ordering by part name
+
 **Returns:** `Object`
 
 ---
@@ -45,6 +47,8 @@ Function getMigrationSettings -> Object
 ```4d
 Function populateEmojis
 ```
+
+Assigns emoji IDs to products, clearing banned emojis and allocating unused ones
 
 ---
 

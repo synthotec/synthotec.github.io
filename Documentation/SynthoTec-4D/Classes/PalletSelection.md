@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:23.563Z*
+🕐 *Last updated: 2026-01-13T16:04:12.433Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getAvailable -> cs.PalletSelection
 ```
+
+Returns verified pallets at despatch locations that are not assigned to any pick request
 
 **Returns:** `cs.PalletSelection`
 

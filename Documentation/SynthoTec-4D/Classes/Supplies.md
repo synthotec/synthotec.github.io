@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.429Z*
+🕐 *Last updated: 2026-01-13T16:04:13.538Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getMigrationSettings -> Object
 ```
+
+Returns migration settings for the Supplies data class with linking disabled
 
 **Returns:** `Object`
 

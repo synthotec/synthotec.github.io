@@ -11,7 +11,7 @@ parent : Classes
 
 Creates Slack integration for the specified channel, creating it if it doesn't exist
 
-🕐 *Last updated: 2025-12-10T11:45:24.337Z*
+🕐 *Last updated: 2026-01-13T16:04:13.415Z*
 
 ---
 

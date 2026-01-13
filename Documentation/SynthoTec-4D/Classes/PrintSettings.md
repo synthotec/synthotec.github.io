@@ -11,7 +11,7 @@ parent : Classes
 
 Creates print settings object with optional default values, optionally using system default printer
 
-🕐 *Last updated: 2025-12-10T11:45:23.804Z*
+🕐 *Last updated: 2026-01-13T16:04:12.726Z*
 
 ---
 

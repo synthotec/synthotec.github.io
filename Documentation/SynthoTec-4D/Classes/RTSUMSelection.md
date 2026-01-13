@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:24.277Z*
+🕐 *Last updated: 2026-01-13T16:04:13.329Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getMaterialUsedForProduction($subtractRegrind : Boolean) -> Real
 ```
+
+Returns the total material used for production in kg, optionally excluding regrind weight
 
 **Parameters:**
 

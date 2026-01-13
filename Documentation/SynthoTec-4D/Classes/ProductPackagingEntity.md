@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.991Z*
+🕐 *Last updated: 2026-01-13T16:04:12.972Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.ProductPackagingEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing this product packaging with remote entity (maps Product/Supplies IDs, overwrites Quantity)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.ProductPackagingEntity) -> $Collec
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.ProductPackagingEntity)
 ```
+
+Syncs migration selections for this product packaging with remote entity during data migration
 
 **Parameters:**
 

@@ -11,7 +11,7 @@ parent : Classes
 
 Creates query event handler from 4D query event object for custom query processing
 
-🕐 *Last updated: 2025-12-10T11:45:24.050Z*
+🕐 *Last updated: 2026-01-13T16:04:13.049Z*
 
 ---
 

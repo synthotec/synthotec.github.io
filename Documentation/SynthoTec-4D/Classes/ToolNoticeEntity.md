@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.464Z*
+🕐 *Last updated: 2026-01-13T16:04:13.577Z*
 
 ---
 
@@ -62,6 +62,8 @@ Deactivates this tool notice after permission check, locking, and user confirmat
 ```4d
 Function get ActiveUntilText -> Text
 ```
+
+Returns formatted text showing when notice expires (manually deactivated, unlimited, or remaining tool changes)
 
 **Returns:** `Text`
 

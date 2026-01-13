@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.694Z*
+🕐 *Last updated: 2026-01-13T16:04:12.584Z*
 
 ---
 
@@ -51,6 +51,8 @@ parent : Classes
 Function modify -> $Modified : Boolean
 ```
 
+Opens UI dialog to create or modify pick request details; allows customer/date selection; returns true if saved successfully
+
 **Returns:** `Boolean`
 
 ---
@@ -62,6 +64,8 @@ Function modify -> $Modified : Boolean
 Function cancel
 ```
 
+Cancels pick request and releases all associated stock back to BoxLabels and Pallets; unlocks and drops all related entities
+
 ---
 
 #### despatch {#despatch}
@@ -71,6 +75,8 @@ Function cancel
 Function despatch
 ```
 
+Validates picking is complete and checks unpicked items, creates Advice Note with transport details, and saves despatch transaction; displays alerts for validation errors
+
 ---
 
 #### despatchOrder {#despatchorder}
@@ -79,6 +85,8 @@ Function despatch
 ```4d
 Function despatchOrder($Advice_NoteEntity : cs.Advice_NoteEntity)
 ```
+
+Moves picked boxes and pallets to Advice Note, updates customer orders with pallet/box assignments, marks orders as picked, and unlocks all entities after transaction commit
 
 **Parameters:**
 
@@ -95,6 +103,8 @@ Function despatchOrder($Advice_NoteEntity : cs.Advice_NoteEntity)
 Function despatchConsignment
 ```
 
+Not yet implemented; would handle movement/consignment despatch workflow
+
 ---
 
 #### getNotInStockWorksOrders {#getnotinstockworksorders}
@@ -103,6 +113,8 @@ Function despatchConsignment
 ```4d
 Function getNotInStockWorksOrders -> $WorksOrderSelection : cs.WorksOrderSelection
 ```
+
+Returns works orders in pick request that don't have enough available stock; used for validation before despatch
 
 **Returns:** `cs.WorksOrderSelection`
 
@@ -115,6 +127,8 @@ Function getNotInStockWorksOrders -> $WorksOrderSelection : cs.WorksOrderSelecti
 Function getWorksOrderSummaryListboxCollection -> $Collection : Collection
 ```
 
+Returns collection of works order objects with picked quantities and color-coded stock availability for UI listbox display
+
 **Returns:** `Collection`
 
 ---
@@ -125,6 +139,8 @@ Function getWorksOrderSummaryListboxCollection -> $Collection : Collection
 ```4d
 Function getPickedStockListboxObject -> $Object : Object
 ```
+
+Returns object with collection of picked boxes/pallets, metadata (box count, pallet count) for UI listbox display
 
 **Returns:** `Object`
 
@@ -137,6 +153,8 @@ Function getPickedStockListboxObject -> $Object : Object
 Function sendNotification
 ```
 
+Sends HTML email notification with pick request details, order summary, and transport instruction attachment to distribution group
+
 ---
 
 #### sendPickedNotification {#sendpickednotification}
@@ -145,6 +163,8 @@ Function sendNotification
 ```4d
 Function sendPickedNotification
 ```
+
+Sends HTML email with detailed table of picked boxes including pallet IDs, box numbers, works orders, and quantities for each order
 
 ---
 
@@ -157,6 +177,8 @@ Function sendPickedNotification
 Function get MovementPickRequest -> Boolean
 ```
 
+Returns true if this pick request is for inventory movement (Type 2); used to determine warehouse transfer workflow
+
 **Returns:** `Boolean`
 
 ---
@@ -167,6 +189,8 @@ Function get MovementPickRequest -> Boolean
 ```4d
 Function get OrderPickRequest -> Boolean
 ```
+
+Returns true if this pick request is for customer orders (Type 0 or 1); used to determine pick request workflow
 
 **Returns:** `Boolean`
 
@@ -179,6 +203,8 @@ Function get OrderPickRequest -> Boolean
 Function get PartsRequested -> Boolean
 ```
 
+Returns true if any order in pick request has quantity requested (sum > 0); indicates non-empty pick request
+
 **Returns:** `Boolean`
 
 ---
@@ -190,6 +216,8 @@ Function get PartsRequested -> Boolean
 Function get Picked -> Boolean
 Function query Picked($QueryEventObject : Object)
 ```
+
+Returns true if all items in pick request have been picked (QuantityToPick sum = 0); indicates pick complete
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
@@ -210,6 +238,8 @@ Function query Picked($QueryEventObject : Object)
 Function get PickingStarted -> Boolean
 ```
 
+Returns true if any items have been picked (QuantityPicked sum > 0); indicates picking has begun
+
 **Returns:** `Boolean`
 
 ---
@@ -221,6 +251,8 @@ Function get PickingStarted -> Boolean
 Function get Status -> Text
 ```
 
+Returns formatted status text with emoji indicating pick request state (Modifying/Ready To Pick/Picking In Progress/Ready To Process/Despatched)
+
 **Returns:** `Text`
 
 ---
@@ -231,6 +263,8 @@ Function get Status -> Text
 ```4d
 Function get StatusColor -> Integer
 ```
+
+Returns color code for status indicator matching current pick request state
 
 **Returns:** `Integer`
 

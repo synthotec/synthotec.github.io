@@ -11,7 +11,7 @@ parent : Classes
 
 Attempts to lock all entities in provided entity selections, optionally unlocking all on failure
 
-🕐 *Last updated: 2025-12-10T11:45:24.285Z*
+🕐 *Last updated: 2026-01-13T16:04:13.347Z*
 
 ---
 

@@ -11,7 +11,7 @@ parent : Classes
 
 Add a new row to the table with optional styling (bold, colors, alignment)
 
-🕐 *Last updated: 2025-12-10T11:45:23.146Z*
+🕐 *Last updated: 2026-01-13T16:04:12.007Z*
 
 ---
 

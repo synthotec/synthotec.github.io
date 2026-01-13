@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.956Z*
+🕐 *Last updated: 2026-01-13T16:04:12.926Z*
 
 ---
 
@@ -49,6 +49,8 @@ parent : Classes
 Function getRobotHeadList($Machine : Integer) -> Text
 ```
 
+Returns space-separated list of robot head numbers for this product on specified machine; returns empty string if no grippers found
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -66,6 +68,8 @@ Function getRobotHeadList($Machine : Integer) -> Text
 Function getMainTool -> cs.ToolsEntity
 ```
 
+Returns main tool for this product, or last tool if no main tool marked; used for tool-related operations and regrind decisions
+
 **Returns:** `cs.ToolsEntity`
 
 ---
@@ -76,6 +80,8 @@ Function getMainTool -> cs.ToolsEntity
 ```4d
 Function getPreviousPickRequestQuantity($PickRequestEntity : cs.PickRequestEntity; $OrderPickRequestEntity : cs.OrderPickRequestEntity) -> Integer
 ```
+
+Returns quantity of this product already requested in pick requests before the given one; used to calculate available stock for picking
 
 **Parameters:**
 
@@ -95,6 +101,8 @@ Function getPreviousPickRequestQuantity($PickRequestEntity : cs.PickRequestEntit
 Function getFinishedStock -> Integer
 ```
 
+Returns total finished stock quantity for this product in default packing location; includes all finished goods in inventory
+
 **Returns:** `Integer`
 
 ---
@@ -105,6 +113,8 @@ Function getFinishedStock -> Integer
 ```4d
 Function getQuarantinedStock -> Integer
 ```
+
+Returns total quarantined finished stock for this product; stock under quality hold
 
 **Returns:** `Integer`
 
@@ -117,6 +127,8 @@ Function getQuarantinedStock -> Integer
 Function getWIP -> Integer
 ```
 
+Returns work-in-progress quantity for open works orders of this product; production currently running
+
 **Returns:** `Integer`
 
 ---
@@ -127,6 +139,8 @@ Function getWIP -> Integer
 ```4d
 Function getPlannedProduction($DespatchDate : Date) -> Integer
 ```
+
+Returns planned production quantity up to despatch date from wheel calendar; scheduled future production
 
 **Parameters:**
 
@@ -145,6 +159,8 @@ Function getPlannedProduction($DespatchDate : Date) -> Integer
 Function getPickRequestedQuantity -> Integer
 ```
 
+Returns total unprocessed quantity in active pick requests for this product; amount already allocated to orders
+
 **Returns:** `Integer`
 
 ---
@@ -155,6 +171,8 @@ Function getPickRequestedQuantity -> Integer
 ```4d
 Function getAvailableStock($PickRequestEntity : cs.PickRequestEntity; $OrderPickRequestEntity : cs.OrderPickRequestEntity) -> Integer
 ```
+
+Returns total available stock for picking: finished + quarantined + WIP + planned production minus previous pick requests; used for stock allocation
 
 **Parameters:**
 
@@ -174,7 +192,7 @@ Function getAvailableStock($PickRequestEntity : cs.PickRequestEntity; $OrderPick
 Function getMigrationRules($RemoteEntity : cs.ProductEntity) -> $Collection : Collection
 ```
 
-/////////////////////////////////////////////////////////////////////////////////////
+Returns collection of EntityMigrationRule objects defining how to merge this product with remote product during sync; handles field mapping and conflict resolution
 
 **Parameters:**
 
@@ -193,6 +211,8 @@ Function getMigrationRules($RemoteEntity : cs.ProductEntity) -> $Collection : Co
 Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 ```
 
+Synchronizes all related entity selections (materials, tools, procedures, packaging, grippers, BOMs) with remote product during merge operation
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -210,6 +230,8 @@ Function syncMigrationSelections($RemoteEntity : cs.ProductEntity)
 Function get Emoji -> Text
 ```
 
+Returns emoji character from associated EmojisEntity, or empty string if no emoji assigned
+
 **Returns:** `Text`
 
 ---
@@ -220,6 +242,8 @@ Function get Emoji -> Text
 ```4d
 Function get HasMigrationID -> Boolean
 ```
+
+Returns true if this product has a migration ID assigned (> 0); indicates if product is subject to data synchronization
 
 **Returns:** `Boolean`
 
@@ -232,6 +256,8 @@ Function get HasMigrationID -> Boolean
 Function get MainToolRegrind -> Boolean
 Function set MainToolRegrind($MainToolRegrind : Boolean)
 ```
+
+Returns regrind status of main tool for this product; indicates if main tool requires regrinding
 
 **Setter Parameter:**
 
@@ -249,6 +275,8 @@ Function set MainToolRegrind($MainToolRegrind : Boolean)
 ```4d
 Function query OurPartName($QueryEventObject : Object)
 ```
+
+Query event handler for OurPartName attribute; maps field name from 'Our Part No' to proper ORDA query operator format
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 

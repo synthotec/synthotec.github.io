@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.262Z*
+🕐 *Last updated: 2026-01-13T16:04:13.310Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function delete
 ```
 
+Deletes this RMC record after checking it hasn't been used in material stock takes or checks
+
 ---
 
 #### requestCertificate {#requestcertificate}
@@ -43,6 +45,8 @@ Function delete
 ```4d
 Function requestCertificate
 ```
+
+Sends an email to the supplier requesting a certificate of analysis for this material batch
 
 ---
 

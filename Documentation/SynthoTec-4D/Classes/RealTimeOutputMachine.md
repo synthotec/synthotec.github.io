@@ -11,7 +11,7 @@ parent : Classes
 
 Creates real-time output object for displaying machine status on dashboard, calculates colors and metrics
 
-🕐 *Last updated: 2025-12-10T11:45:24.149Z*
+🕐 *Last updated: 2026-01-13T16:04:13.174Z*
 
 ---
 
@@ -103,6 +103,8 @@ Determines background and foreground colors for machine display based on machine
 Function setPrimaryColors($BackgroundColor : Integer; $ForegroundColor : Integer)
 ```
 
+Sets primary background and foreground colors for machine card display
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -118,6 +120,8 @@ Function setPrimaryColors($BackgroundColor : Integer; $ForegroundColor : Integer
 ```4d
 Function setAlternatingColors($BackgroundColor : Integer; $ForegroundColor : Integer)
 ```
+
+Sets alternating row background and foreground colors for machine details display
 
 **Parameters:**
 
@@ -135,6 +139,8 @@ Function setAlternatingColors($BackgroundColor : Integer; $ForegroundColor : Int
 Function setDateTimeColors($BackgroundColor : Integer; $ForegroundColor : Integer)
 ```
 
+Sets datetime section background and foreground colors for status display
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -151,6 +157,8 @@ Function setDateTimeColors($BackgroundColor : Integer; $ForegroundColor : Intege
 Function setAlertColors($BackgroundColor : Integer; $ForegroundColor : Integer)
 ```
 
+Sets alert/exception background and foreground colors for warnings display
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -166,6 +174,8 @@ Function setAlertColors($BackgroundColor : Integer; $ForegroundColor : Integer)
 ```4d
 Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeconds : Real)
 ```
+
+Sets time remaining display text with optional datetime and additional seconds offset for ETA calculation
 
 **Parameters:**
 
@@ -186,6 +196,8 @@ Function setTimeRemainingText($Text : Text; $DateTime : Variant; $AdditionalSeco
 Function get AlertsText -> Text
 ```
 
+Returns formatted alerts text showing setter queue, connected/assigned temperature sensors; empty if no works order
+
 **Returns:** `Text`
 
 ---
@@ -196,6 +208,8 @@ Function get AlertsText -> Text
 ```4d
 Function get DeviceMaintenanceActive -> Boolean
 ```
+
+Returns true if device is in maintenance mode (negative DownReasonID); indicates scheduled downtime
 
 **Returns:** `Boolean`
 
@@ -208,6 +222,8 @@ Function get DeviceMaintenanceActive -> Boolean
 Function get MachineDisconnected -> Boolean
 ```
 
+Returns true if machine hasn't sent data pulse in 2+ minutes; indicates communication loss
+
 **Returns:** `Boolean`
 
 ---
@@ -218,6 +234,8 @@ Function get MachineDisconnected -> Boolean
 ```4d
 Function get MachineNumberText -> Text
 ```
+
+Returns machine number as formatted string for display
 
 **Returns:** `Text`
 
@@ -230,6 +248,8 @@ Function get MachineNumberText -> Text
 Function get MachineRunning -> Boolean
 ```
 
+Returns true if machine is actively running (AutoStatus true and recent activity within 2 minutes)
+
 **Returns:** `Boolean`
 
 ---
@@ -240,6 +260,8 @@ Function get MachineRunning -> Boolean
 ```4d
 Function get MouldStatusText -> Text
 ```
+
+Returns mould status indicator: filled circle if closed, open circle with impressions per cycle if running
 
 **Returns:** `Text`
 
@@ -252,6 +274,8 @@ Function get MouldStatusText -> Text
 Function get PartNameText -> Text
 ```
 
+Returns product name or trial indicator; shows 'MACHINE DISCONNECTED' or 'NO WORKS ORDER STARTED' if applicable
+
 **Returns:** `Text`
 
 ---
@@ -262,6 +286,8 @@ Function get PartNameText -> Text
 ```4d
 Function get PartsMadeText -> Text
 ```
+
+Returns formatted text showing parts made vs production target; empty if no works order
 
 **Returns:** `Text`
 
@@ -274,6 +300,8 @@ Function get PartsMadeText -> Text
 Function get PercentMade -> Real
 ```
 
+Returns production progress as decimal ratio (0-1) based on quantity made vs production target
+
 **Returns:** `Real`
 
 ---
@@ -285,6 +313,8 @@ Function get PercentMade -> Real
 Function get PrimaryStatusText -> Text
 ```
 
+Returns primary status display text for machine card with emoji prefix/suffix; shows running, down reason, temperature alerts, or robot issues
+
 **Returns:** `Text`
 
 ---
@@ -295,6 +325,8 @@ Function get PrimaryStatusText -> Text
 ```4d
 Function get ScrapText -> Text
 ```
+
+Returns formatted scrap quantity text with percentage if scrapped items exist; empty string if no works order
 
 **Returns:** `Text`
 
@@ -320,6 +352,8 @@ Returns object with status text template and datetime for secondary status line 
 Function get TimeRemainingText -> $DateTimeObject : Object
 ```
 
+Returns object with time remaining text template and calculated ETA based on remaining production and cycle time
+
 **Returns:** `Object`
 
 ---
@@ -330,6 +364,8 @@ Function get TimeRemainingText -> $DateTimeObject : Object
 ```4d
 Function get UnacknowledgedSensorExceptions -> Boolean
 ```
+
+Returns true if works order is open and has unacknowledged temperature sensor exceptions
 
 **Returns:** `Boolean`
 
@@ -342,6 +378,8 @@ Function get UnacknowledgedSensorExceptions -> Boolean
 Function get UnicodeSymbolsText -> Text
 ```
 
+Returns product emoji character if works order open; used for visual product identification
+
 **Returns:** `Text`
 
 ---
@@ -352,6 +390,8 @@ Function get UnicodeSymbolsText -> Text
 ```4d
 Function get WorksOrderIsOpen -> Boolean
 ```
+
+Returns true if machine is connected and has an open, running works order assigned
 
 **Returns:** `Boolean`
 

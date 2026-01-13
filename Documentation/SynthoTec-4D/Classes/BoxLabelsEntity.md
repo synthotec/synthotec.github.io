@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:22.365Z*
+🕐 *Last updated: 2026-01-13T16:04:11.072Z*
 
 ---
 
@@ -103,6 +103,8 @@ Adds a timestamped comment to the box label's comment history with staff member 
 Function removeFromPallet -> $Success : Boolean
 ```
 
+Removes this box from pallet assignment; locks box, clears PalletEntity link, and saves
+
 **Returns:** `Boolean`
 
 ---
@@ -113,6 +115,8 @@ Function removeFromPallet -> $Success : Boolean
 ```4d
 Function getNextBoxPacked -> cs.BoxLabelsEntity
 ```
+
+Returns next box with same tool that was packed after this one; used for box sequence tracking
 
 **Returns:** `cs.BoxLabelsEntity`
 
@@ -125,6 +129,8 @@ Function getNextBoxPacked -> cs.BoxLabelsEntity
 Function generateQR -> Picture
 ```
 
+Generates QR code picture from box label data (ID, product, quantity, works order); used for barcode labels
+
 **Returns:** `Picture`
 
 ---
@@ -135,6 +141,8 @@ Function generateQR -> Picture
 ```4d
 Function getMigrationRules($RemoteEntity : cs.BoxLabelsEntity) -> $Collection : Collection
 ```
+
+Returns collection of EntityMigrationRule objects defining how to merge this box label with remote during sync
 
 **Parameters:**
 
@@ -153,6 +161,8 @@ Function getMigrationRules($RemoteEntity : cs.BoxLabelsEntity) -> $Collection : 
 Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
 ```
 
+Synchronizes entity selection references after migration merge; updates foreign key references to maintain data integrity
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -170,6 +180,8 @@ Function syncMigrationSelections($RemoteEntity : cs.BoxLabelsEntity)
 Function get AdviceNote -> Integer
 ```
 
+Returns advice note number from Certificate of Conformance or Pallet assignment; used for despatch tracking
+
 **Returns:** `Integer`
 
 ---
@@ -180,6 +192,8 @@ Function get AdviceNote -> Integer
 ```4d
 Function get BoxNumberColor -> Integer
 ```
+
+Returns color code for box number display based on status (NotMade, RemoveFromStock, LinkedBoxes, or PartBox)
 
 **Returns:** `Integer`
 
@@ -192,6 +206,8 @@ Function get BoxNumberColor -> Integer
 Function get BoxNumberDisplay -> Text
 ```
 
+Returns formatted box number text; shows box number or part box code, with linked box code if applicable
+
 **Returns:** `Text`
 
 ---
@@ -202,6 +218,8 @@ Function get BoxNumberDisplay -> Text
 ```4d
 Function get BoxQuantityDisplay -> Text
 ```
+
+Returns formatted box quantity text; shows total quantity or "parts + extras" if linked box included
 
 **Returns:** `Text`
 
@@ -227,6 +245,8 @@ Returns current status with text, background color, and foreground color based o
 Function get Despatched -> Boolean
 Function query Despatched($QueryEventObject : Object)
 ```
+
+Returns true if box has been despatched (has CoC or is on despatched pallet)
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
@@ -260,6 +280,8 @@ Calculates gross weight (net weight + 1kg for packaging: 800g box + 200g bags)
 Function get HasMigrationID -> Boolean
 ```
 
+Returns true if box has valid migration ID (non-null and non-zero); indicates entity was involved in sync operation
+
 **Returns:** `Boolean`
 
 ---
@@ -270,6 +292,8 @@ Function get HasMigrationID -> Boolean
 ```4d
 Function get linkedBoxesQuantity -> Integer
 ```
+
+Returns total quantity from all linked/chained boxes; follows linked box chain to leaf
 
 **Returns:** `Integer`
 
@@ -295,6 +319,8 @@ Calculates the net weight in kilograms based on part weight and total quantity
 Function get PackedByDisplay -> Text
 ```
 
+Returns formatted text with packing staff name and datetime for box label display
+
 **Returns:** `Text`
 
 ---
@@ -306,6 +332,8 @@ Function get PackedByDisplay -> Text
 Function get PartBox -> Boolean
 Function query PartBox($QueryEventObject : Object)
 ```
+
+Returns true if this is a part box (PartBoxCode is not empty); used to identify extra/remainder boxes
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
@@ -326,6 +354,8 @@ Function query PartBox($QueryEventObject : Object)
 Function get partBoxSkipped -> Boolean
 ```
 
+Returns true if next packed box exists; indicates more boxes of this tool were packed
+
 **Returns:** `Boolean`
 
 ---
@@ -336,6 +366,8 @@ Function get partBoxSkipped -> Boolean
 ```4d
 Function get PartsFromOtherWorksOrders->$Text -> Text
 ```
+
+Returns formatted text listing quantities of parts from other works orders in linked box chain (e.g., '12345: 50')
 
 **Returns:** `Text`
 
@@ -348,6 +380,8 @@ Function get PartsFromOtherWorksOrders->$Text -> Text
 Function get RouteCardColor -> Integer
 ```
 
+Returns rotating color code for route card number (7 colors) for visual grouping in listbox
+
 **Returns:** `Integer`
 
 ---
@@ -358,6 +392,8 @@ Function get RouteCardColor -> Integer
 ```4d
 Function get StatusText -> Text
 ```
+
+Returns formatted status text with staff name and timestamp when status was last updated; empty if no update recorded
 
 **Returns:** `Text`
 
@@ -370,6 +406,8 @@ Function get StatusText -> Text
 Function get TestProduct -> cs.ProductEntity
 ```
 
+Returns the product entity associated with this box label; exposed for testing purposes
+
 **Returns:** `cs.ProductEntity`
 
 ---
@@ -381,6 +419,8 @@ Function get TestProduct -> cs.ProductEntity
 Function get toolIsRunning -> Boolean
 ```
 
+Returns true if works order for this tool's product is still in packing phase
+
 **Returns:** `Boolean`
 
 ---
@@ -391,6 +431,8 @@ Function get toolIsRunning -> Boolean
 ```4d
 Function get totalBoxQuantity -> Integer
 ```
+
+Returns total quantity including this box and all linked boxes; used for pallet/shipment totals
 
 **Returns:** `Integer`
 

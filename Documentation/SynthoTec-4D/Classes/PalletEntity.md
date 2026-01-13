@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.547Z*
+🕐 *Last updated: 2026-01-13T16:04:12.414Z*
 
 ---
 
@@ -47,6 +47,8 @@ parent : Classes
 Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> $Success : Boolean
 ```
 
+Creates a print job for this pallet label and marks pallet as printed
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -65,6 +67,8 @@ Function createPrintJob($StaffID : Integer; $PrinterID : Integer) -> $Success : 
 Function getWorksOrderCollection -> Collection
 ```
 
+Returns a collection of distinct works order IDs from all boxes on this pallet
+
 **Returns:** `Collection`
 
 ---
@@ -75,6 +79,8 @@ Function getWorksOrderCollection -> Collection
 ```4d
 Function getTotalQuantity($WorksOrderEntity : Integer) -> Integer
 ```
+
+Returns the total quantity of items on this pallet, optionally filtered by works order
 
 **Parameters:**
 
@@ -93,6 +99,8 @@ Function getTotalQuantity($WorksOrderEntity : Integer) -> Integer
 Function getTotalBoxes($WorksOrderEntity : Integer) -> Integer
 ```
 
+Returns the total number of boxes on this pallet, optionally filtered by works order
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -110,6 +118,8 @@ Function getTotalBoxes($WorksOrderEntity : Integer) -> Integer
 Function generateQR -> Picture
 ```
 
+Generates a QR code picture from the pallet QR object
+
 **Returns:** `Picture`
 
 ---
@@ -121,6 +131,8 @@ Function generateQR -> Picture
 Function getStockListBoxObject -> Object
 ```
 
+Returns an object representing this pallet for display in stock list boxes
+
 **Returns:** `Object`
 
 ---
@@ -131,6 +143,8 @@ Function getStockListBoxObject -> Object
 ```4d
 Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> $Collection : Collection
 ```
+
+Returns migration rules for syncing pallet data during migration
 
 **Parameters:**
 
@@ -149,6 +163,8 @@ Function getMigrationRules($RemoteEntity : cs.PalletEntity) -> $Collection : Col
 Function syncMigrationSelections($RemoteEntity : cs.PalletEntity)
 ```
 
+Syncs related box label and print job selections during migration (currently commented out)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -163,6 +179,8 @@ Function syncMigrationSelections($RemoteEntity : cs.PalletEntity)
 ```4d
 Function transfer($ToLocation : Integer) -> Boolean
 ```
+
+Transfers this pallet to a new location by moving stock and updating location, within a transaction
 
 **Parameters:**
 
@@ -183,6 +201,8 @@ Function transfer($ToLocation : Integer) -> Boolean
 Function get GrossWeightKg -> Real
 ```
 
+Returns the total gross weight in kg of all boxes plus 20kg for pallet weight
+
 **Returns:** `Real`
 
 ---
@@ -193,6 +213,8 @@ Function get GrossWeightKg -> Real
 ```4d
 Function get HasMigrationID -> Boolean
 ```
+
+Returns true if this pallet has a valid migration ID
 
 **Returns:** `Boolean`
 
@@ -205,6 +227,8 @@ Function get HasMigrationID -> Boolean
 Function get NetWeightKg -> Real
 ```
 
+Returns the total net weight in kg of all boxes on this pallet
+
 **Returns:** `Real`
 
 ---
@@ -215,6 +239,8 @@ Function get NetWeightKg -> Real
 ```4d
 Function get QRObject -> Object
 ```
+
+Returns an object containing pallet data for QR code generation
 
 **Returns:** `Object`
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:22.529Z*
+🕐 *Last updated: 2026-01-13T16:04:11.268Z*
 
 ---
 
@@ -108,6 +108,8 @@ Creates or modifies an order pick request for this customer order, validates qua
 Function getPickRequestedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
 ```
 
+Returns total quantity requested for pick for this order (all pick requests or specific one)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -124,6 +126,8 @@ Function getPickRequestedQuantity($PickRequestEntity : cs.PickRequestEntity) -> 
 ```4d
 Function getPickedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
 ```
+
+Returns total quantity picked for this order (all pick requests or specific one)
 
 **Parameters:**
 
@@ -142,6 +146,8 @@ Function getPickedQuantity($PickRequestEntity : cs.PickRequestEntity) -> Integer
 Function getPickedQuantitiesColor -> Integer
 ```
 
+Returns color indicating pick completion status (green=complete, amber=partial, red=over-picked)
+
 **Returns:** `Integer`
 
 ---
@@ -152,6 +158,8 @@ Function getPickedQuantitiesColor -> Integer
 ```4d
 Function getPickedQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
 ```
+
+Returns formatted text showing picked quantities for this pick request and order total
 
 **Parameters:**
 
@@ -170,6 +178,8 @@ Function getPickedQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> T
 Function getPickRequestQuantitiesText($PickRequestEntity : cs.PickRequestEntity) -> Text
 ```
 
+Returns formatted text showing requested quantities for this pick request and order total
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -186,6 +196,8 @@ Function getPickRequestQuantitiesText($PickRequestEntity : cs.PickRequestEntity)
 ```4d
 Function getPickRequestQuantitiesColor -> Integer
 ```
+
+Returns color indicating pick request fulfillment status (green=complete, amber=partial, red=over-requested)
 
 **Returns:** `Integer`
 

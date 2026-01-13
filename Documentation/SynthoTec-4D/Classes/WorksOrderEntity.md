@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:24.623Z*
+🕐 *Last updated: 2026-01-13T16:04:13.805Z*
 
 ---
 
@@ -47,6 +47,8 @@ parent : Classes
 Function setQuantityMade($NewQuantity : Integer; $AdjustmentDate : Date) -> Date
 ```
 
+Sets the quantity made for this works order by creating real-time records and calculating scrap
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -65,6 +67,8 @@ Function setQuantityMade($NewQuantity : Integer; $AdjustmentDate : Date) -> Date
 Function getQuantityMade($UseRealTimeData : Boolean) -> Integer
 ```
 
+Returns the quantity manufactured, optionally using real-time data or RTSUM data
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -81,6 +85,8 @@ Function getQuantityMade($UseRealTimeData : Boolean) -> Integer
 ```4d
 Function getQuantityPacked($InStockOnly : Boolean) -> Integer
 ```
+
+Returns the quantity packed, optionally filtered to stock items only
 
 **Parameters:**
 
@@ -99,6 +105,8 @@ Function getQuantityPacked($InStockOnly : Boolean) -> Integer
 Function getQuantityScrapped -> Integer
 ```
 
+Returns the total quantity scrapped from both scrap records and real-time stoppage records
+
 **Returns:** `Integer`
 
 ---
@@ -109,6 +117,8 @@ Function getQuantityScrapped -> Integer
 ```4d
 Function calculateProcessScrap($MachineCompleted : Boolean; $PackingCompleted : Boolean)
 ```
+
+Calculates and records process scrap based on robot status and order completion status
 
 **Parameters:**
 
@@ -125,6 +135,8 @@ Function calculateProcessScrap($MachineCompleted : Boolean; $PackingCompleted : 
 ```4d
 Function getMigrationRules($RemoteEntity : cs.WorksOrderEntity) -> $Collection : Collection
 ```
+
+Returns migration rules for syncing works order data during data migration
 
 **Parameters:**
 
@@ -143,6 +155,8 @@ Function getMigrationRules($RemoteEntity : cs.WorksOrderEntity) -> $Collection :
 Function syncMigrationSelections($RemoteEntity : cs.WorksOrderEntity)
 ```
 
+Syncs related entity selections during data migration (currently commented out)
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -160,6 +174,8 @@ Function syncMigrationSelections($RemoteEntity : cs.WorksOrderEntity)
 Function get AvailableStock -> Integer
 ```
 
+Returns the total available finished stock in the default packing location for this works order
+
 **Returns:** `Integer`
 
 ---
@@ -170,6 +186,8 @@ Function get AvailableStock -> Integer
 ```4d
 Function get ExS1Stock -> Integer
 ```
+
+Returns the quantity of stock for this works order in the ExS1 storage location
 
 **Returns:** `Integer`
 
@@ -182,6 +200,8 @@ Function get ExS1Stock -> Integer
 Function get HasMigrationID -> Boolean
 Function query HasMigrationID($QueryEventObject : Object)
 ```
+
+Returns true if this entity has a valid migration ID from data migration
 
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
@@ -203,6 +223,8 @@ Function get IsOpen -> Boolean
 Function query IsOpen($QueryEventObject : Object)
 ```
 
+Returns true if machine has started and packing has not been completed
+
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
 **Query Parameter:**
@@ -223,6 +245,8 @@ Function get IsRunning -> Boolean
 Function query IsRunning($QueryEventObject : Object)
 ```
 
+Returns true if the machine has started and production has not been completed
+
 **Query Function:** Enables querying this property in ORDA query strings (e.g., `.query(":1"; $Value)` where :1 is the property name).
 
 **Query Parameter:**
@@ -241,6 +265,8 @@ Function query IsRunning($QueryEventObject : Object)
 ```4d
 Function get WIP -> Integer
 ```
+
+Returns work in progress quantity (made minus packed minus scrapped) if order is open
 
 **Returns:** `Integer`
 

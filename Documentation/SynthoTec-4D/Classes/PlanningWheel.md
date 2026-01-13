@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.741Z*
+🕐 *Last updated: 2026-01-13T16:04:12.643Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function insertLine($Machine : Integer; $RunOrder : Integer) -> $PlanningWheelEntity : cs.PlanningWheelEntity
 ```
 
+Prompts user to select tool and quantity, creates planning wheel line and updates run orders
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -52,6 +54,8 @@ Function insertLine($Machine : Integer; $RunOrder : Integer) -> $PlanningWheelEn
 ```4d
 Function reducePlannedStand
 ```
+
+Reduces planned stand times by actual production runs and removes completed planning entries
 
 ---
 

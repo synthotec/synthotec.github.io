@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.349Z*
+🕐 *Last updated: 2026-01-13T16:04:13.436Z*
 
 ---
 
@@ -37,6 +37,8 @@ parent : Classes
 Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> $StaffEntity : cs.StaffEntity
 ```
 
+Finds staff member by keyfob ID (prompts user if $KeyFob not provided), optionally shows warning if not found
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -55,6 +57,8 @@ Function getUsingKeyfob($ShowWarning : Boolean; $KeyFob : Text) -> $StaffEntity 
 Function getCurrentUser -> cs.StaffEntity
 ```
 
+Returns the staff entity for the currently logged-in user from Storage
+
 **Returns:** `cs.StaffEntity`
 
 ---
@@ -66,6 +70,8 @@ Function getCurrentUser -> cs.StaffEntity
 Function getNonArchived -> cs.StaffSelection
 ```
 
+Returns selection of staff members that are not archived
+
 **Returns:** `cs.StaffSelection`
 
 ---
@@ -76,6 +82,8 @@ Function getNonArchived -> cs.StaffSelection
 ```4d
 Function newUsingEntry -> cs.StaffEntity
 ```
+
+Creates new staff member by displaying entry dialog for name, keyfob, email, and mobile information
 
 **Returns:** `cs.StaffEntity`
 

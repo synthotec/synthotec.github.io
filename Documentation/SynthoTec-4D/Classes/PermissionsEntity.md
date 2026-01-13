@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.576Z*
+🕐 *Last updated: 2026-01-13T16:04:12.451Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> $StaffPermissionsEntity : cs.StaffPermissionsEntity
 ```
 
+Returns the StaffPermissions record linking this permission to a staff member, creating a new one if needed
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getStaffPermissionsEntity($StaffEntity : cs.StaffEntity) -> $StaffPermi
 ```4d
 Function displayWarning($StaffEntity : cs.StaffEntity)
 ```
+
+Displays a permission denied warning and sends an email requesting access to the appropriate permission group
 
 **Parameters:**
 

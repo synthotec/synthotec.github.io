@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:23.397Z*
+🕐 *Last updated: 2026-01-13T16:04:12.244Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.PackingInstructionFilesEntity) -> $Collection : Collection
 ```
 
+Returns migration rules for syncing packing instruction files during data migration
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getMigrationRules($RemoteEntity : cs.PackingInstructionFilesEntity) -> 
 ```4d
 Function syncMigrationSelections($RemoteEntity : cs.PackingInstructionFilesEntity)
 ```
+
+Syncs related entity selections during data migration for packing instructions (currently empty)
 
 **Parameters:**
 

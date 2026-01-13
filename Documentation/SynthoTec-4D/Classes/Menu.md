@@ -11,7 +11,7 @@ parent : Classes
 
 Creates a new menu with optional collection of text items that return their index when selected
 
-🕐 *Last updated: 2025-12-10T11:45:23.331Z*
+🕐 *Last updated: 2026-01-13T16:04:12.176Z*
 
 ---
 

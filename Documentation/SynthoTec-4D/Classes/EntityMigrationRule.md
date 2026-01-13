@@ -11,7 +11,7 @@ parent : Classes
 
 Adds rule to overwrite remote property with local property value unconditionally
 
-🕐 *Last updated: 2025-12-10T11:45:22.802Z*
+🕐 *Last updated: 2026-01-13T16:04:11.588Z*
 
 ---
 

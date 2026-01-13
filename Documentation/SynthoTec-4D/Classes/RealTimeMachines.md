@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.084Z*
+🕐 *Last updated: 2026-01-13T16:04:13.092Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function getByMachine($MachineNumber : Integer) -> cs.RealTimeMachinesEntity
 ```
+
+Returns the RealTime machine entity for the specified machine number
 
 **Parameters:**
 

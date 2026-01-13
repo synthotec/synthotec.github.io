@@ -11,7 +11,7 @@ parent : Classes
 
 Initialize loading dialog with text and optional progress percentage
 
-🕐 *Last updated: 2025-12-10T11:45:23.163Z*
+🕐 *Last updated: 2026-01-13T16:04:12.029Z*
 
 ---
 

@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.569Z*
+🕐 *Last updated: 2026-01-13T16:04:12.440Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getByName($PermissionName : Text) -> $PermissionsEntity : cs.PermissionsEntity
 ```
 
+Gets or creates a permission by name
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getByName($PermissionName : Text) -> $PermissionsEntity : cs.Permission
 ```4d
 Function check($PermissionName : Text; $DisplayWarning : Boolean; $StaffEntity : cs.StaffEntity) -> $HasPermission : Boolean
 ```
+
+Checks if a staff member has a specific permission and optionally displays a warning if denied
 
 **Parameters:**
 

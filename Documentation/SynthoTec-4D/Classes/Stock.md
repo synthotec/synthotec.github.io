@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2025-12-10T11:45:24.385Z*
+🕐 *Last updated: 2026-01-13T16:04:13.480Z*
 
 ---
 
@@ -45,6 +45,8 @@ parent : Classes
 Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer)
 ```
 
+Initializes stock management for a works order, setting up locations and default stock status
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -64,6 +66,8 @@ Class constructor($DataStore : 4D.DataStoreImplementation; $WorksOrder : Integer
 ```4d
 Function adjust($LocationID : Integer; $AdjustmentQuantity : Integer; $CreateStockMovement : Boolean; $AdjustmentReason : Text; $AdviceNote : Integer) -> $lockObject : Object
 ```
+
+Adjusts stock quantity at a specific location and optionally records the movement
 
 **Parameters:**
 
@@ -86,6 +90,8 @@ Function adjust($LocationID : Integer; $AdjustmentQuantity : Integer; $CreateSto
 Function move($FromLocation : Integer; $ToLocation : Integer; $AdjustmentQuantity : Integer; $AdjustmentReason : Text; $AdviceNote : Integer) -> $lockObject : Object
 ```
 
+Moves stock from one location to another in a single transaction, recording the movement
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -107,6 +113,8 @@ Function move($FromLocation : Integer; $ToLocation : Integer; $AdjustmentQuantit
 Function SetNewStockQuarantineStatus($QuarantineNewStock : Boolean) -> $lockObject : Object
 ```
 
+Sets whether new stock for this works order should be quarantined by default
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -123,6 +131,8 @@ Function SetNewStockQuarantineStatus($QuarantineNewStock : Boolean) -> $lockObje
 ```4d
 Function Quarantine_Stock($QuantityToQuarantine : Integer; $QuarantineReason : Text) -> $lockObject : Object
 ```
+
+Moves the specified quantity of finished stock to quarantine status with a reason
 
 **Parameters:**
 
@@ -142,6 +152,8 @@ Function Quarantine_Stock($QuantityToQuarantine : Integer; $QuarantineReason : T
 Function Quarantine_Release($QuantityToRelease : Integer; $ReleaseReason : Text) -> $lockObject : Object
 ```
 
+Releases quarantined stock back to finished goods with a release reason
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -159,6 +171,8 @@ Function Quarantine_Release($QuantityToRelease : Integer; $ReleaseReason : Text)
 ```4d
 Function Quarantine_Scrap($QuantityToScrap : Integer; $ScrapReason : Text) -> $lockObject : Object
 ```
+
+Scraps quarantined stock with a scrap reason and records the movement
 
 **Parameters:**
 
@@ -178,6 +192,8 @@ Function Quarantine_Scrap($QuantityToScrap : Integer; $ScrapReason : Text) -> $l
 Function startTransaction
 ```
 
+Begins a database transaction and increments the transaction level counter
+
 ---
 
 #### validateTransaction {#validatetransaction}
@@ -186,6 +202,8 @@ Function startTransaction
 ```4d
 Function validateTransaction
 ```
+
+Commits the current transaction and decrements the transaction level counter
 
 ---
 
@@ -196,6 +214,8 @@ Function validateTransaction
 Function cancelTransaction
 ```
 
+Rolls back the current transaction and decrements the transaction level counter
+
 ---
 
 #### InTransaction {#intransaction}
@@ -204,6 +224,8 @@ Function cancelTransaction
 ```4d
 Function InTransaction -> $InTransaction : Boolean
 ```
+
+Returns whether a transaction is currently active based on the transaction level counter
 
 **Returns:** `Boolean`
 
@@ -215,6 +237,8 @@ Function InTransaction -> $InTransaction : Boolean
 ```4d
 Function _RecordStockMovement($Quantity : Integer; $From_LocationID : Integer; $To_LocationID : Integer; $From_Type : Text; $To_Type : Text; $Reason : Text; $AdviceNote : Integer) -> $Stock_MovementEntity : cs.Stock_MovementEntity
 ```
+
+Records a stock movement entry with source/destination locations, types, and reason
 
 **Parameters:**
 
@@ -239,6 +263,8 @@ Function _RecordStockMovement($Quantity : Integer; $From_LocationID : Integer; $
 Function SetQuarantineReason($QuarantineReason : Text) -> $lockObject : Object
 ```
 
+Sets the reason for quarantining stock on this works order
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -255,6 +281,8 @@ Function SetQuarantineReason($QuarantineReason : Text) -> $lockObject : Object
 ```4d
 Function GetAvailableQuantity($StockLocation : Integer) -> $AvailableQuantity : Integer
 ```
+
+Returns the total available stock quantity at the specified location (or default location if 0)
 
 **Parameters:**
 
@@ -273,6 +301,8 @@ Function GetAvailableQuantity($StockLocation : Integer) -> $AvailableQuantity : 
 Function GetQuarantinedQuantity -> $QuarantinedQuantity : Integer
 ```
 
+Returns the total quantity of stock currently in quarantine for this works order
+
 **Returns:** `Integer`
 
 ---
@@ -283,6 +313,8 @@ Function GetQuarantinedQuantity -> $QuarantinedQuantity : Integer
 ```4d
 Function GetStockEntitySelection -> $EntitySelection : 4D.EntitySelection
 ```
+
+Returns an entity selection of all non-zero stock records for this works order
 
 **Returns:** `4D.EntitySelection`
 
@@ -295,6 +327,8 @@ Function GetStockEntitySelection -> $EntitySelection : 4D.EntitySelection
 Function GetNewStockQuarantineStatus -> $QuarantineNewStock : Boolean
 ```
 
+Returns whether new stock for this works order is set to be quarantined
+
 **Returns:** `Boolean`
 
 ---
@@ -305,6 +339,8 @@ Function GetNewStockQuarantineStatus -> $QuarantineNewStock : Boolean
 ```4d
 Function GetQuarantineReason -> $QuarantineReason : Text
 ```
+
+Returns the reason stored for quarantining stock on this works order
 
 **Returns:** `Text`
 

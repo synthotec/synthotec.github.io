@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2025-12-10T11:45:22.279Z*
+🕐 *Last updated: 2026-01-13T16:04:10.967Z*
 
 ---
 
@@ -48,6 +48,8 @@ Generates an EDI DESADV (Despatch Advice) message in NTN-SNR format for this adv
 Function print
 ```
 
+Prints advice note via Print Advice dialog; generates NTN-SNR DESADV file if customer requires EDI format
+
 ---
 
 #### tryEmailMaterialCertificates {#tryemailmaterialcertificates}
@@ -57,6 +59,8 @@ Function print
 Function tryEmailMaterialCertificates
 ```
 
+Sends material certificates of analysis (RMC CofA files) to current user if customer requires them; shows confirmation dialog
+
 ---
 
 #### cancel {#cancel}
@@ -65,6 +69,8 @@ Function tryEmailMaterialCertificates
 ```4d
 Function cancel -> $Cancelled : Boolean
 ```
+
+Cancels advice note by cancelling all associated CoCs; returns true if successful, false if any CoC cancel fails
 
 **Returns:** `Boolean`
 

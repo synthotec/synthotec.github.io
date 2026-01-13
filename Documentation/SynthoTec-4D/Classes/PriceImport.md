@@ -11,7 +11,7 @@ parent : Classes
 
 Imports tabular data from clipboard, prompting user to identify if first line contains headers
 
-🕐 *Last updated: 2025-12-10T11:45:23.750Z*
+🕐 *Last updated: 2026-01-13T16:04:12.660Z*
 
 ---
 

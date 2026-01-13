@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2025-12-10T11:45:24.238Z*
+🕐 *Last updated: 2026-01-13T16:04:13.279Z*
 
 ---
 
@@ -33,6 +33,8 @@ parent : Classes
 ```4d
 Function acknowledge
 ```
+
+Acknowledges sensor exceptions by locking associated works orders to prevent modification
 
 ---
 

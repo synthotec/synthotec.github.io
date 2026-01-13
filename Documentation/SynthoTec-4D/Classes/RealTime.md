@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:24.070Z*
+🕐 *Last updated: 2026-01-13T16:04:13.072Z*
 
 ---
 
@@ -41,7 +41,7 @@ parent : Classes
 Function _getNextEvenHourBoundary($FromTimeSeconds : Real) -> Real
 ```
 
-Get the next even hour boundary (00:00, 02:00, 04:00, etc.)
+Calculates next even hour boundary (00, 02, 04, etc.) in seconds; used for cycle fragmentation
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ Get the next even hour boundary (00:00, 02:00, 04:00, etc.)
 Function _prepareSensorData($RealTimeCycleObject : Object) -> Collection
 ```
 
-Prepare sensor data collection once for reuse across fragments
+Extracts and validates temperature sensor data from cycle object; filters by machine's configured temperature zones
 
 **Parameters:**
 
@@ -79,7 +79,7 @@ Prepare sensor data collection once for reuse across fragments
 Function _createSingleCycle($RealTimeCycleObject : Object; $SensorData : Collection; $OverrideCycleTime : Real; $OverrideEndDate : Date; $OverrideEndTimeSeconds : Real) -> cs.RealTimeEntity
 ```
 
-Create a single cycle record
+Creates and saves a single RealTime cycle record with optional override parameters for fragmented cycles
 
 **Parameters:**
 
@@ -102,7 +102,7 @@ Create a single cycle record
 Function _createFragmentedCycles($RealTimeCycleObject : Object; $SensorData : Collection) -> cs.RealTimeEntity
 ```
 
-Create fragmented cycles split at even hour boundaries
+Splits long cycles (>2 hours) into multiple records at even hour boundaries; returns last created entity
 
 **Parameters:**
 
@@ -121,6 +121,8 @@ Create fragmented cycles split at even hour boundaries
 ```4d
 Function newFromJson($Json : Text) -> cs.RealTimeEntity
 ```
+
+Parses JSON cycle data and creates RealTime entity; automatically fragments cycles longer than 2 hours
 
 **Parameters:**
 
@@ -141,6 +143,8 @@ Function newFromJson($Json : Text) -> cs.RealTimeEntity
 Function get SECONDS_IN_DAY -> Real
 ```
 
+Returns constant value 86400 (seconds in a day for midnight wraparound calculations)
+
 **Returns:** `Real`
 
 ---
@@ -151,6 +155,8 @@ Function get SECONDS_IN_DAY -> Real
 ```4d
 Function get TWO_HOURS_IN_SECONDS -> Real
 ```
+
+Returns constant value 7200 (two hours in seconds for cycle fragmentation boundaries)
 
 **Returns:** `Real`
 

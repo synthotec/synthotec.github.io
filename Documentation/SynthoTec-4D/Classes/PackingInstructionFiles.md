@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.392Z*
+🕐 *Last updated: 2026-01-13T16:04:12.238Z*
 
 ---
 
@@ -35,6 +35,8 @@ parent : Classes
 Function getLatest($ProductID : Integer) -> cs.PackingInstructionFilesEntity
 ```
 
+Returns the latest version of packing instructions for the specified product
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -51,6 +53,8 @@ Function getLatest($ProductID : Integer) -> cs.PackingInstructionFilesEntity
 ```4d
 Function getMigrationSettings -> Object
 ```
+
+Returns migration settings for PackingInstructionFiles with linking disabled
 
 **Returns:** `Object`
 

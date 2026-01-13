@@ -9,7 +9,7 @@ parent : Classes
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2025-12-10T11:45:23.288Z*
+🕐 *Last updated: 2026-01-13T16:04:12.141Z*
 
 ---
 
@@ -73,6 +73,8 @@ REST endpoint to update quantity of a material stock record via mobile app promp
 ```4d
 Function restLocateMaterialStock($RestPostDataObject : Object) -> Object
 ```
+
+REST endpoint to locate and assign material stock to a location; processes QR code scan or manual location entry
 
 **Parameters:**
 

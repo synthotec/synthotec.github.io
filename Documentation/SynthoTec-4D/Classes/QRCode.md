@@ -7,7 +7,7 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2025-12-10T11:45:24.030Z*
+🕐 *Last updated: 2026-01-13T16:04:13.017Z*
 
 ---
 
@@ -36,6 +36,8 @@ parent : Classes
 Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
 ```
 
+Initializes a QR code object and populates it based on the barcode type and primary key
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -56,6 +58,8 @@ Class constructor($BarcodeType : Text; $PrimaryKey : Integer)
 Function fillBoxLabelsQR($BoxLabelID : Integer)
 ```
 
+Populates QR code data from a box label entity
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -70,6 +74,8 @@ Function fillBoxLabelsQR($BoxLabelID : Integer)
 ```4d
 Function fillPalletQR($PalletID : Integer)
 ```
+
+Populates QR code data from a pallet entity
 
 **Parameters:**
 
@@ -86,6 +92,8 @@ Function fillPalletQR($PalletID : Integer)
 Function fillPrinterQR($PrinterID : Integer)
 ```
 
+Populates QR code data from a printer entity
+
 **Parameters:**
 
 | Name | Type | Optional | Description |
@@ -101,6 +109,8 @@ Function fillPrinterQR($PrinterID : Integer)
 Function getJson -> Text
 ```
 
+Returns the QR code data as a JSON string
+
 **Returns:** `Text`
 
 ---
@@ -111,6 +121,8 @@ Function getJson -> Text
 ```4d
 Function generate -> Picture
 ```
+
+Generates and returns a QR code picture from the stored data
 
 **Returns:** `Picture`
 
@@ -125,6 +137,8 @@ Function generate -> Picture
 Function get BarcodeType -> Text
 ```
 
+Returns the type of barcode this QR code represents
+
 **Returns:** `Text`
 
 ---
@@ -135,6 +149,8 @@ Function get BarcodeType -> Text
 ```4d
 Function get PrimaryKey -> Integer
 ```
+
+Returns the primary key ID of the entity this QR code represents
 
 **Returns:** `Integer`
 
