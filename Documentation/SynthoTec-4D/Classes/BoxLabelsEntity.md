@@ -5,11 +5,15 @@ parent : Classes
 ---
 # BoxLabelsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/BoxLabelsEntity.4dm)
 
-📊 **Overview:** 8 Functions | 19 Getters
+📊 **Overview:** 8 Functions | 20 Getters
+
+## 📝 Description
+
+Entity representing an individual packed box label, providing weight calculation (net/gross), status management (In Stock, On Pallet, Pick Requested, Despatched), display helpers for box numbers and packed-by text, and pallet/pick request link management.
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.072Z*
+🕐 *Last updated: 2026-03-09T14:45:29.070Z*
 
 ---
 
@@ -29,6 +33,7 @@ parent : Classes
     - [AdviceNote](#advicenote) 🔍 → `Integer`
     - [BoxNumberColor](#boxnumbercolor) 🔍 → `Integer`
     - [BoxNumberDisplay](#boxnumberdisplay) 🔍 → `Text`
+    - [BoxNumberOrPartBoxCode](#boxnumberorpartboxcode) 🔍 → `Text`
     - [BoxQuantityDisplay](#boxquantitydisplay) 🔍 → `Text`
     - [CurrentStatus](#currentstatus) 🔍 → `Object`
     - [Despatched](#despatched) 🔍 🔎 → `Boolean`
@@ -207,6 +212,19 @@ Function get BoxNumberDisplay -> Text
 ```
 
 Returns formatted box number text; shows box number or part box code, with linked box code if applicable
+
+**Returns:** `Text`
+
+---
+
+#### BoxNumberOrPartBoxCode {#boxnumberorpartboxcode}
+ `[🔍 get only]`
+
+```4d
+Function get BoxNumberOrPartBoxCode -> Text
+```
+
+Returns the part box code if this is a part box, otherwise returns the box number as text
 
 **Returns:** `Text`
 

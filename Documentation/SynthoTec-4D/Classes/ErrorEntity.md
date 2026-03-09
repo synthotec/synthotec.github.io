@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 6 Getters
 
+## 📝 Description
+
+Entity representing a logged application error, with colour-coded listbox metadata, GitHub issue linking (showing open/closed state), and the ability to send formatted error reports via email or Slack.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.634Z*
+🕐 *Last updated: 2026-03-09T14:45:29.583Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for injection moulding tool records, linking each tool to its product and tracking production parameters. Supports entity migration with linking enabled by tool number and provides UI-based tool creation linked to an existing product.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.589Z*
+🕐 *Last updated: 2026-03-09T14:45:31.762Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for quality system procedure records, defining in-process inspection steps for each product. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.026Z*
+🕐 *Last updated: 2026-03-09T14:45:30.918Z*
 
 ---
 

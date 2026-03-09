@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for production works order records, with migration settings that disable linking but preserve the original works order number when creating new entities in the local datastore.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.767Z*
+🕐 *Last updated: 2026-03-09T14:45:31.909Z*
 
 ---
 

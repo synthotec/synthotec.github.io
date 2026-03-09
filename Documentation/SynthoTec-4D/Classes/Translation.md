@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Functions | 2 Getters
 
+## 📝 Description
+
+DataClass for translation records, managing a per-process translation context stack used to look up localised labels. Methods push/pop process names onto the stack to scope translations to the active UI context.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.699Z*
+🕐 *Last updated: 2026-03-09T14:45:31.849Z*
 
 ---
 

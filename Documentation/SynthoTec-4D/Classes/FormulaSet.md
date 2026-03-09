@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates formula set from single formula or collection of formulas with optional this object and parameters
+Executes a collection of 4D formulas with a shared 'this' context object and parameter list, accumulating the result of each formula into a FormulaResults collection. Returns the last formula result for convenience.
 
-🕐 *Last updated: 2026-01-13T16:04:11.939Z*
+🕐 *Last updated: 2026-03-09T14:45:29.846Z*
 
 ---
 

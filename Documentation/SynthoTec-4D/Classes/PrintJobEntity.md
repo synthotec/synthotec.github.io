@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity representing a queued print job, storing the printer, paper name, orientation, and number of copies. Executes the job by opening a 4D printing session and rendering the required number of copies.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.714Z*
+🕐 *Last updated: 2026-03-09T14:45:30.617Z*
 
 ---
 

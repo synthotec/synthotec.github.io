@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new parameter metadata object with the specified name and type
+Metadata class representing a single parameter of a 4D class function, storing its name, type, and optional flag. Used by ClassInspector when parsing function signatures and serialising class metadata to JSON.
 
-🕐 *Last updated: 2026-01-13T16:04:11.162Z*
+🕐 *Last updated: 2026-03-09T14:45:29.154Z*
 
 ---
 

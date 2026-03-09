@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a language tag record used for identifying translation target languages, with an alias mapping the ID field to the legacy field name.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.021Z*
+🕐 *Last updated: 2026-03-09T14:45:29.920Z*
 
 ---
 

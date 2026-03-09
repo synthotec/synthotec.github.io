@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for tool document records, providing a UI-based file upload workflow that prompts for a document name and file selection, then saves the document as a BLOB linked to the specified tool.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.554Z*
+🕐 *Last updated: 2026-03-09T14:45:31.732Z*
 
 ---
 

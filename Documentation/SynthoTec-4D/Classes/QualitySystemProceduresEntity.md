@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a quality system inspection procedure for a product, storing the system name, procedure description, target min/max limits, per-cavity flag, and display order. Supports migration sync from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.035Z*
+🕐 *Last updated: 2026-03-09T14:45:30.928Z*
 
 ---
 

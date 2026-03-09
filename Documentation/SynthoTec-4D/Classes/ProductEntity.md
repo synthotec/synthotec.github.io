@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 11 Functions | 3 Getters | 1 Setters
 
+## 📝 Description
+
+Entity representing a manufactured product, with an emoji character derived from the linked EmojisEntity, part name aliases (OurPartName), and a query event handler that maps the virtual attribute to the underlying legacy field in ORDA queries.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.926Z*
+🕐 *Last updated: 2026-03-09T14:45:30.816Z*
 
 ---
 
@@ -25,7 +29,7 @@ parent : Classes
     - [getWIP](#getwip) → `Integer` 🖥️
     - [getPlannedProduction](#getplannedproduction) (1 param) → `Integer` 🖥️
     - [getPickRequestedQuantity](#getpickrequestedquantity) → `Integer` 🖥️
-    - [getAvailableStock](#getavailablestock) (2 params) → `Integer` 🖥️
+    - [getAvailableStock](#getavailablestock) (2 params) → `$AvailableStock : Integer` 🖥️
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
@@ -169,7 +173,7 @@ Returns total unprocessed quantity in active pick requests for this product; amo
  `[🖥️ local]`
 
 ```4d
-Function getAvailableStock($PickRequestEntity : cs.PickRequestEntity; $OrderPickRequestEntity : cs.OrderPickRequestEntity) -> Integer
+Function getAvailableStock($PickRequestEntity : cs.PickRequestEntity; $OrderPickRequestEntity : cs.OrderPickRequestEntity) -> $AvailableStock : Integer
 ```
 
 Returns total available stock for picking: finished + quarantined + WIP + planned production minus previous pick requests; used for stock allocation

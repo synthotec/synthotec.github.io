@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a gripper tooling component, storing part number, machine number, head number, gripper details, and cleaning instructions. Includes machine number conversion from S1 to S2 numbering during migration.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.976Z*
+🕐 *Last updated: 2026-03-09T14:45:29.877Z*
 
 ---
 

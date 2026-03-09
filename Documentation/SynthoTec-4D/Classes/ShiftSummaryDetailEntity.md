@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions | 3 Getters
 
+## 📝 Description
+
+Entity representing a detail line in a shift summary, linking a works order to a shift. Provides a method to calculate downtime since the previous shift by analysing production, planned downtime, and actual downtime periods in the interval.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.382Z*
+🕐 *Last updated: 2026-03-09T14:45:31.583Z*
 
 ---
 

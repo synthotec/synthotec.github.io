@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a Raw Material Certificate (RMC) record, used to verify the quality of incoming raw material batches. Provides a safe-delete operation that checks for existing stock take or material check usage before allowing removal.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.310Z*
+🕐 *Last updated: 2026-03-09T14:45:31.512Z*
 
 ---
 

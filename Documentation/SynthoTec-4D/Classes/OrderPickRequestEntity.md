@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 6 Getters | 3 Setters
 
+## 📝 Description
+
+Entity representing a line item on an order pick request, tracking the quantity ordered and quantity already picked (from boxes and pallets). Provides a computed QuantityToPick for warehouse fulfilment workflows.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.209Z*
+🕐 *Last updated: 2026-03-09T14:45:30.125Z*
 
 ---
 

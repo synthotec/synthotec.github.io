@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates print settings object with optional default values, optionally using system default printer
+Stores print configuration (printer name, paper size, orientation, and copy count) for applying to a 4D printing session. Can optionally default to the current system printer and saves/restores the active printer around the print job.
 
-🕐 *Last updated: 2026-01-13T16:04:12.726Z*
+🕐 *Last updated: 2026-03-09T14:45:30.630Z*
 
 ---
 

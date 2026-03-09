@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 15 Functions
 
+## 📝 Description
+
+DataClass for pallet records, tracking collections of packed boxes ready for despatch. Provides filtering for boxes available to pick and pallet quantity validation, with migration settings preserving the original pallet ID.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.342Z*
+🕐 *Last updated: 2026-03-09T14:45:30.255Z*
 
 ---
 

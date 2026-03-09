@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 19 Functions
 
+## 📝 Description
+
+Custom DataStoreImplementation providing utility methods that extend the standard 4D datastore. Currently provides a helper to find all entities with duplicate values for a specified attribute across any DataClass.
+
 **Extends:** `DataStoreImplementation`
 
-🕐 *Last updated: 2026-01-13T16:04:11.335Z*
+🕐 *Last updated: 2026-03-09T14:45:29.318Z*
 
 ---
 

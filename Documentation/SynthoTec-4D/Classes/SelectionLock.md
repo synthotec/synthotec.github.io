@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Attempts to lock all entities in provided entity selections, optionally unlocking all on failure
+Attempts to acquire 4D entity locks on multiple entity selections simultaneously, tracking which entities locked successfully and which failed. Optionally unlocks all on failure to maintain consistency.
 
-🕐 *Last updated: 2026-01-13T16:04:13.347Z*
+🕐 *Last updated: 2026-03-09T14:45:31.547Z*
 
 ---
 

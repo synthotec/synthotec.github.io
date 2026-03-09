@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for application permission records, providing get-or-create access by permission name. Used throughout the system to define and check role-based access control rules for staff.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.440Z*
+🕐 *Last updated: 2026-03-09T14:45:30.360Z*
 
 ---
 

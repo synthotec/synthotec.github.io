@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity representing a Certificate of Conformance (delivery certificate) linking a customer order, works order, and stock movement. Provides cancellation support that reverses stock movements and reduces customer order delivered quantities.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.176Z*
+🕐 *Last updated: 2026-03-09T14:45:29.170Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for manufactured product records, supporting entity migration with linking enabled by part number and providing emoji assignment to products from the available emoji pool.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.891Z*
+🕐 *Last updated: 2026-03-09T14:45:30.784Z*
 
 ---
 

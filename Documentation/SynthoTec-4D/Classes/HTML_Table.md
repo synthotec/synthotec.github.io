@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Add a new row to the table with optional styling (bold, colors, alignment)
+Utility class for building HTML table strings programmatically, with configurable borders, cell padding, uppercase conversion, and per-row styling (bold, foreground/background colour, alignment). Used extensively for email report formatting.
 
-🕐 *Last updated: 2026-01-13T16:04:12.007Z*
+🕐 *Last updated: 2026-03-09T14:45:29.906Z*
 
 ---
 

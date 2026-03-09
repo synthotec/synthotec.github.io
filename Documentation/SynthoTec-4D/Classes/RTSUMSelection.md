@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity selection of real-time summary records, providing a helper to calculate total material consumed in production (in kg) across the selection, with an option to subtract regrind weight from the calculation.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:13.329Z*
+🕐 *Last updated: 2026-03-09T14:45:31.529Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a packaging item assigned to a product (linking product, supplies, and quantity), with migration sync support that maps product and supplies IDs from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.972Z*
+🕐 *Last updated: 2026-03-09T14:45:30.861Z*
 
 ---
 

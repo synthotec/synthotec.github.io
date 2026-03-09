@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for tool temperature target records, defining the acceptable min/max temperature range for each zone on a tool. Provides a lookup by works order that resolves the machine's configured temperature zones.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.646Z*
+🕐 *Last updated: 2026-03-09T14:45:31.807Z*
 
 ---
 

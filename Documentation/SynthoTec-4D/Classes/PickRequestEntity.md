@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 10 Functions | 7 Getters
 
+## 📝 Description
+
+Entity representing a warehouse pick request, with type flags distinguishing order pick requests (types 0/1) from inventory movement requests (type 2). Provides a UI modification dialog for creating or editing request details.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.584Z*
+🕐 *Last updated: 2026-03-09T14:45:30.498Z*
 
 ---
 

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new email with the specified subject and HTML body
+Utility class for composing and sending HTML emails, supporting multiple To/CC/BCC recipients, attachments, custom headers, and an automatic permission-group footer. Used throughout the system for automated notifications and reports.
 
-🕐 *Last updated: 2026-01-13T16:04:11.478Z*
+🕐 *Last updated: 2026-03-09T14:45:29.444Z*
 
 ---
 

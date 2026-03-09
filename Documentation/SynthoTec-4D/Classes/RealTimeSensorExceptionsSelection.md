@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity selection of temperature sensor exception records, providing batch acknowledgement by locking all associated works orders to prevent modification of acknowledged exceptions.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:13.279Z*
+🕐 *Last updated: 2026-03-09T14:45:31.176Z*
 
 ---
 

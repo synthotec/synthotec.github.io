@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Functions
 
+## 📝 Description
+
+Entity representing a temperature target (min/max range) for a specific zone on a tool, with a ZoneName alias from the linked ToolTemperatureZoneEntity and a UI method to set target values via a prompt dialog.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.663Z*
+🕐 *Last updated: 2026-03-09T14:45:31.819Z*
 
 ---
 

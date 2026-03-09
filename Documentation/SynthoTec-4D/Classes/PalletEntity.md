@@ -5,11 +5,15 @@ parent : Classes
 ---
 # PalletEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/PalletEntity.4dm)
 
-📊 **Overview:** 9 Functions | 4 Getters
+📊 **Overview:** 9 Functions | 5 Getters
+
+## 📝 Description
+
+Entity representing a physical pallet loaded with packed boxes. Provides net and gross weight calculation from associated box labels, print job creation for pallet labels, and despatch/verification operations.
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.414Z*
+🕐 *Last updated: 2026-03-09T14:45:30.330Z*
 
 ---
 
@@ -27,6 +31,7 @@ parent : Classes
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
     - [transfer](#transfer) (1 param) → `Boolean` 🖥️
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
+    - [FirstBoxLabelsEntity](#firstboxlabelsentity) 🔍 → `cs.BoxLabelsEntity`
     - [GrossWeightKg](#grossweightkg) 🔍 → `Real`
     - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
     - [NetWeightKg](#netweightkg) 🔍 → `Real`
@@ -193,6 +198,19 @@ Transfers this pallet to a new location by moving stock and updating location, w
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
+
+#### FirstBoxLabelsEntity {#firstboxlabelsentity}
+ `[🔍 get only]`
+
+```4d
+Function get FirstBoxLabelsEntity -> cs.BoxLabelsEntity
+```
+
+Returns the first box label on this pallet ordered by works order then ID
+
+**Returns:** `cs.BoxLabelsEntity`
+
+---
 
 #### GrossWeightKg {#grossweightkg}
  `[🔍 get only, 🖥️ local]`

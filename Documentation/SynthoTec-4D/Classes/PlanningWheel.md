@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for the production planning wheel (schedule), providing UI-based line insertion that prompts for tool selection and quantity, then creates a new schedule entry and updates surrounding run orders.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.643Z*
+🕐 *Last updated: 2026-03-09T14:45:30.554Z*
 
 ---
 

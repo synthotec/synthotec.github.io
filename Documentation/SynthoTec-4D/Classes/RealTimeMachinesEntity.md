@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 6 Getters
 
+## 📝 Description
+
+Entity representing a machine's real-time monitoring configuration, including enabled state, temperature sensor zone setup, and awaiting-setter count. Provides helpers to check whether temperature sensors are installed and whether a specific zone is configured.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.102Z*
+🕐 *Last updated: 2026-03-09T14:45:31.002Z*
 
 ---
 

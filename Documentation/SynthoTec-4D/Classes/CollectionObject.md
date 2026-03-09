@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a collection wrapper for UI dropdowns with optional placeholder text
+Wrapper class that binds a 4D collection to a form dropdown widget, managing the selected index, current value, placeholder text, and optionally associated primary keys and entity references for each item.
 
-🕐 *Last updated: 2026-01-13T16:04:11.192Z*
+🕐 *Last updated: 2026-03-09T14:45:29.182Z*
 
 ---
 

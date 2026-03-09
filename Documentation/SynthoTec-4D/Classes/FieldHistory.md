@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Functions
 
+## 📝 Description
+
+DataClass for field history (audit trail) records. Handles Alt+Click events on selection-based listboxes to display the change history for the clicked field using the current record's table and field context.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.762Z*
+🕐 *Last updated: 2026-03-09T14:45:29.687Z*
 
 ---
 

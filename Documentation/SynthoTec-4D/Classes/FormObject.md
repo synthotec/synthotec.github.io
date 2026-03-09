@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates wrapper for form object manipulation using 4D commands (defaults to current object if not specified)
+Utility wrapper for 4D form objects, identified by name, providing programmatic access to a wide range of properties (title, enabled, visible, colour, focus, position, size, etc.) using the 4D OBJECT family of commands.
 
-🕐 *Last updated: 2026-01-13T16:04:11.841Z*
+🕐 *Last updated: 2026-03-09T14:45:29.757Z*
 
 ---
 

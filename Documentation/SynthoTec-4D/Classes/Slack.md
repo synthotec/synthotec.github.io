@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates Slack integration for the specified channel, creating it if it doesn't exist
+Wrapper for the Slack API, managing channel creation/lookup and message posting with Block Kit formatting. Used for sending automated alerts and error notifications to team Slack channels.
 
-🕐 *Last updated: 2026-01-13T16:04:13.415Z*
+🕐 *Last updated: 2026-03-09T14:45:31.608Z*
 
 ---
 

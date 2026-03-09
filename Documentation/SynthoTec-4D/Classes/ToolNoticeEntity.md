@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions | 3 Getters
 
+## 📝 Description
+
+Entity representing a tool notice or production hold, storing notice type, active flag, and remaining runs. The IsActive computed property respects both the active flag and the runs-based expiry (RunsActiveFor=-1 means unlimited runs).
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.577Z*
+🕐 *Last updated: 2026-03-09T14:45:31.751Z*
 
 ---
 

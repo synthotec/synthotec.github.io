@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Functions
 
+## 📝 Description
+
+DataClass for product packaging records, managing which packaging supplies are required per product. Provides on-demand generation of customer-specific packaging records triggered by a global settings flag.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.964Z*
+🕐 *Last updated: 2026-03-09T14:45:30.855Z*
 
 ---
 

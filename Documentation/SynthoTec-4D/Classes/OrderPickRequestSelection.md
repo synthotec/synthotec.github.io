@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity selection of order pick request lines, providing an aggregate helper to sum the total unprocessed quantity across all lines whose parent pick request has not yet been processed.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:12.218Z*
+🕐 *Last updated: 2026-03-09T14:45:30.134Z*
 
 ---
 

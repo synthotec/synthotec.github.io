@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Functions | 4 Getters
 
+## 📝 Description
+
+Entity representing a temperature sensor exception event, aggregating parts made and cycle duration across a range of real-time records between a start and end ID for a specific works order.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.269Z*
+🕐 *Last updated: 2026-03-09T14:45:31.166Z*
 
 ---
 

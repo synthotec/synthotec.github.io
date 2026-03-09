@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Form element references
+Form controller for the Downtime Management screen, managing UI state for date, week, machine, and category filters, selected RealTime and downtime reason entities, and permission-controlled assignment of downtime reasons to production records.
 
-🕐 *Last updated: 2026-01-13T16:04:11.411Z*
+🕐 *Last updated: 2026-03-09T14:45:29.384Z*
 
 ---
 

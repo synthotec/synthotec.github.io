@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Returns the source code of the test formula as text
+Represents the result of a single unit test execution within a UnitTest suite, tracking success/failure, whether an error occurred, the stack trace, and providing text representations of the test formula and its parameters.
 
-🕐 *Last updated: 2026-01-13T16:04:13.845Z*
+🕐 *Last updated: 2026-03-09T14:45:31.993Z*
 
 ---
 

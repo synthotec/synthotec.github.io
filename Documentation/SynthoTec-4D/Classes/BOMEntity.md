@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a Bill of Materials record, storing part weights, runner weights, regrind, waste factors, material values, sales prices, and energy costs. Supports migration synchronisation from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.002Z*
+🕐 *Last updated: 2026-03-09T14:45:29.006Z*
 
 ---
 

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Adds rule to overwrite remote property with local property value unconditionally
+Defines a set of field-level rules for migrating an entity from a remote datastore to the local datastore. Supports overwrite, fill-if-blank, custom formula, and related-entity link operations, and can be chained for fluent rule composition.
 
-🕐 *Last updated: 2026-01-13T16:04:11.588Z*
+🕐 *Last updated: 2026-03-09T14:45:29.545Z*
 
 ---
 

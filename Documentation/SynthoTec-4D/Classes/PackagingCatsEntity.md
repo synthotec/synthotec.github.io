@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a packaging category (e.g., box, bag, pallet wrap) used when recording packaging consumption. Supports migration synchronisation from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.229Z*
+🕐 *Last updated: 2026-03-09T14:45:30.145Z*
 
 ---
 

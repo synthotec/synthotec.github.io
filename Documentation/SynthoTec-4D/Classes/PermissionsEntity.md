@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing an application permission, providing a lookup (and auto-create) for the StaffPermissions linking record that associates this permission to a specific staff member.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.451Z*
+🕐 *Last updated: 2026-03-09T14:45:30.368Z*
 
 ---
 

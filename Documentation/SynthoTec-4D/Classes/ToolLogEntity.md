@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a tool maintenance or event log entry, with a unique ID alias (UniqueID). Used to track maintenance history against injection moulding tools.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.558Z*
+🕐 *Last updated: 2026-03-09T14:45:31.735Z*
 
 ---
 

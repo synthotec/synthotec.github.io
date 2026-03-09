@@ -5,22 +5,27 @@ parent : Classes
 ---
 # ProcurementProgram [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgram.4dm)
 
-📊 **Overview:** 10 Properties | 1 Constructor | 1 Functions | 2 Getters
+📊 **Overview:** 14 Properties | 1 Constructor | 5 Functions
 
-🕐 *Last updated: 2026-01-13T16:04:12.745Z*
+## 📝 Description
+
+Parses a customer-supplied procurement schedule pasted from the clipboard as tab-delimited data, identifying column positions for item numbers, order status, quantities, due dates, warehouse codes, and VMI flags. Produces a collection of ProcurementProgramLine objects for review and processing.
+
+🕐 *Last updated: 2026-03-09T14:45:30.656Z*
 
 ---
 
 ## 📑 Table of Contents
 
-- [📋 Properties (10)](#properties)
+- [📋 Properties (14)](#properties)
 - [🏗️ Constructor](#constructor) (1 param)
 - [⚙️ Functions](#functions)
   - **Regular Functions**
+    - [calculateGoodsInTransit](#calculategoodsintransit)
+    - [closeOrdersNotInProgram](#closeordersnotinprogram)
+    - [reconcileGit](#reconcilegit)
     - [process](#process)
-  - **Computed Attributes (Getters/Setters/Query/OrderBy)**
-    - [AllLinesActioned](#alllinesactioned) 🔍 → `Boolean`
-    - [UnactionedLines](#unactionedlines) 🔍 → `Collection`
+    - [deleteForecastOrders](#deleteforecastorders) → `$NotDropped : cs.Customer_OrderSelection`
 
 ---
 
@@ -29,15 +34,19 @@ parent : Classes
 | Property | Type | Default | Description |
 |:---------|:-----|:--------|:------------|
 | `Lines` | `Collection` | - | Collection of cs.ProcurementProgramLine objects parsed from clipboard data |
-| `ItemNumberIndex` | *Not specified* | `-1` | Column index for item number in tab-delimited input |
-| `StatusIndex` | *Not specified* | `-1` | Column index for order status (FORECAST/BACKLOG/order number) in input |
-| `QuantityIndex` | *Not specified* | `-1` | Column index for quantity in input |
-| `DueDateIndex` | *Not specified* | `-1` | Column index for due date in input |
-| `ItemDescriptionIndex` | *Not specified* | `-1` | Column index for item description in input |
-| `VmiIndex` | *Not specified* | `-1` | Column index for VMI (Vendor Managed Inventory) flag in input |
-| `WarehouseIndex` | *Not specified* | `-1` | Column index for warehouse location code in input |
+| `ItemNumberIndex` | `Integer` | `-1` | Column index for item number in tab-delimited input |
+| `StatusIndex` | `Integer` | `-1` | Column index for order status (FORECAST/BACKLOG/order number) in input |
+| `QuantityIndex` | `Integer` | `-1` | Column index for quantity in input |
+| `DueDateIndex` | `Integer` | `-1` | Column index for due date in input |
+| `ItemDescriptionIndex` | `Integer` | `-1` | Column index for item description in input |
+| `VmiIndex` | `Integer` | `-1` | Column index for VMI (Vendor Managed Inventory) flag in input |
+| `WarehouseIndex` | `Integer` | `-1` | Column index for warehouse location code in input |
+| `LastDeliveryQtyIndex` | `Integer` | `-1` | Column index for last delivery quantity |
+| `OrderPostNbIndex` | `Integer` | `-1` | Column index for order/post number of last delivery |
+| `PackingListNbIndex` | `Integer` | `-1` | Column index for packing list (advice note) number |
 | `ErrorOccurred` | `Boolean` | - | True if parsing failed due to missing columns or invalid format |
-| `ds` | *Not specified* | `DataStore(0)` | Reference to main datastore |
+| `GoodsInTransitDictionary` | `Object` | `{}` | Maps Product_Option ID strings to goods-in-transit quantities for reconciliation |
+| `ds` | `cs.DataStore` | `DataStore(0)` | Reference to main datastore |
 
 ## Constructor {#constructor}
 
@@ -62,6 +71,39 @@ Parses tab-delimited procurement program data from clipboard and creates Procure
 
 ### Regular Functions
 
+#### calculateGoodsInTransit {#calculategoodsintransit}
+
+
+```4d
+Function calculateGoodsInTransit
+```
+
+Calculates goods-in-transit quantities by comparing last packing list deliveries against CofC receipt records; populates GoodsInTransitDictionary
+
+---
+
+#### closeOrdersNotInProgram {#closeordersnotinprogram}
+
+
+```4d
+Function closeOrdersNotInProgram
+```
+
+Close orders not seen in current program by setting Ordered=Delivered
+
+---
+
+#### reconcileGit {#reconcilegit}
+
+
+```4d
+Function reconcileGit
+```
+
+Reduce order quantities chronologically based on goods in transit
+
+---
+
 #### process {#process}
 
 
@@ -69,35 +111,20 @@ Parses tab-delimited procurement program data from clipboard and creates Procure
 Function process
 ```
 
-Processes all procurement program lines by executing assigned actions (create orders, create forecasts, update orders, etc.)
+Processes all procurement program lines with GIT reconciliation
 
 ---
 
-### Computed Attributes (Getters/Setters/Query/OrderBy)
+#### deleteForecastOrders {#deleteforecastorders}
 
-#### AllLinesActioned {#alllinesactioned}
- `[🔍 get only]`
 
 ```4d
-Function get AllLinesActioned -> Boolean
+Function deleteForecastOrders -> $NotDropped : cs.Customer_OrderSelection
 ```
 
-Returns true if all lines in the procurement program have an action assigned
+Deletes all existing forecast orders created by procurement program processing and returns any records that could not be dropped
 
-**Returns:** `Boolean`
-
----
-
-#### UnactionedLines {#unactionedlines}
- `[🔍 get only]`
-
-```4d
-Function get UnactionedLines -> Collection
-```
-
-Returns collection of ProcurementProgramLine objects that have no action assigned
-
-**Returns:** `Collection`
+**Returns:** `cs.Customer_OrderSelection`
 
 ---
 

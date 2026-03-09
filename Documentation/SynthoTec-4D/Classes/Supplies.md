@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for consumable supply records (packaging materials, bags, boxes, etc.) used in production and despatch. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.538Z*
+🕐 *Last updated: 2026-03-09T14:45:31.719Z*
 
 ---
 

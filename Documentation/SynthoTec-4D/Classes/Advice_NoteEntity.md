@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Functions
 
+## 📝 Description
+
+Entity representing a despatch advice note (delivery note), with support for generating EDI DESADV messages in NTN-SNR format, printing advice notes, and emailing material certificates to customers.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:10.967Z*
+🕐 *Last updated: 2026-03-09T14:45:28.974Z*
 
 ---
 

@@ -5,11 +5,15 @@ parent : Classes
 ---
 # MaterialEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialEntity.4dm)
 
-📊 **Overview:** 3 Functions | 1 Getters
+📊 **Overview:** 4 Functions | 1 Getters
+
+## 📝 Description
+
+Entity representing a raw material, storing material name, customer material names, supplier codes, and up to three usage material references for regrind/blend recipes. Includes migration sync support from a remote datastore.
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.107Z*
+🕐 *Last updated: 2026-03-09T14:45:30.006Z*
 
 ---
 
@@ -20,6 +24,7 @@ parent : Classes
     - [getMaterialsUsingThis](#getmaterialsusingthis) → `cs.MaterialSelection`
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+    - [checkRmcCompatible](#checkrmccompatible) (2 params) → `Boolean`
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [HasMigrationID](#hasmigrationid) 🔍 → `Boolean`
 - [🔗 Related Items](#related-items)
@@ -77,6 +82,26 @@ Synchronizes related selections (Product_Option, BOM, UsageMat selections) after
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
 | `$RemoteEntity` | `cs.MaterialEntity` | - | - |
+
+---
+
+#### checkRmcCompatible {#checkrmccompatible}
+
+
+```4d
+Function checkRmcCompatible($RMCEntity : cs.RMCEntity; $SingleSource : Boolean) -> Boolean
+```
+
+Returns true if the RMC entity uses this material as the primary, or (if not single-source) secondary or tertiary usage material
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RMCEntity` | `cs.RMCEntity` | - | - |
+| `$SingleSource` | `Boolean` | - | - |
+
+**Returns:** `Boolean`
 
 ---
 

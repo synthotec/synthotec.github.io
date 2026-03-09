@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates example object with initial inventory count
+Demonstration class showing standard property and function documentation patterns for SynthoTec-4D. Not used in production; serves as a reference template for documenting classes.
 
-🕐 *Last updated: 2026-01-13T16:04:11.666Z*
+🕐 *Last updated: 2026-03-09T14:45:29.608Z*
 
 ---
 

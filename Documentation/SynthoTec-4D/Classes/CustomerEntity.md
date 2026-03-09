@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions | 1 Getters
 
+## 📝 Description
+
+Entity representing a customer account with full postal address, contact details, invoice dates, label settings, acknowledgement flags, and cumulative order totals. Supports 50+ field migration rules for syncing from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.227Z*
+🕐 *Last updated: 2026-03-09T14:45:29.213Z*
 
 ---
 

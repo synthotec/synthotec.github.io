@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for pre-calculated monthly forecast records. Regenerates the forecast table by truncating it and rebuilding from active SalesForecast snapshot records, used to power reporting and procurement planning.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.788Z*
+🕐 *Last updated: 2026-03-09T14:45:29.711Z*
 
 ---
 

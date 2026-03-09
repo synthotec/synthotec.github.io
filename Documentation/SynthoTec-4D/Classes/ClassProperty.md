@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates metadata for a class property with name and type
+Metadata class representing a property declaration in a 4D class, storing its name, type, default value, line number, and inline documentation comment. Used by ClassInspector to capture class structure for JSON output.
 
-🕐 *Last updated: 2026-01-13T16:04:11.169Z*
+🕐 *Last updated: 2026-03-09T14:45:29.164Z*
 
 ---
 

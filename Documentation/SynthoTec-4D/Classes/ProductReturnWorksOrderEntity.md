@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a product return works order record, used to track returned goods back through the works order system. Uses an alias (WOReturnID_l) for the primary key.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.980Z*
+🕐 *Last updated: 2026-03-09T14:45:30.866Z*
 
 ---
 

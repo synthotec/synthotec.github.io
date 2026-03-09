@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for tool notice records, supporting UI-based creation of notices and production holds for specific tools. A notice can limit production via a configurable number of remaining runs before it becomes inactive.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.566Z*
+🕐 *Last updated: 2026-03-09T14:45:31.742Z*
 
 ---
 

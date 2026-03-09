@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity selection of pallet records, providing a filter to retrieve pallets that are verified, located at a despatch location, and not yet assigned to any pick request.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:12.433Z*
+🕐 *Last updated: 2026-03-09T14:45:30.353Z*
 
 ---
 

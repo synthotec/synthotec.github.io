@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions | 1 Getters
 
+## 📝 Description
+
+Entity representing a contact person at a customer company, storing their email address and linking to the parent customer entity. Supports migration ID tracking and sync from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.214Z*
+🕐 *Last updated: 2026-03-09T14:45:29.201Z*
 
 ---
 

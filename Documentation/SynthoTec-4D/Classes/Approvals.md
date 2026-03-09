@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for customer-tool approval records, managing which customers have approved which tools for production. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:10.979Z*
+🕐 *Last updated: 2026-03-09T14:45:28.984Z*
 
 ---
 

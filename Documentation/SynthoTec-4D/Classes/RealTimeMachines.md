@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for machine configuration records used in the real-time monitoring system. Provides a lookup helper to retrieve a machine entity by its machine number.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.092Z*
+🕐 *Last updated: 2026-03-09T14:45:30.992Z*
 
 ---
 

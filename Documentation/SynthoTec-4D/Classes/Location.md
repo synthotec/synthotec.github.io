@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Functions
 
+## 📝 Description
+
+DataClass for hierarchical warehouse and storage location records. Provides scanner-based lookup by barcode type (returns the LocationEntity if the scanned barcode is a valid location barcode).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.047Z*
+🕐 *Last updated: 2026-03-09T14:45:29.945Z*
 
 ---
 

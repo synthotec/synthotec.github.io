@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 2 Getters
 
+## 📝 Description
+
+Entity representing a production shift summary record, with helpers to find the preceding shift summary and a computed shift symbol emoji (🌙 night / 🐓 morning / ☀️ afternoon) based on shift start time.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.393Z*
+🕐 *Last updated: 2026-03-09T14:45:31.592Z*
 
 ---
 

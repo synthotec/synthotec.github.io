@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Getters
 
+## 📝 Description
+
+Entity representing a machine maintenance log entry, with computed ISO timestamp and tab-separated timestamp properties that combine the maintenance date and time fields.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.093Z*
+🕐 *Last updated: 2026-03-09T14:45:29.990Z*
 
 ---
 

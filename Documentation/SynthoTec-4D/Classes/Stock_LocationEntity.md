@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a finished goods stock location, with aliases for the primary key (StockLocationID_l), default packing flag, location code, and location name fields.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.530Z*
+🕐 *Last updated: 2026-03-09T14:45:31.711Z*
 
 ---
 

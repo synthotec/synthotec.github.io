@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Adds a cell to this row with value, type, style ID, and optional formula
+Represents a single row in an Excel XML (SpreadsheetML) file, holding a collection of typed cells with optional style IDs and formula expressions. Used by ExcelXMLFile when building worksheet content.
 
-🕐 *Last updated: 2026-01-13T16:04:11.726Z*
+🕐 *Last updated: 2026-03-09T14:45:29.660Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a customer-tool approval record, storing approval type, conditional dates, bypass flags, and approver details. Supports data migration and synchronisation from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:10.986Z*
+🕐 *Last updated: 2026-03-09T14:45:28.992Z*
 
 ---
 

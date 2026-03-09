@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for application settings records, providing get-or-create access for both global settings (no staff ID) and per-staff settings. Used throughout the system to persist configuration values of any type.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.356Z*
+🕐 *Last updated: 2026-03-09T14:45:31.558Z*
 
 ---
 

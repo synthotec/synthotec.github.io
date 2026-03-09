@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for application log entries, recording timestamped messages with process context. Provides a trim function to automatically delete old entries and keep the log within a configured maximum size.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.088Z*
+🕐 *Last updated: 2026-03-09T14:45:29.985Z*
 
 ---
 

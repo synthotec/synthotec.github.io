@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 11 Functions
 
+## 📝 Description
+
+DataClass for pick request records, managing the creation of new pick requests via UI dialogs with customer and despatch date selection. Supports both direct creation and entry-form-based creation workflows.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.505Z*
+🕐 *Last updated: 2026-03-09T14:45:30.425Z*
 
 ---
 

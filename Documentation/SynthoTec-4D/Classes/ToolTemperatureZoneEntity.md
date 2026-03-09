@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a named temperature zone on a tool (e.g., Zone 1, Nozzle). Supports migration synchronisation that fills blank zone names from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.686Z*
+🕐 *Last updated: 2026-03-09T14:45:31.839Z*
 
 ---
 

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new menu item with the specified display text and default styling
+Represents a single item in a 4D popup menu, supporting text display with optional bold/italic/underline styling, checkmarks, enable/disable state, formula execution on selection, and variant value return.
 
-🕐 *Last updated: 2026-01-13T16:04:12.192Z*
+🕐 *Last updated: 2026-03-09T14:45:30.110Z*
 
 ---
 

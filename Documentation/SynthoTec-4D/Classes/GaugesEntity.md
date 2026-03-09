@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a measurement gauge record (e.g., a tool gauge or quality gauge), with a unique ID alias.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.945Z*
+🕐 *Last updated: 2026-03-09T14:45:29.850Z*
 
 ---
 

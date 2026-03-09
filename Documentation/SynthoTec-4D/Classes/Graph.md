@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Properties | 1 Constructor | 1 Functions
 
-🕐 *Last updated: 2026-01-13T16:04:11.963Z*
+## 📝 Description
+
+Utility class for generating 4D chart pictures from a settings configuration object. Currently under development; the generate function is not yet fully implemented.
+
+🕐 *Last updated: 2026-03-09T14:45:29.866Z*
 
 ---
 

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates temperature sensor object from sensor data, linking to tool temperature target if configured
+Represents a temperature sensor reading for a specific zone on a machine, created from raw sensor data. Links to the ToolTemperatureTargetEntity for the zone to provide target min/max range information alongside the actual reading.
 
-🕐 *Last updated: 2026-01-13T16:04:13.286Z*
+🕐 *Last updated: 2026-03-09T14:45:31.183Z*
 
 ---
 

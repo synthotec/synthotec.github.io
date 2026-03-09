@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 2 Getters
 
+## 📝 Description
+
+Entity representing a purchase order line, providing computed OutstandingQuantity (ordered minus received) and total value (quantity times unit price, adjusted for price quantity breaks).
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.001Z*
+🕐 *Last updated: 2026-03-09T14:45:30.892Z*
 
 ---
 

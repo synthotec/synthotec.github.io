@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a persisted error report, dispatching formatted notifications via email and Slack including stack trace, occurrence counts, and debug information when the corresponding flags are enabled.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.658Z*
+🕐 *Last updated: 2026-03-09T14:45:29.601Z*
 
 ---
 

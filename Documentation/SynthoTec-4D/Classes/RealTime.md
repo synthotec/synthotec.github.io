@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Functions | 2 Getters
 
+## 📝 Description
+
+DataClass for real-time production cycle records captured from injection moulding machines. Provides time boundary constants and cycle fragmentation helpers for splitting long cycles at even-hour boundaries.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.072Z*
+🕐 *Last updated: 2026-03-09T14:45:30.971Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 7 Functions
 
+## 📝 Description
+
+DataClass for box label records that track individual packed boxes throughout the warehouse. Provides pallet quantity validation, pick availability queries, barcode scanner lookup, and REST scanning support.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.021Z*
+🕐 *Last updated: 2026-03-09T14:45:29.024Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for file storage records, providing a UI-based upload function that prompts the user to select a file and stores its binary content and metadata as a FileEntity in the database.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.769Z*
+🕐 *Last updated: 2026-03-09T14:45:29.692Z*
 
 ---
 

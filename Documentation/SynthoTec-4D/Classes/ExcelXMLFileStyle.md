@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new Excel cell style with default font settings
+Defines cell styling for Excel XML output, encapsulating font properties (name, size, colour, bold), interior fill colour, text alignment, and number format. Instances are referenced by ID in ExcelXMLFileRow cells.
 
-🕐 *Last updated: 2026-01-13T16:04:11.744Z*
+🕐 *Last updated: 2026-03-09T14:45:29.672Z*
 
 ---
 

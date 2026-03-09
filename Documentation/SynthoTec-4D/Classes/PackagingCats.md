@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for packaging category records, used to classify the types of packaging materials used in despatch. Supports entity migration with linking enabled by category name.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.223Z*
+🕐 *Last updated: 2026-03-09T14:45:30.140Z*
 
 ---
 

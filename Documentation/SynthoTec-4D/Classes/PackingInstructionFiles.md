@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for versioned packing instruction file records by product. Provides a helper to retrieve the latest version of packing instructions for a given product ID. Migration is disabled for this table.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.238Z*
+🕐 *Last updated: 2026-03-09T14:45:30.150Z*
 
 ---
 

@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Initialize loading dialog with text and optional progress percentage
+Manages a loading indicator window using a shared object for inter-process communication. Tracks progress percentage, elapsed time, and update count, allowing a background process to display and update a progress dialog.
 
-🕐 *Last updated: 2026-01-13T16:04:12.029Z*
+🕐 *Last updated: 2026-03-09T14:45:29.928Z*
 
 ---
 

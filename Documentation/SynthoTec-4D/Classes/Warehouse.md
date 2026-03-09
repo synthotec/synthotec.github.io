@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 8 Functions
 
+## 📝 Description
+
+DataClass exposing REST endpoints for the Xamarin warehouse mobile application, handling user prompt display and formula execution for stock movements, scanning operations, and other warehouse workflows.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.746Z*
+🕐 *Last updated: 2026-03-09T14:45:31.891Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 3 Getters
 
+## 📝 Description
+
+DataClass for stock location records, defining named physical locations for finished goods (e.g., packing area, despatch bay, consignment). Provides helpers to identify and assert the default despatch location.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.524Z*
+🕐 *Last updated: 2026-03-09T14:45:31.707Z*
 
 ---
 

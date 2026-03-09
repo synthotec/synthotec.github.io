@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+DataClass for customer order records, providing classic 4D ORDER BY sort routines for the make-order and order-overview views, with optional prioritisation of standard orders over consignment and forecast lines.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.236Z*
+🕐 *Last updated: 2026-03-09T14:45:29.221Z*
 
 ---
 

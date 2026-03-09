@@ -5,11 +5,15 @@ parent : Classes
 ---
 # WorksOrderEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/WorksOrderEntity.4dm)
 
-📊 **Overview:** 7 Functions | 6 Getters
+📊 **Overview:** 8 Functions | 6 Getters
+
+## 📝 Description
+
+Entity representing a production works order, with an available finished stock calculation, quantity-made update logic (creating real-time records and calculating scrap), and an alias mapping the primary key (ID) to Works_Order_No.
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.805Z*
+🕐 *Last updated: 2026-03-09T14:45:31.951Z*
 
 ---
 
@@ -24,6 +28,7 @@ parent : Classes
     - [calculateProcessScrap](#calculateprocessscrap) (2 params) 🖥️
     - [getMigrationRules](#getmigrationrules) (1 param) → `$Collection : Collection` 🖥️
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
+    - [createMaterialCheck](#creatematerialcheck) (2 params) → `$MaterialCheckHistoryEntity : cs.MaterialCheckHistoryEntity`
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [AvailableStock](#availablestock) 🔍 → `Integer`
     - [ExS1Stock](#exs1stock) 🔍 → `Integer`
@@ -162,6 +167,26 @@ Syncs related entity selections during data migration (currently commented out)
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
 | `$RemoteEntity` | `cs.WorksOrderEntity` | - | - |
+
+---
+
+#### createMaterialCheck {#creatematerialcheck}
+
+
+```4d
+Function createMaterialCheck($RMCEntity : cs.RMCEntity; $StaffEntity : cs.StaffEntity) -> $MaterialCheckHistoryEntity : cs.MaterialCheckHistoryEntity
+```
+
+Creates and saves a new material check history record for this works order using the given RMC and staff entity
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RMCEntity` | `cs.RMCEntity` | - | - |
+| `$StaffEntity` | `cs.StaffEntity` | - | - |
+
+**Returns:** `cs.MaterialCheckHistoryEntity`
 
 ---
 

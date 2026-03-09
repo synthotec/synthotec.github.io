@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new menu with optional collection of text items that return their index when selected
+Utility class for building and displaying 4D popup menus at runtime, supporting text items, formula items, separator lines, and nested submenus. Tracks whether the user cancelled and provides the selected result.
 
-🕐 *Last updated: 2026-01-13T16:04:12.176Z*
+🕐 *Last updated: 2026-03-09T14:45:30.094Z*
 
 ---
 

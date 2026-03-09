@@ -5,11 +5,15 @@ parent : Classes
 ---
 # MaterialStock [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/MaterialStock.4dm)
 
-📊 **Overview:** 3 Functions
+📊 **Overview:** 5 Functions
+
+## 📝 Description
+
+DataClass for material stock quantity records by material and location. Provides a function to zero out stock not counted in the latest stock take, logging each adjustment for traceability.
 
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.141Z*
+🕐 *Last updated: 2026-03-09T14:45:30.043Z*
 
 ---
 
@@ -17,7 +21,9 @@ parent : Classes
 
 - [⚙️ Functions](#functions)
   - **Regular Functions**
+    - [removeUncountedStock](#removeuncountedstock)
     - [restLoadMaterialStock](#restloadmaterialstock) (1 param) → `Object`
+    - [restAssignToMaterialCheck](#restassigntomaterialcheck) (1 param) → `Object`
     - [restUpdateQuantity](#restupdatequantity) (1 param) → `Object`
     - [restLocateMaterialStock](#restlocatematerialstock) (1 param) → `Object`
 - [🔗 Related Items](#related-items)
@@ -29,6 +35,17 @@ parent : Classes
 
 ### Regular Functions
 
+#### removeUncountedStock {#removeuncountedstock}
+
+
+```4d
+Function removeUncountedStock
+```
+
+Zeroes quantity of all non-zero material stock not found in the latest stock take and logs each adjustment
+
+---
+
 #### restLoadMaterialStock {#restloadmaterialstock}
 
 
@@ -37,6 +54,25 @@ Function restLoadMaterialStock($RestPostDataObject : Object) -> Object
 ```
 
 REST endpoint to load material stock details in warehouse mobile app, with location assignment options
+
+**Parameters:**
+
+| Name | Type | Optional | Description |
+|:-----|:-----|:---------|:------------|
+| `$RestPostDataObject` | `Object` | - | - |
+
+**Returns:** `Object`
+
+---
+
+#### restAssignToMaterialCheck {#restassigntomaterialcheck}
+
+
+```4d
+Function restAssignToMaterialCheck($RestPostDataObject : Object) -> Object
+```
+
+REST endpoint to assign a scanned material stock item to a machine material check on a running works order
 
 **Parameters:**
 

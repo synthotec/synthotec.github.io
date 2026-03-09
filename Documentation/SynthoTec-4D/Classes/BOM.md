@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for Bill of Materials records, defining the material composition and cost breakdown of each product. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:10.992Z*
+🕐 *Last updated: 2026-03-09T14:45:28.997Z*
 
 ---
 

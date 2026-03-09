@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates query event handler from 4D query event object for custom query processing
+Wraps a 4D ORDA query event object, providing named access to the queried value, operator, event kind, attribute name, and dataclass name. Used by virtual attribute query handlers to construct and return custom query results.
 
-🕐 *Last updated: 2026-01-13T16:04:13.049Z*
+🕐 *Last updated: 2026-03-09T14:45:30.945Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 4 Functions
 
+## 📝 Description
+
+DataClass for staff member records, providing keyfob-based lookup (with optional warning on not found) and helpers to retrieve only active (non-archived) staff. Used throughout the system for authentication and access control.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.436Z*
+🕐 *Last updated: 2026-03-09T14:45:31.628Z*
 
 ---
 
@@ -116,6 +120,7 @@ Creates new staff member by displaying entry dialog for name, keyfob, email, and
 - [StaffMessaging](../Forms/StaffMessaging.md) - Data source for StaffMessaging form
 - [ToolMaintenanceLog](../Forms/ToolMaintenanceLog.md) - Data source for ToolMaintenanceLog form
 - [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
 
 ---
 

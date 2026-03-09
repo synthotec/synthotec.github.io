@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for customer account records, managing customer codes, addresses, contacts, and order history. Supports entity migration with linking enabled, allowing records to be matched and synced from a remote datastore.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.202Z*
+🕐 *Last updated: 2026-03-09T14:45:29.192Z*
 
 ---
 

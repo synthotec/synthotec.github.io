@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new unit test suite with the specified description
+Manages a named suite of unit tests, executing each test formula, collecting pass/fail results, tracking the count of failed tests, and providing summary output. Used to run automated tests within the 4D environment.
 
-🕐 *Last updated: 2026-01-13T16:04:13.711Z*
+🕐 *Last updated: 2026-03-09T14:45:31.860Z*
 
 ---
 

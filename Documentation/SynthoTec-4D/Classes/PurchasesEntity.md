@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a purchase invoice or order record with an alias mapping the primary key (ID) to the OrderNo_l field.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.006Z*
+🕐 *Last updated: 2026-03-09T14:45:30.897Z*
 
 ---
 

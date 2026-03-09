@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a dynamic popup menu for selecting entities from an entity selection
+Creates and displays a dynamic 4D popup menu populated from an entity selection, ordered by a specified display property. Returns the selected entity, or Null if the user cancels or no selection is made.
 
-🕐 *Last updated: 2026-01-13T16:04:11.607Z*
+🕐 *Last updated: 2026-03-09T14:45:29.559Z*
 
 ---
 

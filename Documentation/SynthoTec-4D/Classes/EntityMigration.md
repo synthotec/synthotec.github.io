@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Initializes migration manager for a specific dataclass with optional remote selection for linking
+Orchestrates migration of entity data from a remote datastore into the local datastore for a specific DataClass. Handles entity linking via a UI dialog, applies field-level migration rules, tracks progress, and supports both new and existing entity scenarios.
 
-🕐 *Last updated: 2026-01-13T16:04:11.525Z*
+🕐 *Last updated: 2026-03-09T14:45:29.492Z*
 
 ---
 

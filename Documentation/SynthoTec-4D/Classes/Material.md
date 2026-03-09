@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for raw material records used in injection moulding production. Supports entity migration with linking enabled, allowing materials to be matched and synced from a remote datastore by material name.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.097Z*
+🕐 *Last updated: 2026-03-09T14:45:29.995Z*
 
 ---
 

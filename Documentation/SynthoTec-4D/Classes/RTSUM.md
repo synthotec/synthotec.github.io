@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for real-time production summary records, aggregating cycle-level data into daily machine/works order summaries for reporting. Provides generation across a date range and optional works order filter.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.322Z*
+🕐 *Last updated: 2026-03-09T14:45:31.524Z*
 
 ---
 

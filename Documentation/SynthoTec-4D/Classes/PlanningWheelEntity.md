@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a single line in the production planning wheel (schedule), storing the tool and run order. Uses an alias for the primary key (WheelID).
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.649Z*
+🕐 *Last updated: 2026-03-09T14:45:30.560Z*
 
 ---
 

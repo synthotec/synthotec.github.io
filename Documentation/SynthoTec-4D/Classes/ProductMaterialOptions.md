@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for product material option records, defining which materials can be used to produce each product. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.949Z*
+🕐 *Last updated: 2026-03-09T14:45:30.840Z*
 
 ---
 

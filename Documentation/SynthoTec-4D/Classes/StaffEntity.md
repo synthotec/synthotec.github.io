@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions | 1 Getters
 
+## 📝 Description
+
+Entity representing a system user / staff member, with a full name helper, a permission check method with optional warning display, and an alias mapping the primary key to StaffID.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.446Z*
+🕐 *Last updated: 2026-03-09T14:45:31.635Z*
 
 ---
 
@@ -111,6 +115,7 @@ Returns the full name of the staff member by combining first and last names
 - [StaffMessaging](../Forms/StaffMessaging.md) - Data source for StaffMessaging form
 - [ToolMaintenanceLog](../Forms/ToolMaintenanceLog.md) - Data source for ToolMaintenanceLog form
 - [ToolManager](../Forms/ToolManager.md) - Data source for ToolManager form
+- [CreateRMC](../Forms/CreateRMC.md) - Data source for CreateRMC form
 
 ---
 

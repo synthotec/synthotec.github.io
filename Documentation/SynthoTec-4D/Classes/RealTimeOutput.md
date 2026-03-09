@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Returns collection of RealTimeOutputMachine objects for all enabled machines with current production state, tool status, and scrap data; refreshes from real-time table on each call
+Provides a live summary of all enabled machines for the production dashboard, aggregating output metrics, cycle times, setter availability, and scrap data. Each call to the Machines getter refreshes data from the RealTime table.
 
-🕐 *Last updated: 2026-01-13T16:04:13.123Z*
+🕐 *Last updated: 2026-03-09T14:45:31.024Z*
 
 ---
 

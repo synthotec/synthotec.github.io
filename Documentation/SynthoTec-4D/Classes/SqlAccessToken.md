@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for SQL/ODBC access token records, enabling staff to generate hashed-password credentials for connecting to the 4D database via external SQL tools (e.g., Excel Power Query, ODBC drivers).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.428Z*
+🕐 *Last updated: 2026-03-09T14:45:31.620Z*
 
 ---
 
@@ -41,6 +45,10 @@ Creates a new SQL access token for current user, generates password, and display
 ---
 
 ## Related Items {#related-items}
+
+### 🗂️ Tables
+
+- [SqlAccessToken](../Tables/SqlAccessToken.md) - ORDA DataClass class for SqlAccessToken table
 
 ---
 

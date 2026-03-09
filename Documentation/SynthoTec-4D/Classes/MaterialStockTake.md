@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Functions
 
+## 📝 Description
+
+DataClass for material stock take records, supporting physical count management. Provides helpers to find the most recent primary stock take date and retrieve counted amounts by material ID for stock reconciliation.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.159Z*
+🕐 *Last updated: 2026-03-09T14:45:30.077Z*
 
 ---
 

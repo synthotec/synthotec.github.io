@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 5 Functions | 2 Getters
 
-🕐 *Last updated: 2026-01-13T16:04:13.017Z*
+## 📝 Description
+
+Generates structured QR code data objects for different barcode types (box label, pallet, printer) by looking up the matching entity and populating the relevant fields. Used in the warehouse and printing subsystems.
+
+🕐 *Last updated: 2026-03-09T14:45:30.908Z*
 
 ---
 

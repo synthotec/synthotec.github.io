@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 6 Functions | 6 Getters
 
+## 📝 Description
+
+Entity representing a warehouse location within a tree hierarchy. Provides a tab-delimited sort path for tree ordering and an indented display name (prefixed with tabs based on hierarchy level) for listbox presentation.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.069Z*
+🕐 *Last updated: 2026-03-09T14:45:29.966Z*
 
 ---
 

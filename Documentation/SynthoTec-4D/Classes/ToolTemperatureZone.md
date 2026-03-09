@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for temperature zone records, defining the named zones on injection moulding tools where temperature sensors are monitored. Supports entity migration with linking enabled by zone name.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.680Z*
+🕐 *Last updated: 2026-03-09T14:45:31.834Z*
 
 ---
 

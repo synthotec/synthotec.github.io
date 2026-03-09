@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+DataClass for quality system inspection result records, storing the outcomes of in-process quality checks against defined procedures. Currently contains no custom methods.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.040Z*
+🕐 *Last updated: 2026-03-09T14:45:30.934Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Functions
 
+## 📝 Description
+
+Entity representing a key-value application setting, with automatic type detection for reading and writing values of any 4D type (text, number, boolean, date, time, object). Provides a typed getValue helper with a default fallback.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.366Z*
+🕐 *Last updated: 2026-03-09T14:45:31.570Z*
 
 ---
 

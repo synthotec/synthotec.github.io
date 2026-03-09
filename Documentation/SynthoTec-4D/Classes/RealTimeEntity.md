@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions | 3 Getters
 
+## 📝 Description
+
+Entity representing a single real-time production cycle on a machine, with computed ISO start and end datetime strings, mould-open time derivation, and a back-calculated StartTime from the recorded end date and cycle duration.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.087Z*
+🕐 *Last updated: 2026-03-09T14:45:30.986Z*
 
 ---
 

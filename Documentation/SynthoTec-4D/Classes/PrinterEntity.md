@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 5 Functions | 5 Getters
 
+## 📝 Description
+
+Entity representing a system printer, with helpers to determine if it supports label printing (based on configured paper options) and to retrieve available label paper sizes for the Zebra/label workflow.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.691Z*
+🕐 *Last updated: 2026-03-09T14:45:30.595Z*
 
 ---
 

@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 
 
-🕐 *Last updated: 2026-01-13T16:04:12.665Z*
+## 📝 Description
+
+Represents a single cell parsed from an imported price schedule table. Class is currently empty and reserved for future use.
+
+🕐 *Last updated: 2026-03-09T14:45:30.572Z*
 
 ---
 

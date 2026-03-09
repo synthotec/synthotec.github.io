@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 3 Functions
 
+## 📝 Description
+
+DataClass for printer records, synchronising the system printer list with the database and providing default printer lookup by type. Used to manage label and document printers throughout the application.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.673Z*
+🕐 *Last updated: 2026-03-09T14:45:30.579Z*
 
 ---
 

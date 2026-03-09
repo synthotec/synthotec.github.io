@@ -5,13 +5,13 @@ parent : Classes
 ---
 # ProcurementProgramLine [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ProcurementProgramLine.4dm)
 
-📊 **Overview:** 18 Properties | 1 Constructor | 14 Functions | 13 Getters
+📊 **Overview:** 18 Properties | 1 Constructor | 12 Functions | 14 Getters
 
 ## 📝 Description
 
-Returns true if any action flag is set for this line
+Represents a single line in a parsed customer procurement schedule (e.g., NTN-SNR), created from tab-delimited text or an existing Customer_OrderEntity. Holds order quantities, due dates, VMI flags, and matched product option and order links, with status flags for ignored or removed lines.
 
-🕐 *Last updated: 2026-01-13T16:04:12.811Z*
+🕐 *Last updated: 2026-03-09T14:45:30.723Z*
 
 ---
 
@@ -24,20 +24,17 @@ Returns true if any action flag is set for this line
     - [setDefaultActions](#setdefaultactions)
     - [newFromText](#newfromtext) (1 param)
     - [newFromCustomerOrder](#newfromcustomerorder) (1 param)
+    - [findMatchingOrder](#findmatchingorder) → `$Customer_OrderEntity : cs.Customer_OrderEntity`
     - [getWarehouseWithCustomerCode](#getwarehousewithcustomercode) → `Text`
     - [setAction](#setaction)
-    - [_setActions](#_setactions) (1 param)
+    - [_toggleIgnore](#_toggleignore)
     - [_copyItemNumber](#_copyitemnumber)
-    - [_setActionIgnore](#_setactionignore) (1 param)
-    - [process](#process)
+    - [_setOrderFields](#_setorderfields) (2 params)
     - [_setNewCustomer_OrderEntity](#_setnewcustomer_orderentity) → `$Customer_OrderEntity : cs.Customer_OrderEntity`
-    - [process_CreateForecast](#process_createforecast)
-    - [process_CreateOrder](#process_createorder)
-    - [process_UpdateOrder](#process_updateorder)
-    - [process_CloseOrder](#process_closeorder)
+    - [process_UpdateOrCreateOrder](#process_updateorcreateorder)
+    - [process](#process)
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
-    - [ActionText->$ActionText](#actiontext->$actiontext) 🔍 → `Text`
-    - [IsActionSet](#isactionset) 🔍 → `Boolean`
+    - [ActionPreview](#actionpreview) 🔍 → `Text`
     - [IsBacklog](#isbacklog) 🔍 → `Boolean`
     - [IsExistingOrder](#isexistingorder) 🔍 → `Boolean`
     - [IsExistingOrderModified](#isexistingordermodified) 🔍 → `Boolean`
@@ -49,6 +46,8 @@ Returns true if any action flag is set for this line
     - [OurPartName](#ourpartname) 🔍 → `Text`
     - [StatusText->$StatusText](#statustext->$statustext) 🔍 → `Text`
     - [WeekNumberText](#weeknumbertext) 🔍 → `Text`
+    - [WillCreate](#willcreate) 🔍 → `Boolean`
+    - [WillUpdate](#willupdate) 🔍 → `Boolean`
 
 ---
 
@@ -63,17 +62,17 @@ Returns true if any action flag is set for this line
 | `ItemDescription` | `Text` | - | Description of the item from procurement program |
 | `Vmi` | `Boolean` | - | True if this is a Vendor Managed Inventory item |
 | `Warehouse` | `Text` | - | Warehouse location code (e.g., NTN, SNR) |
+| `LastDeliveryQty` | `Integer` | - | Quantity from last delivery booked in by customer |
+| `OrderPostNb` | `Text` | - | Order/Post number from last delivery (e.g., "5500417085/00010") |
+| `PackingListNb` | `Integer` | - | Packing list (advice note) number from last delivery |
 | `Product_OptionEntity` | `cs.Product_OptionEntity` | - | Linked product option (matched by CustomerReference), can be Null if not found |
 | `Customer_OrderEntity` | `cs.Customer_OrderEntity` | - | Existing customer order entity if line matches an existing order, otherwise Null |
 | `ProcurementProgram` | `cs.ProcurementProgram` | - | Parent procurement program object |
 | `RemovedFromProgram` | `Boolean` | - | True if this order exists in system but was not in latest procurement program file |
-| `Action_CreateForecast` | `Boolean` | - | True if action is to create a forecast order |
-| `Action_CreateOrder` | `Boolean` | - | True if action is to create a new customer order |
-| `Action_Ignore` | `Boolean` | - | True if no action should be taken (e.g., backlog items) |
-| `Action_CloseOrder` | `Boolean` | - | True if existing order should be closed |
-| `Action_UpdateOrder` | `Boolean` | - | True if existing order quantity should be updated |
+| `Action_Ignore` | `Boolean` | - | True if this line should be ignored (not processed) |
 | `WarehouseWithCustomerCode` | `Text` | - | Warehouse code with customer code appended in format "NTN (123)" |
-| `ds` | *Not specified* | `DataStore(0)` | Reference to main datastore |
+| `ds` | `4D.DataStoreImplementation` | - | Reference to main datastore |
+| `MultipleProduct_OptionRecords` | `Boolean` | `False` | True if the item number matched more than one product option record (ambiguous match) |
 
 ## Constructor {#constructor}
 
@@ -106,7 +105,7 @@ Creates a procurement program line from either tab-delimited text or an existing
 Function setDefaultActions
 ```
 
-Sets default action flags based on line type (forecast, backlog, new order, existing order, etc.)
+Sets default ignore flag based on line type (only backlog items and existing orders are ignored by default)
 
 ---
 
@@ -144,6 +143,19 @@ Populates properties from an existing Customer_OrderEntity (used for orders remo
 
 ---
 
+#### findMatchingOrder {#findmatchingorder}
+
+
+```4d
+Function findMatchingOrder -> $Customer_OrderEntity : cs.Customer_OrderEntity
+```
+
+Attempts to find an existing order that matches this procurement program line
+
+**Returns:** `cs.Customer_OrderEntity`
+
+---
+
 #### getWarehouseWithCustomerCode {#getwarehousewithcustomercode}
 
 
@@ -151,7 +163,7 @@ Populates properties from an existing Customer_OrderEntity (used for orders remo
 Function getWarehouseWithCustomerCode -> Text
 ```
 
-Returns warehouse code with customer code appended in format "NTN (123)", or just warehouse code if customer not found
+Returns warehouse code with customer code; "NTN (*)" if multiple customers match warehouse
 
 **Returns:** `Text`
 
@@ -164,24 +176,18 @@ Returns warehouse code with customer code appended in format "NTN (123)", or jus
 Function setAction
 ```
 
-Displays menu for user to set action (Create/Close/Update/Ignore) or copy item number based on line type
+Displays menu for user to toggle ignore action or copy item number for missing items
 
 ---
 
-#### _setActions {#_setactions}
+#### _toggleIgnore {#_toggleignore}
 
 
 ```4d
-Function _setActions($ActiveActionProperty : Text)
+Function _toggleIgnore
 ```
 
-Clears all action flags, then sets specified action flag if parameter provided; used for exclusive action selection
-
-**Parameters:**
-
-| Name | Type | Optional | Description |
-|:-----|:-----|:---------|:------------|
-| `$ActiveActionProperty` | `Text` | - | - |
+Toggle ignore action; if confirming ignore, optionally apply to all orders with same item code
 
 ---
 
@@ -196,29 +202,21 @@ Copies item number to clipboard and displays confirmation dialog with option to 
 
 ---
 
-#### _setActionIgnore {#_setactionignore}
+#### _setOrderFields {#_setorderfields}
 
 
 ```4d
-Function _setActionIgnore($IgnoreForAllOrders : Boolean)
+Function _setOrderFields($Order : cs.Customer_OrderEntity; $IsCreating : Boolean)
 ```
 
-Sets ignore action flag; if parameter false, only ignores this line; otherwise ignores all matching orders
+Sets fields on Customer_OrderEntity for both create and update paths
 
 **Parameters:**
 
 | Name | Type | Optional | Description |
 |:-----|:-----|:---------|:------------|
-| `$IgnoreForAllOrders` | `Boolean` | - | - |
-
----
-
-#### process {#process}
-
-
-```4d
-Function process
-```
+| `$Order` | `cs.Customer_OrderEntity` | - | - |
+| `$IsCreating` | `Boolean` | - | - |
 
 ---
 
@@ -229,71 +227,46 @@ Function process
 Function _setNewCustomer_OrderEntity -> $Customer_OrderEntity : cs.Customer_OrderEntity
 ```
 
+Creates a new Customer_OrderEntity, populates all creation fields via _setOrderFields, stores it on This.Customer_OrderEntity, and returns it
+
 **Returns:** `cs.Customer_OrderEntity`
 
 ---
 
-#### process_CreateForecast {#process_createforecast}
+#### process_UpdateOrCreateOrder {#process_updateorcreateorder}
 
 
 ```4d
-Function process_CreateForecast
+Function process_UpdateOrCreateOrder
 ```
+
+Find matching order (exact match or forecast fallback for forecasts)
 
 ---
 
-#### process_CreateOrder {#process_createorder}
+#### process {#process}
 
 
 ```4d
-Function process_CreateOrder
+Function process
 ```
 
----
-
-#### process_UpdateOrder {#process_updateorder}
-
-
-```4d
-Function process_UpdateOrder
-```
-
----
-
-#### process_CloseOrder {#process_closeorder}
-
-
-```4d
-Function process_CloseOrder
-```
+Process this line - ignore backlogs and missing items, otherwise update or create
 
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
 
-#### ActionText->$ActionText {#actiontext->$actiontext}
+#### ActionPreview {#actionpreview}
  `[🔍 get only]`
 
 ```4d
-Function get ActionText->$ActionText -> Text
+Function get ActionPreview -> Text
 ```
 
-Returns action display text based on selected action (Create/Close/Update/Ignore or "Click to set action")
+Returns human-readable description of what will happen when processed
 
 **Returns:** `Text`
-
----
-
-#### IsActionSet {#isactionset}
- `[🔍 get only]`
-
-```4d
-Function get IsActionSet -> Boolean
-```
-
-Returns true if any action flag is set for this line
-
-**Returns:** `Boolean`
 
 ---
 
@@ -437,6 +410,32 @@ Function get WeekNumberText -> Text
 Returns week number in format "YYYY-WW"
 
 **Returns:** `Text`
+
+---
+
+#### WillCreate {#willcreate}
+ `[🔍 get only]`
+
+```4d
+Function get WillCreate -> Boolean
+```
+
+Returns true if this line will create a new order or forecast
+
+**Returns:** `Boolean`
+
+---
+
+#### WillUpdate {#willupdate}
+ `[🔍 get only]`
+
+```4d
+Function get WillUpdate -> Boolean
+```
+
+Returns true if this line will update an existing order
+
+**Returns:** `Boolean`
 
 ---
 

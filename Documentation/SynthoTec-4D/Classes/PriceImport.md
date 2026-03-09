@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Imports tabular data from clipboard, prompting user to identify if first line contains headers
+Parses tab-delimited price schedule data pasted from the clipboard, auto-detecting column positions for item numbers, quantities, due dates, and other fields used in the procurement programme import workflow.
 
-🕐 *Last updated: 2026-01-13T16:04:12.660Z*
+🕐 *Last updated: 2026-03-09T14:45:30.568Z*
 
 ---
 

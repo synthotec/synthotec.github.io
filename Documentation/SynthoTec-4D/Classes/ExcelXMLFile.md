@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Converts a 4D selection-based listbox to Excel rows with styled cells matching listbox appearance
+Builds Excel SpreadsheetML (XML) files programmatically from 4D data, converting selection-based listboxes into styled worksheets with configurable column widths, frozen rows/columns, and conditional formatting.
 
-🕐 *Last updated: 2026-01-13T16:04:11.704Z*
+🕐 *Last updated: 2026-03-09T14:45:29.642Z*
 
 ---
 

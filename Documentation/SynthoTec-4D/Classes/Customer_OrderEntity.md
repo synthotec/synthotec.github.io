@@ -5,11 +5,15 @@ parent : Classes
 ---
 # Customer_OrderEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/Customer_OrderEntity.4dm)
 
-📊 **Overview:** 9 Functions | 6 Getters | 1 Setters
+📊 **Overview:** 9 Functions | 7 Getters | 1 Setters
+
+## 📝 Description
+
+Entity representing a customer order line, with alias mappings for confirmed despatch/arrival dates and helpers to derive DespatchDate, DeliveryDate, and corresponding DateTime objects from confirmed or fallback delivery fields.
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.268Z*
+🕐 *Last updated: 2026-03-09T14:45:29.251Z*
 
 ---
 
@@ -27,6 +31,7 @@ parent : Classes
     - [getPickRequestQuantitiesText](#getpickrequestquantitiestext) (1 param) → `Text` 🖥️
     - [getPickRequestQuantitiesColor](#getpickrequestquantitiescolor) → `Integer` 🖥️
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
+    - [ConsignmentPickRequestQuantity](#consignmentpickrequestquantity) 🔍 → `Integer`
     - [DeliveryDate](#deliverydate) 🔍 → `Date`
     - [DeliveryDateTime](#deliverydatetime) 🔍 → `cs.System.DateTime`
     - [DespatchDate](#despatchdate) 🔍 → `Date`
@@ -204,6 +209,19 @@ Returns color indicating pick request fulfillment status (green=complete, amber=
 ---
 
 ### Computed Attributes (Getters/Setters/Query/OrderBy)
+
+#### ConsignmentPickRequestQuantity {#consignmentpickrequestquantity}
+ `[🔍 get only]`
+
+```4d
+Function get ConsignmentPickRequestQuantity -> Integer
+```
+
+Returns total quantity allocated to the consignment pick request, or 0 if no consignment pick request exists
+
+**Returns:** `Integer`
+
+---
 
 #### DeliveryDate {#deliverydate}
  `[🔍 get only, 🖥️ local]`

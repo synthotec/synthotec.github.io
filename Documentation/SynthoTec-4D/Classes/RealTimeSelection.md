@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity selection of real-time production cycle records, providing a helper to collect and aggregate all temperature sensor data from the SensorData JSON field across all records in the selection.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:13.255Z*
+🕐 *Last updated: 2026-03-09T14:45:31.151Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a hot half component of an injection moulding tool, storing its name, count, and description. Supports migration synchronisation from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.988Z*
+🕐 *Last updated: 2026-03-09T14:45:29.888Z*
 
 ---
 

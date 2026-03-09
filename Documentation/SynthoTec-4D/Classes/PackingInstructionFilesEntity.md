@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity representing a versioned packing instruction document stored as a BLOB, including file name, upload timestamp, uploaded-by staff, version number, and the linked product entity. Supports migration sync from a remote datastore.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.244Z*
+🕐 *Last updated: 2026-03-09T14:45:30.156Z*
 
 ---
 

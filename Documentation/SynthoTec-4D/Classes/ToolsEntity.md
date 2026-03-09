@@ -5,11 +5,15 @@ parent : Classes
 ---
 # ToolsEntity [![GitHub](../../github-mark-white.png)](https://github.com/synthotec/SynthoTec-4D/blob/main/Project/Sources/Classes/ToolsEntity.4dm)
 
-📊 **Overview:** 2 Functions | 1 Getters
+📊 **Overview:** 2 Functions | 2 Getters
+
+## 📝 Description
+
+Entity representing an injection moulding tool record, with a Tool_ID primary key alias, a computed count of unacknowledged temperature sensor exceptions (for dashboard alerting), and detailed migration rules covering 50+ production parameters (cycle time, weights, approvals, images, concessions, etc.).
 
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:13.630Z*
+🕐 *Last updated: 2026-03-09T14:45:31.794Z*
 
 ---
 
@@ -21,6 +25,7 @@ parent : Classes
     - [syncMigrationSelections](#syncmigrationselections) (1 param) 🖥️
   - **Computed Attributes (Getters/Setters/Query/OrderBy)**
     - [NextToolChangeText](#nexttoolchangetext) 🔍 → `Text`
+    - [PartsPerHour](#partsperhour) 🔍 → `Real`
 - [🔗 Related Items](#related-items)
 
 
@@ -37,7 +42,7 @@ parent : Classes
 Function getMigrationRules($RemoteEntity : cs.ToolsEntity) -> $Collection : Collection
 ```
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Returns collection of EntityMigrationRule objects defining how to merge this tool record with the remote datastore
 
 **Parameters:**
 
@@ -78,6 +83,19 @@ Function get NextToolChangeText -> Text
 Returns formatted next scheduled tool change date; or "Not Planned" if no future tool changes
 
 **Returns:** `Text`
+
+---
+
+#### PartsPerHour {#partsperhour}
+ `[🔍 get only]`
+
+```4d
+Function get PartsPerHour -> Real
+```
+
+Returns theoretical parts per hour (impressions per cycle × 3600 seconds); returns 0 if cycle time is not set
+
+**Returns:** `Real`
 
 ---
 

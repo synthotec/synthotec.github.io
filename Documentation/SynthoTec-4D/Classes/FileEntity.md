@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity representing a file stored as a BLOB in the database, with the ability to extract the file to a temporary location and open it with the system default application.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:11.774Z*
+🕐 *Last updated: 2026-03-09T14:45:29.697Z*
 
 ---
 

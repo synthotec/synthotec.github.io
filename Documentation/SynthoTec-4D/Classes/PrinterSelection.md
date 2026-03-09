@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+Entity selection of printer records, providing a convenience filter to return only those printers with at least one label paper option configured (i.e. label-capable printers).
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:12.705Z*
+🕐 *Last updated: 2026-03-09T14:45:30.607Z*
 
 ---
 

@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for product option records, defining specific combinations of product, tool, material, and customer that form a priced production option. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:12.984Z*
+🕐 *Last updated: 2026-03-09T14:45:30.870Z*
 
 ---
 

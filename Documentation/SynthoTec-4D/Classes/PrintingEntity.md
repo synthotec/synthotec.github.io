@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 
 
+## 📝 Description
+
+Entity representing a printing record with a unique ID alias (Unique_ID). Currently used as a base entity for print tracking in the printing subsystem.
+
 **Extends:** `Entity`
 
-🕐 *Last updated: 2026-01-13T16:04:12.709Z*
+🕐 *Last updated: 2026-03-09T14:45:30.610Z*
 
 ---
 

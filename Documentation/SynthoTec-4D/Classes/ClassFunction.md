@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates a new class function metadata object with the specified function name
+Metadata class representing a function defined in a 4D class file, storing its name, modifiers, parameters, return type, line number, and documentation comment. Used by ClassInspector to build the JSON representation of a class.
 
-🕐 *Last updated: 2026-01-13T16:04:11.154Z*
+🕐 *Last updated: 2026-03-09T14:45:29.147Z*
 
 ---
 

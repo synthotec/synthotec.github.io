@@ -7,7 +7,11 @@ parent : Classes
 
 📊 **Overview:** 1 Constructor | 17 Functions
 
-🕐 *Last updated: 2026-01-13T16:04:13.480Z*
+## 📝 Description
+
+Manages finished goods stock movements for a works order, supporting move (transfer between locations) and adjust (increment/decrement) operations with transaction management, entity locking, and detailed movement logging.
+
+🕐 *Last updated: 2026-03-09T14:45:31.666Z*
 
 ---
 

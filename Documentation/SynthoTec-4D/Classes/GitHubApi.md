@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Create a new HTTP request with GitHub API headers and authentication
+Wrapper for the GitHub REST API, providing authenticated HTTP request creation and operations for repository issue management. Used by the Error system to link logged errors to GitHub issues.
 
-🕐 *Last updated: 2026-01-13T16:04:11.955Z*
+🕐 *Last updated: 2026-03-09T14:45:29.860Z*
 
 ---
 

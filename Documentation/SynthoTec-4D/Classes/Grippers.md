@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for gripper records, representing injection moulding tooling components (part grippers/handling heads) with machine assignments and cleaning details. Supports entity migration (linking disabled).
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.969Z*
+🕐 *Last updated: 2026-03-09T14:45:29.870Z*
 
 ---
 

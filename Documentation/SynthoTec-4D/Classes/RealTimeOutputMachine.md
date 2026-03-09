@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates real-time output object for displaying machine status on dashboard, calculates colors and metrics
+Encapsulates real-time dashboard data for a single machine, calculating colour-coded status indicators, current works order details, average cycle time, running-slow flags, quantity made/scrapped, and downtime reason for display on the production dashboard.
 
-🕐 *Last updated: 2026-01-13T16:04:13.174Z*
+🕐 *Last updated: 2026-03-09T14:45:31.072Z*
 
 ---
 

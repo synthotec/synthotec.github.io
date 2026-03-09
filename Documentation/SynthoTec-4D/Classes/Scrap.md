@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for scrap records, supporting creation of new scrap entries from a JSON payload sent via REST (e.g., from a barcode scanner), capturing works order, production date, scrap date, and reason.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:13.335Z*
+🕐 *Last updated: 2026-03-09T14:45:31.535Z*
 
 ---
 
@@ -47,6 +51,10 @@ Creates a new scrap entity from a JSON string and saves it
 ---
 
 ## Related Items {#related-items}
+
+### 🗂️ Tables
+
+- [Scrap](../Tables/Scrap.md) - ORDA DataClass class for Scrap table
 
 ### � Forms
 

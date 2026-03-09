@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 2 Functions
 
+## 📝 Description
+
+Entity selection of tool temperature target records, providing a CheckInRange method that validates whether all sensor readings in a given collection fall within their respective zone's target min/max temperature limits.
+
 **Extends:** `EntitySelection`
 
-🕐 *Last updated: 2026-01-13T16:04:13.674Z*
+🕐 *Last updated: 2026-03-09T14:45:31.829Z*
 
 ---
 

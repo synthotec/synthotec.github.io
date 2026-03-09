@@ -7,9 +7,13 @@ parent : Classes
 
 📊 **Overview:** 1 Functions
 
+## 📝 Description
+
+DataClass for error report records, capturing the full 4D error stack, call chain, debug variables, and component codes at the time of an error using the legacy error stack API.
+
 **Extends:** `DataClass`
 
-🕐 *Last updated: 2026-01-13T16:04:11.646Z*
+🕐 *Last updated: 2026-03-09T14:45:29.592Z*
 
 ---
 

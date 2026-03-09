@@ -9,9 +9,9 @@ parent : Classes
 
 ## 📝 Description
 
-Creates REST post data handler from object containing JSON strings and staff ID
+Parses incoming REST POST request payloads for the warehouse mobile application, extracting the JSON body, scanner input, staff ID, and prompt result into typed properties for use by warehouse REST endpoint handlers.
 
-🕐 *Last updated: 2026-01-13T16:04:13.298Z*
+🕐 *Last updated: 2026-03-09T14:45:31.500Z*
 
 ---
 
